@@ -1,5 +1,4 @@
 
-# Specification 'wcag2ict'
+# WCAG2ICT
 
-This is the repository for wcag2ict. You're welcome to contribute! Let's make the Web rock our socks
-off!
+This is the repository for [WCAG2ICT](https://www.w3.org/WAI/GL/task-forces/wcag2ict/). 
