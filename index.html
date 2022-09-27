@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 32.1.2">
+<meta name="generator" content="ReSpec 32.2.4">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 .issue-label{text-transform:initial}
@@ -8,6 +8,7 @@
 .warning{padding:.5em;border-left-width:.5em;border-left-style:solid}
 span.warning{padding:.1em .5em .15em}
 .issue.closed span.issue-number{text-decoration:line-through}
+.issue.closed span.issue-number::after{content:" (Closed)";font-size:smaller}
 .warning{border-color:#f11;border-width:.2em;border-style:solid;background:#fbe9e9}
 .warning-title:before{content:"⚠";font-size:1.3em;float:left;padding-right:.3em;margin-top:-.3em}
 li.task-list-item{list-style:none}
@@ -16,7 +17,7 @@ input.task-list-item-checkbox{margin:0 .35em .25em -1.6em;vertical-align:middle}
 </style>
 <style>
 dfn{cursor:pointer}
-.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font:small Helvetica Neue,sans-serif,Droid Sans Fallback;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
+.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
 .dfn-panel:not(.docked)>.caret{position:absolute;top:-9px}
 .dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;top:0}
 .dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1}
@@ -57,8 +58,6 @@ a.bibref{text-decoration:none}
 }
 #references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}
 cite .bibref{font-style:normal}
-code{color:#c63501}
-th code{color:inherit}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 .toc a,.tof a{text-decoration:none}
@@ -142,19 +141,19 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     },
     "IEC-4WD": {
       "date": "May 5, 1998",
-      "title": "IEC/4WD 61966-2-1: Colour Measurement and Management in Multimedia Systems and Equipment - Part 2.1: Default Colour Space - sRGB",
-      "id": "iec-4wd"
+      "title": "IEC/4WD 61966-2-1: Colour Measurement and Management in Multimedia Systems and Equipment - Part 2.1: Default Colour Space - sRGB"
     }
   },
-  "publishISODate": "2022-04-01T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 01 April 2022"
+  "lint": false,
+  "publishISODate": "2022-09-27T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 27 September 2022"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
-    <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72" height="48">
+    <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2022-04-01">01 April 2022</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2022-09-27">27 September 2022</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -515,7 +514,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       <dd>
          
          <p>If non-text content is time-based media, then text alternatives at least provide descriptive
-            identification of the non-text content. (Refer to <a href="#time-based-media" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document">Guideline 1.2</a> for additional requirements for media.)
+            identification of the non-text content. (Refer to <a href="#time-based-media">Guideline 1.2</a> for additional requirements for media.)
          </p>
          
       </dd>
@@ -524,7 +523,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       
       <dd>
          
-         <p>If non-text content is a test or exercise that would be invalid if presented in <a data-type="element" href="https://www.w3.org/TR/SVG/text.html#elementdef-text">text</a>, then text alternatives at least provide descriptive identification of the non-text
+         <p>If non-text content is a test or exercise that would be invalid if presented in <a class="respec-offending-element" title="Definition is ambiguous." id="respec-offender-definition-is-ambiguous">text</a>, then text alternatives at least provide descriptive identification of the non-text
             content.
          </p>
          
@@ -747,7 +746,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    <p class="conformance-level">A</p>
    
    <p><a data-type="element" href="https://html.spec.whatwg.org/multipage/tables.html#the-caption-element">Captions</a> are provided for all <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-9">prerecorded</a>
-      <a data-type="element" href="https://html.spec.whatwg.org/multipage/media.html#audio">audio</a> content in <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-19">synchronized media</a>, except when the media is a <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-15">media alternative for text</a> and is clearly labeled as such.
+      <a class="respec-offending-element" title="Definition is ambiguous." id="respec-offender-definition-is-ambiguous-4">audio</a> content in <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-19">synchronized media</a>, except when the media is a <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-15">media alternative for text</a> and is clearly labeled as such.
    </p>
    
 </section></blockquote>
@@ -823,7 +822,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    <p class="conformance-level">AA</p>
    
    <p><a data-type="element" href="https://html.spec.whatwg.org/multipage/tables.html#the-caption-element">Captions</a> are provided for all <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-25">live</a>
-      <a data-type="element" href="https://html.spec.whatwg.org/multipage/media.html#audio">audio</a> content in <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-21">synchronized media</a>.
+      <a class="respec-offending-element" title="Definition is ambiguous." id="respec-offender-definition-is-ambiguous-5">audio</a> content in <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-21">synchronized media</a>.
    </p>
    
 </section></blockquote>
@@ -1013,7 +1012,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       or sound.
    </p>
   
-  <div class="note" role="note" id="issue-container-generatedID-38"><div role="heading" class="note-title marker" id="h-note-38" aria-level="7"><span>Note</span></div><p class="">For requirements related to color, refer to <a href="#distinguishable" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document-0">Guideline 1.4</a>.</p></div>
+  <div class="note" role="note" id="issue-container-generatedID-38"><div role="heading" class="note-title marker" id="h-note-38" aria-level="7"><span>Note</span></div><p class="">For requirements related to color, refer to <a href="#distinguishable">Guideline 1.4</a>.</p></div>
    
 </section>
 </blockquote>
@@ -1067,7 +1066,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       action, prompting a response, or distinguishing a visual element.
    </p>
    
-   <div class="note" role="note" id="issue-container-generatedID-39"><div role="heading" class="note-title marker" id="h-note-39" aria-level="7"><span>Note</span></div><p class="">This success criterion addresses color perception specifically. Other forms of perception are covered in <a href="#adaptable" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document-1">Guideline 1.3</a> including programmatic access to color and other visual presentation coding.</p></div>
+   <div class="note" role="note" id="issue-container-generatedID-39"><div role="heading" class="note-title marker" id="h-note-39" aria-level="7"><span>Note</span></div><p class="">This success criterion addresses color perception specifically. Other forms of perception are covered in <a href="#adaptable">Guideline 1.3</a> including programmatic access to color and other visual presentation coding.</p></div>
   
 </section>
 </blockquote>
@@ -1121,7 +1120,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    
    <div class="note" role="note" id="issue-container-generatedID-40"><div role="heading" class="note-title marker" id="h-note-40" aria-level="7"><span>Note</span></div><p class="">Since any content that does not meet this success criterion can interfere with a user's
       ability to use the whole page, all content on the Web page (whether or not it is used
-      to meet other success criteria) must meet this success criterion. See <a href="#cc5" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document-2">Conformance Requirement 5: Non-Interference</a>.
+      to meet other success criteria) must meet this success criterion. See <a href="#cc5">Conformance Requirement 5: Non-Interference</a>.
    </p></div>
    
 </section></blockquote>
@@ -1159,7 +1158,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    
    <p class="conformance-level">AA</p>
    
-   <p>The visual presentation of <a data-type="element" href="https://www.w3.org/TR/SVG/text.html#elementdef-text">text</a> and <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-31">images of text</a> has a <a href="#dfn-contrast-ratio" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-contrast-ratio-1">contrast ratio</a> of at least 4.5:1, except for the following:
+   <p>The visual presentation of <a class="respec-offending-element" title="Definition is ambiguous." id="respec-offender-definition-is-ambiguous-0">text</a> and <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-31">images of text</a> has a <a href="#dfn-contrast-ratio" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-contrast-ratio-1">contrast ratio</a> of at least 4.5:1, except for the following:
    </p>
    
    <dl>
@@ -1244,11 +1243,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 						<p>From <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-scale">Success Criterion 1.4.4</a>:</p>
 						<blockquote cite="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-scale" class="sc"><section class="sc">
    
-   <div class="header-wrapper"><h6 id="resize-text">Resize text</h6><a class="self-link" href="#resize-text" aria-label="Permalink for this Section"></a></div>
+   <div class="header-wrapper"><h6 id="resize-text">Resize Text</h6><a class="self-link" href="#resize-text" aria-label="Permalink for this Section"></a></div>
    
    <p class="conformance-level">AA</p>
    
-   <p>Except for <a data-type="element" href="https://html.spec.whatwg.org/multipage/tables.html#the-caption-element">captions</a> and <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-32">images of text</a>, <a data-type="element" href="https://www.w3.org/TR/SVG/text.html#elementdef-text">text</a> can be resized without <a href="#dfn-assistive-technologies" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-assistive-technologies-2">assistive technology</a> up to 200 percent without loss of content or functionality.
+   <p>Except for <a data-type="element" href="https://html.spec.whatwg.org/multipage/tables.html#the-caption-element">captions</a> and <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-32">images of text</a>, <a class="respec-offending-element" title="Definition is ambiguous." id="respec-offender-definition-is-ambiguous-1">text</a> can be resized without <a href="#dfn-assistive-technologies" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-assistive-technologies-2">assistive technology</a> up to 200 percent without loss of content or functionality.
    </p>
    
 </section></blockquote>
@@ -1290,7 +1289,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    
    <p class="conformance-level">AA</p>
    
-   <p>If the technologies being used can achieve the visual presentation, <a data-type="element" href="https://www.w3.org/TR/SVG/text.html#elementdef-text">text</a> is used to convey information rather than <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-33">images of text</a> except for the following:
+   <p>If the technologies being used can achieve the visual presentation, <a class="respec-offending-element" title="Definition is ambiguous." id="respec-offender-definition-is-ambiguous-2">text</a> is used to convey information rather than <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-33">images of text</a> except for the following:
    </p>
    
    <dl>
@@ -1447,7 +1446,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    
    <div class="note" role="note" id="issue-container-generatedID-51"><div role="heading" class="note-title marker" id="h-note-51" aria-level="7"><span>Note</span></div><p class="">Since any content that does not meet this success criterion can interfere with a user's
       ability to use the whole page, all content on the Web page (whether it is used to
-      meet other success criteria or not) must meet this success criterion. See <a href="#cc5" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document-3">Conformance Requirement 5: Non-Interference</a>.
+      meet other success criteria or not) must meet this success criterion. See <a href="#cc5">Conformance Requirement 5: Non-Interference</a>.
    </p></div>
    
 </section></blockquote>
@@ -1683,12 +1682,12 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       
    </dl>
    
-   <div class="note" role="note" id="issue-container-generatedID-56"><div role="heading" class="note-title marker" id="h-note-56" aria-level="7"><span>Note</span></div><p class="">For requirements related to flickering or flashing content, refer to <a href="#seizures-and-physical-reactions" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document-4">Guideline 2.3</a>.
+   <div class="note" role="note" id="issue-container-generatedID-56"><div role="heading" class="note-title marker" id="h-note-56" aria-level="7"><span>Note</span></div><p class="">For requirements related to flickering or flashing content, refer to <a href="#seizures-and-physical-reactions">Guideline 2.3</a>.
    </p></div>
    
    <div class="note" role="note" id="issue-container-generatedID-57"><div role="heading" class="note-title marker" id="h-note-57" aria-level="7"><span>Note</span></div><p class="">Since any content that does not meet this success criterion can interfere with a user's
       ability to use the whole page, all content on the Web page (whether it is used to
-      meet other success criteria or not) must meet this success criterion. See <a href="#cc5" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document-5">Conformance Requirement 5: Non-Interference</a>.
+      meet other success criteria or not) must meet this success criterion. See <a href="#cc5">Conformance Requirement 5: Non-Interference</a>.
    </p></div>
    
    <div class="note" role="note" id="issue-container-generatedID-58"><div role="heading" class="note-title marker" id="h-note-58" aria-level="7"><span>Note</span></div><p class="">Content that is updated periodically by software or that is streamed to the user agent
@@ -1807,7 +1806,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    
    <div class="note" role="note" id="issue-container-generatedID-65"><div role="heading" class="note-title marker" id="h-note-65" aria-level="7"><span>Note</span></div><p class="">Since any content that does not meet this success criterion can interfere with a user's
       ability to use the whole page, all content on the Web page (whether it is used to
-      meet other success criteria or not) must meet this success criterion. See <a href="#cc5" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document-6">Conformance Requirement 5: Non-Interference</a>.
+      meet other success criteria or not) must meet this success criterion. See <a href="#cc5">Conformance Requirement 5: Non-Interference</a>.
    </p></div>
    
 </section></blockquote>
@@ -3043,7 +3042,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    </p></div>
    
    <div class="note" role="note" id="issue-container-generatedID-100"><div role="heading" class="note-title marker" id="h-note-100" aria-level="5"><span>Note</span></div><p class="">Web technologies can be used in ways that are not accessibility supported as long
-      as they are not <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-52">relied upon</a> and the page as a whole meets the conformance requirements, including <a href="#cc4" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document-7">Conformance Requirement 4</a> and <a href="#cc5" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document-8">Conformance Requirement 5</a>.
+      as they are not <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-52">relied upon</a> and the page as a whole meets the conformance requirements, including <a href="#cc4">Conformance Requirement 4</a> and <a href="#cc5">Conformance Requirement 5</a>.
    </p></div>
    
    <div class="note" role="note" id="issue-container-generatedID-101"><div role="heading" class="note-title marker" id="h-note-101" aria-level="5"><span>Note</span></div><p class="">When a <a href="#dfn-technologies" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-technologies-2">Web Technology</a> is used in a way that is "accessibility supported," it does not imply that the entire
@@ -3332,7 +3331,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 				<section id="conformance"><div class="header-wrapper"><h4 id="x7-3-5-conformance"><bdi class="secno">7.3.5 </bdi>conformance</h4><a class="self-link" href="#conformance" aria-label="Permalink for Section 7.3.5"></a></div>
 					
 					<p>From the <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#conformancedef">WCAG 2.0 definition for conformance</a>:</p>
-					<blockquote cite="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#conformancedef" class="gitem"><dt><dfn data-lt="conform|conformance" id="dfn-conform" tabindex="0" aria-haspopup="dialog" class="respec-offending-element" title="Found definition for &quot;conformance&quot;, but nothing links to it. This is usually a spec bug!" data-dfn-type="dfn">conformance</dfn></dt>
+					<blockquote cite="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#conformancedef" class="gitem"><dt><dfn data-lt="conform|conformance" id="dfn-conform" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">conformance</dfn></dt>
 <dd>
    
    <p>satisfying all the requirements of a given standard, guideline or specification</p>
@@ -3347,7 +3346,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 				<section id="conforming-alternate-version"><div class="header-wrapper"><h4 id="x7-3-6-conforming-alternate-version"><bdi class="secno">7.3.6 </bdi>conforming alternate version</h4><a class="self-link" href="#conforming-alternate-version" aria-label="Permalink for Section 7.3.6"></a></div>
 					
 					<p>From the <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#conforming-alternate-versiondef">WCAG 2.0 definition for conforming alternate version</a>:</p>
-					<blockquote cite="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#conforming-alternate-versiondef" class="gitem"><dt><dfn data-lt="conforming alternate versions|conforming alternate version" id="dfn-conforming-alternate-versions" tabindex="0" aria-haspopup="dialog" class="respec-offending-element" title="Found definition for &quot;conforming alternate version&quot;, but nothing links to it. This is usually a spec bug!" data-dfn-type="dfn">conforming alternate version</dfn></dt>
+					<blockquote cite="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#conforming-alternate-versiondef" class="gitem"><dt><dfn data-lt="conforming alternate versions|conforming alternate version" id="dfn-conforming-alternate-versions" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">conforming alternate version</dfn></dt>
 <dd>
    
    <p>version that</p>
@@ -3397,7 +3396,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    
    <div class="note" role="note" id="issue-container-generatedID-117"><div role="heading" class="note-title marker" id="h-note-117" aria-level="5"><span>Note</span></div><p class="">Alternate versions may be provided to accommodate different technology environments
       or user groups. Each version should be as conformant as possible. One version would
-      need to be fully conformant in order to meet <a href="#cc1" class="respec-offending-element" title="Broken local reference found in document." id="respec-offender-broken-local-reference-found-in-document-9">conformance requirement 1</a>.
+      need to be fully conformant in order to meet <a href="#cc1">conformance requirement 1</a>.
    </p></div>
    
    <div class="note" role="note" id="issue-container-generatedID-118"><div role="heading" class="note-title marker" id="h-note-118" aria-level="5"><span>Note</span></div><p class="">The conforming alternative version does not need to reside within the scope of conformance,
@@ -3515,7 +3514,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    
    <ul>
       
-      <li>A <strong>general flash</strong> is defined as a pair of opposing changes in <a href="#dfn-relative-luminance" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-relative-luminance-3">relative luminance</a> of 10% or more of the maximum relative luminance where the relative luminance of
+      <li>A <strong>general flash</strong> is defined as a pair of opposing changes in <a href="#dfn-relative-luminance" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-relative-luminance-3">relative luminance</a> of 10% or more of the maximum relative luminance (1.0) where the relative luminance of
          the darker image is below 0.80; and where "a pair of opposing changes" is an increase
          followed by a decrease, or a decrease followed by an increase, and
       </li>
@@ -3530,12 +3529,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       viewing distance) on a side does not violate the thresholds.
    </p>
    
-   <div class="note" role="note" id="issue-container-generatedID-128"><div role="heading" class="note-title marker" id="h-note-127" aria-level="5"><span>Note</span></div><p class="">For general software or Web content, using a 341 x 256 pixel rectangle anywhere on
-      the displayed screen area when the content is viewed at 1024 x 768 pixels will provide
-      a good estimate of a 10 degree visual field for standard screen sizes and viewing
-      distances (e.g., 15-17 inch screen at 22-26 inches). (Higher resolutions displays
-      showing the same rendering of the content yield smaller and safer images so it is
-      lower resolutions that are used to define the thresholds.)
+   <div class="note" role="note" id="issue-container-generatedID-128"><div role="heading" class="note-title marker" id="h-note-127" aria-level="5"><span>Note</span></div><p class="">For general software or Web content, using a 341 x 256 pixel rectangle anywhere on the displayed screen area when the content is viewed at 1024 x 768 pixels will provide a good estimate of a 10 degree visual field for standard screen sizes and viewing distances (e.g., 15-17 inch screen at 22-26 inches). This resolution of 75 - 85 ppi is known to be lower, and thus more conservative than the nominal CSS pixel resolution of 96 ppi in CSS specifications. Higher resolutions displays showing the same rendering of the content yield smaller and safer images so it is lower resolutions that are used to define the thresholds.
    </p></div>
    
    <div class="note" role="note" id="issue-container-generatedID-129"><div role="heading" class="note-title marker" id="h-note-128" aria-level="5"><span>Note</span></div><p class="">A transition is the change in relative luminance (or relative luminance/color for
@@ -3543,7 +3537,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       relative luminance/color for red flashing) measurement against time. A flash consists
       of two opposing transitions.
    </p></div>
-   
+
    <div class="note" role="note" id="issue-container-generatedID-130"><div role="heading" class="note-title marker" id="h-note-129" aria-level="5"><span>Note</span></div><p class="">The current working definition in the field for <strong>"pair of opposing transitions involving a saturated red"</strong> is where, for either or both states involved in each transition, R/(R+ G + B) &gt;=
       0.8, and the change in the value of (R-G-B)x320 is &gt; 20 (negative values of (R-G-B)x320
       are set to zero) for both transitions. R, G, B values range from 0-1 as specified
@@ -3647,7 +3641,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					<blockquote cite="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#labeldef" class="gitem"><dt><dfn data-lt="labels|label" id="dfn-labels" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">label</dfn></dt>
 <dd>
    
-   <p><a data-type="element" href="https://www.w3.org/TR/SVG/text.html#elementdef-text">text</a> or other component with a <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-3">text alternative</a> that is presented to a user to identify a component within Web <a href="#dfn-content" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-content-2">content</a></p>
+   <p><a class="respec-offending-element" title="Definition is ambiguous." id="respec-offender-definition-is-ambiguous-3">text</a> or other component with a <a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-3">text alternative</a> that is presented to a user to identify a component within Web <a href="#dfn-content" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-content-2">content</a></p>
    
    <div class="note" role="note" id="issue-container-generatedID-137"><div role="heading" class="note-title marker" id="h-note-136" aria-level="5"><span>Note</span></div><p class="">A label is presented to all users whereas the <a href="#dfn-name" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-name-3">name</a> may be hidden and only exposed by assistive technology. In many (but not all) cases
       the name and the label are the same.
@@ -3737,14 +3731,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-user-agents-6">user agents</a>, including <a href="#dfn-assistive-technologies" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-assistive-technologies-5">assistive technologies</a>, can extract and present this information to users in different modalities
    </p>
    
-   <div class="note" role="note" id="issue-container-generatedID-146"><div role="heading" class="note-title marker" id="h-note-145" aria-level="5"><span>Note</span></div><p class="">Determined in a markup language from elements and attributes that are accessed directly
+   <p class="example">Determined in a markup language from elements and attributes that are accessed directly
       by commonly available assistive technology.
-   </p></div>
+   </p>
    
-   <div class="note" role="note" id="issue-container-generatedID-147"><div role="heading" class="note-title marker" id="h-note-146" aria-level="5"><span>Note</span></div><p class="">Determined from technology-specific data structures in a non-markup language and exposed
+   <p class="example">Determined from technology-specific data structures in a non-markup language and exposed
       to assistive technology via an accessibility <abbr title="Application Programming Interface">API</abbr> that is supported by commonly available
       assistive technology.
-   </p></div>
+   </p>
    
 </dd>
 </blockquote>
@@ -3760,7 +3754,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p class="example"><em>Example 2: </em>Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <ins>and accessibility features of software</ins> via an accessibility <abbr title="Application Programming Interface">API</abbr> that is supported by commonly available assistive technology <ins>and accessibility features of software</ins>. </p>
 							</dd>
 						</dl>
-						<div class="note" role="note" id="issue-container-generatedID-148"><div role="heading" class="note-title marker" id="h-note-147" aria-level="6"><span>Note</span></div><p class="">Software typically enables content to be programmatically determined through the use of <a href="https://www.w3.org/TR/wcag2ict/#keyterms_accessibility-services">accessibility services of platform software</a>. Non-web documents typically enable <a href="https://www.w3.org/TR/wcag2ict/#keyterms_content">content</a> to be programmatically determined through the use of accessibility services of the user agent.</p></div>
+						<div class="note" role="note" id="issue-container-generatedID-146"><div role="heading" class="note-title marker" id="h-note-145" aria-level="6"><span>Note</span></div><p class="">Software typically enables content to be programmatically determined through the use of <a href="https://www.w3.org/TR/wcag2ict/#keyterms_accessibility-services">accessibility services of platform software</a>. Non-web documents typically enable <a href="https://www.w3.org/TR/wcag2ict/#keyterms_content">content</a> to be programmatically determined through the use of accessibility services of the user agent.</p></div>
 					</section>
 				</section>
 				<section id="programmatically-set"><div class="header-wrapper"><h4 id="x7-3-16-programmatically-set"><bdi class="secno">7.3.16 </bdi>programmatically set</h4><a class="self-link" href="#programmatically-set" aria-label="Permalink for Section 7.3.16"></a></div>
@@ -3784,7 +3778,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p>set by software using methods that are supported by <ins><a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_at" title="WCAG2ICT Definition: assistive technologies"><cite>assistive technologies</cite></a> and accessibility features of software</ins></p>
 							</dd>
 						</dl>
-						<div class="note" role="note" id="issue-container-generatedID-149"><div role="heading" class="note-title marker" id="h-note-148" aria-level="6"><span>Note</span></div><p class="">Software typically enables <a href="https://www.w3.org/TR/wcag2ict/#keyterms_content">content</a> to be programmatically determined through the use of <a href="https://www.w3.org/TR/wcag2ict/#keyterms_accessibility-services">accessibility services of platform software</a>. Non-web documents typically enable content to be programmatically determined through the use of accessibility services of the user agent.</p></div>
+						<div class="note" role="note" id="issue-container-generatedID-147"><div role="heading" class="note-title marker" id="h-note-146" aria-level="6"><span>Note</span></div><p class="">Software typically enables <a href="https://www.w3.org/TR/wcag2ict/#keyterms_content">content</a> to be programmatically determined through the use of <a href="https://www.w3.org/TR/wcag2ict/#keyterms_accessibility-services">accessibility services of platform software</a>. Non-web documents typically enable content to be programmatically determined through the use of accessibility services of the user agent.</p></div>
 					</section>
 				</section>
 				<section id="relative-luminance"><div class="header-wrapper"><h4 id="x7-3-17-relative-luminance"><bdi class="secno">7.3.17 </bdi>relative luminance</h4><a class="self-link" href="#relative-luminance" aria-label="Permalink for Section 7.3.17"></a></div>
@@ -3797,7 +3791,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       black and 1 for lightest white
    </p>
    
-  <div class="note" role="note" id="issue-container-generatedID-150"><div role="heading" class="note-title marker" id="h-note-149" aria-level="5"><span>Note</span></div><div class="">
+  <div class="note" role="note" id="issue-container-generatedID-148"><div role="heading" class="note-title marker" id="h-note-147" aria-level="5"><span>Note</span></div><div class="">
    <p>For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126
       * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> where <strong>R</strong>, <strong>G</strong> and <strong>B</strong> are defined as:
    </p>
@@ -3828,28 +3822,28 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    </ul>
    
    <p>The "^" character is the exponentiation operator. (Formula taken from 
-      [<cite><a class="bibref" data-link-type="biblio" href="#bib-iec-4wd" title="IEC/4WD 61966-2-1: Colour Measurement and Management in Multimedia Systems and Equipment - Part 2.1: Default Colour Space - sRGB">IEC-4WD</a></cite>]).
+      [<cite><a class="bibref" data-link-type="biblio" href="#bib-srgb" title="Multimedia systems and equipment - Colour measurement and management - Part 2-1: Colour management - Default RGB colour space - sRGB">SRGB</a></cite>].)
    </p>
 
   </div></div>
 
-  <div class="note" role="note" id="issue-container-generatedID-151"><div role="heading" class="note-title marker" id="h-note-150" aria-level="5"><span>Note</span></div><p class="">Before May 2021 the value of 0.04045 in the definition was different (0.03928). It was taken from an older version of the specification and has been updated. It has no practical effect on the calculations in the context of these guidelines.</p></div>
+  <div class="note" role="note" id="issue-container-generatedID-149"><div role="heading" class="note-title marker" id="h-note-148" aria-level="5"><span>Note</span></div><p class="">Before May 2021 the value of 0.04045 in the definition was different (0.03928). It was taken from an older version of the specification and has been updated. It has no practical effect on the calculations in the context of these guidelines.</p></div>
   
-   <div class="note" role="note" id="issue-container-generatedID-152"><div role="heading" class="note-title marker" id="h-note-151" aria-level="5"><span>Note</span></div><p class="">Almost all systems used today to view Web content assume sRGB encoding. Unless it
+   <div class="note" role="note" id="issue-container-generatedID-150"><div role="heading" class="note-title marker" id="h-note-149" aria-level="5"><span>Note</span></div><p class="">Almost all systems used today to view Web content assume sRGB encoding. Unless it
       is known that another color space will be used to process and display the content,
       authors should evaluate using sRGB colorspace. If using other color spaces, see <a href="contrast-minimum">Understanding Success Criterion 1.4.3</a>.
    </p></div>
    
-   <div class="note" role="note" id="issue-container-generatedID-153"><div role="heading" class="note-title marker" id="h-note-152" aria-level="5"><span>Note</span></div><p class="">If dithering occurs after delivery, then the source color value is used. For colors
+   <div class="note" role="note" id="issue-container-generatedID-151"><div role="heading" class="note-title marker" id="h-note-150" aria-level="5"><span>Note</span></div><p class="">If dithering occurs after delivery, then the source color value is used. For colors
       that are dithered at the source, the average values of the colors that are dithered
       should be used (average R, average G, and average B).
    </p></div>
    
-   <div class="note" role="note" id="issue-container-generatedID-154"><div role="heading" class="note-title marker" id="h-note-153" aria-level="5"><span>Note</span></div><p class="">Tools are available that automatically do the calculations when testing contrast and
+   <div class="note" role="note" id="issue-container-generatedID-152"><div role="heading" class="note-title marker" id="h-note-151" aria-level="5"><span>Note</span></div><p class="">Tools are available that automatically do the calculations when testing contrast and
       flash.
    </p></div>
    
-   <div class="note" role="note" id="issue-container-generatedID-155"><div role="heading" class="note-title marker" id="h-note-154" aria-level="5"><span>Note</span></div><p class="">A <a href="relative-luminance.xml">MathML version of the relative luminance definition</a> is available.
+   <div class="note" role="note" id="issue-container-generatedID-153"><div role="heading" class="note-title marker" id="h-note-152" aria-level="5"><span>Note</span></div><p class="">A <a href="relative-luminance.xml">MathML version of the relative luminance definition</a> is available.
    </p></div>
    
 </dd>
@@ -3862,7 +3856,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<dt class="label" id="wcag2ict-def_relativeluminance">relative luminance</dt>
 							<dd>
 								<p>the relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white</p>
-								<div class="note" role="note" id="issue-container-generatedID-156"><div role="heading" class="note-title marker" id="h-note-155" aria-level="6"><span>Note</span></div><p class="">For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> where <strong>R</strong>, <strong>G</strong> and <strong>B</strong> are defined as:</p></div>
+								<div class="note" role="note" id="issue-container-generatedID-154"><div role="heading" class="note-title marker" id="h-note-153" aria-level="6"><span>Note</span></div><p class="">For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> where <strong>R</strong>, <strong>G</strong> and <strong>B</strong> are defined as:</p></div>
 								<ul>
 									<li>
 										<p>if R<sub>sRGB</sub> &lt;= 0.03928 then <strong>R</strong> = R<sub>sRGB</sub>/12.92 else <strong>R</strong> = ((R<sub>sRGB</sub>+0.055)/1.055) ^ 2.4</p>
@@ -3887,10 +3881,10 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 									</li>
 								</ul>
 								<p>The “^” character is the exponentiation operator. (Formula taken from <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#sRGB">[sRGB]</a> and <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#IEC-4WD">[IEC-4WD]</a>).</p>
-								<div class="note" role="note" id="issue-container-generatedID-157"><div role="heading" class="note-title marker" id="h-note-156" aria-level="6"><span>Note</span></div><p class="">Almost all systems used today to view <ins><a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_content" title="WCAG2ICT Definition: content"><cite>content</cite></a></ins> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see <a href="http://www.w3.org/TR/2013/NOTE-UNDERSTANDING-WCAG20-20130905/visual-audio-contrast-contrast.html">Understanding Success Criterion 1.4.3</a>.</p></div>
-								<div class="note" role="note" id="issue-container-generatedID-158"><div role="heading" class="note-title marker" id="h-note-157" aria-level="6"><span>Note</span></div><p class="">If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered should be used (average R, average G, and average B). </p></div>
-								<div class="note" role="note" id="issue-container-generatedID-159"><div role="heading" class="note-title marker" id="h-note-158" aria-level="6"><span>Note</span></div><p class="">Tools are available that automatically do the calculations when testing contrast and flash.</p></div>
-								<div class="note" role="note" id="issue-container-generatedID-160"><div role="heading" class="note-title marker" id="h-note-159" aria-level="6"><span>Note</span></div><p class="">A <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/relative-luminance.xml">MathML version of the relative luminance definition</a> is available. </p></div>
+								<div class="note" role="note" id="issue-container-generatedID-155"><div role="heading" class="note-title marker" id="h-note-154" aria-level="6"><span>Note</span></div><p class="">Almost all systems used today to view <ins><a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_content" title="WCAG2ICT Definition: content"><cite>content</cite></a></ins> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see <a href="http://www.w3.org/TR/2013/NOTE-UNDERSTANDING-WCAG20-20130905/visual-audio-contrast-contrast.html">Understanding Success Criterion 1.4.3</a>.</p></div>
+								<div class="note" role="note" id="issue-container-generatedID-156"><div role="heading" class="note-title marker" id="h-note-155" aria-level="6"><span>Note</span></div><p class="">If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered should be used (average R, average G, and average B). </p></div>
+								<div class="note" role="note" id="issue-container-generatedID-157"><div role="heading" class="note-title marker" id="h-note-156" aria-level="6"><span>Note</span></div><p class="">Tools are available that automatically do the calculations when testing contrast and flash.</p></div>
+								<div class="note" role="note" id="issue-container-generatedID-158"><div role="heading" class="note-title marker" id="h-note-157" aria-level="6"><span>Note</span></div><p class="">A <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/relative-luminance.xml">MathML version of the relative luminance definition</a> is available. </p></div>
 							</dd>
 						</dl>
 						<p>Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2.0 for user-interface components as a category, because the basic constructs on which the WCAG 2.0 and / or its conformance are built do not apply to these.” </p>
@@ -3923,7 +3917,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								<p class="example"><em>Example: </em>A number that indicates whether an image functions as a hyperlink, command button, or check box.</p>
 							</dd>
 						</dl>
-						<div class="note" role="note" id="issue-container-generatedID-161"><div role="heading" class="note-title marker" id="h-note-160" aria-level="6"><span>Note</span></div><p class="">“AccessibleRole” (or however it is called in different <abbr title="Application Programming Interfaces">APIs</abbr>) of the Accessibility <abbr title="Application Programming Interface">API</abbr> of the platform is an example of such a role. </p></div>
+						<div class="note" role="note" id="issue-container-generatedID-159"><div role="heading" class="note-title marker" id="h-note-158" aria-level="6"><span>Note</span></div><p class="">“AccessibleRole” (or however it is called in different <abbr title="Application Programming Interfaces">APIs</abbr>) of the Accessibility <abbr title="Application Programming Interface">API</abbr> of the platform is an example of such a role. </p></div>
 					</section>
 				</section>
 				<section id="same-functionality"><div class="header-wrapper"><h4 id="x7-3-19-same-functionality"><bdi class="secno">7.3.19 </bdi>same functionality </h4><a class="self-link" href="#same-functionality" aria-label="Permalink for Section 7.3.19"></a></div>
@@ -3961,7 +3955,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 				<section id="satisfies-a-success-criterion"><div class="header-wrapper"><h4 id="x7-3-20-satisfies-a-success-criterion"><bdi class="secno">7.3.20 </bdi>satisfies a success criterion</h4><a class="self-link" href="#satisfies-a-success-criterion" aria-label="Permalink for Section 7.3.20"></a></div>
 					
 					<p>From the <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#satisfiesdef">WCAG 2.0 definition for satisfies a success criterion</a>:</p>
-					<blockquote cite="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#satisfiesdef" class="gitem"><dt><dfn data-lt="satisfies|satisfies a success criterion" id="dfn-satisfies" tabindex="0" aria-haspopup="dialog" class="respec-offending-element" title="Found definition for &quot;satisfies a success criterion&quot;, but nothing links to it. This is usually a spec bug!" data-dfn-type="dfn">satisfies a success criterion</dfn></dt>
+					<blockquote cite="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#satisfiesdef" class="gitem"><dt><dfn data-lt="satisfies|satisfies a success criterion" id="dfn-satisfies" tabindex="0" aria-haspopup="dialog" data-dfn-type="dfn">satisfies a success criterion</dfn></dt>
 <dd>
    
    <p>the success criterion does not evaluate to 'false' when applied to the page</p>
@@ -3981,14 +3975,14 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    
    <p>collection of <a href="#dfn-web-page-s" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-web-page-s-11">Web pages</a> that share a common purpose and that are created by the same author, group or organization.</p>
 
-   <div class="note" role="note" id="issue-container-generatedID-162"><div role="heading" class="note-title marker" id="h-note-161" aria-level="5"><span>Note</span></div><p class="">Different language versions would be considered different sets of Web pages.</p></div>
+   <div class="note" role="note" id="issue-container-generatedID-160"><div role="heading" class="note-title marker" id="h-note-159" aria-level="5"><span>Note</span></div><p class="">Different language versions would be considered different sets of Web pages.</p></div>
    
 </dd>
 </blockquote>
 					<section id="additional-guidance-when-applying-the-definition-of-set-of-web-pages-to-non-web-documents-and-software"><div class="header-wrapper"><h5 id="x7-3-21-1-additional-guidance-when-applying-the-definition-of-set-of-web-pages-to-non-web-documents-and-software"><bdi class="secno">7.3.21.1 </bdi>Additional Guidance When Applying the Definition of “set of Web pages” to Non-Web Documents and Software:</h5><a class="self-link" href="#additional-guidance-when-applying-the-definition-of-set-of-web-pages-to-non-web-documents-and-software" aria-label="Permalink for Section 7.3.21.1"></a></div>
 						
 						<p>This applies directly as written and as described in the WCAG 2.0 glossary.</p>
-						<div class="note" role="note" id="issue-container-generatedID-163"><div role="heading" class="note-title marker" id="h-note-162" aria-level="6"><span>Note</span></div><p class="">For those success criteria that use the term “set of web pages” explicitly or implicitly (<a href="https://www.w3.org/TR/wcag2ict/#navigation-mechanisms-skip">2.4.1</a>, <a href="https://www.w3.org/TR/wcag2ict/#navigation-mechanisms-mult-loc">2.4.5</a>, <a href="https://www.w3.org/TR/wcag2ict/#consistent-behavior-consistent-locations">3.2.3</a>, and <a href="https://www.w3.org/TR/wcag2ict/#consistent-behavior-consistent-functionality">3.2.4</a>) WCAG2ICT provides specific replacement term(s) for “set of Web pages”.</p></div>
+						<div class="note" role="note" id="issue-container-generatedID-161"><div role="heading" class="note-title marker" id="h-note-160" aria-level="6"><span>Note</span></div><p class="">For those success criteria that use the term “set of web pages” explicitly or implicitly (<a href="https://www.w3.org/TR/wcag2ict/#navigation-mechanisms-skip">2.4.1</a>, <a href="https://www.w3.org/TR/wcag2ict/#navigation-mechanisms-mult-loc">2.4.5</a>, <a href="https://www.w3.org/TR/wcag2ict/#consistent-behavior-consistent-locations">3.2.3</a>, and <a href="https://www.w3.org/TR/wcag2ict/#consistent-behavior-consistent-functionality">3.2.4</a>) WCAG2ICT provides specific replacement term(s) for “set of Web pages”.</p></div>
 					</section>
 				</section>
 				<section id="structure"><div class="header-wrapper"><h4 id="x7-3-22-structure"><bdi class="secno">7.3.22 </bdi>structure</h4><a class="self-link" href="#structure" aria-label="Permalink for Section 7.3.22"></a></div>
@@ -4025,8 +4019,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 								</ol>
 							</dd>
 						</dl>
-						<div class="note" role="note" id="issue-container-generatedID-164"><div role="heading" class="note-title marker" id="h-note-163" aria-level="6"><span>Note</span></div><p class="">See the guidance on user <a href="https://www.w3.org/TR/wcag2ict/#keyterms_set-of-documents">sets of documents</a> and <a href="https://www.w3.org/TR/wcag2ict/#keyterms_set-of-software">sets of software programs</a> in the Key Terms section.</p></div>
-						<div class="note" role="note" id="issue-container-generatedID-165"><div role="heading" class="note-title marker" id="h-note-164" aria-level="6"><span>Note</span></div><p class="">“AccessibleRole” (or however it is called in different <abbr title="Application Programming Interfaces">APIs</abbr>) of the Accessibility <abbr title="Application Programming Interface">API</abbr> of the platform is an example of such a role. </p></div>
+						<div class="note" role="note" id="issue-container-generatedID-162"><div role="heading" class="note-title marker" id="h-note-161" aria-level="6"><span>Note</span></div><p class="">See the guidance on user <a href="https://www.w3.org/TR/wcag2ict/#keyterms_set-of-documents">sets of documents</a> and <a href="https://www.w3.org/TR/wcag2ict/#keyterms_set-of-software">sets of software programs</a> in the Key Terms section.</p></div>
+						<div class="note" role="note" id="issue-container-generatedID-163"><div role="heading" class="note-title marker" id="h-note-162" aria-level="6"><span>Note</span></div><p class="">“AccessibleRole” (or however it is called in different <abbr title="Application Programming Interfaces">APIs</abbr>) of the Accessibility <abbr title="Application Programming Interface">API</abbr> of the platform is an example of such a role. </p></div>
 					</section>
 				</section>
 				<section id="technology-web-content"><div class="header-wrapper"><h4 id="x7-3-23-technology-web-content"><bdi class="secno">7.3.23 </bdi>technology (Web content)</h4><a class="self-link" href="#technology-web-content" aria-label="Permalink for Section 7.3.23"></a></div>
@@ -4038,11 +4032,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    
    <p><a class="respec-offending-element" title="No matching definition found." id="respec-offender-no-matching-definition-found-30">mechanism</a> for encoding instructions to be rendered, played or executed by <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-user-agents-7">user agents</a></p>
    
-   <div class="note" role="note" id="issue-container-generatedID-166"><div role="heading" class="note-title marker" id="h-note-165" aria-level="5"><span>Note</span></div><p class="">As used in these guidelines "Web Technology" and the word "technology" (when used
+   <div class="note" role="note" id="issue-container-generatedID-164"><div role="heading" class="note-title marker" id="h-note-163" aria-level="5"><span>Note</span></div><p class="">As used in these guidelines "Web Technology" and the word "technology" (when used
       alone) both refer to Web Content Technologies.
    </p></div>
    
-   <div class="note" role="note" id="issue-container-generatedID-167"><div role="heading" class="note-title marker" id="h-note-166" aria-level="5"><span>Note</span></div><p class="">Web content technologies may include markup languages, data formats, or programming
+   <div class="note" role="note" id="issue-container-generatedID-165"><div role="heading" class="note-title marker" id="h-note-164" aria-level="5"><span>Note</span></div><p class="">Web content technologies may include markup languages, data formats, or programming
       languages that authors may use alone or in combination to create end-user experiences
       that range from static Web pages to synchronized media presentations to dynamic Web
       applications.
@@ -4095,16 +4089,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       function
    </p>
    
-   <div class="note" role="note" id="issue-container-generatedID-168"><div role="heading" class="note-title marker" id="h-note-167" aria-level="5"><span>Note</span></div><p class="">Multiple user interface components may be implemented as a single programmatic element.
+   <div class="note" role="note" id="issue-container-generatedID-166"><div role="heading" class="note-title marker" id="h-note-165" aria-level="5"><span>Note</span></div><p class="">Multiple user interface components may be implemented as a single programmatic element.
       "Components" here is not tied to programming techniques, but rather to what the user
       perceives as separate controls.
    </p></div>
    
-   <div class="note" role="note" id="issue-container-generatedID-169"><div role="heading" class="note-title marker" id="h-note-168" aria-level="5"><span>Note</span></div><p class="">User interface components include form elements and links as well as components generated
+   <div class="note" role="note" id="issue-container-generatedID-167"><div role="heading" class="note-title marker" id="h-note-166" aria-level="5"><span>Note</span></div><p class="">User interface components include form elements and links as well as components generated
       by scripts.
    </p></div>
    
-   <div class="note" role="note" id="issue-container-generatedID-170"><div role="heading" class="note-title marker" id="h-note-169" aria-level="5"><span>Note</span></div><p class="">What is meant by "component" or "user interface component" here is also sometimes
+   <div class="note" role="note" id="issue-container-generatedID-168"><div role="heading" class="note-title marker" id="h-note-167" aria-level="5"><span>Note</span></div><p class="">What is meant by "component" or "user interface component" here is also sometimes
       called "user interface element".
    </p></div>
    
@@ -4123,8 +4117,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<dt class="label" id="wcag2ict-def_user-interface-component">user interface component</dt>
 							<dd>
 								<p>a part of the <a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_content" title="WCAG2ICT Definition: content"><cite>content</cite></a> that is perceived by users as a single control for a distinct function</p>
-								<div class="note" role="note" id="issue-container-generatedID-171"><div role="heading" class="note-title marker" id="h-note-170" aria-level="6"><span>Note</span></div><p class="">Multiple user interface components may be implemented as a single programmatic element. Components here is not tied to programming techniques, but rather to what the user perceives as separate controls. </p></div>
-								<div class="note" role="note" id="issue-container-generatedID-172"><div role="heading" class="note-title marker" id="h-note-171" aria-level="6"><span>Note</span></div><p class="">User interface components include form elements and links as well as components generated by scripts.</p></div>
+								<div class="note" role="note" id="issue-container-generatedID-169"><div role="heading" class="note-title marker" id="h-note-168" aria-level="6"><span>Note</span></div><p class="">Multiple user interface components may be implemented as a single programmatic element. Components here is not tied to programming techniques, but rather to what the user perceives as separate controls. </p></div>
+								<div class="note" role="note" id="issue-container-generatedID-170"><div role="heading" class="note-title marker" id="h-note-169" aria-level="6"><span>Note</span></div><p class="">User interface components include form elements and links as well as components generated by scripts.</p></div>
 								<p class="example">
 									<em>Example: </em>
 									<ins>A <a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_software" title="WCAG2ICT Definition: software"><cite>software</cite></a> program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the <a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_software" title="WCAG2ICT Definition: software"><cite>software</cite></a>.</ins>
@@ -4141,13 +4135,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    
    <p>object in which the user agent presents content</p>
    
-   <div class="note" role="note" id="issue-container-generatedID-173"><div role="heading" class="note-title marker" id="h-note-172" aria-level="5"><span>Note</span></div><p class="">The <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-user-agents-8">user agent</a> presents content through one or more viewports. Viewports include windows, frames,
+   <div class="note" role="note" id="issue-container-generatedID-171"><div role="heading" class="note-title marker" id="h-note-170" aria-level="5"><span>Note</span></div><p class="">The <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-user-agents-8">user agent</a> presents content through one or more viewports. Viewports include windows, frames,
       loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport
       (e.g., nested frames). Interface components created by the user agent such as prompts,
       menus, and alerts are not viewports.
    </p></div>
    
-   <div class="note" role="note" id="issue-container-generatedID-174"><div role="heading" class="note-title marker" id="h-note-173" aria-level="5"><span>Note</span></div><p class="">This definition is based on <a href="https://www.w3.org/TR/WAI-USERAGENT/glossary.html">User Agent Accessibility Guidelines 1.0 Glossary</a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-uaag10" title="User Agent Accessibility Guidelines 1.0">UAAG10</a></cite>].
+   <div class="note" role="note" id="issue-container-generatedID-172"><div role="heading" class="note-title marker" id="h-note-171" aria-level="5"><span>Note</span></div><p class="">This definition is based on <a href="https://www.w3.org/TR/WAI-USERAGENT/glossary.html">User Agent Accessibility Guidelines 1.0 Glossary</a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-uaag10" title="User Agent Accessibility Guidelines 1.0">UAAG10</a></cite>].
    </p></div>
    
 </dd>
@@ -4160,8 +4154,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 							<dt class="label" id="wcag2ict-def_viewport">viewport</dt>
 							<dd>
 								<p> object in which the <ins><a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_software" title="WCAG2ICT Definition: software"><cite>software</cite></a></ins> presents <a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_content" title="WCAG2ICT Definition: content"><cite>content</cite></a></p>
-								<div class="note" role="note" id="issue-container-generatedID-175"><div role="heading" class="note-title marker" id="h-note-174" aria-level="6"><span>Note</span></div><p class="">The <ins><a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_software" title="WCAG2ICT Definition: software"><cite>software</cite></a></ins> presents <a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_content" title="WCAG2ICT Definition: content"><cite>content</cite></a> through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <ins><a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_software" title="WCAG2ICT Definition: software"><cite>software</cite></a></ins> such as prompts, menus, and alerts are not viewports. </p></div>
-								<div class="note" role="note" id="issue-container-generatedID-176"><div role="heading" class="note-title marker" id="h-note-175" aria-level="6"><span>Note</span></div><p class="">This definition is based on <a href="http://www.w3.org/TR/WAI-USERAGENT/glossary.html">User Agent Accessibility Guidelines 1.0 Glossary</a>.</p></div>
+								<div class="note" role="note" id="issue-container-generatedID-173"><div role="heading" class="note-title marker" id="h-note-172" aria-level="6"><span>Note</span></div><p class="">The <ins><a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_software" title="WCAG2ICT Definition: software"><cite>software</cite></a></ins> presents <a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_content" title="WCAG2ICT Definition: content"><cite>content</cite></a> through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <ins><a class="wcag2ict_termref" href="https://www.w3.org/TR/wcag2ict/#wcag2ict-def_software" title="WCAG2ICT Definition: software"><cite>software</cite></a></ins> such as prompts, menus, and alerts are not viewports. </p></div>
+								<div class="note" role="note" id="issue-container-generatedID-174"><div role="heading" class="note-title marker" id="h-note-173" aria-level="6"><span>Note</span></div><p class="">This definition is based on <a href="http://www.w3.org/TR/WAI-USERAGENT/glossary.html">User Agent Accessibility Guidelines 1.0 Glossary</a>.</p></div>
 							</dd>
 						</dl>
 					</section>
@@ -4175,11 +4169,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
    <p>a non-embedded resource obtained from a single URI using HTTP plus any other resources
       that are used in the rendering or intended to be rendered together with it by a <a href="#dfn-user-agents" class="internalDFN" data-link-type="dfn" id="ref-for-dfn-user-agents-9">user agent</a></p>
    
-   <div class="note" role="note" id="issue-container-generatedID-177"><div role="heading" class="note-title marker" id="h-note-176" aria-level="5"><span>Note</span></div><p class="">Although any "other resources" would be rendered together with the primary resource,
+   <div class="note" role="note" id="issue-container-generatedID-175"><div role="heading" class="note-title marker" id="h-note-174" aria-level="5"><span>Note</span></div><p class="">Although any "other resources" would be rendered together with the primary resource,
       they would not necessarily be rendered simultaneously with each other.
    </p></div>
    
-   <div class="note" role="note" id="issue-container-generatedID-178"><div role="heading" class="note-title marker" id="h-note-177" aria-level="5"><span>Note</span></div><p class="">For the purposes of conformance with these guidelines, a resource must be "non-embedded"
+   <div class="note" role="note" id="issue-container-generatedID-176"><div role="heading" class="note-title marker" id="h-note-175" aria-level="5"><span>Note</span></div><p class="">For the purposes of conformance with these guidelines, a resource must be "non-embedded"
       within the scope of conformance to be considered a Web page.
    </p></div>
    
@@ -4208,7 +4202,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 					<section id="additional-guidance-when-applying-the-definition-of-web-page-to-non-web-documents-and-software"><div class="header-wrapper"><h5 id="x7-3-27-1-additional-guidance-when-applying-the-definition-of-web-page-to-non-web-documents-and-software"><bdi class="secno">7.3.27.1 </bdi>Additional Guidance When Applying the Definition of “Web page” to Non-Web Documents and Software:</h5><a class="self-link" href="#additional-guidance-when-applying-the-definition-of-web-page-to-non-web-documents-and-software" aria-label="Permalink for Section 7.3.27.1"></a></div>
 						
 						<p>This applies directly as written and as described in the WCAG 2.0 glossary.</p>
-						<div class="note" role="note" id="issue-container-generatedID-179"><div role="heading" class="note-title marker" id="h-note-178" aria-level="6"><span>Note</span></div><p class="">For those success criteria that use the term “web page”, WCAG2ICT provides specific replacement term(s) for “Web page”.</p></div>
+						<div class="note" role="note" id="issue-container-generatedID-177"><div role="heading" class="note-title marker" id="h-note-176" aria-level="6"><span>Note</span></div><p class="">For those success criteria that use the term “web page”, WCAG2ICT provides specific replacement term(s) for “Web page”.</p></div>
 					</section>
 				</section>
 			</section>
@@ -4232,8 +4226,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 				<li><a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#ensure-compat-parses">4.1.1 Parsing</a>—the <a href="http://www.w3.org/TR/2013/NOTE-UNDERSTANDING-WCAG20-20130905/ensure-compat-parses.html#ensure-compat-parses-intent-head">Intent of 4.1.1</a> is to provide consistency so that different user agents or assistive technologies will yield the same result;</li>
 				<li><a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#ensure-compat-rsv">4.1.2 Name, Role, Value</a>—requires information in a programmatically determinable form.</li>
 			</ul>
-			<div class="note" role="note" id="issue-container-generatedID-180"><div role="heading" class="note-title marker" id="h-note-179" aria-level="3"><span>Note</span></div><p class="">Some of the above success criteria would apply to systems with closed functionality if they are partially closed or if they allow for the connection of some types of devices. For instance, Success Criterion 2.1.1 Keyboard would apply to systems which have closed functionality to screen readers but which have a physical keyboard or a connector for standard keyboards. </p></div>
-			<div class="note" role="note" id="issue-container-generatedID-181"><div role="heading" class="note-title marker" id="h-note-180" aria-level="3"><span>Note</span></div><p class="">While these guidelines are not suitable for closed functionality as written, they will inform and aid development of built-in accessible alternatives needed with closed functionality.</p></div>
+			<div class="note" role="note" id="issue-container-generatedID-178"><div role="heading" class="note-title marker" id="h-note-177" aria-level="3"><span>Note</span></div><p class="">Some of the above success criteria would apply to systems with closed functionality if they are partially closed or if they allow for the connection of some types of devices. For instance, Success Criterion 2.1.1 Keyboard would apply to systems which have closed functionality to screen readers but which have a physical keyboard or a connector for standard keyboards. </p></div>
+			<div class="note" role="note" id="issue-container-generatedID-179"><div role="heading" class="note-title marker" id="h-note-178" aria-level="3"><span>Note</span></div><p class="">While these guidelines are not suitable for closed functionality as written, they will inform and aid development of built-in accessible alternatives needed with closed functionality.</p></div>
 		</section>
 		<section class="appendix" id="background-on-text-command-line-terminal-applications-and-interfaces"><div class="header-wrapper"><h2 id="b-background-on-text-command-line-terminal-applications-and-interfaces"><bdi class="secno">B. </bdi>Background on Text / Command-line / Terminal Applications and Interfaces</h2><a class="self-link" href="#background-on-text-command-line-terminal-applications-and-interfaces" aria-label="Permalink for Appendix B."></a></div>
 			
@@ -4255,9 +4249,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 				<p>As noted above, in a text interface the terminal application renders the characters on the screen, just as a web browser typically renders content for a web application. Thus for example, in success criterion <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-scale">1.4.4 Resize Text</a>, a text application could achieve 200 percent resizing when the terminal application client that is rendering it has this capability (cf. WCAG 2.0 Technique <a href="http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G142">G142 Using a technology that has commonly-available user agents that support zoom</a>). Many web pages and web applications use this approach to meet success criterion <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-scale">1.4.4 Resize Text</a> through no explicit action of their own.</p>
 				<p>A similar approach could also be used for success criterion <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#visual-audio-contrast-contrast">1.4.3 Contrast (minimum)</a> (cf. WCAG 2.0 Technique <a href="http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G148">G148: Not specifying background color, not specifying text color, and not using technology features that change those defaults</a>): relying on the terminal application client to render the text with sufficient contrast against the background. In fact, many terminal applications allow the user to force all text to share a single user-chosen foreground color (and a single user-chosen background color), overriding the text application's specified colors in order to meet the user's desires or needs.</p>
 				<p>Since many assistive technology analysis techniques depend upon discerning the location of the text input cursor, terminal application use of “soft cursors” and “highlight bars” may bypass those analysis techniques and cause failures of success criteria.</p>
-				<div class="note" role="note" id="issue-container-generatedID-182"><div role="heading" class="note-title marker" id="h-note-181" aria-level="4"><span>Note</span></div><p class="">It is outside of the scope of this document to define WCAG techniques for non-web ICT. These examples are simply raised here to illustrate how WCAG 2.0 success criteria can be applied to this older class of applications that pre-date the Web.</p></div>
+				<div class="note" role="note" id="issue-container-generatedID-180"><div role="heading" class="note-title marker" id="h-note-179" aria-level="4"><span>Note</span></div><p class="">It is outside of the scope of this document to define WCAG techniques for non-web ICT. These examples are simply raised here to illustrate how WCAG 2.0 success criteria can be applied to this older class of applications that pre-date the Web.</p></div>
 				<p>The way to think about “<a href="https://www.w3.org/TR/wcag2ict/#accessibility-supporteddef">accessibility supported</a>” and “<a href="https://www.w3.org/TR/wcag2ict/#programmaticallydetermineddef">programmatically determined</a>” may seem a little different for text applications, but the definitions are unchanged. Because assistive technologies developed analysis techniques to recognize many forms of tabular layout, column headers, and section headings, such recognized layouts are by definition “accessibility supported”. Where assistive technology is able to extract and present that information, it is “programmatically determinable”—even though no explicit markup or <abbr title="Application Programming Interface">API</abbr> was used to make it so. While such assistive technology analysis techniques are not used for supporting newer technologies, the fact that such previous analysis work was done allows us to apply WCAG 2.0 to text / command-line applications.</p>
-				<div class="note" role="note" id="issue-container-generatedID-183"><div role="heading" class="note-title marker" id="h-note-182" aria-level="4"><span>Note</span></div><p class="">The terminal application itself is “traditional” non-web software ICT. It is only for the text application that there is a need to take this approach with these glossary terms.</p></div>
+				<div class="note" role="note" id="issue-container-generatedID-181"><div role="heading" class="note-title marker" id="h-note-180" aria-level="4"><span>Note</span></div><p class="">The terminal application itself is “traditional” non-web software ICT. It is only for the text application that there is a need to take this approach with these glossary terms.</p></div>
 			</section>
 		</section>
 	
@@ -4268,10 +4262,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       <cite>Independent Analysis of the ITC Photosensitive Epilepsy Calibration Test Tape</cite>. Harding G. F. A.; Binnie, C.D.. 2002. 
     </dd><dt id="bib-html">[html]</dt><dd>
       <a href="https://html.spec.whatwg.org/multipage/"><cite>HTML Standard</cite></a>. Anne van Kesteren; Domenic Denicola; Ian Hickson; Philip Jägenstedt; Simon Pieters.  WHATWG. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
-    </dd><dt id="bib-iec-4wd">[IEC-4WD]</dt><dd>
-      <cite>IEC/4WD 61966-2-1: Colour Measurement and Management in Multimedia Systems and Equipment - Part 2.1: Default Colour Space - sRGB</cite>. May 5, 1998. 
-    </dd><dt id="bib-svg">[svg]</dt><dd>
-      <a href="https://www.w3.org/TR/SVG/"><cite>Scalable Vector Graphics (SVG) 1.0 Specification</cite></a>. Jon Ferraiolo.  W3C. 4 September 2001. W3C Recommendation. URL: <a href="https://www.w3.org/TR/SVG/">https://www.w3.org/TR/SVG/</a>
+    </dd><dt id="bib-srgb">[SRGB]</dt><dd>
+      <a href="https://webstore.iec.ch/publication/6169"><cite>Multimedia systems and equipment - Colour measurement and management - Part 2-1: Colour management - Default RGB colour space - sRGB</cite></a>.  IEC. URL: <a href="https://webstore.iec.ch/publication/6169">https://webstore.iec.ch/publication/6169</a>
     </dd><dt id="bib-uaag10">[UAAG10]</dt><dd>
       <a href="https://www.w3.org/TR/UAAG10/"><cite>User Agent Accessibility Guidelines 1.0</cite></a>. Ian Jacobs; Jon Gunderson; Eric Hansen.  W3C. 17 December 2002. W3C Recommendation. URL: <a href="https://www.w3.org/TR/UAAG10/">https://www.w3.org/TR/UAAG10/</a>
     </dd><dt id="bib-wai-aria">[wai-aria]</dt><dd>
@@ -4281,7 +4273,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     </dd></dl>
   </section></section><p role="navigation" id="back-to-top">
     <a href="#title"><abbr title="Back to Top">↑</abbr></a>
-  </p><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-content" aria-label="Links in this document to definition: content" hidden="">
+  </p><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-content" aria-label="Links in this document to definition: content">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-content" aria-label="Permalink for definition: content. Activate to close this dialog.">Permalink</a>
@@ -4295,7 +4287,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-content-2" title="§ 7.3.12 label">§ 7.3.12 label</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-accessibility-supported" aria-label="Links in this document to definition: accessibility supported" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-accessibility-supported" aria-label="Links in this document to definition: accessibility supported">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-accessibility-supported" aria-label="Permalink for definition: accessibility supported. Activate to close this dialog.">Permalink</a>
@@ -4307,7 +4299,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-accessibility-supported-1" title="§ 7.3.6 conforming alternate version">§ 7.3.6 conforming alternate version</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-ambiguous-to-users-in-general" aria-label="Links in this document to definition: ambiguous to users in general" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-ambiguous-to-users-in-general" aria-label="Links in this document to definition: ambiguous to users in general">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-ambiguous-to-users-in-general" aria-label="Permalink for definition: ambiguous to users in general. Activate to close this dialog.">Permalink</a>
@@ -4319,7 +4311,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-ambiguous-to-users-in-general-1" title="§ Link Purpose (In Context)">§ Link Purpose (In Context)</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-assistive-technologies" aria-label="Links in this document to definition: assistive technology" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-assistive-technologies" aria-label="Links in this document to definition: assistive technology">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-assistive-technologies" aria-label="Permalink for definition: assistive technology. Activate to close this dialog.">Permalink</a>
@@ -4330,7 +4322,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <li>
     <a href="#ref-for-dfn-assistive-technologies-1" title="§ Non-text Content">§ Non-text Content</a> 
   </li><li>
-    <a href="#ref-for-dfn-assistive-technologies-2" title="§ Resize text">§ Resize text</a> 
+    <a href="#ref-for-dfn-assistive-technologies-2" title="§ Resize Text">§ Resize Text</a> 
   </li><li>
     <a href="#ref-for-dfn-assistive-technologies-3" title="§ Name, Role, Value">§ Name, Role, Value</a> 
   </li><li>
@@ -4341,7 +4333,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-assistive-technologies-6" title="§ 7.3.24 user agent">§ 7.3.24 user agent</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-change-of-context" aria-label="Links in this document to definition: changes of context" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-change-of-context" aria-label="Links in this document to definition: changes of context">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-change-of-context" aria-label="Permalink for definition: changes of context. Activate to close this dialog.">Permalink</a>
@@ -4355,7 +4347,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-change-of-context-2" title="§ On Input">§ On Input</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-conform" aria-label="Links in this document to definition: conformance" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-conform" aria-label="Links in this document to definition: conformance">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-conform" aria-label="Permalink for definition: conformance. Activate to close this dialog.">Permalink</a>
@@ -4365,7 +4357,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       <ul>
       <li>Not referenced in this document.</li>
     </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-conforming-alternate-versions" aria-label="Links in this document to definition: conforming alternate version" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-conforming-alternate-versions" aria-label="Links in this document to definition: conforming alternate version">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-conforming-alternate-versions" aria-label="Permalink for definition: conforming alternate version. Activate to close this dialog.">Permalink</a>
@@ -4375,7 +4367,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       <ul>
       <li>Not referenced in this document.</li>
     </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-contrast-ratio" aria-label="Links in this document to definition: contrast ratio" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-contrast-ratio" aria-label="Links in this document to definition: contrast ratio">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-contrast-ratio" aria-label="Permalink for definition: contrast ratio. Activate to close this dialog.">Permalink</a>
@@ -4387,7 +4379,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-contrast-ratio-1" title="§ Contrast (Minimum)">§ Contrast (Minimum)</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-general-flash-and-red-flash-thresholds" aria-label="Links in this document to definition: general flash and red flash thresholds" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-general-flash-and-red-flash-thresholds" aria-label="Links in this document to definition: general flash and red flash thresholds">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-general-flash-and-red-flash-thresholds" aria-label="Permalink for definition: general flash and red flash thresholds. Activate to close this dialog.">Permalink</a>
@@ -4399,7 +4391,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-general-flash-and-red-flash-thresholds-1" title="§ Three Flashes or Below Threshold">§ Three Flashes or Below Threshold</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-input-error" aria-label="Links in this document to definition: input error" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-input-error" aria-label="Links in this document to definition: input error">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-input-error" aria-label="Permalink for definition: input error. Activate to close this dialog.">Permalink</a>
@@ -4413,7 +4405,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-input-error-2" title="§ Error Suggestion">§ Error Suggestion</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-keyboard-interface" aria-label="Links in this document to definition: keyboard interface" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-keyboard-interface" aria-label="Links in this document to definition: keyboard interface">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-keyboard-interface" aria-label="Permalink for definition: keyboard interface. Activate to close this dialog.">Permalink</a>
@@ -4427,7 +4419,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-keyboard-interface-2" title="§ No Keyboard Trap">§ No Keyboard Trap</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-labels" aria-label="Links in this document to definition: label" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-labels" aria-label="Links in this document to definition: label">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-labels" aria-label="Permalink for definition: label. Activate to close this dialog.">Permalink</a>
@@ -4443,7 +4435,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-labels-3" title="§ 7.3.13 name">§ 7.3.13 name</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-name" aria-label="Links in this document to definition: name" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-name" aria-label="Links in this document to definition: name">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-name" aria-label="Permalink for definition: name. Activate to close this dialog.">Permalink</a>
@@ -4459,7 +4451,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-name-3" title="§ 7.3.12 label">§ 7.3.12 label</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-processes" aria-label="Links in this document to definition: process" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-processes" aria-label="Links in this document to definition: process">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-processes" aria-label="Permalink for definition: process. Activate to close this dialog.">Permalink</a>
@@ -4471,7 +4463,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-processes-1" title="§ Multiple Ways">§ Multiple Ways</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-programmatically-determinable" aria-label="Links in this document to definition: programmatically determined" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-programmatically-determinable" aria-label="Links in this document to definition: programmatically determined">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-programmatically-determinable" aria-label="Permalink for definition: programmatically determined. Activate to close this dialog.">Permalink</a>
@@ -4491,7 +4483,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-programmatically-determinable-5" title="§ Name, Role, Value">§ Name, Role, Value</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-programmatically-set" aria-label="Links in this document to definition: programmatically set" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-programmatically-set" aria-label="Links in this document to definition: programmatically set">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-programmatically-set" aria-label="Permalink for definition: programmatically set. Activate to close this dialog.">Permalink</a>
@@ -4503,7 +4495,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-programmatically-set-1" title="§ Name, Role, Value">§ Name, Role, Value</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-relative-luminance" aria-label="Links in this document to definition: relative luminance" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-relative-luminance" aria-label="Links in this document to definition: relative luminance">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-relative-luminance" aria-label="Permalink for definition: relative luminance. Activate to close this dialog.">Permalink</a>
@@ -4517,7 +4509,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-relative-luminance-3" title="§ 7.3.9 general flash and red flash thresholds">§ 7.3.9 general flash and red flash thresholds</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-role" aria-label="Links in this document to definition: role" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-role" aria-label="Links in this document to definition: role">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-role" aria-label="Permalink for definition: role. Activate to close this dialog.">Permalink</a>
@@ -4529,7 +4521,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-role-1" title="§ Name, Role, Value">§ Name, Role, Value</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-same-functionality" aria-label="Links in this document to definition: same functionality" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-same-functionality" aria-label="Links in this document to definition: same functionality">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-same-functionality" aria-label="Permalink for definition: same functionality. Activate to close this dialog.">Permalink</a>
@@ -4541,7 +4533,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-same-functionality-1" title="§ Consistent Identification">§ Consistent Identification</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-satisfies" aria-label="Links in this document to definition: satisfies a success criterion" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-satisfies" aria-label="Links in this document to definition: satisfies a success criterion">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-satisfies" aria-label="Permalink for definition: satisfies a success criterion. Activate to close this dialog.">Permalink</a>
@@ -4551,7 +4543,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       <ul>
       <li>Not referenced in this document.</li>
     </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-set-of-web-pages" aria-label="Links in this document to definition: set of Web pages" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-set-of-web-pages" aria-label="Links in this document to definition: set of Web pages">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-set-of-web-pages" aria-label="Permalink for definition: set of Web pages. Activate to close this dialog.">Permalink</a>
@@ -4567,7 +4559,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-set-of-web-pages-3" title="§ Consistent Identification">§ Consistent Identification</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-structure" aria-label="Links in this document to definition: structure" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-structure" aria-label="Links in this document to definition: structure">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-structure" aria-label="Permalink for definition: structure. Activate to close this dialog.">Permalink</a>
@@ -4581,7 +4573,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-structure-2" title="§ Info and Relationships">§ Info and Relationships</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-technologies" aria-label="Links in this document to definition: technology" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-technologies" aria-label="Links in this document to definition: technology">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-technologies" aria-label="Permalink for definition: technology. Activate to close this dialog.">Permalink</a>
@@ -4593,7 +4585,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-technologies-1" title="§ 7.3.1 accessibility supported">§ 7.3.1 accessibility supported</a> <a href="#ref-for-dfn-technologies-2" title="Reference 2">(2)</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-user-agents" aria-label="Links in this document to definition: user agent" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-user-agents" aria-label="Links in this document to definition: user agent">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-user-agents" aria-label="Permalink for definition: user agent. Activate to close this dialog.">Permalink</a>
@@ -4621,7 +4613,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-user-agents-9" title="§ 7.3.27 Web page">§ 7.3.27 Web page</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-user-interface-components" aria-label="Links in this document to definition: user interface component" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-user-interface-components" aria-label="Links in this document to definition: user interface component">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-user-interface-components" aria-label="Permalink for definition: user interface component. Activate to close this dialog.">Permalink</a>
@@ -4639,7 +4631,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-user-interface-components-4" title="§ Name, Role, Value">§ Name, Role, Value</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-viewport" aria-label="Links in this document to definition: viewport" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-viewport" aria-label="Links in this document to definition: viewport">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-viewport" aria-label="Permalink for definition: viewport. Activate to close this dialog.">Permalink</a>
@@ -4651,7 +4643,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <a href="#ref-for-dfn-viewport-1" title="§ 7.3.4 changes of context">§ 7.3.4 changes of context</a> 
   </li>
   </ul>
-    </div><div class="dfn-panel" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-web-page-s" aria-label="Links in this document to definition: Web page" hidden="">
+    </div><div class="dfn-panel" hidden="" role="dialog" aria-modal="true" id="dfn-panel-for-dfn-web-page-s" aria-label="Links in this document to definition: Web page">
       <span class="caret"></span>
       <div>
         <a class="self-link" href="#dfn-web-page-s" aria-label="Permalink for definition: Web page. Activate to close this dialog.">Permalink</a>
