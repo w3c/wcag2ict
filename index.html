@@ -923,11 +923,11 @@
 					</section>
 					<section>
 						<h2>Success Criterion 2.2.1: Timing Adjustable (Level A)</h2>
-						<p>From <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#time-limits-required-behaviors">Success Criterion 2.2.1</a>:</p>
-						<blockquote cite="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#time-limits-required-behaviors" class="sc" data-include="https://raw.githubusercontent.com/w3c/wcag/main/guidelines/sc/20/timing-adjustable.html"> </blockquote>
+						<p>From <a href="https://www.w3.org/TR/WCAG22/#timing-adjustable">Success Criterion 2.2.1</a>:</p>
+						<blockquote cite="https://www.w3.org/TR/WCAG22/#timing-adjustable" class="sc" data-include="https://raw.githubusercontent.com/w3c/wcag/main/guidelines/sc/20/timing-adjustable.html"> </blockquote>
 						<section>
 							<h2>Additional Guidance When Applying Success Criterion 2.2.1 to Non-Web Documents and Software:</h2>
-							<p>This applies directly as written, and as described in <a href="http://www.w3.org/TR/2013/NOTE-UNDERSTANDING-WCAG20-20130905/time-limits-required-behaviors.html#time-limits-required-behaviors-intent-head">Intent from Understanding Success Criterion 2.2.1</a> (also provided below), replacing “the content” with “non-web documents or software”. </p>
+							<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent">Intent from Understanding Success Criterion 2.2.1</a> (also provided below), replacing “the content” with “non-web documents or software”. </p>
 							<p> With this substitution, it would read: </p>
 							<p class="sctxt"><strong class="sc-handle">2.2.1 Timing Adjustable:</strong> For each time limit that is set by <ins><a class="wcag2ict_termref" href="https://w3c.github.io/wcag2ict/#wcag2ict-def_document" title="WCAG2ICT Definition: non-web documents"><cite>non-web documents</cite></a> or <a class="wcag2ict_termref" href="https://w3c.github.io/wcag2ict/#wcag2ict-def_software" title="WCAG2ICT Definition: software"><cite>software</cite></a></ins>, at least one of the following is true: (Level A) </p>
 							<ul>
@@ -944,16 +944,16 @@
 									<p><strong class="sc-handle">Real-time Exception: </strong>The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or</p>
 								</li>
 								<li>
-									<p><strong class="sc-handle">Essential Exception: </strong>The time limit is <a class="termref" href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#essentialdef" title="WCAG Definition: essential"><cite>essential</cite></a> and extending it would invalidate the activity; or </p>
+									<p><strong class="sc-handle">Essential Exception: </strong>The time limit is <a class="termref" href="https://www.w3.org/TR/WCAG22/#dfn-essential" title="WCAG Definition: essential"><cite>essential</cite></a> and extending it would invalidate the activity; or </p>
 								</li>
 								<li>
 									<p><strong class="sc-handle">20 Hour Exception: </strong>The time limit is longer than 20 hours. </p>
 								</li>
 							</ul>
-							<p class="note">This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#consistent-behavior-receive-focus">Success Criterion 3.2.1</a>, which puts limits on changes of content or context as a result of user action. </p>
+							<p class="note">This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with <a href="https://www.w3.org/TR/WCAG22/#on-focus">Success Criterion 3.2.1</a>, which puts limits on changes of content or context as a result of user action. </p>
 							<details>
-								<summary>Intent from <a href="http://www.w3.org/TR/2013/NOTE-UNDERSTANDING-WCAG20-20130905/time-limits-required-behaviors#time-limits-required-behaviors-intent-head">Understanding Success Criterion 2.2.1 in Understanding WCAG 2.2</a>:</summary>
-								<blockquote cite="http://www.w3.org/TR/2013/NOTE-UNDERSTANDING-WCAG20-20130905/time-limits-required-behaviors#time-limits-required-behaviors-intent-head" class="sc intent">
+								<summary>Intent from <a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent">Understanding Success Criterion 2.2.1 in Understanding WCAG 2.2</a>:</summary>
+								<blockquote cite="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent" class="sc intent">
 									<p>The intent of this Success Criterion is to ensure that users with disabilities are given adequate time to interact with Web content whenever possible. People with disabilities such as blindness, low vision, dexterity impairments, and cognitive limitations may require more time to read content or to perform functions such as filling out on-line forms. If Web functions are time-dependent, it will be difficult for some users to perform the required action before a time limit occurs. This may render the service inaccessible to them. Designing functions that are not time-dependent will help people with disabilities succeed at completing these functions. Providing options to disable time limits, customize the length of time limits, or request more time before a time limit occurs helps those users who require more time than expected to successfully complete tasks. These options are listed in the order that will be most helpful for the user. Disabling time limits is better
 										than customizing the length of time limits, which is better than requesting more time before a time limit occurs. </p>
 									<p>Any process that happens without user initiation after a set time or on a periodic basis is a time limit. This includes partial or full updates of content (for example, page refresh), changes to content, or the expiration of a window of opportunity for a user to react to a request for input. </p>
@@ -970,7 +970,7 @@
 											<p>Non-timed server redirects (e.g., 3xx response codes) are not applicable because there is no time limit: they work instantly.</p>
 										</li>
 										<li>
-											<p>This Success Criterion applies only to time limits that are set by the content itself. For example, if a time limit is included in order to address security concerns, it would be considered to have been set by the content because it is designed to be part of the presentation and interaction experience for that content. Time limits set externally to content, such as by the user agent or by factors intrinsic to the Internet are not under the author's control and not subject to WCAG conformance requirements. Time limits set by Web servers should be under the author's/organization's control and are covered. (Success Criteria <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#time-limits-no-exceptions">2.2.3</a>, <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#time-limits-postponed">2.2.4</a> and <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/#time-limits-server-timeout">2.2.5</a> may also apply.)</p>
+											<p>This Success Criterion applies only to time limits that are set by the content itself. For example, if a time limit is included in order to address security concerns, it would be considered to have been set by the content because it is designed to be part of the presentation and interaction experience for that content. Time limits set externally to content, such as by the user agent or by factors intrinsic to the Internet are not under the author's control and not subject to WCAG conformance requirements. Time limits set by Web servers should be under the author's/organization's control and are covered. (Success Criteria <a href="https://www.w3.org/TR/WCAG22/#no-timing">2.2.3</a>, <a href="https://www.w3.org/TR/WCAG22/#interruptions">2.2.4</a> and <a href="https://www.w3.org/TR/WCAG22/#re-authenticating">2.2.5</a> may also apply.)</p>
 										</li>
 										<li>
 											<p>Ten times the default was chosen based on clinical experience and other guidelines. For example, if 15 seconds is allowed for a user to respond and hit a switch, 150 seconds would be sufficient to allow almost all users to hit a switch even if they had trouble. </p>
@@ -984,7 +984,7 @@
 										</li>
 									</ul>
 									<p>In cases where timing is not an intrinsic requirement but giving users control over timed events would invalidate the outcome, a third party can control the time limits for the user (for example, granting double time on a test). </p>
-									<p>See also <em><a href="http://www.w3.org/TR/2013/NOTE-UNDERSTANDING-WCAG20-20130905/time-limits-no-exceptions.html"> Understanding Success Criterion 2.2.3 No Timing</a></em>.</p>
+									<p>See also <em><a href="https://www.w3.org/WAI/WCAG22/Understanding/no-timing"> Understanding Success Criterion 2.2.3 No Timing</a></em>.</p>
 									<h6>Specific Benefits of Success Criterion 2.2.1</h6>
 									<ul>
 										<li>
