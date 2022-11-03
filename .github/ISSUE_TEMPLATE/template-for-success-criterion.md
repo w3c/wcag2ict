@@ -9,7 +9,7 @@ assignees: ''
 
 From [Success Criterion @@ x.x.x @@](@@ URL for the SC in WCAG 2.2 @@):
 
->@@ Copy in text of the SC from [WCAG 2.2](https://www.w3.org/TR/WCAG22/) along with any notes. Use markdown to format properly, as needed. @@
+>@@ Copy in text of the SC from [WCAG 2.2](https://www.w3.org/TR/WCAG22/) along with any notes. Use [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to format properly, as needed. @@
 
 ##### Additional Guidance When Applying Success Criterion @@ x.x.x @@ to Non-Web Documents and Software:
 
