@@ -1,0 +1,1 @@
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](http://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent) (also provided below), replacing “Web page(s)” with “non-web document(s)” and “software program(s)”.

@@ -1,0 +1,1 @@
+In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.3 applies directly as written.

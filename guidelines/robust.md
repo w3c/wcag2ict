@@ -1,0 +1,1 @@
+In WCAG 2.2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 4 applies directly as written replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.

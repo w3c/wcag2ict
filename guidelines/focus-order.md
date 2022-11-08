@@ -1,0 +1,1 @@
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.3](http://www.w3.org/WAI/WCAG22/Understanding/focus-order#intent) (also provided below) replacing “a Web page” with “non-web documents or software”.

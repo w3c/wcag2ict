@@ -1,0 +1,1 @@
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](http://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent) (also provided below), replacing “page” and “Web page” with “non-web documents and software” and removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion.

@@ -1,0 +1,1 @@
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web page” and “page” with “non-web document or content presented by software”.

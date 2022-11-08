@@ -1,0 +1,1 @@
+Comments on Definitions in WCAG 2.2 Glossary in Appendix A

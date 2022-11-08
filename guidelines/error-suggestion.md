@@ -1,0 +1,1 @@
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.3](http://www.w3.org/WAI/WCAG22/Understanding/error-suggestion#intent) (also provided below).

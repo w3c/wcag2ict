@@ -1,0 +1,1 @@
+See the [guidance on user agent in the Key Terms section](http://w3c.github.io/wcag2ict/#wcag2ict-def_useragent).

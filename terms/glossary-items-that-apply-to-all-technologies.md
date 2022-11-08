@@ -1,0 +1,1 @@
+Glossary Items that Apply to All Technologies

@@ -1,0 +1,1 @@
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.5](http://www.w3.org/WAI/WCAG22/Understanding/images-of-text#intent) (also provided below).

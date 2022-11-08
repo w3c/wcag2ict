@@ -1,0 +1,1 @@
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing the example with “Example: A software program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the software.”

@@ -1,0 +1,1 @@
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](http://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent) (also provided below), replacing “web pages” with “non-web documents” and “software programs”.

@@ -1,0 +1,1 @@
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web content” with “content”.

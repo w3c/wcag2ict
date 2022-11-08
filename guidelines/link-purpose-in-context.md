@@ -1,0 +1,1 @@
+This applies directly as written and as described in [Intent from Understanding Success Criterion 2.4.4](http://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context#intent) (also provided below), replacing both “web page” and “page” with “non-web documents and software” in the Intent from Understanding Success Criterion 2.4.4.

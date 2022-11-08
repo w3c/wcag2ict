@@ -1,0 +1,1 @@
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “a Web page” with “non-web documents or software” and replacing “collection of Web pages” with “set of documents or set of software programs”.

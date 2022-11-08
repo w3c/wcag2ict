@@ -1,0 +1,1 @@
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web Content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.

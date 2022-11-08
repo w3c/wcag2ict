@@ -1,0 +1,1 @@
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.1](http://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent) (also provided below) replacing “each web page” with non-web documents or software.
