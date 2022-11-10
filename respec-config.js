@@ -23,7 +23,7 @@ var respecConfig = {
 		companyURI: "https://www.ibm.com/",
 		w3cid: 46880
 	},{
-		Name: "Chriss Loisselle",
+		Name: "Chris Loiselle",
 		company: "Oracle Corporation",
 		companyURI: "http://www.oracle.com/",
 		w3cid: "65246"
