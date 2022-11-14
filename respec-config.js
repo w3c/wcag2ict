@@ -26,12 +26,12 @@ var respecConfig = {
 		Name: "Chris Loiselle",
 		company: "Oracle Corporation",
 		companyURI: "http://www.oracle.com/",
-		w3cid: "65246"
+		w3cid: 65246
 	},{
 		name: "Phil Day",
 		company: "NCR",
 		companyURI: "http://www.ncr.com/",
-		w3cid: "65246"
+		w3cid: 139781
 	}
 ],
 	//authors:  [
