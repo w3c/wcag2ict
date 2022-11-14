@@ -22,7 +22,18 @@ var respecConfig = {
 		company: "IBM",
 		companyURI: "https://www.ibm.com/",
 		w3cid: 46880
-	}],
+	},{
+		Name: "Chris Loiselle",
+		company: "Oracle Corporation",
+		companyURI: "http://www.oracle.com/",
+		w3cid: 65246
+	},{
+		name: "Phil Day",
+		company: "NCR",
+		companyURI: "http://www.ncr.com/",
+		w3cid: 139781
+	}
+],
 	//authors:  [
 	//    { name: "Your Name", url: "http://example.org/",
 	//      company: "Your Company", companyURI: "http://example.com/" },
