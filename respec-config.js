@@ -16,24 +16,29 @@ var respecConfig = {
 	// if there a publicly available Editors Draft, this is the link
 	edDraftURI: "https://w3c.github.io/wcag2ict/",
 	
-	editors:[ {
-		name: "Mary Jo Mueller",
-		mailto: "maryjom@us.ibm.com",
-		company: "IBM",
-		companyURI: "https://www.ibm.com/",
-		w3cid: 46880
-	},{
-		Name: "Chris Loiselle",
-		company: "Oracle Corporation",
-		companyURI: "http://www.oracle.com/",
-		w3cid: 65246
-	},{
-		name: "Phil Day",
-		company: "NCR",
-		companyURI: "http://www.ncr.com/",
-		w3cid: 139781
-	}
-],
+	editors: [
+		{
+			name: "Mary Jo Mueller",
+			mailto: "maryjom@us.ibm.com",
+			company: "IBM",
+			companyURI: "https://www.ibm.com/",
+			w3cid: 46880,
+		},
+		{
+			name: "Chris Loiselle",
+			mailto: "chris.loiselle@oracle.com",
+			company: "Oracle Corporation",
+			companyURI: "http://www.oracle.com/",
+			w3cid: 65246,
+		},
+		{
+			name: "Phil Day",
+			mailto: "phil.day@ncr.com",
+			company: "NCR",
+			companyURI: "http://www.ncr.com/",
+			w3cid: 139781,
+		}
+	],
 	//authors:  [
 	//    { name: "Your Name", url: "http://example.org/",
 	//      company: "Your Company", companyURI: "http://example.com/" },
