@@ -1,1 +1,0 @@
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.3](http://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded#intent) (also provided below).

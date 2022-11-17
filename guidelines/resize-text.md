@@ -1,1 +1,0 @@
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.4](http://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent) (also provided below).

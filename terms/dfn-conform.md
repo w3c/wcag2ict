@@ -1,1 +1,0 @@
-The guidance in this document does not use the term “conformance”.

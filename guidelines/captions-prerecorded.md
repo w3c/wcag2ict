@@ -1,1 +1,0 @@
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.2](http://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded#intent) (also provided below).

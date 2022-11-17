@@ -1,1 +1,0 @@
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.2](http://www.w3.org/WAI/WCAG22/Understanding/language-of-parts#intent) (also provided below) replacing “content” with “non-web document or software”.

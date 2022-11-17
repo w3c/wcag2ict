@@ -1,1 +1,0 @@
-Comments by Guideline and Success Criterion

@@ -1,1 +1,0 @@
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.6](http://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels#intent) (also provided below).

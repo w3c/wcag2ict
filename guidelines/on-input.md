@@ -1,1 +1,0 @@
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.2](http://www.w3.org/WAI/WCAG22/Understanding/on-input#intent) (also provided below).

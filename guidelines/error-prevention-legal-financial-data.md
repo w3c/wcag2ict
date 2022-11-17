@@ -1,1 +1,0 @@
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.4](http://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data#intent) (also provided below) replacing “web pages” with “non-web documents or software”.

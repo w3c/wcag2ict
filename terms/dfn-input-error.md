@@ -1,1 +1,0 @@
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web page” with “non-web document or software”.

@@ -1,1 +1,0 @@
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.1](http://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent) (also provided below), replacing “the content” with “non-web documents or software”.

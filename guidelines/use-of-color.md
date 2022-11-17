@@ -1,1 +1,0 @@
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.1](http://www.w3.org/WAI/WCAG22/Understanding/use-of-color#intent) (also provided below).

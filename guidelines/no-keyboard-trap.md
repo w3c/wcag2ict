@@ -1,1 +1,0 @@
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](http://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent) (also provided below), replacing “page” and “Web page” with “non-web document or software” and removing “See Conformance Requirement 5: Non-Interference”.
