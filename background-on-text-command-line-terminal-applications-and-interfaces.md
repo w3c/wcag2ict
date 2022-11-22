@@ -26,8 +26,8 @@ A similar approach could also be used for success criterion [1.4.3 Contrast (min
 
 Since many assistive technology analysis techniques depend upon discerning the location of the text input cursor, terminal application use of “soft cursors” and “highlight bars” may bypass those analysis techniques and cause failures of success criteria.
 
-It is outside of the scope of this document to define WCAG techniques for non-web ICT. These examples are simply raised here to illustrate how WCAG 2.2 success criteria can be applied to this older class of applications that pre-date the Web.
+<div class="note">It is outside of the scope of this document to define WCAG techniques for non-web ICT. These examples are simply raised here to illustrate how WCAG 2.2 success criteria can be applied to this older class of applications that pre-date the Web.</div>
 
 The way to think about “[accessibility supported](http://w3c.github.io/wcag2ict/#wcag2ict-def_accessibility-supported)” and “[programmatically determined](http://w3c.github.io/wcag2ict/#wcag2ict-def_programmaticallydetermined)” may seem a little different for text applications, but the definitions are unchanged. Because assistive technologies developed analysis techniques to recognize many forms of tabular layout, column headers, and section headings, such recognized layouts are by definition “accessibility supported”. Where assistive technology is able to extract and present that information, it is “programmatically determinable”—even though no explicit markup or API was used to make it so. While such assistive technology analysis techniques are not used for supporting newer technologies, the fact that such previous analysis work was done allows us to apply WCAG 2.2 to text / command-line applications.
 
-The terminal application itself is “traditional” non-web software ICT. It is only for the text application that there is a need to take this approach with these glossary terms.
+<div class="note">The terminal application itself is “traditional” non-web software ICT. It is only for the text application that there is a need to take this approach with these glossary terms.</div>
