@@ -77,6 +77,12 @@ This applies directly as written, and as described in [Intent from Understanding
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.3](http://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics#intent) (also provided below).
 
+##### orientation
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](http://www.w3.org/WAI/WCAG22/Understanding/orientation#intent) (also provided below).
+
+<div class="note">Content that is only used on hardware that is fixed in place OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
+
 ##### distinguishable
 
 In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.4 applies directly as written.
