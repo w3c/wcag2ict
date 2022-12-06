@@ -71,6 +71,9 @@ This applies directly as written, and as described in [Intent from Understanding
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.3](http://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics#intent) (also provided below).
 
+##### identify-input-purpose
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
 ##### distinguishable
 
 In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.4 applies directly as written.
