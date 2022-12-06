@@ -61,12 +61,6 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">In software, programmatic determinability is best achieved through the use of [accessibility services provided by platform software](http://w3c.github.io/wcag2ict/#wcag2ict-def_accessibility-services) to enable interoperability between software and assistive technologies and accessibility features of software.</div><div class="note">See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
 
-##### orientation
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
-
-##### identify-input-purpose
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
-
 ##### meaningful-sequence
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.2](http://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence#intent) (also provided below).
@@ -82,6 +76,9 @@ This applies directly as written, and as described in [Intent from Understanding
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](http://www.w3.org/WAI/WCAG22/Understanding/orientation#intent) (also provided below).
 
 <div class="note">Content that is only used on hardware that is fixed in place OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
+
+##### identify-input-purpose
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### distinguishable
 
