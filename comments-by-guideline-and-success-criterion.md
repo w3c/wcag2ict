@@ -249,11 +249,26 @@ With these substitutions, this success criterion would read:
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.6](http://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels#intent) (also provided below).
 
-<div class="note">In [software](http://w3c.github.io/wcag2ict/#wcag2ict-def_software), headings and labels are used to describe sections of [content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content) and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
 
 ##### focus-visible
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.7](http://www.w3.org/WAI/WCAG22/Understanding/focus-visible#intent) (also provided below).
+
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+
+##### focus-appearance
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### focus-not-obscured-minimum
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### dragging-movements
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### target-size-minimum
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
 
 ### understandable
 
@@ -333,6 +348,10 @@ With these substitutions, this success criterion would read:
 
 <div class="note">: See [set of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents) and [set of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div><div class="note">Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
 
+##### consistent-help
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+
 #### input-assistance
 
 In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.3 applies directly as written.
@@ -365,6 +384,11 @@ With this substitution, it would read:
     
 3.  **Confirmed:** A [mechanism](#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
     
+##### accessible-authentication
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### redundant-entry
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ### robust
 
