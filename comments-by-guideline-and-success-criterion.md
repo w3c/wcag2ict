@@ -80,7 +80,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### identify-input-purpose
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
-##### distinguishable
+#### distinguishable
 
 In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.4 applies directly as written.
 
@@ -278,6 +278,10 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### focus-visible
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.7](http://www.w3.org/WAI/WCAG22/Understanding/focus-visible#intent) (also provided below).
+
+#### input-modalities
+
+In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.5 applies directly as written.
 
 ##### pointer-gestures
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
