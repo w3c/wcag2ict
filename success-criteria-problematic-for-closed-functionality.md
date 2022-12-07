@@ -1,6 +1,8 @@
 Success Criteria Problematic for Closed Functionality
 -----------------------------------------------------
 
+<p class="ednote">This section will be updated by the WCAG2ICT Task Force to include success criteria added or changed since the 2013 WCAG2ICT Note that are problematic for Closed Functionality.</p>
+
 The following success criteria will be problematic for developers of closed functionality. They either discuss making information available in text (which can be read by assistive technologies) or making it “programmatically determinable” (rendered by a user agent and readable by assistive technologies) or discuss doing something else to make content compatible with assistive technologies. Alternate accessibility provisions that would be needed to address the purpose of these success criteria for the closed functionality aspects of products:
 
 *   [1.1.1 Non-text Content](http://www.w3.org/TR/WCAG22/#non-text-content)—requires text or a text alternative;

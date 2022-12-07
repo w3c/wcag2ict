@@ -3,6 +3,8 @@ Comments on Definitions in WCAG 2.2 Glossary in Appendix A
 
 The following is a complete list of definitions from the WCAG 2.2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
+<p class="ednote">The definitions sub-sections will be updated by the WCAG2ICT Task Force to include definitions that were added or changed since the 2013 WCAG2ICT Note.</p>
+
 ### Glossary Items that Apply to All Technologies
 
 The following glossary items apply to all technologies and do not require further interpretation for non-web Information and Communications Technologies.
