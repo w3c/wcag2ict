@@ -49,7 +49,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.5](http://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded#intent) (also provided below).
 
-<div class="note">**Note1:** The WCAG 2.2 definition of “[audio description](http://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that audio description is “also called ‘video description’ and ‘descriptive narration’”.</div><div class="note">**Note2:** Secondary or alternate audio tracks are commonly used for this purpose.</div>
+<div class="note">The WCAG 2.2 definition of “[audio description](http://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that audio description is “also called ‘video description’ and ‘descriptive narration’”.</div><div class="note">Secondary or alternate audio tracks are commonly used for this purpose.</div>
 
 #### adaptable
 
@@ -60,12 +60,6 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.1](http://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships#intent) (also provided below).
 
 <div class="note">In software, programmatic determinability is best achieved through the use of [accessibility services provided by platform software](http://w3c.github.io/wcag2ict/#wcag2ict-def_accessibility-services) to enable interoperability between software and assistive technologies and accessibility features of software.</div><div class="note">See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
-
-##### orientation
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
-
-##### identify-input-purpose
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### meaningful-sequence
 
@@ -83,7 +77,10 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">Content that is only used on hardware that is fixed in place OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
 
-##### distinguishable
+##### identify-input-purpose
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+#### distinguishable
 
 In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.4 applies directly as written.
 
@@ -282,6 +279,22 @@ This applies directly as written, and as described in [Intent from Understanding
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.7](http://www.w3.org/WAI/WCAG22/Understanding/focus-visible#intent) (also provided below).
 
+##### focus-appearance
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### focus-not-obscured-minimum
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### dragging-movements
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### target-size-minimum
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+#### input-modalities
+
+In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.5 applies directly as written.
+
 ##### pointer-gestures
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
@@ -370,7 +383,10 @@ With these substitutions, this success criterion would read:
 
 **3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>software programs</INS>](#dfn-set-of-software-programs) are identified consistently.
 
-<div class="note">: See [set of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents) and [set of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div><div class="note">Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
+<div class="note">See [set of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents) and [set of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div><div class="note">Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
+
+##### consistent-help
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 #### input-assistance
 
@@ -404,6 +420,11 @@ With this substitution, it would read:
     
 3.  **Confirmed:** A [mechanism](#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
     
+##### accessible-authentication
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### redundant-entry
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ### robust
 
