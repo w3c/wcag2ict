@@ -1,6 +1,8 @@
 Key Terms
 ---------
 
+<p class="ednote">This section will be updated by the WCAG2ICT Task Force to include definitions that were added or changed since the 2013 WCAG2ICT Note.</p>
+
 Of the 83 glossary terms used in WCAG 2.2 there are two key glossary terms that need to be interpreted significantly differently when applied to non-web ICT. These are: “content” and “user agent”. Further, the glossary term “Web page” in WCAG 2.2 is replaced with newly defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the newly defined terms “set of documents” and “set of software programs”. Finally, as part of addressing the fact that non-Web software doesn't leverage the WCAG 2.2 notion of a user agent, we introduce the new term “accessibility services of platform software”. The remaining 79 glossary terms from WCAG 2.2 are addressed in [Chapter 7 Comments on Definitions in WCAG 2.2 Glossary in Appendix A](http://w3c.github.io/wcag2ict/#comments-on-definitions-in-wcag-2-0-glossary-in-appendix-a). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
 
 ### Accessibility Services of Platform Software
