@@ -41,12 +41,12 @@ Additional supporting documents for WCAG 2.2, such as the [WCAG 2 Overview](http
 
 The following stylistic conventions are used in this document:
 
-*   Quotes from WCAG 2.2 and Understanding WCAG 2.2 are in <blockquote> elements and visually styled as pale yellow inset boxes in slightly smaller text. They are prefaced by a reference to the original source such as “From {reference title} in {document}”.
+*   Quotes from WCAG 2.2 and Understanding WCAG 2.2 are in `<blockquote>` elements and visually styled as pale yellow inset boxes in slightly smaller text. They are prefaced by a reference to the original source such as “From {reference title} in {document}”.
 *   Additional guidance provided by this document begins with the phrase “Additional guidance” and is visually styled in pale blue boxes labeled by a heading having a dark blue background.
-*   Quotes from WCAG 2.2 begin with “From” and the success criterion number and name, and are presented as modified by the advice in this document with the modifications in <ins> elements visually styled as bold red text with dotted underlines.
+*   Quotes from WCAG 2.2 begin with “From” and the success criterion number and name, and are presented as modified by the advice in this document with the modifications in `<ins>` elements visually styled as bold red text with dotted underlines.
 *   Notes are slightly inset and begin with the phrase “Note:”. If there are multiple notes for a specific item, they are numbered, e.g., “Note 1:”, etc.
-*   References to glossary items from WCAG 2.2 are presented in <cite> elements visually styled as ordinary text with a dotted underline, and contain title attributes noting these are WCAG definitions. They turn blue with a yellow background when mouse or keyboard focus is placed over them.
-*   References to glossary items in this document are presented in <cite> elements visually styled as ordinary text with a dashed underline, and contain title attributes noting these are Task Force definitions. They turn green with a yellow background when mouse or keyboard focus is placed over them. Note that some terms defined in WCAG 2.2 are redefined in WCAG2ICT and links are updated accordingly (except in direct quotes).
+*   References to glossary items from WCAG 2.2 are presented in `<cite>` elements visually styled as ordinary text with a dotted underline, and contain title attributes noting these are WCAG definitions. They turn blue with a yellow background when mouse or keyboard focus is placed over them.
+*   References to glossary items in this document are presented in `<cite>` elements visually styled as ordinary text with a dashed underline, and contain title attributes noting these are Task Force definitions. They turn green with a yellow background when mouse or keyboard focus is placed over them. Note that some terms defined in WCAG 2.2 are redefined in WCAG2ICT and links are updated accordingly (except in direct quotes).
 *   Hereafter, the short title “WCAG2ICT” is used to reference this document.
 
 ### Comparison with the 2013 WCAG2ICT Note
