@@ -1,5 +1,10 @@
 Introduction
 ------------
+### Background
+
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+### Guidance in this Document
 
 This document provides informative guidance (guidance that is not normative, and that does not set requirements) with regard to the interpretation and application of [Web Content Accessibility Guidelines (WCAG) 2.2](http://www.w3.org/TR/WCAG22/) \[\[WCAG22\]\] to non-web information and communications technologies (ICT). This document is a proposed update to the [2013 WCAG2ICT Working Group Note](http://www.w3.org/2005/10/Process-20051014/tr#WGNote) (in contrast to WCAG 2.2, which is a W3C Candidate Recommendation). Specifically, this document provides informative guidance on applying WCAG 2.2 Level A and AA success criteria to non-web ICT, specifically to non-web documents and software.
 
@@ -43,3 +48,7 @@ The following stylistic conventions are used in this document:
 *   References to glossary items from WCAG 2.2 are presented in `<cite>` elements visually styled as ordinary text with a dotted underline, and contain title attributes noting these are WCAG definitions. They turn blue with a yellow background when mouse or keyboard focus is placed over them.
 *   References to glossary items in this document are presented in `<cite>` elements visually styled as ordinary text with a dashed underline, and contain title attributes noting these are Task Force definitions. They turn green with a yellow background when mouse or keyboard focus is placed over them. Note that some terms defined in WCAG 2.2 are redefined in WCAG2ICT and links are updated accordingly (except in direct quotes).
 *   Hereafter, the short title “WCAG2ICT” is used to reference this document.
+
+### Comparison with the 2013 WCAG2ICT Note
+
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
