@@ -1,8 +1,10 @@
-Introduction
-------------
+## Introduction
+
 ### Background
 
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+A working group note for W3C on the topic of applying WCAG 2.0 to non-web information and communication technologies (WCAG2ICT) was approved in September of 2013.  The note, Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT) describes how the WCAG 2.0 can be applied to ICT, specifically to non-web documents and software. The note is organized by sections to mirror those found in WCAG 2.0: perceivable, operable, understandable, and robust.  It was intended that the note would help clarify when and how WCAG 2.0 success criteria should be applied: without modification or with modification (with edits and/or notes).  Glossary terms were also reviewed for applicability as written. AAA was not addressed in the final note.
+
+WCAG2ICT has been relied upon in regulations and standards such as:  Section 508 - Application of WCAG 2.0 to non-web ICT (US) and EN 301 549 V3.2.1 (Europe) and other standards that reference and/or incorporate EN 301 549 (e.g. India, Kenya, Australia, etc.).  Section 508 looks to WCAG2ICT for detailed direction in providing specific guidance and exceptions to particular criteria from being applied to non web technology.
 
 ### Guidance in this Document
 
