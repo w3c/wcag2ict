@@ -65,10 +65,17 @@ var respecConfig = {
       		"date": "2002",
       		"title": "Independent Analysis of the ITC Photosensitive Epilepsy Calibration Test Tape"
       	},
-      	
-      	"IEC-4WD": {
+			"UNDERSTANDING-WCAG22" : {
+			"title": "Understanding Web Content Accessibility Guidelines 2.2",
+			"href": "https://www.w3.org/WAI/WCAG22/Understanding/",
+			},
+			"WCAG22-TECHS": {
+				"title": "Techniques for WCAG 2.2",
+				href: "https://www.w3.org/WAI/WCAG22/Techniques/",
+			},
+   	"IEC-4WD": {
       		"date": "May 5, 1998",
       		"title": "IEC/4WD 61966-2-1: Colour Measurement and Management in Multimedia Systems and Equipment - Part 2.1: Default Colour Space - sRGB",
-      	}
-	}
+      	},
+	},
 };
