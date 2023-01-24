@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 32.5.0">
+<meta name="generator" content="ReSpec 32.6.1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 .issue-label{text-transform:initial}
@@ -154,21 +154,31 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "date": "2002",
       "title": "Independent Analysis of the ITC Photosensitive Epilepsy Calibration Test Tape"
     },
+    "UNDERSTANDING-WCAG22": {
+      "title": "Understanding Web Content Accessibility Guidelines 2.2",
+      "href": "https://www.w3.org/WAI/WCAG22/Understanding/",
+      "id": "understanding-wcag22"
+    },
+    "WCAG22-TECHS": {
+      "title": "Techniques for WCAG 2.2",
+      "href": "https://www.w3.org/WAI/WCAG22/Techniques/",
+      "id": "wcag22-techs"
+    },
     "IEC-4WD": {
       "date": "May 5, 1998",
       "title": "IEC/4WD 61966-2-1: Colour Measurement and Management in Multimedia Systems and Equipment - Part 2.1: Default Colour Space - sRGB"
     }
   },
   "lint": false,
-  "publishISODate": "2022-12-09T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 09 December 2022"
+  "publishISODate": "2023-01-24T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 24 January 2023"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2.2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2022-12-09">09 December 2022</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2023-01-24">24 January 2023</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -213,11 +223,10 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <p class="copyright">
     <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a>
     ©
-    2022
+    2022-2023
     
-    <a href="https://www.w3.org/"><abbr title="World Wide Web Consortium">W3C</abbr></a><sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>,
-    <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>,
-    <a href="https://ev.buaa.edu.cn/">Beihang</a>). W3C
+    <a href="https://www.w3.org/">World Wide Web Consortium</a>.
+    <abbr title="World Wide Web Consortium">W3C</abbr><sup>®</sup>
     <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">liability</a>,
     <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">trademark</a> and
     <a rel="license" href="https://www.w3.org/Consortium/Legal/copyright-documents" title="W3C Document License">document use</a> rules apply.
@@ -272,7 +281,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p>This document provides informative guidance (guidance that is not normative, and that does not set requirements) with regard to the interpretation and application of <a href="http://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines (WCAG) 2.2</a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-wcag22" title="Web Content Accessibility Guidelines (WCAG) 2.2">WCAG22</a></cite>] to non-web information and communications technologies (ICT). This document is a proposed update to the <a href="http://www.w3.org/2005/10/Process-20051014/tr#WGNote">2013 WCAG2ICT Working Group Note</a> (in contrast to WCAG 2.2, which is a <abbr title="World Wide Web Consortium">W3C</abbr> Candidate Recommendation). Specifically, this document provides informative guidance on applying WCAG 2.2 Level A and AA success criteria to non-web ICT, specifically to non-web documents and software.</p>
 <p>This document is intended to help clarify how to use WCAG 2.2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual disabilities, and the needs of people with accessibility requirements due to the effects of aging. Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities. Because WCAG 2.2 was developed for the Web, addressing accessibility for non-web documents and software may involve provisions beyond those included in this document. Authors and developers are encouraged to seek relevant advice about current best practices to ensure that non-web documents and software are accessible, as far as possible, to people with disabilities.</p>
 <p>While WCAG 2.2 was designed to be technology-neutral, it assumes the presence of a “user agent” such as a browser, media player, or assistive technology as a means to access web content. Therefore, the application of WCAG 2.2 to documents and software in non-web contexts required some interpretation in order to determine how the intent of each WCAG 2.2 success criterion could be met in these different contexts of use. The bulk of the Task Force's work therefore involved evaluating how each WCAG 2.2 success criterion would apply in the context of non-web ICT, if it were applied to non-web ICT.</p>
-<p>The Task Force found that the majority of success criteria from WCAG 2.2 can apply to non-web documents and software with no or only minimal changes. Specifically, of the thirty-eight Level A and AA success criteria, twenty-six did not include any web related terms and apply directly as written and as described in the “Intent” sections from the updated <a href="http://www.w3.org/WAI/WCAG22/Understanding/">Understanding WCAG 2.2</a> [<cite><a class="bibref respec-offending-element" data-link-type="biblio" href="#bib-understanding-wcag22" title="Reference &quot;[UNDERSTANDING-WCAG22]&quot; not found." id="respec-offender-reference-understanding-wcag22-not-found">UNDERSTANDING-WCAG22</a></cite>]. Thirteen of these twenty-six applied without any additional notes. The other thirteen applied as written but additional notes were also provided for assistance in applying them to either or both non-web documents and software.</p>
+<p>The Task Force found that the majority of success criteria from WCAG 2.2 can apply to non-web documents and software with no or only minimal changes. Specifically, of the thirty-eight Level A and AA success criteria, twenty-six did not include any web related terms and apply directly as written and as described in the “Intent” sections from the updated <a href="http://www.w3.org/WAI/WCAG22/Understanding/">Understanding WCAG 2.2</a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-understanding-wcag22" title="Understanding Web Content Accessibility Guidelines 2.2">UNDERSTANDING-WCAG22</a></cite>]. Thirteen of these twenty-six applied without any additional notes. The other thirteen applied as written but additional notes were also provided for assistance in applying them to either or both non-web documents and software.</p>
 <p>Of the remaining twelve success criteria, the Task Force found that eight of them apply as written when replacing certain Web-specific terms or phrases like “web page(s)” with non-web terms or phrases like “non-web document(s) and software” or “for non-web documents and software that use markup languages, in such a way that…” etc. Additional notes were also provided to assist in the application of these.</p>
 <p>The remaining four success criteria apply in situations when “a set of web pages”, or “multiple web pages” share some characteristic or behavior. In WCAG 2.2 the “unit of conformance” is the web page. While WCAG2ICT is not a standard, and thus conformance does not apply, it is still useful to look at what a “unit of evaluation” would be for non-web ICT. For non-web documents, WCAG2ICT uses a single document as the “unit of evaluation”, as it is the best analog to a web page. This became the basis for the notion of a “<a href="http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents">set of documents</a>”, which is used for the remaining four success criteria which in WCAG speak to “sets of web pages”. For non-web software it wasn't possible to unambiguously carve up software into discrete pieces, and so the “unit of evaluation” for non-web software is the software program. This became the basis for the notion of a “<a href="http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs">set of software programs</a>”, which is used for the remaining four success criteria.</p>
 <p>The 83 glossary terms were also reviewed. 51 applied to non-Web documents and software as written. Another 28 applied with additional notes or edits (largely related to phrases like “Web page(s)”), and the remaining 4 terms were only used in Level AAA success criteria which are not addressed by this Note.</p>
@@ -287,8 +296,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <li>As this document is purely an informative Note about non-web ICT, and not a standard, it doesn't describe how non-web ICT should conform to it.</li>
 </ul>
 </section><section id="document-overview"><div class="header-wrapper"><h3 id="x1-4-document-overview"><bdi class="secno">1.4 </bdi>Document Overview</h3><a class="self-link" href="#document-overview" aria-label="Permalink for Section 1.4"></a></div>
-<p>This document includes excerpted text from WCAG 2.2 principles, guidelines, and success criteria, as quoted from WCAG 2.2 without any changes. It also includes excerpted text from the “Intent” sections of the WCAG 2.2 supporting document <a href="http://www.w3.org/WAI/WCAG22/Understanding/">Understanding WCAG 2.2 (Public Review Draft)</a> [<cite><a class="bibref respec-offending-element" data-link-type="biblio" href="#bib-understanding-wcag22" title="Reference &quot;[UNDERSTANDING-WCAG22]&quot; not found." id="respec-offender-reference-understanding-wcag22-not-found-0">UNDERSTANDING-WCAG22</a></cite>], as clarified based on input from Task Force discussions and responses to public comments after review and approval by the WCAG Working Group. The guidance provided by this document for each success criteria is preceded by a title beginning “Additional Guidance…”. This guidance was created by the WCAG2ICT Task Force, then reviewed and approved by the WCAG Working Group.</p>
-<p>Additional supporting documents for WCAG 2.2, such as the <a href="http://www.w3.org/WAI/intro/wcag.php">WCAG 2 Overview</a>, <a href="http://www.w3.org/WAI/WCAG22/Techniques/">Techniques for WCAG 2.2</a> [<cite><a class="bibref respec-offending-element" data-link-type="biblio" href="#bib-wcag22-techs" title="Reference &quot;[WCAG22-TECHS]&quot; not found." id="respec-offender-reference-wcag22-techs-not-found">WCAG22-TECHS</a></cite>], and <a href="http://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG (Quick Reference)</a>, remain available for web content, but have not been changed to apply to non-web documents and software.</p>
+<p>This document includes excerpted text from WCAG 2.2 principles, guidelines, and success criteria, as quoted from WCAG 2.2 without any changes. It also includes excerpted text from the “Intent” sections of the WCAG 2.2 supporting document <a href="http://www.w3.org/WAI/WCAG22/Understanding/">Understanding WCAG 2.2 (Public Review Draft)</a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-understanding-wcag22" title="Understanding Web Content Accessibility Guidelines 2.2">UNDERSTANDING-WCAG22</a></cite>], as clarified based on input from Task Force discussions and responses to public comments after review and approval by the WCAG Working Group. The guidance provided by this document for each success criteria is preceded by a title beginning “Additional Guidance…”. This guidance was created by the WCAG2ICT Task Force, then reviewed and approved by the WCAG Working Group.</p>
+<p>Additional supporting documents for WCAG 2.2, such as the <a href="http://www.w3.org/WAI/intro/wcag.php">WCAG 2 Overview</a>, <a href="http://www.w3.org/WAI/WCAG22/Techniques/">Techniques for WCAG 2.2</a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-wcag22-techs" title="Techniques for WCAG 2.2">WCAG22-TECHS</a></cite>], and <a href="http://www.w3.org/WAI/WCAG21/quickref/">How to Meet WCAG (Quick Reference)</a>, remain available for web content, but have not been changed to apply to non-web documents and software.</p>
 </section><section id="document-conventions"><div class="header-wrapper"><h3 id="x1-5-document-conventions"><bdi class="secno">1.5 </bdi>Document Conventions</h3><a class="self-link" href="#document-conventions" aria-label="Permalink for Section 1.5"></a></div>
 <p>The following stylistic conventions are used in this document:</p>
 <ul>
@@ -1083,11 +1092,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <section id="references" class="appendix"><div class="header-wrapper"><h2 id="c-references"><bdi class="secno">C. </bdi>References</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix C."></a></div><section id="informative-references"><div class="header-wrapper"><h3 id="c-1-informative-references"><bdi class="secno">C.1 </bdi>Informative references</h3><a class="self-link" href="#informative-references" aria-label="Permalink for Appendix C.1"></a></div>
     
     <dl class="bibliography"><dt id="bib-understanding-wcag22">[UNDERSTANDING-WCAG22]</dt><dd>
-      <em class="respec-offending-element">Reference not found.</em>
+      <a href="https://www.w3.org/WAI/WCAG22/Understanding/"><cite>Understanding Web Content Accessibility Guidelines 2.2</cite></a>. URL: <a href="https://www.w3.org/WAI/WCAG22/Understanding/">https://www.w3.org/WAI/WCAG22/Understanding/</a>
     </dd><dt id="bib-wcag22">[WCAG22]</dt><dd>
       <a href="https://www.w3.org/TR/WCAG22/"><cite>Web Content Accessibility Guidelines (WCAG) 2.2</cite></a>. Charles Adams; Alastair Campbell; Rachael Bradley Montgomery; Michael Cooper; Andrew Kirkpatrick.  W3C. 6 September 2022. W3C Candidate Recommendation. URL: <a href="https://www.w3.org/TR/WCAG22/">https://www.w3.org/TR/WCAG22/</a>
     </dd><dt id="bib-wcag22-techs">[WCAG22-TECHS]</dt><dd>
-      <em class="respec-offending-element">Reference not found.</em>
+      <a href="https://www.w3.org/WAI/WCAG22/Techniques/"><cite>Techniques for WCAG 2.2</cite></a>. URL: <a href="https://www.w3.org/WAI/WCAG22/Techniques/">https://www.w3.org/WAI/WCAG22/Techniques/</a>
     </dd></dl>
   </section></section><p role="navigation" id="back-to-top">
     <a href="#title"><abbr title="Back to Top">↑</abbr></a>
