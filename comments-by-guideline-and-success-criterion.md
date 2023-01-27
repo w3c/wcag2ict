@@ -19,7 +19,9 @@ This applies directly as written, and as described in [Intent from Understanding
   CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.
 </div>
 <div class="note">
+
   See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).
+
 </div>
 
 #### time-based-media
