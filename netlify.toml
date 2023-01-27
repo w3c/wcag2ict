@@ -1,0 +1,14 @@
+[build]
+command = "npx respec --localhost -s index.html -o Overview.html"
+# publish = "_site"
+
+[build.environment]
+RUBY_VERSION = "2.6.2" 
+
+[[redirects]]
+  from = "/"
+  to = "/Overview/"
+
+[dev]
+publish = "_site"
+framework = "#static"
