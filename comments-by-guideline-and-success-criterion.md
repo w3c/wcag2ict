@@ -15,7 +15,12 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.1.1](http://www.w3.org/WAI/WCAG22/Understanding/non-text-content#intent) (also provided below).
 
-<div class="note">CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.</div><div class="note">See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
+<div class="note">
+  CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.
+</div>
+<div class="note">
+  See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).
+</div>
 
 #### time-based-media
 
