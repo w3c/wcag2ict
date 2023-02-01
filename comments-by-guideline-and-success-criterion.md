@@ -103,10 +103,6 @@ Note: for non-web software and non-web documents that present input fields, the 
 Note: See also the discussion on Closed Functionality (https://www.w3.org/TR/wcag2ict/#closed_functionality) in the Introduction.
 </p>
 
-# Success Criteria Problematic for Closed Functionality section (https://w3c.github.io/wcag2ict/#success-criteria-problematic-for-closed-functionality)
-
-- 1.3.5 Identify Input Purpose https://www.w3.org/TR/WCAG22/#identify-input-purpose requires information in a programmatically determinable form.
-
 #### distinguishable
 
 In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.4 applies directly as written.
