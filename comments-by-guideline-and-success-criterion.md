@@ -78,7 +78,34 @@ This applies directly as written, and as described in [Intent from Understanding
 <div class="note">Content that is only used on hardware that is fixed in place OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
 
 ##### identify-input-purpose
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+ **1.3.5: Identify Input Purpose:**
+ 
+ # Success Criterion 1.3.5: Identify Input Purpose (https://www.w3.org/TR/WCAG22/#identify-input-purpose):
+
+The purpose of each input field collecting information about the user can be programmatically determined when:
+
+- The input field serves a purpose identified in the Input Purposes for user interface components section (https://www.w3.org/TR/WCAG22/#input-purposes); and
+- The content is implemented using technologies with support for identifying the expected meaning for form input data.
+
+# Additional Guidance When Applying Success Criterion 1.3.5 to Non-Web Documents and Software:
+This applies directly as written, and as described in Intent from Understanding Success Criterion 1.3.5 (https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html) (also provided below).
+
+<p class="note" >
+Note: non-web software and non-web documents that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.
+</p>
+
+<p class="note">
+Note: for non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms provided by the technology used.
+</p>
+
+<p class="note"> 
+Note: See also the discussion on Closed Functionality (https://www.w3.org/TR/wcag2ict/#closed_functionality) in the Introduction.
+</p>
+
+# Success Criteria Problematic for Closed Functionality section (https://w3c.github.io/wcag2ict/#success-criteria-problematic-for-closed-functionality)
+
+- 1.3.5 Identify Input Purpose https://www.w3.org/TR/WCAG22/#identify-input-purpose requires information in a programmatically determinable form.
 
 #### distinguishable
 
