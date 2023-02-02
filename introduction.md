@@ -55,7 +55,7 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-<p class="ednote">This section will be updated as the WCAG2ICT Task Force incorporates new Guidelines, new and changes Success Criteria and updates major sections of the document. This will help focus reviews to only the sections that are ready for review. We have begun incorporating new WCAG 2.1 content.</p>
+<p class="ednote">This section will be updated as the WCAG2ICT Task Force incorporates new Guidelines, new and changed Success Criteria, and updates major sections of the document. This will help focus reviews to only the sections that are ready for review. We have begun incorporating new WCAG 2.1 content.</p>
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document:
 
