@@ -80,7 +80,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### identify-input-purpose
 
 ###### Additional Guidance When Applying Success Criterion 1.3.5 to Non-Web Documents and Software
-This applies directly as written, and as described in Intent from Understanding Success Criterion 1.3.5 (https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html) (also provided below).
+This applies directly as written, and as described in Intent from [Understanding Success Criterion 1.3.5](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html) (also provided below).
 
 <div class="note">
 Non-web software and non-web documents that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.
