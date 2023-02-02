@@ -1,5 +1,4 @@
-Comments by Guideline and Success Criterion
--------------------------------------------
+## Comments by Guideline and Success Criterion
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2.2. The text of each item from WCAG 2.2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. Finally, the “Intent” from Understanding WCAG 2.2 is copied as quoted text; the Task Force makes no substitutions or edits in this text. In visual presentations, the WCAG2ICT guidance is set out in a box with a blue bar to the left, to highlight that this is the content specific to this document.
 
@@ -115,15 +114,19 @@ This applies directly as written, and as described in [Intent from Understanding
 <div class="note">See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
 
 ##### reflow
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### non-text-contrast
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### text-spacing
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### content-on-hover-or-focus
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ### operable
@@ -151,6 +154,7 @@ With these substitutions, it would read:
 <div class="note">Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS>, all content on the <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div><div class="note">Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</div>
 
 ##### character-key-shortcuts
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 #### enough-time
@@ -165,18 +169,12 @@ With this substitution, it would read:
 
 **2.2.1 Timing Adjustable:** For each time limit that is set by <INS>[non-web documents](#dfn-non-web-documents) or [software](#dfn-software)</INS>, at least one of the following is true: (Level A)
 
-*   **Turn off:** The user is allowed to turn off the time limit before encountering it; or
-    
-*   **Adjust:** The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or
-    
-*   **Extend:** The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, “press the space bar”), and the user is allowed to extend the time limit at least ten times; or
-    
-*   **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
-    
-*   **Essential Exception:** The time limit is [essential](#dfn-essential) and extending it would invalidate the activity; or
-    
-*   **20 Hour Exception:** The time limit is longer than 20 hours.
-    
+-  **Turn off:** The user is allowed to turn off the time limit before encountering it; or
+-  **Adjust:** The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or
+-  **Extend:** The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, “press the space bar”), and the user is allowed to extend the time limit at least ten times; or
+-  **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
+-  **Essential Exception:** The time limit is [essential](#dfn-essential) and extending it would invalidate the activity; or
+- **20 Hour Exception:** The time limit is longer than 20 hours.  
 
 <div class="note">This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with [Success Criterion 3.2.1](http://www.w3.org/TR/WCAG22/#on-focus), which puts limits on changes of content or context as a result of user action.</div>
 
@@ -188,11 +186,9 @@ With this substitution, it would read:
 
 **2.2.2 Pause, Stop, Hide:** For moving, [blinking](#dfn-blinking), scrolling, or auto-updating information, all of the following are true: (Level A)
 
-*   **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to [pause](#dfn-pause), stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is [essential](#dfn-essential); and
+-  **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to [pause](#dfn-pause), stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is [essential](#dfn-essential); and
+-  **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
     
-*   **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
-    
-
 <div class="note">For requirements related to flickering or flashing content, refer to [Guideline 2.3](http://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div><div class="note">Since any [content](#dfn-content) that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[non-web documents](#dfn-non-web-documents) and [software](#dfn-software)</INS>, all content on the <INS>[non-web documents](#dfn-non-web-documents) and [software](#dfn-software)</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div><div class="note">[Content](#dfn-Content) that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div><div class="note">An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that [content](#dfn-content) was frozen or broken.</div><div class="note">While the success criteria uses the term “information”, the WCAG 2.2 Intent section makes it clear that this is to be applied to all content. Any [content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content), whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</div>
 
 #### seizures-and-physical-reactions
@@ -280,15 +276,19 @@ This applies directly as written, and as described in [Intent from Understanding
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.7](http://www.w3.org/WAI/WCAG22/Understanding/focus-visible#intent) (also provided below).
 
 ##### focus-appearance
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### focus-not-obscured-minimum
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### dragging-movements
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### target-size-minimum
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 #### input-modalities
@@ -296,9 +296,11 @@ This applies directly as written, and as described in [Intent from Understanding
 In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.5 applies directly as written.
 
 ##### pointer-gestures
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### pointer-cancellation
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### label-in-name
@@ -379,13 +381,14 @@ With these substitutions, this success criterion would read:
 
 **3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>non-web documents</INS>](#dfn-set-of-non-web-documents) are identified consistently.
 
-(for programs)
+(for non-web software)
 
 **3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>software programs</INS>](#dfn-set-of-software-programs) are identified consistently.
 
 <div class="note">See [set of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents) and [set of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div><div class="note">Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
 
 ##### consistent-help
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 #### input-assistance
@@ -414,11 +417,9 @@ With this substitution, it would read:
 
 **3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>[non-web documents](#dfn-non-web-documents) or [software](#dfn-software)</INS> that cause [legal commitments](#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true: (Level AA)
 
-1.  **Reversible:** Submissions are reversible.
-    
-2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-errors) and the user is provided an opportunity to correct them.
-    
-3.  **Confirmed:** A [mechanism](#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
+1.  **Reversible:** Submissions are reversible.    
+1.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-errors) and the user is provided an opportunity to correct them.
+1.  **Confirmed:** A [mechanism](#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
     
 ##### accessible-authentication
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
