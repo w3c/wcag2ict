@@ -59,7 +59,7 @@ The following stylistic conventions are used in this document:
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document:
 
-* A [Background](https://w3c.github.io/wcag2ict/#background) section to explain the history and known uses of WCAG2ICT
+* New [Background](https://w3c.github.io/wcag2ict/#background) section to explain the history and known uses of WCAG2ICT
 * New WCAG 2.1 Success Criteria and Guidelines
     * [Success Criterion 1.3.4 Orientation](https://w3c.github.io/wcag2ict/#orientation)
     * [Success Criterion 1.3.5 Identify Input Purpose](https://w3c.github.io/wcag2ict/#identify-input-purpose)
