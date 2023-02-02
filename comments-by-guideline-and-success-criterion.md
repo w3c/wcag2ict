@@ -79,29 +79,20 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ##### identify-input-purpose
 
- **1.3.5: Identify Input Purpose:**
- 
- # Success Criterion 1.3.5: Identify Input Purpose (https://www.w3.org/TR/WCAG22/#identify-input-purpose):
-
-The purpose of each input field collecting information about the user can be programmatically determined when:
-
-- The input field serves a purpose identified in the Input Purposes for user interface components section (https://www.w3.org/TR/WCAG22/#input-purposes); and
-- The content is implemented using technologies with support for identifying the expected meaning for form input data.
-
-# Additional Guidance When Applying Success Criterion 1.3.5 to Non-Web Documents and Software:
+###### Additional Guidance When Applying Success Criterion 1.3.5 to Non-Web Documents and Software
 This applies directly as written, and as described in Intent from Understanding Success Criterion 1.3.5 (https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html) (also provided below).
 
-<p class="note" >
-Note: non-web software and non-web documents that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.
-</p>
+<div class="note">
+Non-web software and non-web documents that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.
+</div>
 
-<p class="note">
-Note: for non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms provided by the technology used.
-</p>
+<div class="note">
+For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms provided by the technology used.
+</div>
 
-<p class="note"> 
-Note: See also the discussion on Closed Functionality (https://www.w3.org/TR/wcag2ict/#closed_functionality) in the Introduction.
-</p>
+<div class="note"> 
+See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).
+</div>
 
 #### distinguishable
 
