@@ -66,4 +66,4 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 2.1.4 Character Key Shortcuts](https://w3c.github.io/wcag2ict/#character-key-shortcuts)
     * [Guideline 2.5 Input Modalities](https://w3c.github.io/wcag2ict/#input-modalities)
 * New term definitions
-    * [keyboard shortcut]([https://www.w3.org/TR/WCAG22/](http://w3c.github.io/wcag2ict/#wcag2ict-def_keyboard-shortcuts)
+    * [keyboard shortcut](http://w3c.github.io/wcag2ict/#wcag2ict-def_keyboard-shortcuts)
