@@ -37,7 +37,7 @@ The following are out of scope for this document:
 
 ### Document Overview
 
-This document includes text quoted from the WCAG 2.2 principles, guidelines, and success criteria, without any changes. It also includes excerpted text from the “Intent” sections of the WCAG 2.2 supporting document [Understanding WCAG 2.2 (Public Review Draft)](http://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\]. The guidance provided by this document for each success criterion is preceded by a title beginning with “Additional Guidance…”. This guidance was created by the WCAG2ICT Task Force, then reviewed and approved by the AG Working Group.
+This document includes text quoted from the WCAG 2.2 principles, guidelines, and success criteria, without any changes. It also includes excerpted text from the “Intent” sections of the WCAG 2.2 supporting document [Understanding WCAG 2.2 (Public Review Draft)](http://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\]. The guidance provided by this document for each success criterion is preceded by a heading beginning with “Additional Guidance…”. This guidance was created by the WCAG2ICT Task Force, then reviewed and approved by the AG Working Group.
 
 Additional supporting documents for WCAG 2.2, such as the [WCAG 2 Overview](http://www.w3.org/WAI/intro/wcag.php), [Techniques for WCAG 2.2](http://www.w3.org/WAI/WCAG22/Techniques/) \[\[WCAG22-TECHS\]\], and [How to Meet WCAG (Quick Reference)](http://www.w3.org/WAI/WCAG21/quickref/), remain available for web content, but have not been changed to apply to non-web documents and software.
 
