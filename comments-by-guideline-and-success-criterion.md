@@ -78,7 +78,21 @@ This applies directly as written, and as described in [Intent from Understanding
 <div class="note">Content that is only used on hardware that is fixed in place OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
 
 ##### identify-input-purpose
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+###### Additional Guidance When Applying Success Criterion 1.3.5 to Non-Web Documents and Software
+This applies directly as written, and as described in Intent from [Understanding Success Criterion 1.3.5](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html) (also provided below).
+
+<div class="note">
+Non-web software and non-web documents that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.
+</div>
+
+<div class="note">
+For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms provided by the technology used.
+</div>
+
+<div class="note"> 
+See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).
+</div>
 
 #### distinguishable
 
