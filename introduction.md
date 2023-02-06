@@ -31,7 +31,8 @@ The following are out of scope for this document:
 
 *   This document does not seek to determine which WCAG 2.2 provisions (principles, guidelines, or success criteria) should or should not apply to non-web documents and software, but rather how they would apply, if applied.
 *   This document does not propose changes to WCAG 2.2 or its supporting documents; it does not include interpretations for implementing WCAG 2.2 in web technologies. During the development of this document, the WCAG2ICT Task Force did seek clarification on the intent of a number of the success criteria, which led to clarifications in the Understanding WCAG 2.2 document.
-*   This document is not sufficient by itself to ensure accessibility in non-web documents and software. As a web standard, WCAG does not fully cover all accessibility requirements for non-user interface aspects of platforms, user-interface components as individual items, nor closed product software (where there is no Assistive Technology to communicate programmatic information). 
+*   This document is not sufficient by itself to ensure accessibility in non-web documents and software. As a web standard, WCAG does not fully cover all accessibility requirements for non-user interface aspects of platforms, user-interface components as individual items, nor closed product software (where there is no Assistive Technology to communicate programmatic information).
+*   This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2.2 is built do not apply to these.
 *   This document does not provide supporting techniques for implementing WCAG 2.2 in non-web documents and software.
 *   This document is purely an informative Note about non-web ICT, not a standard, so it does not describe how non-web ICT should conform to it.
 
