@@ -166,18 +166,11 @@ With these substitutions, it would read:
 
 ##### character-key-shortcuts
 
-**2.1.4 Character Key Shortcuts:** If a [keyboard shortcut](https://www.w3.org/TR/WCAG21/#dfn-keyboard-shortcuts) is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:
+###### Additional Guidance When Applying Success Criterion 2.1.4 to Non-Web Documents and Software
 
-- Turn off: A [mechanism](https://www.w3.org/TR/WCAG21/#dfn-mechanism) is available to turn the shortcut off;
-- Remap: A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc).
-- Active only on focus: The keyboard shortcut for a user [interface component](https://www.w3.org/TR/WCAG21/#dfn-user-interface-components) is only active when that component has focus.
-
-###### Additional Guidance When Applying Success Criterion 2.1.4 to Non-Web Documents and Software:
-
-- This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.4](https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html) (also provided below).
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.4](https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html) (also provided below).
 
 <div class="note">The WCAG2ICT interpretation is that the WCAG definition of a keyboard shortcut does not include a long press of a key (2 seconds or more) or other accessibility features provided by the platform. See the [keyboard shortcut](https://w3c.github.io/wcag2ict/#dfn-keyboard-shortcuts) definition for more details.</div>
-
 
 #### enough-time
 
