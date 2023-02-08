@@ -234,6 +234,14 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
 
 Please see the note in the [guidance for Success Criterion 2.1.1](http://w3c.github.io/wcag2ict/#success-criterion-2-1-1-keyboard-level-a) that uses this definition and which reads: “This does not imply that software must directly support a keyboard or ‘keyboard interface’. Nor does it imply that software must provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
 
+#### dfn-keyboard-shortcuts
+
+##### Additional Guidance When Applying the Definition of “keyboard shortcut” to Non-Web Documents and Software:
+
+This applies directly as written and as described in the WCAG 2.2 glossary.
+
+<div class="note"> A key command issued by a long press of a key (2 seconds or more) is not considered a keyboard shortcut. Such commands often occur when there are limited keys, or no modifier keys, present on a device. </div>
+
 #### dfn-labels
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web Content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
