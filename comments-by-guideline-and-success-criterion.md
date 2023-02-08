@@ -165,7 +165,34 @@ With these substitutions, it would read:
 <div class="note">Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS>, all content on the <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div><div class="note">Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</div>
 
 ##### character-key-shortcuts
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+**2.1.4 Character Key Shortcuts:** If a [keyboard shortcut](https://www.w3.org/TR/WCAG21/#dfn-keyboard-shortcuts) is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:
+
+- Turn off: A [mechanism](https://www.w3.org/TR/WCAG21/#dfn-mechanism) is available to turn the shortcut off;
+- Remap: A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc).
+- Active only on focus: The keyboard shortcut for a user [interface component](https://www.w3.org/TR/WCAG21/#dfn-user-interface-components) is only active when that component has focus.
+
+##### Intent
+
+The intent of this Success Crition is to reduce accidental activation of keyboard shortcuts. Character key shortcuts work well for many keyboard users, but are inappropriate and frustrating for speech input users — whose means of input is strings of letters — and for keyboard users who are prone to accidentally hit keys. To rectify this issue, authors need to allow users to turn off or reconfigure shortcuts that are made up of only character keys.
+
+Note that this success criterion doesn't affect components such as listboxes and drop-down menus. Although these components contain values (words) that may be selected by one or more character keys, the shortcuts are only active when the components have focus. Other components such as menus may be accessed or opened with a single non-character shortcut (e.g., Alt or Alt+F) before pressing a single character key to select an item. This makes the full path to invoking a menu a two-step shortcut that includes a non-printable key. Accesskeys are also not affected because they include modifier keys.
+
+Speech Input users generally work in a single mode where they can use a mix of dictation and speech commands. This works well because the user knows to pause before and after commands, and commands are usually at least two words long. So, for instance, a user might say a bit of dictation, such as "the small boat", then pause, and say a command to delete that dictation, such as "Delete Line". In contrast, if the user were to say the two phrases together without a pause, the whole phrase would come out as dictation (i.e., "the small boat delete line"). Although speech input programs often include modes that listen only for dictation or only for commands, most speech users use the all-encompassing mode all the time because it is a much more efficient workflow. It could decrease command efficiency significantly if users were to change to command mode and back before and after issuing each command.
+
+Speech users can also speak most keyboard commands (e.g., "press Control Foxtrot") without any problems. If the website or app is keyboard enabled, the speech user can also write a native speech macro that calls the keyboard command, such as "This Print" to carry out Ctrl+P.
+
+Single-key shortcuts are the exception. While using single letter keys as controls might be appropriate and efficient for many keyboard users, single-key shortcuts are disastrous for speech users. The reason for this is that when only a single key is used to trip a command, a spoken word can become a barrage of single-key commands if the cursor focus happens to be in the wrong place.
+
+For example, a speech-input user named Kim has her cursor focus in the main window of a web mail application that uses common keyboard shortcuts to navigate ("k"), archive ("y") and mute messages ("m"). A coworker named Mike enters her office and says "Hey Kim" and her microphone picks that up. The Y of "hey" archives the current message. K in "Kim" moves down one conversation and M mutes a message or thread. And, if Kim looks up and says "Hey Mike" without remembering to turn off the microphone, the same three things happen in a different sequence.
+
+A user interacting with a webpage or web app that doesn't use single-character shortcuts doesn't have this problem. Inadvertent strings of characters from the speech application are not interpreted as shortcuts if a modifier key is required. A speech user filling in a text input form may find that a phrase that is accidentally picked up by the speech microphone results in stray text being entered into the field, but that is easily seen and undone. The Resources section of this page contains links to videos demonstrating these types of issues.
+
+##### Benefits
+
+- Speech users will be able to turn off single-key shortcuts so they can avoid accidentally firing batches of them at once. This will allow speech users to make full use of programs that offer single-key shortcuts to keyboard users.
+- Keyboard-only users who have dexterity challenges can also be prone to accidentally hitting keys. Those users would be able to avoid problematic single character shortcuts by turning them off or modifying them to include at least one non-character key.
+- Allowing _all_ shortcut keys to be remapped can help users with some cognitive disabilities, since the same shortcuts can be assigned to perform the same actions across different applications.
 
 #### enough-time
 
