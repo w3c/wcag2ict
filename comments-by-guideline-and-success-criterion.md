@@ -165,7 +165,12 @@ With these substitutions, it would read:
 <div class="note">Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS>, all content on the <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div><div class="note">Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</div>
 
 ##### character-key-shortcuts
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+###### Additional Guidance When Applying Success Criterion 2.1.4 to Non-Web Documents and Software
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.4](https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html) (also provided below).
+
+<div class="note">The WCAG2ICT interpretation is that the WCAG definition of a keyboard shortcut does not include a long press of a key (2 seconds or more) or other accessibility features provided by the platform. See the [keyboard shortcut](https://w3c.github.io/wcag2ict/#dfn-keyboard-shortcuts) definition for more details.</div>
 
 #### enough-time
 
