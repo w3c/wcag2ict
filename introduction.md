@@ -67,3 +67,5 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Guideline 2.5 Input Modalities](https://w3c.github.io/wcag2ict/#input-modalities)
 * New term definitions
     * [keyboard shortcut](http://w3c.github.io/wcag2ict/#wcag2ict-def_keyboard-shortcuts)
+* Updated sections
+    <div class="note">This will eventually list sections with major updates that are ready for review.</div>
