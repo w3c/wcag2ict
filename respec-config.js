@@ -39,6 +39,31 @@ var respecConfig = {
 			w3cid: 139781,
 		}
 	],
+	
+	formerEditors: [
+		{
+			name: "Michael Cooper",
+			company: "W3C",
+			companyURI: "http://https://www.w3.org/",
+		},
+		{
+			name: Peter Korn",
+			company:"Amazon",
+			companyURI: "https://www.amazon.com/",
+			
+		},
+		{
+			name: "Andi Snow-Weaver",
+			company: "IBM",
+			companyURI: "http://www.ibm.com/",
+		},
+		{
+			name: "Gregg Vanderheiden",
+			company: "Invited Expert, Trace Research and Development Center",
+		}
+		],
+	
+	
 	//authors:  [
 	//    { name: "Your Name", url: "http://example.org/",
 	//      company: "Your Company", companyURI: "http://example.com/" },
