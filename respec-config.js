@@ -47,7 +47,7 @@ var respecConfig = {
 			companyURI: "http://https://www.w3.org/",
 		},
 		{
-			name: Peter Korn",
+			name: "Peter Korn",
 			company:"Amazon",
 			companyURI: "https://www.amazon.com/",
 			
