@@ -324,7 +324,7 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### motion-actuation
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.4] (https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html) (also provided below).
 
 ### understandable
 
