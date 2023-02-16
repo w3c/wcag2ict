@@ -55,4 +55,17 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+<p class="ednote">The WCAG2CIT Task Force has begun incorporating new WCAG 2.1 content. This section will be updated as we incorporate new Guidelines, new and changed Success Criteria and term definitions, and make updates to other major sections of the document. This will help readers to focus reviews to sections that are ready. </p>
+
+The following changes and additions have been made to update the 2013 WCAG2ICT document:
+
+* New [Background](https://w3c.github.io/wcag2ict/#background) section to explain the history and known uses of WCAG2ICT
+* New WCAG 2.1 Success Criteria and Guidelines
+    * [Success Criterion 1.3.4 Orientation](https://w3c.github.io/wcag2ict/#orientation)
+    * [Success Criterion 1.3.5 Identify Input Purpose](https://w3c.github.io/wcag2ict/#identify-input-purpose)
+    * [Success Criterion 2.1.4 Character Key Shortcuts](https://w3c.github.io/wcag2ict/#character-key-shortcuts)
+    * [Guideline 2.5 Input Modalities](https://w3c.github.io/wcag2ict/#input-modalities)
+* New term definitions
+    * [keyboard shortcut](http://w3c.github.io/wcag2ict/#wcag2ict-def_keyboard-shortcuts)
+* Updated sections
+    <div class="note">This will eventually list sections with major updates that are ready for review.</div>
