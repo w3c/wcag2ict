@@ -10,7 +10,7 @@ WCAG2ICT has been relied upon in regulations and legislation.  One example is EN
 
 ### Guidance in this Document
 
-x<div style="ednote">This section contains a first pass of updates. It will be re-examined once the Task Force has finished analyzing all of the new WCAG criteria to ensure the summarization of applicability of WCAG criteria to non-web documents and software is accurate.</div>
+<div class="ednote">This section contains a first pass of updates. It will be re-examined once the Task Force has finished analyzing all of the new WCAG criteria to ensure the summarization of applicability of WCAG criteria to non-web documents and software is accurate.</div>
 
 This document provides informative guidance (guidance that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and that does not set requirements) with regard to the interpretation and application of [Web Content Accessibility Guidelines (WCAG) 2.2](http://www.w3.org/TR/WCAG22/) \[\[WCAG22\]\] to non-web information and communications technologies (ICT). This document is a [Working Group Note](https://www.w3.org/2021/Process-20211102/#WGNote) (in contrast to WCAG 2.1 and WCAG 2.2, which are W3C Recommendations).  Specifically, this document provides informative guidance on applying WCAG 2.2 Level A and AA success criteria to non-web ICT, specifically to non-web documents and software.
 
@@ -45,7 +45,7 @@ This document includes text quoted from the WCAG 2.2 principles, guidelines, and
 Additional supporting documents for WCAG 2.2, such as the [WCAG 2 Overview](http://www.w3.org/WAI/intro/wcag.php), [Techniques for WCAG 2.2](http://www.w3.org/WAI/WCAG22/Techniques/) \[\[WCAG22-TECHS\]\], and [How to Meet WCAG (Quick Reference)](http://www.w3.org/WAI/WCAG21/quickref/), remain available for web content, but have not been changed to apply to non-web documents and software.
 
 ### Document Conventions
-<div style="ednote">The visual styling and programmatic structure details for calling out content in this section will be updated once the details have been worked out.</div>
+<div class="ednote">The visual styling and programmatic structure details for calling out content in this section will be updated once the details have been worked out.</div>
 
 The following stylistic conventions are used in this document:
 
