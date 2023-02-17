@@ -68,8 +68,11 @@ This document does not provide guidance on applying AAA Success Criteria to non-
 
 *   blocks of text
 *   context sensitive help
+*   motion animation
+*   region
 *   section
 *   supplemental content
+*   user inactivity
 
 ### Glossary Items with Specific Guidance
 
