@@ -85,25 +85,25 @@ With these substitutions and addition, it would read:
 
 <DL><DT>accessibility supported</DT><DD>
 
-supported by users' [assistive technologies](#dfn-assistive-technologies) as well as the accessibility features in <INS>[user agents](#dfn-user-agents) or other [software](#dfn-software)</INS>
+supported by users' [assistive technologies](#dfn-assistive-technologies) as well as the accessibility features in <INS>**[[user agents](#dfn-user-agents) or other [software](#dfn-software)]**</INS>
 
-To qualify as an accessibility-supported use of a <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS> [technology](#dfn-technologies) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS> [technology](#dfn-technologies) (or feature):
+To qualify as an accessibility-supported use of a <INS>**[[non-web document](#dfn-non-web-document) or [software](#dfn-software)]**</INS> [technology](#dfn-technologies) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>**[[non-web document](#dfn-non-web-document) or [software](#dfn-software)]**</INS> [technology](#dfn-technologies) (or feature):
 
-1.  **The way that the <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software) [technology](#dfn-technologies)</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](#dfn-human-language) of the [content](#dfn-content),
+1.  **The way that the <INS>[[non-web document](#dfn-non-web-document) or [software](#dfn-software) [technology](#dfn-technologies)]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](#dfn-human-language) of the [content](#dfn-content),
     
     **AND**
     
-2.  **The <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS> [technology](#dfn-technologies) must have accessibility-supported user agents <INS>or other [software](#dfn-software)</INS> that are available to users.** This means that at least one of the following four statements is true:
+2.  **The <INS>[[non-web document](#dfn-non-web-document) or [software](#dfn-software)]</INS> [technology](#dfn-technologies) must have accessibility-supported user agents <INS>[or other [software](#dfn-software)]</INS> that are available to users.** This means that at least one of the following four statements is true:
     
-    1.  The [technology](#dfn-technologies) is supported natively in widely-distributed user agents <INS>or other [software](#dfn-software)</INS> that are also accessibility supported (such as HTML and CSS);
+    1.  The [technology](#dfn-technologies) is supported natively in widely-distributed user agents <INS>**[or other [software](#dfn-software)]**</INS> that are also accessibility supported (such as HTML and CSS);
         
         **OR**
         
-    2.  The [technology](#dfn-technologies) is supported in a widely-distributed plug-in <INS>or other software extension</INS> that is also accessibility supported;
+    2.  The [technology](#dfn-technologies) is supported in a widely-distributed plug-in <INS>**[or other software extension]**</INS> that is also accessibility supported;
         
         **OR**
         
-    3.  The [content](#dfn-content) is available in a closed environment, such as a university or corporate network, where the user agent <INS>or other [software](#dfn-software)</INS> required by the technology and used by the organization is also accessibility supported;
+    3.  The [content](#dfn-content) is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other [software](#dfn-software)]**</INS> required by the technology and used by the organization is also accessibility supported;
         
         **OR**
         
@@ -116,7 +116,7 @@ To qualify as an accessibility-supported use of a <INS>[non-web document](#dfn-n
 
 <div class="note">
 
-<INS>The concepts behind the five Notes and in [Understanding Accessibility Supported](http://www.w3.org/WAI/WCAG22/Understanding/conformance#accessibility-support) are applicable to web technologies. The same or similar factors are applicable for non-web technologies.</INS></div></DD></DL>
+<INS>**[The concepts behind the five Notes and in [Understanding Accessibility Supported](http://www.w3.org/WAI/WCAG22/Understanding/conformance#accessibility-support) are applicable to web technologies. The same or similar factors are applicable for non-web technologies.]**</INS></div></DD></DL>
 
 #### dfn-ambiguous-to-users-in-general
 
@@ -128,11 +128,12 @@ With this substitution, it would read:
 
 <DL><DT>ambiguous to users in general</DT><DD>
 
-the purpose cannot be determined from the link and all information of the <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS> presented to the user simultaneously with the link (i.e., readers without disabilities would not know what a link would do until they activated it)
+the purpose cannot be determined from the link and all information of the <INS>**[[non-web document](#dfn-non-web-document) or [software](#dfn-software)]**</INS> presented to the user simultaneously with the link (i.e., readers without disabilities would not know what a link would do until they activated it)
 
 <div class="example">
 
-**Example:** The word guava in the following sentence “One of the notable exports is guava” is a link. The link could lead to a definition of guava, a chart listing the quantity of guava exported or a photograph of people harvesting guava. Until the link is activated, all readers are unsure and the person with a disability is not at any disadvantage.</div></DD></DL>
+**Example:** The word guava in the following sentence “One of the notable exports is guava” is a link. The link could lead to a definition of guava, a chart listing the quantity of guava exported or a photograph of people harvesting guava. Until the link is activated, all readers are unsure and the person with a disability is not at any disadvantage.</div>
+</DD></DL>
 
 #### dfn-assistive-technologies
 
@@ -144,17 +145,17 @@ With these substitutions, it would read:
 
 <DL><DT>assistive technology (as used in this document)</DT><DD>
 
-hardware and/or software that acts <INS>stand-alone</INS>, or along with <INS>mainstream information and communication technologies (ICT)</INS>, to provide functionality to meet the requirements of users with disabilities that go beyond those offered by <INS>mainstream ICT</INS>
+hardware and/or software that acts <INS>**[stand-alone]**</INS>, or along with <INS>**[mainstream information and communication technologies (ICT)]**</INS>, to provide functionality to meet the requirements of users with disabilities that go beyond those offered by <INS>**[mainstream ICT]**</INS>
 
 <div class="note">
 
 Functionality provided by assistive technology includes alternative presentations (e.g., as synthesized speech or magnified content), alternative input methods (e.g., voice), additional navigation or orientation mechanisms, and content transformations (e.g., to make tables more accessible).</div>
 <div class="note">
 
-Assistive technologies often communicate data and messages with <INS>mainstream ICTs</INS> by using and monitoring APIs.</div>
+Assistive technologies often communicate data and messages with <INS>**[mainstream ICTs]**</INS> by using and monitoring APIs.</div>
 <div class="note">
 
-The distinction between <INS>mainstream ICTs</INS> and assistive technologies is not absolute. Many <INS>mainstream ICTs</INS> provide some features to assist individuals with disabilities. The basic difference is that <INS>mainstream ICTs</INS> target broad and diverse audiences that usually include people with and without disabilities. Assistive technologies target narrowly defined populations of users with specific disabilities. The assistance provided by an assistive technology is more specific and appropriate to the needs of its target users. The <INS>mainstream ICT</INS> may provide important functionality to assistive technologies like retrieving <INS>[content](#dfn-content)</INS> from program objects or parsing markup into identifiable bundles.</div>
+The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technologies is not absolute. Many <INS>**[mainstream ICTs]**</INS> provide some features to assist individuals with disabilities. The basic difference is that <INS>**[mainstream ICTs]**</INS> target broad and diverse audiences that usually include people with and without disabilities. Assistive technologies target narrowly defined populations of users with specific disabilities. The assistance provided by an assistive technology is more specific and appropriate to the needs of its target users. The <INS>**[mainstream ICT]**</INS> may provide important functionality to assistive technologies like retrieving <INS>**[[content](#dfn-content)]**</INS> from program objects or parsing markup into identifiable bundles.</div>
 <div class="example">
 
 **Example:** Assistive technologies that are important in the context of this document include the following:
@@ -183,7 +184,7 @@ With this substitution, it would read:
 
 <DL><DT>changes of context</DT><DD>
 
-major changes in the content of the <INS>[non-web document](#dfn-non-web-document) or [content](#dfn-content) presented by [software](#dfn-software)</INS> that, if made without user awareness, can disorient users who are not able to view the entire <INS>[non-web document](#dfn-non-web-document) or [content](#dfn-content) presented by [software](#dfn-software)</INS> simultaneously
+major changes in the content of the <INS>**[[non-web document](#dfn-non-web-document) or [content](#dfn-content) presented by [software](#dfn-software)]**</INS> that, if made without user awareness, can disorient users who are not able to view the entire <INS>**[[non-web document](#dfn-non-web-document) or [content](#dfn-content) presented by [software](#dfn-software)]**</INS> simultaneously
 
 Changes in context include changes of:
 
@@ -193,7 +194,7 @@ Changes in context include changes of:
     
 3.  focus;
     
-4.  [content](#dfn-content) that changes the meaning of the <INS>[non-web document](#dfn-non-web-document) or [content](#dfn-content) presented by [software](#dfn-software)</INS>.  
+4.  [content](#dfn-content) that changes the meaning of the <INS>**[[non-web document](#dfn-non-web-document) or [content](#dfn-content) presented by [software](#dfn-software)]**</INS>.  
 
 <div class="note">
 
@@ -212,7 +213,7 @@ A change in the user agent might include bringing up a new window, or might be a
 
 The guidance in this document does not use the term “conformance”.
 
-See [Section 6 Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-on-conformance).
+See the section [Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-on-conformance).
 
 #### dfn-conforming-alternate-versions
 
@@ -220,13 +221,13 @@ See [Section 6 Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-
 
 The guidance in this document does not use the term “conforming alternate version”.
 
-See [Section 6 Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-on-conformance).
+See the section [Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-on-conformance).
 
 #### content (Web content)
 
 ##### Guidance When Applying “content (Web Content)” to Non-Web Documents and Software
 
-See the [guidance on content in the Key Terms section](http://w3c.github.io/wcag2ict/#wcag2ict-def_content-on-and-off-the-web).
+See the guidance on [content in the Key Terms section](#content-on-and-off-the-web).
 
 #### dfn-contrast-ratio
 
@@ -260,7 +261,7 @@ information provided by the user that is not accepted
 
 <div class="note">This includes:
 
-1.  Information that is required by the <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS> but omitted by the user
+1.  Information that is required by the <INS>**[[non-web document](#dfn-non-web-document) or [software](#dfn-software)]**</INS> but omitted by the user
     
 2.  Information that is provided by the user but that falls outside the required data format or values
 </div>    
@@ -299,7 +300,7 @@ With this substitution, it would read:
 
 <div class="note">
 
-A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>or by accessibility features of software</INS>. In many (but not all) cases the name and the label are the same.</div>
+A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of software]**</INS>. In many (but not all) cases the name and the label are the same.</div>
 <div class="note">
 
 The term label is not limited to the label element in HTML.</div></DD></DL>
@@ -314,11 +315,14 @@ With this substitution, it would read:
 
 <DL><DT>name</DT><DD>
 
-text by which software can identify a component within <INS>[content](#dfn-content)</INS> to the user
+text by which software can identify a component within <INS>**[[content](#dfn-content)]**</INS> to the user
 
 <div class="note">
 
-The name may be hidden and only exposed by assistive technology <INS>or by accessibility features of software</INS>, whereas a [label](#dfn-label) is presented to all users. In many (but not all) cases, the label and the name are the same.</div><div class="note">This is unrelated to the name attribute in HTML.</div>
+The name may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of software]**</INS>, whereas a [label](#dfn-label) is presented to all users. In many (but not all) cases, the label and the name are the same.</div>
+<div class="note">
+
+This is unrelated to the name attribute in HTML.</div>
 </DD></DL>
 <div class="note">
 
@@ -340,14 +344,14 @@ With this substitution, it would read:
 
 <DL><DT>programmatically determined (programmatically determinable)</DT><DD>
 
-determined by [software](#dfn-software) from author-supplied data provided in a way that different <INS>[assistive technologies](#dfn-assistive-technologies) and accessibility features of software</INS>, can extract and present this information to users in different modalities
+determined by [software](#dfn-software) from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>, can extract and present this information to users in different modalities
 
 <div class="example">
 
-**Example 1:** Determined in a markup language from elements and attributes that are accessed directly by commonly available assistive technology <INS>and accessibility features of software</INS>.</div>
+**Example 1:** Determined in a markup language from elements and attributes that are accessed directly by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
 <div class="example">
 
-**Example 2:** Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <INS>and accessibility features of software</INS> via an accessibility API that is supported by commonly available assistive technology <INS>and accessibility features of software</INS>.</div>
+**Example 2:** Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <INS>**[and accessibility features of software]**</INS> via an accessibility API that is supported by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
 </DD></DL>
 <div class="note">
 
@@ -363,7 +367,7 @@ With this substitution, it would read:
 
 <DL><DT>programmatically set</DT><DD>
 
-set by software using methods that are supported by <INS>[assistive technologies](#dfn-assistive-technologies) and accessibility features of software</INS>
+set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>
 
 </DD></DL><div class="note">
 
@@ -403,7 +407,7 @@ The “^” character is the exponentiation operator. (Formula taken from [\[sRG
 
 <div class="note">
 
-Almost all systems used today to view <INS>[content](#dfn-content)</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
+Almost all systems used today to view <INS>**[[content](#dfn-content)]**</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
 <div class="note">
 
 If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered should be used (average R, average G, and average B).</div>
@@ -424,7 +428,7 @@ With this substitution, it would read:
 
 <DL><DT>role</DT><DD>
 
-text or number by which software can identify the function of a component within <INS>[content](#dfn-content)</INS>
+text or number by which software can identify the function of a component within <INS>**[[content](#dfn-content)]**</INS>
 
 <div class="example">
 
@@ -448,12 +452,12 @@ same result when used
 
 <div class="example">
 
-**Example <INS>1</INS>:** 
+**Example <INS>**[1]**</INS>:** 
 
 A submit “search” button on one web page and a “find” button on another web page may both have a field to enter a term and list topics in the Web site related to the term submitted. In this case, they would have the same functionality but would not be labeled consistently.</div>
 <div class="example">
 
-<INS>**Example 2:** A ribbon icon that saves the document that looks like an arrow pointing into a folder in one case, and an arrow pointing into a hard drive in another. In this case as well, they would have the same functionality but would not be labeled consistently.</INS></div></DD></DL>
+<INS>**[Example 2: A ribbon icon that saves the document that looks like an arrow pointing into a folder in one case, and an arrow pointing into a hard drive in another. In this case as well, they would have the same functionality but would not be labeled consistently.]**</INS></div></DD></DL>
 
 #### dfn-satisfies
 
@@ -483,9 +487,9 @@ With these substitutions, it would read:
 
 <DL><DT>structure</DT><DD>
 
-1.  The way the parts of <INS>[non-web documents](#dfn-non-web-documents) or [software](#dfn-software)</INS> are organized in relation to each other; and
+1.  The way the parts of <INS>**[[non-web documents](#dfn-non-web-documents) or [software](#dfn-software)]**</INS> are organized in relation to each other; and
     
-2.  The way a <INS>[set of documents](#dfn-set-of-documents) or [set of software programs](#dfn-set-of-software-programs)</INS> is organized
+2.  The way a <INS>**[[set of documents](#dfn-set-of-documents) or [set of software programs](#dfn-set-of-software-programs)]**</INS> is organized
     
 
 </DD></DL><div class="note">
@@ -503,13 +507,13 @@ This applies directly as written and as described in the WCAG 2.2 glossary, repl
 
 With these substitutions, it would read:
 
-<DL><DT>technology (<INS>non-web document or software</INS>)</DT><DD>
+<DL><DT>technology (<INS>**[non-web document or software]**</INS>)</DT><DD>
 
-[mechanism](#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>[user agents](#dfn-user-agents) or other [software](#dfn-software)</INS>.
+[mechanism](#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#dfn-user-agents) or other [software](#dfn-software)]**</INS>.
 
 <div class="example">
 
-**Example:** Some common examples of <INS>non-web document and software technologies include ODF, OOXML, Java, and C++</INS>.</div></DD></DL>
+**Example:** Some common examples of <INS>**[non-web document and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
 
 #### dfn-user-agents
 
@@ -537,7 +541,7 @@ Multiple user interface components may be implemented as a single programmatic e
 User interface components include form elements and links as well as components generated by scripts.</div>
 <div class="example">
 
-**Example:** <INS>A [software](#dfn-software) program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the [software](#dfn-software).</INS></div>
+**Example:** <INS>**[A [software](#dfn-software) program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the [software](#dfn-software).]**</INS></div>
 </DD></DL>
 
 #### dfn-viewport
@@ -550,11 +554,14 @@ With this substitution, it would read:
 
 <DL><DT>viewport</DT><DD>
 
-object in which the <INS>[software](#dfn-software)</INS> presents [content](#dfn-content)
+object in which the <INS>**[[software](#dfn-software)]**</INS> presents [content](#dfn-content)
 
 <div class="note">
 
-The <INS>[software](#dfn-software)</INS> presents [content](#dfn-content) through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <INS>[software](#dfn-software)</INS> such as prompts, menus, and alerts are not viewports.</div><div class="note">This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](http://www.w3.org/TR/WAI-USERAGENT/glossary.html).</div>
+The <INS>**[[software](#dfn-software)]**</INS> presents [content](#dfn-content) through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <INS>**[[software](#dfn-software)]**</INS> such as prompts, menus, and alerts are not viewports.</div>
+<div class="note">
+
+This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](http://www.w3.org/TR/WAI-USERAGENT/glossary.html).</div>
 </DD></DL>
 
 #### dfn-web-page-s
