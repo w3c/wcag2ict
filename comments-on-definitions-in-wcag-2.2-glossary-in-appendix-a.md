@@ -452,6 +452,7 @@ With these substitutions, it would read:
 same result when used
 
 <div class="example">
+
 **Example <INS>1</INS>:** 
 
 A submit “search” button on one web page and a “find” button on another web page may both have a field to enter a term and list topics in the Web site related to the term submitted. In this case, they would have the same functionality but would not be labeled consistently.</div>
@@ -511,7 +512,9 @@ With these substitutions, it would read:
 
 [mechanism](#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>[user agents](#dfn-user-agents) or other [software](#dfn-software)</INS>.
 
-<div class="example">_Example:_ Some common examples of <INS>non-web document and software technologies include ODF, OOXML, Java, and C++</INS>.</div></DD></DL>
+<div class="example">
+
+**Example:** Some common examples of <INS>non-web document and software technologies include ODF, OOXML, Java, and C++</INS>.</div></DD></DL>
 
 #### dfn-user-agents
 
