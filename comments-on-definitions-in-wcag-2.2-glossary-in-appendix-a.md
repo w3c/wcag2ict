@@ -67,7 +67,7 @@ The following glossary items apply to all technologies and do not require furthe
 This document does not provide guidance on applying AAA Success Criteria to non-web ICT, including the following definitions.
 
 *   blocks of text
-*   context sensitive help
+*   context-sensitive help
 *   motion animation
 *   region
 *   section
