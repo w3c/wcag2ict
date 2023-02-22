@@ -222,14 +222,9 @@ The guidance in this document does not use the term “conforming alternate vers
 
 See [Section 6 Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-on-conformance).
 
-content (Web content)
+#### content (Web content)
 
 ##### Guidance When Applying “content (Web Content)” to Non-Web Documents and Software
----------------------
-
-From the [WCAG 2.2 definition for content (Web content)](http://www.w3.org/TR/WCAG22/#dfn-content):
-
-<div class="ednote">Including the term "content" a second time here causes processing errors, commented out.</div>
 
 See the [guidance on content in the Key Terms section](http://w3c.github.io/wcag2ict/#wcag2ict-def_content-on-and-off-the-web).
 
@@ -263,12 +258,12 @@ With this substitution, it would read:
 
 information provided by the user that is not accepted
 
-<div class="note">This includes:</div>
+<div class="note">This includes:
 
 1.  Information that is required by the <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS> but omitted by the user
     
 2.  Information that is provided by the user but that falls outside the required data format or values
-    
+</div>    
 
 </DD></DL>
 
@@ -288,7 +283,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
 
 <div class="note">
 
-A key command issued by a long press of a key (2 seconds or more) is not considered a keyboard shortcut. Such commands often occur when there are limited keys, or no modifier keys, present on a device. </div>
+A key command issued by a long press of a key (2 seconds or more) is not considered a keyboard shortcut. Such commands often occur when there are limited keys, or no modifier keys, present on a device.</div>
 
 #### dfn-labels
 
@@ -300,7 +295,7 @@ With this substitution, it would read:
 
 <DL><DT>label</DT><DD>
 
-[text](#dfn-text) or other component with a [text alternative](#dfn-text-alternative) that is presented to a user to identify a component within <INS>[content](#dfn-content)</INS>
+[text](#dfn-text) or other component with a [text alternative](#dfn-text-alternative) that is presented to a user to identify a component within <INS>**[[content](#dfn-content)]**</INS>
 
 <div class="note">
 
