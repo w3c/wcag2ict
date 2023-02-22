@@ -11,7 +11,9 @@ The term **accessibility services of platform software**, as used in WCAG2ICT, h
 
 services provided by an operating system, [user agent](#user-agent), or other platform software that enable non-web [documents](#document) or [software](#software) to expose information about the user interface and events to assistive technologies and accessibility features of software
 </DD></DL>
-<div class="note">These services are commonly provided in the form of accessibility APIs (application programming interfaces), and they provide two-way communication with assistive technologies, including exposing information about objects and events.</div>
+<div class="note">
+
+These services are commonly provided in the form of accessibility APIs (application programming interfaces), and they provide two-way communication with assistive technologies, including exposing information about objects and events.</div>
 
 ### Content (on and off the Web)
 
@@ -22,11 +24,11 @@ For non-web content it is necessary to view this a bit more broadly. Within WCAG
 
 <DL><DT>content (non-web content) (as used in WCAG2ICT)</DT><DD>
 
-information and sensory experience to be communicated to the user by means of **[[software](#software)]**, including code or markup that defines the content's [structure](#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
+information and sensory experience to be communicated to the user by means of <INS>**[[software](#software)]**</INS>, including code or markup that defines the content's [structure](#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
 </DD></DL>
 <div class="note">
 
-Non-web content occurs in two places; documents and software. When content occurs in a document, a user agent is needed in order to communicate the content's information and sensory experience to the user. When content occurs in software, a separate user agent isn't required—the software itself performs that function.</div>
+<INS>**[Non-web content occurs in two places; documents and software. When content occurs in a document, a user agent is needed in order to communicate the content's information and sensory experience to the user. When content occurs in software, a separate user agent isn't required—the software itself performs that function.]**</INS></div>
 
 Within WCAG2ICT wherever “content” or “web content” appears in a success criterion or Intent it should be replaced with “content” using the definition above.
 
