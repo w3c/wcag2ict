@@ -116,7 +116,6 @@ If there is no independent method to launch the software programs (as is common 
 <div class="note">
 
 Although the term “software” is used throughout this document because this would apply to stand alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, for the provisions that use the phrase “set of” (success criteria 2.4.1, 2.4.5, 3.2.3, and 3.2.4), the phrase “set of software programs” is used.</div>
-
 <div class="example">
 
 **Example:** One example of a set of software programs would be a group of programs that can be launched and used separately but are distributed together and all have a menu that allows users to launch, or switch to, each of the other programs in the group.
@@ -126,7 +125,7 @@ Although the term “software” is used throughout this document because this w
 * A suite of programs for authoring different types of documents (text, spreadsheets, presentations, etc.) where the programs don't provide an explicit, consistent means to launch, or switch to, each of the other programs in the group.
 * An office package consisting of multiple programs that launches as a single program that provides multiple functionalities such as writing, spreadsheet, etc., but the only way to navigate between programs is to open a document in one of the programs.
 * A bundle of software programs that is sold together but the only way to navigate between the programs in the bundle is to use a platform software level menu to navigate between them (and not via a menu provided by each program that allows you to navigate to just the other programs in this bundle).
-* A group of programs that was a set, but the programs have been moved to separate locations so that their “set” behaviors were disrupted and no longer work. Even though they _were_ a set at one time, because they are no longer installed as a set they no longer _are_ a set and would not need to meet any success criteria that apply to sets of software.
+* A group of programs that was a set, but the programs have been moved to separate locations so that their “set” behaviors were disrupted and no longer work. Even though they _were_ a set at one time, because they are no longer installed as a set they no longer _are_ a set and would not need to meet any success criteria that apply to sets of software.</div>
 
 ### Software
 
