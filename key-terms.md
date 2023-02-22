@@ -22,7 +22,7 @@ For non-web content it is necessary to view this a bit more broadly. Within WCAG
 
 <DL><DT>content (non-web content) (as used in WCAG2ICT)</DT><DD>
 
-information and sensory experience to be communicated to the user by means of **[[software](#software)], including code or markup that defines the content's [structure](#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
+information and sensory experience to be communicated to the user by means of **[[software](#software)]**, including code or markup that defines the content's [structure](#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
 </DD></DL>
 <div class="note">
 
