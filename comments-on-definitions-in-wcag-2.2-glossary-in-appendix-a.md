@@ -452,7 +452,7 @@ same result when used
 
 <div class="example">
 
-**Example <INS>**[1]**</INS>:** 
+**Example <INS>\[1\]</INS>:** 
 
 A submit “search” button on one web page and a “find” button on another web page may both have a field to enter a term and list topics in the Web site related to the term submitted. In this case, they would have the same functionality but would not be labeled consistently.</div>
 <div class="example">
@@ -507,7 +507,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary, repl
 
 With these substitutions, it would read:
 
-<DL><DT>technology (<INS>**[non-web document or software]**</INS>)</DT><DD>
+<DL><DT>technology (<INS>[non-web document or software]</INS>)</DT><DD>
 
 [mechanism](#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#dfn-user-agents) or other [software](#dfn-software)]**</INS>.
 
