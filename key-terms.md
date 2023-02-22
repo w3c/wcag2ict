@@ -46,7 +46,9 @@ assembly of [content](#content-on-and-off-the-web), such as a file, set of files
 <div class="note">A single document may be composed of multiple files such as the video content, closed caption text, etc. This fact is not usually apparent to the end-user consuming the document / content. This is similar to how a single web page can be composed of content from multiple URIs (e.g. the page text, images, the JavaScript, a CSS file etc.).</div>
 </DD></DL>
 
-<div class="example">**Example:** An assembly of files that represented the video, audio, captions and timing files for a movie would be a document.
+<div class="example">
+
+**Example:** An assembly of files that represented the video, audio, captions and timing files for a movie would be a document.
 
 **Counterexample:** A binder file used to bind together the various exhibits for a legal case would not be a document.</div>
 
@@ -62,7 +64,9 @@ group of [documents](#documents) that are published together, and where the item
 <div class="note">If a set is broken apart, the individual parts are no longer part of a set, and would be evaluated as any other individual document is evaluated.</div>
 </DD></DL>
 
-<div class="example">**Example:** One example of a set of documents would be a three-part report where each part is a separate file. At the beginning of each file the table of contents for “navigating” to the other parts is repeated.</div>
+<div class="example">
+
+**Example:** One example of a set of documents would be a three-part report where each part is a separate file. At the beginning of each file the table of contents for “navigating” to the other parts is repeated.</div>
 
 ### Set of Software Programs
 
@@ -79,18 +83,19 @@ group of [software](#software) programs that are distributed together and that c
 <div class="note">Any software program that is not part of a set, per this definition, would automatically satisfy any success criterion that is specified to apply to “sets of” software (as is true for any success criterion that is scoped to only apply to some other type of content).</div>
 <div class="note">If there is any ambiguity whether the group is a set, then the group is not a set.</div><div class="note">If there is no independent method to launch the software programs (as is common in closed products), those programs would not meet the definition of a "set of software programs".</div>
 <div class="note">Although the term “software” is used throughout this document because this would apply to stand alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, for the provisions that use the phrase “set of” (success criteria 2.4.1, 2.4.5, 3.2.3, and 3.2.4), the phrase “set of software programs” is used.</div>
-</DD></DL>
 
-<div class="example">**Example:** One example of a set of software programs would be a group of programs that can be launched and used separately but are distributed together and all have a menu that allows users to launch, or switch to, each of the other programs in the group.
-</div>
+<div class="example">
 
-<div class="example">**Counterexamples:** Examples of things that are **not** sets of software programs:
+**Example:** One example of a set of software programs would be a group of programs that can be launched and used separately but are distributed together and all have a menu that allows users to launch, or switch to, each of the other programs in the group.
+
+**Counterexamples:** Examples of things that are **not** sets of software programs:
 <ul>
 <li>A suite of programs for authoring different types of documents (text, spreadsheets, presentations, etc.) where the programs don't provide an explicit, consistent means to launch, or switch to, each of the other programs in the group.</li>
 <li>An office package consisting of multiple programs that launches as a single program that provides multiple functionalities such as writing, spreadsheet, etc., but the only way to navigate between programs is to open a document in one of the programs.</li>
 <li>A bundle of software programs that is sold together but the only way to navigate between the programs in the bundle is to use a platform software</li> level menu to navigate between them (and not via a menu provided by each program that allows you to navigate to just the other programs in this bundle).</li>
 <li>A group of programs that was a set, but the programs have been moved to separate locations so that their “set” behaviors were disrupted and no longer work. Even though they _were_ a set at one time, because they are no longer installed as a set they no longer _are_ a set and would not need to meet any success criteria that apply to sets of software.</li>
 </ul></div>
+</DD></DL>
 
 ### Software
 
@@ -120,7 +125,7 @@ For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2.2, t
 
 <DL><DT>user agent (as used in WCAG2ICT)</DT><DD>
 
-any [software](#dfn-software) that retrieves and presents documents for users
+any [software](#software) that retrieves and presents documents for users
 
 <div class="note">Software that only displays the [content](#content-on-and-off-the-web) contained within it is not considered to be a user agent. It is just considered to be software.</div>
 <div class="note">An example of software that is not a user agent is a calculator application that doesn't retrieve the calculations from outside the software to present it to a user. In this case, the calculator software is not a user agent, it is simply software with a user interface.</div>
