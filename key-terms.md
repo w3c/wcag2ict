@@ -58,10 +58,9 @@ The term **set of documents**, as used in WCAG2ICT, has the meaning below:
 <DL><DT>set of documents (non-web) (as used in WCAG2ICT)</DT><DD>
 
 group of [documents](#document) that are published together, and where the items all refer to each other by name or link
-
+</DD></DL>
 <div class="note">Republishing or bundling previously published documents as a collection does not constitute a set of documents.</div>
 <div class="note">If a set is broken apart, the individual parts are no longer part of a set, and would be evaluated as any other individual document is evaluated.</div>
-</DD></DL>
 
 <div class="example">
 
@@ -89,12 +88,11 @@ group of [software](#software) programs that are distributed together and that c
 **Example:** One example of a set of software programs would be a group of programs that can be launched and used separately but are distributed together and all have a menu that allows users to launch, or switch to, each of the other programs in the group.
 
 **Counterexamples:** Examples of things that are **not** sets of software programs:
-<ul>
-<li>A suite of programs for authoring different types of documents (text, spreadsheets, presentations, etc.) where the programs don't provide an explicit, consistent means to launch, or switch to, each of the other programs in the group.</li>
-<li>An office package consisting of multiple programs that launches as a single program that provides multiple functionalities such as writing, spreadsheet, etc., but the only way to navigate between programs is to open a document in one of the programs.</li>
-<li>A bundle of software programs that is sold together but the only way to navigate between the programs in the bundle is to use a platform software</li> level menu to navigate between them (and not via a menu provided by each program that allows you to navigate to just the other programs in this bundle).</li>
-<li>A group of programs that was a set, but the programs have been moved to separate locations so that their “set” behaviors were disrupted and no longer work. Even though they _were_ a set at one time, because they are no longer installed as a set they no longer _are_ a set and would not need to meet any success criteria that apply to sets of software.</li>
-</ul></div>
+
+* A suite of programs for authoring different types of documents (text, spreadsheets, presentations, etc.) where the programs don't provide an explicit, consistent means to launch, or switch to, each of the other programs in the group.
+* An office package consisting of multiple programs that launches as a single program that provides multiple functionalities such as writing, spreadsheet, etc., but the only way to navigate between programs is to open a document in one of the programs.
+* A bundle of software programs that is sold together but the only way to navigate between the programs in the bundle is to use a platform software level menu to navigate between them (and not via a menu provided by each program that allows you to navigate to just the other programs in this bundle).
+* A group of programs that was a set, but the programs have been moved to separate locations so that their “set” behaviors were disrupted and no longer work. Even though they _were_ a set at one time, because they are no longer installed as a set they no longer _are_ a set and would not need to meet any success criteria that apply to sets of software.
 
 ### Software
 
