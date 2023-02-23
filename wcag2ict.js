@@ -5,6 +5,14 @@ function fetchWcagInfo() {
   })
   .then((data) => {
     let wcag = data;
-    console.log(wcag.wcag.principles.principle[0].id);
+    //console.log(wcag.wcag.principles.principle[0].id);
+    
+    wcag.wcag.principles.principle.forEach((principle) => {
+      var pid = principle.id;
+      var psec = document.querySelector('#' + pid);
+      var el = document.createElement("p");
+      el.innerHTML = principle.content;
+      psec.insertBefore(el, psec.childNodes[2]);
+    });
   });
 }
