@@ -7,12 +7,36 @@ function fetchWcagInfo() {
     let wcag = data;
     //console.log(wcag.wcag.principles.principle[0].id);
     
-    wcag.wcag.principles.principle.forEach((principle) => {
-      var pid = principle.id;
+    wcag.guidelines.principle.forEach(function(princ) {
+      prepNode(princ);
+    /* 
+      var pid = princ.id;
       var psec = document.querySelector('#' + pid);
-      var el = document.createElement("p");
-      el.innerHTML = principle.content;
-      psec.insertBefore(el, psec.childNodes[2]);
+      var phead = psec.querySelector('h1, h2, h3, h4, h5, h6').parentNode; // header wrapper
+      var bq = document.createElement("blockquote");
+      bq.innerHTML = princ.contenttext;
+      phead.after(bq);
+       */
+      
+      princ.guideline.forEach(function(gl) {
+        prepNode(gl);
+        
+        if (gl.success-criterion.isArray()) {
+          gl.success-criterion.forEach(function(sc) {
+            prepNode(sc);
+          });
+        } else prepNode(gl.success-criterion);
+        
+      });
     });
   });
+}
+
+function prepNode(n) {
+  var nid = n.id;
+  var nsec = document.querySelector('#' + nid);
+  var nhead = nsec.querySelector('h1, h2, h3, h4, h5, h6').parentNode; // header wrapper
+  var bq = document.createElement("blockquote");
+  bq.innerHTML = n.contenttext;
+  nhead.after(bq);
 }
