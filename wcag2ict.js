@@ -21,11 +21,14 @@ function fetchWcagInfo() {
       princ.guideline.forEach(function(gl) {
         prepNode(gl);
         
-        if (gl.success-criterion.isArray()) {
-          gl.success-criterion.forEach(function(sc) {
+        console.log (gl["success-criterion"]);
+        if (Array.isArray(gl["success-criterion"])) {
+          gl["success-criterion"].forEach(function(sc) {
             prepNode(sc);
           });
-        } else prepNode(gl.success-criterion);
+        } else {
+          prepNode(gl["success-criterion"]);
+        }
         
       });
     });
