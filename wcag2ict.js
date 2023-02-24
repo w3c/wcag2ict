@@ -1,5 +1,5 @@
 function fetchWcagInfo() {
-  fetch('http://github/w3c/wcag/guidelines/wcag.json')
+  fetch('https://raw.githubusercontent.com/w3c/wcag/main/guidelines/wcag.json')
   .then((response) => {
     return response.json();
   })
@@ -21,7 +21,6 @@ function fetchWcagInfo() {
       princ.guideline.forEach(function(gl) {
         prepNode(gl);
         
-        console.log (gl["success-criterion"]);
         if (Array.isArray(gl["success-criterion"])) {
           gl["success-criterion"].forEach(function(sc) {
             prepNode(sc);
