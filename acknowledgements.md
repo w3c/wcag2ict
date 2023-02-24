@@ -24,10 +24,10 @@
 
 ### Participants in the AG Working Group that Actively Reviewed and Contributed
 <div class="ednote">This list will be updated as AG WG reviews and contributions are done.</div>
+
 * Jonathan Avila (Level Access)
 * Detlev Fischer (Invited expert)
 * Patrick Lauke (TetraLogical)
-* Lisa Seeman-Kestenbaum (Invited Expert)
 
 ### Previous Contributors
 The following people contributed to the development of the 2013 WCAG2ICT Note. 
