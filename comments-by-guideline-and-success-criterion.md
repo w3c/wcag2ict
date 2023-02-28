@@ -21,7 +21,9 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.1.1](http://www.w3.org/WAI/WCAG22/Understanding/non-text-content#intent) (also provided below).
 
-<div class="note">CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.</div>
+<div class="note">
+
+CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.</div>
 <div class="note">
     
 See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
@@ -53,7 +55,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-    The WCAG 2.2 definition of “[captions](http://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “in some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2.2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+The WCAG 2.2 definition of “[captions](http://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “in some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2.2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
 
 ##### audio-description-or-media-alternative-prerecorded
 
@@ -67,7 +69,7 @@ The WCAG 2.2 definition of “[audio description](http://www.w3.org/TR/WCAG22/#d
 <div class="note">Secondary or alternate audio tracks are commonly used for this purpose.</div>
 <div class="note">
     
-    See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
+See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
 
 ##### captions-live
 
@@ -77,7 +79,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-    The WCAG 2.2 definition of “[captions](http://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2.2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+The WCAG 2.2 definition of “[captions](http://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2.2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
 
 ##### audio-description-prerecorded
 
@@ -142,14 +144,11 @@ This applies directly as written, and as described in Intent from [Understanding
 
 <div class="note">
 
-Non-web software and non-web documents that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.
-</div>
-
+Non-web software and non-web documents that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.</div>
 <div class="note">
 
 For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms provided by the technology used.
 </div>
-
 <div class="note"> 
 
 See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).
@@ -197,7 +196,10 @@ This applies directly as written, and as described in [Intent from Understanding
 [Content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</div>
 <div class="note">
     
-The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](http://w3c.github.io/wcag2ict/#wcag2ict-def_at). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content) or functionality or that the application works with the platform features that meet this requirement.</div><div class="note">See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
+The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](http://w3c.github.io/wcag2ict/#wcag2ict-def_at). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content) or functionality or that the application works with the platform features that meet this requirement.</div>
+<div class="note">
+
+See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
 
 ##### images-of-text
 
@@ -447,7 +449,7 @@ With these substitutions, this success criterion would read:
 
 <div class="note">
     
-See [set of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents) and [set of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.).</div><div class="note">
+See [set of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents) and [set of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div><div class="note">
 
 The definitions of “[set of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents)” and “[set of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs)” in the Key Terms section if the Introduction are predicated on the ability to navigate from each element of the set to each other, and navigation is a type of locating. So the mechanism used to navigate between elements of the set will be one way of locating information in the set. Non-web environments, generally major operating systems with browse and search capabilities, often provide infrastructure and tools that provide mechanisms for locating content in a set of non-web documents or a set of software programs. For example, it may be possible to browse through the files or programs that make up a set, or search within members of the set for the names of other members. A file directory would be the equivalent of a site map for documents in a set, and a search function in a file system would be equivalent to a web search function for web pages. Such facilities may provide additional ways of locating information in the set.</div>
 <div class="note">
@@ -642,7 +644,9 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.1](http://www.w3.org/WAI/WCAG22/Understanding/error-identification#intent) (also provided below).
 
-<div class="note">See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
+<div class="note">
+
+See also the discussion on [Closed Functionality](http://w3c.github.io/wcag2ict/#closed-functionality).</div>
 
 ##### labels-or-instructions
 
