@@ -407,7 +407,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.4.2 Page Titled:** <INS>[Non-web documents](#dfn-non-web-documents) or [software](#dfn-software)</INS> have titles that describe topic or purpose. (Level A)
+**2.4.2 Page Titled:** <INS>[Non-web documents](#document) or [software](#dfn-software)</INS> have titles that describe topic or purpose. (Level A)
 
 <div class="note">
     
@@ -446,7 +446,7 @@ With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>[non-web document](#document)</INS> within a [set of <INS>non-web documents</INS>](#set-of-non-web-documents) except where the <INS>non-web document</INS> is the result of, or a step in, a process.
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>[non-web document](#document)</INS> within a [set of <INS>non-web documents</INS>](#set-of-documents) except where the <INS>non-web document</INS> is the result of, or a step in, a process.
 
 (for software programs)
 
@@ -598,7 +598,7 @@ With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>[non-web documents](#document)</INS> within a [set of <INS>non-web documents</INS>](#set-of-non-web-documents) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>[non-web documents](#document)</INS> within a [set of <INS>non-web documents</INS>](#set-of-documents) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
 
 (for software programs)
 
