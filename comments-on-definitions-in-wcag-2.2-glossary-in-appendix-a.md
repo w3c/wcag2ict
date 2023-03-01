@@ -326,7 +326,7 @@ This is unrelated to the name attribute in HTML.</div>
 </DD></DL>
 <div class="note">
 
-“AccessibleName” (or whatever it is called in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
+“AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
 
 #### dfn-processes
 
@@ -436,7 +436,7 @@ text or number by which software can identify the function of a component within
 </DD></DL>
 <div class="note">
 
-“AccessibleRole” (or however it is called in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
+“AccessibleRole” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
 
 #### dfn-same-functionality
 
@@ -497,7 +497,7 @@ With these substitutions, it would read:
 See the guidance on user [sets of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents) and [sets of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs) in the Key Terms section.</div>
 <div class="note">
 
-“AccessibleRole” (or however it is called in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
+“AccessibleRole” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
 
 #### dfn-technologies
 
