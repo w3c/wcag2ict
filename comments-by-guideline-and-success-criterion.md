@@ -508,7 +508,14 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### label-in-name
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+###### Guidance When Applying Success Criterion 2.5.3 to Non-Web Documents and Software
+
+This applies directly as written, and as described in Intent from Understanding Success Criterion 2.5.3 (also provided below).
+
+<div class="note">
+
+See also the discussion on [Closed Functionality](#closed-functionality].</div>
 
 ##### motion-actuation
 
