@@ -512,7 +512,7 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 ##### motion-actuation
 
-###### Additional Guidance When Applying Success Criterion 2.5.4 to Non-Web Documents and Software
+###### Guidance When Applying Success Criterion 2.5.4 to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.4](https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html) (also provided below).
 
