@@ -3,7 +3,7 @@ Comments on Definitions in WCAG 2.2 Glossary in Appendix A
 
 The following is a complete list of definitions from the WCAG 2.2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
-<p class="ednote">The definitions sub-sections will be updated by the WCAG2ICT Task Force to include definitions that were added or changed since the 2013 WCAG2ICT Note.</p>
+<p class="ednote">The new terms used only in Level AAA Success Criteria are now listed in the corresponding section below. When new Success Criteria from WCAG 2.1 and 2.2 get added to this document, any new terms and definitions they introduced will also be added to this document. Any definitions that existed in WCAG 2.0 that have changed since the 2013 WCAG2ICT will be updated soon.</p>
 
 ### Glossary Items that Apply to All Technologies
 
@@ -67,9 +67,12 @@ The following glossary items apply to all technologies and do not require furthe
 This document does not provide guidance on applying AAA Success Criteria to non-web ICT, including the following definitions.
 
 *   blocks of text
-*   context sensitive help
+*   context-sensitive help
+*   motion animation
+*   region
 *   section
 *   supplemental content
+*   user inactivity
 
 ### Glossary Items with Specific Guidance
 
