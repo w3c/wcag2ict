@@ -226,7 +226,30 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### content-on-hover-or-focus
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### Guidance When Applying Success Criterion 1.4.13 to Non-Web Documents and Software:
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html) (also provided below), replacing "user agent" with "user agent or platform software",  "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
+
+With these substitutions, it would read:
+
+> Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:
+> 
+> **Dismissible**
+>    A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an [input error](https://w3c.github.io/wcag2ict/#dfn-input-error) or does not obscure or replace other content;
+> 
+> **Hoverable**
+>    If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;
+> 
+> **Persistent**
+>    The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.
+> 
+> Exception: The visual presentation of the additional content is controlled by the <INS>user agent or platform software</INS> and is not modified by the author.
+> 
+> Note: Examples of additional content controlled by the <INS>user agent or platform software</INS> include <INS>tooltips</INS> created through use of <INS>user interface object attributes</INS>.
+> 
+> Note: Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.
+
 
 ### operable
 
