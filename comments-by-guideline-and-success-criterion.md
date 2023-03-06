@@ -227,7 +227,7 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### content-on-hover-or-focus
 
-##### Guidance When Applying Success Criterion 1.4.13 to Non-Web Documents and Software:
+##### Guidance When Applying Success Criterion 1.4.13 to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html) (also provided below), replacing "user agent" with "user agent or platform software",  "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
 
