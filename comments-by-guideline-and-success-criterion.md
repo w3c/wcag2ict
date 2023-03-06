@@ -236,7 +236,7 @@ With these substitutions, it would read:
 > Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:
 > 
 > **Dismissible**
->    A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an [input error](https://w3c.github.io/wcag2ict/#dfn-input-error) or does not obscure or replace other content;
+>    A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an [input error](#dfn-input-error) or does not obscure or replace other content;
 > 
 > **Hoverable**
 >    If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;
@@ -246,9 +246,11 @@ With these substitutions, it would read:
 > 
 > Exception: The visual presentation of the additional content is controlled by the <INS>user agent or platform software</INS> and is not modified by the author.
 > 
-> Note: Examples of additional content controlled by the <INS>user agent or platform software</INS> include <INS>tooltips</INS> created through use of <INS>user interface object attributes</INS>.
+><div class="note">
+
+>Examples of additional content controlled by the <INS>user agent or platform software</INS> include <INS>tooltips</INS> created through use of <INS>user interface object attributes</INS></div>.
 > 
-> Note: Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.
+> <div class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
 
 
 ### operable
