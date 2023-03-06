@@ -247,7 +247,7 @@ With these substitutions, it would read:
 > Exception: The visual presentation of the additional content is controlled by the <INS>user agent or platform software</INS> and is not modified by the author.
 > 
 ><div class="note">
-
+>
 >Examples of additional content controlled by the <INS>user agent or platform software</INS> include <INS>tooltips</INS> created through use of <INS>user interface object attributes</INS></div>.
 > 
 > <div class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
