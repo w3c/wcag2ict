@@ -1,4 +1,4 @@
-Comments on Definitions in WCAG 2.2 Glossary in Appendix A
+Comments on Definitions in WCAG 2.2 Glossary
 ----------------------------------------------------------
 
 The following is a complete list of definitions from the WCAG 2.2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
