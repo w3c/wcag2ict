@@ -432,7 +432,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#dfn-software)]**</INS> have titles that describe topic or purpose. (Level A)
+**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> have titles that describe topic or purpose. (Level A)
 
 <div class="note">
     
@@ -475,7 +475,7 @@ With these substitutions, this success criterion would read:
 
 (for software programs)
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[software program](#software)]**</INS> within a [set of <INS>**[software programs]**</INS>](#dfn-set-of-software-programs) except where the <INS>**[software program]**</INS> is the result of, or a step in, a process.
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[software program](#software)]**</INS> within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) except where the <INS>**[software program]**</INS> is the result of, or a step in, a process.
 
 <div class="note">
     
@@ -657,7 +657,7 @@ With these substitutions, this success criterion would read:
 
 (for programs)
 
-**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>**[software programs]**</INS>](#dfn-set-of-software-programs) are identified consistently.
+**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) are identified consistently.
 
 <div class="note">
     
