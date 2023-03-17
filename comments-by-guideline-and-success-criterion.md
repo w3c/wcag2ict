@@ -182,7 +182,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) must meet this success criterion.</div>
+Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content-on-and-off-the-web) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) must meet this success criterion.</div>
 
 ##### contrast-minimum
 
@@ -198,7 +198,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-[Content](#content) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</div>
+[Content](#content-on-and-off-the-web) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</div>
 <div class="note">
     
 The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
