@@ -358,7 +358,7 @@ With this substitution, it would read:
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
 <div class="note">
     
-Since any [content](#content-on-and-off-the-web) that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#dfn-software)]**</INS>, all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
+Since any [content](#content-on-and-off-the-web) that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#software)]**</INS>, all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 <div class="note">
     
 [Content](#content-on-and-off-the-web) that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
@@ -383,7 +383,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**2.3.1 Three Flashes or Below Threshold:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> do not contain anything that flashes more than three times in any one second period, or the [flash](#dfn-flash) is below the [general flash and red flash thresholds](#dfn-general-flash-and-red-flash-thresholds). (Level A)
+**2.3.1 Three Flashes or Below Threshold:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> do not contain anything that flashes more than three times in any one second period, or the [flash](https://www.w3.org/TR/WCAG22/#dfn-flash) is below the [general flash and red flash thresholds](#dfn-general-flash-and-red-flash-thresholds). (Level A)
 
 <div class="note">
     
@@ -536,11 +536,11 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 ###### Guidance When Applying Success Criterion 2.5.3 to Non-Web Documents and Software
 
-This applies directly as written, and as described in Intent from Understanding Success Criterion 2.5.3 (also provided below).
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.3](https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html#intent) (also provided below).
 
 <div class="note">
 
-See also the discussion on [Closed Functionality](#closed-functionality].</div>
+See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### motion-actuation
 
@@ -568,7 +568,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**3.1.1 Language of Page:** The default [human language](#dfn-human-language) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determined). (Level A)
+**3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable). (Level A)
 
 <div class="note">
     
@@ -585,7 +585,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**3.1.2 Language of Parts:** The [human language](#dfn-human-language) of each passage or phrase in the <INS>**[[non-web document](#dfn-non-web-document) or [software](#dfn-software)]**</INS> can be [programmatically determined](#dfn-programmatically-determined) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. (Level AA)
+**3.1.2 Language of Parts:** The [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language) of each passage or phrase in the <INS>**[[non-web document](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. (Level AA)
 
 <div class="note">
     
@@ -705,13 +705,13 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>**[[non-web documents](#document) or [software](#software)]**</INS> that cause [legal commitments](#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true: (Level AA)
+**3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>**[[non-web documents](#document) or [software](#software)]**</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true: (Level AA)
 
 1.  **Reversible:** Submissions are reversible.
     
-2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-errors) and the user is provided an opportunity to correct them.
+2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-error) and the user is provided an opportunity to correct them.
     
-3.  **Confirmed:** A [mechanism](#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
+3.  **Confirmed:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
     
 ##### accessible-authentication
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
@@ -747,7 +747,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**4.1.1 Parsing:** <INS>**[For [non-web documents](#document) or [software](#dsoftware) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technologies) and accessibility features of software or to a user-selectable [user agent](#user-agent)]**</INS>, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. (Level A)
+**4.1.1 Parsing:** <INS>**[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technologies) and accessibility features of software or to a user-selectable [user agent](#user-agent)]**</INS>, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. (Level A)
 
 <div class="note">
     
@@ -772,7 +772,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-components) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determined); states, properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technologies). (Level A)
+**4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-components) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determinable); states, properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technologies). (Level A)
 
 <div class="note">
     
