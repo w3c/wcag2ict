@@ -244,7 +244,7 @@ With these substitutions, it would read:
 > **Persistent**
 >    The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.
 > 
-> Exception: The visual presentation of the additional content is controlled by the <INS>**[user agent or platform software]**</INS> and is not modified by the author.
+> Exception: The visual presentation of the additional content is controlled by the <INS>**[[user agent](#user-agent) or platform [software](#software)]**</INS> and is not modified by the author.
 > 
 ><div class="note">
 >
