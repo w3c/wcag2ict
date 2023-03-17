@@ -149,7 +149,7 @@ This applies directly as written, and as described in Intent from [Understanding
 
 <div class="note">
 
-Non-web software and non-web documents that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.</div>
+[Non-web software](#software) and [non-web documents](#document) that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.</div>
 <div class="note">
 
 For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms provided by the technology used.
@@ -329,7 +329,7 @@ With this substitution, it would read:
     
 *   **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
     
-*   **Essential Exception:** The time limit is [essential](#dfn-essential) and extending it would invalidate the activity; or
+*   **Essential Exception:** The time limit is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) and extending it would invalidate the activity; or
     
 *   **20 Hour Exception:** The time limit is longer than 20 hours.
     
@@ -348,7 +348,7 @@ With this substitution, it would read:
 
 **2.2.2 Pause, Stop, Hide:** For moving, [blinking](#dfn-blinking), scrolling, or auto-updating information, all of the following are true: (Level A)
 
-*   **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to [pause](#dfn-pause), stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is [essential](#dfn-essential); and
+*   **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to [pause](#dfn-pause), stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential); and
     
 *   **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
     
