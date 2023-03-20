@@ -139,7 +139,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-Content that is only used on hardware that is fixed in place OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
+Content that is only used on hardware display orientation that is fixed in place OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
 
 ##### identify-input-purpose
 
