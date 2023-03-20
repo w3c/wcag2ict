@@ -281,7 +281,7 @@ Please see the note in the [guidance for Success Criterion 2.1.1](http://w3c.git
 
 #### dfn-keyboard-shortcuts
 
-##### Guidance When Applying “keyboard shorcut” to Non-Web Documents and Software
+##### Guidance When Applying “keyboard shortcut” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
