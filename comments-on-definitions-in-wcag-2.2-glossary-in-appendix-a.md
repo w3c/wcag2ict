@@ -287,7 +287,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
 
 <div class="note">
 
-A key command issued by a long press of a key (2 seconds or more) is not considered a keyboard shortcut. Such commands often occur when there are limited keys, or no modifier keys, present on a device.</div>
+A key command issued by a long press of a key (2 seconds or more) or other accessibility features provided by the platform are not considered a keyboard shortcut. Such commands often occur when there are limited keys, or no modifier keys, present on a device.</div>
 
 #### dfn-labels
 
