@@ -303,7 +303,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-The WCAG2ICT interpretation is that the WCAG definition of a keyboard shortcut does not include a long press of a key (2 seconds or more) or other accessibility features provided by the platform. See the [keyboard shortcut](#dfn-keyboard-shortcuts) definition for more details.</div>
+The WCAG2ICT interpretation is that a long press of a key (2 seconds or more) and other accessibility features provided by the platform do not meet the WCAG definition of a keyboard shortcut. See the [keyboard shortcut](#dfn-keyboard-shortcuts) definition for more details.</div>
 
 #### enough-time
 
