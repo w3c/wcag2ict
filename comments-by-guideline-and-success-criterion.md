@@ -149,7 +149,7 @@ This applies directly as written, and as described in Intent from [Understanding
 
 <div class="note">
 
-Non-web software and non-web documents that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.</div>
+[Non-web software](#software) and [non-web documents](#document) that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.</div>
 <div class="note">
 
 For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms provided by the technology used.
@@ -178,11 +178,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**1.4.2 Audio Control:** If any audio <INS>in a [non-web document](#document) or [software](#software)</INS> plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level. (Level A)
+**1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level. (Level A)
 
 <div class="note">
     
-Since any <INS>part of a [non-web document](#document) or [software](#software)</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>whole document or software</INS>, all [content](#content)<INS>in the document or software</INS> (whether or not it is used to meet other success criteria) must meet this success criterion.</div>
+Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content-on-and-off-the-web) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) must meet this success criterion.</div>
 
 ##### contrast-minimum
 
@@ -198,7 +198,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-[Content](#content) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</div>
+[Content](#content-on-and-off-the-web) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</div>
 <div class="note">
     
 The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
@@ -244,7 +244,7 @@ With these substitutions, it would read:
 > **Persistent**
 >    The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.
 > 
-> Exception: The visual presentation of the additional content is controlled by the <INS>**[user agent or platform software]**</INS> and is not modified by the author.
+> Exception: The visual presentation of the additional content is controlled by the <INS>**[[user agent](#user-agent) or platform [software](#software)]**</INS> and is not modified by the author.
 > 
 ><div class="note">
 >
@@ -286,11 +286,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**2.1.2 No Keyboard Trap:** If keyboard focus can be moved to a component of the <INS>[non-web document](#document) or [software](#software)</INS> using a [keyboard interface](#dfn-keyboard-interface), then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away. (Level A)
+**2.1.2 No Keyboard Trap:** If keyboard focus can be moved to a component of the <INS>**[[non-web document](#document) or [software](#software)]**</INS> using a [keyboard interface](#dfn-keyboard-interface), then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away. (Level A)
 
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[non-web document](#document) or [software](#software)</INS>, all content on the <INS>non-web document or software</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, all content on the <INS>**[non-web document or software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 <div class="note">
 
 Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</div>
@@ -319,7 +319,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.2.1 Timing Adjustable:** For each time limit that is set by <INS>[non-web documents](#document) or [software](#software)</INS>, at least one of the following is true: (Level A)
+**2.2.1 Timing Adjustable:** For each time limit that is set by <INS>**[[non-web documents](#document) or [software](#software)]**</INS>, at least one of the following is true: (Level A)
 
 *   **Turn off:** The user is allowed to turn off the time limit before encountering it; or
     
@@ -329,7 +329,7 @@ With this substitution, it would read:
     
 *   **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
     
-*   **Essential Exception:** The time limit is [essential](#dfn-essential) and extending it would invalidate the activity; or
+*   **Essential Exception:** The time limit is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) and extending it would invalidate the activity; or
     
 *   **20 Hour Exception:** The time limit is longer than 20 hours.
     
@@ -346,9 +346,9 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.2.2 Pause, Stop, Hide:** For moving, [blinking](#dfn-blinking), scrolling, or auto-updating information, all of the following are true: (Level A)
+**2.2.2 Pause, Stop, Hide:** For moving, [blinking](https://www.w3.org/TR/WCAG22/#dfn-blinking), scrolling, or auto-updating information, all of the following are true: (Level A)
 
-*   **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to [pause](#dfn-pause), stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is [essential](#dfn-essential); and
+*   **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to [pause](https://www.w3.org/TR/WCAG22/#dfn-pause), stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential); and
     
 *   **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
     
@@ -358,7 +358,7 @@ With this substitution, it would read:
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
 <div class="note">
     
-Since any [content](#content-on-and-off-the-web) that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[non-web documents](#document) and [software](#dfn-software)</INS>, all content on the <INS>non-web documents and software</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
+Since any [content](#content-on-and-off-the-web) that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#software)]**</INS>, all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 <div class="note">
     
 [Content](#content-on-and-off-the-web) that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
@@ -383,11 +383,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**2.3.1 Three Flashes or Below Threshold:** <INS>[Non-web documents](#document) or [software](#software)</INS> do not contain anything that flashes more than three times in any one second period, or the [flash](#dfn-flash) is below the [general flash and red flash thresholds](#dfn-general-flash-and-red-flash-thresholds). (Level A)
+**2.3.1 Three Flashes or Below Threshold:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> do not contain anything that flashes more than three times in any one second period, or the [flash](https://www.w3.org/TR/WCAG22/#dfn-flash) is below the [general flash and red flash thresholds](#dfn-general-flash-and-red-flash-thresholds). (Level A)
 
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[non-web document](#document) or [software](#software)</INS>, all content on the <INS>non-web document or software</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, all content on the <INS>**[non-web document or software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 
 #### navigable
 
@@ -405,11 +405,11 @@ With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**2.4.1 Bypass Blocks:** A mechanism is available to bypass blocks of content that are repeated on multiple <INS>[non-web documents](#document) in a [set of non-web documents](#set-of-documents)</INS>.
+**2.4.1 Bypass Blocks:** A mechanism is available to bypass blocks of content that are repeated on multiple <INS>**[[non-web documents](#document) in a [set of non-web documents](#set-of-documents)]**</INS>.
 
 (for software programs)
 
-**2.4.1 Bypass Blocks:** A mechanism is available to bypass blocks of content that are repeated on multiple <INS>[software programs](#software) in a [set of software programs](#set-of-software-programs)</INS>.
+**2.4.1 Bypass Blocks:** A mechanism is available to bypass blocks of content that are repeated on multiple <INS>**[[software programs](#software) in a [set of software programs](#set-of-software-programs)]**</INS>.
 
 <div class="note">
     
@@ -432,7 +432,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.4.2 Page Titled:** <INS>[Non-web documents](#document) or [software](#dfn-software)</INS> have titles that describe topic or purpose. (Level A)
+**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> have titles that describe topic or purpose. (Level A)
 
 <div class="note">
     
@@ -449,7 +449,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.4.3 Focus Order:** If <INS>[non-web documents](#document) or [software](#software)</INS> can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability. (Level A)
+**2.4.3 Focus Order:** If <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability. (Level A)
 
 ##### link-purpose-in-context
 
@@ -471,11 +471,11 @@ With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>[non-web document](#document)</INS> within a [set of <INS>non-web documents</INS>](#set-of-documents) except where the <INS>non-web document</INS> is the result of, or a step in, a process.
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web document](#document)]**</INS> within a [set of <INS>**[non-web documents]**</INS>](#set-of-documents) except where the <INS>**[non-web document]**</INS> is the result of, or a step in, a process.
 
 (for software programs)
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>[software program](#software)</INS> within a [set of <INS>software programs</INS>](#dfn-set-of-software-programs) except where the <INS>software program</INS> is the result of, or a step in, a process.
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[software program](#software)]**</INS> within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) except where the <INS>**[software program]**</INS> is the result of, or a step in, a process.
 
 <div class="note">
     
@@ -536,11 +536,11 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 ###### Guidance When Applying Success Criterion 2.5.3 to Non-Web Documents and Software
 
-This applies directly as written, and as described in Intent from Understanding Success Criterion 2.5.3 (also provided below).
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.3](https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html#intent) (also provided below).
 
 <div class="note">
 
-See also the discussion on [Closed Functionality](#closed-functionality].</div>
+See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### motion-actuation
 
@@ -568,7 +568,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**3.1.1 Language of Page:** The default [human language](#dfn-human-language) of <INS>[non-web documents](#document) or [software](#software)</INS> can be [programmatically determined](#dfn-programmatically-determined). (Level A)
+**3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable). (Level A)
 
 <div class="note">
     
@@ -585,7 +585,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**3.1.2 Language of Parts:** The [human language](#dfn-human-language) of each passage or phrase in the <INS>[non-web document](#dfn-non-web-document) or [software](#dfn-software)</INS> can be [programmatically determined](#dfn-programmatically-determined) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. (Level AA)
+**3.1.2 Language of Parts:** The [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language) of each passage or phrase in the <INS>**[[non-web document](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. (Level AA)
 
 <div class="note">
     
@@ -602,7 +602,7 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 With this substitution, this guideline would read:
 
-Guideline 3.2 Predictable: Make <INS>[non-web documents](#document) or [software](#software)</INS> appear and operate in predictable ways.
+Guideline 3.2 Predictable: Make <INS>**[[non-web documents](#document) or [software](#software)]**</INS> appear and operate in predictable ways.
 
 ##### on-focus
 
@@ -630,11 +630,11 @@ With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>[non-web documents](#document)</INS> within a [set of <INS>non-web documents</INS>](#set-of-documents) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[non-web documents](#document)]**</INS> within a [set of <INS>**[non-web documents]**</INS>](#set-of-documents) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
 
 (for software programs)
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>[software programs](#software)</INS> within a [set of <INS>software programs</INS>](#set-of-software-programs) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[software programs](#software)]**</INS> within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
 
 <div class="note">
     
@@ -653,11 +653,11 @@ With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>non-web documents</INS>](#set-of-documents) are identified consistently.
+**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>**[non-web documents]**</INS>](#set-of-documents) are identified consistently.
 
 (for programs)
 
-**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>software programs</INS>](#dfn-set-of-software-programs) are identified consistently.
+**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) are identified consistently.
 
 <div class="note">
     
@@ -705,13 +705,13 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>[non-web documents](#document) or [software](#software)</INS> that cause [legal commitments](#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true: (Level AA)
+**3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>**[[non-web documents](#document) or [software](#software)]**</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true: (Level AA)
 
 1.  **Reversible:** Submissions are reversible.
     
-2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-errors) and the user is provided an opportunity to correct them.
+2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-error) and the user is provided an opportunity to correct them.
     
-3.  **Confirmed:** A [mechanism](#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
+3.  **Confirmed:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
     
 ##### accessible-authentication
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
@@ -727,7 +727,7 @@ In WCAG 2.2, the Principles are provided for framing and understanding the succe
 
 With this substitution, it would read:
 
-Principle 4: Robust - Content must be robust enough that it can be interpreted reliably by a wide variety of <INS>[assistive technologies](#dfn-assistive-technologies) and accessibility features of software</INS>.
+Principle 4: Robust - Content must be robust enough that it can be interpreted reliably by a wide variety of <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
 
 #### compatible
 
@@ -737,7 +737,7 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 With this substitution, it would read:
 
-Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>[assistive technologies](#dfn-assistive-technologies) and accessibility features of software</INS>.
+Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
 
 ##### parsing
 
@@ -747,7 +747,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**4.1.1 Parsing:** <INS>For [non-web documents](#document) or [software](#dsoftware) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technologies) and accessibility features of software or to a user-selectable [user agent](#user-agent)</INS>, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. (Level A)
+**4.1.1 Parsing:** <INS>**[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technologies) and accessibility features of software or to a user-selectable [user agent](#user-agent)]**</INS>, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. (Level A)
 
 <div class="note">
     
@@ -772,11 +772,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-components) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determined); states, properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technologies). (Level A)
+**4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-components) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determinable); states, properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technologies). (Level A)
 
 <div class="note">
     
-<INS>This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already meet this success criterion when used according to specification.</INS></div>
+<INS>**[This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already meet this success criterion when used according to specification.]**</INS></div>
 <div class="note">
     
 For conforming to this success criterion, it is usually best practice for software user interfaces to use the accessibility services provided by platform software. These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could or should be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
