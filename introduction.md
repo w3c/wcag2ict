@@ -72,6 +72,6 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 2.5.3 Label in Name](#label-in-name)
     * [Success Criterion 2.5.4 Motion Actuation](#motion-actuation)
 * New term definitions
-    * [keyboard shortcut](#dfn_keyboard-shortcuts)
+    * [keyboard shortcut](#dfn-keyboard-shortcuts)
 * Updated sections
     <div class="note">This will eventually list sections with major updates that are ready for review.</div>
