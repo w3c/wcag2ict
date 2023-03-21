@@ -145,14 +145,14 @@ Content that is only used on hardware that is fixed in place OR that has no sens
 
 ###### Guidance When Applying Success Criterion 1.3.5 to Non-Web Documents and Software
 
-This applies directly as written, and as described in Intent from [Understanding Success Criterion 1.3.5](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html#intent) (also provided below).
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.5](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html#intent) (also provided below).
 
 <div class="note">
 
-[Non-web software](#software) and [non-web documents](#document) that do not provide attributes that support identifying the expected meaning for the form input data, are not in scope for this success criterion.</div>
+[Non-web software](#software) and [non-web documents](#document) technologies that do not provide attributes that support identifying the expected meaning for the form input data are not in scope for this success criterion.</div>
 <div class="note">
 
-For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms provided by the technology used.
+For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms to those listed in the WCAG 2.2 section [Input Purposes for User Interface Components](https://www.w3.org/TR/WCAG22/#input-purposes) that are supported by the technology used.
 </div>
 <div class="note"> 
 
