@@ -546,7 +546,7 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ###### Guidance When Applying Success Criterion 2.5.4 to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.4](https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html) (also provided below).
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.4](https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html#intent) (also provided below).
 
 ### understandable
 

@@ -44,6 +44,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   prerecorded
 *   presentation
 *   primary education level
+*   process
 *   programatically determined link context
 *   pure decoration
 *   real-time event
@@ -330,12 +331,6 @@ This is unrelated to the name attribute in HTML.</div>
 <div class="note">
 
 “AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
-
-#### dfn-processes
-
-##### Guidance When Applying “process” to Non-Web Documents and Software
-
-This term is only used in [success criterion 2.4.5 Multiple Ways](http://www.w3.org/TR/WCAG22/#multiple-ways). The definitions of [set of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents) and [set of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs) in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the term's use in [2.4.5 Multiple Ways](http://www.w3.org/TR/WCAG22/#multiple-ways) (that items in a process are exempt from meeting that success criterion) is achieved by the definitions of [set of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents) and [set of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs).
 
 #### dfn-programmatically-determinable
 
