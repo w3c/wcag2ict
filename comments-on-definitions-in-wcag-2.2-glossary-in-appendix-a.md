@@ -282,13 +282,13 @@ Please see the note in the [guidance for Success Criterion 2.1.1](http://w3c.git
 
 #### dfn-keyboard-shortcuts
 
-##### Guidance When Applying “keyboard shorcut” to Non-Web Documents and Software
+##### Guidance When Applying “keyboard shortcut” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
 <div class="note">
 
-A key command issued by a long press of a key (2 seconds or more) is not considered a keyboard shortcut. Such commands often occur when there are limited keys, or no modifier keys, present on a device.</div>
+A key command issued by a long press of a key (2 seconds or more) and other accessibility features provided by the platform are not considered a keyboard shortcut. Such commands often occur when there are limited keys, or no modifier keys, present on a device.</div>
 
 #### dfn-labels
 
