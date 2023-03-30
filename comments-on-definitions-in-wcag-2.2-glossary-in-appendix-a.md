@@ -241,6 +241,17 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
 
 Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2.2 for user-interface components as a category, because the basic constructs on which the WCAG 2.2 and / or its conformance are built do not apply to these.”
 
+#### dfn-down-event
+
+From the [WCAG 2.2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-down-event):
+
+#### Guidance When Applying “down-event” to Non-Web Documents and Software
+
+This applies directly as written and as described in the WCAG 2.2 glossary.
+ 
+**NOTE** 
+The down-event may have different names on different platforms. For example <INS>**["PointerPressed” or “mousedown”]**</INS>. 
+
 #### dfn-general-flash-and-red-flash-thresholds
 
 ##### Guidance When Applying “general flash and red flash thresholds” to Non-Web Documents and Software
@@ -512,6 +523,15 @@ With these substitutions, it would read:
 <div class="example">
 
 **Example:** Some common examples of <INS>**[non-web document and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
+
+#### dfn-up-event
+
+#### Guidance When Applying “up-event” to Non-Web Documents and Software
+
+This applies directly as written and as described in the WCAG 2.2 glossary.
+ 
+**NOTE**
+The up-event may have different names on different platforms. For example <INS>**[“PointerReleased” or “mouseup”]**</INS>.
 
 #### dfn-user-agents
 
