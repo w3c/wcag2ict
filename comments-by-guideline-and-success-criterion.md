@@ -553,7 +553,7 @@ Applicability of this Success Criterion would be limited to document types where
 
 <div class="note">
     
-Functions that emulate a keyboard or numeric keypad key press are considered essential. <INS>**[Examples of essential functionality for [non-web software] are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).]**</INS></div>
+Functions that emulate a keyboard or numeric keypad key press are considered essential. <INS>**[Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).]**</INS></div>
 
 <div class="note">
     
