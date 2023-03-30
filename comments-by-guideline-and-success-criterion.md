@@ -530,7 +530,38 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### pointer-cancellation
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+###### Guidance When Applying Success Criterion 2.5.2 to Non-Web Documents and Software
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent) (also provided below), making changes to the notes by replacing “web content” with "content" or “non-web software” and removing "user agent" as an excepted case for non-web software.
+
+With these substitutions, the notes would read: 
+
+(for non-web documents)
+<div class="note">
+    
+Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
+<div class="note">
+    
+This applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+
+<div class="note">
+    
+Applicability of this Success Criterion would be limited to document types where a document author can add content that interprets pointer actions and control which events are used for executing functionality. For example, prototyping tools used to design software.</div>
+
+(for non-web software)
+
+<div class="note">
+    
+Functions that emulate a keyboard or numeric keypad key press are considered essential. <INS>**[Examples of essential functionality for [non-web software] are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).]**</INS></div>
+
+<div class="note">
+    
+This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate assistive technology).</div>
+
+<div class="note">
+    
+Non-web software applications are not responsible for pointer actions required to operate the underlying user agent or platform software.</div>
 
 ##### label-in-name
 
