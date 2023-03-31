@@ -71,7 +71,7 @@ The WCAG 2.2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#
 Secondary or alternate audio tracks are commonly used for this purpose.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](https://w3c.github.io/wcag2ict/#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### captions-live
 
@@ -802,4 +802,4 @@ For [non-web documents](#document) and [software](#software) that are not implem
 
 <div class="note">
     
-See also the discussion on [Closed Functionality](https://w3c.github.io/wcag2ict/#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).</div>
