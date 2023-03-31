@@ -21,5 +21,8 @@ The following success criteria will be problematic for developers of closed func
 *   [3.3.1 Error Identification](#error-identification)—while it's important for errors that can be detected to be described to the user, for closed functionality, the error description doesn't have to be provided in text, as defined in WCAG 2.2;
 *   [4.1.1 Parsing](#parsing)—the [Intent of 4.1.1](https://www.w3.org/WAI/WCAG22/Understanding/parsing.html#intent) is to provide consistency so that different user agents or assistive technologies will yield the same result;
 *   [4.1.2 Name, Role, Value](#name-role-value)—requires information in a programmatically determinable form.
+*   [4.1.3 Status Messages](#status-messages)—requires information in a programmatic determinable form. Additionally, software with closed functionality is not typically implemented using markup languages.
+
+<div class="note">4.1.3: Non-web software with closed functionality would need equivalent facilitation to provide access to status messages.</div>
 
 <div class="note">Some of the above success criteria would apply to systems with closed functionality if they are partially closed or if they allow for the connection of some types of devices. For instance, Success Criterion 2.1.1 Keyboard would apply to systems which have closed functionality to screen readers but which have a physical keyboard or a connector for standard keyboards.</div><div class="note">While these guidelines are not suitable for closed functionality as written, they will inform and aid development of built-in accessible alternatives needed with closed functionality.</div>
