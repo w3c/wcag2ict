@@ -793,13 +793,13 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html#intent) (also provided below) replacing "In content implemented using markup languages" with "In content implemented using markup languages, or that supports status message notifications".
 
-With these substitutions, it would read:
-In [content implemented using markup languages, or that supports status message notifications], [status messages](https://www.w3.org/TR/WCAG22/#dfn-status-messages) can be [programmatically determined](https://github.com/w3c/wcag2ict/issues/122#dfn-programmatically-determinable) through [role](https://github.com/w3c/wcag2ict/issues/122#dfn-role) or properties such that they can be presented to the user by [assistive technologies](https://github.com/w3c/wcag2ict/issues/122#dfn-assistive-technologies) without receiving focus.
+With this substitution, it would read:
+In <INS>**[content implemented using markup languages, or that supports status message notifications]**</INS>, [status messages](https://www.w3.org/TR/WCAG22/#dfn-status-messages) can be [programmatically determined](#dfn-programmatically-determinable) through [role](#dfn-role) or properties such that they can be presented to the user by [assistive technologies](#dfn-assistive-technologies) without receiving focus.
 
 <div class="note">
-NOTE
-For non-web documents and software that are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the user agent or platform software. </div>
+    
+For [non-web documents](#document) and [software](#software) that are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the user agent or platform software.</div>
 
 <div class="note">
-NOTE
+    
 See also the discussion on [Closed Functionality](https://w3c.github.io/wcag2ict/#closed-functionality).</div>
