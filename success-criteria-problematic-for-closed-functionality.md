@@ -24,6 +24,7 @@ The following success criteria will be problematic for developers of closed func
 *   [4.1.3 Status Messages](#status-messages)— requires information in a programmatic determinable form. Additionally, software with closed functionality is not typically implemented using markup languages.
 
 <div class="note">
-NOTE Non-web software with closed functionality would need equivalent facilitation to provide access to status messages.</div>
+
+[Non-web software](#software) with closed functionality would need equivalent facilitation to provide access to status messages.</div>
 
 <div class="note">Some of the above success criteria would apply to systems with closed functionality if they are partially closed or if they allow for the connection of some types of devices. For instance, Success Criterion 2.1.1 Keyboard would apply to systems which have closed functionality to screen readers but which have a physical keyboard or a connector for standard keyboards.</div><div class="note">While these guidelines are not suitable for closed functionality as written, they will inform and aid development of built-in accessible alternatives needed with closed functionality.</div>
