@@ -224,7 +224,7 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### text-spacing
 
-##### Guidance When Applying Success Criterion 1.4.12 to Non-Web Documents and Software
+###### Guidance When Applying Success Criterion 1.4.12 to Non-Web Documents and Software
 
 This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.12]([https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent)) replacing "In content implemented using markup languages" with "For non-web documents or software content implemented using markup languages" and replacing "that support " with "in a way that supports modification of". 
 
@@ -248,7 +248,7 @@ There are several mechanisms that allow users to modify text spacing properties 
 
 ##### content-on-hover-or-focus
 
-##### Guidance When Applying Success Criterion 1.4.13 to Non-Web Documents and Software
+###### Guidance When Applying Success Criterion 1.4.13 to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html) (also provided below), replacing "user agent" with "user agent or platform software",  "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
 
