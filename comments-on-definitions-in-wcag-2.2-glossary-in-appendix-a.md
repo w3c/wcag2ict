@@ -54,6 +54,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   sign language
 *   sign language interpretation
 *   specific sensory experience
+*   status message
 *   synchronized media
 *   text
 *   text alternative
