@@ -226,7 +226,7 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ###### Guidance When Applying Success Criterion 1.4.12 to Non-Web Documents and Software
 
-This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.12]([https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent)) replacing "In content implemented using markup languages" with "For non-web documents or software content implemented using markup languages" and replacing "that support " with "in a way that supports modification of". 
+This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.12](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent) replacing "In content implemented using markup languages" with "For non-web documents or software content implemented using markup languages" and replacing "that support " with "in a way that supports modification of". 
 
 **With these substitutions, it would read:** 
 
