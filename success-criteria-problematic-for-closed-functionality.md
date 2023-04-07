@@ -22,8 +22,8 @@ The following success criteria will be problematic for developers of closed func
 <div class="note">Photographs are not sufficient for testing that content meets this Success Criteria. This is because the quality of the lighting, camera, and physical aspects of the hardware display can dramatically affect the ability to capture the content for testing purposes.</div>
 </ul>
 <li><a href="#keyboard">2.1.1 Keyboard</a>—requires operation via a keyboard interface which allows alternative input devices;</li>
-<li><a href="#page-titled">[2.4.2 Page Titled</a>—where software is an integral part of hardware that provides a single function, such as a calculator or IP telephone, there is no need for a title;</li>
-<li><a href="#label-in-name">[2.5.3 Label in Name</a>—requires information in a programmatically determinable form; specifically, the programmatic name contains the text of the visual label;</li>
+<li><a href="#page-titled">2.4.2 Page Titled</a>—where software is an integral part of hardware that provides a single function, such as a calculator or IP telephone, there is no need for a title;</li>
+<li><a href="#label-in-name">2.5.3 Label in Name</a>—requires information in a programmatically determinable form; specifically, the programmatic name contains the text of the visual label;</li>
 <li><a href="#language-of-page">3.1.1 Language of Page</a>—requires information in a programmatically determinable form;</li>
 <li><a href="#language-of-parts">3.1.2 Language of Parts</a>—requires information in a programmatically determinable form;</li>
 <li><a href="#error-identification">3.3.1 Error Identification</a>—while it's important for errors that can be detected to be described to the user, for closed functionality, the error description doesn't have to be provided in text, as defined in WCAG 2.2;</li>
