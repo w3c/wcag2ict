@@ -33,3 +33,12 @@
 The following people contributed to the development of the 2013 WCAG2ICT Note.
 
 Shadi Abou-Zahra, Bruce Bailey, Judy Brewer, Michael Cooper, Pierce Crowell, Allen Hoffman, Kiran Kaja, Andrew Kirkpatrick, Peter Korn, Alex Li, David MacDonald, Mary Jo Mueller, Loïc Martínez Normand, Mike Pluke, Janina Sajka, Andi Snow-Weaver, Gregg Vanderheiden
+
+### Enabling Funders
+
+This publication has been funded in part by funds from the following organizations:
+
+* Ford Foundation
+* European Commission
+
+The content of this publication does not necessarily reflect the views or policies of the Ford Foundation and/or the European Commission, nor does mention of trade names, commercial products, or organizations imply endorsement by the aforementioned organizations.
