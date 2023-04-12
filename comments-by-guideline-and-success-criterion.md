@@ -220,13 +220,31 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### non-text-contrast
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+###### Guidance When Applying Success Criterion 1.4.11 to Non-Web Documents and Software
+
+This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent) (also provided below), replacing "user agent" with "user agent or platform software". 
+
+With these substitutions, it would read:
+
+>The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
+>
+>- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-components) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[user agent or platform software]**</INS> and not modified by the author;
+>
+>- **Graphical Objects:** Parts of graphics required to understand the content, except when a particular presentation of graphics is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.
+
+<div class="note">
+    
+An example of appearance modification by the author is content that sets the visual style of a control, such as a color or border, to differ from the default style for the user agent or platform.</div>
+
+<div class="note">
+    
+See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### text-spacing
 
 ###### Guidance When Applying Success Criterion 1.4.12 to Non-Web Documents and Software
 
-This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.12](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent) replacing "In content implemented using markup languages" with "For non-web documents or software content implemented using markup languages" and replacing "that support " with "in a way that supports modification of". 
+This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.12](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent) (also provided below) replacing "In content implemented using markup languages" with "For non-web documents or software content implemented using markup languages" and replacing "that support " with "in a way that supports modification of". 
 
 **With these substitutions, it would read:** 
 
