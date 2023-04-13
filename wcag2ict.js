@@ -9,14 +9,6 @@ function fetchWcagInfo() {
     
     wcag.guidelines.principle.forEach(function(princ) {
       prepNode(princ);
-    /* 
-      var pid = princ.id;
-      var psec = document.querySelector('#' + pid);
-      var phead = psec.querySelector('h1, h2, h3, h4, h5, h6').parentNode; // header wrapper
-      var bq = document.createElement("blockquote");
-      bq.innerHTML = princ.contenttext;
-      phead.after(bq);
-       */
       
       princ.guideline.forEach(function(gl) {
         prepNode(gl);
@@ -37,11 +29,13 @@ function fetchWcagInfo() {
 function prepNode(n) {
   var nid = n.id;
   var nsec = document.querySelector('#' + nid);
-  var nheader = nsec.querySelector('h1, h2, h3, h4, h5, h6');
-  var nhtxt = nheader.childNodes[nheader.childNodes.length - 1];
-  nhtxt.nodeValue = n.name;
-  var nhead = nheader.parentNode; // header wrapper
-  var bq = document.createElement("blockquote");
-  bq.innerHTML = n.contenttext;
-  nhead.after(bq);
+  if (nsec) {
+    var nheader = nsec.querySelector('h1, h2, h3, h4, h5, h6');
+    var nhtxt = nheader.childNodes[nheader.childNodes.length - 1];
+    nhtxt.nodeValue = n.name;
+    var nhead = nheader.parentNode; // header wrapper
+    var bq = document.createElement("blockquote");
+    bq.innerHTML = n.contenttext;
+    nhead.after(bq);
+  }
 }
