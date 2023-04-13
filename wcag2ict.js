@@ -1,5 +1,5 @@
 function fetchWcagInfo() {
-  fetch('https://raw.githubusercontent.com/w3c/wcag/main/guidelines/wcag.json')
+  fetch('wcag.json')
   .then((response) => {
     return response.json();
   })
