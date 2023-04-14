@@ -52,7 +52,7 @@ function prepSec(n, type) {
   var nid = n.id;
   var nsec = document.querySelector('#' + nid);
   if (nsec) {
-    var nname = Array.isArray(n) ? n[0].name : n.name;
+    var nname = Array.isArray(n.name) ? n.name[0] : n.name;
     var nheader = nsec.querySelector('h1, h2, h3, h4, h5, h6'); // header element of section
     var nhtxt = nheader.childNodes[nheader.childNodes.length - 1]; // last node of the header is the text content
     nhtxt.nodeValue = nname; // update header text
