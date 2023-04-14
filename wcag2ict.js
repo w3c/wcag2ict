@@ -70,3 +70,6 @@ function prepSec(n, type) {
   }
 }
 
+function postRespec() {
+  fetchWcagInfo();
+}

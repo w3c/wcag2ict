@@ -81,7 +81,7 @@ var respecConfig = {
 	
 	maxTocLevel: 4,
 	
-	postProcess: [fetchWcagInfo],
+	postProcess: [postRespec],
 	
 	localBiblio: {
 		"HARDING-BINNIE": {
