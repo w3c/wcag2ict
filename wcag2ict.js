@@ -5,20 +5,17 @@ function fetchWcagInfo() {
   })
   .then((data) => {
     let wcag = data;
-    //console.log(wcag.wcag.principles.principle[0].id);
     
     wcag.guidelines.principle.forEach(function(princ) {
       prepPrinc(princ);
     });
     wcag.guidelines.term.forEach(function(term) {
-console.log (term.id);
       prepTerm(term);
     });
   });
 }
 
 function prepPrinc(princ) {
-console.log(princ.id);
   prepSec(princ, "principle");
     
   if (Array.isArray(princ.guideline)) {
@@ -31,7 +28,6 @@ console.log(princ.id);
 }
 
 function prepGl(gl) {
-console.log(gl.id);
   prepSec(gl, "guideline");
   
   if (Array.isArray(gl["success-criterion"])) {
@@ -44,13 +40,11 @@ console.log(gl.id);
 }
 
 function prepSc(sc) {
-console.log (sc.id);
   prepSec(sc, "sc");
 }
 
 function prepTerm(term) {
   var tid = term.id;
-console.log(tid);
   prepSec(term, "term");
 }
 
