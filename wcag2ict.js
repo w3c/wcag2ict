@@ -69,7 +69,7 @@ function prepSec(n, type) {
     }
     var nhead = nheader.parentNode; // header wrapper
     var bq = document.createElement("blockquote");
-    if (type == "term") bq.innerHTML = n.definition;
+    if (type == "term") bq.innerHTML = n.definitiontext;
     else bq.innerHTML = n.contenttext;
     nhead.after(bq);
   }
