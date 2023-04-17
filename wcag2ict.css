@@ -1,0 +1,10 @@
+.wcag-quote 
+{
+  font-size: smaller;
+}
+.wcag-quote .note, .wcag-quote .ednote, .wcag-quote .example 
+{
+  font-style: italic;
+  background-color: #EEE;
+  border-left-style: none;
+}

@@ -141,7 +141,7 @@ the purpose cannot be determined from the link and all information of the <INS>*
 **Example:** The word guava in the following sentence “One of the notable exports is guava” is a link. The link could lead to a definition of guava, a chart listing the quantity of guava exported or a photograph of people harvesting guava. Until the link is activated, all readers are unsure and the person with a disability is not at any disadvantage.</div>
 </DD></DL>
 
-#### dfn-assistive-technologies
+#### dfn-assistive-technology
 
 ##### Guidance When Applying “assistive technology” to Non-Web Documents and Software
 
@@ -180,7 +180,7 @@ The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technolog
 </div>
 </DD></DL>
 
-#### dfn-change-of-context
+#### dfn-changes-of-context
 
 ##### Guidance When Applying “changes of context” to Non-Web Documents and Software
 
@@ -213,7 +213,7 @@ A change of [content](#dfn-content) is not always a change of context. Changes i
 
 A change in the user agent might include bringing up a new window, or might be a significant change in the menus and/or toolbars that are displayed and available for interacting with some portion of the document.</div>
 
-#### dfn-conform
+#### dfn-conformance
 
 ##### Guidance When Applying “conformance” to Non-Web Documents and Software
 
@@ -221,7 +221,7 @@ The guidance in this document does not use the term “conformance”.
 
 See the section [Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-on-conformance).
 
-#### dfn-conforming-alternate-versions
+#### dfn-conforming-alternate-version
 
 ##### Guidance When Applying “conforming alternate version” to Non-Web Documents and Software
 
@@ -229,7 +229,7 @@ The guidance in this document does not use the term “conforming alternate vers
 
 See the section [Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-on-conformance).
 
-#### content (Web content)
+#### dfn-content
 
 ##### Guidance When Applying “content (Web Content)” to Non-Web Documents and Software
 
@@ -247,7 +247,7 @@ Because relative luminance is defined such that it cannot directly apply to hard
 
 From the [WCAG 2.2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-down-event):
 
-#### Guidance When Applying “down-event” to Non-Web Documents and Software
+##### Guidance When Applying “down-event” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
  
@@ -293,7 +293,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
 
 Please see the note in the [guidance for Success Criterion 2.1.1](http://w3c.github.io/wcag2ict/#success-criterion-2-1-1-keyboard-level-a) that uses this definition and which reads: “This does not imply that software must directly support a keyboard or ‘keyboard interface’. Nor does it imply that software must provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
 
-#### dfn-keyboard-shortcuts
+#### dfn-keyboard-shortcut
 
 ##### Guidance When Applying “keyboard shortcut” to Non-Web Documents and Software
 
@@ -303,7 +303,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
 
 A key command issued by a long press of a key (2 seconds or more) and other accessibility features provided by the platform are not considered a keyboard shortcut. Such commands often occur when there are limited keys, or no modifier keys, present on a device.</div>
 
-#### dfn-labels
+#### dfn-label
 
 ##### Guidance When Applying “label” to Non-Web Documents and Software
 
@@ -345,7 +345,7 @@ This is unrelated to the name attribute in HTML.</div>
 
 “AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
 
-#### dfn-programmatically-determinable
+#### dfn-programmatically-determined
 
 ##### Guidance When Applying “programmatically determined” to Non-Web Documents and Software
 
@@ -470,7 +470,7 @@ A submit “search” button on one web page and a “find” button on another 
 
 <INS>**[Example 2: A ribbon icon that saves the document that looks like an arrow pointing into a folder in one case, and an arrow pointing into a hard drive in another. In this case as well, they would have the same functionality but would not be labeled consistently.]**</INS></div></DD></DL>
 
-#### dfn-satisfies
+#### dfn-satisfies-a-success-criterion
 
 ##### Guidance When Applying “satisfies a success criterion” to Non-Web Documents and Software
 
@@ -510,7 +510,7 @@ See the guidance on user [sets of documents](http://w3c.github.io/wcag2ict/#wcag
 
 “AccessibleRole” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
 
-#### dfn-technologies
+#### dfn-technology
 
 ##### Guidance When Applying “technology” to Non-Web Documents and Software
 
@@ -528,20 +528,20 @@ With these substitutions, it would read:
 
 #### dfn-up-event
 
-#### Guidance When Applying “up-event” to Non-Web Documents and Software
+##### Guidance When Applying “up-event” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
  
 **NOTE**
 The up-event may have different names on different platforms. For example <INS>**[“PointerReleased” or “mouseup”]**</INS>.
 
-#### dfn-user-agents
+#### dfn-user-agent
 
 ##### Guidance When Applying “user agent” to Non-Web Documents and Software
 
 See the [guidance on user agent in the Key Terms section](http://w3c.github.io/wcag2ict/#wcag2ict-def_useragent).
 
-#### dfn-user-interface-components
+#### dfn-user-interface-component
 
 ##### Guidance When Applying “user interface component” to Non-Web Documents and Software
 
@@ -584,7 +584,7 @@ The <INS>**[[software](#dfn-software)]**</INS> presents [content](#dfn-content) 
 This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](http://www.w3.org/TR/WAI-USERAGENT/glossary.html).</div>
 </DD></DL>
 
-#### dfn-web-page-s
+#### dfn-web-page
 
 ##### Guidance When Applying “Web Page” to Non-Web Documents and Software
 
