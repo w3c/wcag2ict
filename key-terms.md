@@ -1,7 +1,7 @@
 Key Terms
 ---------
 
-There are two key glossary terms from WCAG 2.2 that need to be interpreted significantly differently when applied to non-web ICT. These are: “content” and “user agent”. In addition, the glossary term “Web page” in WCAG 2.2 is replaced with newly defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the newly defined terms “set of documents” and “set of software programs”. Finally, since non-Web software doesn't leverage the WCAG 2.2 notion of a user agent, we introduced the new term “accessibility services of platform software”. The remaining glossary terms from WCAG 2.2 are addressed in [Chapter 7 Comments on WCAG 2.2 Glossary Definitions](http://w3c.github.io/wcag2ict/#comments-on-wcag-2-2-definitions). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
+There are two key glossary terms from WCAG 2.2 that need to be interpreted significantly differently when applied to non-web ICT. These are: “content” and “user agent”. In addition, the glossary term “Web page” in WCAG 2.2 is replaced with newly defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the newly defined terms “set of documents” and “set of software programs”. Finally, since non-Web software doesn't leverage the WCAG 2.2 notion of a user agent, we introduced the new term “accessibility services of platform software”. The remaining glossary terms from WCAG 2.2 are addressed in [Chapter 7 Comments on WCAG 2.2 Glossary Definitions](#comments-on-wcag-2-2-definitions). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
 
 ### Accessibility Services of Platform Software
 
@@ -17,7 +17,7 @@ These services are commonly provided in the form of accessibility APIs (applicat
 
 ### Content (on and off the Web)
 
-WCAG 2.2 defines "**content**" as:
+WCAG 2.2 defines **content** as:
 >information and sensory experience to be communicated to the user by means of a [user agent](https://www.w3.org/TR/WCAG22/#dfn-user-agents), including code or markup that defines the content's [structure](https://www.w3.org/TR/WCAG22/#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
 
 For non-web content it is necessary to view this a bit more broadly. Within WCAG2ICT, the term “content” is used as follows:
@@ -28,7 +28,7 @@ information and sensory experience to be communicated to the user by means of <I
 </DD></DL>
 <div class="note">
 
-<INS>**[Non-web content occurs in two places; documents and software. When content occurs in a document, a user agent is needed in order to communicate the content's information and sensory experience to the user. When content occurs in software, a separate user agent isn't required—the software itself performs that function.]**</INS></div>
+[Non-web content occurs in two places; documents and software. When content occurs in a document, a user agent is needed in order to communicate the content's information and sensory experience to the user. When content occurs in software, a separate user agent isn't required—the software itself performs that function.]</div>
 
 Within WCAG2ICT wherever “content” or “web content” appears in a success criterion or Intent it should be replaced with “content” using the definition above.
 
@@ -147,7 +147,7 @@ Because software with a user interface provides a function equivalent to a user 
 
 ### User Agent
 
-WCAG 2.2 defines user agent as follows:
+WCAG 2.2 defines **user agent** as:
 
 ><DL><DT>user agent</DT><DD>
 > 
@@ -156,7 +156,7 @@ WCAG 2.2 defines user agent as follows:
 </DD></DL>
 <div class="example">
 
->**Example:** Web browsers, media players, plug-ins, and other programs—including [assistive technologies](#dfn-assistive-technologies)—that help in retrieving, rendering, and interacting with Web content.</div>
+>**Example:** Web browsers, media players, plug-ins, and other programs—including [assistive technologies](#dfn-assistive-technology)—that help in retrieving, rendering, and interacting with Web content.</div>
 For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2.2, the term “user agent” only refers to retrieval and display of web content. For non-web ICT, the term “user agent” refers to retrieval and display of separate content that is _not on the Web_, which WCAG2ICT refers to as a “document”. Within WCAG2ICT, the term “user agent” is used as follows:
 
 <DL><DT>user agent (as used in WCAG2ICT)</DT><DD>
