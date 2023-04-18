@@ -11,4 +11,4 @@ Examples of products with closed functionality include:
 *   an operating system that requires the user to provide log in credentials before it allows any assistive technologies to be loaded. The log-in portion would be closed functionality.
 *   a travel kiosk that provides an audio interface for blind and vision-impaired users as a built-in alternative to the visual interface and tactile keys as an alternative to touch screen operation for both blind users and those who can't operate a touch screen.
 
-See [Appendix A: Success Criteria Problematic for Closed Functionality](http://w3c.github.io/wcag2ict/#success-criteria-problematic-for-closed-functionality) for a list of success criteria for which this is relevant.
+See [Appendix A: Success Criteria Problematic for Closed Functionality](#success-criteria-problematic-for-closed-functionality) for a list of success criteria for which this is relevant.
