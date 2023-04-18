@@ -23,7 +23,7 @@ The Task Force found that the majority of success criteria from WCAG 2.2 can app
 
 When certain Web-specific terms or phrases like “web page(s)” were used in success criteria, those were replaced with non-web terms or phrases like “non-web document(s) and software”. Additional notes were also provided to explain the terminology replacements.
 
-A small number of success criteria are written to apply to “a set of web pages” or “multiple web pages” and require all pages in the set to share some characteristic or behavior. Since the unit of conformance in WCAG 2.2 is a single web page, the task force agreed that the equivalent unit of conformance for non-web documents is a single document. It follows that an equivalent unit of evaluation for a “set of web pages” would be a ”set of documents”. Since it isn't possible to unambiguously carve up non-web software into discrete pieces, a single “web page” was equated to a “software program” and a “set of web pages” was equated to a “set of software programs.  Both of these new terms are defined in the Key Terms section of this document. See “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software)” to determine when a group of documents or pieces of software are considered a set. 
+A small number of success criteria are written to apply to “a set of web pages” or “multiple web pages” and require all pages in the set to share some characteristic or behavior. Since the unit of conformance in WCAG 2.2 is a single web page, the task force agreed that the equivalent unit of conformance for non-web documents is a single document. It follows that an equivalent unit of evaluation for a “set of web pages” would be a ”set of documents”. Since it isn't possible to unambiguously carve up non-web software into discrete pieces, a single “web page” was equated to a “software program” and a “set of web pages” was equated to a “set of software programs.  Both of these new terms are defined in the Key Terms section of this document. See “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” to determine when a group of documents or pieces of software are considered a set. 
 <div class="note">Sets of software that meet this definition appear to be extremely rare.</div>
 
 The glossary terms were also reviewed and most of them applied to non-Web documents and software, as written. Some applied with additional notes or edits (largely related to phrases like “Web page(s)”), and a small number of terms were only used in Level AAA success criteria which are not addressed by the WCAG2ICT Note at this time.
@@ -50,9 +50,9 @@ Additional supporting documents for WCAG 2.2, such as the [WCAG 2 Overview](http
 
 The following stylistic conventions are used in this document:
 
-*   Quotes from WCAG 2.2 and Understanding WCAG 2.2 are in `<blockquote>` elements and visually styled as pale yellow inset boxes in slightly smaller text. They are prefaced by a reference to the original source such as “From {reference title} in {document}”.
-*   Additional guidance provided by this document begins with the phrase “Additional guidance” and is visually styled in pale blue boxes labeled by a heading having a dark blue background.
-*   Quotes from WCAG 2.2 begin with “From” and the success criterion number and name, and are presented as modified by the advice in this document with the modifications in `<ins>` elements visually styled as bold red text with dotted underlines.
+*   Quotes from WCAG 2.2 and Understanding WCAG 2.2 are in `<blockquote>` elements and visually styled in slightly smaller text with a gray bar on the left. They are prefaced by a reference to the original source such as “From {reference title} in {document}”.
+*   Additional guidance provided by this document begins with the phrase “Guidance When Applying” and has no special visual styling.
+*   Replacement text that is presented to show how an SC would read as modified by the advice in this document are in `<ins>` elements visually styled as bold green text.
 *   Notes are slightly inset and begin with the phrase “NOTE”. Each note is in its own inset box styled in pale green with a darker green line on the left side of the box.
 *   References to glossary items from WCAG 2.2 are presented in `<cite>` elements visually styled as ordinary text with a dotted underline, and contain title attributes noting these are WCAG definitions. They turn blue with a yellow background when mouse or keyboard focus is placed over them.
 *   References to glossary items in this document are presented in `<cite>` elements visually styled as ordinary text with a dashed underline, and contain title attributes noting these are Task Force definitions. They turn green with a yellow background when mouse or keyboard focus is placed over them. Note that some terms defined in WCAG 2.2 are redefined in WCAG2ICT and links are updated accordingly (except in direct quotes).
@@ -60,7 +60,7 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-<p class="ednote">The WCAG2CIT Task Force has begun incorporating new WCAG 2.1 content. This section will be updated as we incorporate new Guidelines, new and changed Success Criteria and term definitions, and make updates to other major sections of the document. This will help readers to focus reviews to sections that are ready. </p>
+<p class="ednote">The WCAG2CIT Task Force has begun incorporating new WCAG 2.1 content. This section will be updated as we incorporate new Guidelines, new and changed Success Criteria and term definitions, as well as make updates to other major sections of the document. This will help readers to focus reviews to sections that are ready. </p>
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document:
 
@@ -68,11 +68,20 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
 * New WCAG 2.1 Success Criteria and Guidelines
     * [Success Criterion 1.3.4 Orientation](#orientation)
     * [Success Criterion 1.3.5 Identify Input Purpose](#identify-input-purpose)
+    * [Success Criterion 1.4.11 Non-text Contrast](#non-text-contrast)
+    * [Success Criterion 1.4.12 Text Spacing](#text-spacing)
+    * [Success Criterion 1.4.13 Content on Hover or Focus](#content-on-hover-or-focus)
     * [Success Criterion 2.1.4 Character Key Shortcuts](#character-key-shortcuts)
     * [Guideline 2.5 Input Modalities](#input-modalities)
+    * [Success Criterion 2.5.2 Pointer Cancellation](#pointer-cancellation)
     * [Success Criterion 2.5.3 Label in Name](#label-in-name)
     * [Success Criterion 2.5.4 Motion Actuation](#motion-actuation)
-* New term definitions
-    * [keyboard shortcut](#dfn-keyboard-shortcuts)
+    * [Success Criterion 4.1.3 Status Messages](#status-messages)
+* New terms
+    * process, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
+    * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-AAA-success-criteria)
+    * [down-event](#dfn-down-event)
+    * [keyboard shortcut](#dfn-keyboard-shortcut)
+    * [up-event](#dfn-up-event)
 * Updated sections
     <div class="note">This will eventually list sections with major updates that are ready for review.</div>
