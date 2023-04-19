@@ -582,7 +582,7 @@ With these substitutions, the notes would read:
 Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
 <div class="note">
     
-This applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
 <div class="note">
     
