@@ -16,18 +16,33 @@
 * Laura Miller (TPGi)
 * Daniel Montalvo (W3C)
 * Mary Jo Mueller (IBM)
-* Sam Ogami (HP Inc.)
+* Sam Ogami (Invited expert)
 * Mike Pluke (Invited expert)
 * Shawn Thompson (Shared Services Canada)
 * Bryan Trogdon (Google LLC)
 * Gregg Vanderheiden (Raising the Floor)
 
 ### Participants in the AG Working Group that Actively Reviewed and Contributed
-<div class="ednote">This list will be updated as AG WG reviews and contributions are done.</div>
+<div class="ednote">This list will be updated as AG WG reviews and contributions are completed.</div>
 
 * Jonathan Avila (Level Access)
+* Daniel Bjorge (Microsoft)
+* Alastair Campbell (Nomensa)
+* Laura Carlson (Invited expert)
+* Jennifer Delisi (Invited expert)
 * Detlev Fischer (Invited expert)
+* Jan Jaap de Groot (Invited expert)
+* Andrew Kirkpatrick (Adobe)
 * Patrick Lauke (TetraLogical)
+* David MacDonald (Invited expert)
+* Kimberly Patch (Invited expert)
+
+### Participants in the APA Working Group that Contributed
+Special thanks goes to members of the APA working group that contributed their expertise to updates in the Text / Command-line / Terminal Applications and Interfaces content. 
+
+* Janina Sajka (Invited expert)
+* Matthew Atkinson (TPGi)
+* Jason White (Invited expert)
 
 ### Previous Contributors
 The following people contributed to the development of the 2013 WCAG2ICT Note.
