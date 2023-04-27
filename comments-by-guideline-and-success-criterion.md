@@ -566,7 +566,19 @@ This applies directly as written, and as described in [Intent from Understanding
 In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.5 applies directly as written.
 
 ##### pointer-gestures
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+This applies directly as written, and as described in Intent from [Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent) (also provided below), making changes to the notes by replacing “web content” with "content" or “non-web software” and removing "user agent" as an excepted case for non-web software.
+
+(non-web documents)
+<div class="note">
+This requirement applies to [content] that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).
+
+<div class="note">
+Multipoint and path-based gestures are less common in documents. An example where a document author could add such gestures is an interactive prototype document created in a software design tool.
+
+(non-web software)
+<div class="note">
+This requirement applies to [non-web software] that interprets pointer actions (i.e. this does not apply to actions that are required to operate the [underlying platform software] or assistive technology).
 
 ##### pointer-cancellation
 
