@@ -567,7 +567,7 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 ##### pointer-gestures
 
-This applies directly as written, and as described in Intent from [Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent) (also provided below), making changes to the notes by replacing “web content” with "content" or “non-web software” and removing "user agent" as an excepted case for non-web software.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent) (also provided below), making changes to the notes by replacing “web content” with "content" or “non-web software” and removing "user agent" as an excepted case for non-web software.
 
 (non-web documents)
 <div class="note">
