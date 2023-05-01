@@ -571,6 +571,8 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent) (also provided below), making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software by replacing "web content" with "non-web software" and "user agent" with "underlying platform software".
 
+With these substitutions, the notes would read:
+
 (non-web documents)
 
 <div class="note">
