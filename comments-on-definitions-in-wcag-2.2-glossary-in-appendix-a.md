@@ -53,6 +53,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   same relative order
 *   sign language
 *   sign language interpretation
+*   single pointer
 *   specific sensory experience
 *   state
 *   status message
