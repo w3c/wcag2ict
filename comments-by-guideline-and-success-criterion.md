@@ -567,21 +567,25 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 
 ##### pointer-gestures
 
+###### Guidance When Applying Success Criterion 2.5.1 to Non-Web Documents and Software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent) (also provided below), making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software by replacing "web content" with "non-web software" and "user agent" with "underlying platform software".
 
 (non-web documents)
+
 <div class="note">
-    
+
 This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
 <div class="note">
-    
+
 Multipoint and path-based gestures are less common in documents. An example where a document author could add such gestures is an interactive prototype document created in a software design tool.</div>
 
 (non-web software)
+
 <div class="note">
-    
-    This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the <INS>**[underlying platform software]**</INS> or assistive technology).</div>
+
+This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the <INS>**[underlying platform software]**</INS> or assistive technology).</div>
 
 ##### pointer-cancellation
 
