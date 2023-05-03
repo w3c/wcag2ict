@@ -98,28 +98,26 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#df
 
 1.  **The way that the <INS>[[non-web document](#dfn-non-web-document) or [software](#dfn-software) [technology](#dfn-technologies)]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](#dfn-human-language) of the [content](#dfn-content),
     
-    **AND**
+    ***and***
     
 2.  **The <INS>[[non-web document](#dfn-non-web-document) or [software](#dfn-software)]</INS> [technology](#dfn-technologies) must have accessibility-supported user agents <INS>[or other [software](#dfn-software)]</INS> that are available to users.** This means that at least one of the following four statements is true:
     
     1.  The [technology](#dfn-technologies) is supported natively in widely-distributed user agents <INS>**[or other [software](#dfn-software)]**</INS> that are also accessibility supported (such as HTML and CSS);
         
-        **OR**
+        ***or***
         
     2.  The [technology](#dfn-technologies) is supported in a widely-distributed plug-in <INS>**[or other software extension]**</INS> that is also accessibility supported;
         
-        **OR**
+        ***or***
         
     3.  The [content](#dfn-content) is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other [software](#dfn-software)]**</INS> required by the technology and used by the organization is also accessibility supported;
         
-        **OR**
+        ***or***
         
     4.  The user agent(s) that support the [technology](#dfn-technologies) are accessibility supported and are available for download or purchase in a way that:
         
         *   does not cost a person with a disability any more than a person without a disability **and**
-            
         *   is as easy to find and obtain for a person with a disability as it is for a person without disabilities.
-            
 
 <div class="note">
 
