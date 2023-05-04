@@ -1,5 +1,4 @@
-Comments on Definitions in WCAG 2.2 Glossary
-----------------------------------------------------------
+# Comments on Definitions in WCAG 2.2 Glossary
 
 The following is a complete list of definitions from the WCAG 2.2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
@@ -7,7 +6,7 @@ The following is a complete list of definitions from the WCAG 2.2 glossary. Some
 
 ### Glossary Items that Apply to All Technologies
 
-The following glossary items apply to all technologies and do not require further interpretation for non-web Information and Communications Technologies.
+The following glossary terms used in WCAG 2.2 apply to all technologies and do not require further interpretation for non-web Information and Communications Technologies.
 
 *   abbreviation
 *   alternative to time-based media
@@ -120,7 +119,6 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#df
         *   is as easy to find and obtain for a person with a disability as it is for a person without disabilities.
 
 <div class="note">
-
 <INS>**[The concepts behind the five Notes and in [Understanding Accessibility Supported](http://www.w3.org/WAI/WCAG22/Understanding/conformance#accessibility-support) are applicable to web technologies. The same or similar factors are applicable for non-web technologies.]**</INS></div></DD></DL>
 
 #### dfn-ambiguous-to-users-in-general
@@ -136,8 +134,8 @@ With this substitution, it would read:
 the purpose cannot be determined from the link and all information of the <INS>**[[non-web document](#dfn-non-web-document) or [software](#dfn-software)]**</INS> presented to the user simultaneously with the link (i.e., readers without disabilities would not know what a link would do until they activated it)
 
 <div class="example">
-
-**Example:** The word guava in the following sentence “One of the notable exports is guava” is a link. The link could lead to a definition of guava, a chart listing the quantity of guava exported or a photograph of people harvesting guava. Until the link is activated, all readers are unsure and the person with a disability is not at any disadvantage.</div>
+**Example:** The word guava in the following sentence “One of the notable exports is guava” is a link. The link could lead to a definition of guava, a chart listing the quantity of guava exported or a photograph of people harvesting guava. Until the link is activated, all readers are unsure and the person with a disability is not at any disadvantage.
+</div>
 </DD></DL>
 
 #### dfn-assistive-technology
@@ -156,25 +154,19 @@ hardware and/or software that acts <INS>**[stand-alone]**</INS>, or along with <
 
 Functionality provided by assistive technology includes alternative presentations (e.g., as synthesized speech or magnified content), alternative input methods (e.g., voice), additional navigation or orientation mechanisms, and content transformations (e.g., to make tables more accessible).</div>
 <div class="note">
-
-Assistive technologies often communicate data and messages with <INS>**[mainstream ICTs]**</INS> by using and monitoring APIs.</div>
+Assistive technologies often communicate data and messages with <INS>**[mainstream ICTs]**</INS> by using and monitoring APIs.
+</div>
 <div class="note">
-
-The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technologies is not absolute. Many <INS>**[mainstream ICTs]**</INS> provide some features to assist individuals with disabilities. The basic difference is that <INS>**[mainstream ICTs]**</INS> target broad and diverse audiences that usually include people with and without disabilities. Assistive technologies target narrowly defined populations of users with specific disabilities. The assistance provided by an assistive technology is more specific and appropriate to the needs of its target users. The <INS>**[mainstream ICT]**</INS> may provide important functionality to assistive technologies like retrieving <INS>**[[content](#dfn-content)]**</INS> from program objects or parsing markup into identifiable bundles.</div>
+The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technologies is not absolute. Many <INS>**[mainstream ICTs]**</INS> provide some features to assist individuals with disabilities. The basic difference is that <INS>**[mainstream ICTs]**</INS> target broad and diverse audiences that usually include people with and without disabilities. Assistive technologies target narrowly defined populations of users with specific disabilities. The assistance provided by an assistive technology is more specific and appropriate to the needs of its target users. The <INS>**[mainstream ICT]**</INS> may provide important functionality to assistive technologies like retrieving <INS>**[[content](#dfn-content)]**</INS> from program objects or parsing markup into identifiable bundles.
+</div>
 <div class="example">
-
 **Example:** Assistive technologies that are important in the context of this document include the following:
 
 *   screen magnifiers, and other visual reading assistants, which are used by people with visual, perceptual and physical print disabilities to change text font, size, spacing, color, synchronization with speech, etc. in order to improve the visual readability of rendered text and images;
-    
 *   screen readers, which are used by people who are blind to read textual information through synthesized speech or braille;
-    
 *   text-to-speech software, which is used by some people with cognitive, language, and learning disabilities to convert text into synthetic speech;
-    
 *   speech recognition software, which may be used by people who have some physical disabilities;
-    
 *   alternative keyboards, which are used by people with certain physical disabilities to simulate the keyboard (including alternate keyboards that use head pointers, single switches, sip/puff and other special input devices.);
-    
 *   alternative pointing devices, which are used by people with certain physical disabilities to simulate mouse pointing and button activations.  
 </div>
 </DD></DL>
@@ -590,5 +582,5 @@ This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](h
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
 <div class="note">
-
-For those success criteria that use the term “web page”, WCAG2ICT provides specific replacement term(s) for “Web page”.</div>
+For those success criteria that use the term “web page”, WCAG2ICT provides specific replacement term(s) for “Web page”.
+</div>
