@@ -197,7 +197,7 @@ This applies directly as written, and as described in [Intent from Understanding
 [Content](#content-on-and-off-the-web) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.
 </div>
 <div class="note">
-The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technology). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
+The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](https://www.w3.org/TR/WCAG22/#dfn-assistive-technology). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
 <div class="note">
 See also the discussion on [Closed Functionality](#closed-functionality).
 </div>
@@ -578,8 +578,8 @@ Multipoint and path-based gestures are less common in documents. An example wher
 (non-web software)
 
 <div class="note">
-
-This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the <INS>**[underlying platform software]**</INS> or assistive technology).</div>
+This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the <INS>**[underlying platform software]**</INS> or assistive technology).
+</div>
 
 ##### pointer-cancellation
 
@@ -590,30 +590,27 @@ This applies directly as written, and as described in [Intent from Understanding
 With these substitutions, the notes would read: 
 
 (for non-web documents)
-<div class="note">
-    
-Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
-<div class="note">
-    
-This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
 <div class="note">
-    
-Applicability of this Success Criterion would be limited to document types where a document author can add content that interprets pointer actions and control which events are used for executing functionality. For example, prototyping tools used to design software.</div>
+Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
+<div class="note">
+This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).
+</div>
+<div class="note">
+Applicability of this Success Criterion would be limited to document types where a document author can add content that interprets pointer actions and control which events are used for executing functionality. For example, prototyping tools used to design software.
+</div>
 
 (for non-web software)
 
 <div class="note">
-    
-Functions that emulate a keyboard or numeric keypad key press are considered essential. <INS>**[Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).]**</INS></div>
-
+Functions that emulate a keyboard or numeric keypad key press are considered essential. <INS>**[Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).]**</INS>
+</div>
 <div class="note">
-    
-This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate assistive technology).</div>
-
+This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate assistive technology).
+</div>
 <div class="note">
-    
-Non-web software applications are not responsible for pointer actions required to operate the underlying user agent or platform software.</div>
+Non-web software applications are not responsible for pointer actions required to operate the underlying user agent or platform software.
+</div>
 
 ##### label-in-name
 
@@ -622,8 +619,8 @@ Non-web software applications are not responsible for pointer actions required t
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.3](https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html#intent) (also provided below).
 
 <div class="note">
-
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### motion-actuation
 
@@ -654,11 +651,11 @@ With these substitutions, it would read:
 **3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determined). (Level A)
 
 <div class="note">
-    
-Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would comply with this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [software](#software) would also comply with this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technology) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to meet this success criterion in that locale / language.</div>
+Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would comply with this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [software](#software) would also comply with this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technology) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to meet this success criterion in that locale / language.
+</div>
 <div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### language-of-parts
 
@@ -671,11 +668,11 @@ With these substitutions, it would read:
 **3.1.2 Language of Parts:** The [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language) of each passage or phrase in the <INS>**[[non-web document](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determined) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. (Level AA)
 
 <div class="note">
-    
-There are some [software](#software) and [non-web document](#document) technologies where there is no assistive technology supported method for marking the language for the different passages or phrases in the non-web document or software, and it would not be possible to meet this success criterion with those technologies.</div>
+There are some [software](#software) and [non-web document](#document) technologies where there is no assistive technology supported method for marking the language for the different passages or phrases in the non-web document or software, and it would not be possible to meet this success criterion with those technologies.
+</div>
 <div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 #### predictable
 
@@ -694,8 +691,8 @@ Guideline 3.2 Predictable: Make <INS>**[[non-web documents](#document) or [softw
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.1](https://www.w3.org/WAI/WCAG22/Understanding/on-focus#intent) (also provided below).
 
 <div class="note">
-    
-Some compound documents and their user agents are designed to provide significantly different viewing and editing functionality depending upon what portion of the compound document is being interacted with (e.g. a presentation that contains an embedded spreadsheet, where the menus and toolbars of the user agent change depending upon whether the user is interacting with the presentation content, or the embedded spreadsheet content). If the user uses a mechanism other than putting focus on that portion of the compound document with which they mean to interact (e.g. by a menu choice or special keyboard gesture), any resulting [change of context](#dfn-changes-of-context) wouldn't be subject to this success criterion because it was not caused by a change of focus.</div>
+Some compound documents and their user agents are designed to provide significantly different viewing and editing functionality depending upon what portion of the compound document is being interacted with (e.g. a presentation that contains an embedded spreadsheet, where the menus and toolbars of the user agent change depending upon whether the user is interacting with the presentation content, or the embedded spreadsheet content). If the user uses a mechanism other than putting focus on that portion of the compound document with which they mean to interact (e.g. by a menu choice or special keyboard gesture), any resulting [change of context](#dfn-changes-of-context) wouldn't be subject to this success criterion because it was not caused by a change of focus.
+</div>
 
 ##### on-input
 
@@ -720,11 +717,11 @@ With these substitutions, this success criterion would read:
 **3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[software programs](#software)]**</INS> within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
 
 <div class="note">
-    
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div>
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)
+</div>
 <div class="note">
-    
-Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
+Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.
+</div>
 
 ##### consistent-identification
 
@@ -743,13 +740,14 @@ With these substitutions, this success criterion would read:
 **3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) are identified consistently.
 
 <div class="note">
-    
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div>
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)
+</div>
 <div class="note">
-    
-Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
+Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.
+</div>
 
 ##### consistent-help
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 #### input-assistance
@@ -765,8 +763,8 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification#intent) (also provided below).
 
 <div class="note">
-
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### labels-or-instructions
 
@@ -790,16 +788,16 @@ With this substitution, it would read:
 
 **3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>**[[non-web documents](#document) or [software](#software)]**</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true: (Level AA)
 
-1.  **Reversible:** Submissions are reversible.
-    
+1.  **Reversible:** Submissions are reversible.    
 2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-error) and the user is provided an opportunity to correct them.
-    
 3.  **Confirmed:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
     
 ##### accessible-authentication
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### redundant-entry
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ### robust
@@ -833,19 +831,19 @@ With these substitutions, it would read:
 **4.1.1 Parsing:** <INS>**[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technology) and accessibility features of software or to a user-selectable [user agent](#user-agent)]**</INS>, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. (Level A)
 
 <div class="note">
-    
-Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.</div>
+Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.
+</div>
 <div class="note">
-    
-Markup is not always available to [assistive technologies](#dfn-assistive-technology) or to user selectable [user agents](user-agent) such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.</div>
+Markup is not always available to [assistive technologies](#dfn-assistive-technology) or to user selectable [user agents](user-agent) such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.
+</div>
 
 Examples of markup that is separately exposed and available to [assistive technologies](#dfn-assistive-technology) and to [user agents](#user-agent) include: documents encoded in HTML, ODF, and OOXML. In these examples, the markup can be parsed entirely in two ways: (a) by assistive technologies which may directly open the document, (b) by assistive technologies using DOM APIs of user agents for these document formats.
 
-Examples of markup used internally for persistence of the software user interface that are never exposed to [assistive technology](#dfn-assistive-technology) include but are not limited to: XUL, GladeXML, and FXML. In these examples assistive technology only interacts with the user interface of generated software.
+Examples of markup used internally for persistence of the software user interface that are never exposed to [assistive technology](https://www.w3.org/TR/WCAG22/#dfn-assistive-technology) include but are not limited to: XUL, GladeXML, and FXML. In these examples assistive technology only interacts with the user interface of generated software.
 
 <div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### name-role-value
 
