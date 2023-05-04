@@ -197,7 +197,7 @@ This applies directly as written, and as described in [Intent from Understanding
 [Content](#content-on-and-off-the-web) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.
 </div>
 <div class="note">
-The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](https://www.w3.org/TR/WCAG22/#dfn-assistive-technology). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
+The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technology). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
 <div class="note">
 See also the discussion on [Closed Functionality](#closed-functionality).
 </div>
@@ -839,7 +839,7 @@ Markup is not always available to [assistive technologies](#dfn-assistive-techno
 
 Examples of markup that is separately exposed and available to [assistive technologies](#dfn-assistive-technology) and to [user agents](#user-agent) include: documents encoded in HTML, ODF, and OOXML. In these examples, the markup can be parsed entirely in two ways: (a) by assistive technologies which may directly open the document, (b) by assistive technologies using DOM APIs of user agents for these document formats.
 
-Examples of markup used internally for persistence of the software user interface that are never exposed to [assistive technology](https://www.w3.org/TR/WCAG22/#dfn-assistive-technology) include but are not limited to: XUL, GladeXML, and FXML. In these examples assistive technology only interacts with the user interface of generated software.
+Examples of markup used internally for persistence of the software user interface that are never exposed to [assistive technology](#dfn-assistive-technology) include but are not limited to: XUL, GladeXML, and FXML. In these examples assistive technology only interacts with the user interface of generated software.
 
 <div class="note">
 See also the discussion on [Closed Functionality](#closed-functionality).
