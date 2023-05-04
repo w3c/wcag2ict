@@ -1,5 +1,4 @@
-Comments by Guideline and Success Criterion
--------------------------------------------
+# Comments by Guideline and Success Criterion
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2.2. The text of each item from WCAG 2.2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. Finally, the “Intent” from Understanding WCAG 2.2 is copied as quoted text; the Task Force makes no substitutions or edits in this text. In visual presentations, the WCAG2ICT guidance is set out in a box with a blue bar to the left, to highlight that this is the content specific to this document.
 
@@ -22,11 +21,11 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.1.1](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content#intent) (also provided below).
 
 <div class="note">
-
-CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.</div>
+CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.
+</div>
 <div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 #### time-based-media
 
@@ -41,11 +40,11 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.1](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded#intent) (also provided below).
 
 <div class="note">
-    
-The alternative can be provided directly in the [non-web document](#document) or [software](#software) – or provided in an alternate version that meets the success criteria.</div>
+The alternative can be provided directly in the [non-web document](#document) or [software](#software) – or provided in an alternate version that meets the success criteria.
+</div>
 <div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### captions-prerecorded
 
@@ -53,9 +52,9 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.2](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded#intent) (also provided below).
 
-<div class="note">
-    
-The WCAG 2.2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “in some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2.2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+<div class="note">    
+The WCAG 2.2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “in some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2.2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.
+</div>
 
 ##### audio-description-or-media-alternative-prerecorded
 
@@ -64,14 +63,14 @@ The WCAG 2.2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-capti
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.3](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded#intent) (also provided below).
 
 <div class="note">
-    
-The WCAG 2.2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that “audio description” is “also called ‘video description’ and ‘descriptive narration’”.</div>
+The WCAG 2.2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that “audio description” is “also called ‘video description’ and ‘descriptive narration’”.
+</div>
 <div class="note">
-
-Secondary or alternate audio tracks are commonly used for this purpose.</div>
+Secondary or alternate audio tracks are commonly used for this purpose.
+</div>
 <div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### captions-live
 
@@ -80,8 +79,8 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.4](https://www.w3.org/WAI/WCAG22/Understanding/captions-live#intent) (also provided below).
 
 <div class="note">
-    
-The WCAG 2.2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2.2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+The WCAG 2.2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2.2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.
+</div>
 
 ##### audio-description-prerecorded
 
@@ -90,11 +89,11 @@ The WCAG 2.2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-capti
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.5](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded#intent) (also provided below).
 
 <div class="note">
-    
-The WCAG 2.2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that audio description is “also called ‘video description’ and ‘descriptive narration’”.</div>
+The WCAG 2.2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that audio description is “also called ‘video description’ and ‘descriptive narration’”.
+</div>
 <div class="note">
-
-Secondary or alternate audio tracks are commonly used for this purpose.</div>
+Secondary or alternate audio tracks are commonly used for this purpose.
+</div>
 
 #### adaptable
 
@@ -109,11 +108,11 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.1](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships#intent) (also provided below).
 
 <div class="note">
-    
-In software, programmatic determinability is best achieved through the use of [accessibility services provided by platform software](#accessibility-services-of-platform-software) to enable interoperability between software and assistive technologies and accessibility features of software.</div>
+In software, programmatic determinability is best achieved through the use of [accessibility services provided by platform software](#accessibility-services-of-platform-software) to enable interoperability between software and assistive technologies and accessibility features of software.
+</div>
 <div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### meaningful-sequence
 
@@ -138,8 +137,8 @@ This applies directly as written, and as described in [Intent from Understanding
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent) (also provided below).
 
 <div class="note">
-    
-Content that is only used on hardware with a fixed display orientation OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
+Content that is only used on hardware with a fixed display orientation OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.
+</div>
 
 ##### identify-input-purpose
 
@@ -148,14 +147,12 @@ Content that is only used on hardware with a fixed display orientation OR that h
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.5](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html#intent) (also provided below).
 
 <div class="note">
-
-[Non-web software](#software) and [non-web documents](#document) technologies that do not provide attributes that support identifying the expected meaning for the form input data are not in scope for this success criterion.</div>
+[Non-web software](#software) and [non-web documents](#document) technologies that do not provide attributes that support identifying the expected meaning for the form input data are not in scope for this success criterion.
+</div>
 <div class="note">
-
 For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms to those listed in the WCAG 2.2 section [Input Purposes for User Interface Components](https://www.w3.org/TR/WCAG22/#input-purposes) that are supported by the technology used.
 </div>
 <div class="note"> 
-
 See also the discussion on [Closed Functionality](#closed-functionality).
 </div>
 
@@ -174,6 +171,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### audio-control
 
 ###### Guidance When Applying Success Criterion 1.4.2 to Non-Web Documents and Software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent) (also provided below), replacing “on a Web page” with “in a non-web document or software”, “any content” with “any part of a non-web document or software”, “whole page” with “whole document or software”, “on the Web page” with “in the document or software”, and removing “See Conformance Requirement 5: Non-Interference”.
 
 With these substitutions, it would read:
@@ -181,7 +179,6 @@ With these substitutions, it would read:
 **1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level. (Level A)
 
 <div class="note">
-    
 Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content-on-and-off-the-web) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) must meet this success criterion.</div>
 
 ##### contrast-minimum
@@ -197,14 +194,13 @@ This applies directly as written, and as described in [Intent from Understanding
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent) (also provided below).
 
 <div class="note">
-    
-[Content](#content-on-and-off-the-web) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</div>
+[Content](#content-on-and-off-the-web) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.
+</div>
 <div class="note">
-    
 The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technology). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
 <div class="note">
-
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### images-of-text
 
@@ -212,33 +208,33 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.5](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text#intent) (also provided below).
 
-<div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+<div class="note">  
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### reflow
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### non-text-contrast
+
 ###### Guidance When Applying Success Criterion 1.4.11 to Non-Web Documents and Software
 
 This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent) (also provided below), replacing "user agent" with "user agent or platform software". 
 
 With these substitutions, it would read:
 
->The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
->
->- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-component) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[user agent or platform software]**</INS> and not modified by the author;
->
->- **Graphical Objects:** Parts of graphics required to understand the content, except when a particular presentation of graphics is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.
+> The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
+> 
+> - **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-component) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[user agent or platform software]**</INS> and not modified by the author;
+> - **Graphical Objects:** Parts of graphics required to understand the content, except when a particular presentation of graphics is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.
 
 <div class="note">
-    
-An example of appearance modification by the author is content that sets the visual style of a control, such as a color or border, to differ from the default style for the user agent or platform.</div>
-
+An example of appearance modification by the author is content that sets the visual style of a control, such as a color or border, to differ from the default style for the user agent or platform.
+</div>
 <div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### text-spacing
 
@@ -248,7 +244,7 @@ This applies directly as  written and as described in [Intent from Understanding
 
 **With these substitutions, it would read:** 
 
-><INS>**[For non-web documents or software]**</INS> content implemented using markup languages <INS>**[in a way that supports modification of]**</INS> the following [text](https://www.w3.org/TR/WCAG22/#dfn-text) [style properties](https://www.w3.org/TR/WCAG22/#dfn-style-properties), no loss of content or functionality occurs by setting all of the following and by changing no other style property:
+> <INS>**[For non-web documents or software]**</INS> content implemented using markup languages <INS>**[in a way that supports modification of]**</INS> the following [text](https://www.w3.org/TR/WCAG22/#dfn-text) [style properties](https://www.w3.org/TR/WCAG22/#dfn-style-properties), no loss of content or functionality occurs by setting all of the following and by changing no other style property:
 > * Line height (line spacing) to at least 1.5 times the font size;
 > * Spacing following paragraphs to at least 2 times the font size;
 > * Letter spacing (tracking) to at least 0.12 times the font size;
@@ -257,12 +253,10 @@ This applies directly as  written and as described in [Intent from Understanding
 > Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.
 
 <div class="note">
-
 "Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in [Electron](https://www.electronjs.org/) applications or iOS application Web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
-
 <div class="note">
-    
-There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This Success Criterion does not require that documents and software implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the Success Criterion requires that content respond appropriately to it.</div>
+There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This Success Criterion does not require that documents and software implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the Success Criterion requires that content respond appropriately to it.
+</div>
 
 ##### content-on-hover-or-focus
 
@@ -388,9 +382,7 @@ With this substitution, it would read:
 **2.2.2 Pause, Stop, Hide:** For moving, [blinking](https://www.w3.org/TR/WCAG22/#dfn-blinking), scrolling, or auto-updating information, all of the following are true: (Level A)
 
 *   **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to [pause](https://www.w3.org/TR/WCAG22/#dfn-pause), stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential); and
-    
-*   **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
-    
+*   **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.    
 
 <div class="note">
     
@@ -866,17 +858,16 @@ With this substitution, it would read:
 **4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-component) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determined); states, properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technology). (Level A)
 
 <div class="note">
-    
-<INS>**[This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already meet this success criterion when used according to specification.]**</INS></div>
+<INS>**[This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already meet this success criterion when used according to specification.]**</INS>
+</div>
 <div class="note">
-    
 For conforming to this success criterion, it is usually best practice for software user interfaces to use the accessibility services provided by platform software. These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could or should be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
 <div class="note">
-
-For document formats that support interoperability with assistive technology, standard user interface components often meet this success criterion when used according to the general design and accessibility guidance for the document format.</div>
+For document formats that support interoperability with assistive technology, standard user interface components often meet this success criterion when used according to the general design and accessibility guidance for the document format.
+</div>
 <div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
 
 ##### status-messages
 
@@ -888,9 +879,8 @@ With this substitution, it would read:
 In <INS>**[content implemented using markup languages, or that supports status message notifications]**</INS>, [status messages](https://www.w3.org/TR/WCAG22/#dfn-status-messages) can be [programmatically determined](#dfn-programmatically-determinable) through [role](#dfn-role) or properties such that they can be presented to the user by [assistive technologies](#dfn-assistive-technology) without receiving focus.
 
 <div class="note">
-    
-For [non-web documents](#document) and [software](#software) that are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the user agent or platform software.</div>
-
+For [non-web documents](#document) and [software](#software) that are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the user agent or platform software.
+</div>
 <div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality).
+</div>
