@@ -593,7 +593,7 @@ This requirement applies to <INS>**[non-web software]**</INS> that interprets po
 
 ###### Guidance When Applying Success Criterion 2.5.2 to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent) (also provided below), making changes to the notes by replacing “web content” with "content" or “non-web software” and removing "user agent" as an excepted case for non-web software.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent) (also provided below), making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software by replacing "web content" with "non-web software" and "user agent" with "underlying platform software".
 
 With these substitutions, the notes would read: 
 
@@ -603,11 +603,11 @@ With these substitutions, the notes would read:
 Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
 <div class="note">
     
-This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+This requirement applies to <INS>**[[content](#content-on-and-off-the-web)]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
 <div class="note">
     
-Applicability of this Success Criterion would be limited to document types where a document author can add content that interprets pointer actions and control which events are used for executing functionality. For example, prototyping tools used to design software.</div>
+Content that interprets pointer actions and controls which events are used for executing functionality is less common in documents. An example where a document author could add such functionality is an interactive prototype document created in a software design tool.</div>
 
 (for non-web software)
 
@@ -617,11 +617,7 @@ Functions that emulate a keyboard or numeric keypad key press are considered ess
 
 <div class="note">
     
-This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate assistive technology).</div>
-
-<div class="note">
-    
-Non-web software applications are not responsible for pointer actions required to operate the underlying user agent or platform software.</div>
+This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the <INS>**[underlying platform software]**</INS> assistive technology).</div>
 
 ##### label-in-name
 
