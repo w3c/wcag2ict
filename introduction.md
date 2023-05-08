@@ -79,7 +79,7 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 4.1.3 Status Messages](#status-messages)
 * New terms
     * process, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
-    * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-AAA-success-criteria)
+    * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria)
     * [down-event](#dfn-down-event)
     * [keyboard shortcut](#dfn-keyboard-shortcut)
     * [up-event](#dfn-up-event)
