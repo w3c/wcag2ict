@@ -881,7 +881,7 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.3](https://www.w3.org/WAI/WCAG21/Understanding/status-messages.html#intent) (also provided below) replacing "In content implemented using markup languages" with "In content implemented using markup languages, or that supports status message notifications".
 
 With this substitution, it would read:
-In <INS>**[content implemented using markup languages, or that supports status message notifications]**</INS>, [status messages](https://www.w3.org/TR/WCAG22/#dfn-status-messages) can be [programmatically determined](#dfn-programmatically-determinable) through [role](#dfn-role) or properties such that they can be presented to the user by [assistive technologies](#dfn-assistive-technology) without receiving focus.
+In <INS>**[content implemented using markup languages, or that supports status message notifications]**</INS>, [status messages](https://www.w3.org/TR/WCAG22/#dfn-status-messages) can be [programmatically determined](#dfn-programmatically-determined) through [role](#dfn-role) or properties such that they can be presented to the user by [assistive technologies](#dfn-assistive-technology) without receiving focus.
 
 <div class="note">
     
