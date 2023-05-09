@@ -6,6 +6,4 @@
   border-left-style: none;
 }
 
-ins {
-  text-decoration: none;
-}
+ins { color: #080; text-decoration: underline;    }
