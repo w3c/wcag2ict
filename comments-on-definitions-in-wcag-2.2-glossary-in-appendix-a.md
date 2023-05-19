@@ -92,15 +92,16 @@ With these substitutions and addition, it would read:
 
 <DL><DT>accessibility supported</DT><DD>
 
-supported by users' [assistive technologies](#dfn-assistive-technologies) as well as the accessibility features in <INS>**[[user agents](#dfn-user-agents) or other [software](#dfn-software)]**</INS>
+supported by users' [assistive technologies](#dfn-assistive-technology) as well as the accessibility features in <INS>**[[user agents](#dfn-user-agent) or other [software](#software)]**</INS>
 
-To qualify as an accessibility-supported use of a <INS>**[[non-web document](#dfn-non-web-document) or software]**</INS> [technology](#dfn-technologies) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>**[non-web document or software]**</INS> technology (or feature):
+To qualify as an accessibility-supported use of a <INS>**[[non-web document](#document) or software]**</INS> [technology](#dfn-technology) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>**[non-web document or software]**</INS> technology (or feature):
 
-1.  **The way that the <INS>**[non-web document or software technology]**</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](#dfn-human-language) of the [content](#dfn-content),
+1.  **The way that the <INS>[non-web document or software technology]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of the [content](#dfn-content),
     
     **AND**
     
-2.  **The <INS>**[non-web document or software]**</INS> technology must have accessibility-supported user agents <INS>**[or other software]**</INS> that are available to users.** This means that at least one of the following four statements is true:
+2.  **The <INS>[non-web document or software]</INS> technology must have accessibility-supported user agents <INS>[or other software]</INS> that are available to users.** This means that at least one of the following four statements is true:
+
     
     1.  The technology is supported natively in widely-distributed user agents <INS>**[or other software]**</INS> that are also accessibility supported (such as HTML and CSS);
         
@@ -118,8 +119,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#df
         
         *   does not cost a person with a disability any more than a person without a disability **and**
             
-        *   is as easy to find and obtain for a person with a disability as it is for a person without disabilities.
-            
+        *   is as easy to find and obtain for a person with a disability as it is for a person without disabilities.     
 
 <div class="note">
 
