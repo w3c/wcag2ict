@@ -379,11 +379,11 @@ With this substitution, it would read:
 
 <DL><DT>programmatically set</DT><DD>
 
-set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>
+set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technology) and accessibility features of software]**</INS>
 
 </DD></DL><div class="note">
 
-Software typically enables [content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content) to be programmatically determined through the use of [accessibility services of platform software](http://w3c.github.io/wcag2ict/#wcag2ict-def_accessibility-services). Non-web documents typically enable content to be programmatically determined through the use of accessibility services of the user agent.</div>
+Software typically enables [content](#content-on-and-off-the-web) to be programmatically determined through the use of [accessibility services of platform software](#accessibility-services-of-platform-software). Non-web documents typically enable content to be programmatically determined through the use of accessibility services of the user agent.</div>
 
 #### dfn-relative-luminance
 
