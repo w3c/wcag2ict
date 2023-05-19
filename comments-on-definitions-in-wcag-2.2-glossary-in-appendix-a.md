@@ -101,6 +101,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
     **AND**
     
 2.  **The <INS>[non-web document or software]</INS> technology must have accessibility-supported user agents <INS>[or other software]</INS> that are available to users.** This means that at least one of the following four statements is true:
+
     
     1.  The technology is supported natively in widely-distributed user agents <INS>**[or other software]**</INS> that are also accessibility supported (such as HTML and CSS);
         
@@ -118,8 +119,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
         
         *   does not cost a person with a disability any more than a person without a disability **and**
             
-        *   is as easy to find and obtain for a person with a disability as it is for a person without disabilities.
-            
+        *   is as easy to find and obtain for a person with a disability as it is for a person without disabilities.     
 
 <div class="note">
 
@@ -379,11 +379,11 @@ With this substitution, it would read:
 
 <DL><DT>programmatically set</DT><DD>
 
-set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>
+set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technology) and accessibility features of software]**</INS>
 
 </DD></DL><div class="note">
 
-Software typically enables [content](http://w3c.github.io/wcag2ict/#wcag2ict-def_content) to be programmatically determined through the use of [accessibility services of platform software](http://w3c.github.io/wcag2ict/#wcag2ict-def_accessibility-services). Non-web documents typically enable content to be programmatically determined through the use of accessibility services of the user agent.</div>
+Software typically enables [content](#content-on-and-off-the-web) to be programmatically determined through the use of [accessibility services of platform software](#accessibility-services-of-platform-software). Non-web documents typically enable content to be programmatically determined through the use of accessibility services of the user agent.</div>
 
 #### dfn-relative-luminance
 
