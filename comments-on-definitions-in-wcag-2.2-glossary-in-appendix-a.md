@@ -100,7 +100,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
     
     **AND**
     
-2.  **The <INS>[non-web document or software</INS> technology must have accessibility-supported user agents <INS>[or other software]</INS> that are available to users.** This means that at least one of the following four statements is true:
+2.  **The <INS>[non-web document or software]</INS> technology must have accessibility-supported user agents <INS>[or other software]</INS> that are available to users.** This means that at least one of the following four statements is true:
     
     1.  The technology is supported natively in widely-distributed user agents <INS>**[or other software]**</INS> that are also accessibility supported (such as HTML and CSS);
         
