@@ -56,11 +56,9 @@ function prepSec(n, type) {
     var nheader = nsec.querySelector('h1, h2, h3, h4, h5, h6'); // header element of section
     var nhtxt = nheader.childNodes[nheader.childNodes.length - 1]; // last node of the header is the text content
     nhtxt.nodeValue = nname; // update header text
-    if (type != "term") {
-      var tocitem = document.querySelector('a[class="tocxref"][href="#' + nid + '"]'); // get the TOC item
-      var tocitemtxt = tocitem.childNodes[tocitem.childNodes.length -1]; // last child is the text
-      tocitemtxt.nodeValue = nname; // update toc text
-    }
+    var tocitem = document.querySelector('a[class="tocxref"][href="#' + nid + '"]'); // get the TOC item
+    var tocitemtxt = tocitem.childNodes[tocitem.childNodes.length -1]; // last child is the text
+    tocitemtxt.nodeValue = nname; // update toc text
     var nhead = nheader.parentNode; // header wrapper
     var bq = document.createElement("blockquote");
     bq.setAttribute("class", "wcag-quote");
