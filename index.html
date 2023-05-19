@@ -1384,7 +1384,7 @@ The down-event may have different names on different platforms. For example <ins
 <div class="note" role="note" id="issue-container-generatedID-126"><div role="heading" class="note-title marker" id="h-note-114" aria-level="6"><span>Note</span></div><div class="">This includes:
 
 <ol>
-<li><p>Information that is required by the <ins><strong>[<a href="#dfn-non-web-document">non-web document</a> or <a href="#dfn-software">software</a>]</strong></ins> but omitted by the user</p>
+<li><p>Information that is required by the <ins><strong>[<a href="#document">non-web document</a> or <a href="#software">software</a>]</strong></ins> but omitted by the user</p>
 </li>
 <li><p>Information that is provided by the user but that falls outside the required data format or values</p>
 </li></ol></div></div>
@@ -1394,7 +1394,7 @@ The down-event may have different names on different platforms. For example <ins
 </section></section><section id="dfn-keyboard-interface"><div class="header-wrapper"><h4 id="x7-3-12-dfn-keyboard-interface"><bdi class="secno">7.3.12 </bdi>dfn-keyboard-interface</h4><a class="self-link" href="#dfn-keyboard-interface" aria-label="Permalink for Section 7.3.12"></a></div>
 <section id="guidance-when-applying-keyboard-interface-to-non-web-documents-and-software"><div class="header-wrapper"><h5 id="x7-3-12-1-guidance-when-applying-keyboard-interface-to-non-web-documents-and-software"><bdi class="secno">7.3.12.1 </bdi>Guidance When Applying “keyboard interface” to Non-Web Documents and Software</h5><a class="self-link" href="#guidance-when-applying-keyboard-interface-to-non-web-documents-and-software" aria-label="Permalink for Section 7.3.12.1"></a></div>
 <p>This applies directly as written and as described in the WCAG 2.2 glossary.</p>
-<p>Please see the note in the <a href="http://w3c.github.io/wcag2ict/#success-criterion-2-1-1-keyboard-level-a">guidance for Success Criterion 2.1.1</a> that uses this definition and which reads: “This does not imply that software must directly support a keyboard or ‘keyboard interface’. Nor does it imply that software must provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”</p>
+<p>Please see the note in the <a href="#guidance-when-applying-success-criterion-2-1-1-to-non-web-documents-and-software">guidance for Success Criterion 2.1.1</a> that uses this definition and which reads: “This does not imply that software must directly support a keyboard or ‘keyboard interface’. Nor does it imply that software must provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”</p>
 </section></section><section id="dfn-keyboard-shortcut"><div class="header-wrapper"><h4 id="x7-3-13-dfn-keyboard-shortcut"><bdi class="secno">7.3.13 </bdi>dfn-keyboard-shortcut</h4><a class="self-link" href="#dfn-keyboard-shortcut" aria-label="Permalink for Section 7.3.13"></a></div>
 <section id="guidance-when-applying-keyboard-shortcut-to-non-web-documents-and-software"><div class="header-wrapper"><h5 id="x7-3-13-1-guidance-when-applying-keyboard-shortcut-to-non-web-documents-and-software"><bdi class="secno">7.3.13.1 </bdi>Guidance When Applying “keyboard shortcut” to Non-Web Documents and Software</h5><a class="self-link" href="#guidance-when-applying-keyboard-shortcut-to-non-web-documents-and-software" aria-label="Permalink for Section 7.3.13.1"></a></div>
 <p>This applies directly as written and as described in the WCAG 2.2 glossary.</p>
@@ -1407,7 +1407,7 @@ The down-event may have different names on different platforms. For example <ins
 <p>With this substitution, it would read:</p>
 <dl><dt>label</dt><dd>
 
-<p><a href="#dfn-text">text</a> or other component with a <a href="#dfn-text-alternative">text alternative</a> that is presented to a user to identify a component within <ins><strong>[<a href="#dfn-content">content</a>]</strong></ins></p>
+<p><a href="https://www.w3.org/TR/WCAG22/#dfn-text">text</a> or other component with a <a href="https://www.w3.org/TR/WCAG22/#dfn-text-alternative">text alternative</a> that is presented to a user to identify a component within <ins><strong>[<a href="#dfn-content">content</a>]</strong></ins></p>
 <div class="note" role="note" id="issue-container-generatedID-128"><div role="heading" class="note-title marker" id="h-note-116" aria-level="6"><span>Note</span></div><div class="">
 
 <p>A label is presented to all users whereas the <a href="#dfn-name">name</a> may be hidden and only exposed by assistive technology <ins><strong>[or by accessibility features of software]</strong></ins>. In many (but not all) cases the name and the label are the same.</p></div></div><p></p>
@@ -1437,7 +1437,7 @@ The down-event may have different names on different platforms. For example <ins
 <p>With this substitution, it would read:</p>
 <dl><dt>programmatically determined (programmatically determinable)</dt><dd>
 
-<p>determined by <a href="#dfn-software">software</a> from author-supplied data provided in a way that different <ins><strong>[<a href="#dfn-assistive-technologies">assistive technologies</a> and accessibility features of software]</strong></ins>, can extract and present this information to users in different modalities</p>
+<p>determined by <a href="#software">software</a> from author-supplied data provided in a way that different <ins><strong>[<a href="#dfn-assistive-technology">assistive technologies</a> and accessibility features of software]</strong></ins>, can extract and present this information to users in different modalities</p>
 <div class="example">
 
 <p><strong>Example 1:</strong> Determined in a markup language from elements and attributes that are accessed directly by commonly available assistive technology <ins><strong>[and accessibility features of software]</strong></ins>.</p></div><p></p>
@@ -1447,7 +1447,7 @@ The down-event may have different names on different platforms. For example <ins
 </dd></dl><p></p>
 <div class="note" role="note" id="issue-container-generatedID-133"><div role="heading" class="note-title marker" id="h-note-121" aria-level="6"><span>Note</span></div><div class="">
 
-<p>Software typically enables content to be programmatically determined through the use of <a href="http://w3c.github.io/wcag2ict/#wcag2ict-def_accessibility-services">accessibility services of platform software</a>. Non-web documents typically enable <a href="http://w3c.github.io/wcag2ict/wcag2ict-def_content">content</a> to be programmatically determined through the use of accessibility services of the user agent.</p></div></div><p></p>
+<p>Software typically enables content to be programmatically determined through the use of <a href="#accessibility-services-of-platform-software">accessibility services of platform software</a>. Non-web documents typically enable <a href="#content-on-and-off-the-web">content</a> to be programmatically determined through the use of accessibility services of the user agent.</p></div></div><p></p>
 </section></section><section id="dfn-programmatically-set"><div class="header-wrapper"><h4 id="x7-3-17-dfn-programmatically-set"><bdi class="secno">7.3.17 </bdi>dfn-programmatically-set</h4><a class="self-link" href="#dfn-programmatically-set" aria-label="Permalink for Section 7.3.17"></a></div>
 <section id="guidance-when-applying-programmatically-set-to-non-web-documents-and-software"><div class="header-wrapper"><h5 id="x7-3-17-1-guidance-when-applying-programmatically-set-to-non-web-documents-and-software"><bdi class="secno">7.3.17.1 </bdi>Guidance When Applying “programmatically set” to Non-Web Documents and Software</h5><a class="self-link" href="#guidance-when-applying-programmatically-set-to-non-web-documents-and-software" aria-label="Permalink for Section 7.3.17.1"></a></div>
 <p>This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.</p>
