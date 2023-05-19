@@ -279,7 +279,7 @@ information provided by the user that is not accepted
 
 <div class="note">This includes:
 
-1.  Information that is required by the <INS>**[[non-web document](#dfn-non-web-document) or [software](#dfn-software)]**</INS> but omitted by the user
+1.  Information that is required by the <INS>**[[non-web document](#document) or [software](#software)]**</INS> but omitted by the user
     
 2.  Information that is provided by the user but that falls outside the required data format or values
 </div>    
@@ -292,7 +292,7 @@ information provided by the user that is not accepted
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
-Please see the note in the [guidance for Success Criterion 2.1.1](http://w3c.github.io/wcag2ict/#success-criterion-2-1-1-keyboard-level-a) that uses this definition and which reads: “This does not imply that software must directly support a keyboard or ‘keyboard interface’. Nor does it imply that software must provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
+Please see the note in the [guidance for Success Criterion 2.1.1](#guidance-when-applying-success-criterion-2-1-1-to-non-web-documents-and-software) that uses this definition and which reads: “This does not imply that software must directly support a keyboard or ‘keyboard interface’. Nor does it imply that software must provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
 
 #### dfn-keyboard-shortcut
 
@@ -314,7 +314,7 @@ With this substitution, it would read:
 
 <DL><DT>label</DT><DD>
 
-[text](#dfn-text) or other component with a [text alternative](#dfn-text-alternative) that is presented to a user to identify a component within <INS>**[[content](#dfn-content)]**</INS>
+[text](https://www.w3.org/TR/WCAG22/#dfn-text) or other component with a [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) that is presented to a user to identify a component within <INS>**[[content](#dfn-content)]**</INS>
 
 <div class="note">
 
@@ -356,7 +356,7 @@ With this substitution, it would read:
 
 <DL><DT>programmatically determined (programmatically determinable)</DT><DD>
 
-determined by [software](#dfn-software) from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>, can extract and present this information to users in different modalities
+determined by [software](#software) from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technology) and accessibility features of software]**</INS>, can extract and present this information to users in different modalities
 
 <div class="example">
 
@@ -367,7 +367,7 @@ determined by [software](#dfn-software) from author-supplied data provided in a 
 </DD></DL>
 <div class="note">
 
-Software typically enables content to be programmatically determined through the use of [accessibility services of platform software](http://w3c.github.io/wcag2ict/#wcag2ict-def_accessibility-services). Non-web documents typically enable [content](http://w3c.github.io/wcag2ict/wcag2ict-def_content) to be programmatically determined through the use of accessibility services of the user agent.</div>
+Software typically enables content to be programmatically determined through the use of [accessibility services of platform software](#accessibility-services-of-platform-software). Non-web documents typically enable [content](#content-on-and-off-the-web) to be programmatically determined through the use of accessibility services of the user agent.</div>
 
 #### dfn-programmatically-set
 
