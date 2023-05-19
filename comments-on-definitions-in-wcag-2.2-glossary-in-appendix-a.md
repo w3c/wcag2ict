@@ -201,7 +201,7 @@ Changes in context include changes of:
     
 3.  focus;
     
-4.  content that changes the meaning of the <INS>**[non-web document or content) presented by software]**</INS>.  
+4.  content that changes the meaning of the <INS>**[non-web document or content presented by software]**</INS>.  
 
 <div class="note">
 
