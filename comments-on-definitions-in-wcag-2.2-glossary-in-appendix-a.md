@@ -499,10 +499,9 @@ With these substitutions, it would read:
 
 <DL><DT>structure</DT><DD>
 
-1.  The way the parts of <INS>**[[non-web documents](#dfn-non-web-documents) or [software](#dfn-software)]**</INS> are organized in relation to each other; and
+1.  The way the parts of <INS>**[[non-web documents](#documents) or [software](#software)]**</INS> are organized in relation to each other; and
     
-2.  The way a <INS>**[[set of documents](#dfn-set-of-documents) or [set of software programs](#dfn-set-of-software-programs)]**</INS> is organized
-    
+2.  The way a <INS>**[[set of documents](#set-of-documents) or [set of software programs](#set-of-software-programs)]**</INS> is organized
 
 </DD></DL><div class="note">
 
