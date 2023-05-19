@@ -135,7 +135,7 @@ With this substitution, it would read:
 
 <DL><DT>ambiguous to users in general</DT><DD>
 
-the purpose cannot be determined from the link and all information of the <INS>**[[non-web document](#dfn-non-web-document) or [software](#dfn-software)]**</INS> presented to the user simultaneously with the link (i.e., readers without disabilities would not know what a link would do until they activated it)
+the purpose cannot be determined from the link and all information of the <INS>**[[non-web document](#document) or [software](#software)]**</INS> presented to the user simultaneously with the link (i.e., readers without disabilities would not know what a link would do until they activated it)
 
 <div class="example">
 
@@ -191,7 +191,7 @@ With this substitution, it would read:
 
 <DL><DT>changes of context</DT><DD>
 
-major changes in the content of the <INS>**[[non-web document](#dfn-non-web-document) or [content](#dfn-content) presented by [software](#dfn-software)]**</INS> that, if made without user awareness, can disorient users who are not able to view the entire <INS>**[[non-web document](#dfn-non-web-document) or [content](#dfn-content) presented by [software](#dfn-software)]**</INS> simultaneously
+major changes in the content of the <INS>**[[non-web document](#document) or [content](#dfn-content) presented by [software](#software)]**</INS> that, if made without user awareness, can disorient users who are not able to view the entire <INS>**non-web document or content presented by software]**</INS> simultaneously
 
 Changes in context include changes of:
 
@@ -201,11 +201,11 @@ Changes in context include changes of:
     
 3.  focus;
     
-4.  [content](#dfn-content) that changes the meaning of the <INS>**[[non-web document](#dfn-non-web-document) or [content](#dfn-content) presented by [software](#dfn-software)]**</INS>.  
+4.  content that changes the meaning of the <INS>**[non-web document or content) presented by software]**</INS>.  
 
 <div class="note">
 
-A change of [content](#dfn-content) is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).</div>
+A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).</div>
 <div class="example">
 
 **Example:** Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.</div>
@@ -220,7 +220,7 @@ A change in the user agent might include bringing up a new window, or might be a
 
 The guidance in this document does not use the term “conformance”.
 
-See the section [Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-on-conformance).
+See the section [Comments on Conformance](#comments-on-conformance).
 
 #### dfn-conforming-alternate-version
 
@@ -228,7 +228,7 @@ See the section [Comments on Conformance](http://w3c.github.io/wcag2ict/#comment
 
 The guidance in this document does not use the term “conforming alternate version”.
 
-See the section [Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-on-conformance).
+See the section [Comments on Conformance](#comments-on-conformance).
 
 #### dfn-content
 
