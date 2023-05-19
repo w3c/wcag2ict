@@ -575,7 +575,7 @@ With this substitution, it would read:
 
 <DL><DT>viewport</DT><DD>
 
-object in which the <INS>**[[software](#software)]**</INS> presents [content](#dfn-content-on-and-off-the-web)
+object in which the <INS>**[[software](#software)]**</INS> presents [content](#content-on-and-off-the-web)
 
 <div class="note">
 
