@@ -487,7 +487,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
 
 <div class="note">
 
-For those success criteria that use the term “set of web pages” explicitly or implicitly ([2.4.1](#bypass-blocks), [2.4.5](#multiple-ways), [3.2.3](#consistent-navigation), and [3.2.4](consistent-identification)) WCAG2ICT provides specific replacement term(s) for “set of Web pages”.</div>
+For those success criteria that use the term “set of web pages” explicitly or implicitly ([2.4.1](#bypass-blocks), [2.4.5](#multiple-ways), [3.2.3](#consistent-navigation), and [3.2.4](#consistent-identification)) WCAG2ICT provides specific replacement term(s) for “set of Web pages”.</div>
 
 #### dfn-structure
 
