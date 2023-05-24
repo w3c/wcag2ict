@@ -96,7 +96,7 @@ supported by users' [assistive technologies](#dfn-assistive-technology) as well 
 
 To qualify as an accessibility-supported use of a <INS>**[[non-web document](#document) or software]**</INS> [technology](#dfn-technology) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>**[non-web document or software]**</INS> technology (or feature):
 
-1.  **The way that the <INS>[non-web document or software technology]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of the [content](#dfn-content),
+1.  **The way that the <INS>[non-web document or software technology]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of the [content](#content-on-and-off-the-web),
     
     **AND**
     
@@ -162,7 +162,7 @@ Functionality provided by assistive technology includes alternative presentation
 Assistive technologies often communicate data and messages with <INS>**[mainstream ICTs]**</INS> by using and monitoring APIs.</div>
 <div class="note">
 
-The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technologies is not absolute. Many <INS>**[mainstream ICTs]**</INS> provide some features to assist individuals with disabilities. The basic difference is that <INS>**[mainstream ICTs]**</INS> target broad and diverse audiences that usually include people with and without disabilities. Assistive technologies target narrowly defined populations of users with specific disabilities. The assistance provided by an assistive technology is more specific and appropriate to the needs of its target users. The <INS>**[mainstream ICT]**</INS> may provide important functionality to assistive technologies like retrieving <INS>**[[content](#dfn-content)]**</INS> from program objects or parsing markup into identifiable bundles.</div>
+The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technologies is not absolute. Many <INS>**[mainstream ICTs]**</INS> provide some features to assist individuals with disabilities. The basic difference is that <INS>**[mainstream ICTs]**</INS> target broad and diverse audiences that usually include people with and without disabilities. Assistive technologies target narrowly defined populations of users with specific disabilities. The assistance provided by an assistive technology is more specific and appropriate to the needs of its target users. The <INS>**[mainstream ICT]**</INS> may provide important functionality to assistive technologies like retrieving <INS>**[[content](#content-on-and-off-the-web)]**</INS> from program objects or parsing markup into identifiable bundles.</div>
 <div class="example">
 
 **Example:** Assistive technologies that are important in the context of this document include the following:
@@ -191,7 +191,7 @@ With this substitution, it would read:
 
 <DL><DT>changes of context</DT><DD>
 
-major changes in the content of the <INS>**[[non-web document](#document) or [content](#dfn-content) presented by [software](#software)]**</INS> that, if made without user awareness, can disorient users who are not able to view the entire <INS>**non-web document or content presented by software]**</INS> simultaneously
+major changes in the content of the <INS>**[[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS> that, if made without user awareness, can disorient users who are not able to view the entire <INS>**non-web document or content presented by software]**</INS> simultaneously
 
 Changes in context include changes of:
 
@@ -314,7 +314,7 @@ With this substitution, it would read:
 
 <DL><DT>label</DT><DD>
 
-[text](https://www.w3.org/TR/WCAG22/#dfn-text) or other component with a [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) that is presented to a user to identify a component within <INS>**[[content](#dfn-content)]**</INS>
+[text](https://www.w3.org/TR/WCAG22/#dfn-text) or other component with a [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) that is presented to a user to identify a component within <INS>**[[content](#content-on-and-off-the-web)]**</INS>
 
 <div class="note">
 
@@ -333,7 +333,7 @@ With this substitution, it would read:
 
 <DL><DT>name</DT><DD>
 
-text by which software can identify a component within <INS>**[[content](#dfn-content)]**</INS> to the user
+text by which software can identify a component within <INS>**[[content](#content-on-and-off-the-web)]**</INS> to the user
 
 <div class="note">
 
@@ -419,7 +419,7 @@ The “^” character is the exponentiation operator. (Formula taken from [\[sRG
 
 <div class="note">
 
-Almost all systems used today to view <INS>**[[content](#dfn-content)]**</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
+Almost all systems used today to view <INS>**[[content](#content-on-and-off-the-web)]**</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
 <div class="note">
 
 If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered should be used (average R, average G, and average B).</div>
@@ -440,7 +440,7 @@ With this substitution, it would read:
 
 <DL><DT>role</DT><DD>
 
-text or number by which software can identify the function of a component within <INS>**[[content](#dfn-content)]**</INS>
+text or number by which software can identify the function of a component within <INS>**[[content](#content-on-and-off-the-web)]**</INS>
 
 <div class="example">
 
@@ -477,7 +477,7 @@ A submit “search” button on one web page and a “find” button on another 
 
 The guidance in this document does not use the term “satisfies a success criterion”.
 
-See [Section 6 Comments on Conformance](http://w3c.github.io/wcag2ict/#comments-on-conformance).
+See [Section 6 Comments on Conformance](#comments-on-conformance).
 
 #### dfn-set-of-web-pages
 
@@ -487,7 +487,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
 
 <div class="note">
 
-For those success criteria that use the term “set of web pages” explicitly or implicitly ([2.4.1](http://w3c.github.io/wcag2ict/#success-criterion-2-4-1-bypass-blocks-level-a), [2.4.5](http://w3c.github.io/wcag2ict/#success-criterion-2-4-5-multiple-ways-level-aa), [3.2.3](http://w3c.github.io/wcag2ict/#success-criterion-3-2-3-consistent-navigation-level-aa), and [3.2.4](http://w3c.github.io/wcag2ict/#success-criterion-3-2-4-consistent-identification-level-aa)) WCAG2ICT provides specific replacement term(s) for “set of Web pages”.</div>
+For those success criteria that use the term “set of web pages” explicitly or implicitly ([2.4.1](#bypass-blocks), [2.4.5](#multiple-ways), [3.2.3](#consistent-navigation), and [3.2.4](#consistent-identification)) WCAG2ICT provides specific replacement term(s) for “set of Web pages”.</div>
 
 #### dfn-structure
 
@@ -499,14 +499,13 @@ With these substitutions, it would read:
 
 <DL><DT>structure</DT><DD>
 
-1.  The way the parts of <INS>**[[non-web documents](#dfn-non-web-documents) or [software](#dfn-software)]**</INS> are organized in relation to each other; and
+1.  The way the parts of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> are organized in relation to each other; and
     
-2.  The way a <INS>**[[set of documents](#dfn-set-of-documents) or [set of software programs](#dfn-set-of-software-programs)]**</INS> is organized
-    
+2.  The way a <INS>**[[set of documents](#set-of-documents) or [set of software programs](#set-of-software-programs)]**</INS> is organized
 
 </DD></DL><div class="note">
 
-See the guidance on user [sets of documents](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-documents) and [sets of software programs](http://w3c.github.io/wcag2ict/#wcag2ict-def_set-of-software-programs) in the Key Terms section.</div>
+See the guidance on user [sets of documents](#set-of-documents) and [sets of software programs](#set-of-software-programs) in the Key Terms section.</div>
 <div class="note">
 
 “AccessibleRole” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
@@ -521,7 +520,7 @@ With these substitutions, it would read:
 
 <DL><DT>technology (<INS>[non-web document or software]</INS>)</DT><DD>
 
-[mechanism](#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#dfn-user-agents) or other [software](#dfn-software)]**</INS>.
+[mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#user-agent) or other [software](#software)]**</INS>.
 
 <div class="example">
 
@@ -533,14 +532,15 @@ With these substitutions, it would read:
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
  
-**NOTE**
-The up-event may have different names on different platforms. For example <INS>**[“PointerReleased” or “mouseup”]**</INS>.
+<div class="note">
+    
+The up-event may have different names on different platforms. For example <INS>**[“PointerReleased” or “mouseup”]**</INS>.</div>
 
 #### dfn-user-agent
 
 ##### Guidance When Applying “user agent” to Non-Web Documents and Software
 
-See the [guidance on user agent in the Key Terms section](http://w3c.github.io/wcag2ict/#wcag2ict-def_useragent).
+See the [guidance on user agent in the Key Terms section](#user-agent).
 
 #### dfn-user-interface-component
 
@@ -552,7 +552,7 @@ With this substitution, it would read:
 
 <DL><DT>user interface component</DT><DD>
 
-a part of the [content](#dfn-content) that is perceived by users as a single control for a distinct function
+a part of the [content](#content-on-and-off-the-web) that is perceived by users as a single control for a distinct function
 
 <div class="note">
 
@@ -562,7 +562,7 @@ Multiple user interface components may be implemented as a single programmatic e
 User interface components include form elements and links as well as components generated by scripts.</div>
 <div class="example">
 
-**Example:** <INS>**[A [software](#dfn-software) program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the [software](#dfn-software).]**</INS></div>
+**Example:** <INS>**[A [software](#software) program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the software.]**</INS></div>
 </DD></DL>
 
 #### dfn-viewport
@@ -575,11 +575,11 @@ With this substitution, it would read:
 
 <DL><DT>viewport</DT><DD>
 
-object in which the <INS>**[[software](#dfn-software)]**</INS> presents [content](#dfn-content)
+object in which the <INS>**[[software](#software)]**</INS> presents [content](#content-on-and-off-the-web)
 
 <div class="note">
 
-The <INS>**[[software](#dfn-software)]**</INS> presents [content](#dfn-content) through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <INS>**[[software](#dfn-software)]**</INS> such as prompts, menus, and alerts are not viewports.</div>
+The <INS>**[software]**</INS> presents content through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <INS>**[software]**</INS> such as prompts, menus, and alerts are not viewports.</div>
 <div class="note">
 
 This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](http://www.w3.org/TR/WAI-USERAGENT/glossary.html).</div>
