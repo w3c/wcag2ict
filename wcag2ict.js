@@ -56,7 +56,7 @@ function prepSec(n, type) {
     var nheader = nsec.querySelector('h1, h2, h3, h4, h5, h6'); // header element of section
     var nhtxt = nheader.childNodes[nheader.childNodes.length - 1]; // last node of the header is the text content
     nhtxt.nodeValue = nname; // update header text
-    var tocitem = document.querySelector('a[class="tocxref"][href="#' + nid + '"]'); // get the TOC item
+    var tocitem = getTocLink(nid); // get the TOC item
     var tocitemtxt = tocitem.childNodes[tocitem.childNodes.length -1]; // last child is the text
     tocitemtxt.nodeValue = nname; // update toc text
     var nhead = nheader.parentNode; // header wrapper
@@ -68,6 +68,33 @@ function prepSec(n, type) {
   }
 }
 
+function getTocLink(id) {
+	return document.querySelector('a[class="tocxref"][href="#' + id + '"]');
+}
+
+function getTocItem(id) {
+	var tocLink = getTocLink(id);
+	if (tocLink != null) {
+		var tocItem = tocLink.parentElement;
+		return tocItem;
+	} else {
+		return null;
+	}
+}
+
+function hideDeepNums() {
+	document.querySelectorAll("#comments-by-guideline-and-success-criterion section").forEach(function(item) {
+		var id = item.id;
+		if (id.startsWith("guidance-when-")) {
+			var tocItem = getTocItem(id);
+			if (tocItem != null) tocItem.remove();
+			var secno = item.querySelector("bdi.secno");
+			if (secno != null) secno.remove();
+		}
+	});
+}
+
 function postRespec() {
   fetchWcagInfo();
+  hideDeepNums();
 }
