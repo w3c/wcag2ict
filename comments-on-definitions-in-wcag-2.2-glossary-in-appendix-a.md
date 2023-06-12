@@ -15,6 +15,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   audio
 *   audio description
 *   audio-only
+*   bounding box
 *   blinking
 *   CAPTCHA
 *   captions
@@ -41,6 +42,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   normative
 *   on a full-screen window
 *   paused
+*   pointer inputs
 *   prerecorded
 *   presentation
 *   primary education level
@@ -509,6 +511,26 @@ See the guidance on user [sets of documents](#set-of-documents) and [sets of sof
 <div class="note">
 
 “AccessibleRole” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
+
+#### dfn-target
+
+target
+region of the display that will accept a pointer action, such as the interactive area of a user interface component
+
+<div class="note">
+NOTE
+If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same page. </div>
+
+#####  Guidance When Applying “target” to Non-Web Documents and Software
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “page” with “non-web document or content presented by software”.
+
+With this substitution, it would read:
+target
+region of the display that will accept a pointer action, such as the interactive area of a user interface component
+
+<div class="note">
+NOTE
+If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same [non-web document or content presented by software].</div>
 
 #### dfn-technology
 
