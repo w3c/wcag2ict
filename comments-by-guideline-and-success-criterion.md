@@ -635,6 +635,46 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.4](https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html#intent) (also provided below).
 
+##### target-size-minimum
+
+###### Guidance When Applying Success Criterion 2.5.8 to Non-Web Documents and Software:
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or platform software", and "on the same page" with "in the same non-web document or software".
+
+With these substitutions, it would read:
+
+The size of the target for pointer inputs is at least 24 by 24 CSS pixels, except where:
+
+Spacing: Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the bounding box of each, the circles do not intersect another target or the circle for another undersized target;
+Equivalent: The function can be achieved through a different control [in the same non-web document or software] that meets this criterion.
+Inline: The target is in a sentence, or is in a bulleted or numbered list, or its size is otherwise constrained by the line-height of non-target text;
+[User agent or platform software] control: The size of the target and target offset is determined by the [user agent or platform software] and is not modified by the author;
+Essential: A particular presentation of the target is essential or is legally required for the information being conveyed;
+
+<div class="note">
+NOTE
+Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders with granular values, color pickers displaying a gradient of colors, or editable areas where you position the cursor. </div>
+
+<div class="note">
+NOTE
+For inline targets the line-height should be interpreted as perpendicular to the flow of text. For example, in a language displayed vertically, the line-height would be horizontal. </div>
+
+(for non-web documents)
+
+<div class="note">
+NOTE
+Some document formats do not have a default zoom level, but have commonly available user agents that allow users to view the content at a wide range of sizes. When evaluating such documents, it is a best practice to choose a starting zoom level appropriate for the intended usage of the content. </div>
+
+(for non-web software)
+
+<div class="note">
+NOTE
+See also the discussion on Closed Functionality. </div>
+
+<div class="note">
+NOTE
+The specific content to be added to the Appendix on SC problematic for closed functionality is being developed by the sub-group. </div>
+
 ### understandable
 
 #### Guidance When Applying Principle 3 to Non-Web Documents and Software
