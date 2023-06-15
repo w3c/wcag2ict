@@ -15,8 +15,8 @@ The following glossary items apply to all technologies and do not require furthe
 *   audio
 *   audio description
 *   audio-only
-*   bounding box
 *   blinking
+*   bounding box
 *   CAPTCHA
 *   captions
 *   correct reading sequence
