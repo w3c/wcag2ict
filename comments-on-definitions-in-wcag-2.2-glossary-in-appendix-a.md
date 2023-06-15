@@ -16,6 +16,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   audio description
 *   audio-only
 *   blinking
+*   bounding box
 *   CAPTCHA
 *   captions
 *   correct reading sequence
@@ -41,6 +42,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   normative
 *   on a full-screen window
 *   paused
+*   pointer inputs
 *   prerecorded
 *   presentation
 *   primary education level
@@ -510,6 +512,21 @@ See the guidance on user [sets of documents](#set-of-documents) and [sets of sof
 
 “AccessibleRole” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
 
+#### dfn-target
+
+#####  Guidance When Applying “target” to Non-Web Documents and Software
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “page” with “non-web document or content presented by software”.
+
+With this substitution, it would read:
+
+<DL><DT>target</DT><DD>
+    
+region of the display that will accept a pointer action, such as the interactive area of a user interface component
+
+<div class="note">
+    
+If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>**[[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS>.</div></DD></DL>
+
 #### dfn-technology
 
 ##### Guidance When Applying “technology” to Non-Web Documents and Software
@@ -518,7 +535,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary, repl
 
 With these substitutions, it would read:
 
-<DL><DT>technology (<INS>[non-web document or software]</INS>)</DT><DD>
+<DL><DT>technology (<INS>**[non-web document or software]**</INS>)</DT><DD>
 
 [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#user-agent) or other [software](#software)]**</INS>.
 
