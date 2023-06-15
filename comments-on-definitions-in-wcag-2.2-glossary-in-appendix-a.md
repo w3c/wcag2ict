@@ -514,23 +514,18 @@ See the guidance on user [sets of documents](#set-of-documents) and [sets of sof
 
 #### dfn-target
 
-target
-region of the display that will accept a pointer action, such as the interactive area of a user interface component
-
-<div class="note">
-NOTE
-If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same page. </div>
-
 #####  Guidance When Applying “target” to Non-Web Documents and Software
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “page” with “non-web document or content presented by software”.
 
 With this substitution, it would read:
-target
+
+<DL><DT>target</DT><DD>
+    
 region of the display that will accept a pointer action, such as the interactive area of a user interface component
 
 <div class="note">
-NOTE
-If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same [non-web document or content presented by software].</div>
+    
+If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>[non-web document or content presented by software]</INS>.</div></DD></DL>
 
 #### dfn-technology
 
@@ -540,7 +535,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary, repl
 
 With these substitutions, it would read:
 
-<DL><DT>technology (<INS>[non-web document or software]</INS>)</DT><DD>
+<DL><DT>technology (<INS>**[non-web document or software]**</INS>)</DT><DD>
 
 [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#user-agent) or other [software](#software)]**</INS>.
 
