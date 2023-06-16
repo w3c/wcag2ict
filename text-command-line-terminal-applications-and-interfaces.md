@@ -5,4 +5,21 @@ Text applications are a class of software ICT that appeared decades ago, prior t
 
 Historically, assistive technologies developed alongside text applications, and several of these use a variety of analysis and scripting techniques to make text applications accessible. Although there are far fewer new text applications being developed compared to new GUI or web applications, text applications remain in use today. In fact, command-line interfaces have seen a resurgence in recent years, especially in popular programming and revision tracking environments. In some cases this has precipitated renewed developments in  assistive technology support for text applications.
 
-Though this class of applications predates the Web, WCAG can be applied to them. As noted in [Appendix B. Background on Text / Command-line / Terminal Applications and Interfaces](#background-on-text-command-line-terminal-applications-and-interfaces), applying WCAG to text / command-line applications involves understanding how text applications are rendered, how text applications have been made accessible via assistive technologies, and how to apply the concepts of “accessibility supported” and “programmatically determined” to text applications.
+With the exception of closed environments (such as provided by emacs then and now),
+assistive technology support in today's text applications differs markedly
+from that provided users in earlier days. The most marked difference is that
+there's likely less need to make a text-only version of an application
+accessible to AT, because there's almost certainly a graphical version which
+already supports the AX Tree, and likely also a command line version which his
+highly fungible. Key examples  include:
+
+* Today's CLI support often includes context sensitive help so
+that help output following one command argument is different from the help
+provided following two arguments, and still different after three arguments. This helps users be more efficient and requires AT do nothing special beyond its core accessibility features.
+* Output options will generally include an option to write machine
+        readable structured output (such as json) in addition to continuing
+reliance on still powerful, and widely used input/out redirection and
+piping options. In these scenarios the AT user is only relying on options used by
+anyone who finds the CLI environment compelling.
+ 
+Though these applications both predate the Web and are also seeing a resurgance in today's interfaces, WCAG can be applied to them. As noted in [Appendix B. Background on Text / Command-line / Terminal Applications and Interfaces](#background-on-text-command-line-terminal-applications-and-interfaces), applying WCAG to text / command-line applications involves understanding how text applications are rendered, how text applications have been made accessible via assistive technologies, and how to apply the concepts of “accessibility supported” and “programmatically determined” to text applications.
