@@ -547,16 +547,7 @@ In [software](#software), headings and labels are used to describe sections of [
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.7](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible#intent) (also provided below).
 
-##### focus-appearance
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
-
 ##### focus-not-obscured-minimum
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
-
-##### dragging-movements
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
-
-##### target-size-minimum
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 #### input-modalities
@@ -634,6 +625,45 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 ###### Guidance When Applying Success Criterion 2.5.4 to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.4](https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html#intent) (also provided below).
+
+##### dragging-movements
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### target-size-minimum
+
+###### Guidance When Applying Success Criterion 2.5.8 to Non-Web Documents and Software:
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or platform software", and "on the same page" with "in the same non-web document or software".
+
+With these substitutions, it would read:
+
+The size of the [target](#dfn-target) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixels), except where:
+
+- **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
+- **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
+- **Inline:** The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;
+- **<INS>[User agent or platform software]</INS> control:** The size of the target and target offset is determined by the **<INS>[[user agent](#user-agent) or platform software]</INS>** and is not modified by the author;
+- **Essential:** A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed;
+
+<div class="note">
+
+Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders with granular values, color pickers displaying a gradient of colors, or editable areas where you position the cursor.</div>
+
+<div class="note">
+
+For inline targets the line-height should be interpreted as perpendicular to the flow of text. For example, in a language displayed vertically, the line-height would be horizontal.</div>
+
+(for non-web documents)
+
+<div class="note">
+
+Some document formats do not have a default zoom level, but have commonly available user agents that allow users to view the content at a wide range of sizes. When evaluating such documents, it is a best practice to choose a starting zoom level appropriate for the intended usage of the content.</div>
+
+(for non-web software)
+
+<div class="note">
+
+See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ### understandable
 
