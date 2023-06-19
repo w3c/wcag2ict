@@ -642,7 +642,7 @@ The size of the [target](#dfn-target) for [pointer inputs](https://www.w3.org/TR
 - **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
 - **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
 - **Inline:** The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;
-- **<INS>[User agent or platform software]</INS>** control: The size of the target and target offset is determined by the **<INS>[user agent or platform software]</INS>** and is not modified by the author;
+- **<INS>[User agent or platform software]</INS>** control: The size of the target and target offset is determined by the **<INS>[[user agent](#user-agent) or platform software]</INS>** and is not modified by the author;
 - **Essential:** A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed;
 
 <div class="note">
