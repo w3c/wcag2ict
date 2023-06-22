@@ -18,7 +18,7 @@ Similarly, a text application screen magnifier would gain access to the matrix o
 Applying WCAG 2.2 to text applications
 --------------------------------------
 
-To apply WCAG to text applications, it is necessary to apply the glossary terms [accessibility supported](#dfn-accessibility-supported) and [programmatically determined(#dfn-programmatically-determined) in the context of how text applications are rendered and the history of assistive technologies that made them accessible.
+To apply WCAG to text applications, it is necessary to apply the glossary terms [accessibility supported](#dfn-accessibility-supported) and [programmatically determined](#dfn-programmatically-determined) in the context of how text applications are rendered and the history of assistive technologies that made them accessible.
 
 As noted above, in a text interface the terminal application renders the characters on the screen, just as a Web browser typically renders content for a Web application. As an example, for success criterion [1.4.4 Resize Text](http://www.w3.org/TR/WCAG22/#resize-text), a text application could achieve 200 percent resizing when the terminal application client that is rendering it has this capability (cf. WCAG 2.2 Technique [G142 Using a technology that has commonly-available user agents that support zoom](http://www.w3.org/WAI/WCAG22/Techniques/general/G142)). Many web pages and web applications use this approach to meet success criterion [1.4.4 Resize Text](http://www.w3.org/TR/WCAG22/#resize-text) through no explicit action of their own.
 
