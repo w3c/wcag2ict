@@ -50,12 +50,12 @@ Additional supporting documents for WCAG 2.2, such as the [WCAG 2 Overview](http
 
 The following stylistic conventions are used in this document:
 
-*   Quotes from WCAG 2.2 and Understanding WCAG 2.2 are in `<blockquote>` elements and visually styled in slightly smaller text with a gray bar on the left. They are prefaced by a reference to the original source such as “From {reference title} in {document}”.
+*   Quotes from WCAG 2.2 and Understanding WCAG 2.2 are in `<blockquote>` elements and visually styled with a gray bar on the left, and immediately follow the heading for the principle, guideline, or success criterion.
 *   Additional guidance provided by this document begins with the phrase “Guidance When Applying” and has no special visual styling.
-*   Replacement text that is presented to show how an SC would read as modified by the advice in this document are in `<ins>` elements visually styled as bold green text.
+*   Replacement text that is presented to show how an SC would read as modified by the advice in this document are in `<ins>` elements visually styled as bold green text with a dotted underline.
 *   Notes are slightly inset and begin with the phrase “NOTE”. Each note is in its own inset box styled in pale green with a darker green line on the left side of the box.
 *   References to glossary items from WCAG 2.2 are presented in `<cite>` elements visually styled as ordinary text with a dotted underline, and contain title attributes noting these are WCAG definitions. They turn blue with a yellow background when mouse or keyboard focus is placed over them.
-*   References to glossary items in this document are presented in `<cite>` elements visually styled as ordinary text with a dashed underline, and contain title attributes noting these are Task Force definitions. They turn green with a yellow background when mouse or keyboard focus is placed over them. Note that some terms defined in WCAG 2.2 are redefined in WCAG2ICT and links are updated accordingly (except in direct quotes).
+*   References to glossary items in this document are presented in `<cite>` elements visually styled as ordinary text with a dark gray underline.
 *   Hereafter, the short title “WCAG2ICT” is used to reference this document.
 
 ### Comparison with the 2013 WCAG2ICT Note
@@ -68,20 +68,27 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
 * New WCAG 2.1 Success Criteria and Guidelines
     * [Success Criterion 1.3.4 Orientation](#orientation)
     * [Success Criterion 1.3.5 Identify Input Purpose](#identify-input-purpose)
+    * [Success Criterion 1.4.10 Reflow](#reflow)
     * [Success Criterion 1.4.11 Non-text Contrast](#non-text-contrast)
     * [Success Criterion 1.4.12 Text Spacing](#text-spacing)
     * [Success Criterion 1.4.13 Content on Hover or Focus](#content-on-hover-or-focus)
     * [Success Criterion 2.1.4 Character Key Shortcuts](#character-key-shortcuts)
     * [Guideline 2.5 Input Modalities](#input-modalities)
+    * [Success Criterion 2.5.1 Pointer Gestures](#pointer-gestures)
     * [Success Criterion 2.5.2 Pointer Cancellation](#pointer-cancellation)
     * [Success Criterion 2.5.3 Label in Name](#label-in-name)
     * [Success Criterion 2.5.4 Motion Actuation](#motion-actuation)
     * [Success Criterion 4.1.3 Status Messages](#status-messages)
+* New WCAG 2.2 Success Criteria
+    * [Success Criterion 2.5.8 Target Size (Minimum)](#target-size-minimum)  
 * New terms
-    * process, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
+    * pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
     * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria)
-    * [down-event](#dfn-down-event)
+    * [css pixels](#dfn-css-pixels)
+    * [down event](#dfn-down-event)
     * [keyboard shortcut](#dfn-keyboard-shortcut)
-    * [up-event](#dfn-up-event)
+    * [style property](#dfn-style-properties)
+    * [target](#dfn-target)
+    * [up event](#dfn-up-event)
 * Updated sections
-    <div class="note">This will eventually list sections with major updates that are ready for review.</div>
+    <div class="note">Most sections have undergone WCAG2ICT Task Force review and revisions, except those marked with an editor's note that updates are yet to come.</div>
