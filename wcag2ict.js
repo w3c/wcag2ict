@@ -35,7 +35,6 @@ function prepSc(sc) {
 
 function prepSec(n) {
 	var nid = n.id.split(":")[1];
-	console.log (nid);
 	var nsec = document.querySelector('#' + nid);
 	if (nsec) {
 		var nname = n.handle;
@@ -77,7 +76,6 @@ function prepSec(n) {
 
 function prepTerm(n) {
 	var nid = n.id;
-	console.log (nid);
 	var nsec = document.querySelector('#' + nid);
 	if (nsec) {
 		var nname = n.name[0];
