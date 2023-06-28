@@ -52,12 +52,26 @@ function prepSec(n) {
 		// update header text
 		nhtxt.nodeValue = nname;
 		
-		// header wrapper
+		// find header wrapper
 		var nhead = nheader.parentNode;
+		// insert SC quote after header
 		var bq = document.createElement("blockquote");
 		bq.setAttribute("class", "wcag-quote");
 		bq.innerHTML = n.content;
 		nhead.after(bq);
+		
+		// insert intent quote at end
+		if (n.intent) {
+			var intentsec = document.createElement("section");
+			intentsec.setAttribute("class", "wcag-quote");
+			intentsec.innerHTML = n.intent;
+			var intentheader = document.createElement("h5");
+			intentheader.innerHTML = "Intent from Understanding " + nname;
+			intentsec.insertBefore(intentheader, intentsec.childNodes[0]);
+			var subsec = nsec.querySelectorAll("section")[1];
+			if (subsec) nsec.insertBefore(intentsec, subsec);
+			else nsec.appendChild(intentsec);
+		}
 	}
 }
 
