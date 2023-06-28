@@ -8704,512 +8704,512 @@
 				
 		{
 			"id": "dfn-abbreviation",
-			"name": "abbreviation abbreviations",
+			"name": ["abbreviation","abbreviations"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">shortened form of a word, phrase, or name where the abbreviation has not become part  of the language  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">This includes initialisms and acronyms where:</p><ol xmlns=\"http://www.w3.org/1999/xhtml\">  <li>  <p>  <strong>initialisms</strong> are shortened forms of a name or phrase made from the initial letters of words or  syllables contained in that name or phrase  </p>  <p class=\"note\">Not defined in all languages.</p>  <aside class=\"example\">  <p>SNCF is a French initialism that contains the initial letters of the <span lang=\"fr\">Société Nationale des Chemins de Fer</span>, the French national railroad.  </p>  </aside>  <aside class=\"example\">  <p>ESP is an initialism for extrasensory perception.</p>  </aside>  </li>  <li>  <p>  <strong>acronyms</strong> are abbreviated forms made from the initial letters or parts of other words (in a  name or phrase) which may be pronounced as a word  </p>  <aside class=\"example\">  <p>NOAA is an acronym made from the initial letters of the National Oceanic and Atmospheric  Administration in the United States.  </p>  </aside>  </li>  </ol><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Some companies have adopted what used to be an initialism as their company name. In  these cases, the new name of the company is the letters (for example, Ecma) and the  word is no longer considered an abbreviation.  </p>"
 		},
 		{
 			"id": "dfn-accessibility-supported",
-			"name": "accessibility supported accessibility-supported accessibility support",
+			"name": ["accessibility supported","accessibility-supported","accessibility support"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">supported by users' <a>assistive technologies</a> as well as the accessibility features in browsers and other <a>user agents</a>  </p><p xmlns=\"http://www.w3.org/1999/xhtml\">To qualify as an accessibility-supported use of a Web content technology (or feature  of a technology), both 1 and 2 must be satisfied for a Web content technology (or  feature):  </p><ol xmlns=\"http://www.w3.org/1999/xhtml\">  <li>  <p>  <strong>The way that the <a>Web content technology</a> is used must be supported by users' assistive technology (AT). </strong> This means that the way that the technology is used has been tested for interoperability  with users' assistive technology in the <a>human language(s)</a> of the content,  </p>  <p>  <strong>AND</strong>  </p>  </li>  <li>  <p>  <strong>The Web content technology must have accessibility-supported user agents that are  available to users. </strong> This means that at least one of the following four statements is true:  </p>  <ol>  <li>  <p>The technology is supported natively in widely-distributed user agents that are also  accessibility supported (such as HTML and CSS);  </p>  <p>  <strong>OR</strong>  </p>  </li>  <li>  <p>The technology is supported in a widely-distributed plug-in that is also accessibility  supported;  </p>  <p>  <strong>OR</strong>  </p>  </li>  <li>  <p>The content is available in a closed environment, such as a university or corporate  network, where the user agent required by the technology and used by the organization  is also accessibility supported;  </p>  <p>  <strong>OR</strong>  </p>  </li>  <li>  <p>The user agent(s) that support the technology are accessibility supported and are  available for download or purchase in a way that:  </p>  <ul>  <li>does not cost a person with a disability any more than a person without a disability  <strong>and</strong>  </li>  <li>is as easy to find and obtain for a person with a disability as it is for a person  without disabilities.  </li>  </ul>  </li>  </ol>  </li>  </ol><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The Accessibility Guidelines Working Group and the W3C do not specify which or how much support by assistive  technologies there must be for a particular use of a Web technology in order for it  to be classified as accessibility supported. (See <a href=\"https://www.w3.org/WAI/WCAG21/Understanding/conformance#support-level\">Level of Assistive Technology Support Needed for \"Accessibility Support\"</a>.)  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Web technologies can be used in ways that are not accessibility supported as long  as they are not <a>relied upon</a> and the page as a whole meets the conformance requirements, including <a href=\"#cc4\">Conformance Requirement 4</a> and <a href=\"#cc5\">Conformance Requirement 5</a>.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">When a <a>Web Technology</a> is used in a way that is \"accessibility supported,\" it does not imply that the entire  technology or all uses of the technology are supported. Most technologies, including  HTML, lack support for at least one feature or use. Pages conform to WCAG only if  the uses of the technology that are accessibility supported can be relied upon to  meet WCAG requirements.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">When citing Web content technologies that have multiple versions, the version(s) supported  should be specified.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">One way for authors to locate uses of a technology that are accessibility supported  would be to consult compilations of uses that are documented to be accessibility supported.  (See <a href=\"https://www.w3.org/WAI/WCAG21/Understanding/conformance#documented-lists\">Understanding Accessibility-Supported Web Technology Uses</a>.) Authors, companies, technology vendors, or others may document accessibility-supported  ways of using Web content technologies. However, all ways of using technologies in  the documentation would need to meet the definition of accessibility-supported Web  content technologies above.  </p>"
 		},
 		{
 			"id": "dfn-alternative-for-time-based-media",
-			"name": "alternative for time-based media",
+			"name": ["alternative for time-based media"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">document including correctly sequenced text descriptions of time-based visual and  auditory information and providing a means for achieving the outcomes of any time-based  interaction  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">A screenplay used to create the synchronized media content would meet this definition  only if it was corrected to accurately represent the final synchronized media after  editing.  </p>"
 		},
 		{
 			"id": "dfn-ambiguous-to-users-in-general",
-			"name": "ambiguous to users in general",
+			"name": ["ambiguous to users in general"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">the purpose cannot be determined from the link and all information of the Web page  presented to the user simultaneously with the link (i.e., readers without disabilities  would not know what a link would do until they activated it)  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>The word guava in the following sentence \"One of the notable exports is guava\" is  a link. The link could lead to a definition of guava, a chart listing the quantity  of guava exported or a photograph of people harvesting guava. Until the link is activated,  all readers are unsure and the person with a disability is not at any disadvantage.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-ascii-art",
-			"name": "ascii art",
+			"name": ["ascii art"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">picture created by a spatial arrangement of characters or glyphs (typically from the  95 printable characters defined by ASCII)  </p>"
 		},
 		{
 			"id": "dfn-assistive-technology",
-			"name": "assistive technology assistive technologies",
+			"name": ["assistive technology","assistive technologies"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">hardware and/or software that acts as a <a>user agent</a>, or along with a mainstream user agent, to provide functionality to meet the requirements  of users with disabilities that go beyond those offered by mainstream user agents  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">functionality provided by assistive technology includes alternative presentations  (e.g., as synthesized speech or magnified content), alternative input methods (e.g.,  voice), additional navigation or orientation mechanisms, and content transformations  (e.g., to make tables more accessible).  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Assistive technologies often communicate data and messages with mainstream user agents  by using and monitoring APIs.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The distinction between mainstream user agents and assistive technologies is not absolute.  Many mainstream user agents provide some features to assist individuals with disabilities.  The basic difference is that mainstream user agents target broad and diverse audiences  that usually include people with and without disabilities. Assistive technologies  target narrowly defined populations of users with specific disabilities. The assistance  provided by an assistive technology is more specific and appropriate to the needs  of its target users. The mainstream user agent may provide important functionality  to assistive technologies like retrieving Web content from program objects or parsing  markup into identifiable bundles.  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Assistive technologies that are important in the context of this document include  the following:  </p>  </aside><ul xmlns=\"http://www.w3.org/1999/xhtml\">  <li>screen magnifiers, and other visual reading assistants, which are used by people with  visual, perceptual and physical print disabilities to change text font, size, spacing,  color, synchronization with speech, etc. in order to improve the visual readability  of rendered text and images;  </li>  <li>screen readers, which are used by people who are blind to read textual information  through synthesized speech or braille;  </li>  <li>text-to-speech software, which is used by some people with cognitive, language, and  learning disabilities to convert text into synthetic speech;  </li>  <li>speech recognition software, which may be used by people who have some physical disabilities;</li>  <li>alternative keyboards, which are used by people with certain physical disabilities  to simulate the keyboard (including alternate keyboards that use head pointers, single  switches, sip/puff and other special input devices.);  </li>  <li>alternative pointing devices, which are used by people with certain physical disabilities  to simulate mouse pointing and button activations.  </li>  </ul>"
 		},
 		{
 			"id": "dfn-audio",
-			"name": "audio",
+			"name": ["audio"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">the technology of sound reproduction</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Audio can be created synthetically (including speech synthesis), recorded from real  world sounds, or both.  </p>"
 		},
 		{
 			"id": "dfn-audio-description",
-			"name": "audio description audio descriptions",
+			"name": ["audio description","audio descriptions"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">narration added to the soundtrack to describe important visual details that cannot  be understood from the main soundtrack alone  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Audio description of <a>video</a> provides information about actions, characters, scene changes, on-screen text, and  other visual content.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">In standard audio description, narration is added during existing pauses in dialogue.  (See also <a>extended audio description</a>.)  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Where all of the <a>video</a> information is already provided in existing <a>audio</a>, no additional audio description is necessary.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Also called \"video description\" and \"descriptive narration.\"</p>"
 		},
 		{
 			"id": "dfn-audio-only",
-			"name": "audio-only",
+			"name": ["audio-only"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">a time-based presentation that contains only <a>audio</a> (no <a>video</a> and no interaction)  </p>"
 		},
 		{
 			"id": "dfn-blinking",
-			"name": "blinking",
+			"name": ["blinking"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">switch back and forth between two visual states in a way that is meant to draw attention</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">See also <a>flash</a>. It is possible for something to be large enough and blink brightly enough at the  right frequency to be also classified as a flash.  </p>"
 		},
 		{
 			"id": "dfn-blocks-of-text",
-			"name": "blocks of text",
+			"name": ["blocks of text"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">more than one sentence of text</p>"
 		},
 		{
 			"id": "dfn-captcha",
-			"name": "captcha",
+			"name": ["captcha"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">initialism for \"Completely Automated Public Turing test to tell Computers and Humans  Apart\"  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">CAPTCHA tests often involve asking the user to type in text that is displayed in an  obscured image or audio file.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">A Turing test is any system of tests designed to differentiate a human from a computer.  It is named after famed computer scientist Alan Turing. The term was coined by researchers  at Carnegie Mellon University.  </p>"
 		},
 		{
 			"id": "dfn-captions",
-			"name": "captions",
+			"name": ["captions"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">synchronized visual and/or <a>text alternative</a> for both speech and non-speech audio information needed to understand the media content  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Captions are similar to dialogue-only subtitles except captions convey not only the  content of spoken dialogue, but also equivalents for non-dialogue audio information  needed to understand the program content, including sound effects, music, laughter,  speaker identification and location.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Closed Captions are equivalents that can be turned on and off with some players.</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Open Captions are any captions that cannot be turned off. For example, if the captions  are visual equivalent <a>images of text</a> embedded in <a>video</a>.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Captions should not obscure or obstruct relevant information in the video.</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">In some countries, captions are called subtitles.</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">  <a>Audio descriptions</a> can be, but do not need to be, captioned since they are descriptions of information  that is already presented visually.  </p>"
 		},
 		{
 			"id": "dfn-changes-of-context",
-			"name": "changes of context change of context",
+			"name": ["changes of context","change of context"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">major changes that, if made without user awareness, can disorient users who are not able to view  the entire page simultaneously  </p><p xmlns=\"http://www.w3.org/1999/xhtml\">Changes in context include changes of:</p><ol xmlns=\"http://www.w3.org/1999/xhtml\">  <li>  <a>user agent</a>;  </li>  <li>  <a>viewport</a>;  </li>  <li>focus;</li>  <li>  <a>content</a> that changes the meaning of the <a>Web page</a>  </li>  </ol><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">A change of content is not always a change of context. Changes in content, such as  an expanding outline, dynamic menu, or a tab control do not necessarily change the  context, unless they also change one of the above (e.g., focus).  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Opening a new window, moving focus to a different component, going to a new page (including  anything that would look to a user as if they had moved to a new page) or significantly  re-arranging the content of a page are examples of changes of context.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-cognitive-function-test",
-			"name": "cognitive function test cognitive function test",
+			"name": ["cognitive function test","cognitive function test"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"change\">New</p><p xmlns=\"http://www.w3.org/1999/xhtml\">A task that requires the user to remember, manipulate, or transcribe information. Examples include, but are not limited to:</p><ul xmlns=\"http://www.w3.org/1999/xhtml\">  <li>memorization, such as remembering a username, password, set of characters, images, or patterns. The common identifiers name, e-mail, and phone number are not considered cognitive function tests as they are personal to the user and consistent across Web sites;</li>  <li>transcription, such as typing in characters;</li>  <li>use of correct spelling;</li>  <li>performance of calculations;</li>  <li>solving of puzzles.</li>  </ul>"
 		},
 		{
 			"id": "dfn-conformance",
-			"name": "conformance conform",
+			"name": ["conformance","conform"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">satisfying all the requirements of a given standard, guideline or specification</p>"
 		},
 		{
 			"id": "dfn-conforming-alternate-version",
-			"name": "conforming alternate version conforming alternate versions",
+			"name": ["conforming alternate version","conforming alternate versions"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">version that</p><ol xmlns=\"http://www.w3.org/1999/xhtml\">  <li>conforms at the designated level, and</li>  <li>provides all of the same information and <a>functionality</a> in the same <a>human language</a>, and  </li>  <li>is as up to date as the non-conforming content, and</li>  <li>  <p>for which at least one of the following is true:</p>  <ol>  <li>the conforming version can be reached from the non-conforming page via an <a>accessibility-supported</a>  <a>mechanism</a>, or  </li>  <li>the non-conforming version can only be reached from the conforming version, or</li>  <li>the non-conforming version can only be reached from a conforming page that also provides  a mechanism to reach the conforming version  </li>  </ol>  </li>  </ol><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">In this definition, \"can only be reached\" means that there is some mechanism, such  as a conditional redirect, that prevents a user from \"reaching\" (loading) the non-conforming  page unless the user had just come from the conforming version.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The alternate version does not need to be matched page for page with the original  (e.g., the conforming alternate version may consist of multiple pages).  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">If multiple language versions are available, then conforming alternate versions are  required for each language offered.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Alternate versions may be provided to accommodate different technology environments  or user groups. Each version should be as conformant as possible. One version would  need to be fully conformant in order to meet <a href=\"#cc1\">conformance requirement 1</a>.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The conforming alternative version does not need to reside within the scope of conformance,  or even on the same Web site, as long as it is as freely available as the non-conforming  version.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Alternate versions should not be confused with <a>supplementary content</a>, which support the original page and enhance comprehension.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Setting user preferences within the content to produce a conforming version is an  acceptable mechanism for reaching another version as long as the method used to set  the preferences is accessibility supported.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\">See <a href=\"https://www.w3.org/WAI/WCAG21/Understanding/conformance#conforming-alt-versions\">Understanding Conforming Alternate Versions</a>  </p>"
 		},
 		{
 			"id": "dfn-content",
-			"name": "content",
+			"name": ["content"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">information and sensory experience to be communicated to the user by means of a <a>user agent</a>, including code or markup that defines the content's <a>structure</a>, <a>presentation</a>, and interactions  </p>"
 		},
 		{
 			"id": "dfn-context-sensitive-help",
-			"name": "context-sensitive help",
+			"name": ["context-sensitive help"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">help text that provides information related to the function currently being performed</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Clear labels can act as context-sensitive help.</p>"
 		},
 		{
 			"id": "dfn-contrast-ratio",
-			"name": "contrast ratio",
+			"name": ["contrast ratio"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">(L1 + 0.05) / (L2 + 0.05), where</p><ul xmlns=\"http://www.w3.org/1999/xhtml\">  <li>L1 is the <a>relative luminance</a> of the lighter of the colors, and  </li>  <li>L2 is the <a>relative luminance</a> of the darker of the colors.  </li>  </ul><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Contrast ratios can range from 1 to 21 (commonly written 1:1 to 21:1).</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Because authors do not have control over user settings as to how text is rendered  (for example font smoothing or anti-aliasing), the contrast ratio for text can be  evaluated with anti-aliasing turned off.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">For the purpose of Success Criteria 1.4.3 and 1.4.6, contrast is measured with respect  to the specified background over which the text is rendered in normal usage. If no  background color is specified, then white is assumed.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Background color is the specified color of content over which the text is to be rendered  in normal usage. It is a failure if no background color is specified when the text  color is specified, because the user's default background color is unknown and cannot  be evaluated for sufficient contrast. For the same reason, it is a failure if no text  color is specified when a background color is specified.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">When there is a border around the letter, the border can add contrast and would be  used in calculating the contrast between the letter and its background. A narrow border  around the letter would be used as the letter. A wide border around the letter that  fills in the inner details of the letters acts as a halo and would be considered background.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">WCAG conformance should be evaluated for color pairs specified in the content that  an author would expect to appear adjacent in typical presentation. Authors need not  consider unusual presentations, such as color changes made by the user agent, except  where caused by authors' code.  </p>"
 		},
 		{
 			"id": "dfn-correct-reading-sequence",
-			"name": "correct reading sequence",
+			"name": ["correct reading sequence"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">any sequence where words and paragraphs are presented in an order that does not change  the meaning of the content  </p>"
 		},
 		{
 			"id": "dfn-css-pixel",
-			"name": "css pixel css pixels",
+			"name": ["css pixel","css pixels"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">visual angle of about 0.0213 degrees</p><p xmlns=\"http://www.w3.org/1999/xhtml\">A CSS pixel is the canonical unit of measure for all lengths and measurements in CSS.  This unit is density-independent, and distinct from actual hardware pixels present  in a display. User agents and operating systems should ensure that a CSS pixel is  set as closely as possible to the <a href=\"https://www.w3.org/TR/css3-values/#reference-pixel\">CSS Values and Units Module Level 3 reference pixel</a> [[!css3-values]], which takes into account the physical dimensions of the display  and the assumed viewing distance (factors that cannot be determined by content authors).  </p>"
 		},
 		{
 			"id": "dfn-down-event",
-			"name": "down-event",
+			"name": ["down-event"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">platform event that occurs when the trigger stimulus of a pointer is depressed</p><p xmlns=\"http://www.w3.org/1999/xhtml\">The down-event may have different names on different platforms, such as \"touchstart\" or \"mousedown\".</p>"
 		},
 		{
 			"id": "dfn-dragging-movement",
-			"name": "dragging movement dragging movements",
+			"name": ["dragging movement","dragging movements"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"change\">New</p><p xmlns=\"http://www.w3.org/1999/xhtml\">an operation where the pointer engages with an element on the <a>down-event</a> and the element (or a representation of its position) follows the pointer until an <a>up-event</a>  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Examples of draggable elements include list items, text elements, and images.</p>"
 		},
 		{
 			"id": "dfn-emergency",
-			"name": "emergency",
+			"name": ["emergency"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">a sudden, unexpected situation or occurrence that requires immediate action to preserve  health, safety, or property  </p>"
 		},
 		{
 			"id": "dfn-encloses",
-			"name": "encloses enclose",
+			"name": ["encloses","enclose"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"change\">New</p><p xmlns=\"http://www.w3.org/1999/xhtml\">solidly bounds or surrounds</p>"
 		},
 		{
 			"id": "dfn-essential",
-			"name": "essential",
+			"name": ["essential"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">if removed, would fundamentally change the information or functionality of the content,  <strong>and</strong> information and functionality cannot be achieved in another way that would conform  </p>"
 		},
 		{
 			"id": "dfn-extended-audio-description",
-			"name": "extended audio description",
+			"name": ["extended audio description"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">audio description that is added to an audiovisual presentation by pausing the <a>video</a> so that there is time to add additional description  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">This technique is only used when the sense of the <a>video</a> would be lost without the additional <a>audio description</a> and the pauses between dialogue/narration are too short.  </p>"
 		},
 		{
 			"id": "dfn-flash",
-			"name": "flash flashes",
+			"name": ["flash","flashes"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">a pair of opposing changes in <a>relative luminance</a> that can cause seizures in some people if it is large enough and in the right frequency  range  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">See <a>general flash and red flash thresholds</a> for information about types of flash that are not allowed.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">See also <a>blinking</a>.  </p>"
 		},
 		{
 			"id": "dfn-focus-indicator",
-			"name": "focus indicator",
+			"name": ["focus indicator"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"change\">New</p><p xmlns=\"http://www.w3.org/1999/xhtml\">pixels that are changed to visually indicate when a <a>user interface component</a> is in a focused <a>state</a>  </p>"
 		},
 		{
 			"id": "dfn-functionality",
-			"name": "functionality",
+			"name": ["functionality"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">  <a>processes</a> and outcomes achievable through user action  </p>"
 		},
 		{
 			"id": "dfn-general-flash-and-red-flash-thresholds",
-			"name": "general flash and red flash thresholds",
+			"name": ["general flash and red flash thresholds"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">a <a>flash</a> or rapidly changing image sequence is below the threshold (i.e., content <strong>passes</strong>) if any of the following are true:  </p><ol xmlns=\"http://www.w3.org/1999/xhtml\">  <li>there are no more than three <strong>general flashes</strong> and / or no more than three <strong>red flashes</strong> within any one-second period; or  </li>  <li>the combined area of flashes occurring concurrently occupies no more than a total  of .006 steradians within any 10 degree visual field on the screen (25% of any 10  degree visual field on the screen) at typical viewing distance  </li>  </ol><p xmlns=\"http://www.w3.org/1999/xhtml\">where:</p><ul xmlns=\"http://www.w3.org/1999/xhtml\">  <li>A <strong>general flash</strong> is defined as a pair of opposing changes in <a>relative luminance</a> of 10% or more of the maximum relative luminance (1.0) where the relative luminance of  the darker image is below 0.80; and where \"a pair of opposing changes\" is an increase  followed by a decrease, or a decrease followed by an increase, and  </li>  <li>A <strong>red flash</strong> is defined as any pair of opposing transitions involving a saturated red  </li>  </ul><p xmlns=\"http://www.w3.org/1999/xhtml\">  <em>Exception:</em> Flashing that is a fine, balanced, pattern such as white noise or an alternating  checkerboard pattern with \"squares\" smaller than 0.1 degree (of visual field at typical  viewing distance) on a side does not violate the thresholds.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">For general software or Web content, using a 341 x 256 pixel rectangle anywhere on the displayed screen area when the content is viewed at 1024 x 768 pixels will provide a good estimate of a 10 degree visual field for standard screen sizes and viewing distances (e.g., 15-17 inch screen at 22-26 inches). This resolution of 75 - 85 ppi is known to be lower, and thus more conservative than the nominal CSS pixel resolution of 96 ppi in CSS specifications. Higher resolutions displays showing the same rendering of the content yield smaller and safer images so it is lower resolutions that are used to define the thresholds.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">A transition is the change in relative luminance (or relative luminance/color for  red flashing) between adjacent peaks and valleys in a plot of relative luminance (or  relative luminance/color for red flashing) measurement against time. A flash consists  of two opposing transitions.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The new working definition in the field for <strong>\"pair of opposing transitions involving a saturated red\"</strong> (from WCAG 2.2) is a pair of opposing transitions where, one transition is either to or from a state with a value R/(R + G + B) that is greater than or equal to 0.8, and the difference between states is more than 0.2 (unitless) in the CIE 1976 UCS chromaticity diagram. [[ISO_9241-391]] </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Tools are available that will carry out analysis from video screen capture. However,  no tool is necessary to evaluate for this condition if flashing is less than or equal  to 3 flashes in any one second. Content automatically passes (see #1 and #2 above).  </p>"
 		},
 		{
 			"id": "dfn-human-language",
-			"name": "human language human language(s)",
+			"name": ["human language","human language(s)"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">language that is spoken, written or signed (through visual or tactile means) to communicate  with humans  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">See also <a>sign language</a>.  </p>"
 		},
 		{
 			"id": "dfn-idiom",
-			"name": "idiom idioms",
+			"name": ["idiom","idioms"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">phrase whose meaning cannot be deduced from the meaning of the individual words and  the specific words cannot be changed without losing the meaning  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">idioms cannot be translated directly, word for word, without losing their (cultural  or language-dependent) meaning.  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>In English, \"spilling the beans\" means \"revealing a secret.\" However, \"knocking over  the beans\" or \"spilling the vegetables\" does not mean the same thing.  </p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>In Japanese, the phrase \"<span lang=\"ja\">さじを投げる</span>\" literally translates into \"he throws a spoon,\" but it means that there is nothing  he can do and finally he gives up.  </p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>In Dutch, \"<span lang=\"nl\">Hij ging met de kippen op stok</span>\" literally translates into \"He went to roost with the chickens,\" but it means that  he went to bed early.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-image-of-text",
-			"name": "image of text images of text",
+			"name": ["image of text","images of text"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">text that has been rendered in a non-text form (e.g., an image) in order to achieve  a particular visual effect  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">This does not include <a>text</a> that is part of a picture that contains significant other visual content.  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>A person's name on a nametag in a photograph.</p>  </aside>"
 		},
 		{
 			"id": "dfn-informative",
-			"name": "informative",
+			"name": ["informative"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">for information purposes and not required for conformance</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Content required for <a>conformance</a> is referred to as \"<a>normative</a>.\"</p>"
 		},
 		{
 			"id": "dfn-input-error",
-			"name": "input error",
+			"name": ["input error"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">information provided by the user that is not accepted</p><div xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">  <p>This includes:</p>  <ol>  <li>Information that is required by the <a>Web page</a> but omitted by the user  </li>  <li>Information that is provided by the user but that falls outside the required data  format or values  </li>  </ol>  </div>"
 		},
 		{
 			"id": "dfn-jargon",
-			"name": "jargon",
+			"name": ["jargon"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">words used in a particular way by people in a particular field</p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>The word StickyKeys is jargon from the field of assistive technology/accessibility.</p>  </aside>"
 		},
 		{
 			"id": "dfn-keyboard-interface",
-			"name": "keyboard interface",
+			"name": ["keyboard interface"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">interface used by software to obtain keystroke input</p><div xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">  <p>A keyboard interface allows users to provide keystroke input to programs even if the  native technology does not contain a keyboard.</p>  <aside class=\"example\">  <p>A touchscreen PDA has a keyboard interface built into its operating system as well  as a connector for external keyboards. Applications on the PDA can use the interface  to obtain keyboard input either from an external keyboard or from other applications  that provide simulated keyboard output, such as handwriting interpreters or speech-to-text  applications with \"keyboard emulation\" functionality.</p>  </aside>  </div><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Operation of the application (or parts of the application) through a keyboard-operated  mouse emulator, such as MouseKeys, does not qualify as operation through a keyboard  interface because operation of the program is through its pointing device interface,  not through its keyboard interface.  </p>"
 		},
 		{
 			"id": "dfn-keyboard-shortcut",
-			"name": "keyboard shortcut keyboard shortcuts",
+			"name": ["keyboard shortcut","keyboard shortcuts"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">alternative means of triggering an action by the pressing of one or more keys</p>"
 		},
 		{
 			"id": "dfn-label",
-			"name": "label labels",
+			"name": ["label","labels"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">  <a>text</a> or other component with a <a>text alternative</a> that is presented to a user to identify a component within Web <a>content</a>  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">A label is presented to all users whereas the <a>name</a> may be hidden and only exposed by assistive technology. In many (but not all) cases  the name and the label are the same.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The term label is not limited to the label element in HTML.</p>"
 		},
 		{
 			"id": "dfn-large-scale",
-			"name": "large scale large-scale",
+			"name": ["large scale","large-scale"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">with at least 18 point or 14 point bold or font size that would yield equivalent size  for Chinese, Japanese and Korean (CJK) fonts  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Fonts with extraordinarily thin strokes or unusual features and characteristics that  reduce the familiarity of their letter forms are harder to read, especially at lower  contrast levels.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Font size is the size when the content is delivered. It does not include resizing  that may be done by a user.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The actual size of the character that a user sees is dependent both on the author-defined  size and the user's display or user agent settings. For many mainstream body text  fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150%  of the default size for body text (assuming that the body font is 100%), but authors  would need to check this for the particular fonts in use. When fonts are defined in  relative units, the actual point size is calculated by the user agent for display.  The point size should be obtained from the user agent, or calculated based on font  metrics as the user agent does, when evaluating this success criterion. Users who  have low vision would be responsible for choosing appropriate settings.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">When using text without specifying the font size, the smallest font size used on major  browsers for unspecified text would be a reasonable size to assume for the font. If  a level 1 heading is rendered in 14pt bold or higher on major browsers, then it would  be reasonable to assume it is large text. Relative scaling can be calculated from  the default sizes in a similar fashion.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The 18 and 14 point sizes for roman texts are taken from the minimum size for large  print (14pt) and the larger standard font size (18pt). For other fonts such as CJK  languages, the \"equivalent\" sizes would be the minimum large print size used for those  languages and the next larger standard large print size.  </p>"
 		},
 		{
 			"id": "dfn-legal-commitments",
-			"name": "legal commitments",
+			"name": ["legal commitments"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">transactions where the person incurs a legally binding obligation or benefit</p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>A marriage license, a stock trade (financial and legal), a will, a loan, adoption,  signing up for the army, a contract of any type, etc.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-link-purpose",
-			"name": "link purpose purpose of each link",
+			"name": ["link purpose","purpose of each link"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">nature of the result obtained by activating a hyperlink</p>"
 		},
 		{
 			"id": "dfn-live",
-			"name": "live",
+			"name": ["live"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">information captured from a real-world event and transmitted to the receiver with  no more than a broadcast delay  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">A broadcast delay is a short (usually automated) delay, for example used in order  to give the broadcaster time to cue or censor the audio (or video) feed, but not sufficient  to allow significant editing.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">If information is completely computer generated, it is not live.</p>"
 		},
 		{
 			"id": "dfn-lower-secondary-education-level",
-			"name": "lower secondary education level",
+			"name": ["lower secondary education level"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">the two or three year period of education that begins after completion of six years  of school and ends nine years after the beginning of <a>primary education</a>  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">This definition is based on the International Standard Classification of Education  [[UNESCO]].  </p>"
 		},
 		{
 			"id": "dfn-mechanism",
-			"name": "mechanism",
+			"name": ["mechanism"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">  <a>process</a> or technique for achieving a result  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The mechanism may be explicitly provided in the content, or may be <a>relied upon</a> to be provided by either the platform or by <a>user agents</a>, including <a>assistive technologies</a>.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The mechanism needs to meet all success criteria for the conformance level claimed.</p>"
 		},
 		{
 			"id": "dfn-media-alternative-for-text",
-			"name": "media alternative for text",
+			"name": ["media alternative for text"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">media that presents no more information than is already presented in text (directly  or via text alternatives)  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">A media alternative for text is provided for those who benefit from alternate representations  of text. Media alternatives for text may be audio-only, video-only (including sign-language  video), or audio-video.  </p>"
 		},
 		{
 			"id": "dfn-motion-animation",
-			"name": "motion animation",
+			"name": ["motion animation"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">addition of steps between conditions to create the illusion of movement or to give a sense of a smooth transition</p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>For example, an element which moves into place or changes size while appearing is considered to be animated. An element which appears instantly without transitioning is not using animation. Motion animation does not include changes of color, blurring, or opacity which do not change the perceived size, shape, or position of the element.</p>  </aside>"
 		},
 		{
 			"id": "dfn-minimum-bounding-box",
-			"name": "minimum bounding box bounding boxes",
+			"name": ["minimum bounding box","bounding boxes"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"change\">New</p><p xmlns=\"http://www.w3.org/1999/xhtml\">the smallest enclosing rectangle aligned to the horizontal axis within which all the points of a shape lie. For components which wrap onto multiple lines as part of a sentence or <a>block of text</a> (such as hypertext links), the bounding box is based on how the component would appear on a single line.</p>"
 		},
 		{
 			"id": "dfn-name",
-			"name": "name",
+			"name": ["name"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">text by which software can identify a component within Web content to the user</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The name may be hidden and only exposed by assistive technology, whereas a <a>label</a> is presented to all users. In many (but not all) cases, the label and the name are  the same.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">This is unrelated to the name attribute in HTML.</p>"
 		},
 		{
 			"id": "dfn-navigated-sequentially",
-			"name": "navigated sequentially",
+			"name": ["navigated sequentially"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">navigated in the order defined for advancing focus (from one element to the next)  using a <a>keyboard interface</a>  </p>"
 		},
 		{
 			"id": "dfn-non-text-content",
-			"name": "non-text content",
+			"name": ["non-text content"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">any content that is not a sequence of characters that can be <a>programmatically determined</a> or where the sequence is not expressing something in <a>human language</a>  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">This includes <a>ASCII Art</a> (which is a pattern of characters), emoticons, leetspeak (which uses character substitution),  and images representing text  </p>"
 		},
 		{
 			"id": "dfn-normative",
-			"name": "normative",
+			"name": ["normative"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">required for conformance</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">One may conform in a variety of well-defined ways to this document.</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Content identified as \"<a>informative</a>\" or \"non-normative\" is never required for <a>conformance</a>.</p>"
 		},
 		{
 			"id": "dfn-on-a-full-screen-window",
-			"name": "on a full-screen window",
+			"name": ["on a full-screen window"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">on the most common sized desktop/laptop display with the viewport maximized</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Since people generally keep their computers for several years, it is best not to rely  on the latest desktop/laptop display resolutions but to consider the common desktop/laptop  display resolutions over the course of several years when making this evaluation.  </p>"
 		},
 		{
 			"id": "dfn-paused",
-			"name": "paused pause",
+			"name": ["paused","pause"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">stopped by user request and not resumed until requested by user</p>"
 		},
 		{
 			"id": "dfn-perimeter",
-			"name": "perimeter",
+			"name": ["perimeter"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"change\">New</p><p xmlns=\"http://www.w3.org/1999/xhtml\">continuous line forming the boundary of a shape not including shared pixels, or the <a>minimum bounding box</a>, whichever is shortest.</p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>The perimeter calculation for a 2 CSS pixel perimeter around a rectangle is 4<em>h</em>+4<em>w</em>, where <em>h</em> is the height and <em>w</em> is the width. For a 2 CSS pixel perimeter around a circle it is 4𝜋<em>r</em>.</p>  </aside>"
 		},
 		{
 			"id": "dfn-pointer-input",
-			"name": "pointer input pointer inputs",
+			"name": ["pointer input","pointer inputs"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">input from a device that can target a specific coordinate (or set of coordinates) on a screen,  such as a mouse, pen, or touch contact  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">See the <a href=\"https://www.w3.org/TR/pointerevents/#dfn-pointer\">Pointer Events  definition for \"pointer\"</a> [[!pointerevents]].</p>"
 		},
 		{
 			"id": "dfn-prerecorded",
-			"name": "prerecorded",
+			"name": ["prerecorded"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">information that is not <a>live</a>  </p>"
 		},
 		{
 			"id": "dfn-presentation",
-			"name": "presentation",
+			"name": ["presentation"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">rendering of the <a>content</a> in a form to be perceived by users  </p>"
 		},
 		{
 			"id": "dfn-primary-education-level",
-			"name": "primary education level primary education",
+			"name": ["primary education level","primary education"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">six year time period that begins between the ages of five and seven, possibly without  any previous education  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">This definition is based on the International Standard Classification of Education  [[UNESCO]].  </p>"
 		},
 		{
 			"id": "dfn-process",
-			"name": "process processes",
+			"name": ["process","processes"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">series of user actions where each action is required in order to complete an activity</p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Successful use of a series of Web pages on a shopping site requires users to view  alternative products, prices and offers, select products, submit an order, provide  shipping information and provide payment information.  </p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>An account registration page requires successful completion of a <a href=\"https://www.w3.org/TR/turingtest/\">Turing test</a> before  the registration form can be accessed.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-programmatically-determined",
-			"name": "programmatically determined programmatically determinable",
+			"name": ["programmatically determined","programmatically determinable"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">determined by software from author-supplied data provided in a way that different  <a>user agents</a>, including <a>assistive technologies</a>, can extract and present this information to users in different modalities  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Determined in a markup language from elements and attributes that are accessed directly  by commonly available assistive technology.  </p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Determined from technology-specific data structures in a non-markup language and exposed  to assistive technology via an accessibility API that is supported by commonly available  assistive technology.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-programmatically-determined-link-context",
-			"name": "programmatically determined link context",
+			"name": ["programmatically determined link context"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">additional information that can be <a>programmatically determined</a> from <a>relationships</a> with a link, combined with the link text, and presented to users in different modalities  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>In HTML, information that is programmatically determinable from a link in English  includes text that is in the same paragraph, list, or table cell as the link or in  a table header cell that is associated with the table cell that contains the link.  </p>  </aside><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Since screen readers interpret punctuation, they can also provide the context from  the current sentence, when the focus is on a link in that sentence.  </p>"
 		},
 		{
 			"id": "dfn-programmatically-set",
-			"name": "programmatically set",
+			"name": ["programmatically set"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">set by software using methods that are supported by user agents, including assistive  technologies  </p>"
 		},
 		{
 			"id": "dfn-pure-decoration",
-			"name": "pure decoration",
+			"name": ["pure decoration"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">serving only an aesthetic purpose, providing no information, and having no functionality</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Text is only purely decorative if the words can be rearranged or substituted without  changing their purpose.  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>The cover page of a dictionary has random words in very light text in the background.</p>  </aside>"
 		},
 		{
 			"id": "dfn-real-time-event",
-			"name": "real-time event real-time events",
+			"name": ["real-time event","real-time events"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">event that a) occurs at the same time as the viewing and b) is not completely generated  by the content  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>A Webcast of a live performance (occurs at the same time as the viewing and is not  prerecorded).  </p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>An on-line auction with people bidding (occurs at the same time as the viewing).</p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Live humans interacting in a virtual world using avatars (is not completely generated  by the content and occurs at the same time as the viewing).  </p>  </aside>"
 		},
 		{
 			"id": "dfn-region",
-			"name": "region regions",
+			"name": ["region","regions"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">perceivable, programmatically determined section of content</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">In HTML, any area designated with a landmark role would be a region.</p>"
 		},
 		{
 			"id": "dfn-relationships",
-			"name": "relationships",
+			"name": ["relationships"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">meaningful associations between distinct pieces of content</p>"
 		},
 		{
 			"id": "dfn-relative-luminance",
-			"name": "relative luminance",
+			"name": ["relative luminance"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">the relative brightness of any point in a colorspace, normalized to 0 for darkest  black and 1 for lightest white  </p><div xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">  <p>For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126  * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> where <strong>R</strong>, <strong>G</strong> and <strong>B</strong> are defined as:  </p>  <ul>  <li>if RsRGB &lt;= 0.04045 then <strong>R</strong> = RsRGB/12.92 else <strong>R</strong> = ((RsRGB+0.055)/1.055) ^ 2.4  </li>  <li>if GsRGB &lt;= 0.04045 then <strong>G</strong> = GsRGB/12.92 else <strong>G</strong> = ((GsRGB+0.055)/1.055) ^ 2.4  </li>  <li>if BsRGB &lt;= 0.04045 then <strong>B</strong> = BsRGB/12.92 else <strong>B</strong> = ((BsRGB+0.055)/1.055) ^ 2.4  </li>  </ul>  <p>and RsRGB, GsRGB, and BsRGB are defined as:</p>  <ul>  <li>RsRGB = R8bit/255</li>  <li>GsRGB = G8bit/255</li>  <li>BsRGB = B8bit/255</li>  </ul>  <p>The \"^\" character is the exponentiation operator. (Formula taken from [[SRGB]].)  </p>  </div><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Before May 2021 the value of 0.04045 in the definition was different (0.03928). It was taken from an older version of the specification and has been updated. It has no practical effect on the calculations in the context of these guidelines.</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Almost all systems used today to view Web content assume sRGB encoding. Unless it  is known that another color space will be used to process and display the content,  authors should evaluate using sRGB colorspace. If using other color spaces, see <a href=\"contrast-minimum\">Understanding Success Criterion 1.4.3</a>.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">If dithering occurs after delivery, then the source color value is used. For colors  that are dithered at the source, the average values of the colors that are dithered  should be used (average R, average G, and average B).  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Tools are available that automatically do the calculations when testing contrast and  flash.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">A <a href=\"relative-luminance.html\">separate page giving the relative luminance definition using MathML</a> to display the formulas is available.  </p>"
 		},
 		{
 			"id": "dfn-relied-upon",
-			"name": "relied upon",
+			"name": ["relied upon"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">the content would not <a>conform</a> if that <a>technology</a> is turned off or is not supported  </p>"
 		},
 		{
 			"id": "dfn-role",
-			"name": "role",
+			"name": ["role"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">text or number by which software can identify the function of a component within Web  content  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>A number that indicates whether an image functions as a hyperlink, command button,  or check box.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-same-functionality",
-			"name": "same functionality",
+			"name": ["same functionality"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">same result when used</p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>A submit \"search\" button on one Web page and a \"find\" button on another Web page may  both have a field to enter a term and list topics in the Web site related to the term  submitted. In this case, they would have the same functionality but would not be labeled  consistently.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-same-relative-order",
-			"name": "same relative order",
+			"name": ["same relative order"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">same position relative to other items</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Items are considered to be in the same relative order even if other items are inserted  or removed from the original order. For example, expanding navigation menus may insert  an additional level of detail or a secondary navigation section may be inserted into  the reading order.  </p>"
 		},
 		{
 			"id": "dfn-satisfies-a-success-criterion",
-			"name": "satisfies a success criterion satisfies",
+			"name": ["satisfies a success criterion","satisfies"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">the success criterion does not evaluate to 'false' when applied to the page</p>"
 		},
 		{
 			"id": "dfn-section",
-			"name": "section",
+			"name": ["section"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">a self-contained portion of written content that deals with one or more related topics  or thoughts  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">A section may consist of one or more paragraphs and include graphics, tables, lists  and sub-sections.  </p>"
 		},
 		{
 			"id": "dfn-set-of-web-pages",
-			"name": "set of web pages",
+			"name": ["set of web pages"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">collection of <a>web pages</a> that share a common purpose and that are created by the same author, group or organization  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Examples include:</p>  <ul>  <li>a publication which is split across multiple Web pages, where each page contains one chapter or other significant section of the work. The publication is logically a single contiguous unit, and contains navigation features that enable access to the full set of pages.</li>  <li>an e-commerce website shows products in a set of Web pages that all share the same navigation and identification. However, when progressing to the checkout process, the template changes; the navigation and other elements are removed, so the pages in that process are functionally and visually different. The checkout pages are not part of the set of product pages.</li>  <li>a blog on a sub-domain (e.g. blog.example.com) which has a different navigation and is authored by a distinct set of people from the pages on the primary domain (example.com).</li>  </ul>  </aside><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Different language versions would be considered different sets of Web pages.</p>"
 		},
 		{
 			"id": "dfn-sign-language",
-			"name": "sign language",
+			"name": ["sign language"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">a language using combinations of movements of the hands and arms, facial expressions,  or body positions to convey meaning  </p>"
 		},
 		{
 			"id": "dfn-sign-language-interpretation",
-			"name": "sign language interpretation",
+			"name": ["sign language interpretation"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">translation of one language, generally a spoken language, into a <a>sign language</a>  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">True sign languages are independent languages that are unrelated to the spoken language(s)  of the same country or region.  </p>"
 		},
 		{
 			"id": "dfn-single-pointer",
-			"name": "single pointer",
+			"name": ["single pointer"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">pointer input that operates with one point of contact with the screen, including single taps and clicks, double-taps and clicks, long presses, and path-based gestures</p>"
 		},
 		{
 			"id": "dfn-specific-sensory-experience",
-			"name": "specific sensory experience",
+			"name": ["specific sensory experience"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">a sensory experience that is not purely decorative and does not primarily convey important  information or perform a function  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Examples include a performance of a flute solo, works of visual art etc.</p>  </aside>"
 		},
 		{
 			"id": "dfn-state",
-			"name": "state states",
+			"name": ["state","states"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">dynamic property expressing characteristics of a user interface component that may change in response to user action or automated processes</p><p xmlns=\"http://www.w3.org/1999/xhtml\">States do not affect the nature of the component, but represent data associated with the component or user interaction possibilities. Examples include focus, hover, select, press, check, visited/unvisited, and expand/collapse.</p>"
 		},
 		{
 			"id": "dfn-status-message",
-			"name": "status message status messages",
+			"name": ["status message","status messages"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">change in content that is not a <a>change of context</a>, and that provides information to the user on the success or results of an action, on the waiting state of an application, on the progress of a process, or on the existence of errors</p>"
 		},
 		{
 			"id": "dfn-structure",
-			"name": "structure",
+			"name": ["structure"],
 			"definition": "<ol xmlns=\"http://www.w3.org/1999/xhtml\">  <li>The way the parts of a <a>Web page</a> are organized in relation to each other; and  </li>  <li>The way a collection of <a>Web pages</a> is organized  </li>  </ol>"
 		},
 		{
 			"id": "dfn-style-property",
-			"name": "style property style properties",
+			"name": ["style property","style properties"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of  content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by user agents</p><p xmlns=\"http://www.w3.org/1999/xhtml\">Style properties can have several origins:</p><ul xmlns=\"http://www.w3.org/1999/xhtml\">  <li>User agent default styles: The default style property values applied in the absence of any author or user styles. Some web content technologies specify a default rendering, others do not;</li>  <li>Author styles: Style property values that are set by the author as part of the content (e.g. in-line styles, author style sheets);</li>  <li>User styles: Style property values that are set by the user (e.g. via user agent interface settings, user style sheets)</li>  </ul>"
 		},
 		{
 			"id": "dfn-supplemental-content",
-			"name": "supplemental content supplementary content",
+			"name": ["supplemental content","supplementary content"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">additional <a>content</a> that illustrates or clarifies the primary content  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>An audio version of a <a>Web page</a>.  </p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>An illustration of a complex <a>process</a>.  </p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>A paragraph summarizing the major outcomes and recommendations made in a research  study.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-synchronized-media",
-			"name": "synchronized media",
+			"name": ["synchronized media"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">  <a>audio</a> or <a>video</a> synchronized with another format for presenting information and/or with time-based  interactive components, unless the media is a <a>media alternative for text</a> that is clearly labeled as such  </p>"
 		},
 		{
 			"id": "dfn-target",
-			"name": "target targets",
+			"name": ["target","targets"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">region of the display that will accept a pointer action, such as the interactive area of a user interface component</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same page.</p>"
 		},
 		{
 			"id": "dfn-technology",
-			"name": "technology technologies web technology web content technology web content technologies",
+			"name": ["technology","technologies","web technology","web content technology","web content technologies"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">  <a>mechanism</a> for encoding instructions to be rendered, played or executed by <a>user agents</a>  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">As used in these guidelines \"Web Technology\" and the word \"technology\" (when used  alone) both refer to Web Content Technologies.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Web content technologies may include markup languages, data formats, or programming  languages that authors may use alone or in combination to create end-user experiences  that range from static Web pages to synchronized media presentations to dynamic Web  applications.  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Some common examples of Web content technologies include HTML, CSS, SVG, PNG, PDF,  Flash, and JavaScript.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-text",
-			"name": "text",
+			"name": ["text"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">sequence of characters that can be <a>programmatically determined</a>, where the sequence is expressing something in <a>human language</a>  </p>"
 		},
 		{
 			"id": "dfn-text-alternative",
-			"name": "text alternative",
+			"name": ["text alternative"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">  <a>Text</a> that is programmatically associated with <a>non-text content</a> or referred to from text that is programmatically associated with non-text content.  Programmatically associated text is text whose location can be programmatically determined  from the non-text content.  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>An image of a chart is described in text in the paragraph after the chart. The short  text alternative for the chart indicates that a description follows.  </p>  </aside><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Refer to <a href=\"https://www.w3.org/WAI/WCAG21/Understanding/conformance#text-alternatives\">Understanding Text Alternatives</a> for more information.  </p>"
 		},
 		{
 			"id": "dfn-up-event",
-			"name": "up-event",
+			"name": ["up-event"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">platform event that occurs when the trigger stimulus of a pointer is released</p><p xmlns=\"http://www.w3.org/1999/xhtml\">The up-event may have different names on different platforms, such as \"touchend\" or \"mouseup\".</p>"
 		},
 		{
 			"id": "dfn-used-in-an-unusual-or-restricted-way",
-			"name": "used in an unusual or restricted way",
+			"name": ["used in an unusual or restricted way"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">words used in such a way that requires users to know exactly which definition to apply  in order to understand the content correctly  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>The term \"gig\" means something different if it occurs in a discussion of music concerts  than it does in article about computer hard drive space, but the appropriate definition  can be determined from context. By contrast, the word \"text\" is used in a very specific  way in WCAG 2.1, so a definition is supplied in the glossary.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-user-agent",
-			"name": "user agent user agents",
+			"name": ["user agent","user agents"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">any software that retrieves and presents Web content for users</p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Web browsers, media players, plug-ins, and other programs — including <a>assistive technologies</a> — that help in retrieving, rendering, and interacting with Web content.  </p>  </aside>"
 		},
 		{
 			"id": "dfn-user-controllable",
-			"name": "user-controllable",
+			"name": ["user-controllable"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">data that is intended to be accessed by users</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">This does not refer to such things as Internet logs and search engine monitoring data.</p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>Name and address fields for a user's account.</p>  </aside>"
 		},
 		{
 			"id": "dfn-user-interface-component",
-			"name": "user interface component user interface components",
+			"name": ["user interface component","user interface components"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">a part of the content that is perceived by users as a single control for a distinct  function  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Multiple user interface components may be implemented as a single programmatic element.  \"Components\" here is not tied to programming techniques, but rather to what the user  perceives as separate controls.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">User interface components include form elements and links as well as components generated  by scripts.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">What is meant by \"component\" or \"user interface component\" here is also sometimes  called \"user interface element\".  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>An applet has a \"control\" that can be used to move through content by line or page  or random access. Since each of these would need to have a name and be settable independently,  they would each be a \"user interface component.\"  </p>  </aside>"
 		},
 		{
 			"id": "dfn-user-inactivity",
-			"name": "user inactivity",
+			"name": ["user inactivity"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">any continuous period of time where no user actions occur</p><p xmlns=\"http://www.w3.org/1999/xhtml\">The method of tracking will be determined by the web site or application.</p>"
 		},
 		{
 			"id": "dfn-video",
-			"name": "video",
+			"name": ["video"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">the technology of moving or sequenced pictures or images</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Video can be made up of animated or photographic images, or both.</p>"
 		},
 		{
 			"id": "dfn-video-only",
-			"name": "video-only",
+			"name": ["video-only"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">a time-based presentation that contains only <a>video</a> (no <a>audio</a> and no interaction)  </p>"
 		},
 		{
 			"id": "dfn-viewport",
-			"name": "viewport",
+			"name": ["viewport"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">object in which the user agent presents content</p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">The <a>user agent</a> presents content through one or more viewports. Viewports include windows, frames,  loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport  (e.g., nested frames). Interface components created by the user agent such as prompts,  menus, and alerts are not viewports.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">This definition is based on <a href=\"https://www.w3.org/TR/WAI-USERAGENT/glossary.html\">User Agent Accessibility Guidelines 1.0 Glossary</a> [[UAAG10]].  </p>"
 		},
 		{
 			"id": "dfn-visually-customized",
-			"name": "visually customized",
+			"name": ["visually customized"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">the font, size, color, and background can be set</p>"
 		},
 		{
 			"id": "dfn-web-page",
-			"name": "web page web page(s) web pages",
+			"name": ["web page","web page(s)","web pages"],
 			"definition": "<p xmlns=\"http://www.w3.org/1999/xhtml\">a non-embedded resource obtained from a single URI using HTTP plus any other resources  that are used in the rendering or intended to be rendered together with it by a <a>user agent</a>  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">Although any \"other resources\" would be rendered together with the primary resource,  they would not necessarily be rendered simultaneously with each other.  </p><p xmlns=\"http://www.w3.org/1999/xhtml\" class=\"note\">For the purposes of conformance with these guidelines, a resource must be \"non-embedded\"  within the scope of conformance to be considered a Web page.  </p><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>A Web resource including all embedded images and media.</p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>A Web mail program built using Asynchronous JavaScript and XML (AJAX). The program  lives entirely at http://example.com/mail, but includes an inbox, a contacts area  and a calendar. Links or buttons are provided that cause the inbox, contacts, or calendar  to display, but do not change the URI of the page as a whole.  </p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>A customizable portal site, where users can choose content to display from a set of  different content modules.  </p>  </aside><aside xmlns=\"http://www.w3.org/1999/xhtml\" class=\"example\">  <p>When you enter \"http://shopping.example.com/\" in your browser, you enter a movie-like  interactive shopping environment where you visually move around in a store dragging  products off of the shelves around you and into a visual shopping cart in front of  you. Clicking on a product causes it to be demonstrated with a specification sheet  floating alongside. This might be a single-page Web site or just one page within a  Web site.  </p>  </aside>"
 		}
 				]
