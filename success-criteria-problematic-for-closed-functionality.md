@@ -1,8 +1,6 @@
 Success Criteria Problematic for Closed Functionality
 -----------------------------------------------------
 
-<p class="ednote">This section will be updated by the WCAG2ICT Task Force to include success criteria added or changed since the 2013 WCAG2ICT Note that are problematic for Closed Functionality.</p>
-
 There are Success criteria that can be problematic for developers of closed functionality. Some criteria discuss making information available in text (which can be read by assistive technologies), making it “programmatically determinable” (rendered by a user agent and readable by assistive technologies), or doing something else to make content compatible with assistive technologies. Other Success Criteria would apply to systems with closed functionality either if they are partially closed or if they allow for the connection of some types of devices. As an example, Success Criterion 2.1.1 Keyboard would apply to systems which are closed to screen readers, but have a physical keyboard or a connector for standard keyboards. While these criteria, as written, are not suitable for closed functionality, most of them can inform and aid development of built-in features needed to make closed functionality products accessible. For non-web software on closed functionality products, alternate accessibility provisions might be needed to cover the user needs addressed by the following Success Criteria:
 
 <ul>
