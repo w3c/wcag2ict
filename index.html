@@ -197,15 +197,15 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "publishISODate": "2023-06-29T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 29 June 2023"
+  "publishISODate": "2023-06-30T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 30 June 2023"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2.2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2023-06-29">29 June 2023</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2023-06-30">30 June 2023</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -346,12 +346,12 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 
 <p>The following stylistic conventions are used in this document:</p>
 <ul>
-<li>Quotes from WCAG 2.2 and Understanding WCAG 2.2 are in <code>&lt;blockquote&gt;</code> elements and visually styled in slightly smaller text with a gray bar on the left. They are prefaced by a reference to the original source such as “From {reference title} in {document}”.</li>
+<li>Quotes from WCAG 2.2 and Understanding WCAG 2.2 are in <code>&lt;blockquote&gt;</code> elements and visually styled with a gray bar on the left, and immediately follow the heading for the principle, guideline, or success criterion.</li>
 <li>Additional guidance provided by this document begins with the phrase “Guidance When Applying” and has no special visual styling.</li>
-<li>Replacement text that is presented to show how an SC would read as modified by the advice in this document are in <code>&lt;ins&gt;</code> elements visually styled as bold green text.</li>
+<li>Replacement text that is presented to show how an SC would read as modified by the advice in this document are in <code>&lt;ins&gt;</code> elements visually styled as bold green text with a dotted underline.</li>
 <li>Notes are slightly inset and begin with the phrase “NOTE”. Each note is in its own inset box styled in pale green with a darker green line on the left side of the box.</li>
 <li>References to glossary items from WCAG 2.2 are presented in <code>&lt;cite&gt;</code> elements visually styled as ordinary text with a dotted underline, and contain title attributes noting these are WCAG definitions. They turn blue with a yellow background when mouse or keyboard focus is placed over them.</li>
-<li>References to glossary items in this document are presented in <code>&lt;cite&gt;</code> elements visually styled as ordinary text with a dashed underline, and contain title attributes noting these are Task Force definitions. They turn green with a yellow background when mouse or keyboard focus is placed over them. Note that some terms defined in WCAG 2.2 are redefined in WCAG2ICT and links are updated accordingly (except in direct quotes).</li>
+<li>References to glossary items in this document are presented in <code>&lt;cite&gt;</code> elements visually styled as ordinary text with a dark gray underline.</li>
 <li>Hereafter, the short title “WCAG2ICT” is used to reference this document.</li>
 </ul>
 </section><section id="comparison-with-the-2013-wcag2ict-note"><div class="header-wrapper"><h3 id="x1-6-comparison-with-the-2013-wcag2ict-note"><bdi class="secno">1.6 </bdi>Comparison with the 2013 WCAG2ICT Note</h3><a class="self-link" href="#comparison-with-the-2013-wcag2ict-note" aria-label="Permalink for Section 1.6"></a></div>
@@ -363,26 +363,35 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <li>New WCAG 2.1 Success Criteria and Guidelines<ul>
 <li><a href="#orientation">Success Criterion 1.3.4 Orientation</a></li>
 <li><a href="#identify-input-purpose">Success Criterion 1.3.5 Identify Input Purpose</a></li>
+<li><a href="#reflow">Success Criterion 1.4.10 Reflow</a></li>
 <li><a href="#non-text-contrast">Success Criterion 1.4.11 Non-text Contrast</a></li>
 <li><a href="#text-spacing">Success Criterion 1.4.12 Text Spacing</a></li>
 <li><a href="#content-on-hover-or-focus">Success Criterion 1.4.13 Content on Hover or Focus</a></li>
 <li><a href="#character-key-shortcuts">Success Criterion 2.1.4 Character Key Shortcuts</a></li>
 <li><a href="#input-modalities">Guideline 2.5 Input Modalities</a></li>
+<li><a href="#pointer-gestures">Success Criterion 2.5.1 Pointer Gestures</a></li>
 <li><a href="#pointer-cancellation">Success Criterion 2.5.2 Pointer Cancellation</a></li>
 <li><a href="#label-in-name">Success Criterion 2.5.3 Label in Name</a></li>
 <li><a href="#motion-actuation">Success Criterion 2.5.4 Motion Actuation</a></li>
 <li><a href="#status-messages">Success Criterion 4.1.3 Status Messages</a></li>
 </ul>
 </li>
-<li>New terms<ul>
-<li>process, state, status message were added to <a href="#glossary-items-that-apply-to-all-technologies">Glossary Items that Apply to All Technologies</a></li>
-<li>motion animation, region, and user inactivity were added to <a href="#glossary-items-used-only-in-aaa-success-criteria">Glossary Items Used only in AAA Success Criteria</a></li>
-<li><a href="#dfn-down-event">down-event</a></li>
-<li><a href="#dfn-keyboard-shortcut">keyboard shortcut</a></li>
-<li><a href="#dfn-up-event">up-event</a></li>
+<li>New WCAG 2.2 Success Criteria<ul>
+<li><a href="#target-size-minimum">Success Criterion 2.5.8 Target Size (Minimum)</a></li>
 </ul>
 </li>
-<li>Updated sections  <div class="note" role="note" id="issue-container-generatedID-3"><div role="heading" class="note-title marker" id="h-note-0" aria-level="4"><span>Note</span></div><div class="">This will eventually list sections with major updates that are ready for review.</div></div></li>
+<li>New terms<ul>
+<li>pointer input, process, single pointer, state, status message were added to <a href="#glossary-items-that-apply-to-all-technologies">Glossary Items that Apply to All Technologies</a></li>
+<li>motion animation, region, and user inactivity were added to <a href="#glossary-items-used-only-in-aaa-success-criteria">Glossary Items Used only in AAA Success Criteria</a></li>
+<li><a href="#dfn-css-pixels">css pixels</a></li>
+<li><a href="#dfn-down-event">down event</a></li>
+<li><a href="#dfn-keyboard-shortcut">keyboard shortcut</a></li>
+<li><a href="#dfn-style-properties">style property</a></li>
+<li><a href="#dfn-target">target</a></li>
+<li><a href="#dfn-up-event">up event</a></li>
+</ul>
+</li>
+<li>Updated sections  <div class="note" role="note" id="issue-container-generatedID-3"><div role="heading" class="note-title marker" id="h-note-0" aria-level="4"><span>Note</span></div><div class="">Most sections have undergone WCAG2ICT Task Force review and revisions, except those marked with an editor's note that updates are yet to come.</div></div></li>
 </ul>
 </section></section>
 		<section id="key-terms"><div class="header-wrapper"><h2 id="x2-key-terms"><bdi class="secno">2. </bdi>Key Terms</h2><a class="self-link" href="#key-terms" aria-label="Permalink for Section 2."></a></div>
