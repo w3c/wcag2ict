@@ -294,7 +294,7 @@ information provided by the user that is not accepted
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
-Please see the note in the [guidance for Success Criterion 2.1.1](#guidance-when-applying-success-criterion-2-1-1-to-non-web-documents-and-software) that uses this definition and which reads: “This does not imply that software must directly support a keyboard or ‘keyboard interface’. Nor does it imply that software must provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
+Please see the note in the [guidance for Success Criterion 2.1.1](#guidance-when-applying-success-criterion-2-1-1-to-non-web-documents-and-software) that uses this definition and which reads: “This does not imply that software always needs to directly support a keyboard or ‘keyboard interface’. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
 
 #### dfn-keyboard-shortcut
 
@@ -421,10 +421,10 @@ The “^” character is the exponentiation operator. (Formula taken from [\[sRG
 
 <div class="note">
 
-Almost all systems used today to view <INS>**[[content](#content-on-and-off-the-web)]**</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
+Almost all systems used today to view <INS>**[[content](#content-on-and-off-the-web)]**</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors are advised to evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
 <div class="note">
 
-If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered should be used (average R, average G, and average B).</div>
+If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered are intended to be used (average R, average G, and average B).</div>
 <div class="note">
 
 Tools are available that automatically do the calculations when testing contrast and flash.</div><div class="note">A [MathML version of the relative luminance definition](http://www.w3.org/TR/WCAG22/relative-luminance.html) is available.</div>
@@ -525,7 +525,7 @@ region of the display that will accept a pointer action, such as the interactive
 
 <div class="note">
     
-If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>**[[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS>.</div></DD></DL>
+If two or more targets are overlapping, the overlapping area is not intended to be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>**[[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS>.</div></DD></DL>
 
 #### dfn-technology
 
