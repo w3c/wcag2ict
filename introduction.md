@@ -46,7 +46,7 @@ This document includes text quoted from the WCAG 2.2 principles, guidelines, and
 Additional supporting documents for WCAG 2.2, such as the [WCAG 2 Overview](https://www.w3.org/WAI/intro/wcag.php), [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/) \[\[WCAG22-TECHS\]\], and [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/), remain available for web content, but have not been changed to apply to non-web documents and software.
 
 ### Document Conventions
-<div class="ednote">The visual styling and programmatic structure details for calling out content in this section will be updated once the details have been worked out.</div>
+<div class="ednote">The visual styling and programmatic structure details for calling out content in this section are current for this draft. This section will be revisited when further style details are worked out.</div>
 
 The following stylistic conventions are used in this document:
 
@@ -60,7 +60,7 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-<p class="ednote">The WCAG2CIT Task Force has begun incorporating new WCAG 2.1 content. This section will be updated as we incorporate new Guidelines, new and changed Success Criteria and term definitions, as well as make updates to other major sections of the document. This will help readers to focus reviews to sections that are ready. </p>
+<p class="ednote">The WCAG2CIT Task Force has incorporated all of the new WCAG 2.1 guidelines, criteria and glossary terms. The next draft version will incorporate new WCAG 2.2 criteria and glossary terms.</p>
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document:
 
@@ -84,11 +84,11 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
 * New terms
     * pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
     * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria)
-    * [css pixels](#dfn-css-pixels)
+    * [css pixel](#dfn-css-pixels)
     * [down event](#dfn-down-event)
     * [keyboard shortcut](#dfn-keyboard-shortcut)
     * [style property](#dfn-style-properties)
     * [target](#dfn-target)
     * [up event](#dfn-up-event)
 * Updated sections
-    <div class="note">Most sections have undergone WCAG2ICT Task Force review and revisions, except those marked with an editor's note that updates are yet to come.</div>
+    <div class="note">In this draft, most sections have undergone WCAG2ICT Task Force review and revisions, except where noted in an editor's note. Many sections required only minor editorial and link URL updates.</div>
