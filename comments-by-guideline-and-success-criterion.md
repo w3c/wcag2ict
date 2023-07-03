@@ -182,7 +182,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content-on-and-off-the-web) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) is intended to meet this success criterion.</div>
+Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content-on-and-off-the-web) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) must meet this success criterion.</div>
 
 ##### contrast-minimum
 
@@ -329,7 +329,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, it is recommended that all content on the <INS>**[non-web document or software]**</INS> (whether it is used to meet other success criteria or not) meets this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, all content on the <INS>**[non-web document or software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 <div class="note">
 
 Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</div>
@@ -375,7 +375,7 @@ With this substitution, it would read:
 
 <div class="note">
     
-This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion is intended to be considered in conjunction with [Success Criterion 3.2.1](https://www.w3.org/TR/WCAG22/#on-focus), which puts limits on changes of content or context as a result of user action.</div>
+This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with [Success Criterion 3.2.1](https://www.w3.org/TR/WCAG22/#on-focus), which puts limits on changes of content or context as a result of user action.</div>
 
 ##### pause-stop-hide
 
@@ -397,7 +397,7 @@ With this substitution, it would read:
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
 <div class="note">
     
-Since any [content](#content-on-and-off-the-web) that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#software)]**</INS>, it is recommended that all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) meets this success criterion.</div>
+Since any [content](#content-on-and-off-the-web) that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#software)]**</INS>, all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 <div class="note">
     
 [Content](#content-on-and-off-the-web) that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
@@ -426,7 +426,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, it is recommended that all content on the <INS>**[non-web document or software]**</INS> (whether it is used to meet other success criteria or not) meets this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, all content on the <INS>**[non-web document or software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 
 #### navigable
 
@@ -651,7 +651,7 @@ Targets that allow for values to be selected spatially based on position within 
 
 <div class="note">
 
-For inline targets the line-height is intended to be interpreted as perpendicular to the flow of text. For example, in a language displayed vertically, the line-height would be horizontal.</div>
+For inline targets the line-height should be interpreted as perpendicular to the flow of text. For example, in a language displayed vertically, the line-height would be horizontal.</div>
 
 (for non-web documents)
 
