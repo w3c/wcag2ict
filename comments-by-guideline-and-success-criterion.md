@@ -830,7 +830,7 @@ With this substitution, it would read:
     
 3.  **Confirmed:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
     
-##### accessible-authentication
+##### accessible-authentication-minimum
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### redundant-entry
