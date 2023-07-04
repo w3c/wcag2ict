@@ -62,11 +62,13 @@ function prepSec(n) {
 		// insert intent quote at end
 		if (n.intent) {
 			var intentsec = document.createElement("section");
-			intentsec.setAttribute("class", "wcag-quote");
-			intentsec.innerHTML = n.intent;
 			var intentheader = document.createElement("h5");
 			intentheader.innerHTML = "Intent from Understanding " + nname;
-			intentsec.insertBefore(intentheader, intentsec.childNodes[0]);
+			intentsec.appendChild(intentheader);
+			var intentquote = document.createElement("blockquote");
+			intentquote.setAttribute("class", "wcag-quote");
+			intentquote.innerHTML = n.intent;
+			intentsec.appendChild(intentquote);
 			var subsec = nsec.querySelectorAll("section")[1];
 			if (subsec) nsec.insertBefore(intentsec, subsec);
 			else nsec.appendChild(intentsec);
