@@ -161,7 +161,7 @@ For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2.2, t
 
 <DL><DT>user agent (as used in WCAG2ICT)</DT><DD>
 
-any [software](#software) that retrieves and presents documents for users
+any [software](#software) that retrieves and presents <INS>**[documents]**</INS> for users
 </DD></DL>
 <div class="note">
 
