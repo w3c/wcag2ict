@@ -657,7 +657,7 @@ For inline targets the line-height should be interpreted as perpendicular to the
 
 <div class="note">
 
-Some document formats do not have a default zoom level, but have commonly available user agents that allow users to view the content at a wide range of sizes. When evaluating such documents, it is a best practice to choose a starting zoom level appropriate for the intended usage of the content.</div>
+Some document formats are designed for viewing at a wide range of zoom levels provided by the user agent. However, the commonly available user agents for these formats may lack a consistent base zoom level from which to evaluate this criterion. For such documents, evaluate target sizes at a zoom level that aligns with the intended usage of the content.</div>
 
 (for non-web software)
 
