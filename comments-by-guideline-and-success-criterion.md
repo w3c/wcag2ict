@@ -218,9 +218,9 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### reflow
 
-<div class="note">Since there were open issues on WCAG asking about how 1.4.10 Reflow should be applied to non-web software, the WCAG2ICT Task Force would like to get feedback on whether the guidance for non-web software is sufficient, or if there are other considerations that should be covered in the notes in the WCAG2ICT guidance below.</div>
-
 ###### Guidance When Applying Success Criterion 1.4.10 to Non-Web Documents and Software
+
+<div class="ednote">Since there were open issues on WCAG asking about how 1.4.10 Reflow should be applied to non-web software, the WCAG2ICT Task Force would like to get feedback on whether the guidance for non-web software is sufficient, or if there are other considerations that should be covered in the notes in the WCAG2ICT guidance below.</div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent) (also provided below), replacing “web content” with “content”.
 
