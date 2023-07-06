@@ -637,7 +637,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-The size of the [target](#dfn-target) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixels), except where:
+The size of the [target](#dfn-target) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixel), except where:
 
 - **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
 - **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
