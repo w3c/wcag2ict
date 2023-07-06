@@ -246,6 +246,32 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
 
 Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2.2 for user-interface components as a category, because the basic constructs on which the WCAG 2.2 and / or its conformance are built do not apply to these.”
 
+#### dfn-css-pixel
+
+##### Guidance When Applying “CSS pixel” to Non-Web Documents and Software
+
+This applies directly as written and as described in the WCAG 2.2 glossary.
+
+<div class="note">
+Non-web software and its accompanying platform software do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows. </div>
+
+<div class="note">
+Examples where a density-independent pixel may not be defined in the platform:
+
+- Software designed for specific hardware, such as kiosks or office equipment, where the author knows the physical screen size and, potentially, the pixel density.
+- Software, such as streaming apps on smart TV platforms or similar software, where the author may lack information about the physical screen size but may know an appropriate viewing distance or viewing angle.
+
+When there is no platform-defined density-independent pixel measurement, the reference pixel size can be approximated in the following manner:
+
+- Determine a viewing distance that matches the use case and display type. For instance, in the case of a touchscreen, the viewing distance is normally less than the length of an arm, typically around 28 inches (71 cm).
+- Calculate the size of the reference pixel: Divide the viewing distance by 2688. The number 2688 is obtained by dividing 28 inches (arm's length) by the derived reference pixel size (1/96 inch). </div>
+
+<div class="note">
+Most software and devices are usable at more than one viewing distance. However, only viewing distances that are plausible for the product can be considered an appropriate approximation for the reference pixel. For example, in software designed for use with a touchscreen, a visual-angle pixel longer than 0.11 inch (0.28 mm) would not be plausible, because this would signify a viewing distance of more than arm’s length. </div>
+
+<div class="note">
+People with low vision often use devices at less than the standard viewing distance. However, basing the device-independent pixel on a typical viewing distance provides a balance of benefits for users with disabilities. If a longer viewing distance were chosen as the basis for the device-independent pixel, the viewport would be measured with a smaller number of larger pixels, causing Success Criterion 1.4.10 Reflow to be less stringent. If a shorter viewing distance were chosen, user interface components would be measured with a larger number of smaller pixels, causing the 2.5.8 Target Size and 2.4.13 Focus Appearance criteria to be less stringent. </div>
+
 #### dfn-down-event
 
 From the [WCAG 2.2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-down-event):
@@ -254,8 +280,9 @@ From the [WCAG 2.2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
  
-**NOTE** 
-The down-event may have different names on different platforms. For example <INS>**["PointerPressed” or “mousedown”]**</INS>. 
+<div class="note">
+    
+The down-event may have different names on different platforms. For example <INS>**["PointerPressed” or “mousedown”]**</INS>.</div>
 
 #### dfn-general-flash-and-red-flash-thresholds
 
