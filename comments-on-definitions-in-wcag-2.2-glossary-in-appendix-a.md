@@ -42,7 +42,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   normative
 *   on a full-screen window
 *   paused
-*   pointer inputs
+*   pointer input
 *   prerecorded
 *   presentation
 *   primary education level
@@ -148,7 +148,7 @@ the purpose cannot be determined from the link and all information of the <INS>*
 
 ##### Guidance When Applying “assistive technology” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “mainstream user agent\[s\]” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT\[s\])”, and replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT])”, and replacing “Web content” with “content”.
 
 With these substitutions, it would read:
 
@@ -169,18 +169,12 @@ The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technolog
 
 **Example:** Assistive technologies that are important in the context of this document include the following:
 
-*   screen magnifiers, and other visual reading assistants, which are used by people with visual, perceptual and physical print disabilities to change text font, size, spacing, color, synchronization with speech, etc. in order to improve the visual readability of rendered text and images;
-    
-*   screen readers, which are used by people who are blind to read textual information through synthesized speech or braille;
-    
-*   text-to-speech software, which is used by some people with cognitive, language, and learning disabilities to convert text into synthetic speech;
-    
-*   speech recognition software, which may be used by people who have some physical disabilities;
-    
-*   alternative keyboards, which are used by people with certain physical disabilities to simulate the keyboard (including alternate keyboards that use head pointers, single switches, sip/puff and other special input devices.);
-    
-*   alternative pointing devices, which are used by people with certain physical disabilities to simulate mouse pointing and button activations.  
-</div>
+- screen magnifiers, and other visual reading assistants, which are used by people with visual, perceptual and physical print disabilities to change text font, size, spacing, color, synchronization with speech, etc. in order to improve the visual readability of rendered text and images;    
+- screen readers, which are used by people who are blind to read textual information through synthesized speech or braille;
+- text-to-speech software, which is used by some people with cognitive, language, and learning disabilities to convert text into synthetic speech;
+- speech recognition software, which may be used by people who have some physical disabilities;
+- alternative keyboards, which are used by people with certain physical disabilities to simulate the keyboard (including alternate keyboards that use head pointers, single switches, sip/puff and other special input devices.);
+- alternative pointing devices, which are used by people with certain physical disabilities to simulate mouse pointing and button activations.</div>
 </DD></DL>
 
 #### dfn-changes-of-context
@@ -426,26 +420,20 @@ With this substitution, it would read:
 
 the relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
 
-<div class="note">For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 \* **R** + 0.7152 \* **G** + 0.0722 \* **B** where **R**, **G** and **B** are defined as:</div>
+<div class="note">For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 \* **R** + 0.7152 \* **G** + 0.0722 \* **B** where **R**, **G** and **B** are defined as:
 
-*   if RsRGB <= 0.03928 then **R** = RsRGB/12.92 else **R** = ((RsRGB+0.055)/1.055) ^ 2.4
-    
-*   if GsRGB <= 0.03928 then **G** = GsRGB/12.92 else **G** = ((GsRGB+0.055)/1.055) ^ 2.4
-    
-*   if BsRGB <= 0.03928 then **B** = BsRGB/12.92 else **B** = ((BsRGB+0.055)/1.055) ^ 2.4
-    
+- if RsRGB <= 0.03928 then **R** = RsRGB/12.92 else **R** = ((RsRGB+0.055)/1.055) ^ 2.4
+- if GsRGB <= 0.03928 then **G** = GsRGB/12.92 else **G** = ((GsRGB+0.055)/1.055) ^ 2.4
+- if BsRGB <= 0.03928 then **B** = BsRGB/12.92 else **B** = ((BsRGB+0.055)/1.055) ^ 2.4  
 
 and RsRGB, GsRGB, and BsRGB are defined as:
 
-*   RsRGB = R8bit/255
+- RsRGB = R8bit/255
+- GsRGB = G8bit/255
+- BsRGB = B8bit/255
     
-*   GsRGB = G8bit/255
-    
-*   BsRGB = B8bit/255
-    
-
-The “^” character is the exponentiation operator. (Formula taken from [\[sRGB\]](http://www.w3.org/TR/WCAG22/#bib-srgb)).
-
+The “^” character is the exponentiation operator. (Formula taken from [\[sRGB\]](http://www.w3.org/TR/WCAG22/#bib-srgb)).</div>
+<div class="note">Before May 2021 the value of 0.04045 in the definition was different (0.03928). It was taken from an older version of the specification and has been updated. It has no practical effect on the calculations in the context of these guidelines.</div>
 <div class="note">
 
 Almost all systems used today to view <INS>**[[content](#content-on-and-off-the-web)]**</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
@@ -454,10 +442,13 @@ Almost all systems used today to view <INS>**[[content](#content-on-and-off-the-
 If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered should be used (average R, average G, and average B).</div>
 <div class="note">
 
-Tools are available that automatically do the calculations when testing contrast and flash.</div><div class="note">A [MathML version of the relative luminance definition](http://www.w3.org/TR/WCAG22/relative-luminance.html) is available.</div>
+Tools are available that automatically do the calculations when testing contrast and flash.</div>
+<div class="note">
+    
+A [MathML version of the relative luminance definition](http://www.w3.org/TR/WCAG22/relative-luminance.html) is available.</div>
 </DD></DL>
 
-Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2.2 for user-interface components as a category, because the basic constructs on which the WCAG 2.2 and / or its conformance are built do not apply to these.”
+<div class="note">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2.2 for user-interface components as a category, because the basic constructs on which the WCAG 2.2 and / or its conformance are built do not apply to these.”</div>
 
 #### dfn-role
 
@@ -552,7 +543,7 @@ region of the display that will accept a pointer action, such as the interactive
 
 <div class="note">
     
-If two or more targets are overlapping, the overlapping area should not to be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>**[[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS>.</div></DD></DL>
+If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>**[[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS>.</div></DD></DL>
 
 #### dfn-technology
 
@@ -578,7 +569,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
  
 <div class="note">
     
-The up-event may have different names on different platforms. For example <INS>**[“PointerReleased” or “mouseup”]**</INS>.</div>
+The up-event may have different names on different platforms, such as <INS>**[“PointerReleased” or “mouseup”]**</INS>.</div>
 
 #### dfn-user-agent
 
@@ -600,10 +591,13 @@ a part of the [content](#content-on-and-off-the-web) that is perceived by users 
 
 <div class="note">
 
-Multiple user interface components may be implemented as a single programmatic element. Components here is not tied to programming techniques, but rather to what the user perceives as separate controls.</div>
+Multiple user interface components may be implemented as a single programmatic element. "Components" here is not tied to programming techniques, but rather to what the user perceives as separate controls.</div>
 <div class="note">
 
 User interface components include form elements and links as well as components generated by scripts.</div>
+<div class="note">
+
+What is meant by "component" or "user interface component" here is also sometimes called "user interface element".</div>
 <div class="example">
 
 **Example:** <INS>**[A [software](#software) program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the software.]**</INS></div>
