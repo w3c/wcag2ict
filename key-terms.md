@@ -28,7 +28,7 @@ information and sensory experience to be communicated to the user by means of <I
 </DD></DL>
 <div class="note">
 
-[Non-web content occurs in two places; documents and software. When content occurs in a document, a user agent is needed in order to communicate the content's information and sensory experience to the user. When content occurs in software, a separate user agent isn't required—the software itself performs that function.]</div>
+Non-web content occurs in two places; documents and software. When content occurs in a document, a user agent is needed in order to communicate the content's information and sensory experience to the user. When content occurs in software, a separate user agent isn't required—the software itself performs that function.</div>
 
 Within WCAG2ICT wherever “content” or “web content” appears in a success criterion it is replaced with “content” using the definition above.
 
@@ -161,7 +161,7 @@ For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2.2, t
 
 <DL><DT>user agent (as used in WCAG2ICT)</DT><DD>
 
-any [software](#software) that retrieves and presents documents for users
+any [software](#software) that retrieves and presents <INS>**[documents]**</INS> for users
 </DD></DL>
 <div class="note">
 
