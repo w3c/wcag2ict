@@ -254,7 +254,7 @@ If a [non-web document](#document) type and its available [user agents](#user-ag
 The intent section refers to the ability for content to reflow when user agent text enlargement is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this requirement.</div>
 <div class="note">
 
-Non-web software will have more frequent cases where two-dimensional layout is required for usage or meaning than what occurs on the Web.
+Non-web software will have more frequent cases where two-dimensional layout is required for usage or meaning than what occurs on the Web. For example:
 - When the software has a complex user interface with toolbars, as explained in the Intent from Understanding 1.4.10 Reflow.
 - When the content technology and platform software restrict users from adjusting the size of an application window or its content.</div>
 
