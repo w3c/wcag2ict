@@ -5,8 +5,8 @@ The current draft includes guidance for WCAG 2.1 success criteria. Guidance on W
 The group is seeking feedback on the following aspects:
 
 - New added guidance for WCAG 2.1 success criteria and glossary term definitions
-- [Placeholder: Updates to the closed functionality guidance to include the WCAG 2.1 success criteria (in case we manage to include them)]
-- [Placeholder: Updates to the guidance for text, command line and terminal applications (in case we manage to include them)]
+- [Placeholder in case we manage to include them]: Updates to the closed functionality guidance to include the WCAG 2.1 success criteria
+- [Placeholder in case we manage to include them]: Updates to the guidance for text, command line and terminal applications
 
 The group is already aware of formatting differences in how quoted passages from WCAG are included in comparison to the previous WCAG2ICT Working Group Note.
 
@@ -14,6 +14,6 @@ Currently there are known issues in the quoted content from WCAG and Understandi
 
 - Anchor links from the included WCAG content to sections that do not exist in the WCAG2ICT document don't work
 - The words "Note" and "Example" are missing from notes and examples of quoted WCAG passages
-- The left bar that is present for included WCAG guidlines and success criteria is not present for the included Intent sections excerpted from the Understanding document.
+- The left bar that is present for included WCAG guidelines and success criteria is not present for the included Intent sections from the Understanding document.
 
 The group is currently working on updates to the format, styling, and linking for these passages, and expects to refine these in a future draft.
