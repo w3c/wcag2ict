@@ -71,7 +71,7 @@ The term **set of documents**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>set of documents (non-web) (as used in WCAG2ICT)</DT><DD>
 
-collection of [documents](#document) share a common purpose, are created by the same author, group or organization and that are published together, and the documents all refer to each other by name or link
+collection of [documents](#document) that share a common purpose, are created by the same author, group or organization and that are published together, and the documents all refer to each other by name or link
 </DD></DL>
 <div class="note">
 
@@ -94,7 +94,7 @@ collection of [software](#software) programs that share a common purpose, are cr
 </DD></DL>
 <div class="note">
 
-Although such sets occur frequently for web pages, such sets appear to be extremely rare for software.</div>
+Although such sets occur frequently for web pages, they appear to be extremely rare for software.</div>
 <div class="note">
 
 Redistributing or bundling previously distributed software as a collection does not constitute a set of software programs.</div>
