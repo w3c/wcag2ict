@@ -554,7 +554,7 @@ property whose value determines the presentation (e.g. font, color, size, locati
 Style properties can have several origins:
 
 - <INS>**[User agent or platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
-- **Author styles:** Style property values that are set by the author as part of the content (e.g. programmatically-set styles);
+- **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>**[programmatically-set styles]**</INS>);
 - **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other software]**</INS> interface settings)
 </DD></DL>
 
