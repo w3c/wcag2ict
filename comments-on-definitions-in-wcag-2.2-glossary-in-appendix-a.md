@@ -512,7 +512,7 @@ See [Section 6 Comments on Conformance](#comments-on-conformance).
 
 ##### Guidance When Applying “set of Web pages” to Non-Web Documents and Software
 
-See the guidance on [set of non-web documents](#set-of-non-web-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.
+See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.
 
 <div class="note">
 
