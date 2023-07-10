@@ -545,13 +545,18 @@ See the guidance on user [sets of documents](#set-of-documents) and [sets of sof
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings, user style sheets" with "user agent, platform software or other software settings".
 
+With these substitutions, it would read:
+
+<DL><DT>style property</DT><DD>
+
 property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>**[user agents or platform software]**</INS>
 
 Style properties can have several origins:
 
-<INS>**[User agent or platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
-**Author styles:** Style property values that are set by the author as part of the content (e.g. programmatically-set styles);
-**User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other software]**</INS> interface settings)
+- <INS>**[User agent or platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
+- **Author styles:** Style property values that are set by the author as part of the content (e.g. programmatically-set styles);
+- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other software]**</INS> interface settings)
+</DD></DL>
 
 #### dfn-target
 
