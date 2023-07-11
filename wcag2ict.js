@@ -4,10 +4,10 @@ function fetchWcagInfo() {
 	}).then((data) => {
 		let wcag = data;
 		
-		wcag.guidelines[0].principles.forEach(function (princ) {
+		wcag.principles.forEach(function (princ) {
 			prepPrinc(princ);
 		});
-		 wcag.guidelines[1].terms.forEach(function(term) {
+		 wcag.terms.forEach(function(term) {
 		 prepTerm(term);
 		 });
 	});
