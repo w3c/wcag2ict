@@ -504,7 +504,7 @@ In software, a “link” is any text string or image in the user interface outs
 
 ###### Guidance When Applying Success Criterion 2.4.5 to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent) (also provided below), replacing “Web page(s)” with “non-web document(s)” and “software program(s)”.
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent) (also provided below), replacing “set of Web pages” with “set of non-web documents” and “set of software programs”.
 
 With these substitutions, this success criterion would read:
 
@@ -514,7 +514,7 @@ With these substitutions, this success criterion would read:
 
 (for software programs)
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[software program](#software)]**</INS> within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) except where the <INS>**[software program]**</INS> is the result of, or a step in, a process.
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[software program](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> except where the <INS>**[software program]**</INS> is the result of, or a step in, a process.
 
 <div class="note">
     
@@ -741,17 +741,17 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Guidance When Applying Success Criterion 3.2.3 to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent) (also provided below), replacing “web pages” with “non-web documents” and “software programs”.
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent) (also provided below), replacing “set of Web pages” with “set of non-web documents” and “set of software programs”.
 
 With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[non-web documents](#document)]**</INS> within a [set of <INS>**[non-web documents]**</INS>](#set-of-documents) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[non-web documents](#document)]**</INS> within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> occur in the same relative order each time they are repeated, unless a change is initiated by the user.
 
 (for software programs)
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[software programs](#software)]**</INS> within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[software programs](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> occur in the same relative order each time they are repeated, unless a change is initiated by the user.
 
 <div class="note">
     
@@ -764,17 +764,17 @@ Although not required by this success criterion, ensuring that navigation elemen
 
 ###### Guidance When Applying Success Criterion 3.2.4 to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent) (also provided below), replacing “web pages” with “non-web documents” and “software programs”.
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent) (also provided below), replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
 
 With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>**[non-web documents]**</INS>](#set-of-documents) are identified consistently.
+**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> are identified consistently.
 
 (for programs)
 
-**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) are identified consistently.
+**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> are identified consistently.
 
 <div class="note">
     
