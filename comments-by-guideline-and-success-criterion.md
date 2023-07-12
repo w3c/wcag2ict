@@ -510,7 +510,7 @@ With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web document](#document)]**</INS> within a [set of <INS>**[non-web documents]**</INS>](#set-of-documents) except where the <INS>**[non-web document]**</INS> is the result of, or a step in, a process.
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web document](#document)]**</INS> within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> except where the <INS>**[non-web document]**</INS> is the result of, or a step in, a process.
 
 (for software programs)
 
