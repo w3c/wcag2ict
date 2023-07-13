@@ -104,6 +104,94 @@ function prepTerm(n) {
 	}
 }
 
+// number notes if there are multiple per section
+function numberNotes() {
+	var sectionsWithNotes = new Array();
+	document.querySelectorAll(".note").forEach(function(note) {
+		var container = note.closest("dd");
+		if (container == null) container = note.closest("section");
+		sectionsWithNotes.push(container);
+	});
+	
+	sectionsWithNotes.forEach(function(sec) {
+		if (sec.noteprocessed) return;
+		var notes = sec.querySelectorAll('.note');
+		// no notes, shouldn't happen
+		if (notes.length == 0) return;
+		// one note, leave alone
+		if (notes.length == 1) return;
+		// more than one note, number them
+		if (notes.length > 1) {
+			var count = 1;
+			sec.querySelectorAll(".note").forEach(function(note) {
+				var span = note.querySelector(".marker span");
+				span.textContent = "Note " + count;
+				count++;
+			});
+		}
+		sec.noteprocessed = true;
+	});
+}
+
+// change the numbering of examples to remove number from lone examples in a section, and restart numbering for multiple in each section
+function renumberExamples() {
+	var sectionsWithExamples = new Array();
+	document.querySelectorAll(".example").forEach(function(example) {
+		var container = example.closest("dd"); // use dd container if present
+		if (container == null) container = example.closest("section"); // otherwise section
+		sectionsWithExamples.push(container);
+	});
+	
+	sectionsWithExamples.forEach(function(sec) {
+		if (sec.exprocessed) return;
+		var examples = sec.querySelectorAll(".example");
+		// no examples, shouldn't happen
+		if (examples.length == 0) return;
+		// one example, remove the numbering
+		// more than one example, number them
+		else {
+			var count = 1;
+			var rmOrAdd = examples.length == 1 ? "rm" : "add";
+			sec.querySelectorAll(".example").forEach(function(example) {
+				var marker = example.querySelector(".marker");
+				if (rmOrAdd == "rm") marker.textContent = "Example";
+				else marker.textContent = "Example " + count;
+				count++;
+			});
+		}
+		sec.exprocessed = true;
+	});
+}
+
+function getTocLink(id) {
+	return document.querySelector('a[class="tocxref"][href="#' + id + '"]');
+}
+
+function getTocItem(id) {
+	var tocLink = getTocLink(id);
+	if (tocLink != null) {
+		var tocItem = tocLink.parentElement;
+		return tocItem;
+	} else {
+		return null;
+	}
+}
+
+function hideDeepNums() {
+	document.querySelectorAll("#comments-by-guideline-and-success-criterion section").forEach(function(item) {
+		var id = item.id;
+		if (id.startsWith("guidance-when-")) {
+			var tocItem = getTocItem(id);
+			if (tocItem != null) tocItem.remove();
+			var secno = item.querySelector("bdi.secno");
+			if (secno != null) secno.remove();
+		}
+	});
+}
+
 function postRespec() {
 	fetchWcagInfo();
+	hideDeepNums();
+	numberNotes();
+	//renumberExamples();
 }
