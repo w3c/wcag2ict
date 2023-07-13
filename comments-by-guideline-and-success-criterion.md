@@ -267,6 +267,9 @@ Certain platforms do not support adjusting viewports to an equivalent of 320 CSS
 <div class="note">
 
 Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported.</div>
+<div class="note">
+    
+See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### non-text-contrast
 ###### Guidance When Applying Success Criterion 1.4.11 to Non-Web Documents and Software
