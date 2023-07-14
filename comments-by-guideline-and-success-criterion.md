@@ -217,7 +217,59 @@ This applies directly as written, and as described in [Intent from Understanding
 See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### reflow
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+###### Guidance When Applying Success Criterion 1.4.10 to Non-Web Documents and Software
+
+<div class="ednote">Since there were open issues on WCAG asking about how 1.4.10 Reflow should be applied to non-web software, the WCAG2ICT Task Force would like to get feedback on whether the guidance for non-web software is sufficient, or if there are other considerations that should be covered in the notes in the WCAG2ICT guidance below.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent) (also provided below), replacing “web content” with “content”.
+
+With these substitutions, it would read:
+
+>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:
+>
+>- Vertical scrolling content at a width equivalent to 320 [CSS pixels](#dfn-css-pixel);
+>- Horizontal scrolling content at a height equivalent to 256 [CSS pixels](#dfn-css-pixel).
+
+Except for parts of the content which require two-dimensional layout for usage or meaning.
+
+<div class="note">
+
+320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For <INS>**[content]**</INS> which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</div>
+
+<div class="note">
+    
+Examples of content which requires two-dimensional layout are images required for understanding (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.</div>
+
+(non-web documents)
+
+<div class="note">
+
+If a [non-web document](#document) type and its available [user agents](#user-agent) do not support reflow, it may not be possible for a document of that type to meet this success criterion.</div>
+
+(non-web software)
+
+<div class="note">
+
+The intent section refers to the ability for content to reflow when user agent text enlargement is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this requirement.</div>
+<div class="note">
+
+Non-web software will have more frequent cases where two-dimensional layout is required for usage or meaning than what occurs on the Web. For example:
+- When the software has a complex user interface with toolbars, as explained in the Intent from Understanding 1.4.10 Reflow.
+- When the content technology and platform software restrict users from adjusting the size of an application window or its content.</div>
+
+<div class="note">
+
+If the content technology and platform software do not support reflow, it may not be possible for non-web software to meet this success criterion.</div>
+<div class="note">
+
+Certain platforms do not support adjusting viewports to an equivalent of 320 CSS pixels wide or 256 CSS pixels high. Likewise, some platforms have limitations on zooming as high as 400% for the larger measurements of 1280 CSS pixels wide or 1024 CSS pixels high. In such cases, implement and evaluate at the nearest possible equivalent size to what the Reflow success criterion specifies.</div>
+<div class="note">
+
+Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported.</div>
+<div class="note">
+    
+See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### non-text-contrast
 ###### Guidance When Applying Success Criterion 1.4.11 to Non-Web Documents and Software
