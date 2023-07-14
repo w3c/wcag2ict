@@ -87,7 +87,7 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [css pixel](#dfn-css-pixel)
     * [down event](#dfn-down-event)
     * [keyboard shortcut](#dfn-keyboard-shortcut)
-    * [style property](#dfn-style-properties)
+    * [style property](#dfn-style-property)
     * [target](#dfn-target)
     * [up event](#dfn-up-event)
 * Updated sections
