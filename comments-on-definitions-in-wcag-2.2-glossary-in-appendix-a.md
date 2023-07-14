@@ -503,11 +503,11 @@ See [Section 6 Comments on Conformance](#comments-on-conformance).
 
 ##### Guidance When Applying “set of Web pages” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary.
+See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.
 
 <div class="note">
 
-For those success criteria that use the term “set of web pages” explicitly or implicitly ([2.4.1](#bypass-blocks), [2.4.5](#multiple-ways), [3.2.3](#consistent-navigation), and [3.2.4](#consistent-identification)) WCAG2ICT provides specific replacement term(s) for “set of Web pages”.</div>
+For success criteria that use the term “set of web pages”, either explicitly or implicitly ([2.4.1](#bypass-blocks), [2.4.5](#multiple-ways), [3.2.3](#consistent-navigation), and [3.2.4](#consistent-identification)), simply substitute "set of non-web documents" and "set of software programs" when applying this to non-web technologies.</div>
 
 #### dfn-structure
 
