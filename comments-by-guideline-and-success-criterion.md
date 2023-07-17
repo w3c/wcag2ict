@@ -1,7 +1,10 @@
 Comments by Guideline and Success Criterion
 -------------------------------------------
+<div class="ednote">
 
-The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2.2. The text of each item from WCAG 2.2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. Finally, the “Intent” from Understanding WCAG 2.2 is copied as quoted text; the Task Force makes no substitutions or edits in this text. In visual presentations, the WCAG2ICT guidance is set out in a box with a blue bar to the left, to highlight that this is the content specific to this document.
+The WCAG2ICT Task Force has added draft guidance for all of the Level A and AA success criteria that are new in WCAG 2.1. There are placeholders for new WCAG 2.2 level A and AA success criteria, labeled with, "This section is to be developed by the WCAG2ICT Task Force." This guidance will be delivered in a later draft.</div>
+
+The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2.2. The text of each item from WCAG 2.2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. Finally, the “Intent” from Understanding WCAG 2.2 is copied as quoted text; the Task Force makes no substitutions or edits in this text. The WCAG2ICT guidance can be found in the sections where the headings begin with "Guidance When Applying..." to highlight that this is the content specific to this document.
 
 ### perceivable
 
@@ -443,7 +446,6 @@ With this substitution, it would read:
     
 *   **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
     
-
 <div class="note">
     
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
@@ -600,6 +602,8 @@ In [software](#software), headings and labels are used to describe sections of [
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.7](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible#intent) (also provided below).
 
 ##### focus-not-obscured-minimum
+
+###### Guidance When Applying Success Criterion 2.4.11 to Non-Web Documents and Software
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 #### input-modalities
@@ -679,6 +683,9 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.4](https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html#intent) (also provided below).
 
 ##### dragging-movements
+
+###### Guidance When Applying Success Criterion 2.5.7 to Non-Web Documents and Software
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### target-size-minimum
@@ -836,6 +843,9 @@ See [set of documents](#set-of-documents) and [set of software programs](#set-of
 Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
 
 ##### consistent-help
+
+###### Guidance When Applying Success Criterion 3.2.6 to Non-Web Documents and Software
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 #### input-assistance
@@ -881,11 +891,17 @@ With this substitution, it would read:
 2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-error) and the user is provided an opportunity to correct them.
     
 3.  **Confirmed:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
-    
-##### accessible-authentication-minimum
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### redundant-entry
+
+#### Guidance When Applying Success Criterion 3.3.7 to Non-Web Documents and Software
+
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### accessible-authentication-minimum
+
+#### Guidance When Applying Success Criterion 3.3.8 to Non-Web Documents and Software
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ### robust
