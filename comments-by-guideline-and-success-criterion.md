@@ -894,13 +894,13 @@ With this substitution, it would read:
 
 ##### redundant-entry
 
-#### Guidance When Applying Success Criterion 3.3.7 to Non-Web Documents and Software
+###### Guidance When Applying Success Criterion 3.3.7 to Non-Web Documents and Software
 
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### accessible-authentication-minimum
 
-#### Guidance When Applying Success Criterion 3.3.8 to Non-Web Documents and Software
+###### Guidance When Applying Success Criterion 3.3.8 to Non-Web Documents and Software
 
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
