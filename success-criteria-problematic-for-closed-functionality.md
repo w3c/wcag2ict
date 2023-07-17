@@ -1,9 +1,11 @@
 Success Criteria Problematic for Closed Functionality
 -----------------------------------------------------
 
-<p class="ednote">This section has been updated to incorporate additional notes for new WCAG 2.1 criteria that are problematic for Closed Functionality. In the next public draft, the WCAG2ICT Task Force will add new WCAG 2.2 criteria and may also make updates to existing WCAG 2.0 content in this section to reflect new insights learned since the 2013 WCAG2ICT Note.</p>
+<p class="ednote">This section has been updated to add notes for new WCAG 2.1 criteria that are problematic for Closed Functionality. 
+  
+In the next public draft, The WCAG2ICT Task Force will analyze new WCAG 2.2 criteria and add further closed functionality guidance if any are problematic for Closed Functionality. The Task Foce may also make updates to existing WCAG 2.0 content in this section to reflect new insights learned since the 2013 WCAG2ICT Note.</p>
 
-The following success criteria will be problematic for developers of closed functionality. They either discuss making information available in text (which can be read by assistive technologies) or making it “programmatically determinable” (rendered by a user agent and readable by assistive technologies) or discuss doing something else to make content compatible with assistive technologies. Alternate accessibility provisions that would be needed to address the purpose of these success criteria for the closed functionality aspects of products:
+There are Success Criteria that can be problematic for developers of closed functionality. Some criteria discuss making information available in text (which can be read by assistive technologies), making it “programmatically determinable” (rendered by a user agent and readable by assistive technologies), or doing something else to make content compatible with assistive technologies. Other Success Criteria would apply to systems with closed functionality either if they are partially closed or if they allow for the connection of some types of devices. As an example, Success Criterion 2.1.1 Keyboard would apply to systems which are closed to screen readers, but have a physical keyboard or a connector for standard keyboards. While these criteria, as written, are not suitable for closed functionality, most of them can inform and aid development of built-in features needed to make closed functionality products accessible. For non-web software on closed functionality products, alternate accessibility provisions might be needed to cover the user needs addressed by the following Success Criteria:
 
 <ul>
 <li><a href="#non-text-content">1.1.1 Non-text Content</a>—requires text or a text alternative;</li>
@@ -33,5 +35,3 @@ The following success criteria will be problematic for developers of closed func
 <li><a href="#status-messages">4.1.3 Status Messages</a>—requires information in a programmatic determinable form. Additionally, software with closed functionality is not typically implemented using markup languages.</li>
 <div class="note">Non-web software with closed functionality would need equivalent facilitation to provide access to status messages.</div></li>
 </ul>
-
-<div class="note"><p>Some of the above success criteria would apply to systems with closed functionality if they are partially closed or if they allow for the connection of some types of devices. For instance, Success Criterion 2.1.1 Keyboard would apply to systems which have closed functionality to screen readers but which have a physical keyboard or a connector for standard keyboards.</p></div><div class="note">While these guidelines are not suitable for closed functionality as written, they will inform and aid development of built-in accessible alternatives needed with closed functionality.</div>
