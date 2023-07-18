@@ -928,6 +928,8 @@ Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**
 
 ###### Guidance When Applying Success Criterion 4.1.1 to Non-Web Documents and Software
 
+<p class="ednote">This section is to be updated by the WCAG2ICT Task Force since 4.1.1 Parsing is being made obsolete and removed from WCAG 2.2. This work is planned for the next public working draft of the document.</p>
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG22/Understanding/parsing#intent) (also provided below), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
 
 With these substitutions, it would read:
