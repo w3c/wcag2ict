@@ -456,7 +456,7 @@ Since any [content](#content-on-and-off-the-web) that does not meet this success
 An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</div>
 <div class="note">
     
-<INS>While the success criteria uses the term “information”, the WCAG 2.2 Intent section makes it clear that this is to be applied to all content. Any [content](#content-on-and-off-the-web), whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</INS></div>
+While the success criteria uses the term “information”, the WCAG 2.2 Intent section makes it clear that this is to be applied to all content. Any [content](#content-on-and-off-the-web), whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</div>
 
 #### seizures-and-physical-reactions
 
