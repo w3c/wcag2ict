@@ -109,6 +109,7 @@ function numberNotes() {
 	var sectionsWithNotes = new Array();
 	document.querySelectorAll(".note").forEach(function(note) {
 		var container = note.closest("dd");
+		if (container == null) container = note.closest("blockquote");
 		if (container == null) container = note.closest("section");
 		sectionsWithNotes.push(container);
 	});
@@ -118,19 +119,35 @@ function numberNotes() {
 		var notes = sec.querySelectorAll('.note');
 		// no notes, shouldn't happen
 		if (notes.length == 0) return;
-		// one note, leave alone
-		if (notes.length == 1) return;
+		// one note
+		if (notes.length == 1) {
+			// respec note, do nothing
+			// included note, add marker
+			if (notes[0].querySelector(".marker span") == null) addNoteMarker(notes[0], "Note: ");
+		}
 		// more than one note, number them
 		if (notes.length > 1) {
 			var count = 1;
 			sec.querySelectorAll(".note").forEach(function(note) {
 				var span = note.querySelector(".marker span");
-				span.textContent = "Note " + count;
+				if (span != null) { // respec note
+					span.textContent = "Note " + count;
+				} else { // included note
+					addNoteMarker(note, "Note " + count + ": ");
+				}
 				count++;
 			});
 		}
 		sec.noteprocessed = true;
 	});
+	
+	function addNoteMarker(note, markerText) {
+		span = document.createElement("span");
+		span.textContent = markerText;
+		var p = note.querySelector("p");
+		if (p != null) p.insertBefore(span, p.firstChild);
+		else note.insertBefore(span, note.firstChild);
+	}
 }
 
 // change the numbering of examples to remove number from lone examples in a section, and restart numbering for multiple in each section
