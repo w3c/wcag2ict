@@ -1,7 +1,7 @@
 var respecConfig = {
 	noRecTrack: true,
 	tocIntroductory: true,
-	specStatus: "ED",
+	specStatus: "DNOTE",
 	maxTocLevel: 3,
 	shortName: "wcag2ict",
 	
