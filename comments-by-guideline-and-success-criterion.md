@@ -263,7 +263,7 @@ The intent section refers to the ability for content to reflow when user agent z
 <div class="note">
 
 Non-web software will have more frequent cases where two-dimensional layout is required for usage or meaning than what occurs on the Web. For example:
-- When the software has a complex user interface with toolbars, as explained in the Intent from Understanding 1.4.10 Reflow.</div>
+- When the software has a complex user interface with toolbars that need to be visible while manipulating content, as explained in the Intent from Understanding 1.4.10 Reflow.</div>
 
 <div class="note">
 
