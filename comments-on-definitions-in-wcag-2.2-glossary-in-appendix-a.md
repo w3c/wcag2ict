@@ -1,13 +1,13 @@
 Comments on Definitions in WCAG 2.2 Glossary
 ----------------------------------------------------------
 
-The following is a complete list of definitions from the WCAG 2.2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
+<p class="ednote">Terms introduced in new WCAG 2.1 Success Criteria have been added to this document. Any definitions that existed in WCAG 2.0 that have changed since the 2013 WCAG2ICT have also been updated. The following terms introduced by WCAG 2.2 will be added in the next WCAG2ICT draft: cognitive function test, dragging movement, focus indicator, minimum bounding box, and perimeter. </p>
 
-<p class="ednote">The new terms used only in Level AAA Success Criteria are now listed in the corresponding section below. When new Success Criteria from WCAG 2.1 and 2.2 get added to this document, any new terms and definitions they introduced will also be added to this document. Any definitions that existed in WCAG 2.0 that have changed since the 2013 WCAG2ICT will be updated soon.</p>
+The following is a complete list of definitions from the WCAG 2.2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
 ### Glossary Items that Apply to All Technologies
 
-The following glossary items apply to all technologies and do not require further interpretation for non-web Information and Communications Technologies.
+The following glossary items apply to all technologies and do not require further interpretation for non-web ICT.
 
 *   abbreviation
 *   alternative to time-based media

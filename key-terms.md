@@ -94,7 +94,7 @@ collection of <INS>**[software](#software) programs]**</INS> that share a common
 </DD></DL>
 <div class="note">
 
-Although such sets occur frequently for web pages, they appear to be extremely rare for software.</div>
+Although "sets of web pages" occur frequently, "sets of software programs" appear to be extremely rare.</div>
 <div class="note">
 
 Redistributing or bundling previously distributed software as a collection does not constitute a set of software programs.</div>

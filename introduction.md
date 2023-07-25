@@ -60,7 +60,7 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-<p class="ednote">The WCAG2CIT Task Force has incorporated all of the new WCAG 2.1 guidelines, criteria and glossary terms. The next draft version will incorporate new WCAG 2.2 criteria and glossary terms.</p>
+<p class="ednote">The WCAG2CIT Task Force has incorporated all of the new WCAG 2.1 guidelines, criteria and glossary terms. The next draft version will incorporate new WCAG 2.2 criteria and glossary terms as well as address open issues on any of the content in the document.</p>
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document:
 
@@ -90,5 +90,9 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [style property](#dfn-style-property)
     * [target](#dfn-target)
     * [up event](#dfn-up-event)
+* Updated terms
+    * [set of web pages](#dfn-set-of-web-pages)
+    * [set of non-web documents](#set-of-documents)
+    * [set of software programs](#set-of-software-programs)
 * Updated sections
-    <div class="note">In this draft, most sections have undergone WCAG2ICT Task Force review and revisions, except where noted in an editor's note. Many sections required only minor editorial and link URL updates.</div>
+    <div class="note">In this draft, most of the existing sections have undergone WCAG2ICT Task Force review and updates. Many sections required only minor editorial and link URL updates, such as the guidance for each WCAG 2.0 success criteria. Any sections that have not been fully updated have editor's notes to reflect their current status.</div>
