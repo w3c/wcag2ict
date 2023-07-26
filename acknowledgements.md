@@ -34,7 +34,9 @@
 * Jan Jaap de Groot (Invited expert)
 * Andrew Kirkpatrick (Adobe)
 * Patrick Lauke (TetraLogical)
+* Todd Libby (Invited expert)
 * David MacDonald (Invited expert)
+* Rachael Bradley Montgomery (Library of Congress)
 * Kimberly Patch (Invited expert)
 
 ### Participants in the APA Working Group that Contributed
