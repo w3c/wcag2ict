@@ -1,5 +1,5 @@
 function fetchWcagInfo() {
-	fetch('wcag.json').then((response) => {
+	return fetch('wcag.json').then((response) => {
 		return response.json();
 	}).then((data) => {
 		let wcag = data;
@@ -103,5 +103,5 @@ function prepTerm(n) {
 }
 
 function postRespec() {
-	fetchWcagInfo();
+	return fetchWcagInfo();
 }
