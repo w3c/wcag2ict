@@ -208,7 +208,6 @@ function hideDeepNums() {
 
 function postRespec() {
 	return fetchWcagInfo();
-	fetchWcagInfo();
 	hideDeepNums();
 	numberNotes();
 	//renumberExamples();
