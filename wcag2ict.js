@@ -10,6 +10,8 @@ function fetchWcagInfo() {
 		 wcag.terms.forEach(function(term) {
 		 prepTerm(term);
 		 });
+	}).then((data) => {
+		finalCleanup();
 	});
 }
 
@@ -128,7 +130,9 @@ function numberNotes() {
 		// more than one note, number them
 		if (notes.length > 1) {
 			var count = 1;
-			sec.querySelectorAll(".note").forEach(function(note) {
+			notes.forEach(function(note) {
+				if (sec.nodeName == "SECTION" && (note.closest('dd') != null || note.closest('blockquote') != null)) return;
+				if (sec.nodeName == "SECTION" && note.closest('section') != sec) return;
 				var span = note.querySelector(".marker span");
 				if (span != null) { // respec note
 					span.textContent = "Note " + count;
@@ -155,6 +159,7 @@ function renumberExamples() {
 	var sectionsWithExamples = new Array();
 	document.querySelectorAll(".example").forEach(function(example) {
 		var container = example.closest("dd"); // use dd container if present
+		if (container == null) container = example.closest("blockquote"); // otherwise blockquote
 		if (container == null) container = example.closest("section"); // otherwise section
 		sectionsWithExamples.push(container);
 	});
@@ -164,20 +169,38 @@ function renumberExamples() {
 		var examples = sec.querySelectorAll(".example");
 		// no examples, shouldn't happen
 		if (examples.length == 0) return;
+		if (examples.length == 1) {
+			// respec example, do nothing
+			// included example, add marker
+			if (examples[0].querySelector(".marker span") == null) addExampleMarker(examples[0], "Example: ");
+		}
 		// one example, remove the numbering
 		// more than one example, number them
-		else {
+		// more than one example, number them
+		if (examples.length > 1) {
 			var count = 1;
-			var rmOrAdd = examples.length == 1 ? "rm" : "add";
-			sec.querySelectorAll(".example").forEach(function(example) {
-				var marker = example.querySelector(".marker");
-				if (rmOrAdd == "rm") marker.textContent = "Example";
-				else marker.textContent = "Example " + count;
+			examples.forEach(function(example) {
+				if (sec.nodeName == "SECTION" && (example.closest('dd') != null || example.closest('blockquote') != null)) return;
+				if (sec.nodeName == "SECTION" && example.closest('section') != sec) return;
+				var span = example.querySelector(".marker span");
+				if (span != null) { // respec example
+					span.textContent = "Example " + count;
+				} else { // included example
+					addExampleMarker(example, "Example " + count + ": ");
+				}
 				count++;
 			});
 		}
 		sec.exprocessed = true;
 	});
+
+	function addExampleMarker(example, markerText) {
+		span = document.createElement("span");
+		span.textContent = markerText;
+		var p = example.querySelector("p");
+		if (p != null) p.insertBefore(span, p.firstChild);
+		else example.insertBefore(span, example.firstChild);
+	}
 }
 
 function getTocLink(id) {
@@ -206,9 +229,11 @@ function hideDeepNums() {
 	});
 }
 
-function postRespec() {
-	return fetchWcagInfo();
+function finalCleanup() {
 	hideDeepNums();
 	numberNotes();
-	//renumberExamples();
+	renumberExamples();
+}
+function postRespec() {
+	return fetchWcagInfo();
 }
