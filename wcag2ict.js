@@ -1,5 +1,5 @@
 function fetchWcagInfo() {
-	fetch('wcag.json').then((response) => {
+	return fetch('wcag.json').then((response) => {
 		return response.json();
 	}).then((data) => {
 		let wcag = data;
@@ -207,6 +207,7 @@ function hideDeepNums() {
 }
 
 function postRespec() {
+	return fetchWcagInfo();
 	fetchWcagInfo();
 	hideDeepNums();
 	numberNotes();

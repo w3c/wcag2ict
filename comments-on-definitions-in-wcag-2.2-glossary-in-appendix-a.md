@@ -1,13 +1,13 @@
 Comments on Definitions in WCAG 2.2 Glossary
 ----------------------------------------------------------
 
-The following is a complete list of definitions from the WCAG 2.2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
+<p class="ednote">Terms introduced in new WCAG 2.1 Success Criteria have been added to this document. Any definitions that existed in WCAG 2.0 that have changed since the 2013 WCAG2ICT have also been updated. The following terms introduced by WCAG 2.2 will be added in the next WCAG2ICT draft: cognitive function test, dragging movement, focus indicator, minimum bounding box, and perimeter. </p>
 
-<p class="ednote">The new terms used only in Level AAA Success Criteria are now listed in the corresponding section below. When new Success Criteria from WCAG 2.1 and 2.2 get added to this document, any new terms and definitions they introduced will also be added to this document. Any definitions that existed in WCAG 2.0 that have changed since the 2013 WCAG2ICT will be updated soon.</p>
+The following is a complete list of definitions from the WCAG 2.2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
 ### Glossary Items that Apply to All Technologies
 
-The following glossary items apply to all technologies and do not require further interpretation for non-web Information and Communications Technologies.
+The following glossary items apply to all technologies and do not require further interpretation for non-web ICT.
 
 *   abbreviation
 *   alternative to time-based media
@@ -42,7 +42,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   normative
 *   on a full-screen window
 *   paused
-*   pointer inputs
+*   pointer input
 *   prerecorded
 *   presentation
 *   primary education level
@@ -148,7 +148,7 @@ the purpose cannot be determined from the link and all information of the <INS>*
 
 ##### Guidance When Applying “assistive technology” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “mainstream user agent\[s\]” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT\[s\])”, and replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT])”, and replacing “Web content” with “content”.
 
 With these substitutions, it would read:
 
@@ -169,18 +169,12 @@ The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technolog
 
 **Example:** Assistive technologies that are important in the context of this document include the following:
 
-*   screen magnifiers, and other visual reading assistants, which are used by people with visual, perceptual and physical print disabilities to change text font, size, spacing, color, synchronization with speech, etc. in order to improve the visual readability of rendered text and images;
-    
-*   screen readers, which are used by people who are blind to read textual information through synthesized speech or braille;
-    
-*   text-to-speech software, which is used by some people with cognitive, language, and learning disabilities to convert text into synthetic speech;
-    
-*   speech recognition software, which may be used by people who have some physical disabilities;
-    
-*   alternative keyboards, which are used by people with certain physical disabilities to simulate the keyboard (including alternate keyboards that use head pointers, single switches, sip/puff and other special input devices.);
-    
-*   alternative pointing devices, which are used by people with certain physical disabilities to simulate mouse pointing and button activations.  
-</div>
+- screen magnifiers, and other visual reading assistants, which are used by people with visual, perceptual and physical print disabilities to change text font, size, spacing, color, synchronization with speech, etc. in order to improve the visual readability of rendered text and images;    
+- screen readers, which are used by people who are blind to read textual information through synthesized speech or braille;
+- text-to-speech software, which is used by some people with cognitive, language, and learning disabilities to convert text into synthetic speech;
+- speech recognition software, which may be used by people who have some physical disabilities;
+- alternative keyboards, which are used by people with certain physical disabilities to simulate the keyboard (including alternate keyboards that use head pointers, single switches, sip/puff and other special input devices.);
+- alternative pointing devices, which are used by people with certain physical disabilities to simulate mouse pointing and button activations.</div>
 </DD></DL>
 
 #### dfn-changes-of-context
@@ -246,6 +240,32 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
 
 Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2.2 for user-interface components as a category, because the basic constructs on which the WCAG 2.2 and / or its conformance are built do not apply to these.”
 
+#### dfn-css-pixel
+
+##### Guidance When Applying “CSS pixel” to Non-Web Documents and Software
+
+This applies directly as written and as described in the WCAG 2.2 glossary.
+
+<div class="note">
+Non-web software and its accompanying platform software do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows. </div>
+
+<div class="note">
+Examples where a density-independent pixel may not be defined in the platform:
+
+- Software designed for specific hardware, such as kiosks or office equipment, where the author knows the physical screen size and, potentially, the pixel density.
+- Software, such as streaming apps on smart TV platforms or similar software, where the author may lack information about the physical screen size but may know an appropriate viewing distance or viewing angle.
+
+When there is no platform-defined density-independent pixel measurement, the reference pixel size can be approximated in the following manner:
+
+- Determine a viewing distance that matches the use case and display type. For instance, in the case of a touchscreen, the viewing distance is normally less than the length of an arm, typically around 28 inches (71 cm).
+- Calculate the size of the reference pixel: Divide the viewing distance by 2688. The number 2688 is obtained by dividing 28 inches (arm's length) by the derived reference pixel size (1/96 inch). </div>
+
+<div class="note">
+Most software and devices are usable at more than one viewing distance. However, only viewing distances that are plausible for the product can be considered an appropriate approximation for the reference pixel. For example, in software designed for use with a touchscreen, a visual-angle pixel longer than 0.11 inch (0.28 mm) would not be plausible, because this would signify a viewing distance of more than arm’s length. </div>
+
+<div class="note">
+People with low vision often use devices at less than the standard viewing distance. However, basing the device-independent pixel on a typical viewing distance provides a balance of benefits for users with disabilities. If a longer viewing distance were chosen as the basis for the device-independent pixel, the viewport would be measured with a smaller number of larger pixels, causing Success Criterion 1.4.10 Reflow to be less stringent. If a shorter viewing distance were chosen, user interface components would be measured with a larger number of smaller pixels, causing the 2.5.8 Target Size and 2.4.13 Focus Appearance criteria to be less stringent. </div>
+
 #### dfn-down-event
 
 From the [WCAG 2.2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-down-event):
@@ -254,8 +274,9 @@ From the [WCAG 2.2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
  
-**NOTE** 
-The down-event may have different names on different platforms. For example <INS>**["PointerPressed” or “mousedown”]**</INS>. 
+<div class="note">
+    
+The down-event may have different names on different platforms. For example <INS>**["PointerPressed” or “mousedown”]**</INS>.</div>
 
 #### dfn-general-flash-and-red-flash-thresholds
 
@@ -294,7 +315,7 @@ information provided by the user that is not accepted
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
-Please see the note in the [guidance for Success Criterion 2.1.1](#guidance-when-applying-success-criterion-2-1-1-to-non-web-documents-and-software) that uses this definition and which reads: “This does not imply that software must directly support a keyboard or ‘keyboard interface’. Nor does it imply that software must provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
+Please see the note in the [guidance for Success Criterion 2.1.1](#guidance-when-applying-success-criterion-2-1-1-to-non-web-documents-and-software) that uses this definition and which reads: “This does not imply that software always needs to directly support a keyboard or ‘keyboard interface’. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
 
 #### dfn-keyboard-shortcut
 
@@ -399,26 +420,20 @@ With this substitution, it would read:
 
 the relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
 
-<div class="note">For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 \* **R** + 0.7152 \* **G** + 0.0722 \* **B** where **R**, **G** and **B** are defined as:</div>
+<div class="note">For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 \* **R** + 0.7152 \* **G** + 0.0722 \* **B** where **R**, **G** and **B** are defined as:
 
-*   if RsRGB <= 0.03928 then **R** = RsRGB/12.92 else **R** = ((RsRGB+0.055)/1.055) ^ 2.4
-    
-*   if GsRGB <= 0.03928 then **G** = GsRGB/12.92 else **G** = ((GsRGB+0.055)/1.055) ^ 2.4
-    
-*   if BsRGB <= 0.03928 then **B** = BsRGB/12.92 else **B** = ((BsRGB+0.055)/1.055) ^ 2.4
-    
+- if RsRGB <= 0.03928 then **R** = RsRGB/12.92 else **R** = ((RsRGB+0.055)/1.055) ^ 2.4
+- if GsRGB <= 0.03928 then **G** = GsRGB/12.92 else **G** = ((GsRGB+0.055)/1.055) ^ 2.4
+- if BsRGB <= 0.03928 then **B** = BsRGB/12.92 else **B** = ((BsRGB+0.055)/1.055) ^ 2.4  
 
 and RsRGB, GsRGB, and BsRGB are defined as:
 
-*   RsRGB = R8bit/255
+- RsRGB = R8bit/255
+- GsRGB = G8bit/255
+- BsRGB = B8bit/255
     
-*   GsRGB = G8bit/255
-    
-*   BsRGB = B8bit/255
-    
-
-The “^” character is the exponentiation operator. (Formula taken from [\[sRGB\]](http://www.w3.org/TR/WCAG22/#bib-srgb)).
-
+The “^” character is the exponentiation operator. (Formula taken from [\[sRGB\]](http://www.w3.org/TR/WCAG22/#bib-srgb)).</div>
+<div class="note">Before May 2021 the value of 0.04045 in the definition was different (0.03928). It was taken from an older version of the specification and has been updated. It has no practical effect on the calculations in the context of these guidelines.</div>
 <div class="note">
 
 Almost all systems used today to view <INS>**[[content](#content-on-and-off-the-web)]**</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
@@ -427,10 +442,13 @@ Almost all systems used today to view <INS>**[[content](#content-on-and-off-the-
 If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered should be used (average R, average G, and average B).</div>
 <div class="note">
 
-Tools are available that automatically do the calculations when testing contrast and flash.</div><div class="note">A [MathML version of the relative luminance definition](http://www.w3.org/TR/WCAG22/relative-luminance.html) is available.</div>
+Tools are available that automatically do the calculations when testing contrast and flash.</div>
+<div class="note">
+    
+A [MathML version of the relative luminance definition](http://www.w3.org/TR/WCAG22/relative-luminance.html) is available.</div>
 </DD></DL>
 
-Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2.2 for user-interface components as a category, because the basic constructs on which the WCAG 2.2 and / or its conformance are built do not apply to these.”
+<div class="note">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2.2 for user-interface components as a category, because the basic constructs on which the WCAG 2.2 and / or its conformance are built do not apply to these.”</div>
 
 #### dfn-role
 
@@ -485,11 +503,11 @@ See [Section 6 Comments on Conformance](#comments-on-conformance).
 
 ##### Guidance When Applying “set of Web pages” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary.
+See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.
 
 <div class="note">
 
-For those success criteria that use the term “set of web pages” explicitly or implicitly ([2.4.1](#bypass-blocks), [2.4.5](#multiple-ways), [3.2.3](#consistent-navigation), and [3.2.4](#consistent-identification)) WCAG2ICT provides specific replacement term(s) for “set of Web pages”.</div>
+For success criteria that use the term “set of web pages”, either explicitly or implicitly ([2.4.1](#bypass-blocks), [2.4.5](#multiple-ways), [3.2.3](#consistent-navigation), and [3.2.4](#consistent-identification)), simply substitute "set of non-web documents" and "set of software programs" when applying this to non-web technologies.</div>
 
 #### dfn-structure
 
@@ -511,6 +529,25 @@ See the guidance on user [sets of documents](#set-of-documents) and [sets of sof
 <div class="note">
 
 “AccessibleRole” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
+
+#### dfn-style-property
+
+#####  Guidance When Applying “style property” to Non-Web Documents and Software
+
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings, user style sheets" with "user agent, platform software or other software settings".
+
+With these substitutions, it would read:
+
+<DL><DT>style property</DT><DD>
+
+property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>**[user agents or platform software]**</INS>
+
+Style properties can have several origins:
+
+- <INS>**[User agent or platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
+- **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>**[programmatically-set styles]**</INS>);
+- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other software]**</INS> interface settings)
+</DD></DL>
 
 #### dfn-target
 
@@ -551,7 +588,7 @@ This applies directly as written and as described in the WCAG 2.2 glossary.
  
 <div class="note">
     
-The up-event may have different names on different platforms. For example <INS>**[“PointerReleased” or “mouseup”]**</INS>.</div>
+The up-event may have different names on different platforms, such as <INS>**[“PointerReleased” or “mouseup”]**</INS>.</div>
 
 #### dfn-user-agent
 
@@ -573,10 +610,13 @@ a part of the [content](#content-on-and-off-the-web) that is perceived by users 
 
 <div class="note">
 
-Multiple user interface components may be implemented as a single programmatic element. Components here is not tied to programming techniques, but rather to what the user perceives as separate controls.</div>
+Multiple user interface components may be implemented as a single programmatic element. "Components" here is not tied to programming techniques, but rather to what the user perceives as separate controls.</div>
 <div class="note">
 
 User interface components include form elements and links as well as components generated by scripts.</div>
+<div class="note">
+
+What is meant by "component" or "user interface component" here is also sometimes called "user interface element".</div>
 <div class="example">
 
 **Example:** <INS>**[A [software](#software) program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the software.]**</INS></div>

@@ -1,7 +1,10 @@
 Comments by Guideline and Success Criterion
 -------------------------------------------
+<div class="ednote">
 
-The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2.2. The text of each item from WCAG 2.2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. Finally, the “Intent” from Understanding WCAG 2.2 is copied as quoted text; the Task Force makes no substitutions or edits in this text. In visual presentations, the WCAG2ICT guidance is set out in a box with a blue bar to the left, to highlight that this is the content specific to this document.
+The WCAG2ICT Task Force has added draft guidance for all of the Level A and AA success criteria that are new in WCAG 2.1. There are placeholders for new WCAG 2.2 level A and AA success criteria, labeled with, "This section is to be developed by the WCAG2ICT Task Force." This guidance will be delivered in a later draft.</div>
+
+The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2.2. The text of each item from WCAG 2.2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. Finally, the “Intent” from Understanding WCAG 2.2 is copied as quoted text; the Task Force makes no substitutions or edits in this text. The WCAG2ICT guidance can be found in the sections where the headings begin with "Guidance When Applying..." to highlight that this is the content specific to this document.
 
 ### perceivable
 
@@ -178,7 +181,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level. (Level A)
+**1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to control audio volume independently from the overall system volume level. (Level A)
 
 <div class="note">
     
@@ -217,7 +220,59 @@ This applies directly as written, and as described in [Intent from Understanding
 See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### reflow
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+###### Guidance When Applying Success Criterion 1.4.10 to Non-Web Documents and Software
+
+<div class="ednote">Since there were open issues on WCAG asking about how 1.4.10 Reflow should be applied to non-web software, the WCAG2ICT Task Force would like to get feedback on whether the guidance for non-web software is sufficient, or if there are other considerations that should be covered in the notes in the WCAG2ICT guidance below.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent) (also provided below), replacing “web content” with “content”.
+
+With these substitutions, it would read:
+
+>Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:
+>
+>- Vertical scrolling content at a width equivalent to 320 [CSS pixels](#dfn-css-pixel);
+>- Horizontal scrolling content at a height equivalent to 256 [CSS pixels](#dfn-css-pixel).
+
+Except for parts of the content which require two-dimensional layout for usage or meaning.
+
+<div class="note">
+
+320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For <INS>**[content]**</INS> which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</div>
+
+<div class="note">
+    
+Examples of content which requires two-dimensional layout are images required for understanding (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.</div>
+
+(non-web documents)
+
+<div class="note">
+
+If a [non-web document](#document) type and its available [user agents](#user-agent) do not support reflow, it may not be possible for a document of that type to meet this success criterion.</div>
+
+(non-web software)
+
+<div class="note">
+
+The intent section refers to the ability for content to reflow when user agent text enlargement is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this requirement.</div>
+<div class="note">
+
+Non-web software will have more frequent cases where two-dimensional layout is required for usage or meaning than what occurs on the Web. For example:
+- When the software has a complex user interface with toolbars, as explained in the Intent from Understanding 1.4.10 Reflow.
+- When the content technology and platform software restrict users from adjusting the size of an application window or its content.</div>
+
+<div class="note">
+
+If the content technology and platform software do not support reflow, it may not be possible for non-web software to meet this success criterion.</div>
+<div class="note">
+
+Certain platforms do not support adjusting viewports to an equivalent of 320 CSS pixels wide or 256 CSS pixels high. Likewise, some platforms have limitations on zooming as high as 400% for the larger measurements of 1280 CSS pixels wide or 1024 CSS pixels high. In such cases, implement and evaluate at the nearest possible equivalent size to what the Reflow success criterion specifies.</div>
+<div class="note">
+
+Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported.</div>
+<div class="note">
+    
+See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ##### non-text-contrast
 ###### Guidance When Applying Success Criterion 1.4.11 to Non-Web Documents and Software
@@ -290,7 +345,9 @@ With these substitutions, it would read:
 >Examples of additional content controlled by the <INS>**[user agent or platform software]**</INS> include <INS>**[tooltips]**</INS> created through use of <INS>**[user interface object attributes]**</INS>.</div>
 > 
 > <div class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
-
+><div class="note"> NOTE
+>
+>This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as links used to skip to another part of a page) do not present additional content they are not covered by this criterion.</div>
 
 ### operable
 
@@ -312,7 +369,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-This does not imply that software must directly support a keyboard or “keyboard interface”. Nor does it imply that software must provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.</div>
+This does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.</div>
 <div class="note">
     
 See also the discussion on [Closed Functionality](#closed-functionality).</div>
@@ -361,18 +418,12 @@ With this substitution, it would read:
 **2.2.1 Timing Adjustable:** For each time limit that is set by <INS>**[[non-web documents](#document) or [software](#software)]**</INS>, at least one of the following is true: (Level A)
 
 *   **Turn off:** The user is allowed to turn off the time limit before encountering it; or
-    
 *   **Adjust:** The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or
-    
 *   **Extend:** The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, “press the space bar”), and the user is allowed to extend the time limit at least ten times; or
-    
 *   **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
-    
 *   **Essential Exception:** The time limit is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) and extending it would invalidate the activity; or
-    
 *   **20 Hour Exception:** The time limit is longer than 20 hours.
     
-
 <div class="note">
     
 This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with [Success Criterion 3.2.1](https://www.w3.org/TR/WCAG22/#on-focus), which puts limits on changes of content or context as a result of user action.</div>
@@ -391,7 +442,6 @@ With this substitution, it would read:
     
 *   **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
     
-
 <div class="note">
     
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
@@ -403,7 +453,7 @@ Since any [content](#content-on-and-off-the-web) that does not meet this success
 [Content](#content-on-and-off-the-web) that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
 <div class="note">
     
-An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that [content](#content-on-and-off-the-web) was frozen or broken.</div>
+An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</div>
 <div class="note">
     
 While the success criteria uses the term “information”, the WCAG 2.2 Intent section makes it clear that this is to be applied to all content. Any [content](#content-on-and-off-the-web), whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</div>
@@ -444,7 +494,7 @@ With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**2.4.1 Bypass Blocks:** A mechanism is available to bypass blocks of content that are repeated on multiple <INS>**[[non-web documents](#document) in a [set of non-web documents](#set-of-documents)]**</INS>.
+**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated on multiple <INS>**[[non-web documents](#document) in a [set of non-web documents](#set-of-documents)]**</INS>.
 
 (for software programs)
 
@@ -504,17 +554,17 @@ In software, a “link” is any text string or image in the user interface outs
 
 ###### Guidance When Applying Success Criterion 2.4.5 to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent) (also provided below), replacing “Web page(s)” with “non-web document(s)” and “software program(s)”.
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent) (also provided below), replacing “set of Web pages” with “set of non-web documents” and “set of software programs”.
 
 With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web document](#document)]**</INS> within a [set of <INS>**[non-web documents]**</INS>](#set-of-documents) except where the <INS>**[non-web document]**</INS> is the result of, or a step in, a process.
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web document](#document)]**</INS> within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> except where the <INS>**[non-web document]**</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
 
 (for software programs)
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[software program](#software)]**</INS> within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) except where the <INS>**[software program]**</INS> is the result of, or a step in, a process.
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[software program](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> except where the <INS>**[software program]**</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
 
 <div class="note">
     
@@ -548,6 +598,8 @@ In [software](#software), headings and labels are used to describe sections of [
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.7](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible#intent) (also provided below).
 
 ##### focus-not-obscured-minimum
+
+###### Guidance When Applying Success Criterion 2.4.11 to Non-Web Documents and Software
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 #### input-modalities
@@ -627,6 +679,9 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.4](https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html#intent) (also provided below).
 
 ##### dragging-movements
+
+###### Guidance When Applying Success Criterion 2.5.7 to Non-Web Documents and Software
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### target-size-minimum
@@ -637,13 +692,13 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-The size of the [target](#dfn-target) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixels), except where:
+The size of the [target](#dfn-target) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixel), except where:
 
 - **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
 - **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
 - **Inline:** The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;
 - **<INS>[User agent or platform software]</INS> control:** The size of the target and target offset is determined by the **<INS>[[user agent](#user-agent) or platform software]</INS>** and is not modified by the author;
-- **Essential:** A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed;
+- **Essential:** A particular [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed;
 
 <div class="note">
 
@@ -657,7 +712,7 @@ For inline targets the line-height should be interpreted as perpendicular to the
 
 <div class="note">
 
-Some document formats do not have a default zoom level, but have commonly available user agents that allow users to view the content at a wide range of sizes. When evaluating such documents, it is a best practice to choose a starting zoom level appropriate for the intended usage of the content.</div>
+Some document formats are designed for viewing at a wide range of zoom levels provided by the user agent. However, the commonly available user agents for these formats may lack a consistent base zoom level from which to evaluate this criterion. For such documents, evaluate target sizes at a zoom level that aligns with the intended usage of the content.</div>
 
 (for non-web software)
 
@@ -741,17 +796,17 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Guidance When Applying Success Criterion 3.2.3 to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent) (also provided below), replacing “web pages” with “non-web documents” and “software programs”.
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent) (also provided below), replacing “set of Web pages” with “set of non-web documents” and “set of software programs”.
 
 With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[non-web documents](#document)]**</INS> within a [set of <INS>**[non-web documents]**</INS>](#set-of-documents) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[non-web documents](#document)]**</INS> within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
 
 (for software programs)
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[software programs](#software)]**</INS> within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[software programs](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
 
 <div class="note">
     
@@ -764,17 +819,17 @@ Although not required by this success criterion, ensuring that navigation elemen
 
 ###### Guidance When Applying Success Criterion 3.2.4 to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent) (also provided below), replacing “web pages” with “non-web documents” and “software programs”.
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent) (also provided below), replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
 
 With these substitutions, this success criterion would read:
 
 (for non-web documents)
 
-**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>**[non-web documents]**</INS>](#set-of-documents) are identified consistently.
+**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> are identified consistently.
 
 (for programs)
 
-**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a [set of <INS>**[software programs]**</INS>](#set-of-software-programs) are identified consistently.
+**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> are identified consistently.
 
 <div class="note">
     
@@ -784,6 +839,9 @@ See [set of documents](#set-of-documents) and [set of software programs](#set-of
 Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
 
 ##### consistent-help
+
+###### Guidance When Applying Success Criterion 3.2.6 to Non-Web Documents and Software
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 #### input-assistance
@@ -829,11 +887,17 @@ With this substitution, it would read:
 2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-error) and the user is provided an opportunity to correct them.
     
 3.  **Confirmed:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
-    
-##### accessible-authentication
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ##### redundant-entry
+
+###### Guidance When Applying Success Criterion 3.3.7 to Non-Web Documents and Software
+
+<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+##### accessible-authentication-minimum
+
+###### Guidance When Applying Success Criterion 3.3.8 to Non-Web Documents and Software
+
 <p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
 
 ### robust
@@ -859,6 +923,8 @@ Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**
 ##### parsing
 
 ###### Guidance When Applying Success Criterion 4.1.1 to Non-Web Documents and Software
+
+<p class="ednote">This section is to be updated by the WCAG2ICT Task Force since 4.1.1 Parsing is being made obsolete and removed from WCAG 2.2. This work is planned for the next public working draft of the document.</p>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG22/Understanding/parsing#intent) (also provided below), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
 
@@ -896,7 +962,7 @@ With this substitution, it would read:
 <INS>**[This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already meet this success criterion when used according to specification.]**</INS></div>
 <div class="note">
     
-For conforming to this success criterion, it is usually best practice for software user interfaces to use the accessibility services provided by platform software. These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could or should be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
+For conforming to this success criterion, it is usually best practice for software user interfaces to use the accessibility services provided by platform software. These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
 <div class="note">
 
 For document formats that support interoperability with assistive technology, standard user interface components often meet this success criterion when used according to the general design and accessibility guidance for the document format.</div>
