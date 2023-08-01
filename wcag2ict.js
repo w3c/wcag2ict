@@ -118,7 +118,12 @@ function numberNotes() {
 	
 	sectionsWithNotes.forEach(function(sec) {
 		if (sec.noteprocessed) return;
-		var notes = sec.querySelectorAll('.note');
+		var allNotes = sec.querySelectorAll(":first-child.note-title");
+		var notes = []
+		allNotes.forEach(note => {
+			var parentElement = note.parentElement;	
+			notes.push(note.parentElement);
+		});
 		// no notes, shouldn't happen
 		if (notes.length == 0) return;
 		// one note
