@@ -237,7 +237,7 @@ function hideDeepNums() {
 function hideDeepNumsGlossary() {
 	document.querySelectorAll("#glossary-items-with-specific-guidance").forEach(function(item) {
 		var id = item.id;
-		if (id.startsWith("guidance-when-")) {
+		if (id.startsWith("glossary-items-with-")) {
 			var tocItem = getTocItem(id);
 			if (tocItem != null) tocItem.remove();
 			var secno = item.querySelector("bdi.secno");
