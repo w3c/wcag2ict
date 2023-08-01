@@ -61,9 +61,9 @@ A single document may be composed of multiple files such as the video content, c
 
 <div class="example">
 
-**Example:** An assembly of files that represented the video, audio, captions and timing files for a movie would be a document.
+An assembly of files that represented the video, audio, captions and timing files for a movie would be a document.
 
-**Counterexample:** A binder file used to bind together the various exhibits for a legal case would not be a document.</div>
+Counterexample: A binder file used to bind together the various exhibits for a legal case would not be a document.</div>
 
 ### Set of Documents
 
@@ -82,7 +82,7 @@ If a set is broken apart, the individual parts are no longer part of a set, and 
 
 <div class="example">
 
-**Example:** One example of a set of documents would be a three-part report where each part is a separate file. The table of contents is repeated at the beginning of each file to enable navigation to the other parts.</div>
+One example of a set of documents would be a three-part report where each part is a separate file. The table of contents is repeated at the beginning of each file to enable navigation to the other parts.</div>
 
 ### Set of Software Programs
 
@@ -118,9 +118,9 @@ If there is no independent method to launch the software programs (as is common 
 Although the term “software” is used throughout this document because this would apply to stand alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, for the provisions that use the phrase “set of” (success criteria 2.4.1, 2.4.5, 3.2.3, and 3.2.4), the phrase “set of software programs” is used.</div>
 <div class="example">
 
-**Example:** One example of a set of software programs would be a group of programs that can be launched and used separately but are distributed together and all have a menu that allows users to launch, or switch to, each of the other programs in the group.
+One example of a set of software programs would be a group of programs that can be launched and used separately but are distributed together and all have a menu that allows users to launch, or switch to, each of the other programs in the group.
 
-**Counterexamples:** Examples of things that are **not** sets of software programs:
+Counterexamples: Examples of things that are **not** sets of software programs:
 
 * A suite of programs for authoring different types of documents (text, spreadsheets, presentations, etc.) where the programs don't provide an explicit, consistent means to launch, or switch to, each of the other programs in the group.
 * An office package consisting of multiple programs that launches as a single program that provides multiple functionalities such as writing, spreadsheet, etc., but the only way to navigate between programs is to open a document in one of the programs.
@@ -156,7 +156,7 @@ WCAG 2.2 defines **user agent** as:
 </DD></DL>
 <div class="example">
 
->**Example:** Web browsers, media players, plug-ins, and other programs—including [assistive technologies](#dfn-assistive-technology)—that help in retrieving, rendering, and interacting with Web content.</div>
+>Web browsers, media players, plug-ins, and other programs—including [assistive technologies](#dfn-assistive-technology)—that help in retrieving, rendering, and interacting with Web content.</div>
 For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2.2, the term “user agent” only refers to retrieval and display of web content. For non-web ICT, the term “user agent” refers to retrieval and display of separate content that is _not on the Web_, which WCAG2ICT refers to as a “document”. Within WCAG2ICT, the term “user agent” is used as follows:
 
 <DL><DT>user agent (as used in WCAG2ICT)</DT><DD>

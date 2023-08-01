@@ -13,6 +13,5 @@ Currently there are known issues in the quoted content from WCAG and Understandi
 
 - Anchor links from the included WCAG content to sections that do not exist in the WCAG2ICT document don't work
 - The words "Note" and "Example" are missing from notes and examples of quoted WCAG passages
-- The left bar that is present for included WCAG guidelines and success criteria is not present for the included Intent sections from the Understanding document.
 
 The group is currently working on updates to the format, styling, and linking for these passages, and expects to refine these in a future draft.

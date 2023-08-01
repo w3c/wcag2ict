@@ -141,7 +141,7 @@ the purpose cannot be determined from the link and all information of the <INS>*
 
 <div class="example">
 
-**Example:** The word guava in the following sentence “One of the notable exports is guava” is a link. The link could lead to a definition of guava, a chart listing the quantity of guava exported or a photograph of people harvesting guava. Until the link is activated, all readers are unsure and the person with a disability is not at any disadvantage.</div>
+The word guava in the following sentence “One of the notable exports is guava” is a link. The link could lead to a definition of guava, a chart listing the quantity of guava exported or a photograph of people harvesting guava. Until the link is activated, all readers are unsure and the person with a disability is not at any disadvantage.</div>
 </DD></DL>
 
 #### dfn-assistive-technology
@@ -167,7 +167,7 @@ Assistive technologies often communicate data and messages with <INS>**[mainstre
 The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technologies is not absolute. Many <INS>**[mainstream ICTs]**</INS> provide some features to assist individuals with disabilities. The basic difference is that <INS>**[mainstream ICTs]**</INS> target broad and diverse audiences that usually include people with and without disabilities. Assistive technologies target narrowly defined populations of users with specific disabilities. The assistance provided by an assistive technology is more specific and appropriate to the needs of its target users. The <INS>**[mainstream ICT]**</INS> may provide important functionality to assistive technologies like retrieving <INS>**[[content](#content-on-and-off-the-web)]**</INS> from program objects or parsing markup into identifiable bundles.</div>
 <div class="example">
 
-**Example:** Assistive technologies that are important in the context of this document include the following:
+Assistive technologies that are important in the context of this document include the following:
 
 - screen magnifiers, and other visual reading assistants, which are used by people with visual, perceptual and physical print disabilities to change text font, size, spacing, color, synchronization with speech, etc. in order to improve the visual readability of rendered text and images;    
 - screen readers, which are used by people who are blind to read textual information through synthesized speech or braille;
@@ -204,7 +204,7 @@ Changes in context include changes of:
 A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).</div>
 <div class="example">
 
-**Example:** Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.</div>
+Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.</div>
 </DD></DL>
 <div class="note">
 
@@ -384,10 +384,10 @@ determined by [software](#software) from author-supplied data provided in a way 
 
 <div class="example">
 
-**Example 1:** Determined in a markup language from elements and attributes that are accessed directly by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
+Determined in a markup language from elements and attributes that are accessed directly by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
 <div class="example">
 
-**Example 2:** Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <INS>**[and accessibility features of software]**</INS> via an accessibility API that is supported by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
+Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <INS>**[and accessibility features of software]**</INS> via an accessibility API that is supported by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
 </DD></DL>
 <div class="note">
 
@@ -465,7 +465,7 @@ text or number by which software can identify the function of a component within
 
 <div class="example">
 
-**Example:** A number that indicates whether an image functions as a hyperlink, command button, or check box.</div>
+A number that indicates whether an image functions as a hyperlink, command button, or check box.</div>
 </DD></DL>
 <div class="note">
 
@@ -483,14 +483,12 @@ With these substitutions, it would read:
 
 same result when used
 
-<div class="example">
-
-**Example <INS>\[1\]</INS>:** 
+<div class="example"> 
 
 A submit “search” button on one web page and a “find” button on another web page may both have a field to enter a term and list topics in the Web site related to the term submitted. In this case, they would have the same functionality but would not be labeled consistently.</div>
 <div class="example">
 
-<INS>**[Example 2: A ribbon icon that saves the document that looks like an arrow pointing into a folder in one case, and an arrow pointing into a hard drive in another. In this case as well, they would have the same functionality but would not be labeled consistently.]**</INS></div></DD></DL>
+A ribbon icon that saves the document that looks like an arrow pointing into a folder in one case, and an arrow pointing into a hard drive in another. In this case as well, they would have the same functionality but would not be labeled consistently.</div></DD></DL>
 
 #### dfn-satisfies-a-success-criterion
 
@@ -579,7 +577,7 @@ With these substitutions, it would read:
 
 <div class="example">
 
-**Example:** Some common examples of <INS>**[non-web document and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
+Some common examples of <INS>**[non-web document and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
 
 #### dfn-up-event
 
@@ -620,7 +618,7 @@ User interface components include form elements and links as well as components 
 What is meant by "component" or "user interface component" here is also sometimes called "user interface element".</div>
 <div class="example">
 
-**Example:** <INS>**[A [software](#software) program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the software.]**</INS></div>
+A [software](#software) program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the software.</div>
 </DD></DL>
 
 #### dfn-viewport
