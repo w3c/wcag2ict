@@ -223,7 +223,12 @@ See also the discussion on [Closed Functionality](#closed-functionality).</div>
 
 ###### Guidance When Applying Success Criterion 1.4.10 to Non-Web Documents and Software
 
-<div class="ednote">Since there were open issues on WCAG asking about how 1.4.10 Reflow should be applied to non-web software, the WCAG2ICT Task Force would like to get feedback on whether the guidance for non-web software is sufficient, or if there are other considerations that should be covered in the notes in the WCAG2ICT guidance below.</div>
+<div class="ednote">Since there were open issues on WCAG asking about how 1.4.10 Reflow should be applied to non-web software, the WCAG2ICT Task Force would like feedback on whether the guidance for non-web software is sufficient, or if there are other considerations that should be covered in the notes in the WCAG2ICT guidance below. Additionally, the Task Force seeks input and examples for the following:
+<ul>Situations where it is unclear whether the exception of a two-dimensional layout might apply.</li>
+<li>Situations where 1.4.10 Reflow cannot be met.</li>
+<li>Are there contexts where text sizing might be an acceptable alternative to 1.4.10 Reflow?</li></ul>
+<li>Are there situations where the content technology and/or platform software do not support reflow? If there are, please explain and indicate whether applications built for this environment should fail this criteria or have an exception so that this requirement doesn't get applied.</li>
+<li>Are there situations where the content technology and/or platform software prevents users from resizing or zooming text, changing the viewport and screen orientation (all cases where reflow of content would typically be needed)? If there are, please explain and indicate whether applications built for this environment should fail this criteria or have an exception so that this requirement is not applied.</li></div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent) (also provided below), replacing “web content” with “content”.
 
@@ -254,16 +259,15 @@ If a [non-web document](#document) type and its available [user agents](#user-ag
 
 <div class="note">
 
-The intent section refers to the ability for content to reflow when user agent text enlargement is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this requirement.</div>
+The intent section refers to the ability for content to reflow when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this requirement.</div>
 <div class="note">
 
 Non-web software will have more frequent cases where two-dimensional layout is required for usage or meaning than what occurs on the Web. For example:
-- When the software has a complex user interface with toolbars, as explained in the Intent from Understanding 1.4.10 Reflow.
-- When the content technology and platform software restrict users from adjusting the size of an application window or its content.</div>
+- When the software has a complex user interface with toolbars that need to be visible while manipulating content, as explained in the Intent from Understanding 1.4.10 Reflow.</div>
 
 <div class="note">
 
-If the content technology and platform software do not support reflow, it may not be possible for non-web software to meet this success criterion.</div>
+If the content technology and platform software do not support reflow, it may not be possible for non-web software to meet this success criterion, meaning the software application would then fail this success criterion.</div>
 <div class="note">
 
 Certain platforms do not support adjusting viewports to an equivalent of 320 CSS pixels wide or 256 CSS pixels high. Likewise, some platforms have limitations on zooming as high as 400% for the larger measurements of 1280 CSS pixels wide or 1024 CSS pixels high. In such cases, implement and evaluate at the nearest possible equivalent size to what the Reflow success criterion specifies.</div>
@@ -611,6 +615,7 @@ In WCAG 2.2, the Guidelines are provided for framing and understanding the succe
 ##### pointer-gestures
 
 ###### Guidance When Applying Success Criterion 2.5.1 to Non-Web Documents and Software
+<div class="ednote">The WCAG2ICT Task Force seeks input on whether there are other examples of non-web documents that support the ability for authors to add gesture actions to the document that are not interpreted and acted upon through a user agent. If such example exist, we need broaden our example beyond prototyping software.</div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent) (also provided below), making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software by replacing "web content" with "non-web software" and "user agent" with "underlying platform software".
 
