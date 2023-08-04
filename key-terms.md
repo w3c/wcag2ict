@@ -27,7 +27,7 @@ functionality that prevents users from attaching, installing, or using [assistiv
 To support users with disabilities, products with closed functionality can instead provide built-in features that function as assistive technology.</div>
 <div class="example">
   
-Examples of technology with closed functionality include: retail self-checkout machine, automated banking machine (a.k.a. Automated Teller Machine, or ATM), ticket kiosk, calculator, printer, smart TV, set-top box and a computer that is locked down so that users may not adjust settings due to a policy.</div<
+Examples of technology with closed functionality include: retail self-checkout machine, automated banking machine (a.k.a. Automated Teller Machine, or ATM), ticket kiosk, calculator, printer, smart TV, set-top box and a computer that is locked down so that users may not adjust settings due to a policy.</div>
 
 ### Content (on and off the Web)
 
