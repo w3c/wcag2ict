@@ -248,8 +248,11 @@ function hideDeepNumsGlossary() {
 function addHeadingIds() {
 	var headingsWithMissingIds = document.querySelectorAll("h3:not([id]), h4:not([id]), h5:not([id])");
 	headingsWithMissingIds.forEach(heading => {
+		if (heading.parentElement && heading.parentElement.hasAttribute("id")) {
+			return}
+		else {
     var id = heading.innerText.toLowerCase().replace(/\s|\(|\)/g, "-");
-    heading.setAttribute("id", id);
+    heading.setAttribute("id", id); }
 	});
 }
 
