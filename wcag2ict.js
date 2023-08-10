@@ -256,12 +256,23 @@ function addHeadingIds() {
 	});
 }
 
+function removeXMLNSAttributes() {
+	document.querySelectorAll('[xmlns], [xmlns\\:wcag]').forEach(function(element) {
+		Array.from(element.attributes).forEach(function(attribute) {
+			if (attribute.name.startsWith('xmlns')) {
+				element.removeAttribute(attribute.name);
+			}
+		});
+	});
+}
+
 function finalCleanup() {
 	hideDeepNums();
 	hideDeepNumsGlossary();
 	numberNotes();
 	renumberExamples();
 	addHeadingIds();
+	removeXMLNSAttributes();
 }
 function postRespec() {
 	return fetchWcagInfo();
