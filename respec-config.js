@@ -1,11 +1,11 @@
 var respecConfig = {
 	noRecTrack: true,
 	tocIntroductory: true,
-	specStatus: "ED",
+	specStatus: "DNOTE",
 	maxTocLevel: 3,
 	shortName: "wcag2ict",
 	
-	//publishDate:  "",
+	publishDate:  "2023-08-15",
 	copyrightStart: "2022",
 	license: "document",
 	
