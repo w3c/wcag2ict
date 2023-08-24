@@ -9,9 +9,9 @@ var respecConfig = {
 	copyrightStart: "2022",
 	license: "document",
 	
-	//previousPublishDate:  "",
-	//previousMaturity:  "WD",
-	prevRecURI: "https://www.w3.org/TR/wcag2ict/",
+	previousPublishDate:  "2013-09-05",
+	previousMaturity:  "NOTE",
+	prevVersion: "https://www.w3.org/TR/2013/NOTE-wcag2ict-20130905/",
 	
 	// if there a publicly available Editors Draft, this is the link
 	edDraftURI: "https://w3c.github.io/wcag2ict/",
