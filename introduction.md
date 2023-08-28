@@ -7,7 +7,7 @@ This document is an update to a W3C [Working Group Note](https://www.w3.org/2005
 
 The 2013 WCAG2ICT has been relied upon in regulations and legislation.  One example is EN 301 549[^1] (Europe) and other standards that reference or incorporate EN 301 549 (e.g., India, Kenya, Australia).  Another example is Section 508 (U.S.) [Application of WCAG 2.0 to Non-Web ICT](https://www.federalregister.gov/documents/2017/01/18/2017-00395/information-and-communication-technology-ict-standards-and-guidelines#h-36), which looked to WCAG2ICT for detailed direction with providing specific guidance and exceptions to particular criteria from being applied to non-web technology.  Section 508 incorporated by reference WCAG as the [Accessibility Standard applicable to non-web documents](https://www.access-board.gov/ict/#E205.4) and requires [WCAG Conformance for non-web software](https://www.access-board.gov/ict/#E207.2).
 
-[^1]: EN 301 549 [V3.2.1]([https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) 2.2 Informative references, p. 13 \[i26]. 
+[^1]: EN 301 549 [V3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) 2.2 Informative references, p. 13 \[i26]. 
 
 ### Guidance in this Document
 
@@ -60,7 +60,7 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-<p class="ednote">The WCAG2CIT Task Force has incorporated all of the new WCAG 2.1 guidelines, criteria and glossary terms. The next draft version will incorporate new WCAG 2.2 criteria and glossary terms as well as address open issues on any of the content in the document.</p>
+<p class="ednote">The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 guidelines, criteria and glossary terms. The next draft version will incorporate new WCAG 2.2 criteria and glossary terms as well as address open issues on any of the content in the document.</p>
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document:
 
