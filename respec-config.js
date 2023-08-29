@@ -3,7 +3,7 @@ var respecConfig = {
 	tocIntroductory: true,
 	specStatus: "ED",
 	maxTocLevel: 3,
-	shortName: "wcag2ict",
+	shortName: "wcag2ict-22",
 	
 	//publishDate:  "",
 	copyrightStart: "2022",
