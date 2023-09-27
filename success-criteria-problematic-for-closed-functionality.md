@@ -9,8 +9,8 @@ There are Success Criteria that can be problematic for developers of closed func
 
 <ul>
 <li><a href="#non-text-content">1.1.1 Non-text Content</a>—Requires text or a text alternative in a programmatically determinable form.</li>
-<li><a href="#audio-only-and-video-only-prerecorded">1.2.1 Pre-recorded video</a>—requires a text alternative for time based media;</li>
-<li><a href="#audio-description-or-media-alternative-prerecorded">1.2.3 Audio description or Media Alternative</a>—one of the options available to authors for success criterion 1.2.3 is that of providing a media alternative that is text—which necessarily relies on a connected assistive technology to be presented;</li>
+<li><a href="#audio-only-and-video-only-prerecorded">1.2.1 Pre-recorded video</a>—One of the options available to authors for success criterion 1.2.1 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
+<li><a href="#audio-description-or-media-alternative-prerecorded">1.2.3 Audio description or Media Alternative</a>—One of the options available to authors for success criterion 1.2.3 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
 <li><a href="#info-and-relationships">1.3.1 Info and Relationships</a>—requires information in a programmatically determinable form;</li>
 <li><a href="#meaningful-sequence">1.3.2 Meaningful Sequence</a>—requires information in a programmatically determinable form;</li>
 <li><a href="#identify-input-purpose">1.3.5 Identify Input Purpose</a>—requires information in a programmatically determinable form;</li>
