@@ -35,6 +35,7 @@ There are Success Criteria that can be problematic for developers of closed func
 </ul></li>
 <li><a href="#text-spacing">1.4.12 Text Spacing</a> — In closed functionality software the ability for users to modify line, paragraph, letter, or word spacing is rarely supported. However, if encountered, the Success Criterion applies as noted in the <a href="#guidance-on-applying-success-criterion-1-4-12-to-non-web-documents-and-software">Guidance on Applying Success Criterion 1.4.12 to Non-Web Documents and Software</a>.</li>
 <li><a href="#keyboard">2.1.1 Keyboard</a>—requires operation via a keyboard interface which allows alternative input devices;</li>
+<li><a href="#bypass-blocks">2.4.1 Bypass Blocks</a> — The WCAG2ICT interpretation of this success criterion replaces "sets of Web pages" with "sets of software programs" which are extremely rare - especially for closed functionality software. However, being able to bypass blocks of content that are repeated within software is generally considered best practice.</li>
 <li><a href="#page-titled">2.4.2 Page Titled</a>—where software is an integral part of hardware that provides a single function, such as a calculator or IP telephone, there is no need for a title;</li>
 <li><a href="#label-in-name">2.5.3 Label in Name</a>—requires information in a programmatically determinable form; specifically, the programmatic name contains the text of the visual label;</li>
 <li><a href="#language-of-page">3.1.1 Language of Page</a>—requires information in a programmatically determinable form;</li>
