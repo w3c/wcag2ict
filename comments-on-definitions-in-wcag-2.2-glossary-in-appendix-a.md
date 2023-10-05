@@ -527,8 +527,6 @@ With these substitutions, it would read:
 See the guidance on user [sets of documents](#set-of-documents) and [sets of software programs](#set-of-software-programs) in the Key Terms section.</div>
 <div class="note">
 
-“AccessibleRole” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
-
 #### dfn-style-property
 
 #####  Guidance When Applying “style property” to Non-Web Documents and Software
