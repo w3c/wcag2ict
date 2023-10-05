@@ -119,7 +119,7 @@ Consistent does not mean identical. For example, if a list of choices is provide
 If a member of the set is separated from the set, it is no longer part of a set, and would be evaluated as any other individual software program.</div>
 <div class="note">
 
-Any software program that is not part of a set, per this definition, would automatically satisfy any success criterion that is specified to apply to “sets of” software (as is true for any success criterion that is scoped to only apply to some other type of content).</div>
+Any software program that is not part of a set, per this definition, would automatically [satisfy any success criterion](#dfn-satisfies-a-success-criterion) that is specified to apply to “sets of” software (as is true for any success criterion that is scoped to only apply to some other type of content).</div>
 <div class="note">
 
 If there is any ambiguity whether the group is a set, then the group is not a set.</div>
