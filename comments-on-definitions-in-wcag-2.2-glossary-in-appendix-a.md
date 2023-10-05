@@ -19,6 +19,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   bounding box
 *   CAPTCHA
 *   captions
+*   conformance
 *   correct reading sequence
 *   emergency
 *   essential
@@ -209,14 +210,6 @@ Opening a new window, moving focus to a different component, going to a new page
 <div class="note">
 
 A change in the user agent might include bringing up a new window, or might be a significant change in the menus and/or toolbars that are displayed and available for interacting with some portion of the document.</div>
-
-#### dfn-conformance
-
-##### Guidance When Applying “conformance” to Non-Web Documents and Software
-
-The guidance in this document does not use the term “conformance”.
-
-See the section [Comments on Conformance](#comments-on-conformance).
 
 #### dfn-conforming-alternate-version
 
