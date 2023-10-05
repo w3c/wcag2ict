@@ -499,7 +499,9 @@ This applies directly as written and as described in the WCAG 2.2 glossary, repl
 With this substitution, it would read:
 
 <DL><DT>structure</DT><DD>
-the success criterion does not evaluate to 'false' when applied to the **[<INS>non-web document or software</INS>]**</DD></DL>
+    
+the success criterion does not evaluate to 'false' when applied to the <INS>**[[non-web document](#document) or [software](#software)]**</INS>
+</DD></DL>
 
 <div class="note">
     
