@@ -307,12 +307,31 @@ function addHeadingIds() {
 	});
 }
 
+function removeNumberingFromHeadings() {
+    // Select all headings in the document
+    var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+    // Iterate over each heading
+    for (var i = 0; i < headings.length; i++) {
+        // Use regex to remove numbering from the heading text
+        headings[i].innerText = headings[i].innerText.replace(/^[0-9.]+\s*/, '');
+    }
+}
+
+function removeNumberingFromTocItemts() {
+	var tocItems = document.querySelectorAll('ol>li>a>bdi');
+	for (i = 0; i <= tocItems.length; i++) {
+		tocItems[i].firstChild.remove();
+	}
+}
 function finalCleanup() {
 	hideDeepNums();
 	hideDeepNumsGlossary();
 	numberNotes();
 	renumberExamples();
 	addHeadingIds();
+	removeNumberingFromHeadings();
+	removeNumberingFromTocItemts();
 }
 function postRespec() {
 	return fetchWcagInfo();
