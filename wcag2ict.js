@@ -317,11 +317,12 @@ function removeNumberingFromHeadings() {
         headings[i].innerText = headings[i].innerText.replace(/^[0-9.]+\s*/, '');
     }
 }
-
-function removeNumberingFromTocItemts() {
-	var tocItems = document.querySelectorAll('ol>li>a>bdi');
-	for (i = 0; i <= tocItems.length; i++) {
-		tocItems[i].firstChild.remove();
+function removeNumberingFromTocItemts(tocItems) {
+	tocItems = document.querySelectorAll('ol>li>a>bdi');
+	for (let tocItem of tocItems) {
+	  if (tocItem.textContent.match(/^[0-9.]+/)) {
+		tocItem.textContent = tocItem.textContent.replace(/^[0-9.]+/, '');
+	  }
 	}
 }
 function finalCleanup() {
