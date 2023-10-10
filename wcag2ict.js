@@ -1,4 +1,5 @@
 function fetchWcagInfo() {
+
 	return fetch('wcag.json').then((response) => {
 		return response.json();
 	}).then((data) => {
@@ -48,7 +49,7 @@ function prepSec(n) {
 	var nid = n.id.split(":")[1];
 	var nsec = document.querySelector('#' + nid);
 	if (nsec) {
-		var nname = n.handle;
+		var nname = n.num + " " + n.handle;
 		// get the TOC item
 		var tocitem = document.querySelector('a[class="tocxref"][href="#' + nid + '"]');
 		// last child is the text
