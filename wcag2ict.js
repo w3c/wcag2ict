@@ -1,4 +1,5 @@
 function fetchWcagInfo() {
+
 	return fetch('wcag.json').then((response) => {
 		return response.json();
 	}).then((data) => {
@@ -48,7 +49,7 @@ function prepSec(n) {
 	var nid = n.id.split(":")[1];
 	var nsec = document.querySelector('#' + nid);
 	if (nsec) {
-		var nname = n.handle;
+		var nname = n.num + " " + n.handle;
 		// get the TOC item
 		var tocitem = document.querySelector('a[class="tocxref"][href="#' + nid + '"]');
 		// last child is the text
@@ -307,12 +308,32 @@ function addHeadingIds() {
 	});
 }
 
+function removeNumberingFromHeadings() {
+    // Select all headings in the document
+    var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+
+    // Iterate over each heading
+    for (var i = 0; i < headings.length; i++) {
+        // Use regex to remove numbering from the heading text
+        headings[i].innerText = headings[i].innerText.replace(/^[0-9.]+\s*/, '');
+    }
+}
+function removeNumberingFromTocItemts(tocItems) {
+	tocItems = document.querySelectorAll('ol>li>a>bdi');
+	for (let tocItem of tocItems) {
+	  if (tocItem.textContent.match(/^[0-9.]+/)) {
+		tocItem.textContent = tocItem.textContent.replace(/^[0-9.]+/, '');
+	  }
+	}
+}
 function finalCleanup() {
 	hideDeepNums();
 	hideDeepNumsGlossary();
 	numberNotes();
 	renumberExamples();
 	addHeadingIds();
+	removeNumberingFromHeadings();
+	removeNumberingFromTocItemts();
 }
 function postRespec() {
 	return fetchWcagInfo();
