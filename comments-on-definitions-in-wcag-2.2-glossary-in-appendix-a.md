@@ -525,7 +525,6 @@ With these substitutions, it would read:
 </DD></DL><div class="note">
 
 See the guidance on user [sets of documents](#set-of-documents) and [sets of software programs](#set-of-software-programs) in the Key Terms section.</div>
-<div class="note">
 
 #### dfn-style-property
 
