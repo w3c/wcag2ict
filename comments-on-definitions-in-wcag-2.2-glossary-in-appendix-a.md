@@ -316,7 +316,7 @@ information provided by the user that is not accepted
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
-Please see the note in the [guidance for SC 2.1.1 Keyboard](#applying-sc-2-1-1-keyboard-to-non-web-documents-and-software) that uses this definition and which reads: “This does not imply that software always needs to directly support a keyboard or ‘keyboard interface’. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
+Please see the note in the [Applying SC 2.1.1 Keyboard](#applying-sc-2-1-1-keyboard-to-non-web-documents-and-software) section that uses this definition and which reads: “This does not imply that software always needs to directly support a keyboard or ‘keyboard interface’. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
 
 #### dfn-keyboard-shortcut
 
