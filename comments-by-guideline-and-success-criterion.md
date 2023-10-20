@@ -695,7 +695,7 @@ All functionality that uses a dragging movement for operation can be achieved by
 
 <div class="note">
 
-This requirement applies to **<INS>[non-web documents or software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[user agent, platform software]</INS>**, or assistive technology).</div>
+This requirement applies to **<INS>[[non-web documents](#document) or [software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[user agent, platform software]</INS>**, or assistive technology).</div>
 
 ##### target-size-minimum
 
