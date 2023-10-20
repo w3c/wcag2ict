@@ -20,6 +20,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   CAPTCHA
 *   captions
 *   correct reading sequence
+*   dragging movements
 *   emergency
 *   essential
 *   extended audio description
