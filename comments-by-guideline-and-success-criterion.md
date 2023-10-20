@@ -687,7 +687,15 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software
 
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or platform software", and "web content" with "non-web documents or software".
+
+With these substitutions, it would read:
+
+All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the **<INS>[[user agent](#user-agent) or platform software]</INS>** and not modified by the author.
+
+<div class="note">
+
+This requirement applies to **<INS>[non-web documents or software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[user agent, platform software]</INS>**, or assistive technology).</div>
 
 ##### target-size-minimum
 
