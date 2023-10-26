@@ -29,7 +29,7 @@ This applies directly as written, and as described in [Intent from Understanding
 CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 #### time-based-media
 
@@ -48,7 +48,7 @@ This applies directly as written, and as described in [Intent from Understanding
 The alternative can be provided directly in the [non-web document](#document) or [software](#software) – or provided in an alternate version that meets the success criteria.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### captions-prerecorded
 
@@ -74,7 +74,7 @@ The WCAG 2.2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#
 Secondary or alternate audio tracks are commonly used for this purpose.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### captions-live
 
@@ -116,7 +116,7 @@ This applies directly as written, and as described in [Intent from Understanding
 In software, programmatic determinability is best achieved through the use of [accessibility services provided by platform software](#accessibility-services-of-platform-software) to enable interoperability between software and assistive technologies and accessibility features of software.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### meaningful-sequence
 
@@ -126,7 +126,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### sensory-characteristics
 
@@ -159,7 +159,7 @@ For non-web software and non-web documents that present input fields, the terms 
 </div>
 <div class="note"> 
 
-See also the discussion on [Closed Functionality](#closed-functionality).
+See also the discussion on [Closed Functionality](#closed-functionality-products).
 </div>
 
 #### distinguishable
@@ -207,7 +207,7 @@ This applies directly as written, and as described in [Intent from Understanding
 The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technology). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
 <div class="note">
 
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### images-of-text
 
@@ -217,7 +217,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### reflow
 
@@ -276,7 +276,7 @@ Certain platforms do not support adjusting viewports to an equivalent of 320 CSS
 Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### non-text-contrast
 ###### Applying SC 1.4.11 Non-text Contrast to Non-Web Documents and Software
@@ -297,7 +297,7 @@ An example of appearance modification by the author is content that sets the vis
 
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### text-spacing
 
@@ -376,7 +376,7 @@ This applies directly as written, and as described in [Intent from Understanding
 This does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### no-keyboard-trap
 
@@ -532,7 +532,7 @@ With this substitution, it would read:
 As described in the WCAG intent (also provided below), the name of a [non-web software application](#software) or [non-web document](#document) (e.g. document, media file, etc.) is a sufficient title if it describes the topic or purpose.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### focus-order
 
@@ -675,7 +675,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
 
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### motion-actuation
 
@@ -723,7 +723,7 @@ Some document formats are designed for viewing at a wide range of zoom levels pr
 
 <div class="note">
 
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ### understandable
 
@@ -752,7 +752,7 @@ With these substitutions, it would read:
 Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would comply with this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [software](#software) would also comply with this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technology) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to meet this success criterion in that locale / language.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### language-of-parts
 
@@ -769,7 +769,7 @@ With these substitutions, it would read:
 There are some [software](#software) and [non-web document](#document) technologies where there is no assistive technology supported method for marking the language for the different passages or phrases in the non-web document or software, and it would not be possible to meet this success criterion with those technologies.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 #### predictable
 
@@ -863,7 +863,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
 
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### labels-or-instructions
 
@@ -950,7 +950,7 @@ Examples of markup used internally for persistence of the software user interfac
 
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### name-role-value
 
@@ -973,7 +973,7 @@ For conforming to this success criterion, it is usually best practice for softwa
 For document formats that support interoperability with assistive technology, standard user interface components often meet this success criterion when used according to the general design and accessibility guidance for the document format.</div>
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
 
 ##### status-messages
 
@@ -990,4 +990,4 @@ For [non-web documents](#document) and [software](#software) that are not implem
 
 <div class="note">
     
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+See also the discussion on [Closed Functionality](#closed-functionality-products).</div>
