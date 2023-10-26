@@ -86,11 +86,9 @@ The term **menu-driven interface**, as used in WCAG2ICT, has the meaning below:
 
 an interface composed of menus and sub-menus which the user accesses by pressing buttons or using a touch-screen
 </DD></DL>
-<div class="note">
+<div class="example">
 
 Products that have a menu-driven interface include, but are not limited to, self-service transaction machines, printers, and IP-based telephones.</div>
-
-<div class="example">
 
 ### Set of Documents
 
