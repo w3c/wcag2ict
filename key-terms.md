@@ -78,6 +78,19 @@ An assembly of files that represented the video, audio, captions and timing file
 
 Counterexample: A binder file used to bind together the various exhibits for a legal case would not be a document.</div>
 
+### Menu-driven Interface
+
+The term **menu-driven interface**, as used in WCAG2ICT, has the meaning below:
+
+<DL><DT>menu-driven interface (as used in WCAG2ICT)</DT><DD>
+
+an interface composed of menus and sub-menus which the user accesses by pressing buttons or using a touch-screen
+</DD></DL>
+
+<div class="example">
+
+Products that have a menu-driven interface include, but are not limited to, self-service transaction machines, printers, and IP-based telephones.</div>
+
 ### Set of Documents
 
 The term **set of documents**, as used in WCAG2ICT, has the meaning below:
