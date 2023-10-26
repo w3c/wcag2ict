@@ -87,7 +87,7 @@ Additional guidance is provided for the following glossary entries from WCAG 2.2
 
 #### dfn-accessibility-supported
 
-##### Guidance When Applying “accessibility supported” to Non-Web Documents and Software
+##### Applying “accessibility supported” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “browsers and other user agents” with “user agents or other software”, replacing “user agents” with “user agents or other software”, replacing “web content technology” with “non-web document or software technology”, adding “or other software extension” after “plug-in”, and replacing all five of the Notes with a single new Note: “Note: The concepts behind the five Notes and in Understanding Accessibility Supported are applicable to web technologies. The same or similar factors are applicable for non-web technologies.”
 
@@ -130,7 +130,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
 
 #### dfn-ambiguous-to-users-in-general
 
-##### Guidance When Applying “ambiguous to users in general” to Non-Web Documents and Software
+##### Applying “ambiguous to users in general” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web page” with “non-web document or software”.
 
@@ -147,7 +147,7 @@ The word guava in the following sentence “One of the notable exports is guava�
 
 #### dfn-assistive-technology
 
-##### Guidance When Applying “assistive technology” to Non-Web Documents and Software
+##### Applying “assistive technology” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT])”, and replacing “Web content” with “content”.
 
@@ -180,7 +180,7 @@ Assistive technologies that are important in the context of this document includ
 
 #### dfn-changes-of-context
 
-##### Guidance When Applying “changes of context” to Non-Web Documents and Software
+##### Applying “changes of context” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web page” and “page” with “non-web document or content presented by software”.
 
@@ -213,7 +213,7 @@ A change in the user agent might include bringing up a new window, or might be a
 
 #### dfn-conforming-alternate-version
 
-##### Guidance When Applying “conforming alternate version” to Non-Web Documents and Software
+##### Applying “conforming alternate version” to Non-Web Documents and Software
 
 The guidance in this document does not use the term “conforming alternate version”.
 
@@ -221,13 +221,13 @@ See the section [Comments on Conformance](#comments-on-conformance).
 
 #### dfn-content
 
-##### Guidance When Applying “content (Web Content)” to Non-Web Documents and Software
+##### Applying “content (Web Content)” to Non-Web Documents and Software
 
 See the guidance on [content in the Key Terms section](#content-on-and-off-the-web).
 
 #### dfn-contrast-ratio
 
-##### Guidance When Applying “contrast ratio” to Non-Web Documents and Software
+##### Applying “contrast ratio” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
@@ -235,7 +235,7 @@ Because relative luminance is defined such that it cannot directly apply to hard
 
 #### dfn-css-pixel
 
-##### Guidance When Applying “CSS pixel” to Non-Web Documents and Software
+##### Applying “CSS pixel” to Non-Web Documents and Software
 <div class="ednote">The WCAG2ICT guidance for this definition is key to understanding and testing several criteria that use CSS pixels to indicate measurements. Are there platforms were the platform-defined density-indepent pixel does not approximate a CSS pixel? Are there other well-defined alternatives that could provide a reliable equivalent or alternative measurement? </div>
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
@@ -264,7 +264,7 @@ People with low vision often use devices at less than the standard viewing dista
 
 From the [WCAG 2.2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-down-event):
 
-##### Guidance When Applying “down-event” to Non-Web Documents and Software
+##### Applying “down-event” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
  
@@ -274,7 +274,7 @@ The down-event may have different names on different platforms. For example <INS
 
 #### dfn-general-flash-and-red-flash-thresholds
 
-##### Guidance When Applying “general flash and red flash thresholds” to Non-Web Documents and Software
+##### Applying “general flash and red flash thresholds” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
@@ -284,7 +284,7 @@ Because this deals with relative luminance and not luminance, it can only be app
 
 #### dfn-input-error
 
-##### Guidance When Applying “input error” to Non-Web Documents and Software
+##### Applying “input error” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web page” with “non-web document or software”.
 
@@ -305,15 +305,15 @@ information provided by the user that is not accepted
 
 #### dfn-keyboard-interface
 
-##### Guidance When Applying “keyboard interface” to Non-Web Documents and Software
+##### Applying “keyboard interface” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
-Please see the note in the [guidance for Success Criterion 2.1.1](#guidance-when-applying-success-criterion-2-1-1-to-non-web-documents-and-software) that uses this definition and which reads: “This does not imply that software always needs to directly support a keyboard or ‘keyboard interface’. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
+Please see the note in the [Applying SC 2.1.1 Keyboard](#applying-sc-2-1-1-keyboard-to-non-web-documents-and-software) section that uses this definition and which reads: “This does not imply that software always needs to directly support a keyboard or ‘keyboard interface’. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
 
 #### dfn-keyboard-shortcut
 
-##### Guidance When Applying “keyboard shortcut” to Non-Web Documents and Software
+##### Applying “keyboard shortcut” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
@@ -323,7 +323,7 @@ A key command issued by a long press of a key (2 seconds or more) and other acce
 
 #### dfn-label
 
-##### Guidance When Applying “label” to Non-Web Documents and Software
+##### Applying “label” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web Content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
 
@@ -342,7 +342,7 @@ The term label is not limited to the label element in HTML.</div></DD></DL>
 
 #### dfn-name
 
-##### Guidance When Applying “name” to Non-Web Documents and Software
+##### Applying “name” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
 
@@ -365,7 +365,7 @@ This is unrelated to the name attribute in HTML.</div>
 
 #### dfn-programmatically-determined
 
-##### Guidance When Applying “programmatically determined” to Non-Web Documents and Software
+##### Applying “programmatically determined” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software” and adding and “accessibility features of software” after “assistive technology”.
 
@@ -388,7 +388,7 @@ Software typically enables content to be programmatically determined through the
 
 #### dfn-programmatically-set
 
-##### Guidance When Applying “programmatically set” to Non-Web Documents and Software
+##### Applying “programmatically set” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
 
@@ -404,7 +404,7 @@ Software typically enables [content](#content-on-and-off-the-web) to be programm
 
 #### dfn-relative-luminance
 
-##### Guidance When Applying “relative luminance” to Non-Web Documents and Software
+##### Applying “relative luminance” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web content” with “content”.
 
@@ -446,7 +446,7 @@ A [MathML version of the relative luminance definition](http://www.w3.org/TR/WCA
 
 #### dfn-role
 
-##### Guidance When Applying “role” to Non-Web Documents and Software
+##### Applying “role” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web content” with “content”.
 
@@ -466,7 +466,7 @@ A number that indicates whether an image functions as a hyperlink, command butto
 
 #### dfn-same-functionality
 
-##### Guidance When Applying “same functionality” to Non-Web Documents and Software
+##### Applying “same functionality” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, adding a second example (and numbering the first).
 
@@ -485,7 +485,7 @@ A ribbon icon that saves the document that looks like an arrow pointing into a f
 
 #### dfn-satisfies-a-success-criterion
 
-##### Guidance When Applying “satisfies a success criterion” to Non-Web Documents and Software
+##### Applying “satisfies a success criterion” to Non-Web Documents and Software
 
 The guidance in this document does not use the term “satisfies a success criterion”.
 
@@ -493,7 +493,7 @@ See [Section 6 Comments on Conformance](#comments-on-conformance).
 
 #### dfn-set-of-web-pages
 
-##### Guidance When Applying “set of Web pages” to Non-Web Documents and Software
+##### Applying “set of Web pages” to Non-Web Documents and Software
 
 See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.
 
@@ -503,7 +503,7 @@ For success criteria that use the term “set of web pages”, either explicitly
 
 #### dfn-structure
 
-##### Guidance When Applying “structure” to Non-Web Documents and Software
+##### Applying “structure” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “a Web page” with “non-web documents or software” and replacing “collection of Web pages” with “set of documents or set of software programs”.
 
@@ -524,7 +524,7 @@ See the guidance on user [sets of documents](#set-of-documents) and [sets of sof
 
 #### dfn-style-property
 
-#####  Guidance When Applying “style property” to Non-Web Documents and Software
+#####  Applying “style property” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings, user style sheets" with "user agent, platform software or other software settings".
 
@@ -543,7 +543,7 @@ Style properties can have several origins:
 
 #### dfn-target
 
-#####  Guidance When Applying “target” to Non-Web Documents and Software
+#####  Applying “target” to Non-Web Documents and Software
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “page” with “non-web document or content presented by software”.
 
 With this substitution, it would read:
@@ -558,7 +558,7 @@ If two or more targets are overlapping, the overlapping area should not be inclu
 
 #### dfn-technology
 
-##### Guidance When Applying “technology” to Non-Web Documents and Software
+##### Applying “technology” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “web content” with “non-web document or software”, “user agents” with “user agents or other software”, removing the notes, and replacing the example with “Example: Some common examples of non-web document and software technologies include ODF, OOXML, Java, and C++.”
 
@@ -574,7 +574,7 @@ Some common examples of <INS>**[non-web document and software technologies inclu
 
 #### dfn-up-event
 
-##### Guidance When Applying “up-event” to Non-Web Documents and Software
+##### Applying “up-event” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
  
@@ -584,13 +584,13 @@ The up-event may have different names on different platforms, such as <INS>**[�
 
 #### dfn-user-agent
 
-##### Guidance When Applying “user agent” to Non-Web Documents and Software
+##### Applying “user agent” to Non-Web Documents and Software
 
 See the [guidance on user agent in the Key Terms section](#user-agent).
 
 #### dfn-user-interface-component
 
-##### Guidance When Applying “user interface component” to Non-Web Documents and Software
+##### Applying “user interface component” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing the example with “Example: A software program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the software.”
 
@@ -616,7 +616,7 @@ A [software](#software) program has 2 controls: a text field for entering a file
 
 #### dfn-viewport
 
-##### Guidance When Applying “viewport” to Non-Web Documents and Software
+##### Applying “viewport” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agent” with “software”.
 
@@ -636,7 +636,7 @@ This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](h
 
 #### dfn-web-page
 
-##### Guidance When Applying “Web Page” to Non-Web Documents and Software
+##### Applying “Web Page” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2.2 glossary.
 
