@@ -487,9 +487,17 @@ A ribbon icon that saves the document that looks like an arrow pointing into a f
 
 ##### Applying “satisfies a success criterion” to Non-Web Documents and Software
 
-The guidance in this document does not use the term “satisfies a success criterion”.
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “page” with “non-web document or software”.
 
-See [Section 6 Comments on Conformance](#comments-on-conformance).
+With this substitution, it would read:
+
+<DL><DT>structure</DT><DD>
+    
+the success criterion does not evaluate to 'false' when applied to the <INS>**[[non-web document](#document) or [software](#software)]**</INS>
+
+<div class="note">
+    
+Though WCAG2ICT and WCAG 2.2 don't use this exact phrase, in this document there are variations of the phrase that use this definition. See "success criteria is satisfied" in [Section 6 Comments on Conformance](#comments-on-conformance) and "satisfy any success criterion" in the notes for the definition of [set of software programs](#set-of-software-programs).</div></DD></DL>
 
 #### dfn-set-of-web-pages
 
