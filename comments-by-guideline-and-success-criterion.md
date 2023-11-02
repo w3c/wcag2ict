@@ -931,7 +931,7 @@ Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**
 
 <div class="note">
 
-WCAG 2.2 has made this success criterion obsolete and removed it as a requirement in the standard. Therefore, the interpretation of this success criterion for non-web [documents](#document) and [software](#software) has been removed./div>
+WCAG 2.2 has made this success criterion obsolete and removed it as a requirement in the standard. Therefore, the interpretation of this success criterion for non-web [documents](#document) and [software](#software) has been removed.</div>
 
 ##### name-role-value
 
