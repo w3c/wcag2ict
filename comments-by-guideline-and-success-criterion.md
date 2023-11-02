@@ -698,7 +698,6 @@ All functionality that uses a dragging movement for operation can be achieved by
 
 This requirement applies to [content](#content-on-and-off-the-web) that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
-(non-web documents)
 <div class="note">
 
 Dragging movements for operation are less common in documents. An example where a document author could add dragging functionality is an interactive prototype document created in a software design tool.</div>
