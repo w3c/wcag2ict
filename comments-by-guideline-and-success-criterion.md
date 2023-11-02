@@ -687,15 +687,26 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or platform software", and "web content" with "non-web documents or software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent) (also provided below), replacing "user agent" with "user agent or platform software", and making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software by replacing "web content" with "non-web software" and "user agent" with "underlying platform software".
 
 With these substitutions, it would read:
 
 All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the **<INS>[[user agent](#user-agent) or platform software]</INS>** and not modified by the author.
 
+(non-web documents)
 <div class="note">
 
-This requirement applies to **<INS>[[non-web documents](#document) or [software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[user agent, platform software]</INS>**, or assistive technology).</div>
+This requirement applies to [content](#content-on-and-off-the-web) that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+
+(non-web documents)
+<div class="note">
+
+Dragging movements for operation are less common in documents. An example where a document author could add dragging functionality is an interactive prototype document created in a software design tool.</div>
+
+(non-web software)
+<div class="note">
+
+This requirement applies to **<INS>[[software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
 
 ##### target-size-minimum
 
