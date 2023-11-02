@@ -21,6 +21,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   captions
 *   conformance
 *   correct reading sequence
+*   dragging movements
 *   emergency
 *   essential
 *   extended audio description
