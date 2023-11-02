@@ -78,6 +78,19 @@ An assembly of files that represented the video, audio, captions and timing file
 
 Counterexample: A binder file used to bind together the various exhibits for a legal case would not be a document.</div>
 
+### Menu-driven Interface
+
+The term **menu-driven interface**, as used in WCAG2ICT, has the meaning below:
+
+<DL><DT>menu-driven interface (as used in WCAG2ICT)</DT><DD>
+
+an interface composed of menus and sub-menus which the user accesses by pressing buttons or using a touch-screen
+</DD></DL>
+
+<div class="example">
+
+Products that have a menu-driven interface include, but are not limited to, self-service transaction machines, printers, and IP-based telephones.</div>
+
 ### Set of Documents
 
 The term **set of documents**, as used in WCAG2ICT, has the meaning below:
@@ -119,7 +132,7 @@ Consistent does not mean identical. For example, if a list of choices is provide
 If a member of the set is separated from the set, it is no longer part of a set, and would be evaluated as any other individual software program.</div>
 <div class="note">
 
-Any software program that is not part of a set, per this definition, would automatically satisfy any success criterion that is specified to apply to “sets of” software (as is true for any success criterion that is scoped to only apply to some other type of content).</div>
+Any software program that is not part of a set, per this definition, would automatically [satisfy any success criterion](#dfn-satisfies-a-success-criterion) that is specified to apply to “sets of” software (as is true for any success criterion that is scoped to only apply to some other type of content).</div>
 <div class="note">
 
 If there is any ambiguity whether the group is a set, then the group is not a set.</div>
