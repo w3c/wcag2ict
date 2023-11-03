@@ -929,28 +929,9 @@ Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**
 
 ###### Applying SC 4.1.1 Parsing to Non-Web Documents and Software
 
-<p class="ednote">This section is to be updated by the WCAG2ICT Task Force since 4.1.1 Parsing is being made obsolete and removed from WCAG 2.2. This work is planned for the next public working draft of the document.</p>
-
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG22/Understanding/parsing#intent) (also provided below), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
-
-With these substitutions, it would read:
-
-**4.1.1 Parsing:** <INS>**[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technology) and accessibility features of software or to a user-selectable [user agent](#user-agent)]**</INS>, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. (Level A)
-
 <div class="note">
-    
-Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.</div>
-<div class="note">
-    
-Markup is not always available to [assistive technologies](#dfn-assistive-technology) or to user selectable [user agents](#user-agent) such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.</div>
 
-Examples of markup that is separately exposed and available to [assistive technologies](#dfn-assistive-technology) and to [user agents](#user-agent) include: documents encoded in HTML, ODF, and OOXML. In these examples, the markup can be parsed entirely in two ways: (a) by assistive technologies which may directly open the document, (b) by assistive technologies using DOM APIs of user agents for these document formats.
-
-Examples of markup used internally for persistence of the software user interface that are never exposed to [assistive technology](#dfn-assistive-technology) include but are not limited to: XUL, GladeXML, and FXML. In these examples assistive technology only interacts with the user interface of generated software.
-
-<div class="note">
-    
-See also the discussion on [Closed Functionality](#closed-functionality).</div>
+WCAG 2.2 has made this success criterion obsolete and removed it as a requirement in the standard. Therefore, the interpretation of this success criterion for [non-web documents](#document) and [software](#software) has been removed.</div>
 
 ##### name-role-value
 
