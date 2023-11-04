@@ -23,7 +23,7 @@ The term **closed functionality**, as used in WCAG2ICT, has the meaning below:
 functionality that prevents users from attaching, installing, or using [assistive technology](#dfn-assistive-technology)</DD></DL>
 <div class="note">
   
-<p>To support users with disabilities, products with closed functionality can instead provide built-in features that function as assistive technology.</p>p></div>
+<p>To support users with disabilities, products with closed functionality can instead provide built-in features that function as assistive technology.</p></div>
 <div class="example">
   
 Examples of technology with closed functionality include: 
