@@ -28,7 +28,8 @@ To support users with disabilities, products with closed functionality can inste
   
 Examples of technology with closed functionality include: 
 * self-service transaction machines or kiosks (e.g. retail self-checkout, point of sales (POS) terminals, and automated banking machines)
-* telephony devices (e.g. IP phones, feature phones, and smartphones), entertainment technologies (e.g. smart TV, set-top box, smart watches),
+* telephony devices (e.g. IP phones, feature phones, and smartphones)
+* entertainment technologies (e.g. smart TV, set-top box, smart watches)
 * ebook reader
 * computer that is locked down so that users may not adjust settings due to a policy
 * other technology devices (e.g. printers, displays, and iOt devices).</div>
