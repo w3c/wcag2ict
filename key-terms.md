@@ -26,7 +26,12 @@ functionality that prevents users from attaching, installing, or using [assistiv
 To support users with disabilities, products with closed functionality can instead provide built-in features that function as assistive technology.</div>
 <div class="example">
   
-Examples of technology with closed functionality include: Proposed update to definition: self-service transaction machines or kiosks (e.g. retail self-checkout, point of sales (POS) terminals, and automated banking machines), telephony devices (e.g. IP phones, feature phones, and smartphones), entertainment technologies (e.g. smart TV, set-top box, smart watches), ebook reader, computer that is locked down so that users may not adjust settings due to a policy, and other technology devices (e.g. printers, displays, and iOt devices).</div>
+Examples of technology with closed functionality include: 
+* self-service transaction machines or kiosks (e.g. retail self-checkout, point of sales (POS) terminals, and automated banking machines)
+* telephony devices (e.g. IP phones, feature phones, and smartphones), entertainment technologies (e.g. smart TV, set-top box, smart watches),
+* ebook reader
+* computer that is locked down so that users may not adjust settings due to a policy
+* other technology devices (e.g. printers, displays, and iOt devices).</div>
 
 ### Content (on and off the Web)
 
