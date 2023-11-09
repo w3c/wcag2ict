@@ -19,6 +19,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   bounding box
 *   CAPTCHA
 *   captions
+*   cognitive function test
 *   conformance
 *   correct reading sequence
 *   emergency
