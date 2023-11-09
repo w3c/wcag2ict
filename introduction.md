@@ -83,10 +83,11 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
 * New WCAG 2.2 Success Criteria
     * [Success Criterion 2.5.8 Target Size (Minimum)](#target-size-minimum)
     * [Success Criterion 3.3.7 Redundant Entry](#redundant-entry)
+    * [Success Criterion 3.3.8 Accessible Authentication](#accessible-authentication-minimum)
 * Obsolete and Removed WCAG 2.2 Success Criteria
     * [Success Criterion 4.1.1 Parsing](#parsing)
 * New terms
-    * pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
+    * cognitive function test, pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
     * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria)
     * [css pixel](#dfn-css-pixel)
     * [down event](#dfn-down-event)
