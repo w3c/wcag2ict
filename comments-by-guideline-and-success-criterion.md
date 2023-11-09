@@ -903,7 +903,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.8 Accessible Authentication (Minimum) to Non-Web Documents and Software
 
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html) (also provided below).
+
+<div class="note">
+    
+Device passwords, used to unlock a device, are out of scope for this requirement as these are not up to the author.</div>
 
 ### robust
 
