@@ -42,7 +42,6 @@ There are Success Criteria that can be problematic for developers of closed func
 <li><a href="#language-of-page">3.1.1 Language of Page</a>—requires information in a programmatically determinable form;</li>
 <li><a href="#language-of-parts">3.1.2 Language of Parts</a>—requires information in a programmatically determinable form;</li>
 <li><a href="#error-identification">3.3.1 Error Identification</a>—while it's important for errors that can be detected to be described to the user, for closed functionality, the error description doesn't have to be provided in text, as defined in WCAG 2.2;</li>
-<li><a href="#parsing">4.1.1 Parsing</a>—the <a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing.html#intent">Intent of 4.1.1</a> is to provide consistency so that different user agents or assistive technologies will yield the same result;</li>
 <li><a href="#name-role-value">4.1.2 Name, Role, Value</a>—requires information in a programmatically determinable form.</li>
 <li><a href="#status-messages">4.1.3 Status Messages</a>—requires information in a programmatic determinable form. Additionally, software with closed functionality is not typically implemented using markup languages.
 <div class="note">Non-web software with closed functionality would need equivalent facilitation to provide access to status messages.</div></li>
