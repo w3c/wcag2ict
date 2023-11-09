@@ -9,7 +9,7 @@ ICT products with [closed functionality](#closed-functionality) do not allow the
   
 Several examples the task force has considered when developing guidance include the software of:
 
-*   self-service transaction machines or kiosks - Examples include machines used for retail self-checkout, point of sales (POS) terminals, ticketing and self check-in, and automated banking machines.
+*   self-service transaction machines or kiosks - Examples include machines used for retail self-checkout, point of sales (POS) terminals, ticketing and self check-in, and Automated Teller Machines (ATMs).
 *   telephony devices such as IP phones, feature phones, smartphones, and phone-enabled tablets
 *   entertainment technologies including smart TVs, set-top boxes, smart displays, smart speakers, smart watches, and tablets
 *   an ebook reader or standalone ebook software that allows assistive technologies to access all of the user interface controls of the ebook program (open functionality) but does not allow the assistive technologies to access the actual content of book (closed functionality).
