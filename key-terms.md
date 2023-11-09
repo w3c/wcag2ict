@@ -28,7 +28,7 @@ functionality that prevents users from attaching, installing, or using [assistiv
 <div class="example">
   
 Examples of technology with closed functionality include: 
-* self-service transaction machines or kiosks (e.g. retail self-checkout, point of sales (POS) terminals, and automated banking machines)
+* self-service transaction machines or kiosks (e.g. retail self-checkout, point of sales (POS) terminals, and Automated Teller Machines (ATMs))
 * telephony devices (e.g. IP phones, feature phones, and smartphones)
 * entertainment technologies (e.g. smart TV, set-top box, smart watches)
 * ebook reader
