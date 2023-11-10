@@ -81,6 +81,7 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 2.5.4 Motion Actuation](#motion-actuation)
     * [Success Criterion 4.1.3 Status Messages](#status-messages)
 * New WCAG 2.2 Success Criteria
+    * [Success Criterion 2.4.11 Focus Not Obscured (Minimum)](#focus-not-obscured-minimum)
     * [Success Criterion 2.5.7 Dragging Movements](#dragging-movements)
     * [Success Criterion 2.5.8 Target Size (Minimum)](#target-size-minimum)
     * [Success Criterion 3.3.7 Redundant Entry](#redundant-entry)

@@ -604,7 +604,8 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### focus-not-obscured-minimum
 
 ###### Applying Success Criterion 2.4.11 Focus not Obscured to Non-Web Documents and Software
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum#intent) (also provided below).
 
 #### input-modalities
 
