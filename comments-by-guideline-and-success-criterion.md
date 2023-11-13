@@ -964,6 +964,10 @@ WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other s
     
 As in Web content, 4.1.1 Parsing is not known to have any effect on the accessibility of non-web documents or software. There are no known examples of non-web documents or software that would have an issue such as those covered by 4.1.1 Parsing. Modern assistive technology does not parse document or software markdown languages for accessibility information. User agents and platforms used to render non-web documents and software use platform accessibility APIs to present accessibility information to AT. Therefore, 4.1.1 Parsing should no longer be a requirement for accessibility.<div>
 
+<div class="note>
+
+Where an existing standard requires 4.1.1 parsing for non-web documents and software, this Success Criterion would most likely be automatically satisfied.</div>
+
 ##### name-role-value
 
 ###### Applying SC 4.1.2 Name, Role, Value to Non-Web Documents and Software
