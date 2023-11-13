@@ -949,12 +949,12 @@ Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**
 
 ###### Applying SC 4.1.1 Parsing to Non-Web Documents and Software
 
-**WCAG 2.2 Guidance:**
+####### WCAG 2.2 Guidance
 <div class="note">
 
 WCAG 2.2 has made this success criterion obsolete and removed it as a requirement in the standard. Therefore, the interpretation of this success criterion for [non-web documents](#document) and [software](#software) has been removed.</div>
 
-**WCAG 2.0 and 2.1 guidance:**
+####### WCAG 2.0 and 2.1 Guidance
 
 WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software should follow the new guidance provided in the [WCAG 2.0 Editorial Errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) and the [WCAG 2.1 Editorial Errata](https://www.w3.org/WAI/WCAG21/errata/#editorial) which states the following:
 
@@ -966,7 +966,7 @@ As in Web content, 4.1.1 Parsing is not known to have any effect on the accessib
 
 <div class="note">
 
-Where an existing standard requires 4.1.1 parsing for non-web documents and software, this Success Criterion would most likely be automatically satisfied.</div>
+Where an existing standard requires 4.1.1 parsing for non-web documents and software, this Success Criterion would be automatically satisfied.</div>
 
 ##### name-role-value
 
