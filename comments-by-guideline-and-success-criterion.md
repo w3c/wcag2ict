@@ -949,9 +949,31 @@ Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**
 
 ###### Applying SC 4.1.1 Parsing to Non-Web Documents and Software
 
+**WCAG 2.2 Guidance:**
 <div class="note">
 
 WCAG 2.2 has made this success criterion obsolete and removed it as a requirement in the standard. Therefore, the interpretation of this success criterion for [non-web documents](#document) and [software](#software) has been removed.</div>
+
+**WCAG 2.0 and 2.1 guidance:**
+
+WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software should follow the new guidance provided in the WCAG 2.0 Editorial Errata and the WCAG 2.1 Editorial Errata which states the following:
+
+>This Success Criterion should be considered as always satisfied for any content using HTML or XML.
+
+For non-web documents and software, this statement applies directly as written, replacing “HTML or XML” with “markup languages in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
+
+With these substitutions, it would read:
+
+"This Success Criterion should be considered as always satisfied for any content using [markup languages in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent]."
+
+<div class="note">
+    
+When conformance to WCAG 2.0 or 2.1 is required:
+
+- Where non-web documents or software are implemented using markup language, this Success Criterion is automatically satisfied for one of the following reasons:
+    -  There are no known document or software markup languages where assistive technology directly parses the markup for accessibility information. Instead, user agents and software platforms expose any accessibility information obtained from the markup to assistive technology.
+    -  Any problems in the markup would be addressed by other Success Criteria.
+- Where non-web documents or software are not implemented using a markup language, this Success Criterion would not be applicable.<div>
 
 ##### name-role-value
 
