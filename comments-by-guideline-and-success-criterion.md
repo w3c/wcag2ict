@@ -956,24 +956,13 @@ WCAG 2.2 has made this success criterion obsolete and removed it as a requiremen
 
 **WCAG 2.0 and 2.1 guidance:**
 
-WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software should follow the new guidance provided in the WCAG 2.0 Editorial Errata and the WCAG 2.1 Editorial Errata which states the following:
+WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software should follow the new guidance provided in the [WCAG 2.0 Editorial Errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) and the [WCAG 2.1 Editorial Errata](https://www.w3.org/WAI/WCAG21/errata/#editorial) which states the following:
 
 >This Success Criterion should be considered as always satisfied for any content using HTML or XML.
 
-For non-web documents and software, this statement applies directly as written, replacing “HTML or XML” with “markup languages in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
-
-With these substitutions, it would read:
-
-"This Success Criterion should be considered as always satisfied for any content using [markup languages in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent]."
-
 <div class="note">
     
-When conformance to WCAG 2.0 or 2.1 is required:
-
-- Where non-web documents or software are implemented using markup language, this Success Criterion is automatically satisfied for one of the following reasons:
-    -  There are no known document or software markup languages where assistive technology directly parses the markup for accessibility information. Instead, user agents and software platforms expose any accessibility information obtained from the markup to assistive technology.
-    -  Any problems in the markup would be addressed by other Success Criteria.
-- Where non-web documents or software are not implemented using a markup language, this Success Criterion would not be applicable.<div>
+As in Web content, 4.1.1 Parsing is not known to have any effect on the accessibility of non-web documents or software. There are no known examples of non-web documents or software that would have an issue such as those covered by 4.1.1 Parsing. Modern assistive technology does not parse document or software markdown languages for accessibility information. User agents and platforms used to render non-web documents and software use platform accessibility APIs to present accessibility information to AT. Therefore, 4.1.1 Parsing should no longer be a requirement for accessibility.<div>
 
 ##### name-role-value
 
