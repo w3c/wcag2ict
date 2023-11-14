@@ -23,7 +23,7 @@ From [Success Criterion @@ x.x.x @@](@@ URL for the SC in WCAG 2.2 @@):
 
 >@@ Copy in text of the SC from [WCAG 2.2](https://www.w3.org/TR/WCAG22/) along with any notes. Use [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to format properly, as needed. @@
 
-##### Guidance When Applying Success Criterion @@ x.x.x @@ to Non-Web Documents and Software
+##### Applying SC @@ x.x.x @@ @@shortname@@ to Non-Web Documents and Software
 
 ***
 _**Instructional note**: Analyze the text of the SC for words such as "Web", "page", "content", "pages", "user agent", "markup" which will key you into the need for substitution verbiage. Use one of the following statements, depending on what you think is correct and remove the bullet markdown. Add the following to the bullet if the SC refers to Conformance Requirement 5: @@ , and removing “See Conformance Requirement 5: Non-Interference”. @@_
