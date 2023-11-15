@@ -492,7 +492,7 @@ This applies directly as written and as described in the WCAG 2 glossary, replac
 
 With this substitution, it would read:
 
-<DL><DT>structure</DT><DD>
+<DL><DT>satisfies a success criterion</DT><DD>
     
 the success criterion does not evaluate to 'false' when applied to the <INS>**[[non-web document](#document) or [software](#software)]**</INS>
 
