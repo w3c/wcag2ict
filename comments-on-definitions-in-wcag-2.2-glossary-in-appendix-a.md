@@ -19,7 +19,6 @@ The following glossary items apply to all technologies and do not require furthe
 *   bounding box
 *   CAPTCHA
 *   captions
-*   cognitive function test
 *   conformance
 *   correct reading sequence
 *   emergency
@@ -211,6 +210,27 @@ Opening a new window, moving focus to a different component, going to a new page
 <div class="note">
 
 A change in the user agent might include bringing up a new window, or might be a significant change in the menus and/or toolbars that are displayed and available for interacting with some portion of the document.</div>
+
+#### dfn-cognitive-function-test
+
+##### Applying “cognitive function test” to Non-Web Documents and Software
+
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web sites” with “Web sites, non-web documents, and software”.
+
+With this substitution, it would read:
+
+<DL><DT>cognitive function test</DT><DD>
+
+A task that requires the user to remember, manipulate, or transcribe information. Examples include, but are not limited to:
+
+memorization, such as remembering a username, password, set of characters, images, or patterns. The common identifiers name, e-mail, and phone number are not considered cognitive function tests as they are personal to the user and consistent across **<INS>[Web sites, non-web documents, and software]</INS>**;
+
+* transcription, such as typing in characters;
+* use of correct spelling;
+* performance of calculations;
+* solving of puzzles.
+
+</DD></DL>
 
 #### dfn-conforming-alternate-version
 
