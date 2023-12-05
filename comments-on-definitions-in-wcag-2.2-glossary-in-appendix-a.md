@@ -16,17 +16,17 @@ The following glossary items apply to all technologies and do not require furthe
 *   audio description
 *   audio-only
 *   blinking
-*   bounding box
 *   CAPTCHA
 *   captions
 *   conformance
 *   correct reading sequence
-*   encloses
 *   dragging movements
 *   emergency
+*   encloses
 *   essential
 *   extended audio description
 *   flash
+*   focus indicator
 *   functionality
 *   human language
 *   idiom
@@ -40,6 +40,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   lower secondary education level
 *   mechanism
 *   media alternative for text
+*   minimum bounding box
 *   navigated sequentially
 *   non-text content
 *   normative
@@ -260,7 +261,7 @@ When there is no platform-defined density-independent pixel measurement, the ref
 Most software and devices are usable at more than one viewing distance. However, only viewing distances that are plausible for the product can be considered an appropriate approximation for the reference pixel. For example, in software designed for use with a touchscreen, a visual-angle pixel longer than 0.11 inch (0.28 mm) would not be plausible, because this would signify a viewing distance of more than arm’s length. </div>
 
 <div class="note">
-People with low vision often use devices at less than the standard viewing distance. However, basing the device-independent pixel on a typical viewing distance provides a balance of benefits for users with disabilities. If a longer viewing distance were chosen as the basis for the device-independent pixel, the viewport would be measured with a smaller number of larger pixels, causing Success Criterion 1.4.10 Reflow to be less stringent. If a shorter viewing distance were chosen, user interface components would be measured with a larger number of smaller pixels, causing some success criteria, such as 2.5.8 Target Size, to be less stringent. </div>
+People with low vision often use devices at less than the standard viewing distance. However, basing the density-independent pixel on a typical viewing distance provides a balance of benefits for users with disabilities. If a longer viewing distance were chosen as the basis for the density-independent pixel, the viewport would be measured with a smaller number of larger pixels, causing Success Criterion 1.4.10 Reflow to be less stringent. If a shorter viewing distance were chosen, user interface components would be measured with a larger number of smaller pixels, causing some success criteria, such as 2.5.8 Target Size, to be less stringent. </div>
 
 #### dfn-down-event
 
@@ -365,6 +366,23 @@ This is unrelated to the name attribute in HTML.</div>
 
 “AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
 
+#### dfn-perimeter
+
+##### Applying “perimeter” to Non-Web Documents and Software
+
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing "CSS pixel" with "platform-defined density-independent pixel".
+
+With this substitution, it would read:
+
+<DL><DT>perimeter</DT><DD>
+
+continuous line forming the boundary of a shape not including shared pixels, or the minimum bounding box, whichever is shortest.
+
+<div class="example">
+    
+The perimeter calculation for a 2 **<INS>[platform-defined density-independent pixel]</INS>** perimeter around a rectangle is 4h+4w, where h is the height and w is the width. For a 2 **<INS>[platform-defined density-independent pixel]</INS>** perimeter around a circle it is 4𝜋r.</div>
+</DD></DL>
+
 #### dfn-programmatically-determined
 
 ##### Applying “programmatically determined” to Non-Web Documents and Software
@@ -380,10 +398,10 @@ determined by [software](#software) from author-supplied data provided in a way 
 <div class="example">
 
 Determined in a markup language from elements and attributes that are accessed directly by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
-<div class="example">
+</DD></DL><div class="example">
 
 Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <INS>**[and accessibility features of software]**</INS> via an accessibility API that is supported by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
-</DD></DL>
+
 <div class="note">
 
 Software typically enables content to be programmatically determined through the use of [accessibility services of platform software](#accessibility-services-of-platform-software). Non-web documents typically enable [content](#content-on-and-off-the-web) to be programmatically determined through the use of accessibility services of the user agent.</div>
