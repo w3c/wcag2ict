@@ -370,7 +370,7 @@ This is unrelated to the name attribute in HTML.</div>
 
 ##### Applying “perimeter” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing "CSS pixel" with "platform-defined density-independent pixel".
+This applies directly as written and as described in the WCAG 2 glossary, replacing "CSS pixel" with "platform-defined density-independent pixel".
 
 With this substitution, it would read:
 
