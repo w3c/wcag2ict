@@ -65,7 +65,7 @@ The following stylistic conventions are used in this document:
 
 <p class="ednote">The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 guidelines, criteria and glossary terms. The next draft version will incorporate new WCAG 2.2 criteria and glossary terms as well as address open issues on any of the content in the document.</p>
 
-The following changes and additions have been made to update the 2013 WCAG2ICT document:
+The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2), and the change to 4.1.1 Parsing listed in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1) section:
 
 * New [Background](#background) section to explain the history and known uses of WCAG2ICT
 * New WCAG 2.1 Success Criteria and Guidelines
