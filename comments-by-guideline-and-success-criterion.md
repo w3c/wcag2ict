@@ -409,7 +409,7 @@ The WCAG2ICT interpretation is that a long press of a key (2 seconds or more) an
 
 ##### Applying Guideline 2.2 Enough Time to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.2 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.2 applies directly as written.
 
 ##### timing-adjustable
 
