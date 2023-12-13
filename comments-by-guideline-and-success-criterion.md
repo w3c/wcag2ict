@@ -4,19 +4,19 @@ Comments by Guideline and Success Criterion
 
 The WCAG2ICT Task Force has added draft guidance for all of the Level A and AA success criteria (SC)  that are new in WCAG 2.1. There are placeholders for new WCAG 2.2 level A and AA success criteria, labeled with, "This section is to be developed by the WCAG2ICT Task Force." This guidance will be delivered in a later draft.</div>
 
-The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2.2. The text of each item from WCAG 2.2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. Finally, the “Intent” from Understanding WCAG 2.2 is copied as quoted text; the Task Force makes no substitutions or edits in this text. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document.
+The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. Finally, the “Intent” from the WCAG 2.2 version of the Understanding for the success criterion is copied as quoted text, as these are the most current; the Task Force makes no substitutions or edits in this text. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document.
 
 ### perceivable
 
 #### Applying Principle 1 Perceivable to Non-Web Documents and Software
 
-In WCAG 2.2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 1 applies directly as written.
+In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 1 applies directly as written.
 
 #### text-alternatives
 
 ##### Applying Guideline 1.1 Text Alternatives to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.1 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.1 applies directly as written.
 
 ##### non-text-content
 
@@ -35,7 +35,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 1.2 Time Based Media to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.2 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.2 applies directly as written.
 
 ##### audio-only-and-video-only-prerecorded
 
@@ -58,7 +58,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-The WCAG 2.2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “in some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2.2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “in some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
 
 ##### audio-description-or-media-alternative-prerecorded
 
@@ -68,7 +68,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-The WCAG 2.2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that “audio description” is “also called ‘video description’ and ‘descriptive narration’”.</div>
+The WCAG 2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that “audio description” is “also called ‘video description’ and ‘descriptive narration’”.</div>
 <div class="note">
 
 Secondary or alternate audio tracks are commonly used for this purpose.</div>
@@ -84,7 +84,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-The WCAG 2.2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2.2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
 
 ##### audio-description-prerecorded
 
@@ -94,7 +94,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-The WCAG 2.2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that audio description is “also called ‘video description’ and ‘descriptive narration’”.</div>
+The WCAG 2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that audio description is “also called ‘video description’ and ‘descriptive narration’”.</div>
 <div class="note">
 
 Secondary or alternate audio tracks are commonly used for this purpose.</div>
@@ -103,7 +103,7 @@ Secondary or alternate audio tracks are commonly used for this purpose.</div>
 
 ##### Applying Guideline 1.3 Adaptable to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.3 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.3 applies directly as written.
 
 ##### info-and-relationships
 
@@ -155,7 +155,7 @@ This applies directly as written, and as described in [Intent from Understanding
 [Non-web software](#software) and [non-web documents](#document) technologies that do not provide attributes that support identifying the expected meaning for the form input data are not in scope for this success criterion.</div>
 <div class="note">
 
-For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms to those listed in the WCAG 2.2 section [Input Purposes for User Interface Components](https://www.w3.org/TR/WCAG22/#input-purposes) that are supported by the technology used.
+For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms to those listed in the WCAG 2 section [Input Purposes for User Interface Components](https://www.w3.org/TR/WCAG22/#input-purposes) that are supported by the technology used.
 </div>
 <div class="note"> 
 
@@ -166,7 +166,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 1.4 Distinguishable to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.4 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.4 applies directly as written.
 
 ##### use-of-color
 
@@ -357,13 +357,13 @@ With these substitutions, it would read:
 
 #### Applying Principle 2 Operable to Non-Web Documents and Software
 
-In WCAG 2.2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 2 applies directly as written.
+In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 2 applies directly as written.
 
 #### keyboard-accessible
 
 ##### Applying Guideline 2.1 Keyboard Accessible to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.1 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.1 applies directly as written.
 
 ##### keyboard
 
@@ -409,7 +409,7 @@ The WCAG2ICT interpretation is that a long press of a key (2 seconds or more) an
 
 ##### Applying Guideline 2.2 Enough Time to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.2 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.2 applies directly as written.
 
 ##### timing-adjustable
 
@@ -460,13 +460,13 @@ Since any [content](#content-on-and-off-the-web) that does not meet this success
 An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</div>
 <div class="note">
     
-While the success criteria uses the term “information”, the WCAG 2.2 Intent section makes it clear that this is to be applied to all content. Any [content](#content-on-and-off-the-web), whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</div>
+While the success criteria uses the term “information”, the WCAG 2 Intent section makes it clear that this is to be applied to all content. Any [content](#content-on-and-off-the-web), whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</div>
 
 #### seizures-and-physical-reactions
 
 ##### Applying Guideline 2.3 Seizures and Physical Reactions to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.3 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.3 applies directly as written.
 
 ##### three-flashes-or-below-threshold
 
@@ -486,7 +486,7 @@ Since any content that does not meet this success criterion can interfere with a
 
 ##### Applying Guideline 2.4 Navigable to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.4 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.4 applies directly as written.
 
 ##### bypass-blocks
 
@@ -604,13 +604,14 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### focus-not-obscured-minimum
 
 ###### Applying Success Criterion 2.4.11 Focus not Obscured to Non-Web Documents and Software
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum#intent) (also provided below).
 
 #### input-modalities
 
 ##### Applying Guideline 2.5 Input Modalities to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.5 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.5 applies directly as written.
 
 ##### pointer-gestures
 
@@ -687,7 +688,26 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software
 
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent) (also provided below), replacing "user agent" with "user agent or platform software", and making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software by replacing "web content" with "non-web software" and "user agent" with "underlying platform software".
+
+With these substitutions, it would read:
+
+All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the **<INS>[[user agent](#user-agent) or platform software]</INS>** and not modified by the author.
+
+(non-web documents)
+<div class="note">
+
+This requirement applies to [content](#content-on-and-off-the-web) that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+
+<div class="note">
+
+Dragging movements for operation are less common in documents. An example where a document author could add dragging functionality is an interactive prototype document created in a software design tool.</div>
+
+(non-web software)
+<div class="note">
+
+This requirement applies to **<INS>[[software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
+
 
 ##### target-size-minimum
 
@@ -729,13 +749,13 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 #### Applying Principle 3 Understandable to Non-Web Documents and Software
 
-In WCAG 2.2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 3 applies directly as written.
+In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 3 applies directly as written.
 
 #### readable
 
 ##### Applying Guideline 3.1 Readable to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.1 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.1 applies directly as written.
 
 ##### language-of-page
 
@@ -775,7 +795,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 3.2 Predictable to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or software”.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or software”.
 
 With this substitution, this guideline would read:
 
@@ -853,7 +873,7 @@ Although not required by this success criterion, ensuring that component identif
 
 ##### Applying Guideline 3.3 Input Assistance to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.3 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.3 applies directly as written.
 
 ##### error-identification
 
@@ -909,7 +929,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 #### Applying Principle 4 Robust to Non-Web Documents and Software
 
-In WCAG 2.2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 4 applies directly as written replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
+In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 4 applies directly as written replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
 
 With this substitution, it would read:
 
@@ -919,7 +939,7 @@ Principle 4: Robust - Content must be robust enough that it can be interpreted r
 
 ##### Applying Guideline 4.1 Compatible to Non-Web Documents and Software
 
-In WCAG 2.2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 4.1 applies directly as written, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 4.1 applies directly as written, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
 
 With this substitution, it would read:
 
@@ -929,28 +949,24 @@ Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**
 
 ###### Applying SC 4.1.1 Parsing to Non-Web Documents and Software
 
-<p class="ednote">This section is to be updated by the WCAG2ICT Task Force since 4.1.1 Parsing is being made obsolete and removed from WCAG 2.2. This work is planned for the next public working draft of the document.</p>
+**WCAG 2.2 Guidance:**
+<div class="note">
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG22/Understanding/parsing#intent) (also provided below), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
+WCAG 2 has made this success criterion obsolete and removed it as a requirement in the standard. Therefore, the interpretation of this success criterion for [non-web documents](#document) and [software](#software) has been removed.</div>
 
-With these substitutions, it would read:
+**WCAG 2.0 and 2.1 Guidance:**
 
-**4.1.1 Parsing:** <INS>**[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technology) and accessibility features of software or to a user-selectable [user agent](#user-agent)]**</INS>, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features. (Level A)
+WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software is to follow the new guidance provided in the [WCAG 2.0 Editorial Errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) and the [WCAG 2.1 Editorial Errata](https://www.w3.org/WAI/WCAG21/errata/#editorial) which states the following:
+
+>This Success Criterion should be considered as always satisfied for any content using HTML or XML.
 
 <div class="note">
     
-Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.</div>
-<div class="note">
-    
-Markup is not always available to [assistive technologies](#dfn-assistive-technology) or to user selectable [user agents](#user-agent) such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.</div>
-
-Examples of markup that is separately exposed and available to [assistive technologies](#dfn-assistive-technology) and to [user agents](#user-agent) include: documents encoded in HTML, ODF, and OOXML. In these examples, the markup can be parsed entirely in two ways: (a) by assistive technologies which may directly open the document, (b) by assistive technologies using DOM APIs of user agents for these document formats.
-
-Examples of markup used internally for persistence of the software user interface that are never exposed to [assistive technology](#dfn-assistive-technology) include but are not limited to: XUL, GladeXML, and FXML. In these examples assistive technology only interacts with the user interface of generated software.
+As in Web content, 4.1.1 Parsing is not known to have any effect on the accessibility of non-web documents or software. There are no known examples of non-web documents or software that would have an issue such as those covered by 4.1.1 Parsing. Modern assistive technology does not parse document or software markdown languages for accessibility information. User agents and platforms used to render non-web documents and software use platform accessibility APIs to present accessibility information to AT. Therefore, 4.1.1 Parsing would no longer be a requirement for accessibility.</div>
 
 <div class="note">
-    
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
+Where an existing standard requires 4.1.1 parsing for non-web documents and software, this Success Criterion would be automatically satisfied.</div>
 
 ##### name-role-value
 

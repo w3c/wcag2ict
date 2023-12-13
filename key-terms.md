@@ -1,7 +1,7 @@
 Key Terms
 ---------
 
-WCAG2ICT provides some key glossary terms to address differences between web and non-web contexts and to introduce terms that are nonexistent in WCAG but important to define for a non-web context. “Content” and “user agent” are glossary terms from WCAG 2.2 that need to be interpreted significantly differently when applied to non-web ICT. The glossary term “Web page” in WCAG 2.2 is replaced with newly defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the newly defined terms “set of documents” and “set of software programs”. The new terms introduced by WCAG2ICT are “accessibility services of platform software” because non-Web software doesn't leverage the WCAG 2.2 notion of a user agent, and "closed functionality" which is specific to non-web software. The remaining glossary terms from WCAG 2.2 are addressed in [Chapter 7 Comments on Definitions in WCAG 2.2 Glossary](#comments-on-definitions-in-wcag-2-2-glossary). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
+WCAG2ICT provides some key glossary terms to address differences between web and non-web contexts and to introduce terms that are nonexistent in WCAG but important to define for a non-web context. “Content” and “user agent” are glossary terms from WCAG 2 that need to be interpreted significantly differently when applied to non-web ICT. The glossary term “Web page” in WCAG 2 is replaced with newly defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the newly defined terms “set of documents” and “set of software programs”. The new terms introduced by WCAG2ICT are “accessibility services of platform software” because non-Web software doesn't leverage the WCAG notion of a user agent, and "closed functionality" which is specific to non-web software. The remaining glossary terms from WCAG 2 are addressed in [Chapter 7 Comments on Definitions in WCAG 2 Glossary](#comments-on-definitions-in-wcag-2-glossary). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
 
 ### Accessibility Services of Platform Software
 
@@ -39,7 +39,7 @@ These examples are explained more fully in the [Comments on Closed Functionality
 
 ### Content (on and off the Web)
 
-WCAG 2.2 defines **content** as:
+WCAG 2 defines **content** as:
 >information and sensory experience to be communicated to the user by means of a [user agent](https://www.w3.org/TR/WCAG22/#dfn-user-agents), including code or markup that defines the content's [structure](https://www.w3.org/TR/WCAG22/#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
 
 For non-web content it is necessary to view this a bit more broadly. Within WCAG2ICT, the term “content” is used as follows:
@@ -178,11 +178,11 @@ For software, the user interface and any other embedded content is covered by th
 Software without a user interface does not have content and is not covered by these guidelines. For example, driver software with no user interface would not be covered.</div>
 <div class="note">
 
-Because software with a user interface provides a function equivalent to a user agent in addition to content, the application of some WCAG 2.2 success criteria would be different for content embedded in software versus content in a document, where it is viewed through a separate user agent (e.g. browser, player, viewer, etc.).</div>
+Because software with a user interface provides a function equivalent to a user agent in addition to content, the application of some WCAG 2 success criteria would be different for content embedded in software versus content in a document, where it is viewed through a separate user agent (e.g. browser, player, viewer, etc.).</div>
 
 ### User Agent
 
-WCAG 2.2 defines **user agent** as:
+WCAG 2 defines **user agent** as:
 
 ><DL><DT>user agent</DT><DD>
 > 
@@ -192,7 +192,7 @@ WCAG 2.2 defines **user agent** as:
 <div class="example">
 
 >Web browsers, media players, plug-ins, and other programs—including [assistive technologies](#dfn-assistive-technology)—that help in retrieving, rendering, and interacting with Web content.</div>
-For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2.2, the term “user agent” only refers to retrieval and display of web content. For non-web ICT, the term “user agent” refers to retrieval and display of separate content that is _not on the Web_, which WCAG2ICT refers to as a “document”. Within WCAG2ICT, the term “user agent” is used as follows:
+For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2, the term “user agent” only refers to retrieval and display of web content. For non-web ICT, the term “user agent” refers to retrieval and display of separate content that is _not on the Web_, which WCAG2ICT refers to as a “document”. Within WCAG2ICT, the term “user agent” is used as follows:
 
 <DL><DT>user agent (as used in WCAG2ICT)</DT><DD>
 
