@@ -35,6 +35,8 @@ Examples of technology with closed functionality include:
 * computer that is locked down so that users may not adjust settings due to a policy
 * other technology devices (e.g. printers, displays, and iOt devices).</div>
 
+These examples are explained more fully in the [Comments on Closed Functionality](#comments-on-closed-functionality) section.
+
 ### Content (on and off the Web)
 
 WCAG 2.2 defines **content** as:
