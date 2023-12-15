@@ -24,7 +24,7 @@ There are Success Criteria that can be problematic for developers of closed func
 <div class="note">Photographs are not sufficient for testing that content meets this Success Criterion. This is because the quality of the lighting, camera, and physical aspects of the hardware display can dramatically affect the ability to capture the content for testing purposes.</div></li>
 </ul></li>
 <li><a href="#resize-text">1.4.4 Resize Text</a>—because the text rendering support in a closed environment may be more limited than the support found in user agents for the Web, meeting Success Criterion 1.4.4 in a closed environment may place a much heavier burden on the content author;</li>
-<li><a href="#images-of-text">1.4.5 Images of Text</a>—because there is no need to impose a requirement on all closed functionality that text displayed on the screen actually be represented internally as text (as defined by WCAG 2.2), given that there is no interoperability with assistive technology;</li>
+<li><a href="#images-of-text">1.4.5 Images of Text</a>—because there is no need to impose a requirement on all closed functionality that text displayed on the screen actually be represented internally as text (as defined by WCAG 2), given that there is no interoperability with assistive technology;</li>
 <li><a href="#reflow">1.4.10 Reflow</a> — Many closed functionality products do not allow users to modify the viewport or change font sizes, so there would be no need to impose a requirement on all closed functionality that content is able to reflow. Additionally, many closed functionality products do not display large chunks of text and only have UI controls; in such cases, two-directional scrolling to access the text and UI controls may be considered essential.</li>
 <li><a href="#non-text-contrast">1.4.11 Non-text Contrast</a> — There are cases where applying this Success Criterion to non-web software on closed functionality products is problematic:
 <ul>
@@ -41,7 +41,7 @@ There are Success Criteria that can be problematic for developers of closed func
 <li><a href="#label-in-name">2.5.3 Label in Name</a>—requires information in a programmatically determinable form; specifically, the programmatic name contains the text of the visual label;</li>
 <li><a href="#language-of-page">3.1.1 Language of Page</a>—requires information in a programmatically determinable form;</li>
 <li><a href="#language-of-parts">3.1.2 Language of Parts</a>—requires information in a programmatically determinable form;</li>
-<li><a href="#error-identification">3.3.1 Error Identification</a>—while it's important for errors that can be detected to be described to the user, for closed functionality, the error description doesn't have to be provided in text, as defined in WCAG 2.2;</li>
+<li><a href="#error-identification">3.3.1 Error Identification</a>—while it's important for errors that can be detected to be described to the user, for closed functionality, the error description doesn't have to be provided in text, as defined in WCAG 2;</li>
 <li><a href="#name-role-value">4.1.2 Name, Role, Value</a>—requires information in a programmatically determinable form.</li>
 <li><a href="#status-messages">4.1.3 Status Messages</a>—requires information in a programmatic determinable form. Additionally, software with closed functionality is not typically implemented using markup languages.
 <div class="note">Non-web software with closed functionality would need equivalent facilitation to provide access to status messages.</div></li>
