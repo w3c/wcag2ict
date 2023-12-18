@@ -89,15 +89,17 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 3.3.7 Redundant Entry](#redundant-entry)
 * Obsolete and Removed WCAG 2.2 Success Criteria that have errata for WCAG 2.0 and 2.1
     * [Success Criterion 4.1.1 Parsing](#parsing)
-* New terms in WCAG 2.1 and 2.2
-    * dragging movements, pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
+* New terms from WCAG 2.1 and 2.2
+    * dragging movements, encloses, focus indicator, minimum bounding box, pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
     * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria)
-    * [css pixel](#dfn-css-pixel)
-    * [down event](#dfn-down-event)
-    * [keyboard shortcut](#dfn-keyboard-shortcut)
-    * [style property](#dfn-style-property)
-    * [target](#dfn-target)
-    * [up event](#dfn-up-event)
+    * added to [Glossary Items with Specific Guidance](#glossary-items-with-specific-guidance): 
+        * [css pixel](#dfn-css-pixel)
+        * [down event](#dfn-down-event)
+        * [keyboard shortcut](#dfn-keyboard-shortcut)
+        * [perimeter](#dfn-perimeter)
+        * [style property](#dfn-style-property)
+        * [target](#dfn-target)
+        * [up event](#dfn-up-event)
 * Updated terms
     * [set of web pages](#dfn-set-of-web-pages)
     * [set of non-web documents](#set-of-documents)
