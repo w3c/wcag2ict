@@ -1,9 +1,9 @@
-Comments on Definitions in WCAG 2.2 Glossary
+Comments on Definitions in WCAG 2 Glossary
 ----------------------------------------------------------
 
 <div class="ednote">Terms introduced in new WCAG 2.1 Success Criteria have been added to this document. Any definitions that existed in WCAG 2.0 that have changed since the 2013 WCAG2ICT have also been updated. The following terms introduced by WCAG 2.2 will be added in the next WCAG2ICT draft: cognitive function test, dragging movement, focus indicator, minimum bounding box, and perimeter. </div>
 
-The following is a complete list of definitions from the WCAG 2.2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
+The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
 ### Glossary Items that Apply to All Technologies
 
@@ -16,15 +16,17 @@ The following glossary items apply to all technologies and do not require furthe
 *   audio description
 *   audio-only
 *   blinking
-*   bounding box
 *   CAPTCHA
 *   captions
 *   conformance
 *   correct reading sequence
+*   dragging movements
 *   emergency
+*   encloses
 *   essential
 *   extended audio description
 *   flash
+*   focus indicator
 *   functionality
 *   human language
 *   idiom
@@ -38,6 +40,7 @@ The following glossary items apply to all technologies and do not require furthe
 *   lower secondary education level
 *   mechanism
 *   media alternative for text
+*   minimum bounding box
 *   navigated sequentially
 *   non-text content
 *   normative
@@ -83,13 +86,13 @@ This document does not provide guidance on applying AAA Success Criteria to non-
 
 ### Glossary Items with Specific Guidance
 
-Additional guidance is provided for the following glossary entries from WCAG 2.2 when applying them to non-web documents and software.
+Additional guidance is provided for the following glossary entries from WCAG 2 when applying them to non-web documents and software.
 
 #### dfn-accessibility-supported
 
 ##### Applying “accessibility supported” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “browsers and other user agents” with “user agents or other software”, replacing “user agents” with “user agents or other software”, replacing “web content technology” with “non-web document or software technology”, adding “or other software extension” after “plug-in”, and replacing all five of the Notes with a single new Note: “Note: The concepts behind the five Notes and in Understanding Accessibility Supported are applicable to web technologies. The same or similar factors are applicable for non-web technologies.”
+This applies directly as written and as described in the WCAG 2 glossary, replacing “browsers and other user agents” with “user agents or other software”, replacing “user agents” with “user agents or other software”, replacing “web content technology” with “non-web document or software technology”, adding “or other software extension” after “plug-in”, and replacing all five of the Notes with a single new Note: “Note: The concepts behind the five Notes and in Understanding Accessibility Supported are applicable to web technologies. The same or similar factors are applicable for non-web technologies.”
 
 With these substitutions and addition, it would read:
 
@@ -132,7 +135,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
 
 ##### Applying “ambiguous to users in general” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web page” with “non-web document or software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” with “non-web document or software”.
 
 With this substitution, it would read:
 
@@ -149,7 +152,7 @@ The word guava in the following sentence “One of the notable exports is guava�
 
 ##### Applying “assistive technology” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT])”, and replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT])”, and replacing “Web content” with “content”.
 
 With these substitutions, it would read:
 
@@ -182,7 +185,7 @@ Assistive technologies that are important in the context of this document includ
 
 ##### Applying “changes of context” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web page” and “page” with “non-web document or content presented by software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” and “page” with “non-web document or content presented by software”.
 
 With this substitution, it would read:
 
@@ -250,16 +253,16 @@ See the guidance on [content in the Key Terms section](#content-on-and-off-the-w
 
 ##### Applying “contrast ratio” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary.
+This applies directly as written and as described in the WCAG 2 glossary.
 
-Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2.2 for user-interface components as a category, because the basic constructs on which the WCAG 2.2 and / or its conformance are built do not apply to these.”
+Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2 for user-interface components as a category, because the basic constructs on which the WCAG 2 and / or its conformance are built do not apply to these.”
 
 #### dfn-css-pixel
 
 ##### Applying “CSS pixel” to Non-Web Documents and Software
 <div class="ednote">The WCAG2ICT guidance for this definition is key to understanding and testing several criteria that use CSS pixels to indicate measurements. Are there platforms were the platform-defined density-indepent pixel does not approximate a CSS pixel? Are there other well-defined alternatives that could provide a reliable equivalent or alternative measurement? </div>
 
-This applies directly as written and as described in the WCAG 2.2 glossary.
+This applies directly as written and as described in the WCAG 2 glossary.
 
 <div class="note">
 Non-web software and its accompanying platform software do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows.</div>
@@ -279,15 +282,15 @@ When there is no platform-defined density-independent pixel measurement, the ref
 Most software and devices are usable at more than one viewing distance. However, only viewing distances that are plausible for the product can be considered an appropriate approximation for the reference pixel. For example, in software designed for use with a touchscreen, a visual-angle pixel longer than 0.11 inch (0.28 mm) would not be plausible, because this would signify a viewing distance of more than arm’s length. </div>
 
 <div class="note">
-People with low vision often use devices at less than the standard viewing distance. However, basing the device-independent pixel on a typical viewing distance provides a balance of benefits for users with disabilities. If a longer viewing distance were chosen as the basis for the device-independent pixel, the viewport would be measured with a smaller number of larger pixels, causing Success Criterion 1.4.10 Reflow to be less stringent. If a shorter viewing distance were chosen, user interface components would be measured with a larger number of smaller pixels, causing some success criteria, such as 2.5.8 Target Size, to be less stringent. </div>
+People with low vision often use devices at less than the standard viewing distance. However, basing the density-independent pixel on a typical viewing distance provides a balance of benefits for users with disabilities. If a longer viewing distance were chosen as the basis for the density-independent pixel, the viewport would be measured with a smaller number of larger pixels, causing Success Criterion 1.4.10 Reflow to be less stringent. If a shorter viewing distance were chosen, user interface components would be measured with a larger number of smaller pixels, causing some success criteria, such as 2.5.8 Target Size, to be less stringent. </div>
 
 #### dfn-down-event
 
-From the [WCAG 2.2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-down-event):
+From the [WCAG 2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-down-event):
 
 ##### Applying “down-event” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary.
+This applies directly as written and as described in the WCAG 2 glossary.
  
 <div class="note">
     
@@ -297,7 +300,7 @@ The down-event may have different names on different platforms. For example <INS
 
 ##### Applying “general flash and red flash thresholds” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary.
+This applies directly as written and as described in the WCAG 2 glossary.
 
 <div class="note">
 
@@ -307,7 +310,7 @@ Because this deals with relative luminance and not luminance, it can only be app
 
 ##### Applying “input error” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web page” with “non-web document or software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” with “non-web document or software”.
 
 With this substitution, it would read:
 
@@ -328,7 +331,7 @@ information provided by the user that is not accepted
 
 ##### Applying “keyboard interface” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary.
+This applies directly as written and as described in the WCAG 2 glossary.
 
 Please see the note in the [Applying SC 2.1.1 Keyboard](#applying-sc-2-1-1-keyboard-to-non-web-documents-and-software) section that uses this definition and which reads: “This does not imply that software always needs to directly support a keyboard or ‘keyboard interface’. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
 
@@ -336,7 +339,7 @@ Please see the note in the [Applying SC 2.1.1 Keyboard](#applying-sc-2-1-1-keybo
 
 ##### Applying “keyboard shortcut” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary.
+This applies directly as written and as described in the WCAG 2 glossary.
 
 <div class="note">
 
@@ -346,7 +349,7 @@ A key command issued by a long press of a key (2 seconds or more) and other acce
 
 ##### Applying “label” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web Content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “Web Content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
 
 With this substitution, it would read:
 
@@ -365,7 +368,7 @@ The term label is not limited to the label element in HTML.</div></DD></DL>
 
 ##### Applying “name” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
 
 With this substitution, it would read:
 
@@ -384,11 +387,28 @@ This is unrelated to the name attribute in HTML.</div>
 
 “AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
 
+#### dfn-perimeter
+
+##### Applying “perimeter” to Non-Web Documents and Software
+
+This applies directly as written and as described in the WCAG 2 glossary, replacing "CSS pixel" with "platform-defined density-independent pixel".
+
+With this substitution, it would read:
+
+<DL><DT>perimeter</DT><DD>
+
+continuous line forming the boundary of a shape not including shared pixels, or the minimum bounding box, whichever is shortest.
+
+<div class="example">
+    
+The perimeter calculation for a 2 **<INS>[platform-defined density-independent pixel]</INS>** perimeter around a rectangle is 4h+4w, where h is the height and w is the width. For a 2 **<INS>[platform-defined density-independent pixel]</INS>** perimeter around a circle it is 4𝜋r.</div>
+</DD></DL>
+
 #### dfn-programmatically-determined
 
 ##### Applying “programmatically determined” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software” and adding and “accessibility features of software” after “assistive technology”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software” and adding and “accessibility features of software” after “assistive technology”.
 
 With this substitution, it would read:
 
@@ -402,8 +422,8 @@ Determined in a markup language from elements and attributes that are accessed d
 <div class="example">
 
 Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <INS>**[and accessibility features of software]**</INS> via an accessibility API that is supported by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
-</DD></DL>
-<div class="note">
+
+</DD></DL><div class="note">
 
 Software typically enables content to be programmatically determined through the use of [accessibility services of platform software](#accessibility-services-of-platform-software). Non-web documents typically enable [content](#content-on-and-off-the-web) to be programmatically determined through the use of accessibility services of the user agent.</div>
 
@@ -411,7 +431,7 @@ Software typically enables content to be programmatically determined through the
 
 ##### Applying “programmatically set” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
 
 With this substitution, it would read:
 
@@ -427,7 +447,7 @@ Software typically enables [content](#content-on-and-off-the-web) to be programm
 
 ##### Applying “relative luminance” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content”.
 
 With this substitution, it would read:
 
@@ -463,13 +483,13 @@ Tools are available that automatically do the calculations when testing contrast
 A [MathML version of the relative luminance definition](http://www.w3.org/TR/WCAG22/relative-luminance.html) is available.</div>
 </DD></DL>
 
-<div class="note">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2.2 for user-interface components as a category, because the basic constructs on which the WCAG 2.2 and / or its conformance are built do not apply to these.”</div>
+<div class="note">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2 for user-interface components as a category, because the basic constructs on which the WCAG 2 and / or its conformance are built do not apply to these.”</div>
 
 #### dfn-role
 
 ##### Applying “role” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content”.
 
 With this substitution, it would read:
 
@@ -489,7 +509,7 @@ A number that indicates whether an image functions as a hyperlink, command butto
 
 ##### Applying “same functionality” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, adding a second example (and numbering the first).
+This applies directly as written and as described in the WCAG 2 glossary, adding a second example (and numbering the first).
 
 With these substitutions, it would read:
 
@@ -508,17 +528,17 @@ A ribbon icon that saves the document that looks like an arrow pointing into a f
 
 ##### Applying “satisfies a success criterion” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “page” with “non-web document or software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “page” with “non-web document or software”.
 
 With this substitution, it would read:
 
-<DL><DT>structure</DT><DD>
+<DL><DT>satisfies a success criterion</DT><DD>
     
 the success criterion does not evaluate to 'false' when applied to the <INS>**[[non-web document](#document) or [software](#software)]**</INS>
 
 <div class="note">
     
-Though WCAG2ICT and WCAG 2.2 don't use this exact phrase, in this document there are variations of the phrase that use this definition. See "success criteria is satisfied" in [Section 6 Comments on Conformance](#comments-on-conformance) and "satisfy any success criterion" in the notes for the definition of [set of software programs](#set-of-software-programs).</div></DD></DL>
+Though WCAG2ICT and WCAG 2 don't use this exact phrase, in this document there are variations of the phrase that use this definition. See "success criteria is satisfied" in [Section 6 Comments on Conformance](#comments-on-conformance) and "satisfy any success criterion" in the notes for the definition of [set of software programs](#set-of-software-programs).</div></DD></DL>
 
 #### dfn-set-of-web-pages
 
@@ -534,7 +554,7 @@ For success criteria that use the term “set of web pages”, either explicitly
 
 ##### Applying “structure” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “a Web page” with “non-web documents or software” and replacing “collection of Web pages” with “set of documents or set of software programs”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “a Web page” with “non-web documents or software” and replacing “collection of Web pages” with “set of documents or set of software programs”.
 
 With these substitutions, it would read:
 
@@ -552,7 +572,7 @@ See the guidance on [sets of documents](#set-of-documents) and [sets of software
 
 #####  Applying “style property” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings, user style sheets" with "user agent, platform software or other software settings".
+This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings, user style sheets" with "user agent, platform software or other software settings".
 
 With these substitutions, it would read:
 
@@ -570,7 +590,7 @@ Style properties can have several origins:
 #### dfn-target
 
 #####  Applying “target” to Non-Web Documents and Software
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “page” with “non-web document or content presented by software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “page” with “non-web document or content presented by software”.
 
 With this substitution, it would read:
 
@@ -586,7 +606,7 @@ If two or more targets are overlapping, the overlapping area should not be inclu
 
 ##### Applying “technology” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “web content” with “non-web document or software”, “user agents” with “user agents or other software”, removing the notes, and replacing the example with “Example: Some common examples of non-web document and software technologies include ODF, OOXML, Java, and C++.”
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web content” with “non-web document or software”, “user agents” with “user agents or other software”, removing the notes, and replacing the example with “Example: Some common examples of non-web document and software technologies include ODF, OOXML, Java, and C++.”
 
 With these substitutions, it would read:
 
@@ -602,7 +622,7 @@ Some common examples of <INS>**[non-web document and software technologies inclu
 
 ##### Applying “up-event” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary.
+This applies directly as written and as described in the WCAG 2 glossary.
  
 <div class="note">
     
@@ -618,7 +638,7 @@ See the [guidance on user agent in the Key Terms section](#user-agent).
 
 ##### Applying “user interface component” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing the example with “Example: A software program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the software.”
+This applies directly as written and as described in the WCAG 2 glossary, replacing the example with “Example: A software program has 2 controls: a text field for entering a file name and a drop down list box for choosing a folder. Each is a user interface component with a name that is settable by the software.”
 
 With this substitution, it would read:
 
@@ -644,7 +664,7 @@ A [software](#software) program has 2 controls: a text field for entering a file
 
 ##### Applying “viewport” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “user agent” with “software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent” with “software”.
 
 With this substitution, it would read:
 
@@ -664,7 +684,7 @@ This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](h
 
 ##### Applying “Web Page” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary.
+This applies directly as written and as described in the WCAG 2 glossary.
 
 <div class="note">
 
