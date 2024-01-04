@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 34.2.2">
+<meta name="generator" content="ReSpec 34.3.0">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 .issue-label{text-transform:initial}
@@ -102,7 +102,7 @@ dd{margin-left:0}
 		
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
-<meta name="revision" content="0305ddae57b0cbc98be116a45cfe7a65b8a8435f">
+<meta name="revision" content="9fd2cf97c287af41754c7936d87fcbac4949e0a7">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -209,16 +209,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "0305ddae57b0cbc98be116a45cfe7a65b8a8435f",
-  "publishISODate": "2023-12-18T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 18 December 2023"
+  "gitRevision": "9fd2cf97c287af41754c7936d87fcbac4949e0a7",
+  "publishISODate": "2024-01-04T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 04 January 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2023-12-18">18 December 2023</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-01-04">04 January 2024</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -275,7 +275,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <p class="copyright">
     <a href="https://www.w3.org/policies/#copyright">Copyright</a>
     ©
-    2022-2023
+    2022-2024
     
     <a href="https://www.w3.org/">World Wide Web Consortium</a>.
     <abbr title="World Wide Web Consortium">W3C</abbr><sup>®</sup>
@@ -1878,9 +1878,10 @@ People with low vision often use devices at less than the standard viewing dista
 <li><a href="#bypass-blocks">2.4.1 Bypass Blocks</a> — The WCAG2ICT interpretation of this success criterion replaces "sets of Web pages" with "sets of software programs" which are extremely rare - especially for closed functionality software. However, being able to bypass blocks of content that are repeated within software is generally considered best practice.</li>
 <li><a href="#page-titled">2.4.2 Page Titled</a>—Where the software is part of a product that provides a single function, or has a menu-driven interface, there is no need for a title.</li>
 <li><a href="#multiple-ways">2.4.5 Multiple Ways</a>—The WCAG2ICT interpretation of this Success Criterion replaces "set of Web pages" with "set of software programs." Such sets, particularly in the context of closed functionality software, are exceedingly rare. There are a number of notes in the section <a href="#applying-sc-2-4-5-multiple-ways-to-non-web-documents-and-software">Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software</a> that are applicable to closed functionality software.</li>  
-<li><a href="#label-in-name">2.5.3 Label in Name</a>—requires information in a programmatically determinable form; specifically, the programmatic name contains the text of the visual label;</li>
-<li><a href="#language-of-page">3.1.1 Language of Page</a>—requires information in a programmatically determinable form;</li>
-<li><a href="#language-of-parts">3.1.2 Language of Parts</a>—requires information in a programmatically determinable form;</li>
+<li><a href="#pointer-cancellation">2.5.2 Pointer Cancellation</a>—As noted in the section <a href="#applying-sc-2-5-2-pointer-cancellation-to-non-web-documents-and-software">Applying SC 2.5.2 Pointer Cancellation to Non-Web Documents and Software</a>, examples of 'essential' functionality are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</li>  
+<li><a href="#label-in-name">2.5.3 Label in Name</a>—Requires information in a programmatically determinable form; specifically, the programmatic name contains the text of the visual label.</li>
+<li><a href="#language-of-page">3.1.1 Language of Page</a>—Requires language information in a programmatically determinable form intended to drive correct pronunciation. Where another mechanism achieves correct pronunciation for closed functionality, such as self-voicing, the intent of this success criterion would be met.</li>
+<li><a href="#language-of-parts">3.1.2 Language of Parts</a>—Requires language information in a programmatically determinable form intended to drive correct pronunciation. Where another mechanism achieves correct pronunciation for closed functionality, such as self-voicing, the intent of this success criterion would be met.</li>
 <li><a href="#error-identification">3.3.1 Error Identification</a>—while it's important for errors that can be detected to be described to the user, for closed functionality, the error description doesn't have to be provided in text, as defined in WCAG 2;</li>
 <li><a href="#name-role-value">4.1.2 Name, Role, Value</a>—requires information in a programmatically determinable form.</li>
 <li><a href="#status-messages">4.1.3 Status Messages</a>—requires information in a programmatic determinable form. Additionally, software with closed functionality is not typically implemented using markup languages.
