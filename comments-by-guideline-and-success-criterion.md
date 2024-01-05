@@ -867,7 +867,24 @@ Although not required by this success criterion, ensuring that component identif
 
 ###### Applying SC 3.2.6 Consistent Help to Non-Web Documents and Software
 
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent) (also provided below), replacing “Web page(s)" and "page(s)" with “non-web document(s)” and “software program(s)”, and “set of Web pages” with “set of non-web documents” and “set of software programs”.
+
+With these substitutions, this success criterion would read:
+
+If a **<INS>[non-web document or software]</INS>** contains any of the following help mechanisms, and those mechanisms are repeated **<INS>[in multiple non-web documents or software]</INS>** within a **<INS>[set of non-web documents or set of non-web software]</INS>**, they occur in the same order relative to other **<INS>[content]</INS>**, unless a change is initiated by the user:
+
+* Human contact details;
+* Human contact mechanism;
+* Self-help option;
+* A fully automated contact mechanism
+
+<p class="note">
+
+Help mechanisms may be provided directly **<INS>[in the non-web document or software]</INS>**, or may be provided via a direct link to a different **<INS>[non-web document, software, or web page]</INS>** containing the information.</p>
+
+<p class="note">
+    
+For this Success Criterion, "the same order relative to other **<INS>[content]</INS>**" can be thought of as how the content is ordered when the **<INS>[non-web document or software content]</INS>** is serialized. The visual position of a help mechanism is likely to be consistent across **<INS>[non-web documents or software]</INS>** for the same **<INS>[content layout variation]</INS>** (e.g., CSS break-point). The user can initiate a change, such as changing the **<INS>[non-web document’s or software's]</INS>** zoom or orientation, which may trigger a different **<INS>[content layout variation]</INS>**. This criterion is concerned with relative order across **<INS>[non-web documents or software]</INS>** displayed in the same **<INS>[content layout variation]</INS>** variation (e.g., same zoom level and orientation).
 
 #### input-assistance
 
