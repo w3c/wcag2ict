@@ -867,11 +867,11 @@ Although not required by this success criterion, ensuring that component identif
 
 ###### Applying SC 3.2.6 Consistent Help to Non-Web Documents and Software
 
-This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent) (also provided below), replacing “Web page(s)" and "page(s)" with “non-web document(s)” and “software program(s)”, and “set of Web pages” with “set of non-web documents” and “set of software programs”.
+This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent) (also provided below), replacing "Web page(s)" and "page(s)" with "non-web document(s) or software program(s)", "set of Web pages" with "set of non-web documents or set of software programs", "page content" with "content", "on the page" with "in the non-web document or software", "page is serialized" with "non-web document or software content is serialized", "different page" with "different non-web document, software, or Web page", and "page variation" with "content layout variation".
 
 With these substitutions, this success criterion would read:
 
-If a **<INS>[non-web document or software]</INS>** contains any of the following help mechanisms, and those mechanisms are repeated **<INS>[in multiple non-web documents or software]</INS>** within a **<INS>[set of non-web documents or set of non-web software]</INS>**, they occur in the same order relative to other **<INS>[content]</INS>**, unless a change is initiated by the user:
+If a **<INS>[[non-web document](#document) or [software](#software)]</INS>** contains any of the following help [mechanisms](https://www.w3.org/TR/WCAG22/#dfn-mechanism), and those mechanisms are repeated **<INS>[in multiple non-web documents or software]</INS>** within a **<INS>[[set of non-web documents](#set-of-documents) or [set of non-web software](#set-of-non-web-software)]</INS>**, they occur in the same order relative to other **<INS>[content]</INS>**, unless a change is initiated by the user:
 
 * Human contact details;
 * Human contact mechanism;
@@ -880,11 +880,11 @@ If a **<INS>[non-web document or software]</INS>** contains any of the following
 
 <div class="note">
 
-Help mechanisms may be provided directly **<INS>[in the non-web document or software]</INS>**, or may be provided via a direct link to a different **<INS>[non-web document, software, or web page]</INS>** containing the information.</div>
+Help mechanisms may be provided directly **<INS>[in the non-web document or software]</INS>**, or may be provided via a direct link to a **<INS>[different non-web document, software, or web page]</INS>** containing the information.</div>
 
 <div class="note">
     
-For this Success Criterion, "the same order relative to other **<INS>[content]</INS>**" can be thought of as how the content is ordered when the **<INS>[non-web document or software content]</INS>** is serialized. The visual position of a help mechanism is likely to be consistent across **<INS>[non-web documents or software]</INS>** for the same **<INS>[content layout variation]</INS>** (e.g., CSS break-point). The user can initiate a change, such as changing the **<INS>[non-web document’s or software's]</INS>** zoom or orientation, which may trigger a different **<INS>[content layout variation]</INS>**. This criterion is concerned with relative order across **<INS>[non-web documents or software]</INS>** displayed in the same **<INS>[content layout variation]</INS>** variation (e.g., same zoom level and orientation).</div>
+For this Success Criterion, "the same order relative to other **<INS>[[content](#content-on-and-off-the-web)]</INS>**" can be thought of as how the content is ordered when the **<INS>[non-web document or software content is serialized]</INS>**. The visual position of a help mechanism is likely to be consistent across **<INS>[non-web documents or software]</INS>** for the same **<INS>[content layout variation]</INS>** (e.g., CSS break-point). The user can initiate a change, such as changing the **<INS>[non-web document’s or software's]</INS>** zoom or orientation, which may trigger a different **<INS>[content layout variation]</INS>**. This criterion is concerned with relative order across **<INS>[non-web documents or software]</INS>** displayed in the same **<INS>[content layout variation]</INS>** (e.g., same zoom level and orientation).</div>
 
 #### input-assistance
 
