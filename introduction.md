@@ -86,6 +86,7 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 2.4.11 Focus Not Obscured (Minimum)](#focus-not-obscured-minimum)
     * [Success Criterion 2.5.7 Dragging Movements](#dragging-movements)
     * [Success Criterion 2.5.8 Target Size (Minimum)](#target-size-minimum)
+    * [Success Criterion 3.2.6 Consistent Help](#consistent-help)
     * [Success Criterion 3.3.7 Redundant Entry](#redundant-entry)
 * Obsolete and Removed WCAG 2.2 Success Criteria that have errata for WCAG 2.0 and 2.1
     * [Success Criterion 4.1.1 Parsing](#parsing)
