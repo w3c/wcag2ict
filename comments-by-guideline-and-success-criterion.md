@@ -881,10 +881,12 @@ If a **<INS>[[non-web document](#document) or [software](#software)]</INS>** con
 <div class="note">
 
 Help mechanisms may be provided directly **<INS>[in the non-web document or software]</INS>**, or may be provided via a direct link to a **<INS>[different non-web document, software, or Web page]</INS>** containing the information.</div>
-
 <div class="note">
     
 For this Success Criterion, "the same order relative to other **<INS>[content]</INS>**" can be thought of as how the content is ordered when the **<INS>[non-web document or software content is serialized]</INS>**. The visual position of a help mechanism is likely to be consistent across **<INS>[non-web documents or software]</INS>** for the same **<INS>[content layout variation]</INS>** (e.g., CSS break-point). The user can initiate a change, such as changing the **<INS>[non-web document’s or software's]</INS>** zoom or orientation, which may trigger a different **<INS>[content layout variation]</INS>**. This criterion is concerned with relative order across **<INS>[non-web documents or software]</INS>** displayed in the same **<INS>[content layout variation]</INS>** (e.g., same zoom level and orientation).</div>
+<div class="note">
+    
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or pieces of software is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div>
 
 #### input-assistance
 
