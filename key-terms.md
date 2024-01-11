@@ -97,7 +97,7 @@ The term **set of documents**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>set of documents (non-web) (as used in WCAG2ICT)</DT><DD>
 
-collection of <INS>**[documents](#document)**</INS> that share a common purpose, are created by the same author, group or organization <INS>**[and that are published together, and the documents all refer to each other by name or link]**</INS>
+collection of <INS>**[[documents](#document)]**</INS> that share a common purpose, are created by the same author, group or organization <INS>**[and that are published together, and the documents all refer to each other by name or link]**</INS>
 </DD></DL>
 <div class="note">
 
