@@ -871,7 +871,7 @@ This applies directly as written and as described in [Intent from Understanding 
 
 With these substitutions, this success criterion would read:
 
-If a **<INS>[[non-web document](#document) or [software](#software)]</INS>** contains any of the following help [mechanisms](https://www.w3.org/TR/WCAG22/#dfn-mechanism), and those mechanisms are repeated **<INS>[in multiple non-web documents or software]</INS>** within a **<INS>[[set of non-web documents](#set-of-documents) or [set of software programs](#set-of-software-programs)]</INS>**, they occur in the same order relative to other **<INS>[(content](#content-on-and-off-the-web)]</INS>**, unless a change is initiated by the user:
+If a **<INS>[[non-web document](#document) or [software](#software)]</INS>** contains any of the following help [mechanisms](https://www.w3.org/TR/WCAG22/#dfn-mechanism), and those mechanisms are repeated **<INS>[in multiple non-web documents or software]</INS>** within a **<INS>[[set of non-web documents](#set-of-documents) or [set of software programs](#set-of-software-programs)]</INS>**, they occur in the same order relative to other **<INS>[[content](#content-on-and-off-the-web)]</INS>**, unless a change is initiated by the user:
 
 * Human contact details;
 * Human contact mechanism;
