@@ -618,7 +618,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 ###### Applying SC 2.5.1 Pointer Gestures to Non-Web Documents and Software
 <div class="ednote">The WCAG2ICT Task Force seeks input on whether there are other examples of non-web documents that support the ability for authors to add gesture actions to the document that are not interpreted and acted upon through a user agent. If such example exist, we need broaden our example beyond prototyping software.</div>
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent) (also provided below), making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software by replacing "web content" with "non-web software" and "user agent" with "underlying platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent) (also provided below), making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
 
 With these substitutions, the notes would read:
 
@@ -636,13 +636,17 @@ Multipoint and path-based gestures are less common in documents. An example wher
 
 <div class="note">
 
-This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the <INS>**[underlying platform software]**</INS> or assistive technology).</div>
+This requirement applies to **<INS>[user agents and other [[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
+
+<div class="note">
+
+This requirement also applies to **<INS>[[platform software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
 
 ##### pointer-cancellation
 
 ###### Applying SC 2.5.2 Pointer Cancellation to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent) (also provided below), making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software by replacing "web content" with "non-web software" and "user agent" with "underlying platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent) (also provided below), making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
 
 With these substitutions, the notes would read: 
 
@@ -666,7 +670,11 @@ Functions that emulate a keyboard or numeric keypad key press are considered ess
 
 <div class="note">
     
-This requirement applies to <INS>**[non-web software]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the <INS>**[underlying platform software]**</INS> assistive technology).</div>
+This requirement applies to **<INS>[user agents and other [[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
+
+<div class="note">
+
+This requirement also applies to **<INS>[[platform software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
 
 ##### label-in-name
 
@@ -688,7 +696,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent) (also provided below), replacing "user agent" with "user agent or platform software", and making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software by replacing "web content" with "non-web software" and "user agent" with "underlying platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent) (also provided below), replacing "user agent" with "user agent or platform software", and making changes to the notes for non-web documents by replacing “web content” with "content" and for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
 
 With these substitutions, it would read:
 
@@ -706,8 +714,11 @@ Dragging movements for operation are less common in documents. An example where 
 (non-web software)
 <div class="note">
 
-This requirement applies to **<INS>[[software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
+This requirement applies to **<INS>[user agents and other [[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
 
+<div class="note">
+
+This requirement also applies to **<INS>[[platform software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
 
 ##### target-size-minimum
 
