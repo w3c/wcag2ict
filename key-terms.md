@@ -37,7 +37,7 @@ For non-web content it is necessary to view this a bit more broadly. Within WCAG
 
 <DL><DT>content (non-web content) (as used in WCAG2ICT)</DT><DD>
 
-information and sensory experience to be communicated to the user by means of <INS>**[[software](#software)]**</INS>, including code or markup that defines the content's [structure](#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
+information and sensory experience to be communicated to the user by means of **<INS>[[software](#software)]</INS>**, including code or markup that defines the content's [structure](#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
 </DD></DL>
 <div class="note">
 
@@ -97,7 +97,7 @@ The term **set of documents**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>set of documents (non-web) (as used in WCAG2ICT)</DT><DD>
 
-collection of <INS>**[[documents](#document)]**</INS> that share a common purpose, are created by the same author, group or organization <INS>**[and that are published together, and the documents all refer to each other by name or link]**</INS>
+collection of **<INS>[[documents](#document)]</INS>** that share a common purpose, are created by the same author, group or organization **<INS>[and that are published together, and the documents all refer to each other by name or link]</INS>**
 </DD></DL>
 <div class="note">
 
@@ -116,7 +116,7 @@ The term **set of software programs**, as used in WCAG2ICT, has the meaning belo
 
 <DL><DT>set of software programs (as used in WCAG2ICT)</DT><DD>
 
-collection of <INS>**[[software](#software) programs]**</INS> that share a common purpose, are created by the same author, group or organization <INS>**[and that are distributed together and can be launched and used independently from each other, but are interlinked each with every other one such that users can navigate from one program to another via a consistent method that appears in each member of the set]**</INS>
+collection of **<INS>[[software](#software) programs]</INS>** that share a common purpose, are created by the same author, group or organization **<INS>[and that are distributed together and can be launched and used independently from each other, but are interlinked each with every other one such that users can navigate from one program to another via a consistent method that appears in each member of the set]</INS>**
 </DD></DL>
 <div class="note">
 
@@ -187,7 +187,7 @@ For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2, the
 
 <DL><DT>user agent (as used in WCAG2ICT)</DT><DD>
 
-any [software](#software) that retrieves and presents <INS>**[documents]**</INS> for users
+any [software](#software) that retrieves and presents **<INS>[documents]</INS>** for users
 </DD></DL>
 <div class="note">
 
