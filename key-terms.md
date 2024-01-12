@@ -65,7 +65,7 @@ Letters, spreadsheets, emails, books, pictures, presentations, and movies are ex
 Software configuration and storage files such as databases and virus definitions, as well as computer instruction files such as source code, batch/script files, and firmware, are examples of files that function as part of [software](#software) and thus are not examples of documents. If and where software retrieves “information and sensory experience to be communicated to the user” from such files, it is just another part of the content that occurs in software and is covered by WCAG2ICT like any other parts of the software. Where such files contain one or more embedded documents, the embedded documents remain documents under this definition.</div>
 <div class="note">
 
-A collection of files zipped together into an archive, stored within a single virtual hard drive file, or stored in a single "encrypted file system" file, do not constitute a single document. The software that archives/encrypts those files or manages the contents of the virtual hard drive does not function as a user agent for the individually collected files in that collection because that software is not providing a non-fully functioning presentation of that content.</div>
+A collection of files zipped together into an archive, stored within a single virtual hard drive file, or stored in a single "encrypted file system" file, do not constitute a single document.</div>
 <div class="note">
 
 Anything that can present its own content without involving a user agent, such as a self playing book, is not a document but is software.</div>
