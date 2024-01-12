@@ -72,6 +72,7 @@ function prepSec(n) {
         // Make relative URLs absolute
         var content = n.content.replaceAll("#input-purposes", 'https://www.w3.org/TR/WCAG22/#input-purposes');
         content = content.replaceAll("#cc5", 'https://www.w3.org/TR/WCAG22/#cc5');        
+        content = content.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
         
 		bq.innerHTML = content;
 		nhead.after(bq);
@@ -116,6 +117,7 @@ function prepSec(n) {
             intent = intent.replaceAll('https://w3c.github.io/html-aam/#accessible-name-and-description-computation', 'https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation');
             intent = intent.replaceAll('http://https://www.w3.org/WAI/tutorials/carousels', 'https://www.w3.org/WAI/tutorials/carousels')
             intent = intent.replaceAll(/<a href="(?!http)/g, '<a href="https://www.w3.org/WAI/WCAG22/Understanding/');
+            intent = intent.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
             
 			intentquote.innerHTML = intent;
 			intentsec.appendChild(intentquote);
@@ -155,6 +157,7 @@ function prepTerm(n) {
         definition = definition.replaceAll("#cc4", 'https://www.w3.org/TR/WCAG22/#cc4');
         definition = definition.replaceAll("#cc5", 'https://www.w3.org/TR/WCAG22/#cc5');
         definition = definition.replaceAll(/<a href="(?!http)/g, '<a href="https://www.w3.org/WAI/WCAG22/Understanding/');
+        definition = definition.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
         
 		bq.innerHTML = definition; 
 		nhead.after(bq);
