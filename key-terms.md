@@ -141,7 +141,7 @@ If there is any ambiguity whether the group is a set, then the group is not a se
 If there is no independent method to launch the software programs (as is common in closed products), those programs would not meet the definition of a "set of software programs".</div>
 <div class="note">
 
-Although the term “software” is used throughout this document because this would apply to stand alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, for in the WCAG2ICT guidance for the provisions that use the phrase “set of” (success criteria 2.4.1, 2.4.5, 3.2.3, 3.2.4, and 3.2.6), the phrase “set of software programs” is used.</div>
+Although the term “software” is used throughout this document because this would apply to stand alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, in the WCAG2ICT guidance for the provisions that use the phrase “set of” (success criteria 2.4.1, 2.4.5, 3.2.3, 3.2.4, and 3.2.6), the phrase “set of software programs” is used.</div>
 <div class="example">
 
 One example of a set of software programs would be a group of programs that can be launched and used separately but are distributed together and all have a menu that allows users to launch, or switch to, each of the other programs in the group.
