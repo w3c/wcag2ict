@@ -739,6 +739,9 @@ The size of the [target](#dfn-target) for [pointer inputs](https://www.w3.org/TR
 <div class="note">
 
 Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders with granular values, color pickers displaying a gradient of colors, or editable areas where you position the cursor.</div>
+<div class="note">
+
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
 
 <div class="note">
 
