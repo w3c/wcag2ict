@@ -1,8 +1,6 @@
 Comments on Definitions in WCAG 2 Glossary
 ----------------------------------------------------------
 
-<div class="ednote">Terms introduced in new WCAG 2.1 Success Criteria have been added to this document. Any definitions that existed in WCAG 2.0 that have changed since the 2013 WCAG2ICT have also been updated. The following terms introduced by WCAG 2.2 will be added in the next WCAG2ICT draft: cognitive function test, dragging movement, focus indicator, minimum bounding box, and perimeter. </div>
-
 The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
 ### Glossary Items that Apply to All Technologies
