@@ -923,11 +923,38 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.8 Accessible Authentication (Minimum) to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html) (also provided below).
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html) (also provided below), “Web site” with “non-web document or software”.
 
+A [cognitive function test](https://www.w3.org/TR/WCAG22/#dfn-cognitive-function-test) (such as remembering a password or solving a puzzle) is not required for any step in an authentication [process](https://www.w3.org/TR/WCAG22/#dfn-processes) unless that step provides at least one of the following:
+
+<dl>
+<dt>Alternative</dt>
+<dd>Another authentication method that does not rely on a cognitive function test.</dd>
+<dt>Mechanism</dt>
+<dd>A <a href="https://www.w3.org/TR/WCAG22/#dfn-mechanism">mechanism</a> is available to assist the user in completing the cognitive function test.</dd>
+<dt>Object Recognition</dt>
+<dd>The cognitive function test is to recognize objects.</dd>
+<dt>Personal Content</dt>
+<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to the <INS>**[[non-web document](#document) or [software](#software)]**</INS>.</dd>
+</dl>
+<div class="note">
+
+"Object recognition" and "Personal content" may be represented by images, video, or audio.</div>
+<div class="note">
+
+Examples of mechanisms that satisfy this criterion include:
+support for password entry by password managers to reduce memory need, and
+copy and paste to reduce the cognitive burden of re-typing.</div>
 <div class="note">
     
 Device passwords, used to unlock a device, are out of scope for this requirement as these are not up to the author.</div>
+
+<div class="note">
+
+Systems that are designed for shared use (such as in a public library) are out of scope for this requirement, as the user will not have access to applications that allow them to auto-complete content.</div>
+<div class="note">
+
+Some closed systems, particularly those that handle financial transactions, have a requirement for a personal identification number (PIN) for authentication. This is a security requirement mandated by the banking industry, and currently there is no globally acceptable alternative to the PIN for some systems (e.g. card payment terminals and ATMs). Therefore, these systems are out of scope for this requirement as users must use a PIN (either the digits themselves, or the spatial location of the digits on the keypad) to meet the security requirements.</div>
 
 ### robust
 
