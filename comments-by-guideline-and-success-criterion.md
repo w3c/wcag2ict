@@ -935,7 +935,9 @@ A [cognitive function test](https://www.w3.org/TR/WCAG22/#dfn-cognitive-function
 <dt>Object Recognition</dt>
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
-<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to the <INS>**[[non-web document](#document) or [software](#software)]**</INS>.</dd>
+<dd>
+    
+The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to the <INS>**[[non-web document](#document) or [software](#software)]**</INS>.</dd>
 </dl>
 <div class="note">
 
