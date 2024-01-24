@@ -34,7 +34,7 @@ Examples of technology with closed functionality include:
 * entertainment technologies including smart TVs, set-top boxes, smart displays, smart speakers, smart watches, and tablets
 * an ebook reader or standalone ebook software that allows assistive technologies to access all of the user interface controls of the ebook program (open functionality) but does not allow the assistive technologies to access the actual content of book (closed functionality).
 * an operating system that requires the user to provide log in credentials before it allows any assistive technologies to be loaded. The log-in portion would be closed functionality.
-* other technology devices, such as printers, displays, and internet of things (iOt) devices. 
+* other technology devices, such as printers, displays, and Internet of Things (IoT) devices. 
 </div>
 
 These examples are explained more fully in the [Comments on Closed Functionality](#comments-on-closed-functionality) section.
