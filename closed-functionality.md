@@ -26,7 +26,7 @@ In developing guidance for closed functionality, the task force has considered e
 * entertainment technologies (e.g. smart TV, set-top box, smart watches)
 * ebook reader
 * computer that is locked down due to a policy so that users may not adjust settings or install software
-* other technology devices (e.g. printers, displays, and internet of things (iOt) devices).
+* other technology devices (e.g. printers, displays, and Internet of Things (IoT) devices).
 </div>
 
 There are existing standards that provide accessibility requirements for both hardware and software aspects of closed functionality ICT. This document does not comment on those standards, but does note that WCAG success criteria should not be used as requirements for hardware aspects of closed functionality ICT. Instead, WCAG2ICT provides considerations for applying WCAG success criteria to software on closed functionality ICT. It also indicates where and why that might be problematic due to the underlying assumptions built into the WCAG success criteria. See [Appendix A: Success Criteria Problematic for Closed Functionality](#success-criteria-problematic-for-closed-functionality) for a list of success criteria for which this is relevant.
