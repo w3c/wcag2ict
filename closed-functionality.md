@@ -21,11 +21,12 @@ To the extent the ICT is closed, following the WCAG success criteria by themselv
   
 In developing guidance for closed functionality, the task force has considered examples of ICT that historically have been partially or fully closed to assistive technologies:
 
-*   self-service transaction machines or kiosks - Examples include machines used for retail self-checkout, point of sales (POS) terminals, ticketing and self check-in, and Automated Teller Machines (ATMs).
-*   telephony devices such as IP phones, feature phones, smartphones, and phone-enabled tablets (although such devices are becoming increasingly open and/or supplying AT and accessibility features that software can rely upon to meet WCAG requirements.)
-*   entertainment technologies including smart TVs, set-top boxes, smart displays, smart speakers, smart watches, and tablets
-*   an ebook reader or standalone ebook software that allows assistive technologies to access all of the user interface controls of the ebook program (open functionality) but does not allow the assistive technologies to access the actual content of book (closed functionality).
-*   an operating system that requires the user to provide log in credentials before it allows any assistive technologies to be loaded. The log-in portion would be closed functionality.
-*   other technology devices, such as printers, displays, and iOt devices</div>
+* self-service transaction machines or kiosks (e.g. retail self-checkout, point of sales (POS) terminals, and Automated Teller Machines (ATMs))
+* telephony devices (e.g. IP phones, feature phones, and smartphones)
+* entertainment technologies (e.g. smart TV, set-top box, smart watches)
+* ebook reader
+* computer that is locked down due to a policy so that users may not adjust settings or install software
+* other technology devices (e.g. printers, displays, and internet of things (iOt) devices).
+</div>
 
 There are existing standards that provide accessibility requirements for both hardware and software aspects of closed functionality ICT. This document does not comment on those standards, but does note that WCAG success criteria should not be used as requirements for hardware aspects of closed functionality ICT. Instead, WCAG2ICT provides considerations for applying WCAG success criteria to software on closed functionality ICT. It also indicates where and why that might be problematic due to the underlying assumptions built into the WCAG success criteria. See [Appendix A: Success Criteria Problematic for Closed Functionality](#success-criteria-problematic-for-closed-functionality) for a list of success criteria for which this is relevant.
