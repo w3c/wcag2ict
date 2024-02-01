@@ -45,7 +45,7 @@ The following are out of scope for this document:
 
 This document includes text quoted from the WCAG 2.2 principles, guidelines, success criteria, and glossary definitions without any changes. It also includes excerpted text from the “Intent” sections of the WCAG 2.2 supporting document [Understanding WCAG 2.2 (Public Review Draft)](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\]. The guidance provided by this document for each principle, guideline, success criterion, and definition is preceded by a heading beginning with “Applying…”. This guidance was created by the WCAG2ICT Task Force, then reviewed and approved by the Accessibility Guidelines Working Group.
 
-Additional supporting documents for WCAG 2, such as the [WCAG 2 Overview](https://www.w3.org/WAI/intro/wcag.php), [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/) \[\[WCAG22-TECHS\]\], and [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/), remain available for web content, but have not been changed to apply to non-web documents and software.
+Additional supporting documents for WCAG 2, such as the [WCAG 2 Overview](https://www.w3.org/WAI/intro/wcag.php), [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/) \[\[WCAG22-TECHS\]\], [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/), and [Making Content Usable for People with Cognitive and Learning Disabilities](https://www.w3.org/TR/coga-usable/), remain available for web content, but have not been changed to apply to non-web documents and software.
 
 ### Document Conventions
 <div class="ednote">The visual styling and programmatic structure details for calling out content in this section are current for this draft. This section will be revisited when further style details are worked out.</div>
@@ -86,18 +86,21 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 2.4.11 Focus Not Obscured (Minimum)](#focus-not-obscured-minimum)
     * [Success Criterion 2.5.7 Dragging Movements](#dragging-movements)
     * [Success Criterion 2.5.8 Target Size (Minimum)](#target-size-minimum)
+    * [Success Criterion 3.2.6 Consistent Help](#consistent-help)
     * [Success Criterion 3.3.7 Redundant Entry](#redundant-entry)
 * Obsolete and Removed WCAG 2.2 Success Criteria that have errata for WCAG 2.0 and 2.1
     * [Success Criterion 4.1.1 Parsing](#parsing)
-* New terms in WCAG 2.1 and 2.2
-    * dragging movements, pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
+* New terms from WCAG 2.1 and 2.2
+    * dragging movements, encloses, focus indicator, minimum bounding box, pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
     * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria)
-    * [css pixel](#dfn-css-pixel)
-    * [down event](#dfn-down-event)
-    * [keyboard shortcut](#dfn-keyboard-shortcut)
-    * [style property](#dfn-style-property)
-    * [target](#dfn-target)
-    * [up event](#dfn-up-event)
+    * added to [Glossary Items with Specific Guidance](#glossary-items-with-specific-guidance): 
+        * [css pixel](#dfn-css-pixel)
+        * [down event](#dfn-down-event)
+        * [keyboard shortcut](#dfn-keyboard-shortcut)
+        * [perimeter](#dfn-perimeter)
+        * [style property](#dfn-style-property)
+        * [target](#dfn-target)
+        * [up event](#dfn-up-event)
 * Updated terms
     * [set of web pages](#dfn-set-of-web-pages)
     * [set of non-web documents](#set-of-documents)

@@ -48,7 +48,7 @@ For non-web content it is necessary to view this a bit more broadly. Within WCAG
 
 <DL><DT>content (non-web content) (as used in WCAG2ICT)</DT><DD>
 
-information and sensory experience to be communicated to the user by means of <INS>**[[software](#software)]**</INS>, including code or markup that defines the content's [structure](#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
+information and sensory experience to be communicated to the user by means of **<INS>[[software](#software)]</INS>**, including code or markup that defines the content's [structure](#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
 </DD></DL>
 <div class="note">
 
@@ -75,7 +75,7 @@ Letters, spreadsheets, emails, books, pictures, presentations, and movies are ex
 Software configuration and storage files such as databases and virus definitions, as well as computer instruction files such as source code, batch/script files, and firmware, are examples of files that function as part of [software](#software) and thus are not examples of documents. If and where software retrieves “information and sensory experience to be communicated to the user” from such files, it is just another part of the content that occurs in software and is covered by WCAG2ICT like any other parts of the software. Where such files contain one or more embedded documents, the embedded documents remain documents under this definition.</div>
 <div class="note">
 
-A collection of files zipped together into an archive, stored within a single virtual hard drive file, or stored in a single "encrypted file system" file, do not constitute a single document. The software that archives/encrypts those files or manages the contents of the virtual hard drive does not function as a user agent for the individually collected files in that collection because that software is not providing a non-fully functioning presentation of that content.</div>
+A collection of files zipped together into an archive, stored within a single virtual hard drive file, or stored in a single "encrypted file system" file, do not constitute a single document.</div>
 <div class="note">
 
 Anything that can present its own content without involving a user agent, such as a self playing book, is not a document but is software.</div>
@@ -108,7 +108,7 @@ The term **set of documents**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>set of documents (non-web) (as used in WCAG2ICT)</DT><DD>
 
-collection of <INS>**[documents](#document)**</INS> that share a common purpose, are created by the same author, group or organization <INS>**[and that are published together, and the documents all refer to each other by name or link]**</INS>
+collection of **<INS>[[documents](#document)]</INS>** that share a common purpose, are created by the same author, group or organization **<INS>[and that are published together, and the documents all refer to each other by name or link]</INS>**
 </DD></DL>
 <div class="note">
 
@@ -127,7 +127,7 @@ The term **set of software programs**, as used in WCAG2ICT, has the meaning belo
 
 <DL><DT>set of software programs (as used in WCAG2ICT)</DT><DD>
 
-collection of <INS>**[software](#software) programs]**</INS> that share a common purpose, are created by the same author, group or organization <INS>**[and that are distributed together and can be launched and used independently from each other, but are interlinked each with every other one such that users can navigate from one program to another via a consistent method that appears in each member of the set]**</INS>
+collection of **<INS>[[software](#software) programs]</INS>** that share a common purpose, are created by the same author, group or organization **<INS>[and that are distributed together and can be launched and used independently from each other, but are interlinked each with every other one such that users can navigate from one program to another via a consistent method that appears in each member of the set]</INS>**
 </DD></DL>
 <div class="note">
 
@@ -152,7 +152,7 @@ If there is any ambiguity whether the group is a set, then the group is not a se
 If there is no independent method to launch the software programs (as is common in closed products), those programs would not meet the definition of a "set of software programs".</div>
 <div class="note">
 
-Although the term “software” is used throughout this document because this would apply to stand alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, for the provisions that use the phrase “set of” (success criteria 2.4.1, 2.4.5, 3.2.3, and 3.2.4), the phrase “set of software programs” is used.</div>
+Although the term “software” is used throughout this document because this would apply to stand alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, in the WCAG2ICT guidance for the provisions that use the phrase “set of” (success criteria 2.4.1, 2.4.5, 3.2.3, 3.2.4, and 3.2.6), the phrase “set of software programs” is used.</div>
 <div class="example">
 
 One example of a set of software programs would be a group of programs that can be launched and used separately but are distributed together and all have a menu that allows users to launch, or switch to, each of the other programs in the group.
@@ -198,7 +198,7 @@ For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2, the
 
 <DL><DT>user agent (as used in WCAG2ICT)</DT><DD>
 
-any [software](#software) that retrieves and presents <INS>**[documents]**</INS> for users
+any [software](#software) that retrieves and presents **<INS>[documents]</INS>** for users
 </DD></DL>
 <div class="note">
 
