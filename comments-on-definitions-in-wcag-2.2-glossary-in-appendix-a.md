@@ -381,6 +381,9 @@ continuous line forming the boundary of a shape not including shared pixels, or 
 <div class="example">
     
 The perimeter calculation for a 2 **<INS>[platform-defined density-independent pixel]</INS>** perimeter around a rectangle is 4h+4w, where h is the height and w is the width. For a 2 **<INS>[platform-defined density-independent pixel]</INS>** perimeter around a circle it is 4𝜋r.</div>
+<div class="note">
+
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
 </DD></DL>
 
 #### dfn-programmatically-determined
