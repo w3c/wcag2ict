@@ -25,6 +25,7 @@ Although this document covers a wide range of issues, it is not able to address 
 * [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/) \[\[WCAG22-TECHS\]\]
 * [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/)
 * [Making Content Usable for People with Cognitive and Learning Disabilities](https://www.w3.org/TR/coga-usable/)
+* [Mobile Accessibility: How WCAG 2.0 and other W3C/WAI Guidelines Apply to Mobile](https://w3c.github.io/Mobile-A11y-TF-Note/)
   
 While WCAG 2 was designed to be technology-neutral, it assumes the presence of a “user agent” such as a browser, media player, or assistive technology as a means to access web content. Therefore, the application of WCAG 2 to documents and software in non-web contexts required some interpretation in order to determine how the intent of each WCAG 2 success criterion could be met in these different contexts of use. Therefore, the bulk of the Task Force's work involved evaluating how each WCAG 2 success criterion would apply in the context of non-web ICT, if it were applied to non-web ICT.
 
@@ -111,4 +112,4 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [set of non-web documents](#set-of-documents)
     * [set of software programs](#set-of-software-programs)
 * Updated sections
-    <div class="note">In this draft, most of the existing sections have undergone WCAG2ICT Task Force review and updates. Many sections required only minor editorial and link URL updates, such as the guidance for each WCAG 2.0 success criteria. Any sections that have not been fully updated have editor's notes to reflect their current status.</div>
+    <div class=note">In this draft, most of the existing sections have undergone WCAG2ICT Task Force review and updates. Many sections required only minor editorial and link URL updates, such as the guidance for each WCAG 2.0 success criteria. Any sections that have not been fully updated have editor's notes to reflect their current status.</div>
