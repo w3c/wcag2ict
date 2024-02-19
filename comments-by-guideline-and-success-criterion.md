@@ -923,7 +923,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.8 Accessible Authentication (Minimum) to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html) (also provided below), “the Web site” with “a Web site, non-web document or software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html) (also provided below), “the Web site” with “a Web site, non-web document, or software”.
 
 A [cognitive function test](#dfn-cognitive-function-test) (such as remembering a password or solving a puzzle) is not required for any step in an authentication [process](https://www.w3.org/TR/WCAG22/#dfn-processes) unless that step provides at least one of the following:
 
@@ -937,7 +937,7 @@ A [cognitive function test](#dfn-cognitive-function-test) (such as remembering a
 <dt>Personal Content</dt>
 <dd>
     
-The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>**[a Web site, [non-web document](#document) or [software](#software)]**</INS>.</dd>
+The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>**[a Web site, [non-web document](#document), or [software](#software)]**</INS>.</dd>
 </dl>
 <div class="note">
 
