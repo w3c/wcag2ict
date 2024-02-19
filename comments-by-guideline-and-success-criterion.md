@@ -944,19 +944,10 @@ The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22
 "Object recognition" and "Personal content" may be represented by images, video, or audio.</div>
 <div class="note">
 
-Examples of mechanisms that satisfy this criterion include:
-support for password entry by password managers to reduce memory need, and
-copy and paste to reduce the cognitive burden of re-typing.</div>
+Examples of mechanisms that satisfy this criterion include: support for password entry by password managers to reduce memory need, and copy and paste to reduce the cognitive burden of re-typing.</div>
 <div class="note">
     
-Device passwords, used to unlock a device, are out of scope for this requirement as these are not up to the author.</div>
-
-<div class="note">
-
-Systems that are designed for shared use (such as in a public library) are out of scope for this requirement, as the user will not have access to applications that allow them to auto-complete content.</div>
-<div class="note">
-
-Some closed systems, particularly those that handle financial transactions, have a requirement for a personal identification number (PIN) for authentication. This is a security requirement mandated by the banking industry, and currently there is no globally acceptable alternative to the PIN for some systems (e.g. card payment terminals and ATMs). Therefore, these systems are out of scope for this requirement as users must use a PIN (either the digits themselves, or the spatial location of the digits on the keypad) to meet the security requirements.</div>
+If the non-web software is an application, passwords used to unlock the underlying platform software are out of scope for this requirement as these are not up to a software application’s author.</div>
 
 ### robust
 
