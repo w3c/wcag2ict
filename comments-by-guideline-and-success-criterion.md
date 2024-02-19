@@ -948,6 +948,9 @@ Examples of mechanisms that satisfy this criterion include: support for password
 <div class="note">
     
 If the non-web software is an application, passwords used to unlock the underlying platform software are out of scope for this requirement as these are not up to a software application’s author.</div>
+<div classs="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ### robust
 
