@@ -1,8 +1,6 @@
 Comments on Definitions in WCAG 2 Glossary
 ----------------------------------------------------------
 
-<div class="ednote">Terms introduced in new WCAG 2.1 Success Criteria have been added to this document. Any definitions that existed in WCAG 2.0 that have changed since the 2013 WCAG2ICT have also been updated. The following terms introduced by WCAG 2.2 will be added in the next WCAG2ICT draft: cognitive function test, dragging movement, focus indicator, minimum bounding box, and perimeter. </div>
-
 The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
 ### Glossary Items that Apply to All Technologies
@@ -213,6 +211,27 @@ Opening a new window, moving focus to a different component, going to a new page
 <div class="note">
 
 A change in the user agent might include bringing up a new window, or might be a significant change in the menus and/or toolbars that are displayed and available for interacting with some portion of the document.</div>
+
+#### dfn-cognitive-function-test
+
+##### Applying “cognitive function test” to Non-Web Documents and Software
+
+This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web sites” with “Web sites, non-web documents, and software”.
+
+With this substitution, it would read:
+
+<DL><DT>cognitive function test</DT><DD>
+
+A task that requires the user to remember, manipulate, or transcribe information. Examples include, but are not limited to:
+
+memorization, such as remembering a username, password, set of characters, images, or patterns. The common identifiers name, e-mail, and phone number are not considered cognitive function tests as they are personal to the user and consistent across **<INS>[Web sites, [non-web documents](#document), and [software](#software)]</INS>**;
+
+* transcription, such as typing in characters;
+* use of correct spelling;
+* performance of calculations;
+* solving of puzzles.
+
+</DD></DL>
 
 #### dfn-conforming-alternate-version
 

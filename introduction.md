@@ -88,12 +88,14 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 2.5.8 Target Size (Minimum)](#target-size-minimum)
     * [Success Criterion 3.2.6 Consistent Help](#consistent-help)
     * [Success Criterion 3.3.7 Redundant Entry](#redundant-entry)
+    * [Success Criterion 3.3.8 Accessible Authentication](#accessible-authentication-minimum)
 * Obsolete and Removed WCAG 2.2 Success Criteria that have errata for WCAG 2.0 and 2.1
     * [Success Criterion 4.1.1 Parsing](#parsing)
 * New terms from WCAG 2.1 and 2.2
     * dragging movements, encloses, focus indicator, minimum bounding box, pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
     * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria)
     * added to [Glossary Items with Specific Guidance](#glossary-items-with-specific-guidance): 
+        * [cognitive function test](#dfn-cognitive-function-test)
         * [css pixel](#dfn-css-pixel)
         * [down event](#dfn-down-event)
         * [keyboard shortcut](#dfn-keyboard-shortcut)

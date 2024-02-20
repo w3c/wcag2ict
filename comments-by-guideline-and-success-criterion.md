@@ -958,7 +958,34 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.8 Accessible Authentication (Minimum) to Non-Web Documents and Software
 
-<p class="ednote">This section is to be developed by the WCAG2ICT Task Force.</p>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html) (also provided below), “the Web site” with “a Web site, non-web document, or software”.
+
+A [cognitive function test](#dfn-cognitive-function-test) (such as remembering a password or solving a puzzle) is not required for any step in an authentication [process](https://www.w3.org/TR/WCAG22/#dfn-processes) unless that step provides at least one of the following:
+
+<dl>
+<dt>Alternative</dt>
+<dd>Another authentication method that does not rely on a cognitive function test.</dd>
+<dt>Mechanism</dt>
+<dd>A <a href="https://www.w3.org/TR/WCAG22/#dfn-mechanism">mechanism</a> is available to assist the user in completing the cognitive function test.</dd>
+<dt>Object Recognition</dt>
+<dd>The cognitive function test is to recognize objects.</dd>
+<dt>Personal Content</dt>
+<dd>
+    
+The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>**[a Web site, [non-web document](#document), or [software](#software)]**</INS>.</dd>
+</dl>
+<div class="note">
+
+"Object recognition" and "Personal content" may be represented by images, video, or audio.</div>
+<div class="note">
+
+Examples of mechanisms that satisfy this criterion include: support for password entry by password managers to reduce memory need, and copy and paste to reduce the cognitive burden of re-typing.</div>
+<div class="note">
+    
+If the non-web software is an application, passwords used to unlock the underlying platform software are out of scope for this requirement as these are not up to a software application’s author.</div>
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ### robust
 

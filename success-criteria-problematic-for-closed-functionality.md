@@ -48,6 +48,11 @@ There are Success Criteria that can be problematic for developers of closed func
 <li><a href="#consistent-navigation">3.2.3 Consistent Navigation</a>—This Success Criterion is interpreted to only apply to "sets of software programs" which are very rare. See the second note in the section <a href="#applying-sc-3-2-3-consistent-navigation-to-non-web-documents-and-software">Applying SC 3.2.3 Consistent Navigation to Non-Web Documents and Software</a>.</li>
 <li><a href="#consistent-identification">3.2.4 Consistent Identification</a>—This Success Criterion is interpreted to only apply to "sets of software programs" which are very rare. See the second note in the section <a href="#applying-sc-3-2-4-consistent-identification-to-non-web-documents-and-software">Applying SC 3.2.4 Consistent Identification to Non-Web Documents and Software</a>.</li>
 <li><a href="#error-identification">3.3.1 Error Identification</a>—while it's important for errors that can be detected to be described to the user, for closed functionality, the error description doesn't have to be provided in text, as defined in WCAG 2;</li>
+<li><a href="#accessible-authentication-minimum">3.3.8 Accessible Authentication (Minimum)</a>—There are situations where meeting this success criterion is problematic:</li>
+<ul>
+<li>Systems that are designed for shared use (such as in a public library) or have closed functionality might block mechanisms typically used to assist the user, such as copying authentication information from a password manager. Instead, an alternative authentication method might be helpful, such as an identity card scanner.</li>
+<li>Where standards for banking or security have authentication requirements that are regulated or strictly enforced, those requirements may be judged to take legal precedence over Success Criterion 3.3.8 Accessible Authentication (Minimum).</li>
+</ul>  
 <li><a href="#name-role-value">4.1.2 Name, Role, Value</a>—requires information in a programmatically determinable form.</li>
 <li><a href="#status-messages">4.1.3 Status Messages</a>—requires information in a programmatic determinable form. Additionally, software with closed functionality is not typically implemented using markup languages.
 <div class="note">Non-web software with closed functionality would need equivalent facilitation to provide access to status messages.</div></li>
