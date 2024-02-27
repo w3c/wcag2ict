@@ -54,6 +54,6 @@ There are Success Criteria that can be problematic for developers of closed func
 <li>Where standards for banking or security have authentication requirements that are regulated or strictly enforced, those requirements may be judged to take legal precedence over Success Criterion 3.3.8 Accessible Authentication (Minimum).</li>
 </ul>  
 <li><a href="#name-role-value">4.1.2 Name, Role, Value</a>—requires information in a programmatically determinable form.</li>
-<li><a href="#status-messages">4.1.3 Status Messages</a>—requires information in a programmatic determinable form. Additionally, software with closed functionality is not typically implemented using markup languages.
+<li><a href="#status-messages">4.1.3 Status Messages</a>—Requires information in a programmatic determinable form.
 <div class="note">Non-web software with closed functionality would need equivalent facilitation to provide access to status messages.</div></li>
 </ul>
