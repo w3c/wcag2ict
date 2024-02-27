@@ -318,6 +318,10 @@ This applies directly as  written and as described in [Intent from Understanding
 >
 > Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.
 
+<p class="note">Content is not required to use these text spacing values. The requirement is to ensure that when a user overrides the authored text spacing, content or functionality is not lost.</p>
+
+<p class="note">Writing systems for some languages use different text spacing settings, such as paragraph start indent. Authors are encouraged to follow locally available guidance for improving readability and legibility of text in their writing system.</p>
+
 <div class="note">
 
 "Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in [Electron](https://www.electronjs.org/) applications or iOS application Web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
