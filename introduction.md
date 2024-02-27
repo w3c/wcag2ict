@@ -17,8 +17,16 @@ This document provides informative guidance (guidance that is not [normative](ht
 
 <div class="note">Hereafter, the use of WCAG 2 means all WCAG 2.x versions - 2.0, 2.1, and 2.2.</div>
 
-This document is intended to help clarify how to use WCAG 2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual disabilities, and the needs of people with accessibility requirements due to the effects of aging. Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities. Because WCAG 2 was developed for the Web, addressing accessibility for non-web documents and software may involve requirements and considerations beyond those included in this document. Authors and developers are encouraged to seek relevant advice about current best practices to ensure that non-web documents and software are accessible, as much as possible, to people with disabilities.
+This document is intended to help clarify how to use WCAG 2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual disabilities, and the needs of people with accessibility requirements due to the effects of aging. 
 
+Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities. Since WCAG 2 was developed for the Web, addressing accessibility for non-web documents and software may involve requirements and considerations beyond those included in this document. Authors and developers are encouraged to seek relevant advice about current best practices to ensure that non-web documents and software are accessible, as much as possible, to people with disabilities.  The following WCAG 2 supporting documents, though they have not been changed to fully apply in non-web contexts, contain helpful information to learn about the user needs, intent, and generalized implementation techniques:
+
+* [WCAG 2 Overview](https://www.w3.org/WAI/intro/wcag.php)
+* [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/) \[\[WCAG22-TECHS\]\]
+* [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/)
+* [Making Content Usable for People with Cognitive and Learning Disabilities](https://www.w3.org/TR/coga-usable/)
+* [Mobile Accessibility: How WCAG 2.0 and other W3C/WAI Guidelines Apply to Mobile](https://w3c.github.io/Mobile-A11y-TF-Note/)
+  
 While WCAG 2 was designed to be technology-neutral, it assumes the presence of a “user agent” such as a browser, media player, or assistive technology as a means to access web content. Therefore, the application of WCAG 2 to documents and software in non-web contexts required some interpretation in order to determine how the intent of each WCAG 2 success criterion could be met in these different contexts of use. Therefore, the bulk of the Task Force's work involved evaluating how each WCAG 2 success criterion would apply in the context of non-web ICT, if it were applied to non-web ICT.
 
 The Task Force found that the majority of success criteria from WCAG 2 can apply to non-web documents and software with either no or minimal changes. Since many of the Level A and AA success criteria do not include any web related terms, they apply directly as written and as described in the “Intent” sections from the [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\] resource. Additional notes were provided, as needed, to provide assistance in applying them to non-web documents and software.
@@ -44,8 +52,6 @@ The following are out of scope for this document:
 ### Document Overview
 
 This document includes text quoted from the WCAG 2.2 principles, guidelines, success criteria, and glossary definitions without any changes. It also includes excerpted text from the “Intent” sections of the WCAG 2.2 supporting document [Understanding WCAG 2.2 (Public Review Draft)](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\]. The guidance provided by this document for each principle, guideline, success criterion, and definition is preceded by a heading beginning with “Applying…”. This guidance was created by the WCAG2ICT Task Force, then reviewed and approved by the Accessibility Guidelines Working Group.
-
-Additional supporting documents for WCAG 2, such as the [WCAG 2 Overview](https://www.w3.org/WAI/intro/wcag.php), [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/) \[\[WCAG22-TECHS\]\], [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/), and [Making Content Usable for People with Cognitive and Learning Disabilities](https://www.w3.org/TR/coga-usable/), remain available for web content, but have not been changed to apply to non-web documents and software.
 
 ### Document Conventions
 <div class="ednote">The visual styling and programmatic structure details for calling out content in this section are current for this draft. This section will be revisited when further style details are worked out.</div>
@@ -108,4 +114,4 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [set of non-web documents](#set-of-documents)
     * [set of software programs](#set-of-software-programs)
 * Updated sections
-    <div class="note">In this draft, most of the existing sections have undergone WCAG2ICT Task Force review and updates. Many sections required only minor editorial and link URL updates, such as the guidance for each WCAG 2.0 success criteria. Any sections that have not been fully updated have editor's notes to reflect their current status.</div>
+    <div class=note">In this draft, most of the existing sections have undergone WCAG2ICT Task Force review and updates. Many sections required only minor editorial and link URL updates, such as the guidance for each WCAG 2.0 success criteria. Any sections that have not been fully updated have editor's notes to reflect their current status.</div>
