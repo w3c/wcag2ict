@@ -306,22 +306,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.12 Text Spacing to Non-Web Documents and Software
 
-This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.12](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent) (also provided below) replacing "In content implemented using markup languages" with "For non-web documents or software content implemented using markup languages" and replacing "that support " with "in a way that supports modification of". 
+This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.12](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent) (also provided below). 
 
-**With these substitutions, it would read:** 
+<div class="note">
 
-><INS>**[For non-web documents or software]**</INS> content implemented using markup languages <INS>**[in a way that supports modification of]**</INS> the following [text](https://www.w3.org/TR/WCAG22/#dfn-text) [style properties](https://www.w3.org/TR/WCAG22/#dfn-style-properties), no loss of content or functionality occurs by setting all of the following and by changing no other style property:
-> * Line height (line spacing) to at least 1.5 times the font size;
-> * Spacing following paragraphs to at least 2 times the font size;
-> * Letter spacing (tracking) to at least 0.12 times the font size;
-> * Word spacing to at least 0.16 times the font size.
->
-> Exception: Human languages and scripts that do not make use of one or more of these text style properties in written text can conform using only the properties that exist for that combination of language and script.
-
-<p class="note">Content is not required to use these text spacing values. The requirement is to ensure that when a user overrides the authored text spacing, content or functionality is not lost.</p>
-
-<p class="note">Writing systems for some languages use different text spacing settings, such as paragraph start indent. Authors are encouraged to follow locally available guidance for improving readability and legibility of text in their writing system.</p>
-
+This Success Criterion only applies to [non-web documents](#document) and [software](#software) that are implemented using markup languages and allow the user to modify these text spacing properties.</div>
 <div class="note">
 
 "Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in [Electron](https://www.electronjs.org/) applications or iOS application Web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
