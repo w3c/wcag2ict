@@ -51,7 +51,7 @@ The following are out of scope for this document:
 
 ### Document Overview
 
-This document includes text quoted from the WCAG 2.2 principles, guidelines, success criteria, and glossary definitions without any changes. It also includes excerpted text from the “Intent” sections of the WCAG 2.2 supporting document [Understanding WCAG 2.2 (Public Review Draft)](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\]. The guidance provided by this document for each principle, guideline, success criterion, and definition is preceded by a heading beginning with “Applying…”. This guidance was created by the WCAG2ICT Task Force, then reviewed and approved by the Accessibility Guidelines Working Group.
+This document includes text quoted from the WCAG 2.2 principles, guidelines, success criteria, and glossary definitions without any changes. The guidance provided by this document for each principle, guideline, success criterion, and definition is preceded by a heading beginning with “Applying…”. This guidance was created by the WCAG2ICT Task Force, then reviewed and approved by the Accessibility Guidelines Working Group.
 
 ### Document Conventions
 <div class="ednote">The visual styling and programmatic structure details for calling out content in this section are current for this draft. This section will be revisited when further style details are worked out.</div>
