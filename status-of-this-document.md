@@ -9,9 +9,9 @@ The group is seeking feedback on the following aspects:
 
 The group is already aware of formatting differences in how quoted passages from WCAG are included in comparison to the previous WCAG2ICT Working Group Note.
 
-Currently there are known issues in the quoted content from WCAG and Understanding Intent sections:
+Currently there are known issues in the quoted content from WCAG Success Criteria sections:
 
-- Anchor links from the included WCAG content to sections that do not exist in the WCAG2ICT document don't work
+- Anchor links from the included WCAG content to sections that do not exist in the WCAG2ICT document have been removed, as some of these internal document links didn't work.
 - The words "Note" and "Example" are missing from notes and examples of quoted WCAG passages
 
 The group is currently working on updates to the format, styling, and linking for these passages, and expects to refine these in a future draft.
