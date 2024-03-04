@@ -43,6 +43,7 @@ function slugify(string) {
     .replace(/^-+|-+$/g, '')
     .replace(/-+/g, '-')
     .toLowerCase();
+	console.log(string);
 }
 
 function prepSec(n) {
@@ -76,57 +77,8 @@ function prepSec(n) {
         
 		bq.innerHTML = content;
 		nhead.after(bq);
-		
-		// insert intent quote at end
-		if (n.intent) {
-			var intentsec = document.createElement("section");
-			var intentheader = document.createElement("h5");
-			intentheader.innerHTML = "Intent from Understanding " + nname;
-			intentsec.appendChild(intentheader);
-			var intentquote = document.createElement("blockquote");
-			intentquote.setAttribute("class", "wcag-quote");
-            
-            // Clean out xmlns fields
-            var intent = n.intent.replaceAll(/xmlns:wcag="https:\/\/www.w3.org\/WAI\/GL\/"/g, '');
-            intent = intent.replaceAll(/xmlns="http:\/\/www.w3.org\/1999\/xhtml"/g, "");
-            
-            // Add something to help uniqiely identify section IDs
-            var base_id = slugify(nname);
-            intent = intent.replaceAll(/<section\s*id="/g, '<section id="' + base_id + '-section-');
-            
-            // Add missing IDs for headings
-            for(var heading of intent.matchAll(/<h([345])>(.*?)<\/h[345]>/g)) {
-                intent = intent.replace(heading[0], '<h' + heading[1] + ' id="' + base_id + "-" + slugify(heading[2]) + '">' + heading[2] + '</h' + heading[1] + '>');
-            }
-            
-            // Remove duplicate IDs
-            for(var replaceId of intent.matchAll(/"(inactive-controls|figure-grey-button-and-text|benefits)"/g)) {
-                intent = intent.replace(replaceId[0], base_id + "-" + replaceId[1]);
-            }
-            
-            // Make relative URLs absolute
-            intent = intent.replaceAll('../../techniques/general/G183.html', 'https://www.w3.org/WAI/WCAG22/Techniques/general/G183.html');
-            intent = intent.replaceAll('https://w3c.github.io/personalization-semantics/content/', 'https://www.w3.org/TR/adapt-symbols/');
-            intent = intent.replaceAll('../22/focus-appearance-minimum.html', 'https://www.w3.org/TR/WCAG22/#focus-appearance');
-            intent = intent.replaceAll('../../guidelines/sc/20/pause-stop-hide.html', 'https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide');
-            intent = intent.replaceAll('../21/target-size-enhanced.html', 'https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced');
-            intent = intent.replaceAll('relative-luminance.html', 'https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced');
-            intent = intent.replaceAll('#status-examples', 'https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html#status-examples');
-            intent = intent.replaceAll('#resources', 'https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum#resources');
-            intent = intent.replaceAll('#excepted-examples', 'https://www.w3.org/WAI/WCAG22/Understanding/status-messages#excepted-examples');
-            intent = intent.replaceAll('https://w3c.github.io/html-aam/#accessible-name-and-description-computation', 'https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation');
-            intent = intent.replaceAll('http://https://www.w3.org/WAI/tutorials/carousels', 'https://www.w3.org/WAI/tutorials/carousels')
-            intent = intent.replaceAll(/<a href="(?!http)/g, '<a href="https://www.w3.org/WAI/WCAG22/Understanding/');
-            intent = intent.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
-            
-			intentquote.innerHTML = intent;
-			intentsec.appendChild(intentquote);
-			var subsec = nsec.querySelectorAll("section")[1];
-			if (subsec) nsec.insertBefore(intentsec, subsec);
-			else nsec.appendChild(intentsec);
 		}
 	}
-}
 
 function prepTerm(n) {
 	var nid = n.id;
