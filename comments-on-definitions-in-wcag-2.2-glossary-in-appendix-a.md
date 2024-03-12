@@ -258,7 +258,7 @@ Because relative luminance is defined such that it cannot directly apply to hard
 #### dfn-css-pixel
 
 ##### Applying “CSS pixel” to Non-Web Documents and Software
-<div class="ednote">The WCAG2ICT guidance for this definition is key to understanding and testing several criteria that use CSS pixels to indicate measurements. Are there platforms were the platform-defined density-independent pixel does not approximate a CSS pixel? Are there other well-defined alternatives that could provide a reliable equivalent or alternative measurement? </div>
+<div class="ednote">The WCAG2ICT guidance for this definition is key to understanding and testing several criteria that use CSS pixels to indicate measurements. Are there platforms where the platform-defined density-independent pixel does not approximate a CSS pixel? Are there other well-defined alternatives that could provide a reliable equivalent or alternative measurement? </div>
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
