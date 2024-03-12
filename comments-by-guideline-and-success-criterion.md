@@ -144,6 +144,10 @@ This applies directly as written, and as described in [Intent from Understanding
     
 Content that is only used on hardware with a fixed display orientation OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
 
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
 ##### identify-input-purpose
 
 ###### Applying SC 1.3.5 Identify Input Purpose to Non-Web Documents and Software
@@ -187,11 +191,19 @@ With these substitutions, it would read:
     
 Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content-on-and-off-the-web) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) must meet this success criterion.</div>
 
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
 ##### contrast-minimum
 
 ###### Applying SC 1.4.3 Contrast Minimum to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum#intent).
+
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### resize-text
 
@@ -319,6 +331,10 @@ This Success Criterion only applies to [non-web documents](#document) and [softw
     
 There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This Success Criterion does not require that documents and software implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the Success Criterion requires that content respond appropriately to it.</div>
 
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
 ##### content-on-hover-or-focus
 
 ###### Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software
@@ -394,6 +410,10 @@ Standard exit methods may vary by platform. For example, on many desktop platfor
 
 This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
 
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
 ##### character-key-shortcuts
 
 ###### Applying SC 2.1.4 Character Key Shortcuts to Non-Web Documents and Software
@@ -403,6 +423,10 @@ This applies directly as written, and as described in [Intent from Understanding
 <div class="note">
     
 The WCAG2ICT interpretation is that a long press of a key (2 seconds or more) and other accessibility features provided by the platform do not meet the WCAG definition of a keyboard shortcut. See the [keyboard shortcut](#dfn-keyboard-shortcut) definition for more details.</div>
+
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### enough-time
 
@@ -516,6 +540,10 @@ Although not required by the success criterion, being able to bypass blocks of c
     
 Many software user interface components have built-in mechanisms to navigate directly to / among them, which also have the effect of skipping over or bypassing blocks of content.</div>
 
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
 ##### page-titled
 
 ###### Applying SC 2.4.2 Page Titled to Non-Web Documents and Software
@@ -584,6 +612,10 @@ While some users may find it useful to have multiple ways to locate some groups 
     
 The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from meeting this success criterion—is achieved by the definition of set.</div>
 
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
 ##### headings-and-labels
 
 ###### Applying SC 2.4.6 Headings and Labels to Non-Web Documents and Software
@@ -599,6 +631,10 @@ In [software](#software), headings and labels are used to describe sections of [
 ###### Applying SC 2.4.7 Focus Visible to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.7](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible#intent).
+
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### focus-not-obscured-minimum
 
@@ -674,6 +710,10 @@ This requirement applies to **<INS>[user agents and other [software](#software) 
 <div class="note">
 
 This requirement also applies to **<INS>[[platform software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### label-in-name
 
@@ -852,6 +892,10 @@ See [set of documents](#set-of-documents) and [set of software programs](#set-of
     
 Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
 
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
 ##### consistent-identification
 
 ###### Applying SC 3.2.4 Consistent Identification to Non-Web Documents and Software
@@ -874,6 +918,10 @@ See [set of documents](#set-of-documents) and [set of software programs](#set-of
 <div class="note">
     
 Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
+
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### consistent-help
 
