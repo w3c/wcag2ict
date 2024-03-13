@@ -101,7 +101,7 @@ dd{margin-left:0}
 		
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
-<meta name="revision" content="50e61273bbcbde9aae6c67a0c67511e99ec13c4a">
+<meta name="revision" content="d6f19605595638f2be7b345107c4da7e0bd2d56e">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -208,16 +208,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "50e61273bbcbde9aae6c67a0c67511e99ec13c4a",
-  "publishISODate": "2024-03-12T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 12 March 2024"
+  "gitRevision": "d6f19605595638f2be7b345107c4da7e0bd2d56e",
+  "publishISODate": "2024-03-13T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 13 March 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-03-12">12 March 2024</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-03-13">13 March 2024</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -939,12 +939,12 @@ For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2, the
 <p>See also the <a href="#comments-on-closed-functionality">Comments on Closed Functionality</a>.</p></div></div><p></p>
 </section></section><section id="no-keyboard-trap"><div class="header-wrapper"><h5 id="x6-2-2-3-no-keyboard-trap">2.1.2 No Keyboard Trap</h5><a class="self-link" href="#no-keyboard-trap" aria-label="Permalink for Section 6.2.2.3"></a></div><blockquote class="wcag-quote"><p xmlns="http://www.w3.org/1999/xhtml">If keyboard focus can be moved to a component of the page using a <a>keyboard interface</a>, then focus can be moved away from that component using only a keyboard interface,  and, if it requires more than unmodified arrow or tab keys or other standard exit  methods, the user is advised of the method for moving focus away.  </p><p xmlns="http://www.w3.org/1999/xhtml" class="note">Since any content that does not meet this success criterion can interfere with a user's  ability to use the whole page, all content on the Web page (whether it is used to  meet other success criteria or not) must meet this success criterion. See <a href="https://www.w3.org/TR/WCAG22/#cc5">Conformance Requirement 5: Non-Interference</a>.  </p></blockquote>
 <section id="applying-sc-2-1-2-no-keyboard-trap-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-2-2-3-1-applying-sc-2-1-2-no-keyboard-trap-to-non-web-documents-and-software">Applying SC 2.1.2 No Keyboard Trap to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-2-1-2-no-keyboard-trap-to-non-web-documents-and-software" aria-label="Permalink for Section 6.2.2.3.1"></a></div>
-<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent">Intent from Understanding Success Criterion 2.1.2</a>, replacing “page” and “Web page” with “non-web document or software” and removing “See Conformance Requirement 5: Non-Interference”.</p>
+<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent">Intent from Understanding Success Criterion 2.1.2</a>, replacing “page” with “non-web document or software”, and “on the Web page” with  "in the non-web document or software", and removing “See Conformance Requirement 5: Non-Interference”.</p>
 <p>With these substitutions, it would read:</p>
 <p><strong>2.1.2 No Keyboard Trap:</strong> If keyboard focus can be moved to a component of the <ins><strong>[<a href="#document">non-web document</a> or <a href="#software">software</a>]</strong></ins> using a <a href="#dfn-keyboard-interface">keyboard interface</a>, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away. (Level A)</p>
 <div class="note" role="note" id="issue-container-generatedID-74"><div role="heading" class="note-title marker" id="h-note-69" aria-level="7"><span>Note 1</span></div><div class="">
     
-<p>Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <ins><strong>[<a href="#document">non-web document</a> or <a href="#software">software</a>]</strong></ins>, all content on the <ins><strong>[non-web document or software]</strong></ins> (whether it is used to meet other success criteria or not) must meet this success criterion.</p></div></div><p></p>
+<p>Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <ins><strong>[<a href="#document">non-web document</a> or <a href="#software">software</a>]</strong></ins>, all content <ins><strong>[in the non-web document or software]</strong></ins> (whether it is used to meet other success criteria or not) must meet this success criterion.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-75"><div role="heading" class="note-title marker" id="h-note-70" aria-level="7"><span>Note 2</span></div><div class="">
 
 <p>Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</p></div></div><p></p>
