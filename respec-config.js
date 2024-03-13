@@ -41,9 +41,9 @@ var respecConfig = {
 		},
 		{
 			name: "Phil Day",
-			mailto: "phil.day@ncr.com",
-			company: "NCR",
-			companyURI: "http://www.ncr.com/",
+			mailto: "phil.day@ncratleos.com",
+			company: "NCR Atleos",
+			companyURI: "http://www.ncratleos.com/",
 			w3cid: 139781,
 		}
 	],
