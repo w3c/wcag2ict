@@ -378,7 +378,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.1.2 No Keyboard Trap to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” and “Web page” with “non-web document or software” and removing “See Conformance Requirement 5: Non-Interference”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software”, and “on the Web page” with  "in the non-web document or software", and removing “See Conformance Requirement 5: Non-Interference”.
 
 With these substitutions, it would read:
 
@@ -386,7 +386,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, all content on the <INS>**[non-web document or software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, all content <INS>**[in the non-web document or software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 <div class="note">
 
 Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</div>
