@@ -71,11 +71,8 @@ function prepSec(n) {
 		bq.setAttribute("class", "wcag-quote");
         
         // Make relative URLs absolute
-        var content = n.content.replaceAll("#input-purposes", 'https://www.w3.org/TR/WCAG22/#input-purposes');
-        content = content.replaceAll("#cc5", 'https://www.w3.org/TR/WCAG22/#cc5');        
-        content = content.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
-        
-		bq.innerHTML = content;
+        var content = n.content
+        bq.innerHTML = content;
 		nhead.after(bq);
 		}
 	}
@@ -105,9 +102,7 @@ function prepTerm(n) {
 		bq.setAttribute("class", "wcag-quote");
         
         // Make relative URLs absolute
-        var definition = n.definition.replaceAll("#cc1", 'https://www.w3.org/TR/WCAG22/#cc1');
-        definition = definition.replaceAll("#cc4", 'https://www.w3.org/TR/WCAG22/#cc4');
-        definition = definition.replaceAll("#cc5", 'https://www.w3.org/TR/WCAG22/#cc5');
+        var definition = n.definition
         definition = definition.replaceAll(/<a href="(?!http)/g, '<a href="https://www.w3.org/WAI/WCAG22/Understanding/');
         definition = definition.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
         
