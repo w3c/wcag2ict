@@ -43,7 +43,7 @@ function slugify(string) {
     .replace(/^-+|-+$/g, '')
     .replace(/-+/g, '-')
     .toLowerCase();
-	console.log(string);
+	// console.log(string);
 }
 
 function prepSec(n) {
@@ -80,8 +80,9 @@ function prepSec(n) {
 function prepTerm(n) {
 	var nid = n.id;
 	var nsec = document.querySelector('#' + nid);
+    console.log(nsec);
 	if (nsec) {
-		var nname = n.name[0];
+		var nname = n.name;
 		// get the TOC item
 		var tocitem = document.querySelector('a[class="tocxref"][href="#' + nid + '"]');
 		// last child is the text
@@ -103,11 +104,10 @@ function prepTerm(n) {
         
         // Make relative URLs absolute
         var definition = n.definition
-        definition = definition.replaceAll(/<a href="(?!http)/g, '<a href="https://www.w3.org/WAI/WCAG22/Understanding/');
-        definition = definition.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
-        
-		bq.innerHTML = definition; 
-		nhead.after(bq);
+        // definition = definition.replaceAll(/<a href="(?!http)/g, '<a href="https://www.w3.org/WAI/WCAG22/Understanding/');
+        // definition = definition.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
+        bq.innerHTML = definition; 
+        nhead.after(bq);
 	}
 }
 
