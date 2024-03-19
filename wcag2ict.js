@@ -80,7 +80,6 @@ function prepSec(n) {
 function prepTerm(n) {
 	var nid = n.id;
 	var nsec = document.querySelector('#' + nid);
-    console.log(nsec);
 	if (nsec) {
 		var nname = n.name;
 		// get the TOC item
@@ -257,24 +256,17 @@ function addHeadingIds() {
     heading.setAttribute("id", id);
 	});
 }
-
-function removeNumberingFromHeadings() {
-    // Select all headings in the document
-    var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-
-    // Iterate over each heading
-    for (var i = 0; i < headings.length; i++) {
-        // Use regex to remove numbering from the heading text
-        headings[i].innerText = headings[i].innerText.replace(/^[0-9.]+\s*/, '');
-    }
-}
-function removeNumberingFromTocItemts(tocItems) {
-	tocItems = document.querySelectorAll('ol>li>a>bdi');
-	for (let tocItem of tocItems) {
-	  if (tocItem.textContent.match(/^[0-9.]+/)) {
-		tocItem.textContent = tocItem.textContent.replace(/^[0-9.]+/, '');
-	  }
-	}
+function removeNumbering() {
+    // Select all headings, tocItems, and elements with an aria-label attribute in the document
+    var elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, ol>li>a>bdi, [aria-label]');
+    // Iterate over each element
+    elements.forEach(element => {
+        // Use regex to remove numbering from the text
+        element.textContent = element.textContent.replace(/^[0-9.]+\s*/, '');
+        if (element.hasAttribute("aria-label")) {
+            element.setAttribute("aria-label", "Permalink");
+        }
+    });
 }
 function finalCleanup() {
 	hideDeepNums();
@@ -282,8 +274,7 @@ function finalCleanup() {
 	numberNotes();
 	renumberExamples();
 	addHeadingIds();
-	removeNumberingFromHeadings();
-	removeNumberingFromTocItemts();
+	removeNumbering();
 }
 function postRespec() {
 	return fetchWcagInfo();
