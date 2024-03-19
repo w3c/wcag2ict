@@ -258,7 +258,7 @@ function addHeadingIds() {
 }
 function removeNumbering() {
     // Select all headings, tocItems, and elements with an aria-label attribute in the document
-    var elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, ol>li>a>bdi, [aria-label]');
+    var elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, ol>li>a>bdi, a[aria-label]');
     // Iterate over each element
     elements.forEach(element => {
         // Use regex to remove numbering from the text
