@@ -96,9 +96,9 @@ With these substitutions and addition, it would read:
 
 <DL><DT>accessibility supported</DT><DD>
 
-supported by users' [assistive technologies](#dfn-assistive-technology) as well as the accessibility features in <INS>**[[user agents](#dfn-user-agent) or other [software](#software)]**</INS>
+supported by users' [assistive technologies](#dfn-assistive-technologies) as well as the accessibility features in <INS>**[[user agents](#dfn-user-agents) or other [software](#software)]**</INS>
 
-To qualify as an accessibility-supported use of a <INS>**[[non-web document](#document) or software]**</INS> [technology](#dfn-technology) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>**[non-web document or software]**</INS> technology (or feature):
+To qualify as an accessibility-supported use of a <INS>**[[non-web document](#document) or software]**</INS> [technology](#dfn-technologies) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>**[non-web document or software]**</INS> technology (or feature):
 
 1.  **The way that the <INS>[non-web document or software technology]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of the [content](#content-on-and-off-the-web),
     
@@ -146,7 +146,7 @@ the purpose cannot be determined from the link and all information of the <INS>*
 The word guava in the following sentence “One of the notable exports is guava” is a link. The link could lead to a definition of guava, a chart listing the quantity of guava exported or a photograph of people harvesting guava. Until the link is activated, all readers are unsure and the person with a disability is not at any disadvantage.</div>
 </DD></DL>
 
-#### dfn-assistive-technology
+#### dfn-assistive-technologies
 
 ##### Applying “assistive technology” to Non-Web Documents and Software
 
@@ -179,7 +179,7 @@ Assistive technologies that are important in the context of this document includ
 - alternative pointing devices, which are used by people with certain physical disabilities to simulate mouse pointing and button activations.</div>
 </DD></DL>
 
-#### dfn-changes-of-context
+#### dfn-change-of-context
 
 ##### Applying “changes of context” to Non-Web Documents and Software
 
@@ -193,7 +193,7 @@ major changes in the content of the <INS>**[[non-web document](#document) or [co
 
 Changes in context include changes of:
 
-1.  [user agent](#dfn-user-agent);
+1.  [user agent](#dfn-user-agents);
    
 2.  [viewport](#dfn-viewport);
     
@@ -233,7 +233,7 @@ memorization, such as remembering a username, password, set of characters, image
 
 </DD></DL>
 
-#### dfn-conforming-alternate-version
+#### dfn-conforming-alternate-versions
 
 ##### Applying “conforming alternate version” to Non-Web Documents and Software
 
@@ -255,7 +255,7 @@ This applies directly as written and as described in the WCAG 2 glossary.
 
 Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2 for user-interface components as a category, because the basic constructs on which the WCAG 2 and / or its conformance are built do not apply to these.”
 
-#### dfn-css-pixel
+#### dfn-css-pixels
 
 ##### Applying “CSS pixel” to Non-Web Documents and Software
 <div class="ednote">The WCAG2ICT guidance for this definition is key to understanding and testing several criteria that use CSS pixels to indicate measurements. Are there platforms where the platform-defined density-independent pixel does not approximate a CSS pixel? Are there other well-defined alternatives that could provide a reliable equivalent or alternative measurement? </div>
@@ -333,7 +333,7 @@ This applies directly as written and as described in the WCAG 2 glossary.
 
 Please see the note in the [Applying SC 2.1.1 Keyboard](#applying-sc-2-1-1-keyboard-to-non-web-documents-and-software) section that uses this definition and which reads: “This does not imply that software always needs to directly support a keyboard or ‘keyboard interface’. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
 
-#### dfn-keyboard-shortcut
+#### dfn-keyboard-shortcuts
 
 ##### Applying “keyboard shortcut” to Non-Web Documents and Software
 
@@ -343,7 +343,7 @@ This applies directly as written and as described in the WCAG 2 glossary.
 
 A key command issued by a long press of a key (2 seconds or more) and other accessibility features provided by the platform are not considered a keyboard shortcut. Such commands often occur when there are limited keys, or no modifier keys, present on a device.</div>
 
-#### dfn-label
+#### dfn-labels
 
 ##### Applying “label” to Non-Web Documents and Software
 
@@ -376,7 +376,7 @@ text by which software can identify a component within <INS>**[[content](#conten
 
 <div class="note">
 
-The name may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of software]**</INS>, whereas a [label](#dfn-label) is presented to all users. In many (but not all) cases, the label and the name are the same.</div>
+The name may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of software]**</INS>, whereas a [label](#dfn-labels) is presented to all users. In many (but not all) cases, the label and the name are the same.</div>
 <div class="note">
 
 This is unrelated to the name attribute in HTML.</div>
@@ -405,7 +405,7 @@ The perimeter calculation for a 2 **<INS>[platform-defined density-independent p
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
 </DD></DL>
 
-#### dfn-programmatically-determined
+#### dfn-programmatically-determinable
 
 ##### Applying “programmatically determined” to Non-Web Documents and Software
 
@@ -415,7 +415,7 @@ With this substitution, it would read:
 
 <DL><DT>programmatically determined (programmatically determinable)</DT><DD>
 
-determined by [software](#software) from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technology) and accessibility features of software]**</INS>, can extract and present this information to users in different modalities
+determined by [software](#software) from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>, can extract and present this information to users in different modalities
 
 <div class="example">
 
@@ -438,7 +438,7 @@ With this substitution, it would read:
 
 <DL><DT>programmatically set</DT><DD>
 
-set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technology) and accessibility features of software]**</INS>
+set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>
 
 </DD></DL><div class="note">
 
@@ -525,7 +525,7 @@ A submit “search” button on one web page and a “find” button on another 
 
 A ribbon icon that saves the document that looks like an arrow pointing into a folder in one case, and an arrow pointing into a hard drive in another. In this case as well, they would have the same functionality but would not be labeled consistently.</div></DD></DL>
 
-#### dfn-satisfies-a-success-criterion
+#### dfn-satisfies
 
 ##### Applying “satisfies a success criterion” to Non-Web Documents and Software
 
@@ -569,7 +569,7 @@ With these substitutions, it would read:
 
 See the guidance on [sets of documents](#set-of-documents) and [sets of software programs](#set-of-software-programs) in the Key Terms section.</div>
 
-#### dfn-style-property
+#### dfn-style-properties
 
 #####  Applying “style property” to Non-Web Documents and Software
 
@@ -588,7 +588,7 @@ Style properties can have several origins:
 - **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other software]**</INS> interface settings)
 </DD></DL>
 
-#### dfn-target
+#### dfn-targets
 
 #####  Applying “target” to Non-Web Documents and Software
 This applies directly as written and as described in the WCAG 2 glossary, replacing “page” with “non-web document or content presented by software”.
@@ -603,7 +603,7 @@ region of the display that will accept a pointer action, such as the interactive
     
 If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>**[[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS>.</div></DD></DL>
 
-#### dfn-technology
+#### dfn-technologies
 
 ##### Applying “technology” to Non-Web Documents and Software
 
@@ -629,13 +629,13 @@ This applies directly as written and as described in the WCAG 2 glossary.
     
 The up-event may have different names on different platforms, such as <INS>**[“PointerReleased” or “mouseup”]**</INS>.</div>
 
-#### dfn-user-agent
+#### dfn-user-agents
 
 ##### Applying “user agent” to Non-Web Documents and Software
 
 See the [guidance on user agent in the Key Terms section](#user-agent).
 
-#### dfn-user-interface-component
+#### dfn-user-interface-components
 
 ##### Applying “user interface component” to Non-Web Documents and Software
 
@@ -681,7 +681,7 @@ The <INS>**[software]**</INS> presents content through one or more viewports. Vi
 This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](http://www.w3.org/TR/WAI-USERAGENT/glossary.html).</div>
 </DD></DL>
 
-#### dfn-web-page
+#### dfn-web-page-s
 
 ##### Applying “Web Page” to Non-Web Documents and Software
 

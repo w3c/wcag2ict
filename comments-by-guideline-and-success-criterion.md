@@ -216,7 +216,7 @@ This applies directly as written, and as described in [Intent from Understanding
 [Content](#content-on-and-off-the-web) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</div>
 <div class="note">
     
-The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technology). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
+The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
 <div class="note">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -248,8 +248,8 @@ With these substitutions, it would read:
 
 >Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:
 >
->- Vertical scrolling content at a width equivalent to 320 [CSS pixels](#dfn-css-pixel);
->- Horizontal scrolling content at a height equivalent to 256 [CSS pixels](#dfn-css-pixel).
+>- Vertical scrolling content at a width equivalent to 320 [CSS pixels](#dfn-css-pixels);
+>- Horizontal scrolling content at a height equivalent to 256 [CSS pixels](#dfn-css-pixels).
 
 Except for parts of the content which require two-dimensional layout for usage or meaning.
 
@@ -302,7 +302,7 @@ With these substitutions, it would read:
 
 >The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
 >
->- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-component) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[user agent or platform software]**</INS> and not modified by the author;
+>- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-components) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[user agent or platform software]**</INS> and not modified by the author;
 >
 >- **Graphical Objects:** Parts of graphics required to understand the content, except when a particular presentation of graphics is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.
 
@@ -422,7 +422,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-The WCAG2ICT interpretation is that a long press of a key (2 seconds or more) and other accessibility features provided by the platform do not meet the WCAG definition of a keyboard shortcut. See the [keyboard shortcut](#dfn-keyboard-shortcut) definition for more details.</div>
+The WCAG2ICT interpretation is that a long press of a key (2 seconds or more) and other accessibility features provided by the platform do not meet the WCAG definition of a keyboard shortcut. See the [keyboard shortcut](#dfn-keyboard-shortcuts) definition for more details.</div>
 
 <div class="note">
     
@@ -767,7 +767,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-The size of the [target](#dfn-target) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixel), except where:
+The size of the [target](#dfn-targets) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixels), except where:
 
 - **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
 - **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
@@ -817,11 +817,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determined). (Level A)
+**3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable). (Level A)
 
 <div class="note">
     
-Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would comply with this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [software](#software) would also comply with this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technology) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to meet this success criterion in that locale / language.</div>
+Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would comply with this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [software](#software) would also comply with this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technologies) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to meet this success criterion in that locale / language.</div>
 <div class="note">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -834,7 +834,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**3.1.2 Language of Parts:** The [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of each passage or phrase in the <INS>**[[non-web document](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determined) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. (Level AA)
+**3.1.2 Language of Parts:** The [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of each passage or phrase in the <INS>**[[non-web document](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. (Level AA)
 
 <div class="note">
     
@@ -861,7 +861,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-Some compound documents and their user agents are designed to provide significantly different viewing and editing functionality depending upon what portion of the compound document is being interacted with (e.g. a presentation that contains an embedded spreadsheet, where the menus and toolbars of the user agent change depending upon whether the user is interacting with the presentation content, or the embedded spreadsheet content). If the user uses a mechanism other than putting focus on that portion of the compound document with which they mean to interact (e.g. by a menu choice or special keyboard gesture), any resulting [change of context](#dfn-changes-of-context) wouldn't be subject to this success criterion because it was not caused by a change of focus.</div>
+Some compound documents and their user agents are designed to provide significantly different viewing and editing functionality depending upon what portion of the compound document is being interacted with (e.g. a presentation that contains an embedded spreadsheet, where the menus and toolbars of the user agent change depending upon whether the user is interacting with the presentation content, or the embedded spreadsheet content). If the user uses a mechanism other than putting focus on that portion of the compound document with which they mean to interact (e.g. by a menu choice or special keyboard gesture), any resulting [change of context](#dfn-change-of-context) wouldn't be subject to this success criterion because it was not caused by a change of focus.</div>
 
 ##### on-input
 
@@ -1039,7 +1039,7 @@ In WCAG 2, the Principles are provided for framing and understanding the success
 
 With this substitution, it would read:
 
-Principle 4: Robust - Content must be robust enough that it can be interpreted reliably by a wide variety of <INS>**[[assistive technologies](#dfn-assistive-technology) and accessibility features of software]**</INS>.
+Principle 4: Robust - Content must be robust enough that it can be interpreted reliably by a wide variety of <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
 
 #### compatible
 
@@ -1049,7 +1049,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 With this substitution, it would read:
 
-Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**[[assistive technologies](#dfn-assistive-technology) and accessibility features of software]**</INS>.
+Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
 
 ##### parsing
 
@@ -1082,7 +1082,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-component) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determined); states, properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technology). (Level A)
+**4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-components) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determinable); states, properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technologies). (Level A)
 
 <div class="note">
     

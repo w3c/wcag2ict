@@ -102,12 +102,12 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria)
     * added to [Glossary Items with Specific Guidance](#glossary-items-with-specific-guidance): 
         * [cognitive function test](#dfn-cognitive-function-test)
-        * [css pixel](#dfn-css-pixel)
+        * [css pixel](#dfn-css-pixels)
         * [down event](#dfn-down-event)
-        * [keyboard shortcut](#dfn-keyboard-shortcut)
+        * [keyboard shortcut](#dfn-keyboard-shortcuts)
         * [perimeter](#dfn-perimeter)
-        * [style property](#dfn-style-property)
-        * [target](#dfn-target)
+        * [style property](#dfn-style-properties)
+        * [target](#dfn-targets)
         * [up event](#dfn-up-event)
 * Updated terms
     * [set of web pages](#dfn-set-of-web-pages)

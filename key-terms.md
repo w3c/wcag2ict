@@ -21,7 +21,7 @@ The term **closed functionality**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>closed functionality (as used in WCAG2ICT)</DT><DD>
   
-a property or characteristic that prevents users from attaching, installing, or using [assistive technology](#dfn-assistive-technology)</DD></DL>
+a property or characteristic that prevents users from attaching, installing, or using [assistive technology](#dfn-assistive-technologies)</DD></DL>
 <div class="note">
   
 <p>To support users with disabilities, products with closed functionality might instead provide built-in features that function as assistive technology or use other mechanisms to make the technology accessible.</p></div>
@@ -143,7 +143,7 @@ Consistent does not mean identical. For example, if a list of choices is provide
 If a member of the set is separated from the set, it is no longer part of a set, and would be evaluated as any other individual software program.</div>
 <div class="note">
 
-Any software program that is not part of a set, per this definition, would automatically [satisfy any success criterion](#dfn-satisfies-a-success-criterion) that is specified to apply to “sets of” software (as is true for any success criterion that is scoped to only apply to some other type of content).</div>
+Any software program that is not part of a set, per this definition, would automatically [satisfy any success criterion](#dfn-satisfies) that is specified to apply to “sets of” software (as is true for any success criterion that is scoped to only apply to some other type of content).</div>
 <div class="note">
 
 If there is any ambiguity whether the group is a set, then the group is not a set.</div>
@@ -193,7 +193,7 @@ WCAG 2 defines **user agent** as:
 </DD></DL>
 <div class="example">
 
->Web browsers, media players, plug-ins, and other programs—including [assistive technologies](#dfn-assistive-technology)—that help in retrieving, rendering, and interacting with Web content.</div>
+>Web browsers, media players, plug-ins, and other programs—including [assistive technologies](#dfn-assistive-technologies)—that help in retrieving, rendering, and interacting with Web content.</div>
 For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2, the term “user agent” only refers to retrieval and display of web content. For non-web ICT, the term “user agent” refers to retrieval and display of separate content that is _not on the Web_, which WCAG2ICT refers to as a “document”. Within WCAG2ICT, the term “user agent” is used as follows:
 
 <DL><DT>user agent (as used in WCAG2ICT)</DT><DD>
