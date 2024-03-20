@@ -258,14 +258,19 @@ function addHeadingIds() {
 }
 function removeNumbering() {
     // Select all headings, tocItems, and elements with an aria-label attribute in the document
-    var elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, ol>li>a>bdi, a[aria-label]');
+    var elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
     // Iterate over each element
     elements.forEach(element => {
         // Use regex to remove numbering from the text
         element.textContent = element.textContent.replace(/^[0-9.]+\s*/, '');
-        if (element.hasAttribute("aria-label")) {
-            element.setAttribute("aria-label", "Permalink");
+        if (element.nextElementSibling.hasAttribute("aria-label")) {
+            element.nextSibling.setAttribute("aria-label", "Permalink for Section " + element.textContent);
         }
+    });
+    // update tocItems
+    var tocItems = document.querySelectorAll('a[class="tocxref"]');
+    tocItems.forEach(tocItem => {
+        tocItem.textContent = tocItem.textContent.replace(/^[0-9.]+\s*/, '');
     });
 }
 function finalCleanup() {
