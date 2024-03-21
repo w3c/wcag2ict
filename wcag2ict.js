@@ -43,7 +43,7 @@ function slugify(string) {
     .replace(/^-+|-+$/g, '')
     .replace(/-+/g, '-')
     .toLowerCase();
-	console.log(string);
+	// console.log(string);
 }
 
 function prepSec(n) {
@@ -71,11 +71,8 @@ function prepSec(n) {
 		bq.setAttribute("class", "wcag-quote");
         
         // Make relative URLs absolute
-        var content = n.content.replaceAll("#input-purposes", 'https://www.w3.org/TR/WCAG22/#input-purposes');
-        content = content.replaceAll("#cc5", 'https://www.w3.org/TR/WCAG22/#cc5');        
-        content = content.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
-        
-		bq.innerHTML = content;
+        var content = n.content
+        bq.innerHTML = content;
 		nhead.after(bq);
 		}
 	}
@@ -84,7 +81,7 @@ function prepTerm(n) {
 	var nid = n.id;
 	var nsec = document.querySelector('#' + nid);
 	if (nsec) {
-		var nname = n.name[0];
+		var nname = n.name;
 		// get the TOC item
 		var tocitem = document.querySelector('a[class="tocxref"][href="#' + nid + '"]');
 		// last child is the text
@@ -105,14 +102,11 @@ function prepTerm(n) {
 		bq.setAttribute("class", "wcag-quote");
         
         // Make relative URLs absolute
-        var definition = n.definition.replaceAll("#cc1", 'https://www.w3.org/TR/WCAG22/#cc1');
-        definition = definition.replaceAll("#cc4", 'https://www.w3.org/TR/WCAG22/#cc4');
-        definition = definition.replaceAll("#cc5", 'https://www.w3.org/TR/WCAG22/#cc5');
-        definition = definition.replaceAll(/<a href="(?!http)/g, '<a href="https://www.w3.org/WAI/WCAG22/Understanding/');
-        definition = definition.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
-        
-		bq.innerHTML = definition; 
-		nhead.after(bq);
+        var definition = n.definition
+        // definition = definition.replaceAll(/<a href="(?!http)/g, '<a href="https://www.w3.org/WAI/WCAG22/Understanding/');
+        // definition = definition.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
+        bq.innerHTML = definition; 
+        nhead.after(bq);
 	}
 }
 
@@ -262,24 +256,22 @@ function addHeadingIds() {
     heading.setAttribute("id", id);
 	});
 }
-
-function removeNumberingFromHeadings() {
-    // Select all headings in the document
-    var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-
-    // Iterate over each heading
-    for (var i = 0; i < headings.length; i++) {
-        // Use regex to remove numbering from the heading text
-        headings[i].innerText = headings[i].innerText.replace(/^[0-9.]+\s*/, '');
-    }
-}
-function removeNumberingFromTocItemts(tocItems) {
-	tocItems = document.querySelectorAll('ol>li>a>bdi');
-	for (let tocItem of tocItems) {
-	  if (tocItem.textContent.match(/^[0-9.]+/)) {
-		tocItem.textContent = tocItem.textContent.replace(/^[0-9.]+/, '');
-	  }
-	}
+function removeNumbering() {
+    // Select all headings, tocItems, and elements with an aria-label attribute in the document
+    var elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+    // Iterate over each element
+    elements.forEach(element => {
+        // Use regex to remove numbering from the text
+        element.textContent = element.textContent.replace(/^[0-9.]+\s*/, '');
+        if (element.nextElementSibling.hasAttribute("aria-label")) {
+            element.nextSibling.setAttribute("aria-label", "Permalink for Section " + element.textContent);
+        }
+    });
+    // update tocItems
+    var tocItems = document.querySelectorAll('a[class="tocxref"]');
+    tocItems.forEach(tocItem => {
+        tocItem.textContent = tocItem.textContent.replace(/^[0-9.]+\s*/, '');
+    });
 }
 function finalCleanup() {
 	hideDeepNums();
@@ -287,8 +279,7 @@ function finalCleanup() {
 	numberNotes();
 	renumberExamples();
 	addHeadingIds();
-	removeNumberingFromHeadings();
-	removeNumberingFromTocItemts();
+	removeNumbering();
 }
 function postRespec() {
 	return fetchWcagInfo();
