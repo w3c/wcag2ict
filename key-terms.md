@@ -18,8 +18,9 @@ The term **accessibility services of platform software**, as used in WCAG2ICT, h
 
 The term **closed functionality**, as used in WCAG2ICT, has the meaning below:
 
-> a property or characteristic that prevents users from attaching, installing, or using [assistive technology](#dfn-assistive-technology)
-
+<DL><DT>closed functionality (as used in WCAG2ICT)</DT><DD>
+  
+a property or characteristic that prevents users from attaching, installing, or using [assistive technology](#dfn-assistive-technologies)</DD></DL>
 <div class="note">
 	<p>To support users with disabilities, products with closed functionality might instead provide built-in features that function as assistive technology or use other mechanisms to make the technology accessible.</p>
 </div>
@@ -124,8 +125,8 @@ The term **set of software programs**, as used in WCAG2ICT, has the meaning belo
 	<p>Consistent does not mean identical.  For example, if a list of choices is provided it might not include the name of the current program.</p>
 </div>
 <div class="note">
-	<p>If a member of the set is separated from the set, it is no longer part of a set, and would be evaluated as any other individual software program.</p>
-</div>
+
+Any software program that is not part of a set, per this definition, would automatically [satisfy any success criterion](#dfn-satisfies) that is specified to apply to “sets of” software (as is true for any success criterion that is scoped to only apply to some other type of content).</div>
 <div class="note">
 	<p>Any software program that is not part of a set, per this definition, would automatically [satisfy any success criterion](#dfn-satisfies-a-success-criterion) that is specified to apply to “sets of” software (as is true for any success criterion that is scoped to only apply to some other type of content).</p>
 </div>
