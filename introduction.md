@@ -31,10 +31,16 @@ While WCAG 2 was designed to be technology-neutral, it assumes the presence of a
 
 The Task Force found that the majority of success criteria from WCAG 2 can apply to non-web documents and software with either no or minimal changes. Since many of the Level A and AA success criteria do not include any web related terms, they apply directly as written and as described in the “Intent” sections from the [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\] resource. Additional notes were provided, as needed, to provide assistance in applying them to non-web documents and software.
 
+#### Interpretation of Web Terminology in a Non-web Context
+
 When certain Web-specific terms or phrases like “web page(s)” were used in success criteria, those were replaced with non-web terms or phrases like “non-web document(s) and software”. Additional notes were also provided to explain the terminology replacements.
 
 A small number of success criteria are written to apply to “a set of web pages” or “multiple web pages” and require all pages in the set to share some characteristic or behavior. Since the unit of conformance in WCAG 2 is a single web page, the task force agreed that the equivalent unit of conformance for non-web documents is a single document. It follows that an equivalent unit of evaluation for a “set of web pages” would be a ”set of documents”. Since it isn't possible to unambiguously carve up non-web software into discrete pieces, a single “web page” was equated to a “software program” and a “set of web pages” was equated to a “set of software programs.  Both of these new terms are defined in the Key Terms section of this document. See “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” to determine when a group of documents or pieces of software are considered a set. 
-<div class="note">Sets of software that meet this definition appear to be extremely rare.</div>
+<div class="note">
+  
+Sets of software that meet this definition appear to be extremely rare.</div>
+
+Not all success criteria have been fully adopted in all local regulations and legislation, and may not be applicable to all technologies. WCAG2ICT was also used to determine whether or not to apply certain success criteria. For example, some local standards such as Section 508 in the US, and EN 301 549 in Europe, state that non-Web documents and non-Web software do not need to comply with WCAG 2.0 Success Criteria 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification. In addition, EN 301 549 also states that non-Web software does not need to comply with 2.4.2 Page titled and 3.1.2 Language of parts. Regulators should consider the applicability of individual success criteria to non-web documents and software.
 
 The glossary terms were also reviewed and most of them applied to non-Web documents and software, as written. Some applied with additional notes or edits (largely related to phrases like “Web page(s)”), and a small number of terms were only used in Level AAA success criteria which are not addressed by the WCAG2ICT Note at this time.
 
