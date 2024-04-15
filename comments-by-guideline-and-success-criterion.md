@@ -1073,7 +1073,7 @@ WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other s
 
 <div class="note">
     
-NOTE 2: Similar to Web content, 4.1.1 Parsing should not be applied as a requirement for non-web documents and software. This is due to the limitation that either assistive technology does not directly parse (either directly or through any Document Object Model (DOM) or DOM-like structure) the non-web document or software markdown for accessibility information and/or content is not exposed for external testing or probing. Instead, user agents and platforms use platform accessibility APIs to present accessibility information to AT.</div>
+Similar to Web content, 4.1.1 Parsing should not be applied as a requirement for non-web documents and software. This is due to the limitation that either assistive technology does not directly parse (either directly or through any Document Object Model (DOM) or DOM-like structure) the non-web document or software markdown for accessibility information and/or content is not exposed for external testing or probing. Instead, user agents and platforms use platform accessibility APIs to expose accessibility information to assistive technology.</div>
 
 <div class="note">
 
