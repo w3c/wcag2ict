@@ -1063,15 +1063,21 @@ WCAG 2.2 has made this success criterion obsolete and removed it as a requiremen
 
 WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software is to follow the new guidance provided in the [WCAG 2.0 Editorial Errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) and the [WCAG 2.1 Editorial Errata](https://www.w3.org/WAI/WCAG21/errata/#editorial) which states the following:
 
->This Success Criterion should be considered as always satisfied for any content using HTML or XML.
+>Success Criterion 4.1.1 was originally adopted to address problems that assistive technology had directly parsing HTML. Since this criterion was written, the HTML Standard has adopted specific requirements governing how user agents must handle incomplete tags, incorrect element nesting, duplicate attributes, and non-unique IDs.
+>
+>Although the HTML Standard treats some of these cases as non-conforming for authors, it is considered to "allow these features" for the purposes of this Success Criterion because the specification requires that user agents support handling these cases consistently. In practice, this criterion no longer provides any benefit to people with disabilities in itself.
+>
+>Issues such as missing roles due to inappropriately nested elements or incorrect states or names due to a duplicate ID are covered by different Success Criteria and should be reported under those criteria rather than as issues with 4.1.1.
+>
+>This criterion should be considered as always satisfied for any content using HTML or XML.
 
 <div class="note">
     
-As in Web content, 4.1.1 Parsing is not known to have any effect on the accessibility of non-web documents or software. There are no known examples of non-web documents or software that would have an issue such as those covered by 4.1.1 Parsing. Modern assistive technology does not parse document or software markdown languages for accessibility information. User agents and platforms used to render non-web documents and software use platform accessibility APIs to present accessibility information to AT. Therefore, 4.1.1 Parsing would no longer be a requirement for accessibility.</div>
+NOTE 2: Similar to Web content, 4.1.1 Parsing should not be applied as a requirement for non-web documents and software. This is due to the limitation that either assistive technology does not directly parse (either directly or through any Document Object Model (DOM) or DOM-like structure) the non-web document or software markdown for accessibility information and/or content is not exposed for external testing or probing. Instead, user agents and platforms use platform accessibility APIs to present accessibility information to AT.</div>
 
 <div class="note">
 
-Where an existing standard requires 4.1.1 parsing for non-web documents and software, this Success Criterion would be automatically satisfied.</div>
+Where an existing standard requires 4.1.1 Parsing for non-web documents and software, this Success Criterion would be automatically satisfied. Accessibility issues introduced through poor markup would surface as errors in the programmatic information and reported using success criteria that rely on that information, such as 1.3.1 Info and Relationships and 4.1.2 Name, Role, Value.</div>
 
 ##### name-role-value
 
