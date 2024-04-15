@@ -282,10 +282,9 @@ Non-web software will have more frequent cases where two-dimensional layout is r
 
 <div class="note">
 
-If the content technology and platform software do not support reflow, it may not be possible for non-web software to meet this success criterion, meaning the software application would then fail this success criterion.</div>
-<div class="note">
+As written, this success criterion can only be met by non-web documents or software where the underlying user agent or platform can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.
 
-Certain platforms do not support adjusting viewports to an equivalent of 320 CSS pixels wide or 256 CSS pixels high. Likewise, some platforms have limitations on zooming as high as 400% for the larger measurements of 1280 CSS pixels wide or 1024 CSS pixels high. In such cases, implement and evaluate at the nearest possible equivalent size to what the Reflow success criterion specifies.</div>
+When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to persons with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</div>
 <div class="note">
 
 Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported.</div>
