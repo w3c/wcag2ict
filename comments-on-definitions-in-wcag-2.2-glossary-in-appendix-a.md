@@ -72,7 +72,7 @@ The following glossary items apply to all technologies and do not require furthe
 
 ### Glossary Items Used only in AAA Success Criteria
 
-This document does not provide guidance on applying AAA Success Criteria to non-web ICT, including the following definitions.
+This document does not provide guidance on applying AAA success criteria to non-web ICT, including the following definitions.
 
 *   blocks of text
 *   context-sensitive help
