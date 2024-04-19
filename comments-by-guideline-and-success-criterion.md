@@ -321,14 +321,14 @@ This applies directly as  written and as described in [Intent from Understanding
 
 <div class="note">
 
-This Success Criterion only applies to [non-web documents](#document) and [software](#software) that are implemented using markup languages and allow the user to modify these text spacing properties.</div>
+This success criterion only applies to [non-web documents](#document) and [software](#software) that are implemented using markup languages and allow the user to modify these text spacing properties.</div>
 <div class="note">
 
 "Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in [Electron](https://www.electronjs.org/) applications or iOS application Web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
 
 <div class="note">
     
-There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This Success Criterion does not require that documents and software implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the Success Criterion requires that content respond appropriately to it.</div>
+There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not require that documents and software implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
 
 <div class="note">
     
@@ -534,7 +534,7 @@ See [set of documents](#set-of-documents) and [set of software programs](#set-of
 Individual documents or software programs (not in a set) would automatically meet this success criterion because this success criterion applies only to things that appear in a set.</div>
 <div class="note">
     
-Although not required by the success criterion, being able to bypass blocks of content that are repeated _within_ non-web documents or software directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
+Although not required by the success criterion, being able to bypass blocks of content that are repeated _within_ non-web documents or software directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
 <div class="note">
     
 Many software user interface components have built-in mechanisms to navigate directly to / among them, which also have the effect of skipping over or bypassing blocks of content.</div>
@@ -603,7 +603,7 @@ See [set of documents](#set-of-documents) and [set of software programs](#set-of
 The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in the Key Terms section of the Introduction are predicated on the ability to navigate from each element of the set to each other, and navigation is a type of locating. So the mechanism used to navigate between elements of the set will be one way of locating information in the set. Non-web environments, generally major operating systems with browse and search capabilities, often provide infrastructure and tools that provide mechanisms for locating content in a set of non-web documents or a set of software programs. For example, it may be possible to browse through the files or programs that make up a set, or search within members of the set for the names of other members. A file directory would be the equivalent of a site map for documents in a set, and a search function in a file system would be equivalent to a web search function for web pages. Such facilities may provide additional ways of locating information in the set.</div>
 <div class="note">
     
-An example of the use of “a software program that is part of process”, that would meet the exception for this Success Criterion, would be one where programs are interlinked but the interlinking depends on program A being used before program B, for validation or to initialize the dataset etc.</div>
+An example of the use of “a software program that is part of process”, that would meet the exception for this success criterion, would be one where programs are interlinked but the interlinking depends on program A being used before program B, for validation or to initialize the dataset etc.</div>
 <div class="note">
     
 While some users may find it useful to have multiple ways to locate some groups of user interface elements within a document or software program, this is not required by the success criterion (and may pose difficulties in some situations).</div>
@@ -889,7 +889,7 @@ With these substitutions, this success criterion would read:
 See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div>
 <div class="note">
     
-Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
+Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
 
 <div class="note">
     
@@ -916,7 +916,7 @@ With these substitutions, this success criterion would read:
 See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div>
 <div class="note">
     
-Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this Success Criterion, and is generally considered best practice.</div>
+Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
 
 <div class="note">
     
@@ -942,7 +942,7 @@ If a **<INS>[[non-web document](#document) or [software](#software)]</INS>** con
 Help mechanisms may be provided directly **<INS>[in the non-web document or software]</INS>**, or may be provided via a direct link to a **<INS>[different non-web document, software, or Web page]</INS>** containing the information.</div>
 <div class="note">
     
-For this Success Criterion, "the same order relative to other **<INS>[content]</INS>**" can be thought of as how the content is ordered when the **<INS>[non-web document or software content is serialized]</INS>**. The visual position of a help mechanism is likely to be consistent across **<INS>[non-web documents or software]</INS>** for the same **<INS>[content layout variation]</INS>** (e.g., CSS break-point). The user can initiate a change, such as changing the **<INS>[non-web document’s or software's]</INS>** zoom or orientation, which may trigger a different **<INS>[content layout variation]</INS>**. This criterion is concerned with relative order across **<INS>[non-web documents or software]</INS>** displayed in the same **<INS>[content layout variation]</INS>** (e.g., same zoom level and orientation).</div>
+For this success criterion, "the same order relative to other **<INS>[content]</INS>**" can be thought of as how the content is ordered when the **<INS>[non-web document or software content is serialized]</INS>**. The visual position of a help mechanism is likely to be consistent across **<INS>[non-web documents or software]</INS>** for the same **<INS>[content layout variation]</INS>** (e.g., CSS break-point). The user can initiate a change, such as changing the **<INS>[non-web document’s or software's]</INS>** zoom or orientation, which may trigger a different **<INS>[content layout variation]</INS>**. This criterion is concerned with relative order across **<INS>[non-web documents or software]</INS>** displayed in the same **<INS>[content layout variation]</INS>** (e.g., same zoom level and orientation).</div>
 <div class="note">
     
 See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or pieces of software is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div>
