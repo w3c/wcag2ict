@@ -3,7 +3,7 @@
 ### Background
 This document is an update to a W3C [Working Group Note](https://www.w3.org/2005/10/Process-20051014/tr#WGNote) to incorporate new guidelines, success criteria, and definitions added in WCAG 2.1 and 2.2. 
 
-[Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/2013/NOTE-wcag2ict-20130905/), approved in September 2013, described how WCAG 2.0 could be applied to non-web documents and software. WCAG2ICT was organized to mirror WCAG's sections: Perceivable, Operable, Understandable, and Robust.  WCAG2ICT clarified when and how WCAG success criteria should be applied to non-web documents and software.  Some were applicable without modification and some were applicable with edits and/or notes.  Glossary terms were also reviewed. Level AAA Success Criteria were not addressed in the 2013 WCAG2ICT Working Group Note. 
+[Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/2013/NOTE-wcag2ict-20130905/), approved in September 2013, described how WCAG 2.0 could be applied to non-web documents and software. WCAG2ICT was organized to mirror WCAG's sections: Perceivable, Operable, Understandable, and Robust.  WCAG2ICT clarified when and how WCAG success criteria should be applied to non-web documents and software.  Some were applicable without modification and some were applicable with edits and/or notes.  Glossary terms were also reviewed. Level AAA success criteria were not addressed in the 2013 WCAG2ICT Working Group Note. 
 
 The 2013 WCAG2ICT has been relied upon in regulations and legislation.  One example is EN 301 549[^1] (Europe) and other standards that reference or incorporate EN 301 549 (e.g., India, Kenya, Australia).  Another example is Section 508 (U.S.) [Application of WCAG 2.0 to Non-Web ICT](https://www.federalregister.gov/documents/2017/01/18/2017-00395/information-and-communication-technology-ict-standards-and-guidelines#h-36), which looked to WCAG2ICT for detailed direction with providing specific guidance and exceptions to particular criteria from being applied to non-web technology.  Section 508 incorporated by reference WCAG as the [Accessibility Standard applicable to non-web documents](https://www.access-board.gov/ict/#E205.4) and requires [WCAG Conformance for non-web software](https://www.access-board.gov/ict/#E207.2).
 
@@ -74,7 +74,7 @@ The following stylistic conventions are used in this document:
 The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2), and the change to 4.1.1 Parsing listed in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1) section:
 
 * New [Background](#background) section to explain the history and known uses of WCAG2ICT
-* New WCAG 2.1 Success Criteria and Guidelines
+* New WCAG 2.1 success criteria and guidelines
     * [Success Criterion 1.3.4 Orientation](#orientation)
     * [Success Criterion 1.3.5 Identify Input Purpose](#identify-input-purpose)
     * [Success Criterion 1.4.10 Reflow](#reflow)
@@ -88,14 +88,14 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 2.5.3 Label in Name](#label-in-name)
     * [Success Criterion 2.5.4 Motion Actuation](#motion-actuation)
     * [Success Criterion 4.1.3 Status Messages](#status-messages)
-* New WCAG 2.2 Success Criteria
+* New WCAG 2.2 success criteria
     * [Success Criterion 2.4.11 Focus Not Obscured (Minimum)](#focus-not-obscured-minimum)
     * [Success Criterion 2.5.7 Dragging Movements](#dragging-movements)
     * [Success Criterion 2.5.8 Target Size (Minimum)](#target-size-minimum)
     * [Success Criterion 3.2.6 Consistent Help](#consistent-help)
     * [Success Criterion 3.3.7 Redundant Entry](#redundant-entry)
     * [Success Criterion 3.3.8 Accessible Authentication](#accessible-authentication-minimum)
-* Obsolete and Removed WCAG 2.2 Success Criteria that have errata for WCAG 2.0 and 2.1
+* Obsolete and Removed WCAG 2.2 success criteria that have errata for WCAG 2.0 and 2.1
     * [Success Criterion 4.1.1 Parsing](#parsing)
 * New terms from WCAG 2.1 and 2.2
     * dragging movements, encloses, focus indicator, minimum bounding box, pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
