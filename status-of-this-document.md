@@ -10,4 +10,6 @@ The group is seeking feedback on the following aspects that were added or have s
 - Updates to the closed functionality guidance in the [Comments on Closed Functionality](#comments-on-closed-functionality) and [Appendix A. Success Criteria Problematic for Closed Functionality](#success-criteria-problematic-for-closed-functionality) sections
 - WCAG2ICT key term definitions added in this draft: [menu-driven interface](#menu-driven-interface), [closed functionality](#closed-functionality)
 
-Once public comments submitted for this publication of the WCAG2ICT Draft Working Group Note are addressed, the intent is for the next publication of this document to be a finalized W3C Working Group Note.</div>
+This is the planned last draft before we publish this as a W3C Working Group Note.
+
+</div>
