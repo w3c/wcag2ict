@@ -2,7 +2,7 @@ Comments by Guideline and Success Criterion
 -------------------------------------------
 <div class="ednote">
 
-The WCAG2ICT Task Force has added draft guidance for all of the Level A and AA success criteria (SC)  that are new in WCAG 2.1. There are placeholders for new WCAG 2.2 level A and AA success criteria, labeled with, "This section is to be developed by the WCAG2ICT Task Force." This guidance will be delivered in a later draft.</div>
+The WCAG2ICT Task Force has added draft guidance for all of the Level A and AA success criteria (SC) in WCAG 2.1. There are placeholders for new WCAG 2.2 level A and AA success criteria, labeled with, "This section is to be developed by the WCAG2ICT Task Force." This guidance will be delivered in a later draft.</div>
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document.
 
@@ -1064,7 +1064,7 @@ WCAG 2.2 has made this success criterion obsolete and removed it as a requiremen
 
 **WCAG 2.0 and 2.1 Guidance:**
 
-WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software is to follow the new guidance provided in the [WCAG 2.0 Editorial Errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) and the [WCAG 2.1 Editorial Errata](https://www.w3.org/WAI/WCAG21/errata/#editorial) which states the following:
+WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software is to follow the guidance provided in the [WCAG 2.0 Editorial Errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) and the [WCAG 2.1 Editorial Errata](https://www.w3.org/WAI/WCAG21/errata/#editorial) which states the following:
 
 >This Success Criterion should be considered as always satisfied for any content using HTML or XML.
 
