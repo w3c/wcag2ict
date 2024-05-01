@@ -1,11 +1,11 @@
 Comments on Definitions in WCAG 2 Glossary
 ----------------------------------------------------------
 
-The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
+The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not need the additional guidance provided by this document; guidance on the remainder follows.
 
 ### Glossary Items that Apply to All Technologies
 
-The following glossary items apply to all technologies and do not require further interpretation for non-web ICT.
+The following glossary items apply to all technologies and do not need further interpretation for non-web ICT.
 
 *   abbreviation
 *   alternative to time-based media
@@ -115,7 +115,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
         
         **OR**
         
-    3.  The content is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other software]**</INS> required by the technology and used by the organization is also accessibility supported;
+    3.  The content is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other software]**</INS> depends upon the technology used by the organization is also accessibility supported;
         
         **OR**
         
@@ -156,7 +156,7 @@ With these substitutions, it would read:
 
 <DL><DT>assistive technology (as used in this document)</DT><DD>
 
-hardware and/or software that acts <INS>**[stand-alone]**</INS>, or along with <INS>**[mainstream information and communication technologies (ICT)]**</INS>, to provide functionality to meet the requirements of users with disabilities that go beyond those offered by <INS>**[mainstream ICT]**</INS>
+hardware and/or software that acts <INS>**[stand-alone]**</INS>, or along with <INS>**[mainstream information and communication technologies (ICT)]**</INS>, to provide functionality to meet the needs of users with disabilities that go beyond those offered by <INS>**[mainstream ICT]**</INS>
 
 <div class="note">
 
@@ -222,7 +222,7 @@ With this substitution, it would read:
 
 <DL><DT>cognitive function test</DT><DD>
 
-A task that requires the user to remember, manipulate, or transcribe information. Examples include, but are not limited to:
+A task that where the user needs to remember, manipulate, or transcribe information. Examples include, but are not limited to:
 
 memorization, such as remembering a username, password, set of characters, images, or patterns. The common identifiers name, e-mail, and phone number are not considered cognitive function tests as they are personal to the user and consistent across **<INS>[Web sites, [non-web documents](#document), and [software](#software)]</INS>**;
 
@@ -318,9 +318,9 @@ information provided by the user that is not accepted
 
 <div class="note">This includes:
 
-1.  Information that is required by the <INS>**[[non-web document](#document) or [software](#software)]**</INS> but omitted by the user
+1.  Information that is needed by the <INS>**[[non-web document](#document) or [software](#software)]**</INS> but omitted by the user
     
-2.  Information that is provided by the user but that falls outside the required data format or values
+2.  Information that is provided by the user but that falls outside data format parameters or values
 </div>    
 
 </DD></DL>
