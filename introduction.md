@@ -15,7 +15,7 @@ The 2013 WCAG2ICT has been relied upon in regulations and legislation.  One exam
 
 This document provides informative guidance (guidance that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and that does not set requirements) with regard to the interpretation and application of Web Content Accessibility Guidelines (WCAG) to non-web information and communications technologies (ICT). This document is a [Working Group Note](https://www.w3.org/2021/Process-20211102/#WGNote) (in contrast to WCAG 2.0, WCAG 2.1, and WCAG 2.2, which are W3C Recommendations).  Specifically, this document provides informative guidance on applying WCAG 2.0, 2.1, and 2.2 Level A and AA success criteria to non-web ICT, specifically to non-web documents and software.  
 
-<div class="note">Hereafter, the use of WCAG 2 means all WCAG 2.x versions - 2.0, 2.1, and 2.2.</div>
+<div class="note">Hereafter, the use of WCAG 2 means all WCAG 2.x versions &mdash; 2.0, 2.1, and 2.2.</div>
 
 This document is intended to help clarify how to use WCAG 2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual disabilities, and the needs of people with accessibility requirements due to the effects of aging. 
 
@@ -27,7 +27,7 @@ Although this document covers a wide range of issues, it is not able to address 
 * [Making Content Usable for People with Cognitive and Learning Disabilities](https://www.w3.org/TR/coga-usable/)
 * [Mobile Accessibility: How WCAG 2.0 and other W3C/WAI Guidelines Apply to Mobile](https://w3c.github.io/Mobile-A11y-TF-Note/)
   
-While WCAG 2 was designed to be technology-neutral, it assumes the presence of a “user agent” such as a browser, media player, or assistive technology as a means to access web content. Therefore, the application of WCAG 2 to documents and software in non-web contexts required some interpretation in order to determine how the intent of each WCAG 2 success criterion could be met in these different contexts of use. Therefore, the bulk of the Task Force's work involved evaluating how each WCAG 2 success criterion would apply in the context of non-web ICT, if it were applied to non-web ICT.
+While WCAG 2 was designed to be technology-neutral, it assumes the presence of a “user agent” such as a browser, media player, or assistive technology as a means to access web content. Therefore, the application of WCAG 2 to documents and software in non-web contexts required some interpretation in order to determine how the intent of each WCAG 2 success criterion could be met in these different contexts of use. Therefore, the bulk of the Task Force's work involved evaluating how each WCAG 2 success criterion would be used in the context of non-web ICT, if it were applied to non-web ICT.
 
 The Task Force found that the majority of success criteria from WCAG 2 can apply to non-web documents and software with either no or minimal changes. Since many of the Level A and AA success criteria do not include any web related terms, they apply directly as written and as described in the “Intent” sections from the [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\] resource. Additional notes were provided, as needed, to provide assistance in applying them to non-web documents and software.
 
