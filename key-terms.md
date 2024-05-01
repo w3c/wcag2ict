@@ -29,11 +29,11 @@ a property or characteristic that prevents users from attaching, installing, or 
   
 Examples of technology with closed functionality include: 
 
-* self-service transaction machines or kiosks - examples include machines used for retail self-checkout, point of sales (POS) terminals, ticketing and self check-in, and Automated Teller Machines (ATMs).
+* self-service transaction machines or kiosks &mdash; examples include machines used for retail self-checkout, point of sales (POS) terminals, ticketing and self check-in, and Automated Teller Machines (ATMs).
 * telephony devices such as IP phones, feature phones, smartphones, and phone-enabled tablets (although such devices are becoming increasingly open and/or supplying AT and accessibility features that software can rely upon to meet WCAG requirements.)
 * entertainment technologies including smart TVs, set-top boxes, smart displays, smart speakers, smart watches, and tablets
 * an ebook reader or standalone ebook software that allows assistive technologies to access all of the user interface controls of the ebook program (open functionality) but does not allow the assistive technologies to access the actual content of book (closed functionality).
-* an operating system that requires the user to provide log in credentials before it allows any assistive technologies to be loaded. The log-in portion would be closed functionality.
+* an operating system that requires the user to provide log in credentials before it allows any assistive technologies to be loaded. The log-in process has closed functionality.
 * other technology devices, such as printers, displays, and Internet of Things (IoT) devices. 
 </div>
 
