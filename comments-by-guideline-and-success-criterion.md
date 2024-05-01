@@ -10,13 +10,13 @@ The sections that follow are organized according to the principles, guidelines, 
 
 #### Applying Principle 1 Perceivable to Non-Web Documents and Software
 
-In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 1 applies directly as written.
+In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 1 applies directly as written.
 
 #### text-alternatives
 
 ##### Applying Guideline 1.1 Text Alternatives to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.1 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.1 applies directly as written.
 
 ##### non-text-content
 
@@ -35,7 +35,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 1.2 Time Based Media to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.2 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.2 applies directly as written.
 
 ##### audio-only-and-video-only-prerecorded
 
@@ -103,7 +103,7 @@ Secondary or alternate audio tracks are commonly used for this purpose.</div>
 
 ##### Applying Guideline 1.3 Adaptable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.3 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.3 applies directly as written.
 
 ##### info-and-relationships
 
@@ -142,7 +142,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-Content that is only used on hardware with a fixed display orientation OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
+Content that is only used on hardware with a fixed display orientation _or_ that has no sensor to detect or change the orientation is covered under the essential exception and not need to provide support for orientation changes.</div>
 
 <div class="note">
     
@@ -170,7 +170,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 1.4 Distinguishable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.4 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.4 applies directly as written.
 
 ##### use-of-color
 
@@ -216,7 +216,7 @@ This applies directly as written, and as described in [Intent from Understanding
 [Content](#content-on-and-off-the-web) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</div>
 <div class="note">
     
-The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
+The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, _or_ that the application works with the platform features to meet this success criterion.</div>
 <div class="note">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -239,8 +239,8 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 <ul><li>Situations where it is unclear whether the exception of a two-dimensional layout might apply.</li>
 <li>Situations where 1.4.10 Reflow cannot be met.</li>
 <li>Are there contexts where text sizing might be an acceptable alternative to 1.4.10 Reflow?</li>
-<li>Are there situations where the content technology and/or platform software do not support reflow? If there are, please explain and indicate whether applications built for this environment should fail this criteria or have an exception so that this requirement doesn't get applied.</li>
-<li>Are there situations where the content technology and/or platform software prevents users from resizing or zooming text, changing the viewport and screen orientation (all cases where reflow of content would typically be needed)? If there are, please explain and indicate whether applications built for this environment should fail this criteria or have an exception so that this requirement is not applied.</li></ul></div>
+<li>Are there situations where the content technology and/or platform software do not support reflow? If there are, please explain and indicate whether applications built for this environment should fail this success criterion or have an exception so that this criterion doesn't get applied.</li>
+<li>Are there situations where the content technology and/or platform software prevents users from resizing or zooming text, changing the viewport and screen orientation (all cases where reflow of content would typically be needed)? If there are, please explain and indicate whether applications built for this environment should fail this success criterion or have an exception so that this criterion is not applied.</li></ul></div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent), replacing “web content” with “content”.
 
@@ -259,7 +259,7 @@ Except for parts of the content which require two-dimensional layout for usage o
 
 <div class="note">
     
-Examples of content which requires two-dimensional layout are images required for understanding (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.</div>
+Examples of content which depends upon two-dimensional layout are informative images (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.</div>
 <div class="note">
 
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
@@ -274,10 +274,10 @@ If a [non-web document](#document) type and its available [user agents](#user-ag
 
 <div class="note">
 
-The intent section refers to the ability for content to reflow when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this requirement.</div>
+The intent section refers to the ability for content to reflow when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this success criterion.</div>
 <div class="note">
 
-Non-web software will have more frequent cases where two-dimensional layout is required for usage or meaning than what occurs on the Web. For example:
+Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the Web. For example:
 - When the software has a complex user interface with toolbars that need to be visible while manipulating content, as explained in the Intent from Understanding 1.4.10 Reflow.</div>
 
 <div class="note">
@@ -328,7 +328,7 @@ This success criterion only applies to [non-web documents](#document) and [softw
 
 <div class="note">
     
-There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not require that documents and software implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
+There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not meant that documents and software must implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
 
 <div class="note">
     
@@ -368,13 +368,13 @@ With these substitutions, it would read:
 
 #### Applying Principle 2 Operable to Non-Web Documents and Software
 
-In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 2 applies directly as written.
+In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 2 applies directly as written.
 
 #### keyboard-accessible
 
 ##### Applying Guideline 2.1 Keyboard Accessible to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.1 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.1 applies directly as written.
 
 ##### keyboard
 
@@ -431,7 +431,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 2.2 Enough Time to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.2 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.2 applies directly as written.
 
 ##### timing-adjustable
 
