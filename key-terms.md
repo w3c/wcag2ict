@@ -170,7 +170,7 @@ The term **software** as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>software (as used in WCAG2ICT)</DT><DD>
 
-software products or software aspects of hardware-software products that have a user interface and do not require a separate [user agent](#user-agent) to present any of its [content](#content-on-and-off-the-web)
+software products or software aspects of hardware-software products that have a user interface and do not depend upon a separate [user agent](#user-agent) to present any of its [content](#content-on-and-off-the-web)
 </DD></DL>
 <div class="note">
 
