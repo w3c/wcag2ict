@@ -66,7 +66,7 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-<p class="ednote">In this publication WCAG2ICT Task Force has incorporated all of the new WCAG 2.2 success criteria and glossary terms and addressed public comments fromg the First Public Working Draft published on 15 August 2023. Once public comments on this draft are handled, the Task Force intends to publish the finalized WCAG2ICT Note.</p>
+<p class="ednote">The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2  guidelines, criteria and glossary terms, and addressed all open issues on content in the previous draft of the document. </p>
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2), and the change to 4.1.1 Parsing listed in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1) section:
 
