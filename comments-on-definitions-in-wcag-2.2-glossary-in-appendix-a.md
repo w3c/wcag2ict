@@ -109,7 +109,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
     
     1.  The technology is supported natively in widely-distributed user agents <INS>**[or other software]**</INS> that are also accessibility supported (such as HTML and CSS);
         
-        **_or_**
+        **OR**
         
     2.  The technology is supported in a widely-distributed plug-in <INS>**[or other software extension]**</INS> that is also accessibility supported;
         
