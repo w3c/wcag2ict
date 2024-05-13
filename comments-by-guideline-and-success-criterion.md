@@ -142,7 +142,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-Content that is only used on hardware with a fixed display orientation _or_ that has no sensor to detect or change the orientation is covered under the essential exception and not need to provide support for orientation changes.</div>
+Content that is only used on hardware with a fixed display orientation _or_ that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
 
 <div class="note">
     
@@ -215,8 +215,9 @@ This applies directly as written, and as described in [Intent from Understanding
     
 [Content](#content-on-and-off-the-web) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</div>
 <div class="note">
-    
+ 
 The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, _or_ that the application works with the platform features to meet this success criterion.</div>
+
 <div class="note">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -235,12 +236,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.10 Reflow to Non-Web Documents and Software
 
-<div class="ednote">Since there were open issues on WCAG asking about how 1.4.10 Reflow should be applied to non-web software, the WCAG2ICT Task Force would like feedback on whether the guidance for non-web software is sufficient, or if there are other considerations that should be covered in the notes in the WCAG2ICT guidance below. Additionally, the Task Force seeks input and examples for the following:
-<ul><li>Situations where it is unclear whether the exception of a two-dimensional layout might apply.</li>
-<li>Situations where 1.4.10 Reflow cannot be met.</li>
-<li>Are there contexts where text sizing might be an acceptable alternative to 1.4.10 Reflow?</li>
-<li>Are there situations where the content technology and/or platform software do not support reflow? If there are, please explain and indicate whether applications built for this environment should fail this success criterion or have an exception so that this criterion doesn't get applied.</li>
-<li>Are there situations where the content technology and/or platform software prevents users from resizing or zooming text, changing the viewport and screen orientation (all cases where reflow of content would typically be needed)? If there are, please explain and indicate whether applications built for this environment should fail this success criterion or have an exception so that this criterion is not applied.</li></ul></div>
+<div class="ednote">The WCAG2ICT Task Force made changes to give additional guidance around how 1.4.10 Reflow should be applied to non-web software in response to public comments. </div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent), replacing “web content” with “content”.
 
@@ -258,8 +254,9 @@ Except for parts of the content which require two-dimensional layout for usage o
 320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For <INS>**[content]**</INS> which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</div>
 
 <div class="note">
-    
-Examples of content which depends upon two-dimensional layout are informative images (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.</div>
+
+Examples of content which relies upon two-dimensional layout are some informative images (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such content.</div>
+
 <div class="note">
 
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
@@ -293,6 +290,7 @@ Some software applications provide a mode of operation where reflow is possible,
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### non-text-contrast
+
 ###### Applying SC 1.4.11 Non-text Contrast to Non-Web Documents and Software
 
 This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or platform software". 
