@@ -260,7 +260,7 @@ Except for parts of the content which require two-dimensional layout for usage o
 
 <div class="note">
 
-Examples of content which rely upon two-dimensional layout are some informative images (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such content.</div>
+Examples of content which relies upon two-dimensional layout are some informative images (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such content.</div>
 
 <div class="note">
 
