@@ -102,7 +102,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
 
 1.  **The way that the <INS>[non-web document or software technology]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of the [content](#content-on-and-off-the-web),
     
-    **_and_**
+    **AND**
     
 2.  **The <INS>[non-web document or software]</INS> technology must have accessibility-supported user agents <INS>[or other software]</INS> that are available to users.** This means that at least one of the following four statements is true:
 
