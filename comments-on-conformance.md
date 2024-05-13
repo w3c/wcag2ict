@@ -13,4 +13,4 @@ WCAG2ICT is not a standard, so it is not possible to conform to WCAG2ICT. Howeve
     *   [2.2.2 Pause, Stop, Hide](http://www.w3.org/TR/WCAG22/#pause-stop-hide).
     *   [2.3.1 Three Flashes or Below Threshold](http://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold);
 
-Also, as noted in the Introduction, it wasn't possible to unambiguously carve up software into discrete pieces, and so the unit of evaluation for non-web software is the whole software program.  As with any software testing, this can be a very large unit of evaluation, and methods similar to standard software testing may be needed.
+Also, as noted in the Introduction, it wasn't possible to unambiguously carve up software into discrete pieces, and so the unit of evaluation for non-web software is the whole software program. As with any software testing, this can be a very large unit of evaluation, and methods similar to standard software testing may be needed.
