@@ -236,12 +236,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.10 Reflow to Non-Web Documents and Software
 
-<div class="ednote">Since there were open issues on WCAG asking about how 1.4.10 Reflow should be applied to non-web software, the WCAG2ICT Task Force would like feedback on whether the guidance for non-web software is sufficient, or if there are other considerations that should be covered in the notes in the WCAG2ICT guidance below. Additionally, the Task Force seeks input and examples for the following:
-<ul><li>Situations where it is unclear whether the exception of a two-dimensional layout might apply.</li>
-<li>Situations where 1.4.10 Reflow cannot be met.</li>
-<li>Are there contexts where text sizing might be an acceptable alternative to 1.4.10 Reflow?</li>
-<li>Are there situations where the content technology and/or platform software do not support reflow? If there are, please explain and indicate whether applications built for this environment should fail this success criterion or have an exception.</li>
-<li>Are there situations where the content technology and/or platform software prevents users from resizing or zooming text, changing the viewport and screen orientation (all cases where reflow of content would typically be needed)? If there are, please explain and indicate whether applications built for this environment should fail this success criterion or have an exception.</li></ul></div>
+<div class="ednote">The WCAG2ICT Task Force made changes to give additional guidance around how 1.4.10 Reflow should be applied to non-web software in response to public comments. </div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent), replacing “web content” with “content”.
 
