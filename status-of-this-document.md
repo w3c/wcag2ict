@@ -2,7 +2,7 @@ This is a Technical Report on Applying WCAG 2 to Non-Web Information and Communi
 
 <div class="note">
   
-The current draft includes guidance for all of the WCAG 2 success criteria from WCAG 2.0, 2.1 and 2.2. 
+The current draft includes guidance for all of the WCAG 2 success criteria from WCAG 2.0, 2.1, and 2.2. 
 
 The group is seeking feedback on the following aspects that were added or have substantial changes in this draft:
 
