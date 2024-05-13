@@ -1,7 +1,7 @@
 Success Criteria Problematic for Closed Functionality
 -----------------------------------------------------
 
-<div class="ednote">This section has been updated to include new WCAG 2.1 and 2.2 criteria that are problematic for Closed Functionality as well as remove obsolete criteria. The Task Force has also updated some of the existing content in this section to reflect new insights learned since the 2013 WCAG2ICT Note.</div>
+<div class="ednote">This section has been updated to include new WCAG 2.1 and 2.2 criteria that are problematic for Closed Functionality as well as remove obsolete criteria. The Task Force has also updated some of the existing content in this section to reflect new insights learned since the 2013 WCAG2ICT Note and to address public comments received on the previous draft. </div>
 
 There are success criteria that can be problematic for developers of ICT with closed functionality. Some criteria discuss making information available in text (which can be read by assistive technologies), making it “programmatically determinable” (rendered by a user agent and readable by assistive technologies), or doing something else to make content compatible with assistive technologies. Where ICT with closed functionality doesn't support use of assistive technology or the platform is not sophisticated enough to have an accessibility API, providing equivalent information and operation through another mechanism, such as functions built into the software that behave like assistive technology, would help meet the intent of these success criteria.
 
