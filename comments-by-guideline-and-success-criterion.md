@@ -1,8 +1,7 @@
 Comments by Guideline and Success Criterion
 -------------------------------------------
 <div class="ednote">
-
-The WCAG2ICT Task Force has added draft guidance for all of the Level A and AA success criteria (SC) that are in WCAG 2.1. There are placeholders for WCAG 2.2 level A and AA success criteria, labeled with, "This section is to be developed by the WCAG2ICT Task Force." This guidance will be delivered in a later draft.</div>
+The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 guidelines, success criteria, and glossary terms into this draft. The Task Force also made changes to address public comments.</div>
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document.
 
@@ -235,12 +234,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.10 Reflow to Non-Web Documents and Software
 
-<div class="ednote">Since there were open issues on WCAG asking about how 1.4.10 Reflow should be applied to non-web software, the WCAG2ICT Task Force would like feedback on whether the guidance for non-web software is sufficient, or if there are other considerations that should be covered in the notes in the WCAG2ICT guidance below. Additionally, the Task Force seeks input and examples for the following:
-<ul><li>Situations where it is unclear whether the exception of a two-dimensional layout might apply.</li>
-<li>Situations where 1.4.10 Reflow cannot be met.</li>
-<li>Are there contexts where text sizing might be an acceptable alternative to 1.4.10 Reflow?</li>
-<li>Are there situations where the content technology and/or platform software do not support reflow? If there are, please explain and indicate whether applications built for this environment should fail this criteria or have an exception so that this requirement doesn't get applied.</li>
-<li>Are there situations where the content technology and/or platform software prevents users from resizing or zooming text, changing the viewport and screen orientation (all cases where reflow of content would typically be needed)? If there are, please explain and indicate whether applications built for this environment should fail this criteria or have an exception so that this requirement is not applied.</li></ul></div>
+<div class="ednote">The WCAG2ICT Task Force made changes to give additional guidance around how 1.4.10 Reflow should be applied to non-web software in response to public comments. </div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent), replacing “web content” with “content”.
 
@@ -650,7 +644,6 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 ##### pointer-gestures
 
 ###### Applying SC 2.5.1 Pointer Gestures to Non-Web Documents and Software
-<div class="ednote">The WCAG2ICT Task Force seeks input on whether there are other examples of non-web documents that support the ability for authors to add gesture actions to the document that are not interpreted and acted upon through a user agent. If such example exist, we need broaden our example beyond prototyping software.</div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
 
