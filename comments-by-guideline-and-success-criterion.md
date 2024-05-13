@@ -1061,23 +1061,38 @@ WCAG 2.2 has made this success criterion obsolete and removed it as a requiremen
 
 **WCAG 2.0 and 2.1 Guidance:**
 
-WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software is to follow the new guidance provided in the [WCAG 2.0 Editorial Errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) and the [WCAG 2.1 Editorial Errata](https://www.w3.org/WAI/WCAG21/errata/#editorial) which states the following:
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG21/Understanding/parsing#intent), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
+With these substitutions, it would read:
 
->Success Criterion 4.1.1 was originally adopted to address problems that assistive technology had directly parsing HTML. Since this criterion was written, the HTML Standard has adopted specific requirements governing how user agents must handle incomplete tags, incorrect element nesting, duplicate attributes, and non-unique IDs.
->
->Although the HTML Standard treats some of these cases as non-conforming for authors, it is considered to "allow these features" for the purposes of this Success Criterion because the specification requires that user agents support handling these cases consistently. In practice, this criterion no longer provides any benefit to people with disabilities in itself.
->
->Issues such as missing roles due to inappropriately nested elements or incorrect states or names due to a duplicate ID are covered by different Success Criteria and should be reported under those criteria rather than as issues with 4.1.1.
->
->This criterion should be considered as always satisfied for any content using HTML or XML.
-
+4.1.1 Parsing: **<INS>[[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technologies) and accessibility features of software or to a user-selectable [user agent](#user-agent)]</INS>**, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
 <div class="note">
     
-Similar to Web content, 4.1.1 Parsing should not be applied as a requirement for non-web documents and software. This is due to the limitation that either assistive technology does not directly parse (either directly or through any Document Object Model (DOM) or DOM-like structure) the non-web document or software markdown for accessibility information and/or content is not exposed for external testing or probing. Instead, user agents and platforms use platform accessibility APIs to expose accessibility information to assistive technology.</div>
-
+Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.</div>
 <div class="note">
 
-Where an existing standard requires 4.1.1 Parsing for non-web documents and software, this Success Criterion would be automatically satisfied. Accessibility issues introduced through poor markup would surface as errors in the programmatic information and reported using success criteria that rely on that information, such as 1.3.1 Info and Relationships and 4.1.2 Name, Role, Value.</div>
+Markup is not always available to [assistive technologies](#dfn-assistive-technologies) or to user selectable [user agents](#user-agent) such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.
+
+Accessibility issues introduced through poor markup would surface as errors in the programmatic information and reported using success criteria that rely on that information, such as 1.3.1 Info and Relationships and 4.1.2 Name, Role, Value.</div>
+<div class="note">
+    
+This success criterion would be satisfied in cases where:
+
+* Content is implemented using HTML or XML (per the WCAG errata)
+* Non-web documents or software are not authored using a markup language.
+* Non-web documents or software are authored using a markup language, but accessibility information is exposed via platform accessibility APIs, not by making the markup itself available to assistive technologies.
+</div>
+<div class="example">
+
+Examples where 4.1.1 Parsing would be satisfied:
+
+* An HTML page embedded inside a desktop application (per the WCAG errata)
+* A PDF document (not authored using a markup language)
+* Android or iOS apps which use a markup language to specify UI layout (accessibility information is exposed via platform accessibility APIs, not the markup)
+
+Examples of markup that might be separately exposed and available to assistive technologies and to user agents include:
+
+* LaTeX documents
+* Markdown documents</div>
 
 ##### name-role-value
 
