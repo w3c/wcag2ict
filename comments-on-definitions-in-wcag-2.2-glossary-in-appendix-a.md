@@ -72,7 +72,7 @@ The following glossary items apply to all technologies and do not require furthe
 
 ### Glossary Items Used only in AAA Success Criteria
 
-This document does not provide guidance on applying AAA Success Criteria to non-web ICT, including the following definitions.
+This document does not provide guidance on applying AAA success criteria to non-web ICT, including the following definitions.
 
 *   blocks of text
 *   context-sensitive help
@@ -90,7 +90,7 @@ Additional guidance is provided for the following glossary entries from WCAG 2 w
 
 ##### Applying “accessibility supported” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “browsers and other user agents” with “user agents or other software”, replacing “user agents” with “user agents or other software”, replacing “web content technology” with “non-web document or software technology”, adding “or other software extension” after “plug-in”, and replacing all five of the Notes with a single new Note: “Note: The concepts behind the five Notes and in Understanding Accessibility Supported are applicable to web technologies. The same or similar factors are applicable for non-web technologies.”
+This applies directly as written and as described in the WCAG 2 glossary, replacing “browsers and other user agents” with “user agents or other software”, replacing “user agents” with “user agents or other software”, replacing “web content technology” with “non-web document or software technology”, adding “or other software extension” after “plug-in”, and replacing all five of the Notes with a single Note: “Note: The concepts behind the five Notes and in Understanding Accessibility Supported are applicable to web technologies. The same or similar factors are applicable for non-web technologies.”
 
 With these substitutions and addition, it would read:
 
@@ -258,7 +258,7 @@ Because relative luminance is defined such that it cannot directly apply to hard
 #### dfn-css-pixels
 
 ##### Applying “CSS pixel” to Non-Web Documents and Software
-<div class="ednote">The WCAG2ICT guidance for this definition is key to understanding and testing several criteria that use CSS pixels to indicate measurements. Are there platforms where the platform-defined density-independent pixel does not approximate a CSS pixel? Are there other well-defined alternatives that could provide a reliable equivalent or alternative measurement? </div>
+<div class="ednote">The WCAG2ICT task force has added additional notes around how “CSS pixel” should be applied to non-web software. These changes were made in response to public comments received on the previous draft. </div>
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
