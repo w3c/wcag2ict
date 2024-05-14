@@ -1,6 +1,6 @@
 ## Acknowledgements
 
-### Participants of the WCAG2ICT Task Force Active in the Development of this Document
+### Active Participants of the WCAG2ICT Task Force Involved in the Development of this Document
 * Shadi Abou-Zahra (Amazon)
 * Charles Adams (Oracle Corporation)
 * Bruce Bailey (U.S. Access Board)
@@ -57,6 +57,11 @@ Special thanks goes to members of the APA working group that contributed their e
 * Janina Sajka (Invited expert)
 * Matthew Atkinson (TPGi)
 * Jason White (Invited expert)
+
+### Other Participants of the WCAG2ICT Task Force
+* Kent Boucher (Oracle Corporation)
+* Tony Holland (IBM Corporation)
+* Anastasia Lanz (Deque Systems, Inc.)
 
 ### Previous Contributors
 The following people contributed to the development of the 2013 WCAG2ICT Note.
