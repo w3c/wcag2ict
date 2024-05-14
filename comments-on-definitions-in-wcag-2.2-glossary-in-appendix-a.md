@@ -222,7 +222,7 @@ With this substitution, it would read:
 
 <DL><DT>cognitive function test</DT><DD>
 
-A task that where the user needs to remember, manipulate, or transcribe information. Examples include, but are not limited to:
+A task that requires the user to remember, manipulate, or transcribe information. Examples include, but are not limited to:
 
 memorization, such as remembering a username, password, set of characters, images, or patterns. The common identifiers name, e-mail, and phone number are not considered cognitive function tests as they are personal to the user and consistent across **<INS>[Web sites, [non-web documents](#document), and [software](#software)]</INS>**;
 
