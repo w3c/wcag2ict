@@ -156,7 +156,7 @@ With these substitutions, it would read:
 
 <DL><DT>assistive technology (as used in this document)</DT><DD>
 
-hardware and/or software that acts <INS>**[stand-alone]**</INS>, or along with <INS>**[mainstream information and communication technologies (ICT)]**</INS>, to provide functionality to meet the needs of users with disabilities that go beyond those offered by <INS>**[mainstream ICT]**</INS>
+hardware and/or software that acts <INS>**[stand-alone]**</INS>, or along with <INS>**[mainstream information and communication technologies (ICT)]**</INS>, to provide functionality to meet the requirements of users with disabilities that go beyond those offered by <INS>**[mainstream ICT]**</INS>
 
 <div class="note">
 
