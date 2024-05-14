@@ -318,7 +318,7 @@ information provided by the user that is not accepted
 
 <div class="note">This includes:
 
-1.  Information that is needed by the <INS>**[[non-web document](#document) or [software](#software)]**</INS> but omitted by the user
+1.  Information that is required by the <INS>**[[non-web document](#document) or [software](#software)]**</INS> but omitted by the user
     
 2.  Information that is provided by the user but that falls outside data format parameters or values
 </div>    
