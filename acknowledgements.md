@@ -59,7 +59,7 @@ Special thanks goes to members of the APA working group that contributed their e
 * Jason White (Invited expert)
 
 ### Other Participants of the WCAG2ICT Task Force
-* Kent Boucher (Oracle)
+* Kent Boucher (Oracle Corporation)
 * Tony Holland (IBM Corporation)
 * Anastasia Lanz (Deque Systems, Inc.)
 
