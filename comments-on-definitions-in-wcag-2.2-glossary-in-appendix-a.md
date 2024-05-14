@@ -1,6 +1,10 @@
 Comments on Definitions in WCAG 2 Glossary
 ----------------------------------------------------------
 
+<div class="ednote">
+This draft of WCAG2ICT added guidance on applying new WCAG 2.2 glossary terms to non-web documents and software. The following terms were added since the First Public Working Draft: Cognitive function test,  dragging movements, encloses, focus indicator, minimum bounding box, and perimeter. Of those terms, only [perimeter](#dfn-perimeter) needed WCAG2ICT guidance when applied to non-web documents and software. 
+    
+</div>
 The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
 ### Glossary Items that Apply to All Technologies
