@@ -61,7 +61,7 @@ Special thanks goes to members of the APA working group that contributed their e
 ### Other Participants of the WCAG2ICT Task Force
 * Kent Boucher (Oracle)
 * Tony Holland (IBM Corporation)
-* Back up person 3
+* Anastasia Lanz (Deque Systems, Inc.)
 
 ### Previous Contributors
 The following people contributed to the development of the 2013 WCAG2ICT Note.
