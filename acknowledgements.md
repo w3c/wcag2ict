@@ -59,7 +59,7 @@ Special thanks goes to members of the APA working group that contributed their e
 * Jason White (Invited expert)
 
 ### Other Participants of the WCAG2ICT Task Force
-* Back up person 1
+* Kent Boucher (Oracle)
 * Back up person 2
 * Back up person 3
 
