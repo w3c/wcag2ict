@@ -3,15 +3,13 @@
 ### Background
 This document is an update to a W3C [Working Group Note](https://www.w3.org/2005/10/Process-20051014/tr#WGNote) to incorporate new guidelines, success criteria, and definitions added in WCAG 2.1 and 2.2. 
 
-[Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/2013/NOTE-wcag2ict-20130905/), approved in September 2013, described how WCAG 2.0 could be applied to non-web documents and software. WCAG2ICT was organized to mirror WCAG's sections: Perceivable, Operable, Understandable, and Robust.  WCAG2ICT clarified when and how WCAG success criteria should be applied to non-web documents and software.  Some were applicable without modification and some were applicable with edits and/or notes.  Glossary terms were also reviewed. Level AAA Success Criteria were not addressed in the 2013 WCAG2ICT Working Group Note. 
+[Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/2013/NOTE-wcag2ict-20130905/), approved in September 2013, described how WCAG 2.0 could be applied to non-web documents and software. WCAG2ICT was organized to mirror WCAG's sections: Perceivable, Operable, Understandable, and Robust.  WCAG2ICT clarified when and how WCAG success criteria should be applied to non-web documents and software.  Some were applicable without modification and some were applicable with edits and/or notes.  Glossary terms were also reviewed. Level AAA success criteria were not addressed in the 2013 WCAG2ICT Working Group Note. 
 
 The 2013 WCAG2ICT has been relied upon in regulations and legislation.  One example is EN 301 549[^1] (Europe) and other standards that reference or incorporate EN 301 549 (e.g., India, Kenya, Australia).  Another example is Section 508 (U.S.) [Application of WCAG 2.0 to Non-Web ICT](https://www.federalregister.gov/documents/2017/01/18/2017-00395/information-and-communication-technology-ict-standards-and-guidelines#h-36), which looked to WCAG2ICT for detailed direction with providing specific guidance and exceptions to particular criteria from being applied to non-web technology.  Section 508 incorporated by reference WCAG as the [Accessibility Standard applicable to non-web documents](https://www.access-board.gov/ict/#E205.4) and requires [WCAG Conformance for non-web software](https://www.access-board.gov/ict/#E207.2).
 
 [^1]: EN 301 549 [V3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) 2.2 Informative references, p. 13 \[i26]. 
 
 ### Guidance in this Document
-
-<div class="ednote">This section contains a first pass of updates. It will be re-examined once the Task Force has finished analyzing all of the new WCAG criteria to ensure the summarization of applicability of WCAG criteria to non-web documents and software is accurate.</div>
 
 This document provides informative guidance (guidance that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and that does not set requirements) with regard to the interpretation and application of Web Content Accessibility Guidelines (WCAG) to non-web information and communications technologies (ICT). This document is a [Working Group Note](https://www.w3.org/2021/Process-20211102/#WGNote) (in contrast to WCAG 2.0, WCAG 2.1, and WCAG 2.2, which are W3C Recommendations).  Specifically, this document provides informative guidance on applying WCAG 2.0, 2.1, and 2.2 Level A and AA success criteria to non-web ICT, specifically to non-web documents and software.  
 
@@ -54,11 +52,10 @@ The following are out of scope for this document:
 This document includes text quoted from the WCAG 2.2 principles, guidelines, success criteria, and glossary definitions without any changes. The guidance provided by this document for each principle, guideline, success criterion, and definition is preceded by a heading beginning with “Applying…”. This guidance was created by the WCAG2ICT Task Force, then reviewed and approved by the Accessibility Guidelines Working Group.
 
 ### Document Conventions
-<div class="ednote">The visual styling and programmatic structure details for calling out content in this section are current for this draft. This section will be revisited when further style details are worked out.</div>
 
 The following stylistic conventions are used in this document:
 
-*   Quotes from WCAG 2 and WCAG 2 Understanding Documents are in `<blockquote>` elements and visually styled with a gray bar on the left, and immediately follow the heading for the principle, guideline, or success criterion.
+*   Quotes from WCAG 2 are in `<blockquote>` elements and visually styled with a gray bar on the left, and immediately follow the heading for the principle, guideline, or success criterion.
 *   Additional guidance provided by this document begins with the phrase “Applying” and has no special visual styling.
 *   Replacement text that is presented to show how an SC would read as modified by the advice in this document are in `<ins>` elements visually styled as bold green text with a dotted underline.
 *   Notes are slightly inset and begin with the phrase “NOTE”. Each note is in its own inset box styled in pale green with a darker green line on the left side of the box.
@@ -69,12 +66,12 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-<p class="ednote">The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 guidelines, criteria and glossary terms. The next draft version will incorporate new WCAG 2.2 criteria and glossary terms as well as address open issues on any of the content in the document.</p>
+<p class="ednote">The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2  guidelines, criteria and glossary terms, and addressed all open issues on content in the previous draft of the document. </p>
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2), and the change to 4.1.1 Parsing listed in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1) section:
 
 * New [Background](#background) section to explain the history and known uses of WCAG2ICT
-* New WCAG 2.1 Success Criteria and Guidelines
+* New WCAG 2.1 success criteria and guidelines
     * [Success Criterion 1.3.4 Orientation](#orientation)
     * [Success Criterion 1.3.5 Identify Input Purpose](#identify-input-purpose)
     * [Success Criterion 1.4.10 Reflow](#reflow)
@@ -88,14 +85,14 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 2.5.3 Label in Name](#label-in-name)
     * [Success Criterion 2.5.4 Motion Actuation](#motion-actuation)
     * [Success Criterion 4.1.3 Status Messages](#status-messages)
-* New WCAG 2.2 Success Criteria
+* New WCAG 2.2 success criteria
     * [Success Criterion 2.4.11 Focus Not Obscured (Minimum)](#focus-not-obscured-minimum)
     * [Success Criterion 2.5.7 Dragging Movements](#dragging-movements)
     * [Success Criterion 2.5.8 Target Size (Minimum)](#target-size-minimum)
     * [Success Criterion 3.2.6 Consistent Help](#consistent-help)
     * [Success Criterion 3.3.7 Redundant Entry](#redundant-entry)
     * [Success Criterion 3.3.8 Accessible Authentication](#accessible-authentication-minimum)
-* Obsolete and Removed WCAG 2.2 Success Criteria that have errata for WCAG 2.0 and 2.1
+* Obsolete and Removed WCAG 2.2 success criteria that have errata for WCAG 2.0 and 2.1
     * [Success Criterion 4.1.1 Parsing](#parsing)
 * New terms from WCAG 2.1 and 2.2
     * dragging movements, encloses, focus indicator, minimum bounding box, pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
