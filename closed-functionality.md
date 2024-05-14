@@ -1,6 +1,10 @@
 Comments on Closed Functionality
 --------------------------------
 
+<div class="ednote">
+
+This section has been updated to address public comments received on the previous draft. In addition, Appendix A: Success Criteria Problematic for Closed Functionality has been updated to include new WCAG 2.1 and 2.2 criteria that are problematic for Closed Functionality.</div>
+
 As noted in the Introduction, WCAG 2 assumes the presence of a “user agent” such as a browser, media player, or assistive technology as a means to access web content. Many of the success criteria in WCAG 2 assume web content will be accessed by ICT where assistive technologies can be connected to it or installed on it. The assistive technologies then present the web content to people with disabilities in an accessible form. 
   
 ICT with [closed functionality](#closed-functionality) does not allow the use of some assistive technologies for some or all of their functions. In many cases such ICT also lacks a “user agent” or its equivalent. To the extent the ICT is closed, following the WCAG success criteria by themselves will not ensure that non-web software is accessible. Where assistive technologies or user agents are not available to address the intent of these success criteria, something else needs to be provided or be required to facilitate accessibility as intended by WCAG 2. It is outside the [WCAG2ICT Task Force Work Statement](http://www.w3.org/WAI/GL/task-forces/wcag2ict/work-statement) to say what additional measures are needed, but WCAG2ICT points out which success criteria depend on assistive technologies &mdash; and therefore which success criteria would be problematic in the context of ICT with closed functionality.

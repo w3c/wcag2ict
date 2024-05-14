@@ -11,8 +11,6 @@ The 2013 WCAG2ICT has been relied upon in regulations and legislation.  One exam
 
 ### Guidance in this Document
 
-<div class="ednote">This section contains a first pass of updates. It will be re-examined once the Task Force has finished analyzing all of the new WCAG criteria to ensure the summarization of applicability of WCAG criteria to non-web documents and software is accurate.</div>
-
 This document provides informative guidance (guidance that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and that does not set requirements) with regard to the interpretation and application of Web Content Accessibility Guidelines (WCAG) to non-web information and communications technologies (ICT). This document is a [Working Group Note](https://www.w3.org/2021/Process-20211102/#WGNote) (in contrast to WCAG 2.0, WCAG 2.1, and WCAG 2.2, which are W3C Recommendations).  Specifically, this document provides informative guidance on applying WCAG 2.0, 2.1, and 2.2 Level A and AA success criteria to non-web ICT, specifically to non-web documents and software.  
 
 <div class="note">Hereafter, the use of WCAG 2 means all WCAG 2.x versions &mdash; 2.0, 2.1, and 2.2.</div>
@@ -54,11 +52,10 @@ The following are out of scope for this document:
 This document includes text quoted from the WCAG 2.2 principles, guidelines, success criteria, and glossary definitions without any changes. The guidance provided by this document for each principle, guideline, success criterion, and definition is preceded by a heading beginning with “Applying…”. This guidance was created by the WCAG2ICT Task Force, then reviewed and approved by the Accessibility Guidelines Working Group.
 
 ### Document Conventions
-<div class="ednote">The visual styling and programmatic structure details for calling out content in this section are current for this draft. This section will be revisited when further style details are worked out.</div>
 
 The following stylistic conventions are used in this document:
 
-*   Quotes from WCAG 2 and WCAG 2 Understanding Documents are in `<blockquote>` elements and visually styled with a gray bar on the left, and immediately follow the heading for the principle, guideline, or success criterion.
+*   Quotes from WCAG 2 are in `<blockquote>` elements and visually styled with a gray bar on the left, and immediately follow the heading for the principle, guideline, or success criterion.
 *   Additional guidance provided by this document begins with the phrase “Applying” and has no special visual styling.
 *   Replacement text that is presented to show how an SC would read as modified by the advice in this document are in `<ins>` elements visually styled as bold green text with a dotted underline.
 *   Notes are slightly inset and begin with the phrase “NOTE”. Each note is in its own inset box styled in pale green with a darker green line on the left side of the box.
@@ -69,7 +66,7 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-<p class="ednote">The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 guidelines, criteria and glossary terms. The next draft version will incorporate new WCAG 2.2 criteria and glossary terms as well as address open issues on any of the content in the document.</p>
+<p class="ednote">The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2  guidelines, criteria and glossary terms, and addressed all open issues on content in the previous draft of the document. </p>
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2), and the change to 4.1.1 Parsing listed in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1) section:
 
