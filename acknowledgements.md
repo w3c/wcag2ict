@@ -63,7 +63,7 @@ Special thanks goes to members of the APA working group that contributed their e
 * Tony Holland (IBM Corporation)
 * Anastasia Lanz (Deque Systems, Inc.)
 
-### Previous Contributors
+* ### Previous Contributors
 The following people contributed to the development of the 2013 WCAG2ICT Note.
 
 Shadi Abou-Zahra, Bruce Bailey, Judy Brewer, Michael Cooper, Pierce Crowell, Allen Hoffman, Kiran Kaja, Andrew Kirkpatrick, Peter Korn, Alex Li, David MacDonald, Mary Jo Mueller, Loïc Martínez Normand, Mike Pluke, Janina Sajka, Andi Snow-Weaver, Gregg Vanderheiden
