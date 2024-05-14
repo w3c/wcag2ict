@@ -60,7 +60,7 @@ Special thanks goes to members of the APA working group that contributed their e
 
 ### Other Participants of the WCAG2ICT Task Force
 * Kent Boucher (Oracle)
-* Back up person 2
+* Tony Holland (IBM Corporation)
 * Back up person 3
 
 ### Previous Contributors
