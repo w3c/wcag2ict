@@ -1046,6 +1046,9 @@ Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**
 ##### parsing
 
 ###### Applying SC 4.1.1 Parsing to Non-Web Documents and Software
+<div class="ednote">
+
+This section has been updated to reflect that WCAG 2.2 made 4.1.1 obsolete and removed. For WCAG 2.0 and 2.1, the 2013 WCAG2ICT guidance has been updated to reflect more current technology examples, the WCAG errata regarding content implemented using HTML and XML, and to address comments received.</div>
 
 **WCAG 2.2 Guidance:**
 <div class="note">
