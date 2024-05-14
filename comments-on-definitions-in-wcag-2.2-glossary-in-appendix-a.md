@@ -115,7 +115,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
         
         **OR**
         
-    3.  The content is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other software]**</INS> depends upon the technology used by the organization is also accessibility supported;
+    3. The content is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other software]**</INS> required by the technology and used by the organization is also accessibility supported;
         
         **OR**
         
