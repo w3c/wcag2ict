@@ -1,7 +1,7 @@
 Comments on Definitions in WCAG 2 Glossary
 ----------------------------------------------------------
 
-The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not need the additional guidance provided by this document; guidance on the remainder follows.
+The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not need to have additional guidance provided by this document; guidance on the remainder follows.
 
 ### Glossary Items that Apply to All Technologies
 
