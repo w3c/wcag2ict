@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="069b4d6aa5fe75e989114d2b087ba32d48cb469b">
+<meta name="revision" content="a65d2071ec4dc2047bf1999115d419a0a49a166e">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -196,16 +196,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "069b4d6aa5fe75e989114d2b087ba32d48cb469b",
-  "publishISODate": "2024-05-14T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 14 May 2024"
+  "gitRevision": "a65d2071ec4dc2047bf1999115d419a0a49a166e",
+  "publishISODate": "2024-05-15T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 15 May 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-05-14">14 May 2024</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-05-15">15 May 2024</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -435,7 +435,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 		<section id="key-terms"><div class="header-wrapper"><h2 id="x2-key-terms">Key Terms</h2><a class="self-link" href="#key-terms" aria-label="Permalink for Section Key Terms"></a></div>
 <div class="note" id="issue-container-generatedID-3"><div role="heading" class="ednote-title marker" id="h-ednote-1" aria-level="3"><span>Editor's note</span></div><div class="">
 
-<p>This draft of WCAG2ICT introduced two new key terms: <a href="#closed-functionality-as-used-in-WCAG2ICT">closed functionality</a> and <a href="#menu-driven-interface">menu driven interface</a>.  </p>
+<p>This draft of WCAG2ICT introduced two new key terms: <a href="#closed-functionality">closed functionality</a> and <a href="#menu-driven-interface">menu driven interface</a>.  </p>
 </div></div>
 
 <p>WCAG2ICT provides some key glossary terms to address differences between web and non-web contexts and to introduce terms that are nonexistent in WCAG but important to define for a non-web context. “Content” and “user agent” are glossary terms from WCAG 2 that need to be interpreted significantly differently when applied to non-web ICT. The glossary term “Web page” in WCAG 2 is replaced with defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the defined terms “set of documents” and “set of software programs”. The terms introduced by WCAG2ICT are “accessibility services of platform software” because non-Web software doesn't leverage the WCAG notion of a user agent, and "closed functionality" which is specific to non-web software. The remaining glossary terms from WCAG 2 are addressed in <a href="#comments-on-definitions-in-wcag-2-glossary">Chapter 7 Comments on Definitions in WCAG 2 Glossary</a>. Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.</p>
@@ -2050,7 +2050,7 @@ People with low vision often use devices at less than the standard viewing dista
 <li>Bruce Bailey (U.S. Access Board)</li>
 <li>Fernanda Bonnin (Microsoft)</li>
 <li>Devanshu Chandra (Deque Systems, Inc.)</li>
-<li>Michael Cooper (<abbr title="World Wide Web Consortium">W3C</abbr>)</li>
+<li>Michael Cooper (formerly <abbr title="World Wide Web Consortium">W3C</abbr> Staff)</li>
 <li>Phil Day (NCR Atleos)</li>
 <li>Mitchell Evan (TPGi)</li>
 <li>Olivia Hogan-Stark (NCR Voyix)</li>
@@ -2060,8 +2060,8 @@ People with low vision often use devices at less than the standard viewing dista
 <li>Laura Miller (TPGi)</li>
 <li>Daniel Montalvo (<abbr title="World Wide Web Consortium">W3C</abbr> Staff)</li>
 <li>Mary Jo Mueller (IBM Corporation)</li>
-<li>Sam Ogami (Invited expert)</li>
-<li>Mike Pluke (Invited expert)</li>
+<li>Sam Ogami (Invited Expert)</li>
+<li>Mike Pluke (Invited Expert)</li>
 <li>Shawn Thompson (Shared Services Canada)</li>
 <li>Bryan Trogdon (Google LLC)</li>
 <li>Gregg Vanderheiden (Raising the Floor)</li>
@@ -2073,35 +2073,35 @@ People with low vision often use devices at less than the standard viewing dista
 <li>Jonathan Avila (Level Access)</li>
 <li>Daniel Bjorge (Deque Systems, Inc.)</li>
 <li>Alastair Campbell (Nomensa)</li>
-<li>Laura Carlson (Invited expert)</li>
-<li>Jennifer Delisi (Invited expert)</li>
+<li>Laura Carlson (Invited Expert)</li>
+<li>Jennifer Delisi (Invited Expert)</li>
 <li>Wilco Fiers (Deque Systems, Inc.)</li>
-<li>Detlev Fischer (Invited expert)</li>
-<li>Mike Gifford (Invited expert)</li>
+<li>Detlev Fischer (Invited Expert)</li>
+<li>Mike Gifford (Invited Expert)</li>
 <li>Michael Gower (IBM Corporation)</li>
-<li>Jan Jaap de Groot (Invited expert)</li>
+<li>Jan Jaap de Groot (Invited Expert)</li>
 <li>Shawn Henry (<abbr title="World Wide Web Consortium">W3C</abbr> Staff)</li>
 <li>Andrew Kirkpatrick (Adobe)</li>
 <li>Patrick Lauke (TetraLogical)</li>
-<li>Todd Libby (Invited expert)</li>
-<li>David MacDonald (Invited expert)</li>
+<li>Todd Libby (Invited Expert)</li>
+<li>David MacDonald (Invited Expert)</li>
 <li>Rachael Bradley Montgomery (Library of Congress)</li>
 <li>Scott O'Hara (Microsoft)</li>
-<li>Kimberly Patch (Invited expert)</li>
+<li>Kimberly Patch (Invited Expert)</li>
 <li>Melanie Phillip (Deque Systems, Inc.)</li>
 <li>Julie Rawe (Understood)</li>
-<li>Robert Scano (Invited expert)</li>
+<li>Robert Scano (Invited Expert)</li>
 <li>Lisa Seeman-Kestenbaum (Invited Expert)</li>
-<li>Poornima Badhan Subramanian (Invited expert)</li>
-<li>Ben Tillyer (Invited expert)</li>
+<li>Poornima Badhan Subramanian (Invited Expert)</li>
+<li>Ben Tillyer (Invited Expert)</li>
 <li>Kevin White (<abbr title="World Wide Web Consortium">W3C</abbr> Staff)</li>
 </ul>
 </section><section id="participants-in-the-apa-working-group-that-contributed"><div class="header-wrapper"><h3 id="c-3-participants-in-the-apa-working-group-that-contributed">C.3 Participants in the APA Working Group that Contributed</h3><a class="self-link" href="#participants-in-the-apa-working-group-that-contributed" aria-label="Permalink for Section C.3 Participants in the APA Working Group that Contributed"></a></div>
 <p>Special thanks goes to members of the APA working group that contributed their expertise to updates in the Text / Command-line / Terminal Applications and Interfaces content. </p>
 <ul>
-<li>Janina Sajka (Invited expert)</li>
+<li>Janina Sajka (Invited Expert)</li>
 <li>Matthew Atkinson (TPGi)</li>
-<li>Jason White (Invited expert)</li>
+<li>Jason White (Invited Expert)</li>
 </ul>
 </section><section id="other-participants-of-the-wcag2ict-task-force"><div class="header-wrapper"><h3 id="c-4-other-participants-of-the-wcag2ict-task-force">C.4 Other Participants of the WCAG2ICT Task Force</h3><a class="self-link" href="#other-participants-of-the-wcag2ict-task-force" aria-label="Permalink for Section C.4 Other Participants of the WCAG2ICT Task Force"></a></div>
 <ul>
