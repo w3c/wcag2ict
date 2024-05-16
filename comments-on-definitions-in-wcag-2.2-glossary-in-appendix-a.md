@@ -9,7 +9,7 @@ The following is a complete list of definitions from the WCAG 2 glossary. Some i
 
 ### Glossary Items that Apply to All Technologies
 
-The following glossary items apply to all technologies and do not require further interpretation for non-web ICT.
+The following glossary items apply to all technologies and do not need further interpretation for non-web ICT.
 
 *   abbreviation
 *   alternative to time-based media
@@ -119,7 +119,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
         
         **OR**
         
-    3.  The content is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other software]**</INS> required by the technology and used by the organization is also accessibility supported;
+    3. The content is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other software]**</INS> required by the technology and used by the organization is also accessibility supported;
         
         **OR**
         
