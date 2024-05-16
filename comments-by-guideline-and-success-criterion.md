@@ -1060,17 +1060,38 @@ WCAG 2.2 has made this success criterion obsolete and removed it as a requiremen
 
 **WCAG 2.0 and 2.1 Guidance:**
 
-WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software is to follow the guidance provided in the [WCAG 2.0 Editorial Errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) and the [WCAG 2.1 Editorial Errata](https://www.w3.org/WAI/WCAG21/errata/#editorial) which states the following:
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG21/Understanding/parsing#intent), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
+With these substitutions, it would read:
 
->This Success Criterion should be considered as always satisfied for any content using HTML or XML.
-
+4.1.1 Parsing: **<INS>[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technologies) and accessibility features of software or to a user-selectable [user agent](#user-agent)]</INS>**, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
 <div class="note">
     
-As in Web content, 4.1.1 Parsing is not known to have any effect on the accessibility of non-web documents or software. There are no known examples of non-web documents or software that would have an issue such as those covered by 4.1.1 Parsing. Modern assistive technology does not parse document or software markdown languages for accessibility information. User agents and platforms used to render non-web documents and software use platform accessibility APIs to present accessibility information to AT. Therefore, 4.1.1 Parsing would no longer be a requirement for accessibility.</div>
-
+Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.</div>
 <div class="note">
 
-Where an existing standard requires 4.1.1 parsing for non-web documents and software, this Success Criterion would be automatically satisfied.</div>
+Markup is not always available to [assistive technologies](#dfn-assistive-technologies) or to user selectable [user agents](#user-agent) such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.
+
+Accessibility issues introduced through poor markup would surface as errors in the programmatic information and would be reported using success criteria that rely on that information, such as 1.3.1 Info and Relationships and 4.1.2 Name, Role, Value.</div>
+<div class="note">
+    
+This success criterion would be satisfied in cases where:
+
+* Content is implemented using HTML or XML (per the WCAG errata.)
+* Non-web documents or software are not authored using a markup language.
+* Non-web documents or software are authored using a markup language, but accessibility information is exposed via platform accessibility APIs, not by making the markup itself available to assistive technologies.
+</div>
+<div class="example">
+
+Examples where 4.1.1 Parsing would be satisfied:
+
+* An HTML page embedded inside a desktop application (per the WCAG errata)
+* A PDF document (not authored using a markup language)
+* Android or iOS apps which use a markup language to specify UI layout (accessibility information is exposed via platform accessibility APIs, not the markup)
+
+Examples of markup that might be separately exposed and available to assistive technologies and to user agents include:
+
+* LaTeX documents
+* Markdown documents</div>
 
 ##### name-role-value
 
