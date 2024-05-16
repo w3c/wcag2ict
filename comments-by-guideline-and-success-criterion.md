@@ -325,7 +325,7 @@ This success criterion only applies to [non-web documents](#document) and [softw
 
 <div class="note">
     
-There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that documents and software must implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
+There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that documents and software need to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
 
 <div class="note">
     
