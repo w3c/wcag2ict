@@ -60,6 +60,6 @@ For non-web software on closed functionality products, alternate accessibility p
 <li>Where standards for banking or security have authentication requirements that are regulated or strictly enforced, those requirements may be judged to take legal precedence over Success Criterion 3.3.8 Accessible Authentication (Minimum).</li>
 </ul>  
 <li><a href="#name-role-value">4.1.2 Name, Role, Value</a> — Requires information in a programmatically determinable form.</li>
-<li><a href="#status-messages">4.1.3 Status Messages</a> — Relies upon status messages being programmatically determinable using <a href="#dfn-role">role</a> or properties.
+<li><a href="#status-messages">4.1.3 Status Messages</a> — Depends upon status messages being programmatically determinable using <a href="#dfn-role">role</a> or properties.
 <div class="note">Non-web software with closed functionality would need equivalent facilitation to provide access to status messages.</div></li>
 </ul>
