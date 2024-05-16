@@ -527,7 +527,7 @@ With these substitutions, this success criterion would read:
 
 <div class="note">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or pieces of software is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div>
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or pieces of software is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note">
     
 Individual documents or software programs (not in a set) would automatically meet this success criterion because this success criterion applies only to things that appear in a set.</div>
@@ -597,7 +597,7 @@ With these substitutions, this success criterion would read:
 
 <div class="note">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div><div class="note">
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div><div class="note">
 
 The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in the Key Terms section of the Introduction are predicated on the ability to navigate from each element of the set to each other, and navigation is a type of locating. So the mechanism used to navigate between elements of the set will be one way of locating information in the set. Non-web environments, generally major operating systems with browse and search capabilities, often provide infrastructure and tools that provide mechanisms for locating content in a set of non-web documents or a set of software programs. For example, it may be possible to browse through the files or programs that make up a set, or search within members of the set for the names of other members. A file directory would be the equivalent of a site map for documents in a set, and a search function in a file system would be equivalent to a web search function for web pages. Such facilities may provide additional ways of locating information in the set.</div>
 <div class="note">
@@ -884,7 +884,7 @@ With these substitutions, this success criterion would read:
 
 <div class="note">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div>
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note">
     
 Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
@@ -911,7 +911,7 @@ With these substitutions, this success criterion would read:
 
 <div class="note">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div>
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note">
     
 Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
@@ -943,7 +943,7 @@ Help mechanisms may be provided directly **<INS>[in the non-web document or soft
 For this success criterion, "the same order relative to other **<INS>[content]</INS>**" can be thought of as how the content is ordered when the **<INS>[non-web document or software content is serialized]</INS>**. The visual position of a help mechanism is likely to be consistent across **<INS>[non-web documents or software]</INS>** for the same **<INS>[content layout variation]</INS>** (e.g., CSS break-point). The user can initiate a change, such as changing the **<INS>[non-web document’s or software's]</INS>** zoom or orientation, which may trigger a different **<INS>[content layout variation]</INS>**. This criterion is concerned with relative order across **<INS>[non-web documents or software]</INS>** displayed in the same **<INS>[content layout variation]</INS>** (e.g., same zoom level and orientation).</div>
 <div class="note">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or pieces of software is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.)</div>
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or pieces of software is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 
 #### input-assistance
 
