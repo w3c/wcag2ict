@@ -7,7 +7,7 @@ There are success criteria that can be problematic for developers of ICT with cl
 
 Other success criteria would apply to systems with closed functionality either if they are partially closed or if they allow for the connection of some types of devices. As an example, Success Criterion 2.1.1 Keyboard would apply to systems which are closed to screen readers, but have a physical keyboard or a connector for standard keyboards.  While these criteria, as written, are not always applicable to closed functionality, most of them can inform and aid development of built-in features needed to make products with closed functionality accessible. 
 
-For non-web software on products closed functionality, alternate accessibility provisions might be needed to cover the user needs addressed by the following success criteria:
+For non-web software on products with closed functionality, alternate accessibility provisions might be needed to cover the user needs addressed by the following success criteria:
 
 <ul>
 <li><a href="#non-text-content">1.1.1 Non-text Content</a> — Depends upon text (or a text alternative) being in a programmatically determinable form.</li>
