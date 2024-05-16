@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="47167726ea381cbab7d190cf55b65f53686cad98">
+<meta name="revision" content="da56d23500f786855367b0c4a5cdcf5546a1aeeb">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -196,7 +196,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "47167726ea381cbab7d190cf55b65f53686cad98",
+  "gitRevision": "da56d23500f786855367b0c4a5cdcf5546a1aeeb",
   "publishISODate": "2024-05-16T00:00:00.000Z",
   "generatedSubtitle": "W3C Editor's Draft 16 May 2024"
 }</script>
@@ -807,12 +807,12 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 </section></section><section id="resize-text"><div class="header-wrapper"><h5 id="x6-1-5-5-resize-text">1.4.4 Resize Text</h5><a class="self-link" href="#resize-text" aria-label="Permalink for Section 1.4.4 Resize Text"></a></div><blockquote class="wcag-quote">  <p>Except for <a class="internalDFN" data-link-type="dfn" href="#dfn-captions" id="ref-for-dfn-captions-3" title="synchronized visual and/or text alternative for both speech and non-speech audio information needed to understand the media content">captions</a> and <a class="internalDFN" data-link-type="dfn" href="#dfn-images-of-text" id="ref-for-dfn-images-of-text-2" title="text that has been rendered in a non-text form (e.g., an image) in order to achieve a particular visual effect">images of text</a>, <a class="internalDFN" data-link-type="dfn" href="#dfn-text" id="ref-for-dfn-text-3" title="sequence of characters that can be programmatically determined, where the sequence is expressing something in human language">text</a> can be resized without <a class="internalDFN" data-link-type="dfn" href="#dfn-assistive-technologies" id="ref-for-dfn-assistive-technologies-2" title="hardware and/or software that acts as a user agent, or along with a mainstream user agent, to provide functionality to meet the requirements of users with disabilities that go beyond those offered by mainstream user agents">assistive technology</a> up to 200 percent without loss of content or functionality.    </p>  </blockquote>
 <section id="applying-sc-1-4-4-resize-text-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-1-5-5-1-applying-sc-1-4-4-resize-text-to-non-web-documents-and-software">Applying SC 1.4.4 Resize Text to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-1-4-4-resize-text-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 1.4.4 Resize Text to Non-Web Documents and Software"></a></div>
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent">Intent from Understanding Success Criterion 1.4.4</a>.</p>
-<div class="note" role="note" id="issue-container-generatedID-53"><div role="heading" class="note-title marker" id="h-note-48" aria-level="7"><span>Note 1</span></div><div class="">
-    
-<p><a href="#content-on-and-off-the-web">Content</a> for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</p></div></div><p></p>
+<div class="note" role="note" id="issue-container-generatedID-53"><div role="heading" class="note-title marker" id="h-note-48" aria-level="7"><span>Note 1</span></div><div class=""> 
+
+<p>The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use <a href="#dfn-assistive-technologies">assistive technologies</a>. This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of <a href="#content-on-and-off-the-web">content</a> or functionality, <em>or</em> that the application works with the platform accessibility features to meet this success criterion.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-54"><div role="heading" class="note-title marker" id="h-note-49" aria-level="7"><span>Note 2</span></div><div class="">
- 
-<p>The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use <a href="#dfn-assistive-technologies">assistive technologies</a>. This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of <a href="#content-on-and-off-the-web">content</a> or functionality, <em>or</em> that the application works with the platform features to meet this success criterion.</p></div></div><p></p>
+    
+<p>For non-web software, there may be cases where the platform does not scale all text up to 200%. In such cases, authors are encouraged to meet user needs by scaling text to the extent supported by user settings in the platform.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-55"><div role="heading" class="note-title marker" id="h-note-50" aria-level="7"><span>Note 3</span></div><div class="">
 
 <p>See also the <a href="#comments-on-closed-functionality">Comments on Closed Functionality</a>.</p></div></div><p></p>
