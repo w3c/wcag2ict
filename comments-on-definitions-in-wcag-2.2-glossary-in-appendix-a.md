@@ -1,11 +1,15 @@
 Comments on Definitions in WCAG 2 Glossary
 ----------------------------------------------------------
 
+<div class="ednote">
+    
+This draft of WCAG2ICT added guidance on applying new WCAG 2.2 glossary terms to non-web documents and software. The following terms were added since the First Public Working Draft: Cognitive function test,  dragging movements, encloses, focus indicator, minimum bounding box, and perimeter. Of those terms, only [perimeter](#dfn-perimeter) needed WCAG2ICT guidance when applied to non-web documents and software. In addition, guidance for the term [CSS pixel](#dfn-css-pixels) was updated to address public comments.</div>
+    
 The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
 ### Glossary Items that Apply to All Technologies
 
-The following glossary items apply to all technologies and do not require further interpretation for non-web ICT.
+The following glossary items apply to all technologies and do not need further interpretation for non-web ICT.
 
 *   abbreviation
 *   alternative to time-based media
@@ -115,7 +119,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
         
         **OR**
         
-    3.  The content is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other software]**</INS> required by the technology and used by the organization is also accessibility supported;
+    3. The content is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other software]**</INS> required by the technology and used by the organization is also accessibility supported;
         
         **OR**
         
@@ -258,7 +262,7 @@ Because relative luminance is defined such that it cannot directly apply to hard
 #### dfn-css-pixels
 
 ##### Applying “CSS pixel” to Non-Web Documents and Software
-<div class="ednote">The WCAG2ICT guidance for this definition is key to understanding and testing several criteria that use CSS pixels to indicate measurements. Are there platforms where the platform-defined density-independent pixel does not approximate a CSS pixel? Are there other well-defined alternatives that could provide a reliable equivalent or alternative measurement? </div>
+<div class="ednote">The WCAG2ICT task force has added additional notes around how “CSS pixel” should be applied to non-web software. These changes were made in response to public comments received on the previous draft. </div>
 
 This applies directly as written and as described in the WCAG 2 glossary.
 

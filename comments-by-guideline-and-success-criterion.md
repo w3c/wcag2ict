@@ -1,8 +1,7 @@
 Comments by Guideline and Success Criterion
 -------------------------------------------
 <div class="ednote">
-
-The WCAG2ICT Task Force has added draft guidance for all of the Level A and AA success criteria (SC) that are in WCAG 2.1. There are placeholders for WCAG 2.2 level A and AA success criteria, labeled with, "This section is to be developed by the WCAG2ICT Task Force." This guidance will be delivered in a later draft.</div>
+The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 guidelines, success criteria, and glossary terms into this draft. The Task Force also made changes to address public comments.</div>
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document.
 
@@ -10,13 +9,13 @@ The sections that follow are organized according to the principles, guidelines, 
 
 #### Applying Principle 1 Perceivable to Non-Web Documents and Software
 
-In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 1 applies directly as written.
+In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 1 applies directly as written.
 
 #### text-alternatives
 
 ##### Applying Guideline 1.1 Text Alternatives to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.1 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.1 applies directly as written.
 
 ##### non-text-content
 
@@ -35,7 +34,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 1.2 Time Based Media to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.2 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.2 applies directly as written.
 
 ##### audio-only-and-video-only-prerecorded
 
@@ -103,7 +102,7 @@ Secondary or alternate audio tracks are commonly used for this purpose.</div>
 
 ##### Applying Guideline 1.3 Adaptable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.3 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.3 applies directly as written.
 
 ##### info-and-relationships
 
@@ -142,7 +141,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-Content that is only used on hardware with a fixed display orientation OR that has no sensor to detect or change the orientation is covered under the essential exception and not required to provide support for orientation changes.</div>
+Content that is only used on hardware with a fixed display orientation _or_ that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
 
 <div class="note">
     
@@ -170,7 +169,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 1.4 Distinguishable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 1.4 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.4 applies directly as written.
 
 ##### use-of-color
 
@@ -215,8 +214,9 @@ This applies directly as written, and as described in [Intent from Understanding
     
 [Content](#content-on-and-off-the-web) for which there are software players, viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such players, unless the content will not work with zoom.</div>
 <div class="note">
-    
-The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality or that the application works with the platform features that meet this requirement.</div>
+ 
+The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, _or_ that the application works with the platform features to meet this success criterion.</div>
+
 <div class="note">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -235,12 +235,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.10 Reflow to Non-Web Documents and Software
 
-<div class="ednote">Since there were open issues on WCAG asking about how 1.4.10 Reflow should be applied to non-web software, the WCAG2ICT Task Force would like feedback on whether the guidance for non-web software is sufficient, or if there are other considerations that should be covered in the notes in the WCAG2ICT guidance below. Additionally, the Task Force seeks input and examples for the following:
-<ul><li>Situations where it is unclear whether the exception of a two-dimensional layout might apply.</li>
-<li>Situations where 1.4.10 Reflow cannot be met.</li>
-<li>Are there contexts where text sizing might be an acceptable alternative to 1.4.10 Reflow?</li>
-<li>Are there situations where the content technology and/or platform software do not support reflow? If there are, please explain and indicate whether applications built for this environment should fail this criteria or have an exception so that this requirement doesn't get applied.</li>
-<li>Are there situations where the content technology and/or platform software prevents users from resizing or zooming text, changing the viewport and screen orientation (all cases where reflow of content would typically be needed)? If there are, please explain and indicate whether applications built for this environment should fail this criteria or have an exception so that this requirement is not applied.</li></ul></div>
+<div class="ednote">The WCAG2ICT Task Force made changes to give additional guidance around how 1.4.10 Reflow should be applied to non-web software in response to public comments. </div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent), replacing “web content” with “content”.
 
@@ -258,8 +253,9 @@ Except for parts of the content which require two-dimensional layout for usage o
 320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For <INS>**[content]**</INS> which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</div>
 
 <div class="note">
-    
-Examples of content which requires two-dimensional layout are images required for understanding (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.</div>
+
+Examples of content which relies upon two-dimensional layout are some informative images (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such content.</div>
+
 <div class="note">
 
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
@@ -274,10 +270,10 @@ If a [non-web document](#document) type and its available [user agents](#user-ag
 
 <div class="note">
 
-The intent section refers to the ability for content to reflow when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this requirement.</div>
+The intent section refers to the ability for content to reflow when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this success criterion.</div>
 <div class="note">
 
-Non-web software will have more frequent cases where two-dimensional layout is required for usage or meaning than what occurs on the Web. For example:
+Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the Web. For example:
 - When the software has a complex user interface with toolbars that need to be visible while manipulating content, as explained in the Intent from Understanding 1.4.10 Reflow.</div>
 
 <div class="note">
@@ -293,6 +289,7 @@ Some software applications provide a mode of operation where reflow is possible,
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### non-text-contrast
+
 ###### Applying SC 1.4.11 Non-text Contrast to Non-Web Documents and Software
 
 This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or platform software". 
@@ -328,7 +325,7 @@ This success criterion only applies to [non-web documents](#document) and [softw
 
 <div class="note">
     
-There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not require that documents and software implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
+There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that documents and software need to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
 
 <div class="note">
     
@@ -368,13 +365,13 @@ With these substitutions, it would read:
 
 #### Applying Principle 2 Operable to Non-Web Documents and Software
 
-In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 2 applies directly as written.
+In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 2 applies directly as written.
 
 #### keyboard-accessible
 
 ##### Applying Guideline 2.1 Keyboard Accessible to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.1 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.1 applies directly as written.
 
 ##### keyboard
 
@@ -431,7 +428,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 2.2 Enough Time to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.2 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.2 applies directly as written.
 
 ##### timing-adjustable
 
@@ -650,7 +647,6 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 ##### pointer-gestures
 
 ###### Applying SC 2.5.1 Pointer Gestures to Non-Web Documents and Software
-<div class="ednote">The WCAG2ICT Task Force seeks input on whether there are other examples of non-web documents that support the ability for authors to add gesture actions to the document that are not interpreted and acted upon through a user agent. If such example exist, we need broaden our example beyond prototyping software.</div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
 
@@ -1053,6 +1049,9 @@ Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**
 ##### parsing
 
 ###### Applying SC 4.1.1 Parsing to Non-Web Documents and Software
+<div class="ednote">
+
+This section has been updated to reflect that WCAG 2.2 made 4.1.1 obsolete and removed. For WCAG 2.0 and 2.1, the 2013 WCAG2ICT guidance has been updated to reflect more current technology examples, the WCAG errata regarding content implemented using HTML and XML, and to address comments received.</div>
 
 **WCAG 2.2 Guidance:**
 <div class="note">
@@ -1061,17 +1060,38 @@ WCAG 2.2 has made this success criterion obsolete and removed it as a requiremen
 
 **WCAG 2.0 and 2.1 Guidance:**
 
-WCAG 2.0 and 2.1 are incorporated, either directly or by reference, into other standards. Therefore, the application of 4.1.1 Parsing to non-web documents and software is to follow the guidance provided in the [WCAG 2.0 Editorial Errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) and the [WCAG 2.1 Editorial Errata](https://www.w3.org/WAI/WCAG21/errata/#editorial) which states the following:
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG21/Understanding/parsing#intent), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
+With these substitutions, it would read:
 
->This Success Criterion should be considered as always satisfied for any content using HTML or XML.
-
+4.1.1 Parsing: **<INS>[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technologies) and accessibility features of software or to a user-selectable [user agent](#user-agent)]</INS>**, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
 <div class="note">
     
-As in Web content, 4.1.1 Parsing is not known to have any effect on the accessibility of non-web documents or software. There are no known examples of non-web documents or software that would have an issue such as those covered by 4.1.1 Parsing. Modern assistive technology does not parse document or software markdown languages for accessibility information. User agents and platforms used to render non-web documents and software use platform accessibility APIs to present accessibility information to AT. Therefore, 4.1.1 Parsing would no longer be a requirement for accessibility.</div>
-
+Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.</div>
 <div class="note">
 
-Where an existing standard requires 4.1.1 parsing for non-web documents and software, this Success Criterion would be automatically satisfied.</div>
+Markup is not always available to [assistive technologies](#dfn-assistive-technologies) or to user selectable [user agents](#user-agent) such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.
+
+Accessibility issues introduced through poor markup would surface as errors in the programmatic information and would be reported using success criteria that rely on that information, such as 1.3.1 Info and Relationships and 4.1.2 Name, Role, Value.</div>
+<div class="note">
+    
+This success criterion would be satisfied in cases where:
+
+* Content is implemented using HTML or XML (per the WCAG errata.)
+* Non-web documents or software are not authored using a markup language.
+* Non-web documents or software are authored using a markup language, but accessibility information is exposed via platform accessibility APIs, not by making the markup itself available to assistive technologies.
+</div>
+<div class="example">
+
+Examples where 4.1.1 Parsing would be satisfied:
+
+* An HTML page embedded inside a desktop application (per the WCAG errata)
+* A PDF document (not authored using a markup language)
+* Android or iOS apps which use a markup language to specify UI layout (accessibility information is exposed via platform accessibility APIs, not the markup)
+
+Examples of markup that might be separately exposed and available to assistive technologies and to user agents include:
+
+* LaTeX documents
+* Markdown documents</div>
 
 ##### name-role-value
 
