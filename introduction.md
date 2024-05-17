@@ -14,7 +14,7 @@ This document provides informative guidance (guidance that is not [normative](ht
 
 <div class="note">Hereafter, the use of WCAG 2 means all WCAG 2.x versions &mdash; 2.0, 2.1, and 2.2.</div>
 
-This document is intended to help clarify how to use WCAG 2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual impairments, as well as accessiblity needs of people due to the effects of aging. 
+This document is intended to help clarify how to use WCAG 2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual impairments, as well as accessibility needs of people due to the effects of aging. 
 
 Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities. Since WCAG 2 was developed for the Web, addressing accessibility for non-web documents and software may involve requirements and considerations beyond those included in this document. Authors and developers are encouraged to seek relevant advice about current best practices to ensure that non-web documents and software are accessible, as much as possible, to people with disabilities.  The following WCAG 2 supporting documents, though they have not been changed to fully apply in non-web contexts, contain helpful information to learn about the user needs, intent, and generalized implementation techniques:
 
