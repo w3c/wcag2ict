@@ -53,7 +53,7 @@ The following glossary items apply to all technologies and do not need further i
 *   presentation
 *   primary education level
 *   process
-*   programatically determined link context
+*   programmatically determined link context
 *   pure decoration
 *   real-time event
 *   relationships
