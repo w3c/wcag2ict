@@ -5,7 +5,7 @@ Key Terms
 This draft of WCAG2ICT introduced two new key terms: [closed functionality](#closed-functionality) and [menu driven interface](#menu-driven-interface).  
 </div>
 
-WCAG2ICT provides some key glossary terms to address differences between web and non-web contexts and to introduce terms that are nonexistent in WCAG but important to define for a non-web context. “Content” and “user agent” are glossary terms from WCAG 2 that need to be interpreted significantly differently when applied to non-web ICT. The glossary term “Web page” in WCAG 2 is replaced with defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the defined terms “set of documents” and “set of software programs”. The terms introduced by WCAG2ICT are “accessibility services of platform software” because non-Web software doesn't leverage the WCAG notion of a user agent, and "closed functionality" which is specific to non-web software. The remaining glossary terms from WCAG 2 are addressed in [Chapter 7 Comments on Definitions in WCAG 2 Glossary](#comments-on-definitions-in-wcag-2-glossary). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
+WCAG2ICT provides some key glossary terms to address differences between web and non-web contexts and to introduce terms that are nonexistent in WCAG but important to define for a non-web context. “Content” and “user agent” are glossary terms from WCAG 2 that need to be interpreted significantly differently when applied to non-web ICT. The glossary term “Web page” in WCAG 2 is replaced with the defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the defined terms “set of documents” and “set of software programs”. The terms introduced by WCAG2ICT are “accessibility services of platform software” because non-Web software doesn't leverage the WCAG notion of a user agent, and "closed functionality" which is specific to non-web software. The remaining glossary terms from WCAG 2 are addressed in [Chapter 7 Comments on Definitions in WCAG 2 Glossary](#comments-on-definitions-in-wcag-2-glossary). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
 
 ### Accessibility Services of Platform Software
 
@@ -24,13 +24,13 @@ These services are commonly provided in the form of accessibility APIs (applicat
 The term **closed functionality**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>closed functionality (as used in WCAG2ICT)</DT><DD>
-  
+
 a property or characteristic that prevents users from attaching, installing, or using [assistive technology](#dfn-assistive-technologies)</DD></DL>
 <div class="note">
-  
+
 <p>To support users with disabilities, products with closed functionality might instead provide built-in features that function as assistive technology or use other mechanisms to make the technology accessible.</p></div>
 <div class="example">
-  
+
 Examples of technology with closed functionality include: 
 
 * self-service transaction machines or kiosks &mdash; examples include machines used for retail self-checkout, point of sales (POS) terminals, ticketing and self check-in, and Automated Teller Machines (ATMs).
