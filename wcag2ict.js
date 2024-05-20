@@ -72,7 +72,9 @@ function prepSec(n) {
         
         // Make relative URLs absolute
         var content = n.content
-        bq.innerHTML = content;
+        content = content.replace(/id="(h-note)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
+        content = content.replace(/id="(issue-container-generatedID)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
+                bq.innerHTML = content;
 		nhead.after(bq);
 		}
 	}
@@ -105,6 +107,8 @@ function prepTerm(n) {
         var definition = n.definition
         // definition = definition.replaceAll(/<a href="(?!http)/g, '<a href="https://www.w3.org/WAI/WCAG22/Understanding/');
         // definition = definition.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
+        definition = definition.replace(/id="(h-note)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
+        definition = definition.replace(/id="(issue-container-generatedID)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
         bq.innerHTML = definition; 
         nhead.after(bq);
 	}
