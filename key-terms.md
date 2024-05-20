@@ -5,7 +5,7 @@ Key Terms
 This draft of WCAG2ICT introduced two new key terms: [closed functionality](#closed-functionality) and [menu driven interface](#menu-driven-interface).  
 </div>
 
-WCAG2ICT provides some key glossary terms to address differences between web and non-web contexts and to introduce terms that are nonexistent in WCAG but important to define for a non-web context. “Content” and “user agent” are glossary terms from WCAG 2 that need to be interpreted significantly differently when applied to non-web ICT. The glossary term “Web page” in WCAG 2 is replaced with defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the defined terms “set of documents” and “set of software programs”. The terms introduced by WCAG2ICT are “accessibility services of platform software” because non-Web software doesn't leverage the WCAG notion of a user agent, and "closed functionality" which is specific to non-web software. The remaining glossary terms from WCAG 2 are addressed in [Chapter 7 Comments on Definitions in WCAG 2 Glossary](#comments-on-definitions-in-wcag-2-glossary). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
+WCAG2ICT provides some key glossary terms to address differences between web and non-web contexts and to introduce terms that are nonexistent in WCAG but important to define for a non-web context. “Content” and “user agent” are glossary terms from WCAG 2 that need to be interpreted significantly differently when applied to non-web ICT. The glossary term “Web page” in WCAG 2 is replaced with the defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the defined terms “set of documents” and “set of software programs”. The terms introduced by WCAG2ICT are “accessibility services of platform software” because non-Web software doesn't leverage the WCAG notion of a user agent, and "closed functionality" which is specific to non-web software. The remaining glossary terms from WCAG 2 are addressed in [Chapter 7 Comments on Definitions in WCAG 2 Glossary](#comments-on-definitions-in-wcag-2-glossary). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
 
 ### Accessibility Services of Platform Software
 
@@ -24,21 +24,21 @@ These services are commonly provided in the form of accessibility APIs (applicat
 The term **closed functionality**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>closed functionality (as used in WCAG2ICT)</DT><DD>
-  
+
 a property or characteristic that prevents users from attaching, installing, or using [assistive technology](#dfn-assistive-technologies)</DD></DL>
 <div class="note">
-  
+
 <p>To support users with disabilities, products with closed functionality might instead provide built-in features that function as assistive technology or use other mechanisms to make the technology accessible.</p></div>
 <div class="example">
-  
+
 Examples of technology with closed functionality include: 
 
-* self-service transaction machines or kiosks &mdash; examples include machines used for retail self-checkout, point of sales (POS) terminals, ticketing and self check-in, and Automated Teller Machines (ATMs).
+* self-service transaction machines or kiosks &mdash; examples include machines used for retail self-checkout, point of sales (POS) terminals, ticketing and self-check-in, and Automated Teller Machines (ATMs).
 * telephony devices such as IP phones, feature phones, smartphones, and phone-enabled tablets (although such devices are becoming increasingly open and/or supplying AT and accessibility features that software can rely upon to meet WCAG requirements.)
 * entertainment technologies including smart TVs, set-top boxes, smart displays, smart speakers, smart watches, and tablets
 * an ebook reader or standalone ebook software that allows assistive technologies to access all of the user interface controls of the ebook program (open functionality) but does not allow the assistive technologies to access the actual content of book (closed functionality).
 * an operating system that makes the user provide login credentials before it allows any assistive technologies to be loaded. The login portion would be closed functionality.
-* other technology devices, such as printers, displays, and Internet of Things (IoT) devices. 
+* other technology devices, such as printers, displays, and Internet of Things (IoT) devices.
 </div>
 
 These examples are explained more fully in the [Comments on Closed Functionality](#comments-on-closed-functionality) section.
@@ -82,14 +82,14 @@ Software configuration and storage files such as databases and virus definitions
 A collection of files zipped together into an archive, stored within a single virtual hard drive file, or stored in a single "encrypted file system" file, do not constitute a single document.</div>
 <div class="note">
 
-Anything that can present its own content without involving a user agent, such as a self playing book, is not a document but is software.</div>
+Anything that can present its own content without involving a user agent, such as a self-playing book, is not a document but is software.</div>
 <div class="note">
 
 A single document may be composed of multiple files such as the video content, closed caption text, etc. This fact is not usually apparent to the end-user consuming the document / content. This is similar to how a single web page can be composed of content from multiple URIs (e.g. the page text, images, the JavaScript, a CSS file etc.).</div>
 
 <div class="example">
 
-An assembly of files that represented the video, audio, captions and timing files for a movie would be a document.
+An assembly of files that represented the video, audio, captions, and timing files for a movie would be a document.
 
 Counterexample: A binder file used to bind together the various exhibits for a legal case would not be a document.</div>
 
@@ -156,7 +156,7 @@ If there is any ambiguity whether the group is a set, then the group is not a se
 If there is no independent method to launch the software programs (as is common in closed products), those programs would not meet the definition of a "set of software programs".</div>
 <div class="note">
 
-Although the term “software” is used throughout this document because this would apply to stand alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, in the WCAG2ICT guidance for the provisions that use the phrase “set of” (Success Criteria 2.4.1, 2.4.5, 3.2.3, 3.2.4, and 3.2.6), the phrase “set of software programs” is used.</div>
+Although the term “software” is used throughout this document because this would apply to stand-alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, in the WCAG2ICT guidance for the provisions that use the phrase “set of” (Success Criteria 2.4.1, 2.4.5, 3.2.3, 3.2.4, and 3.2.6), the phrase “set of software programs” is used.</div>
 <div class="example">
 
 One example of a set of software programs would be a group of programs that can be launched and used separately but are distributed together and all have a menu that allows users to launch, or switch to, each of the other programs in the group.
@@ -174,7 +174,7 @@ The term **software** as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>software (as used in WCAG2ICT)</DT><DD>
 
-software products or software aspects of hardware-software products that have a user interface and do not depend upon a separate [user agent](#user-agent) to present any of its [content](#content-on-and-off-the-web)
+software, products or software aspects of hardware-software products, that have a user interface and do not depend upon a separate [user agent](#user-agent) to present any of its [content](#content-on-and-off-the-web)
 </DD></DL>
 <div class="note">
 

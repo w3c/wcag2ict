@@ -4,9 +4,9 @@ Background on Text / Command-line / Terminal Applications and Interfaces
 How text interfaces are realized
 --------------------------------
 
-The interface of a text application is realized through a server application directing which characters should be placed on the screen, along with either a hardware terminal or a terminal application that displays the characters. The client terminal application for text applications is analogous to a web user agent for web pages. Also like web applications, text applications may execute primarily on a remote server or execute locally.
+The interface of a text application is realized through a server application directing which characters should be placed on the screen, along with either a hardware terminal or a terminal application that displays the characters. The client terminal application for text applications is analogous to a web user agent for web pages. Also, like web applications, text applications may execute primarily on a remote server or execute locally.
 
-Some text applications render like a TeleTYpewriter (TTY); their output is always appended, like an ever growing file. Such text applications are often called “command-line applications” or occasionally “TTY-applications”, and their output can optionally be redirected to a file for later review. Others explicitly place text into a matrix of fixed width character cells on a screen (sometimes with specific foreground and background colors).
+Some text applications render like a TeleTYpewriter (TTY); their output is always appended, like an ever-growing file. Such text applications are often called “command-line applications” or occasionally “TTY-applications”, and their output can optionally be redirected to a file for later review. Others explicitly place text into a matrix of fixed width character cells on a screen (sometimes with specific foreground and background colors).
 
 Historically, input to the text application itself is provided exclusively through a keyboard interface, though Automatic Speech Recognition (ASR) based voice input is sometimes now an alternative option - especially on mobile devices.
 
