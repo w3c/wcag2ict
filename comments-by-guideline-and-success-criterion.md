@@ -1011,9 +1011,7 @@ A [cognitive function test](#dfn-cognitive-function-test) (such as remembering a
 <dt>Object Recognition</dt>
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
-<dd>
-    
-The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>**[a Web site, [non-web document](#document), or [software](#software)]**</INS>.</dd>
+<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS><strong> a Web site, <a href="#document">non-web document</a>, or <a href="#software">software</a></strong></INS>.</dd>
 </dl>
 <div class="note">
 
