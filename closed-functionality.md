@@ -22,7 +22,7 @@ In developing guidance for closed functionality, the task force has considered e
 
 These examples are explained more fully in the definition of [closed functionality](#closed-functionality) in the Key Terms section.
 
-div class="note">
+<div class="note">
 
 Some of these technologies, though closed to some external assistive technologies, often have extensive internal accessibility features that serve as AT which can be used by applications on these devices in the same way AT is used on fully open devices like desktop computers.  Others are open to some types of assistive technology but not others. (Thus, this document uses “closed functionality” rather than "closed products".)</div>
 </div>
