@@ -285,7 +285,8 @@ As written, this success criterion can only be met by non-web documents or softw
 When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to persons with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</div>
 <div class="note">
 
-Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported.</div>
+Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported, so long as there is no loss of information or functionality.
+.</div>
 <div class="note">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
