@@ -51,6 +51,8 @@
 * Ben Tillyer (Invited Expert)
 * Kevin White (W3C Staff)
 
+WCAG2ICT participants are also in the AG working group, but are not repeated here.
+
 ### Participants in the APA Working Group that Contributed
 Special thanks goes to members of the APA working group that contributed their expertise to updates in the Text / Command-line / Terminal Applications and Interfaces content. 
 
