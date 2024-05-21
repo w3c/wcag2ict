@@ -155,7 +155,7 @@ Any software program that is not part of a set, per this definition, would autom
 If there is any ambiguity whether the group is a set, then the group is not a set.</div>
 <div class="note">
 
-If there is no independent method to launch the software programs (as is common in closed products), those programs would not meet the definition of a "set of software programs".</div>
+If there is no independent method to launch the software programs (as is common in products with closed functionality), those programs would not meet the definition of a "set of software programs". This would be a single software program.</div>
 <div class="note">
 
 Although the term “software” is used throughout this document because this would apply to stand-alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, in the WCAG2ICT guidance for the provisions that use the phrase “set of” (Success Criteria 2.4.1, 2.4.5, 3.2.3, 3.2.4, and 3.2.6), the phrase “set of software programs” is used.</div>
@@ -176,7 +176,7 @@ The term **software** as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>software (as used in WCAG2ICT)</DT><DD>
 
-software, products or software aspects of hardware-software products, that have a user interface and do not depend upon a separate [user agent](#user-agent) to present any of its [content](#content-on-and-off-the-web)
+software products, or software aspects of hardware-software products, that have a user interface and do not depend upon a separate [user agent](#user-agent) to present any of its [content](#content-on-and-off-the-web)
 </DD></DL>
 <div class="note">
 
@@ -214,4 +214,4 @@ Software that only displays the [content](#content-on-and-off-the-web) contained
 An example of software that is not a user agent is a calculator application that doesn't retrieve the calculations from outside the software to present it to a user. In this case, the calculator software is not a user agent, it is simply software with a user interface.</div>
 <div class="note">
 
-Software that only shows a preview of content such as a thumbnail or other non-fully functioning presentation is not providing user agent functionality.</div>
+Software that only shows a preview of content, such as a thumbnail or other non-fully functioning presentation, is not providing full user agent functionality.</div>
