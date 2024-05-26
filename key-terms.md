@@ -25,7 +25,7 @@ The term **closed functionality**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>closed functionality (as used in WCAG2ICT)</DT><DD>
 
-a property or characteristic that prevents users from attaching, installing, or using [assistive technology](#dfn-assistive-technologies)</DD></DL>
+a property or characteristic that prevents users from attaching, installing, or using either [assistive technology](#dfn-assistive-technologies) or the accessibility features built into platform [software](#platform-software)</DD></DL>
 <div class="note">
 
 <p>To support users with disabilities, products with closed functionality might instead provide built-in features that function as assistive technology or use other mechanisms to make the technology accessible.</p></div>
@@ -34,14 +34,16 @@ a property or characteristic that prevents users from attaching, installing, or 
 Examples of technology with closed functionality include: 
 
 * self-service transaction machines or kiosks &mdash; examples include machines used for retail self-checkout, point of sales (POS) terminals, ticketing and self-check-in, and Automated Teller Machines (ATMs).
-* telephony devices such as IP phones, feature phones, smartphones, and phone-enabled tablets (although such devices are becoming increasingly open and/or supplying AT and accessibility features that software can rely upon to meet WCAG requirements.)
+* telephony devices such as internet phones, feature phones, smartphones, and phone-enabled tablets
 * entertainment technologies including smart TVs, set-top boxes, smart displays, smart speakers, smart watches, and tablets
 * an ebook reader or standalone ebook software that allows assistive technologies to access all of the user interface controls of the ebook program (open functionality) but does not allow the assistive technologies to access the actual content of book (closed functionality).
 * an operating system that makes the user provide login credentials before it allows any assistive technologies to be loaded. The login portion would be closed functionality.
 * other technology devices, such as printers, displays, and Internet of Things (IoT) devices.
 </div>
 
-These examples are explained more fully in the [Comments on Closed Functionality](#comments-on-closed-functionality) section.
+<div class"note">
+  
+Some of these technologies, though closed to some external assistive technologies, often have extensive internal accessibility features that serve as assistive technology that can be used by applications on these devices in the same way assistive technology is used on fully open devices like desktop computers. Others are open to some types of assistive technology but not others.</div>
 
 ### Content (on and off the Web)
 
@@ -105,6 +107,12 @@ an interface composed of menus and sub-menus which the user accesses by pressing
 <div class="example">
 
 Products that have a menu-driven interface include, but are not limited to, self-service transaction machines, printers, and IP-based telephones.</div>
+
+### Platform Software
+The term **platform software**, as used in WCAG2ICT, has the meaning below:
+<DL><DT>platform software</DT><DD>
+  
+collection of software components that runs on an underlying software or hardware layer, and that provides a set of software services to other software components that allows those applications to be isolated from the underlying software or hardware layer</DD></DL>
 
 ### Set of Documents
 
