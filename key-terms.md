@@ -221,3 +221,18 @@ An example of software that is not a user agent is a calculator application that
 <div class="note">
 
 Software that only shows a preview of content, such as a thumbnail or other non-fully functioning presentation, is not providing full user agent functionality.</div>
+
+### Virtual Keyboard
+
+The term **virtual keyboard**, as used in WCAG2ICT, has the meaning below:
+
+<DL><DT>virtual keyboard (as used in WCAG2ICT)</DT><DD>
+
+any software that acts as a keyboard and generates output that is treated by other software like keystrokes from a keyboard
+</DD></DL>
+<div class="note">
+
+Republishing or bundling previously published documents as a collection does not constitute a set of documents.</div>
+<div class="note">
+
+Speech, eye-gaze, sip-and-puff, sounds, switches, and codes have all been used by virtual keyboards as input that generates "keystroke" output.</div>
