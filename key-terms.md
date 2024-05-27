@@ -220,4 +220,4 @@ Software that only displays the [content](#content-on-and-off-the-web) contained
 An example of software that is not a user agent is a calculator application that doesn't retrieve the calculations from outside the software to present it to a user. In this case, the calculator software is not a user agent, it is simply software with a user interface.</div>
 <div class="note">
 
-Software that only shows a preview of content such as a thumbnail or other non-fully functioning presentation is not providing user agent functionality.</div>
+Software that only shows a preview of content, such as a thumbnail or other non-fully functioning presentation, is not providing full user agent functionality.</div>
