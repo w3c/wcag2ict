@@ -642,6 +642,9 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ###### Applying Success Criterion 2.4.11 Focus not Obscured to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum#intent).
+<div class="note">
+	
+There are cases where [non-web software](#software) has toolbars or other overlapping content where it may not be possible to satisfy this success criterion.</div>
 
 #### input-modalities
 
