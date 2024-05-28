@@ -1076,7 +1076,7 @@ Accessibility issues introduced through poor markup would surface as errors in t
     
 This success criterion would be satisfied in cases where:
 
-* Content is implemented using HTML or XML (per the WCAG errata.)
+* Content is implemented using HTML or XML (as outlined in the [WCAG 2.1 note on 4.1.1](https://www.w3.org/TR/WCAG21/#h-note-27) and the [WCAG 2.0 editorial errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) in the thirteenth list item)
 * Non-web documents or software are not authored using a markup language.
 * Non-web documents or software are authored using a markup language, but accessibility information is exposed via platform accessibility APIs, not by making the markup itself available to assistive technologies.
 </div>
@@ -1084,7 +1084,7 @@ This success criterion would be satisfied in cases where:
 
 Examples where 4.1.1 Parsing would be satisfied:
 
-* An HTML page embedded inside a desktop application (per the WCAG errata)
+* An HTML page embedded inside a desktop application (as outlined in the [WCAG 2.1 note on 4.1.1](https://www.w3.org/TR/WCAG21/#h-note-27) and the [WCAG 2.0 editorial errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) in the thirteenth list item)
 * A PDF document (not authored using a markup language)
 * Android or iOS apps which use a markup language to specify UI layout (accessibility information is exposed via platform accessibility APIs, not the markup)
 
