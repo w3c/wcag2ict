@@ -57,7 +57,7 @@ For non-web software on products with closed functionality, those who implement 
 <li><a href="#consistent-identification">3.2.4 Consistent Identification</a> — This success criterion is interpreted to only apply to “sets of software programs” which are very rare.  See the second note in the section <a href="#applying-sc-3-2-4-consistent-identification-to-non-web-documents-and-software">Applying SC 3.2.4 Consistent Identification to Non-Web Documents and Software</a>.</li>
 <li><a href="#error-identification">3.3.1 Error Identification</a> — Requires error information to be provided as text in a programmatically determinable form.
 </li>
-<li><a href="#accessible-authentication-minimum">3.3.8 Accessible Authentication (Minimum)</a> — There are situations where meeting this success criterion is problematic:
+<li><a href="#accessible-authentication-minimum">3.3.8 Accessible Authentication (Minimum)</a> — There are situations where meeting this success criterion is problematic for products with closed functionality:
 <ul>
 <li>Systems that are designed for shared use (such as in a public library) or have closed functionality might block mechanisms typically used to assist the user, such as copying authentication information from a password manager.  Instead, an alternative authentication method might be needed, such as an identity card scanner.</li>
 <li>Where standards for banking or security have authentication requirements that are regulated or strictly enforced, those requirements may be judged to take legal precedence over Success Criterion 3.3.8 Accessible Authentication (Minimum).</li>
