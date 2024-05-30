@@ -232,7 +232,4 @@ any software that acts as a keyboard and generates output that is treated by oth
 </DD></DL>
 <div class="note">
 
-Republishing or bundling previously published documents as a collection does not constitute a set of documents.</div>
-<div class="note">
-
 Speech, eye-gaze, sip-and-puff, sounds, switches, and codes have all been used by virtual keyboards as input that generates "keystroke" output.</div>
