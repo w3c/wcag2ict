@@ -74,6 +74,7 @@ function prepSec(n) {
         var content = n.content
         content = content.replace(/id="(h-note)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
         content = content.replace(/id="(issue-container-generatedID)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
+        content = content.replace(/href="(?!http)([^"]*)"/g, 'href="https://www.w3.org/TR/wcag22/$1"')
                 bq.innerHTML = content;
 		nhead.after(bq);
 		}
@@ -109,7 +110,8 @@ function prepTerm(n) {
         // definition = definition.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
         definition = definition.replace(/id="(h-note)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
         definition = definition.replace(/id="(issue-container-generatedID)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
-        bq.innerHTML = definition; 
+        definition = definition.replace(/href="(?!http)([^"]*)"/g, 'href="https://www.w3.org/TR/wcag22/$1"')
+                bq.innerHTML = definition; 
         nhead.after(bq);
 	}
 }
