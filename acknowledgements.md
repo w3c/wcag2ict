@@ -29,6 +29,8 @@
 * Daniel Bjorge (Deque Systems, Inc.)
 * Alastair Campbell (Nomensa)
 * Laura Carlson (Invited Expert)
+* DJ Chase (Invited Expert)
+* Azlan Cuttilan (Invited Expert)
 * Jennifer Delisi (Invited Expert)
 * Wilco Fiers (Deque Systems, Inc.)
 * Detlev Fischer (Invited Expert)
