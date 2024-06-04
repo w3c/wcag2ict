@@ -50,6 +50,7 @@
 * Poornima Badhan Subramanian (Invited Expert)
 * Ben Tillyer (Invited Expert)
 * Kevin White (W3C Staff)
+* Frankie Wolf (Level Access)
 
 ### Participants in the APA Working Group that Contributed
 Special thanks goes to members of the APA working group that contributed their expertise to updates in the Text / Command-line / Terminal Applications and Interfaces content. 
