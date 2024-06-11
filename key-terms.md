@@ -13,7 +13,7 @@ The term **accessibility services of platform software**, as used in WCAG2ICT, h
 
 <DL><DT>accessibility services of platform software (as used in WCAG2ICT)</DT><DD>
 
-services provided by an operating system, [user agent](#user-agent), or other platform software that enable non-web [documents](#document) or [software](#software) to expose information about the user interface and events to assistive technologies and accessibility features of software
+services provided by an operating system, [user agent](#user-agent), or other [platform software](#platform-software) that enable non-web [documents](#document) or [software](#software) to expose information about the user interface and events to assistive technologies and accessibility features of software
 </DD></DL>
 <div class="note">
 
