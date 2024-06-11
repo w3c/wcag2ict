@@ -267,7 +267,7 @@ Because relative luminance is defined such that it cannot directly apply to hard
 This applies directly as written and as described in the WCAG 2 glossary.
 
 <div class="note">
-Non-web software and its accompanying platform software do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows.</div>
+Non-web software and its accompanying [platform software](#platform-software) do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows.</div>
 
 <div class="note">
 Examples where a density-independent pixel may not be defined in the platform:
@@ -337,7 +337,7 @@ This applies directly as written and as described in the WCAG 2 glossary.
 
 <div class="note">
 
-Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., an interface where the software accepts text or other keystroke input). Underlying platform software may provide device independent input services to applications that enable operation via such a keyboard interface. Software that supports operation via such platform device independent services would be operable via a keyboard interface and would satisfy the success criterion.</div>
+Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., an interface where the software accepts text or other keystroke input). Underlying [platform software](#platform-software) may provide device independent input services to applications that enable operation via such a keyboard interface. Software that supports operation via such platform device independent services would be operable via a keyboard interface and would satisfy the success criterion.</div>
 <div class="note">
 
 This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a [virtual keyboard](#virtual-keyboard).</div>
@@ -582,19 +582,19 @@ See the guidance on [sets of documents](#set-of-documents) and [sets of software
 
 #####  Applying “style property” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings, user style sheets" with "user agent, platform software or other software settings".
+This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent(s)” with “user agent(s) or [platform software](#platform-software)”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings, user style sheets" with "user agent, [platform software](#platform-software) or other software settings".
 
 With these substitutions, it would read:
 
 <DL><DT>style property</DT><DD>
 
-property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>**[user agents or platform software]**</INS>
+property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>**[user agents or [platform software](#platform-software)]**</INS>
 
 Style properties can have several origins:
 
-- <INS>**[User agent or platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
+- <INS>**[User agent or [platform software](#platform-software)]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
 - **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>**[programmatically-set styles]**</INS>);
-- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other software]**</INS> interface settings)
+- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, [platform software](#platform-software) or other software]**</INS> interface settings)
 </DD></DL>
 
 #### dfn-targets
