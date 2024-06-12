@@ -74,6 +74,10 @@ The following stylistic conventions are used in this document:
 The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2), and the change to 4.1.1 Parsing listed in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1) section:
 
 * New [Background](#background) section to explain the history and known uses of WCAG2ICT
+* New key terms introduced by WCAG2ICT
+    * [closed functionality](#closed-functionality)
+    * [menu-driven interface](#menu-driven-interface)
+    * [platform software](#platform-software)
 * New WCAG 2.1 success criteria and guidelines
     * [Success Criterion 1.3.4 Orientation](#orientation)
     * [Success Criterion 1.3.5 Identify Input Purpose](#identify-input-purpose)
