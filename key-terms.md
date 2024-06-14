@@ -112,7 +112,16 @@ Products that have a menu-driven interface include, but are not limited to, self
 The term **platform software**, as used in WCAG2ICT, has the meaning below:
 <DL><DT>platform software</DT><DD>
   
-collection of software components that runs on an underlying software or hardware layer, and that provides a set of software services to other software components that allows those applications to be isolated from the underlying software or hardware layer</DD></DL>
+software that runs on an underlying software or hardware layer and that provides a set of software services to other software components</DD>
+<div class="note">
+  
+Platform software may run or host other software, and may isolate them from underlying software or hardware layers. </div>
+<div class="note">
+  
+A single software component may have both platform and non-platform aspects.</div>
+<div class="example">
+  
+Examples of platforms are: desktop operating systems; embedded operating systems, including mobile systems; Web browsers; plug-ins to Web browsers that render a particular media or format; and sets of components that allow other applications to execute, such as applications which support macros or scripting.</div></DL>
 
 ### Set of Documents
 
