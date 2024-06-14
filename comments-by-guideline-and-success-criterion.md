@@ -272,7 +272,7 @@ If a [non-web document](#document) type and its available [user agents](#user-ag
 
 <div class="note">
 
-The intent section refers to the ability for content to reflow when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this success criterion.</div>
+The intent section refers to the ability for content to reflow (for vertical scrolling content at a width equivalent to 320 CSS pixels, or for horizontal scrolling content at a height equivalent to 256 CSS pixels) when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features that meet this success criterion.</div>
 <div class="note">
 
 Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the Web. For example:
@@ -282,7 +282,9 @@ Non-web software will have more frequent cases where two-dimensional layout is r
 
 As written, this success criterion can only be met by non-web documents or software where the underlying user agent or platform can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.
 
-When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to persons with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</div>
+When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.
+
+When users modify zoom, scaling, and/or display resolution at the platform software level (e.g. Operating System), it impacts the size of all applications and the platform software itself. This can result in improved readability in some applications but unwanted consequences in others.</div>
 <div class="note">
 
 Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported. Such software would satisfy this success criterion as long as there is no loss of information or functionality in the drafting view.</div>
