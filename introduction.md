@@ -118,4 +118,4 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [set of non-web documents](#set-of-documents)
     * [set of software programs](#set-of-software-programs)
 * Updated sections
-    <div class=note">In this draft, most of the existing sections have undergone WCAG2ICT Task Force review and updates. Many sections needed only minor editorial and link URL updates, such as the guidance for each WCAG 2.0 success criteria.</div>
+    <div class=note">In this draft, most of the existing sections have undergone WCAG2ICT Task Force review and updates. Many sections needed only minor editorial and link URL updates, such as the guidance for the WCAG 2.0 success criteria.</div>
