@@ -338,7 +338,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or platform software,  "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or platform software",  "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
 
 With these substitutions, it would read:
 
