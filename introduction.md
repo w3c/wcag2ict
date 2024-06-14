@@ -77,6 +77,7 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [closed functionality](#closed-functionality)
     * [menu-driven interface](#menu-driven-interface)
     * [platform software](#platform-software)
+    * [virtual keyboard](#virtual-keyboard)
 * New WCAG 2.1 success criteria and guidelines
     * [Success Criterion 1.3.4 Orientation](#orientation)
     * [Success Criterion 1.3.5 Identify Input Purpose](#identify-input-purpose)
