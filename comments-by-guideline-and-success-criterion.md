@@ -4,7 +4,6 @@ Comments by Guideline and Success Criterion
 The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 guidelines, success criteria, and glossary terms into this draft. The Task Force also made changes to address public comments.</div>
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document.
-
 ### perceivable
 
 #### Applying Principle 1 Perceivable to Non-Web Documents and Software
@@ -296,13 +295,13 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.11 Non-text Contrast to Non-Web Documents and Software
 
-This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or [platform software](#platform-software). 
+This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or platform software. 
 
 With these substitutions, it would read:
 
 >The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
 >
->- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-components) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[user agent or [platform software](#platform-software)]**</INS> and not modified by the author;
+>- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-components) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and not modified by the author;
 >
 >- **Graphical Objects:** Parts of graphics required to understand the content, except when a particular presentation of graphics is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.
 
@@ -339,7 +338,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or [platform software](#platform-software)",  "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or platform software,  "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
 
 With these substitutions, it would read:
 
@@ -655,7 +654,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.5.1 Pointer Gestures to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying [platform software](#platform-software)", and for non-web [platform software](#platform-software) replacing "web content" with "[platform software](#platform-software)".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
 
 With these substitutions, the notes would read:
 
@@ -663,7 +662,7 @@ With these substitutions, the notes would read:
 
 <div class="note">
 
-This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the [user agent](#user-agent) or [assistive technology](#dfn-assistive-technologies).</div>
 
 <div class="note">
 
@@ -677,13 +676,13 @@ This requirement applies to **<INS>[user agents and other [software](#software) 
 
 <div class="note">
 
-This requirement also applies to **<INS>[[platform software](#platform-software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
 
 ##### pointer-cancellation
 
 ###### Applying SC 2.5.2 Pointer Cancellation to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying [platform software](#platform-software)", and for non-web [platform software](#platform-software) replacing "web content" with "[platform software](#platform-software)".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
 
 With these substitutions, the notes would read: 
 
@@ -711,7 +710,7 @@ This requirement applies to **<INS>[user agents and other [software](#software) 
 
 <div class="note">
 
-This requirement also applies to **<INS>[[platform software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
 
 <div class="note">
     
@@ -737,7 +736,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or [platform software](#platform-software)", and making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying [platform software](#platform-software)", and for non-web [platform software](#platform-software) replacing "web content" with "[platform software](#platform-software)".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or platform software", and making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
 
 With these substitutions, it would read:
 
@@ -755,17 +754,17 @@ Dragging movements for operation are less common in documents. An example where 
 (non-web software)
 <div class="note">
 
-This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
+This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
 
 <div class="note">
 
-This requirement also applies to **<INS>[[platform software](#platform-software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
 
 ##### target-size-minimum
 
 ###### Applying SC 2.5.8 Target Size (Minimum) to Non-Web Documents and Software:
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or [platform software](#platform-software)", and "on the same page" with "in the same non-web document or software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or platform software", and "on the same page" with "in the same non-web document or software".
 
 With these substitutions, it would read:
 
@@ -774,7 +773,7 @@ The size of the [target](#dfn-targets) for [pointer inputs](https://www.w3.org/T
 - **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
 - **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
 - **Inline:** The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;
-- **<INS>[User agent or [platform software](#platform-software)]</INS> control:** The size of the target and target offset is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and is not modified by the author;
+- **<INS>[User agent or platform software]</INS> control:** The size of the target and target offset is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and is not modified by the author;
 - **Essential:** A particular [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed;
 
 <div class="note">
@@ -1132,7 +1131,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-For [non-web documents](#document) and [software](#software) where status messages are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the user agent or [platform software](#platform-software).</div>
+For [non-web documents](#document) and [software](#software) where status messages are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the [user agent](#user-agent) or [platform software](#platform-software).</div>
 
 <div class="note">
     
