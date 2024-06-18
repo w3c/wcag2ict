@@ -45,7 +45,7 @@
 * Kimberly Patch (Invited Expert)
 * Melanie Phillip (Deque Systems, Inc.)
 * Julie Rawe (Understood)
-* Robert Scano (Invited Expert)
+* Roberto Scano (Invited Expert)
 * Lisa Seeman-Kestenbaum (Invited Expert)
 * Poornima Badhan Subramanian (Invited Expert)
 * Ben Tillyer (Invited Expert)
