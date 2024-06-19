@@ -112,7 +112,7 @@ The term **set of documents**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>set of documents (non-web) (as used in WCAG2ICT)</DT><DD>
 
-collection of **<INS>[[documents](#document)]</INS>** that share a common purpose, are created by the same author, group or organization **<INS>[and that are published together, and the documents all refer to each other by name or link]</INS>**
+collection of **<INS>[[documents](#document)]</INS>** that share a common purpose; are created by the same author, group or organization; **<INS>[are published together; and all refer to each other by name or link]</INS>**
 </DD></DL>
 <div class="note">
 
@@ -131,7 +131,7 @@ The term **set of software programs**, as used in WCAG2ICT, has the meaning belo
 
 <DL><DT>set of software programs (as used in WCAG2ICT)</DT><DD>
 
-collection of **<INS>[[software](#software) programs]</INS>** that share a common purpose, are created by the same author, group or organization **<INS>[and that are distributed together and can be launched and used independently from each other, but are interlinked each with every other one such that users can navigate from one program to another via a consistent method that appears in each member of the set]</INS>**
+collection of **<INS>[[software](#software) programs]</INS>** that share a common purpose; are created by the same author, group or organization; **<INS>[and are distributed together and can be launched and used independently from each other, but are interlinked each with every other one such that users can navigate from one program to another via a consistent method that appears in each member of the set]</INS>**
 </DD></DL>
 <div class="note">
 
@@ -153,7 +153,7 @@ Any software program that is not part of a set, per this definition, would autom
 If there is any ambiguity whether the group is a set, then the group is not a set.</div>
 <div class="note">
 
-If there is no independent method to launch the software programs (as is common in closed products), those programs would not meet the definition of a "set of software programs".</div>
+If there is no independent method to launch the software programs (as is common in closed products), those programs would not meet the definition of a “set of software programs”.</div>
 <div class="note">
 
 Although the term “software” is used throughout this document because this would apply to stand-alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, in the WCAG2ICT guidance for the provisions that use the phrase “set of” (Success Criteria 2.4.1, 2.4.5, 3.2.3, 3.2.4, and 3.2.6), the phrase “set of software programs” is used.</div>

@@ -481,7 +481,7 @@ Since any [content](#content-on-and-off-the-web) that does not meet this success
 An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</div>
 <div class="note">
     
-While the success criteria uses the term “information”, the WCAG 2 Intent section makes it clear that this is to be applied to all content. Any [content](#content-on-and-off-the-web), whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</div>
+While the success criterion uses the term “information”, the WCAG 2 Intent section makes it clear that this is to be applied to all content. Any [content](#content-on-and-off-the-web), whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</div>
 
 #### seizures-and-physical-reactions
 
@@ -810,9 +810,9 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 3.1.1 Language of Page to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent) replacing “each web page” with non-web documents or software.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent) replacing “each web page” with “non-web documents or software”.
 
-With these substitutions, it would read:
+With this substitution, it would read:
 
 **3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable). (Level A)
 
@@ -1034,7 +1034,7 @@ In WCAG 2, the Principles are provided for framing and understanding the success
 
 With this substitution, it would read:
 
-Principle 4: Robust - Content must be robust enough that it can be interpreted reliably by a wide variety of <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
+Principle 4: Robust - Content must be robust enough that it can be interpreted by a wide variety of <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
 
 #### compatible
 
