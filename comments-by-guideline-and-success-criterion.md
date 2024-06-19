@@ -1116,7 +1116,7 @@ With this substitution, it would read:
 
 <div class="note">
     
-This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already meet this success criterion when used according to specification.</div>
+**<INS>[This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already meet this success criterion when used according to specification.]</INS>**</div>
 <div class="note">
     
 For conforming to this success criterion, it is usually best practice for software user interfaces to use the accessibility services provided by [platform software](#platform-software). These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
