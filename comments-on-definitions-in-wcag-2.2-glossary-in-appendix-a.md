@@ -267,6 +267,7 @@ Because relative luminance is defined such that it cannot directly apply to hard
 This applies directly as written and as described in the WCAG 2 glossary.
 
 <div class="note">
+    
 [Non-web software](#software) and its accompanying [platform software](#platform-software) do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows.</div>
 
 <div class="note">
