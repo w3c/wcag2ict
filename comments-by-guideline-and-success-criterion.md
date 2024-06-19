@@ -140,7 +140,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-Content that is only used on hardware with a fixed display orientation _or_ that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
+Content that is only used on hardware with a fixed display orientation or that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
 
 <div class="note">
     
@@ -212,7 +212,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note"> 
 
-The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, _or_ that the application works with the platform accessibility features to meet this success criterion.</div>
+The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the application works with the platform accessibility features to meet this success criterion.</div>
 
 <div class="note">
 	
