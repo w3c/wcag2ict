@@ -220,7 +220,7 @@ A change in the user agent might include bringing up a new window, or might be a
 
 ##### Applying “cognitive function test” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2.2 glossary, replacing “Web sites” with “Web sites, non-web documents, and software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “Web sites” with “Web sites, non-web documents, and software”.
 
 With this substitution, it would read:
 
