@@ -8,7 +8,7 @@ The group is seeking feedback on the following aspects that were added or have s
 
 - Guidance for WCAG 2.2 success criteria and glossary term definitions added by this draft
 - Updates to the closed functionality guidance in the [Comments on Closed Functionality](#comments-on-closed-functionality) and [Appendix A. Success Criteria Problematic for Closed Functionality](#success-criteria-problematic-for-closed-functionality) sections
-- WCAG2ICT key term definitions added in this draft: [menu-driven interface](#menu-driven-interface), [closed functionality](#closed-functionality)
+- WCAG2ICT key term definitions added in this draft: [closed functionality](#closed-functionality), [menu-driven interface](#menu-driven-interface), [platform software](#platform-software), and [virtual keyboard](#virtual-keyboard)
 
 This is the planned last draft before we publish this as a W3C Working Group Note.
 
