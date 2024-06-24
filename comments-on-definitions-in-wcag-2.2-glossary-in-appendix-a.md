@@ -390,10 +390,10 @@ The name may be hidden and only exposed by assistive technology <INS>**[or by ac
 <div class="note">
 
 This is unrelated to the name attribute in HTML.</div>
-</DD></DL>
-<div class="note">
+<div class="Example">
 
-“AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
+For non-web software, “AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
+</DD></DL>
 
 #### dfn-perimeter
 
