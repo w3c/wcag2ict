@@ -390,7 +390,7 @@ The name may be hidden and only exposed by assistive technology <INS>**[or by ac
 <div class="note">
 
 This is unrelated to the name attribute in HTML.</div>
-<div class="Example">
+<div class="example">
 
 For non-web software, “AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
 </DD></DL>
