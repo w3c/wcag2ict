@@ -611,13 +611,13 @@ This applies directly as written and as described in the WCAG 2 glossary, replac
 
 With these substitutions, it would read:
 
-<DL><DT>technology (<INS>**[non-web document or software]**</INS>)</DT><DD>
+<DL><DT>technology (**<INS>[non-web document or software]</INS>**)</DT><DD>
 
 [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#user-agent) or other [software](#software)]**</INS>.
 
 <div class="example">
 
-Some common examples of <INS>**[non-web document and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
+Some common examples of <INS>**[[non-web document](#document) and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
 
 #### dfn-up-event
 
