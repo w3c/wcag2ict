@@ -154,7 +154,7 @@ The word guava in the following sentence “One of the notable exports is guava�
 
 ##### Applying “assistive technology” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT])”, and replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT”), and replacing “Web content” with “content”.
 
 With these substitutions, it would read:
 
@@ -189,7 +189,7 @@ Assistive technologies that are important in the context of this document includ
 
 This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” and “page” with “non-web document or content presented by software”.
 
-With this substitution, it would read:
+With these substitutions, it would read:
 
 <DL><DT>changes of context</DT><DD>
 
@@ -359,7 +359,7 @@ A key command issued by a long press of a key (2 seconds or more) and other acce
 
 This applies directly as written and as described in the WCAG 2 glossary, replacing “Web Content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
 
-With this substitution, it would read:
+With this substitution and addition, it would read:
 
 <DL><DT>label</DT><DD>
 
@@ -378,7 +378,7 @@ The term label is not limited to the label element in HTML.</div></DD></DL>
 
 This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
 
-With this substitution, it would read:
+With this substitution and addition, it would read:
 
 <DL><DT>name</DT><DD>
 
@@ -411,7 +411,7 @@ In technologies where CSS is not used, the definition of 'CSS pixel' applies as 
 
 This applies directly as written and as described in the WCAG 2 glossary, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software” and adding and “accessibility features of software” after “assistive technology”.
 
-With this substitution, it would read:
+With this substitution and addition, it would read:
 
 <DL><DT>programmatically determined (programmatically determinable)</DT><DD>
 
@@ -512,7 +512,7 @@ A number that indicates whether an image functions as a hyperlink, command butto
 
 This applies directly as written and as described in the WCAG 2 glossary, adding a second example (and numbering the first).
 
-With these substitutions, it would read:
+With this addition, it would read:
 
 <DL><DT>same functionality</DT><DD>
 
