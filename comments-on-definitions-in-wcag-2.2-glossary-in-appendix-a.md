@@ -267,7 +267,8 @@ Because relative luminance is defined such that it cannot directly apply to hard
 This applies directly as written and as described in the WCAG 2 glossary.
 
 <div class="note">
-Non-web software and its accompanying platform software do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows.</div>
+    
+[Non-web software](#software) and its accompanying [platform software](#platform-software) do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows.</div>
 
 <div class="note">
 Examples where a density-independent pixel may not be defined in the platform:
@@ -335,7 +336,12 @@ information provided by the user that is not accepted
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
-Please see the note in the [Applying SC 2.1.1 Keyboard](#applying-sc-2-1-1-keyboard-to-non-web-documents-and-software) section that uses this definition and which reads: “This does not imply that software always needs to directly support a keyboard or ‘keyboard interface’. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
+<div class="note">
+
+Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., an interface where the software accepts text or other keystroke input). Underlying [platform software](#platform-software) may provide device independent input services to applications that enable operation via such a keyboard interface. [Software](#software) that supports operation via such platform device independent services would be operable via a keyboard interface and would satisfy the success criterion.</div>
+<div class="note">
+
+This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a [virtual keyboard](#virtual-keyboard).</div>
 
 #### dfn-keyboard-shortcuts
 
@@ -384,26 +390,16 @@ The name may be hidden and only exposed by assistive technology <INS>**[or by ac
 <div class="note">
 
 This is unrelated to the name attribute in HTML.</div>
-</DD></DL>
-<div class="note">
+<div class="example">
 
-“AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
+For non-web software, “AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
+</DD></DL>
 
 #### dfn-perimeter
 
 ##### Applying “perimeter” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing "CSS pixel" with "platform-defined density-independent pixel".
-
-With this substitution, it would read:
-
-<DL><DT>perimeter</DT><DD>
-
-continuous line forming the boundary of a shape not including shared pixels, or the minimum bounding box, whichever is shortest.
-
-<div class="example">
-    
-The perimeter calculation for a 2 **<INS>[platform-defined density-independent pixel]</INS>** perimeter around a rectangle is 4h+4w, where h is the height and w is the width. For a 2 **<INS>[platform-defined density-independent pixel]</INS>** perimeter around a circle it is 4𝜋r.</div>
+This applies directly as written and as described in the WCAG 2 glossary.
 <div class="note">
 
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
@@ -583,13 +579,13 @@ With these substitutions, it would read:
 
 <DL><DT>style property</DT><DD>
 
-property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>**[user agents or platform software]**</INS>
+property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>**[[user agents](#user-agent) or [platform software](#platform-software)]**</INS>
 
 Style properties can have several origins:
 
 - <INS>**[User agent or platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
 - **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>**[programmatically-set styles]**</INS>);
-- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other software]**</INS> interface settings)
+- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other [software](#software)]**</INS> interface settings)
 </DD></DL>
 
 #### dfn-targets
@@ -615,13 +611,13 @@ This applies directly as written and as described in the WCAG 2 glossary, replac
 
 With these substitutions, it would read:
 
-<DL><DT>technology (<INS>**[non-web document or software]**</INS>)</DT><DD>
+<DL><DT>technology <INS>([non-web document or software])</INS></DT><DD>
 
 [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#user-agent) or other [software](#software)]**</INS>.
 
 <div class="example">
 
-Some common examples of <INS>**[non-web document and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
+Some common examples of <INS>**[[non-web document](#document) and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
 
 #### dfn-up-event
 

@@ -2,7 +2,7 @@ Key Terms
 ---------
 <div class="ednote">
 
-This draft of WCAG2ICT introduced two new key terms: [closed functionality](#closed-functionality) and [menu driven interface](#menu-driven-interface).  
+This draft of WCAG2ICT introduced four new key terms: [closed functionality](#closed-functionality), [menu driven interface](#menu-driven-interface), [platform software](platform-software), and [virtual keyboard](virtual-keyboard).  
 </div>
 
 WCAG2ICT provides some key glossary terms to address differences between web and non-web contexts and to introduce terms that are nonexistent in WCAG but important to define for a non-web context. “Content” and “user agent” are glossary terms from WCAG 2 that need to be interpreted significantly differently when applied to non-web ICT. The glossary term “Web page” in WCAG 2 is replaced with the defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the defined terms “set of documents” and “set of software programs”. The terms introduced by WCAG2ICT are “accessibility services of platform software” because non-Web software doesn't leverage the WCAG notion of a user agent, and "closed functionality" which is specific to non-web software. The remaining glossary terms from WCAG 2 are addressed in [Chapter 7 Comments on Definitions in WCAG 2 Glossary](#comments-on-definitions-in-wcag-2-glossary). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
@@ -13,7 +13,7 @@ The term **accessibility services of platform software**, as used in WCAG2ICT, h
 
 <DL><DT>accessibility services of platform software (as used in WCAG2ICT)</DT><DD>
 
-services provided by an operating system, [user agent](#user-agent), or other platform software that enable non-web [documents](#document) or [software](#software) to expose information about the user interface and events to assistive technologies and accessibility features of software
+services provided by an operating system, [user agent](#user-agent), or other [platform software](#platform-software) that enable non-web [documents](#document) or [software](#software) to expose information about the user interface and events to assistive technologies and accessibility features of software
 </DD></DL>
 <div class="note">
 
@@ -31,17 +31,19 @@ a property or characteristic that prevents users from attaching, installing, or 
 <p>To support users with disabilities, products with closed functionality might instead provide built-in features that function as assistive technology or use other mechanisms to make the technology accessible.</p></div>
 <div class="example">
 
-Examples of technology with closed functionality include: 
+Examples of technology that may have closed functionality include: 
 
 * self-service transaction machines or kiosks &mdash; examples include machines used for retail self-checkout, point of sales (POS) terminals, ticketing and self-check-in, and Automated Teller Machines (ATMs).
-* telephony devices such as IP phones, feature phones, smartphones, and phone-enabled tablets (although such devices are becoming increasingly open and/or supplying AT and accessibility features that software can rely upon to meet WCAG requirements.)
+* telephony devices such as internet phones, feature phones, smartphones, and phone-enabled tablets
 * entertainment technologies including smart TVs, set-top boxes, smart displays, smart speakers, smart watches, and tablets
 * an ebook reader or standalone ebook software that allows assistive technologies to access all of the user interface controls of the ebook program (open functionality) but does not allow the assistive technologies to access the actual content of book (closed functionality).
 * an operating system that makes the user provide login credentials before it allows any assistive technologies to be loaded. The login portion would be closed functionality.
 * other technology devices, such as printers, displays, and Internet of Things (IoT) devices.
 </div>
 
-These examples are explained more fully in the [Comments on Closed Functionality](#comments-on-closed-functionality) section.
+<div class"note">
+  
+Some of these technologies, though closed to some external assistive technologies, often have extensive internal accessibility features that serve as assistive technology that can be used by applications on these devices in the same way assistive technology is used on fully open devices, such as desktop computers. Others are open to some types of assistive technology but not others.</div>
 
 ### Content (on and off the Web)
 
@@ -106,6 +108,21 @@ an interface composed of menus and sub-menus which the user accesses by pressing
 
 Products that have a menu-driven interface include, but are not limited to, self-service transaction machines, printers, and IP-based telephones.</div>
 
+### Platform Software
+The term **platform software**, as used in WCAG2ICT, has the meaning below:
+<DL><DT>platform software</DT><DD>
+  
+software that runs on an underlying software or hardware layer and that provides a set of software services to other software components</DD>
+<div class="note">
+  
+Platform software may run or host other software, and may isolate them from underlying software or hardware layers. </div>
+<div class="note">
+  
+A single software component may have both platform and non-platform aspects.</div>
+<div class="example">
+  
+Examples of platforms are: desktop operating systems; embedded operating systems, including mobile systems; Web browsers; plug-ins to Web browsers that render a particular media or format; and sets of components that allow other applications to execute, such as applications which support macros or scripting.</div></DL>
+
 ### Set of Documents
 
 The term **set of documents**, as used in WCAG2ICT, has the meaning below:
@@ -153,7 +170,7 @@ Any software program that is not part of a set, per this definition, would autom
 If there is any ambiguity whether the group is a set, then the group is not a set.</div>
 <div class="note">
 
-If there is no independent method to launch the software programs (as is common in closed products), those programs would not meet the definition of a “set of software programs”.</div>
+If there is no independent method to launch the software programs (as is common in products with closed functionality), those programs would not meet the definition of a “set of software programs”.</div>
 <div class="note">
 
 Although the term “software” is used throughout this document because this would apply to stand-alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, in the WCAG2ICT guidance for the provisions that use the phrase “set of” (Success Criteria 2.4.1, 2.4.5, 3.2.3, 3.2.4, and 3.2.6), the phrase “set of software programs” is used.</div>
@@ -174,7 +191,7 @@ The term **software** as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>software (as used in WCAG2ICT)</DT><DD>
 
-software, products or software aspects of hardware-software products, that have a user interface and do not depend upon a separate [user agent](#user-agent) to present any of its [content](#content-on-and-off-the-web)
+software products, or software aspects of hardware-software products, that have a user interface and do not depend upon a separate [user agent](#user-agent) to present any of its [content](#content-on-and-off-the-web)
 </DD></DL>
 <div class="note">
 
@@ -212,4 +229,16 @@ Software that only displays the [content](#content-on-and-off-the-web) contained
 An example of software that is not a user agent is a calculator application that doesn't retrieve the calculations from outside the software to present it to a user. In this case, the calculator software is not a user agent, it is simply software with a user interface.</div>
 <div class="note">
 
-Software that only shows a preview of content such as a thumbnail or other non-fully functioning presentation is not providing user agent functionality.</div>
+Software that only shows a preview of content, such as a thumbnail or other non-fully functioning presentation, is not providing full user agent functionality.</div>
+
+### Virtual Keyboard
+
+The term **virtual keyboard**, as used in WCAG2ICT, has the meaning below:
+
+<DL><DT>virtual keyboard (as used in WCAG2ICT)</DT><DD>
+
+any software that acts as a keyboard and generates output that is treated by other software like keystrokes from a keyboard
+</DD></DL>
+<div class="note">
+
+Speech, eye-gaze, sip-and-puff, sounds, switches, and codes have all been used by virtual keyboards as input that generates "keystroke" output.</div>

@@ -14,15 +14,14 @@ This document provides informative guidance (guidance that is not [normative](ht
 
 <div class="note">Hereafter, the use of WCAG 2 means all WCAG 2.x versions &mdash; 2.0, 2.1, and 2.2.</div>
 
-This document is intended to help clarify how to use WCAG 2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual impairments, as well as accessibility needs of people due to the effects of aging. 
+This document is intended to help clarify how to use WCAG 2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual impairments, as well as accessibility needs of people due to the effects of aging. Although WCAG 2 addresses some user needs for people with cognitive and learning disabilities as well as mental health related disabilities, following the WCAG supplement [Making Content Usable for People with Cognitive and Learning Disabilities](https://www.w3.org/TR/coga-usable/) is recommended for non-web ICT to address the user needs of these groups.
 
 Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities. Since WCAG 2 was developed for the Web, addressing accessibility for non-web documents and software may involve requirements and considerations beyond those included in this document. Authors and developers are encouraged to seek relevant advice about current best practices to ensure that non-web documents and software are accessible, as much as possible, to people with disabilities.  The following WCAG 2 supporting documents, though they have not been changed to fully apply in non-web contexts, contain helpful information to learn about the user needs, intent, and generalized implementation techniques:
 
 * [WCAG 2 Overview](https://www.w3.org/WAI/intro/wcag.php)
 * [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/) \[\[WCAG22-TECHS\]\]
 * [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/)
-* [Making Content Usable for People with Cognitive and Learning Disabilities](https://www.w3.org/TR/coga-usable/)
-* [Mobile Accessibility: How WCAG 2.0 and other W3C/WAI Guidelines Apply to Mobile](https://w3c.github.io/Mobile-A11y-TF-Note/)
+* [Mobile Accessibility: How WCAG 2.0 and other W3C/WAI Guidelines Apply to Mobile](https://w3c.github.io/Mobile-A11y-TF-Note/) - This draft resource, as of the date of the WCAG2ICT Note publication, is undergoing an update by the Mobile Accessibility Task Force to cover WCAG 2.2.
   
 While WCAG 2 was designed to be technology-neutral, it assumes the presence of a “user agent” such as a browser, media player, or assistive technology as a means to access web content. Therefore, the application of WCAG 2 to documents and software in non-web contexts necessitates some interpretation in order to determine how the intent of each WCAG 2 success criterion could be met in these different contexts of use. Therefore, the bulk of the Task Force's work involved evaluating how each WCAG 2 success criterion would apply in the context of non-web ICT, if it were applied to non-web ICT.
 
@@ -74,6 +73,11 @@ The following stylistic conventions are used in this document:
 The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2), and the change to 4.1.1 Parsing listed in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1) section:
 
 * New [Background](#background) section to explain the history and known uses of WCAG2ICT
+* New key terms introduced by WCAG2ICT
+    * [closed functionality](#closed-functionality)
+    * [menu-driven interface](#menu-driven-interface)
+    * [platform software](#platform-software)
+    * [virtual keyboard](#virtual-keyboard)
 * New WCAG 2.1 success criteria and guidelines
     * [Success Criterion 1.3.4 Orientation](#orientation)
     * [Success Criterion 1.3.5 Identify Input Purpose](#identify-input-purpose)
@@ -114,4 +118,4 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [set of non-web documents](#set-of-documents)
     * [set of software programs](#set-of-software-programs)
 * Updated sections
-    <div class=note">In this draft, most of the existing sections have undergone WCAG2ICT Task Force review and updates. Many sections needed only minor editorial and link URL updates, such as the guidance for each WCAG 2.0 success criteria. Any sections that have not been fully updated have editor's notes to reflect their current status.</div>
+    <div class=note">In this draft, most of the existing sections have undergone WCAG2ICT Task Force review and updates. Many sections needed only minor editorial and link URL updates, such as the guidance for the WCAG 2.0 success criteria.</div>
