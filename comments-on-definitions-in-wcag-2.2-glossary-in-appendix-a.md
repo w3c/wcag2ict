@@ -289,8 +289,6 @@ People with low vision often use devices at less than the standard viewing dista
 
 #### dfn-down-event
 
-From the [WCAG 2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-down-event):
-
 ##### Applying “down-event” to Non-Web Documents and Software
 
 This applies directly as written and as described in the WCAG 2 glossary.
