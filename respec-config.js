@@ -112,5 +112,19 @@ var respecConfig = {
       		"date": "May 5, 1998",
       		"title": "IEC/4WD 61966-2-1: Colour Measurement and Management in Multimedia Systems and Equipment - Part 2.1: Default Colour Space - sRGB",
       	},
-	},
+          "ISO_9241-171": {
+            "isoNumber": "9241-171",
+            "href": "https://www.iso.org/standard/39080.html",
+            "title": "Ergonomics of human-system interaction Part 171: Guidance on software accessibility",
+            "date": "2008",
+            "publisher": "International Standards Organization"
+        },
+        "ISO/IEC_13066-1": {
+            "isoNumber": "13066-1",
+            "href": "https://www.iso.org/standard/53770.html",
+            "date": "2011",
+            "title": "Information technology - Interoperability with assistive technology (AT) Part 1: Requirements and recommendations for interoperability",
+            "publisher": "International Standards Organization"
+        },
+        },
 };
