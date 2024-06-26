@@ -47,12 +47,14 @@
 * Kimberly Patch (Invited Expert)
 * Melanie Phillip (Deque Systems, Inc.)
 * Julie Rawe (Understood)
-* Robert Scano (Invited Expert)
+* Roberto Scano (Invited Expert)
 * Lisa Seeman-Kestenbaum (Invited Expert)
 * Poornima Badhan Subramanian (Invited Expert)
 * Ben Tillyer (Invited Expert)
 * Kevin White (W3C Staff)
 * Frankie Wolf (Level Access)
+
+WCAG2ICT Task Force participants are also in the AG working group, but are not repeated here.
 
 ### Participants in the APA Working Group that Contributed
 Special thanks goes to members of the APA working group that contributed their expertise to updates in the Text / Command-line / Terminal Applications and Interfaces content. 

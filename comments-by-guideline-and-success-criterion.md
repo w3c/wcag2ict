@@ -4,7 +4,6 @@ Comments by Guideline and Success Criterion
 The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 guidelines, success criteria, and glossary terms into this draft. The Task Force also made changes to address public comments.</div>
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document.
-
 ### perceivable
 
 #### Applying Principle 1 Perceivable to Non-Web Documents and Software
@@ -141,7 +140,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-Content that is only used on hardware with a fixed display orientation _or_ that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
+Content that is only used on hardware with a fixed display orientation or that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
 
 <div class="note">
     
@@ -155,7 +154,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
 
-[Non-web software](#software) and [non-web documents](#document) technologies that do not provide attributes that support identifying the expected meaning for the form input data are not in scope for this success criterion.</div>
+[Non-web software](#software) and [non-web document](#document) technologies that do not provide attributes that support identifying the expected meaning for the form input data are not in scope for this success criterion.</div>
 <div class="note">
 
 For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms to those listed in the WCAG 2 section [Input Purposes for User Interface Components](https://www.w3.org/TR/WCAG22/#input-purposes) that are supported by the technology used.
@@ -180,11 +179,11 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### audio-control
 
 ###### Applying SC 1.4.2 Audio Control to Non-Web Documents and Software
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a Web page” with “in a non-web document or software”, “any content” with “any part of a non-web document or software”, “whole page” with “whole document or software”, “on the Web page” with “in the document or software”, and removing “See Conformance Requirement 5: Non-Interference”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a Web page” with “in a non-web document or software”, “any content” with “any part of a non-web document or software”, “whole page” with “whole document or software”, and “on the Web page” with “in the document or software”; and removing “See Conformance Requirement 5: Non-Interference”.
 
 With these substitutions, it would read:
 
-**1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to control audio volume independently from the overall system volume level. (Level A)
+**1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to control audio volume independently from the overall system volume level.
 
 <div class="note">
     
@@ -213,7 +212,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note"> 
 
-The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, _or_ that the application works with the platform accessibility features to meet this success criterion.</div>
+The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the application works with the platform accessibility features to meet this success criterion.</div>
 
 <div class="note">
 	
@@ -241,7 +240,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent), replacing “web content” with “content”.
 
-With these substitutions, it would read:
+With this substitution, it would read:
 
 >Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:
 >
@@ -262,17 +261,17 @@ Examples of content which relies upon two-dimensional layout are some informativ
 
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
 
-(non-web documents)
+(for non-web documents)
 
 <div class="note">
 
 If a [non-web document](#document) type and its available [user agents](#user-agent) do not support reflow, it may not be possible for a document of that type to meet this success criterion.</div>
 
-(non-web software)
+(for non-web software)
 
 <div class="note">
 
-The intent section refers to the ability for content to reflow when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features to meet this success criterion.</div>
+The intent section refers to the ability for content to reflow (for vertical scrolling content at a width equivalent to 320 CSS pixels, or for horizontal scrolling content at a height equivalent to 256 CSS pixels) when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window or dialog, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features that meet this success criterion.</div>
 <div class="note">
 
 Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the Web. For example:
@@ -282,10 +281,12 @@ Non-web software will have more frequent cases where two-dimensional layout is r
 
 As written, this success criterion can only be met by non-web documents or software where the underlying user agent or platform can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.
 
-When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to persons with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</div>
+When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.
+
+When users modify zoom, scaling, and/or display resolution at the platform software level (e.g. Operating System), it impacts the size of all applications and the platform software itself. This can result in improved readability in some applications but unwanted consequences in others.</div>
 <div class="note">
 
-Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported.</div>
+Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported. Such software would satisfy this success criterion as long as there is no loss of information or functionality in the drafting view.</div>
 <div class="note">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -294,13 +295,13 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.11 Non-text Contrast to Non-Web Documents and Software
 
-This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or platform software". 
+This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or platform software. 
 
-With these substitutions, it would read:
+With this substitution, it would read:
 
 >The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
 >
->- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-components) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[user agent or platform software]**</INS> and not modified by the author;
+>- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-components) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and not modified by the author;
 >
 >- **Graphical Objects:** Parts of graphics required to understand the content, except when a particular presentation of graphics is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.
 
@@ -337,7 +338,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or platform software",  "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or platform software", "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
 
 With these substitutions, it would read:
 
@@ -352,7 +353,7 @@ With these substitutions, it would read:
 > **Persistent**
 >    The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.
 > 
-> Exception: The visual presentation of the additional content is controlled by the <INS>**[[user agent](#user-agent) or platform [software](#software)]**</INS> and is not modified by the author.
+> Exception: The visual presentation of the additional content is controlled by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and is not modified by the author.
 > 
 ><div class="note">
 >
@@ -383,7 +384,10 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-This does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.</div>
+Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., an interface where the software accepts text or other keystroke input). Underlying [platform software](#platform-software) may provide device independent input services to applications that enable operation via such a keyboard interface. Software that supports operation via such platform device independent services would be operable via a keyboard interface and would satisfy the success criterion.</div>
+<div class="note">
+
+This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a [virtual keyboard](#virtual-keyboard).</div>
 <div class="note">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -392,11 +396,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.1.2 No Keyboard Trap to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software”, and “on the Web page” with  "in the non-web document or software", and removing “See Conformance Requirement 5: Non-Interference”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software” and “on the Web page” with "in the non-web document or software"; and removing “See Conformance Requirement 5: Non-Interference”.
 
 With these substitutions, it would read:
 
-**2.1.2 No Keyboard Trap:** If keyboard focus can be moved to a component of the <INS>**[[non-web document](#document) or [software](#software)]**</INS> using a [keyboard interface](#dfn-keyboard-interface), then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away. (Level A)
+**2.1.2 No Keyboard Trap:** If keyboard focus can be moved to a component of the <INS>**[[non-web document](#document) or [software](#software)]**</INS> using a [keyboard interface](#dfn-keyboard-interface), then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
 
 <div class="note">
     
@@ -440,7 +444,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.2.1 Timing Adjustable:** For each time limit that is set by <INS>**[[non-web documents](#document) or [software](#software)]**</INS>, at least one of the following is true: (Level A)
+**2.2.1 Timing Adjustable:** For each time limit that is set by <INS>**[[non-web documents](#document) or [software](#software)]**</INS>, at least one of the following is true:
 
 *   **Turn off:** The user is allowed to turn off the time limit before encountering it; or
 *   **Adjust:** The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or
@@ -459,9 +463,9 @@ This success criterion helps ensure that users can complete tasks without unexpe
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” and “Web page” with “non-web documents and software” and removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion.
 
-With this substitution, it would read:
+With these substitutions, it would read:
 
-**2.2.2 Pause, Stop, Hide:** For moving, [blinking](https://www.w3.org/TR/WCAG22/#dfn-blinking), scrolling, or auto-updating information, all of the following are true: (Level A)
+**2.2.2 Pause, Stop, Hide:** For moving, [blinking](https://www.w3.org/TR/WCAG22/#dfn-blinking), scrolling, or auto-updating information, all of the following are true:
 
 *   **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to [pause](https://www.w3.org/TR/WCAG22/#dfn-pause), stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential); and
     
@@ -481,7 +485,7 @@ Since any [content](#content-on-and-off-the-web) that does not meet this success
 An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</div>
 <div class="note">
     
-While the success criteria uses the term “information”, the WCAG 2 Intent section makes it clear that this is to be applied to all content. Any [content](#content-on-and-off-the-web), whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</div>
+While the success criterion uses the term “information”, the WCAG 2 Intent section makes it clear that this is to be applied to all content. Any [content](#content-on-and-off-the-web), whether informative or decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</div>
 
 #### seizures-and-physical-reactions
 
@@ -493,11 +497,11 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ##### Applying SC 2.3.1 Three Flashes or Below Threshold to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “Web pages” with “non-web documents or software” , “the whole page” with “the whole non-web document or software”, “the Web page” with “the non-web document or software”, and removing “See Conformance Requirement 5: Non-Interference”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “Web pages” with “non-web documents or software” , “the whole page” with “the whole non-web document or software”, and “the Web page” with “the non-web document or software”; and removing “See Conformance Requirement 5: Non-Interference”.
 
 With these substitutions, it would read:
 
-**2.3.1 Three Flashes or Below Threshold:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> do not contain anything that flashes more than three times in any one second period, or the [flash](https://www.w3.org/TR/WCAG22/#dfn-flashes) is below the [general flash and red flash thresholds](#dfn-general-flash-and-red-flash-thresholds). (Level A)
+**2.3.1 Three Flashes or Below Threshold:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> do not contain anything that flashes more than three times in any one second period, or the [flash](https://www.w3.org/TR/WCAG22/#dfn-flashes) is below the [general flash and red flash thresholds](#dfn-general-flash-and-red-flash-thresholds).
 
 <div class="note">
     
@@ -550,7 +554,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> have titles that describe topic or purpose. (Level A)
+**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> have titles that describe topic or purpose.
 
 <div class="note">
     
@@ -567,7 +571,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.4.3 Focus Order:** If <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability. (Level A)
+**2.4.3 Focus Order:** If <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
 
 ##### link-purpose-in-context
 
@@ -636,7 +640,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### focus-not-obscured-minimum
 
-###### Applying Success Criterion 2.4.11 Focus not Obscured to Non-Web Documents and Software
+###### Applying SC 2.4.11 Focus not Obscured to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum#intent).
 
@@ -650,35 +654,35 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.5.1 Pointer Gestures to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software by replacing "web content" with "platform software".
 
 With these substitutions, the notes would read:
 
-(non-web documents)
+(for non-web documents)
 
 <div class="note">
 
-This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the [user agent](#user-agent) or [assistive technology](#dfn-assistive-technologies).</div>
 
 <div class="note">
 
 Multipoint and path-based gestures are less common in documents. An example where a document author could add such gestures is an interactive prototype document created in a software design tool.</div>
 
-(non-web software)
+(for non-web software)
 
 <div class="note">
 
-This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
+This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
 
 <div class="note">
 
-This requirement also applies to **<INS>[[platform software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
 
 ##### pointer-cancellation
 
 ###### Applying SC 2.5.2 Pointer Cancellation to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software by replacing "web content" with "platform software".
 
 With these substitutions, the notes would read: 
 
@@ -698,15 +702,19 @@ Content that interprets pointer actions and controls which events are used for e
 
 <div class="note">
     
-Functions that emulate a keyboard or numeric keypad key press are considered essential. <INS>**[Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).]**</INS></div>
+Functions that emulate a keyboard or numeric keypad key press are considered essential. 
+<div class="example">
+
+Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
+</div>
 
 <div class="note">
     
-This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
+This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
 
 <div class="note">
 
-This requirement also applies to **<INS>[[platform software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
 
 <div class="note">
     
@@ -732,13 +740,13 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or platform software", and making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software replacing "web content" with "platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or platform software", and making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software by replacing "web content" with "platform software".
 
 With these substitutions, it would read:
 
-All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the **<INS>[[user agent](#user-agent) or platform software]</INS>** and not modified by the author.
+All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
 
-(non-web documents)
+(for non-web documents)
 <div class="note">
 
 This requirement applies to [content](#content-on-and-off-the-web) that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
@@ -747,20 +755,20 @@ This requirement applies to [content](#content-on-and-off-the-web) that interpre
 
 Dragging movements for operation are less common in documents. An example where a document author could add dragging functionality is an interactive prototype document created in a software design tool.</div>
 
-(non-web software)
+(for non-web software)
 <div class="note">
 
 This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
 
 <div class="note">
 
-This requirement also applies to **<INS>[[platform software](#software)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
 
 ##### target-size-minimum
 
 ###### Applying SC 2.5.8 Target Size (Minimum) to Non-Web Documents and Software:
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or platform software", and "on the same page" with "in the same non-web document or software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or platform software" and "on the same page" with "in the same non-web document or software".
 
 With these substitutions, it would read:
 
@@ -769,7 +777,7 @@ The size of the [target](#dfn-targets) for [pointer inputs](https://www.w3.org/T
 - **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
 - **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
 - **Inline:** The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;
-- **<INS>[User agent or platform software]</INS> control:** The size of the target and target offset is determined by the **<INS>[[user agent](#user-agent) or platform software]</INS>** and is not modified by the author;
+- **<INS>[User agent or platform software]</INS> control:** The size of the target and target offset is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and is not modified by the author;
 - **Essential:** A particular [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed;
 
 <div class="note">
@@ -810,11 +818,11 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 3.1.1 Language of Page to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent) replacing “each web page” with non-web documents or software.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent) replacing “each web page” with “non-web documents or software”.
 
-With these substitutions, it would read:
+With this substitution, it would read:
 
-**3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable). (Level A)
+**3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable).
 
 <div class="note">
     
@@ -829,9 +837,9 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.2](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts#intent) replacing “content” with “non-web document or software”.
 
-With these substitutions, it would read:
+With this substitution, it would read:
 
-**3.1.2 Language of Parts:** The [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of each passage or phrase in the <INS>**[[non-web document](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. (Level AA)
+**3.1.2 Language of Parts:** The [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of each passage or phrase in the <INS>**[[non-web document](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
 
 <div class="note">
     
@@ -846,7 +854,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or software”.
 
-With this substitution, this guideline would read:
+With this substitution, it would read:
 
 Guideline 3.2 Predictable: Make <INS>**[[non-web documents](#document) or [software](#software)]**</INS> appear and operate in predictable ways.
 
@@ -872,7 +880,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing “set of Web pages” with “set of non-web documents” and “set of software programs”.
 
-With these substitutions, this success criterion would read:
+With these substitutions, it would read:
 
 (for non-web documents)
 
@@ -887,7 +895,7 @@ With these substitutions, this success criterion would read:
 See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section of the Introduction to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note">
     
-Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within non-web documents or software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
 
 <div class="note">
     
@@ -899,13 +907,13 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
 
-With these substitutions, this success criterion would read:
+With these substitutions, it would read:
 
 (for non-web documents)
 
 **3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> are identified consistently.
 
-(for programs)
+(for software programs)
 
 **3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> are identified consistently.
 
@@ -926,7 +934,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "Web page(s)" and "page(s)" with "non-web document(s) or software program(s)", "set of Web pages" with "set of non-web documents or set of software programs", "page content" with "content", "on the page" with "in the non-web document or software", "page is serialized" with "non-web document or software content is serialized", "different page" with "different non-web document, software, or Web page", and "page variation" with "content layout variation".
 
-With these substitutions, this success criterion would read:
+With these substitutions, it would read:
 
 If a **<INS>[[non-web document](#document) or [software](#software)]</INS>** contains any of the following help [mechanisms](https://www.w3.org/TR/WCAG22/#dfn-mechanism), and those mechanisms are repeated **<INS>[in multiple non-web documents or software]</INS>** within a **<INS>[[set of non-web documents](#set-of-documents) or [set of software programs](#set-of-software-programs)]</INS>**, they occur in the same order relative to other **<INS>[[content](#content-on-and-off-the-web)]</INS>**, unless a change is initiated by the user:
 
@@ -981,7 +989,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>**[[non-web documents](#document) or [software](#software)]**</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true: (Level AA)
+**3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>**[[non-web documents](#document) or [software](#software)]**</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true:
 
 1.  **Reversible:** Submissions are reversible.
     
@@ -1021,7 +1029,10 @@ A [cognitive function test](#dfn-cognitive-function-test) (such as remembering a
 Examples of mechanisms that satisfy this criterion include: support for password entry by password managers to reduce memory need, and copy and paste to reduce the cognitive burden of re-typing.</div>
 <div class="note">
     
-If the non-web software is an application, passwords used to unlock the underlying platform software are out of scope for this requirement as these are not up to a software application’s author.</div>
+If the non-web software is an application, passwords used to unlock the underlying [platform software](#platform-software) are out of scope for this requirement as these are not up to a software application’s author.</div>
+<div class="note">
+
+There are cases where non-web software has an authentication process and no alternative or assistance mechanism is feasible, for example when entering a password on when starting, powering on / turning on an ICT (device or otherwise). In such situations, it may not be possible for the non-web software to meet this success criterion.</div>
 <div class="note">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -1034,7 +1045,7 @@ In WCAG 2, the Principles are provided for framing and understanding the success
 
 With this substitution, it would read:
 
-Principle 4: Robust - Content must be robust enough that it can be interpreted reliably by a wide variety of <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
+Principle 4: Robust - Content must be robust enough that it can be interpreted by a wide variety of <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
 
 #### compatible
 
@@ -1061,7 +1072,8 @@ WCAG 2.2 has made this success criterion obsolete and removed it as a requiremen
 **WCAG 2.0 and 2.1 Guidance:**
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG21/Understanding/parsing#intent), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
-With these substitutions, it would read:
+
+With this substitution, it would read:
 
 4.1.1 Parsing: **<INS>[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technologies) and accessibility features of software or to a user-selectable [user agent](#user-agent)]</INS>**, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
 <div class="note">
@@ -1101,14 +1113,14 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-components) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determinable); states, properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technologies). (Level A)
+**4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-components) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determinable); states, properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technologies).
 
 <div class="note">
     
-<INS>**[This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already meet this success criterion when used according to specification.]**</INS></div>
+**<INS>[This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already meet this success criterion when used according to specification.]</INS>**</div>
 <div class="note">
     
-For conforming to this success criterion, it is usually best practice for software user interfaces to use the accessibility services provided by platform software. These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
+For conforming to this success criterion, it is usually best practice for software user interfaces to use the accessibility services provided by [platform software](#platform-software). These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
 <div class="note">
 
 For document formats that support interoperability with assistive technology, standard user interface components often meet this success criterion when used according to the general design and accessibility guidance for the document format.</div>
@@ -1124,7 +1136,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-For [non-web documents](#document) and [software](#software) where status messages are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the user agent or platform software.</div>
+For [non-web documents](#document) and [software](#software) where status messages are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the [user agent](#user-agent) or [platform software](#platform-software).</div>
 
 <div class="note">
     

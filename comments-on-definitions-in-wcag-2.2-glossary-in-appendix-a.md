@@ -154,7 +154,7 @@ The word guava in the following sentence “One of the notable exports is guava�
 
 ##### Applying “assistive technology” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT])”, and replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT”), and replacing “Web content” with “content”.
 
 With these substitutions, it would read:
 
@@ -189,7 +189,7 @@ Assistive technologies that are important in the context of this document includ
 
 This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” and “page” with “non-web document or content presented by software”.
 
-With this substitution, it would read:
+With these substitutions, it would read:
 
 <DL><DT>changes of context</DT><DD>
 
@@ -257,7 +257,7 @@ See the guidance on [content in the Key Terms section](#content-on-and-off-the-w
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
-Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2 for user-interface components as a category, because the basic constructs on which the WCAG 2 and / or its conformance are built do not apply to these.”
+Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”
 
 #### dfn-css-pixels
 
@@ -267,7 +267,8 @@ Because relative luminance is defined such that it cannot directly apply to hard
 This applies directly as written and as described in the WCAG 2 glossary.
 
 <div class="note">
-Non-web software and its accompanying platform software do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows.</div>
+    
+[Non-web software](#software) and its accompanying [platform software](#platform-software) do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows.</div>
 
 <div class="note">
 Examples where a density-independent pixel may not be defined in the platform:
@@ -287,8 +288,6 @@ Most software and devices are usable at more than one viewing distance. However,
 People with low vision often use devices at less than the standard viewing distance. However, basing the density-independent pixel on a typical viewing distance provides a balance of benefits for users with disabilities. If a longer viewing distance were chosen as the basis for the density-independent pixel, the viewport would be measured with a smaller number of larger pixels, causing Success Criterion 1.4.10 Reflow to be less stringent. If a shorter viewing distance were chosen, user interface components would be measured with a larger number of smaller pixels, causing some success criteria, such as 2.5.8 Target Size, to be less stringent. </div>
 
 #### dfn-down-event
-
-From the [WCAG 2 definition for down-event](https://www.w3.org/TR/WCAG22/#dfn-down-event):
 
 ##### Applying “down-event” to Non-Web Documents and Software
 
@@ -335,7 +334,12 @@ information provided by the user that is not accepted
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
-Please see the note in the [Applying SC 2.1.1 Keyboard](#applying-sc-2-1-1-keyboard-to-non-web-documents-and-software) section that uses this definition and which reads: “This does not imply that software always needs to directly support a keyboard or ‘keyboard interface’. Nor does it imply that software always needs to provide a soft keyboard. Underlying platform software may provide device independent input services to applications that enable operation via a keyboard. Software that supports operation via such platform device independent services would be operable by a keyboard and would comply.”
+<div class="note">
+
+Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., an interface where the software accepts text or other keystroke input). Underlying [platform software](#platform-software) may provide device independent input services to applications that enable operation via such a keyboard interface. [Software](#software) that supports operation via such platform device independent services would be operable via a keyboard interface and would satisfy the success criterion.</div>
+<div class="note">
+
+This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a [virtual keyboard](#virtual-keyboard).</div>
 
 #### dfn-keyboard-shortcuts
 
@@ -353,7 +357,7 @@ A key command issued by a long press of a key (2 seconds or more) and other acce
 
 This applies directly as written and as described in the WCAG 2 glossary, replacing “Web Content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
 
-With this substitution, it would read:
+With this substitution and addition, it would read:
 
 <DL><DT>label</DT><DD>
 
@@ -372,7 +376,7 @@ The term label is not limited to the label element in HTML.</div></DD></DL>
 
 This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
 
-With this substitution, it would read:
+With this substitution and addition, it would read:
 
 <DL><DT>name</DT><DD>
 
@@ -384,26 +388,16 @@ The name may be hidden and only exposed by assistive technology <INS>**[or by ac
 <div class="note">
 
 This is unrelated to the name attribute in HTML.</div>
-</DD></DL>
-<div class="note">
+<div class="example">
 
-“AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
+For non-web software, “AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
+</DD></DL>
 
 #### dfn-perimeter
 
 ##### Applying “perimeter” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing "CSS pixel" with "platform-defined density-independent pixel".
-
-With this substitution, it would read:
-
-<DL><DT>perimeter</DT><DD>
-
-continuous line forming the boundary of a shape not including shared pixels, or the minimum bounding box, whichever is shortest.
-
-<div class="example">
-    
-The perimeter calculation for a 2 **<INS>[platform-defined density-independent pixel]</INS>** perimeter around a rectangle is 4h+4w, where h is the height and w is the width. For a 2 **<INS>[platform-defined density-independent pixel]</INS>** perimeter around a circle it is 4𝜋r.</div>
+This applies directly as written and as described in the WCAG 2 glossary.
 <div class="note">
 
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
@@ -415,7 +409,7 @@ In technologies where CSS is not used, the definition of 'CSS pixel' applies as 
 
 This applies directly as written and as described in the WCAG 2 glossary, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software” and adding and “accessibility features of software” after “assistive technology”.
 
-With this substitution, it would read:
+With this substitution and addition, it would read:
 
 <DL><DT>programmatically determined (programmatically determinable)</DT><DD>
 
@@ -516,7 +510,7 @@ A number that indicates whether an image functions as a hyperlink, command butto
 
 This applies directly as written and as described in the WCAG 2 glossary, adding a second example (and numbering the first).
 
-With these substitutions, it would read:
+With this addition, it would read:
 
 <DL><DT>same functionality</DT><DD>
 
@@ -583,13 +577,13 @@ With these substitutions, it would read:
 
 <DL><DT>style property</DT><DD>
 
-property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>**[user agents or platform software]**</INS>
+property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>**[[user agents](#user-agent) or [platform software](#platform-software)]**</INS>
 
 Style properties can have several origins:
 
 - <INS>**[User agent or platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
 - **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>**[programmatically-set styles]**</INS>);
-- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other software]**</INS> interface settings)
+- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other [software](#software)]**</INS> interface settings)
 </DD></DL>
 
 #### dfn-targets
@@ -615,13 +609,13 @@ This applies directly as written and as described in the WCAG 2 glossary, replac
 
 With these substitutions, it would read:
 
-<DL><DT>technology (<INS>**[non-web document or software]**</INS>)</DT><DD>
+<DL><DT>technology <INS>([non-web document or software])</INS></DT><DD>
 
 [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#user-agent) or other [software](#software)]**</INS>.
 
 <div class="example">
 
-Some common examples of <INS>**[non-web document and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
+Some common examples of <INS>**[[non-web document](#document) and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
 
 #### dfn-up-event
 
