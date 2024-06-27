@@ -75,7 +75,6 @@ function prepSec(n) {
         content = content.replace(/id="(h-note)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
         content = content.replace(/id="(issue-container-generatedID)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
         content = content.replace(/href="(?!http)([^"]*)"/g, 'href="https://www.w3.org/TR/wcag22/$1"')
-        content = content.replace(/\[New\]/g, "")
         bq.innerHTML = content;
 		nhead.after(bq);
 		}
@@ -112,9 +111,7 @@ function prepTerm(n) {
         definition = definition.replace(/id="(h-note)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
         definition = definition.replace(/id="(issue-container-generatedID)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
         definition = definition.replace(/href="(?!http)([^"]*)"/g, 'href="https://www.w3.org/TR/wcag22/$1"')
-        definition = definition.replace(/\[New\]/g, "")
-
-                bq.innerHTML = definition; 
+        bq.innerHTML = definition; 
         nhead.after(bq);
 	}
 }
@@ -282,6 +279,12 @@ function removeNumbering() {
         tocItem.textContent = tocItem.textContent.replace(/^[0-9.]+\s*/, '');
     });
 }
+function removeChange () {
+    elements = document.querySelectorAll(".change")
+    elements.forEach(element => {
+        element.remove();
+    });
+}
 function finalCleanup() {
 	hideDeepNums();
 	hideDeepNumsGlossary();
@@ -289,7 +292,9 @@ function finalCleanup() {
 	renumberExamples();
 	addHeadingIds();
 	removeNumbering();
+ removeChange();
 }
+
 function postRespec() {
 	return fetchWcagInfo();
 }
