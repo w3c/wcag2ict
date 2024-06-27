@@ -41,7 +41,7 @@ Examples of technology that may have closed functionality include:
 * other technology devices, such as printers, displays, and Internet of Things (IoT) devices.
 </div>
 
-<div class"note">
+<div class="note">
   
 Some of these technologies, though closed to some external assistive technologies, often have extensive internal accessibility features that serve as assistive technology that can be used by applications on these devices in the same way assistive technology is used on fully open devices, such as desktop computers. Others are open to some types of assistive technology but not others.</div>
 
@@ -110,9 +110,7 @@ Products that have a menu-driven interface include, but are not limited to, self
 
 ### Platform Software
 The term **platform software**, as used in WCAG2ICT, has the meaning below:
-<DL><DT>platform software</DT><DD>
-  
-software that runs on an underlying software or hardware layer and that provides a set of software services to other software components</DD>
+<DL><DT>platform software</DT><DD>software that runs on an underlying software or hardware layer and that provides a set of software services to other software components</DD></DL>
 <div class="note">
   
 Platform software may run or host other software, and may isolate them from underlying software or hardware layers. </div>
