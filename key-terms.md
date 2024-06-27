@@ -121,7 +121,9 @@ Platform software may run or host other software, and may isolate them from unde
 A single software component may have both platform and non-platform aspects.</div>
 <div class="example">
   
-Examples of platforms are: desktop operating systems; embedded operating systems, including mobile systems; Web browsers; plug-ins to Web browsers that render a particular media or format; and sets of components that allow other applications to execute, such as applications which support macros or scripting.</div></DL>
+Examples of platforms are: desktop operating systems; embedded operating systems, including mobile systems; Web browsers; plug-ins to Web browsers that render a particular media or format; and sets of components that allow other applications to execute, such as applications which support macros or scripting.</div>
+
+This definition is based on the definition of "platform software" found in [[ISO_9241-171]] and [[ISO/IEC_13066-1]].</DL>
 
 ### Set of Documents
 
