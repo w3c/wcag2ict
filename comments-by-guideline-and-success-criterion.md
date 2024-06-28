@@ -345,7 +345,7 @@ With these substitutions, it would read:
 **1.4.13 Content on Hover or Focus:** Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:
 
 <DL><DT>Dismissible</DT>
-<DD>A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an [input error](#dfn-input-error) or does not obscure or replace other content;</DD>
+<DD>A <a href="https://www.w3.org/TR/WCAG22/#dfn-mechanism">mechanism</a> is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an <a href="#dfn-input-error">input error</a> or does not obscure or replace other content;</DD>
 
 <DT>Hoverable</DT>
 <DD>If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;</DD>
