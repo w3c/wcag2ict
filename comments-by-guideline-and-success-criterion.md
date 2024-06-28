@@ -242,10 +242,10 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
->Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:
->
->- Vertical scrolling content at a width equivalent to 320 [CSS pixels](#dfn-css-pixels);
->- Horizontal scrolling content at a height equivalent to 256 [CSS pixels](#dfn-css-pixels).
+**1.4.10 Reflow:** Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:
+
+- Vertical scrolling content at a width equivalent to 320 [CSS pixels](#dfn-css-pixels);
+- Horizontal scrolling content at a height equivalent to 256 [CSS pixels](#dfn-css-pixels).
 
 Except for parts of the content which require two-dimensional layout for usage or meaning.
 
@@ -299,11 +299,11 @@ This applies directly as  written and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
->The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
->
->- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-components) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and not modified by the author;
->
->- **Graphical Objects:** Parts of graphics required to understand the content, except when a particular presentation of graphics is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.
+**1.4.11 Non-text Contrast:** The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
+
+- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-components) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and not modified by the author;
+
+- **Graphical Objects:** Parts of graphics required to understand the content, except when a particular presentation of graphics is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.
 
 <div class="note">
     
@@ -342,27 +342,27 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-> Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:
-> 
-> **Dismissible**
->    A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an [input error](#dfn-input-error) or does not obscure or replace other content;
-> 
-> **Hoverable**
->    If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;
-> 
-> **Persistent**
->    The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.
-> 
-> Exception: The visual presentation of the additional content is controlled by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and is not modified by the author.
-> 
-><div class="note">
->
->Examples of additional content controlled by the <INS>**[user agent or platform software]**</INS> include <INS>**[tooltips]**</INS> created through use of <INS>**[user interface object attributes]**</INS>.</div>
-> 
-> <div class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
-><div class="note">
->
->This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as links used to skip to another part of a page) do not present additional content they are not covered by this criterion.</div>
+**1.4.13 Content on Hover or Focus:** Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:
+
+<DL><DT>Dismissible</DT>
+<DD>A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to dismiss the additional content without moving pointer hover or keyboard focus, unless the additional content communicates an [input error](#dfn-input-error) or does not obscure or replace other content;</DD>
+
+<DT>Hoverable</DT>
+<DD>If pointer hover can trigger the additional content, then the pointer can be moved over the additional content without the additional content disappearing;</DD>
+
+<DT>Persistent</DT>
+<DD>The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.</DD></DL>
+
+Exception: The visual presentation of the additional content is controlled by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and is not modified by the author.
+
+<div class="note">
+
+Examples of additional content controlled by the <INS>**[user agent or platform software]**</INS> include <INS>**[tooltips]**</INS> created through use of <INS>**[user interface object attributes]**</INS>.</div>
+ 
+<div class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
+<div class="note">
+
+This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as links used to skip to another part of a page) do not present additional content they are not covered by this criterion.</div>
 
 ### operable
 
@@ -744,7 +744,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
+**2.5.7 Dragging Movements:** All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
 
 (for non-web documents)
 <div class="note">
@@ -772,7 +772,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-The size of the [target](#dfn-targets) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixels), except where:
+**2.5.8 Target Size (Minimum):** The size of the [target](#dfn-targets) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixels), except where:
 
 - **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
 - **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
@@ -856,7 +856,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 With this substitution, it would read:
 
-Guideline 3.2 Predictable: Make <INS>**[[non-web documents](#document) or [software](#software)]**</INS> appear and operate in predictable ways.
+**Guideline 3.2 Predictable:** Make <INS>**[[non-web documents](#document) or [software](#software)]**</INS> appear and operate in predictable ways.
 
 ##### on-focus
 
@@ -936,7 +936,7 @@ This applies directly as written and as described in [Intent from Understanding 
 
 With these substitutions, it would read:
 
-If a **<INS>[[non-web document](#document) or [software](#software)]</INS>** contains any of the following help [mechanisms](https://www.w3.org/TR/WCAG22/#dfn-mechanism), and those mechanisms are repeated **<INS>[in multiple non-web documents or software]</INS>** within a **<INS>[[set of non-web documents](#set-of-documents) or [set of software programs](#set-of-software-programs)]</INS>**, they occur in the same order relative to other **<INS>[[content](#content-on-and-off-the-web)]</INS>**, unless a change is initiated by the user:
+**3.2.6 Consistent Help:** If a **<INS>[[non-web document](#document) or [software](#software)]</INS>** contains any of the following help [mechanisms](https://www.w3.org/TR/WCAG22/#dfn-mechanism), and those mechanisms are repeated **<INS>[in multiple non-web documents or software]</INS>** within a **<INS>[[set of non-web documents](#set-of-documents) or [set of software programs](#set-of-software-programs)]</INS>**, they occur in the same order relative to other **<INS>[[content](#content-on-and-off-the-web)]</INS>**, unless a change is initiated by the user:
 
 * Human contact details;
 * Human contact mechanism;
@@ -1007,9 +1007,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.8 Accessible Authentication (Minimum) to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), “the Web site” with “a Web site, non-web document, or software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), replacing “the Web site” with “a Web site, non-web document, or software”.
 
-A [cognitive function test](#dfn-cognitive-function-test) (such as remembering a password or solving a puzzle) is not required for any step in an authentication [process](https://www.w3.org/TR/WCAG22/#dfn-processes) unless that step provides at least one of the following:
+With this substitution, it would read:
+
+**3.3.8 Accessible Authentication (Minimum):** A [cognitive function test](#dfn-cognitive-function-test) (such as remembering a password or solving a puzzle) is not required for any step in an authentication [process](https://www.w3.org/TR/WCAG22/#dfn-processes) unless that step provides at least one of the following:
 
 <dl>
 <dt>Alternative</dt>
@@ -1045,7 +1047,7 @@ In WCAG 2, the Principles are provided for framing and understanding the success
 
 With this substitution, it would read:
 
-Principle 4: Robust - Content must be robust enough that it can be interpreted by a wide variety of <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
+**Principle 4 Robust:** Content must be robust enough that it can be interpreted by a wide variety of <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
 
 #### compatible
 
@@ -1055,7 +1057,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 With this substitution, it would read:
 
-Guideline 4.1 Compatible: Maximize compatibility with current and future <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
+**Guideline 4.1 Compatible:** Maximize compatibility with current and future <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
 
 ##### parsing
 
