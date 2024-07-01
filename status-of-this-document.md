@@ -10,6 +10,7 @@ The group is seeking feedback on the following aspects that were added or have s
 - Updates to the closed functionality guidance in the [Comments on Closed Functionality](#comments-on-closed-functionality) and [Appendix A. Success Criteria Problematic for Closed Functionality](#success-criteria-problematic-for-closed-functionality) sections
 - WCAG2ICT key term definitions added in this draft: [closed functionality](#closed-functionality), [menu-driven interface](#menu-driven-interface), [platform software](#platform-software), and [virtual keyboard](#virtual-keyboard)
 
-This is the planned last draft before we publish this as a W3C Working Group Note.
+This is the planned last draft before we publish this as a W3C Working Group Note. Please send comments by 6 August 2024. If you need more time, please request an extension by sending an email to [public-wcag2ict-comments@w3.org](mailto:public-wcag2ict-comments@w3.org).
+
 
 </div>
