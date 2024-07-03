@@ -547,7 +547,7 @@ See the guidance on [set of documents](#set-of-documents) and [set of software p
 
 <div class="note">
 
-For success criteria that use the term “set of web pages”, either explicitly or implicitly ([2.4.1](#bypass-blocks), [2.4.5](#multiple-ways), [3.2.3](#consistent-navigation), and [3.2.4](#consistent-identification)), simply substitute "set of non-web documents" and "set of software programs" when applying this to non-web technologies.</div>
+For success criteria that use the term “set of web pages”, either explicitly or implicitly ([2.4.1](#bypass-blocks), [2.4.5](#multiple-ways), [3.2.3](#consistent-navigation), [3.2.4](#consistent-identification), and [3.2.6](#consistent-help)), simply substitute "set of non-web documents" and "set of software programs" when applying this to non-web technologies.</div>
 
 #### dfn-structure
 
