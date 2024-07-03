@@ -257,7 +257,9 @@ See the guidance on [content in the Key Terms section](#content-on-and-off-the-w
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
-Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”
+<div class="note">
+
+Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”</div>
 
 #### dfn-css-pixels
 
