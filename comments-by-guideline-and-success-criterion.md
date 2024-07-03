@@ -662,7 +662,7 @@ With these substitutions, the notes would read:
 
 <div class="note">
 
-This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the [user agent](#user-agent) or [assistive technology](#dfn-assistive-technologies).</div>
+This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the [user agent](#user-agent) or [assistive technology](#dfn-assistive-technologies)).</div>
 
 <div class="note">
 
