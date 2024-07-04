@@ -583,6 +583,10 @@ This applies directly as written and as described in [Intent from Understanding 
     
 In software, a “link” is any text string or image in the user interface outside a user interface control that behaves like a hypertext link. This does not include general user interface controls or buttons. (An OK button, for example, would not be a link.)</div>
 
+<div class="note">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
 ##### multiple-ways
 
 ###### Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software
