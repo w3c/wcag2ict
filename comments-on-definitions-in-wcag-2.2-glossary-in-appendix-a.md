@@ -407,13 +407,13 @@ In technologies where CSS is not used, the definition of 'CSS pixel' applies as 
 
 ##### Applying “programmatically determined” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software” and adding and “accessibility features of software” after “assistive technology”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “user agents, including assistive technologies,” with “assistive technologies and accessibility features of software” and adding “and accessibility features of software” after “assistive technology”.
 
 With this substitution and addition, it would read:
 
 <DL><DT>programmatically determined (programmatically determinable)</DT><DD>
 
-determined by [software](#software) from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>, can extract and present this information to users in different modalities
+determined by [software](#software) from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS> can extract and present this information to users in different modalities
 
 <div class="example">
 
