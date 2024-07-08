@@ -491,7 +491,7 @@ While the success criterion uses the term “information”, the WCAG 2 Intent s
 
 ##### Applying Guideline 2.3 Seizures and Physical Reactions to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.3 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.3 applies directly as written.
 
 ##### three-flashes-or-below-threshold
 
@@ -511,7 +511,7 @@ Since any content that does not meet this success criterion can interfere with a
 
 ##### Applying Guideline 2.4 Navigable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.4 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.4 applies directly as written.
 
 ##### bypass-blocks
 
@@ -648,7 +648,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ##### Applying Guideline 2.5 Input Modalities to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 2.5 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.5 applies directly as written.
 
 ##### pointer-gestures
 
@@ -806,13 +806,13 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 #### Applying Principle 3 Understandable to Non-Web Documents and Software
 
-In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 3 applies directly as written.
+In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 3 applies directly as written.
 
 #### readable
 
 ##### Applying Guideline 3.1 Readable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.1 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.1 applies directly as written.
 
 ##### language-of-page
 
@@ -852,7 +852,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 3.2 Predictable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or software”.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or software”.
 
 With this substitution, it would read:
 
@@ -957,7 +957,7 @@ See [set of documents](#set-of-documents) and [set of software programs](#set-of
 
 ##### Applying Guideline 3.3 Input Assistance to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 3.3 applies directly as written.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.3 applies directly as written.
 
 ##### error-identification
 
@@ -1041,7 +1041,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 #### Applying Principle 4 Robust to Non-Web Documents and Software
 
-In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Principle 4 applies directly as written replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
+In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 4 applies directly as written replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
 
 With this substitution, it would read:
 
@@ -1051,7 +1051,7 @@ Principle 4: Robust - Content must be robust enough that it can be interpreted b
 
 ##### Applying Guideline 4.1 Compatible to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not required for conformance to WCAG. Guideline 4.1 applies directly as written, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
+In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 4.1 applies directly as written, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
 
 With this substitution, it would read:
 
