@@ -495,7 +495,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ##### three-flashes-or-below-threshold
 
-##### Applying SC 2.3.1 Three Flashes or Below Threshold to Non-Web Documents and Software
+###### Applying SC 2.3.1 Three Flashes or Below Threshold to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “Web pages” with “non-web documents or software” , “the whole page” with “the whole non-web document or software”, and “the Web page” with “the non-web document or software”; and removing “See Conformance Requirement 5: Non-Interference”.
 
