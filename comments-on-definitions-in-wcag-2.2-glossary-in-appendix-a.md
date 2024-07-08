@@ -482,7 +482,7 @@ Tools are available that automatically do the calculations when testing contrast
 A [MathML version of the relative luminance definition](http://www.w3.org/TR/WCAG22/relative-luminance.html) is available.</div>
 </DD></DL>
 
-<div class="note">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, non-UI aspects of platforms, or the application of WCAG 2 for user-interface components as a category, because the basic constructs on which the WCAG 2 and / or its conformance are built do not apply to these.”</div>
+<div class="note">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”</div>
 
 #### dfn-role
 
