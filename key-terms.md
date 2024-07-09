@@ -207,14 +207,14 @@ Because software with a user interface provides a function equivalent to a user 
 
 WCAG 2 defines **user agent** as:
 
-><DL><DT>user agent</DT><DD>
-> 
-> any software that retrieves and presents Web content for users
-> 
-</DD></DL>
+<blockquote>
+any software that retrieves and presents Web content for users
+
 <div class="example">
 
->Web browsers, media players, plug-ins, and other programs—including [assistive technologies](#dfn-assistive-technologies)—that help in retrieving, rendering, and interacting with Web content.</div>
+Web browsers, media players, plug-ins, and other programs — including <a href="https://www.w3.org/TR/wcag22/#dfn-assistive-technologies">assistive technologies</a> — that help in retrieving, rendering, and interacting with Web content.</div>
+</blockquote>
+
 For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2, the term “user agent” only refers to retrieval and display of web content. For non-web ICT, the term “user agent” refers to retrieval and display of separate content that is _not on the Web_, which WCAG2ICT refers to as a “document”. Within WCAG2ICT, the term “user agent” is used as follows:
 
 <DL><DT>user agent (as used in WCAG2ICT)</DT><DD>
