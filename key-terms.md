@@ -237,7 +237,7 @@ The term **virtual keyboard**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>virtual keyboard (as used in WCAG2ICT)</DT><DD>
 
-any software that acts as a keyboard and generates output that is treated by other software like keystrokes from a keyboard
+any software that acts as a keyboard and generates output that is treated by other software as keystrokes from a keyboard
 </DD></DL>
 <div class="note">
 
