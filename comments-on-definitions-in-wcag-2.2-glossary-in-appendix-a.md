@@ -537,10 +537,6 @@ With this substitution, it would read:
     
 the success criterion does not evaluate to 'false' when applied to the <INS>**[[non-web document](#document) or [software](#software)]**</INS>
 
-<div class="note">
-    
-Though WCAG2ICT and WCAG 2 don't use this exact phrase, in this document there are variations of the phrase that use this definition. See "success criteria is satisfied" in [Section 6 Comments on Conformance](#comments-on-conformance) and "satisfy any success criterion" in the notes for the definition of [set of software programs](#set-of-software-programs).</div></DD></DL>
-
 #### dfn-set-of-web-pages
 
 ##### Applying “set of Web pages” to Non-Web Documents and Software
