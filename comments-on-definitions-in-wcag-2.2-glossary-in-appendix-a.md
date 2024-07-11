@@ -3,7 +3,7 @@ Comments on Definitions in WCAG 2 Glossary
 
 <div class="ednote">
     
-This draft of WCAG2ICT added guidance on applying new WCAG 2.2 glossary terms to non-web documents and software. The following terms were added since the First Public Working Draft: Cognitive function test,  dragging movements, encloses, focus indicator, minimum bounding box, and perimeter. Of those terms, only [perimeter](#dfn-perimeter) needed WCAG2ICT guidance when applied to non-web documents and software. In addition, guidance for the term [CSS pixel](#dfn-css-pixels) was updated to address public comments.</div>
+This draft of WCAG2ICT added guidance on applying new WCAG 2.2 glossary terms to non-web documents and software. The following terms were added since the First Public Working Draft: Cognitive function test,  dragging movements, encloses, focus indicator, minimum bounding box, and perimeter. In addition, guidance for the term [CSS pixel](#dfn-css-pixels) was updated to address public comments.</div>
     
 The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
@@ -81,6 +81,7 @@ This document does not provide guidance on applying AAA success criteria to non-
 *   blocks of text
 *   context-sensitive help
 *   motion animation
+*   perimeter
 *   region
 *   section
 *   supplemental content
@@ -393,16 +394,6 @@ This is unrelated to the name attribute in HTML.</div>
 <div class="example">
 
 For non-web software, “AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</div>
-</DD></DL>
-
-#### dfn-perimeter
-
-##### Applying “perimeter” to Non-Web Documents and Software
-
-This applies directly as written and as described in the WCAG 2 glossary.
-<div class="note">
-
-In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
 </DD></DL>
 
 #### dfn-programmatically-determinable
