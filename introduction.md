@@ -103,13 +103,12 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [Success Criterion 4.1.1 Parsing](#parsing)
 * New terms from WCAG 2.1 and 2.2
     * dragging movements, encloses, focus indicator, minimum bounding box, pointer input, process, single pointer, state, status message were added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies)
-    * motion animation, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria)
+    * motion animation, perimeter, region, and user inactivity were added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria)
     * added to [Glossary Items with Specific Guidance](#glossary-items-with-specific-guidance): 
         * [cognitive function test](#dfn-cognitive-function-test)
         * [css pixel](#dfn-css-pixels)
         * [down event](#dfn-down-event)
         * [keyboard shortcut](#dfn-keyboard-shortcuts)
-        * [perimeter](#dfn-perimeter)
         * [style property](#dfn-style-properties)
         * [target](#dfn-targets)
         * [up event](#dfn-up-event)
