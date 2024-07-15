@@ -526,7 +526,7 @@ With this substitution, it would read:
 
 <DL><DT>satisfies a success criterion</DT><DD>
     
-the success criterion does not evaluate to 'false' when applied to the <INS>**[[non-web document](#document) or [software](#software)]**</INS>
+the success criterion does not evaluate to 'false' when applied to the <INS>**[[non-web document](#document) or [software](#software)]**</INS></dd></dl>
 
 #### dfn-set-of-web-pages
 
