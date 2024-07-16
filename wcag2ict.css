@@ -9,3 +9,8 @@
 ins {
   text-decoration: none;
 }
+
+section[id*="applying"] > div.note > div[role="heading"] ::before,
+section[id*="applying"] > dl > dd > div.note > div[role="heading"] ::before {
+    content: "Wcag2ict ";
+}
