@@ -239,6 +239,7 @@ The term **virtual keyboard**, as used in WCAG2ICT, has the meaning below:
 
 any software that acts as a keyboard and generates output that is treated by other software as keystrokes from a keyboard
 </DD></DL>
-<div class="note">
+<div class="example">
 
-Speech, eye-gaze, sip-and-puff, sounds, switches, and codes have all been used by virtual keyboards as input that generates "keystroke" output.</div>
+Speech, eye-gaze, sip-and-puff, sounds, switches, and codes have all been used by virtual keyboards as input that generates "keystroke" output.
+Some ways to generate "keystroke" output include virtual keyboards that take input from devices or software such as speech, eye-gaze, sip-and-puff, sounds, switches, codes, and so on.</div>
