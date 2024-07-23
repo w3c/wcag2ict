@@ -1063,7 +1063,11 @@ With this substitution, it would read:
 
 **Guideline 4.1 Compatible:** Maximize compatibility with current and future <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>.
 
-##### parsing
+##### parsing21
+
+\[Text for 2.1.1 Parsing goes here.\]
+
+##### parsing22
 
 ###### Applying SC 4.1.1 Parsing to Non-Web Documents and Software
 <div class="ednote">
