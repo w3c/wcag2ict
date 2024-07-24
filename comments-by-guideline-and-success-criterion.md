@@ -686,10 +686,12 @@ This requirement also applies to **<INS>[platform software]</INS>** that interpr
 
 ###### Applying SC 2.5.2 Pointer Cancellation to Non-Web Documents and Software
 
-**Option 1: Add text indicating an example was added
+**Option 1: Add text indicating an example was added**
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and , and adding an example; and for non-web platform software by replacing "web content" with "platform software".
 
-**Option 2: Leave word substitution as-is because the example was added after the WCAG2ICT notes
+**Option 2: Leave word substitution as-is because the example was added after the WCAG2ICT notes**
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software by replacing "web content" with "platform software".
 
 With these substitutions, the notes would read: 
