@@ -704,12 +704,29 @@ Content that interprets pointer actions and controls which events are used for e
 
 (for non-web software)
 
-<div class="note">
+<div class="note"> 
+	
+**Original version: WCAG2ICT added examples inside of the WCAG note.**
     
 Functions that emulate a keyboard or numeric keypad key press are considered essential. 
 <div class="example">
 
 Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
+</div>
+<div class="note"> 
+	
+**Option 1: Move example outside of the WCAG note, but right under it.**
+    
+Functions that emulate a keyboard or numeric keypad key press are considered essential. 
+</div>
+<div class="example">
+
+Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
+<div class="note"> 
+	
+**Option 2: Move the example after the notes (before the closed functionality note)**
+    
+Functions that emulate a keyboard or numeric keypad key press are considered essential. 
 </div>
 
 <div class="note">
@@ -719,7 +736,11 @@ This requirement applies to **<INS>[user agents and other [software](#software) 
 <div class="note">
 
 This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+<div class="example">
 
+**Option 2: The example is moved here**
+
+Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
 <div class="note">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
