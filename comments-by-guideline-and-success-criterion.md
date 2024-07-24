@@ -688,7 +688,7 @@ This requirement also applies to **<INS>[platform software]</INS>** that interpr
 
 **Option 1: Add text indicating an example was added**
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and , and adding an example; and for non-web platform software by replacing "web content" with "platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and adding an example; and for non-web platform software by replacing "web content" with "platform software".
 
 **Option 2: Leave word substitution as-is because the example was added after the WCAG2ICT notes**
 
