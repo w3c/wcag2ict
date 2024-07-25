@@ -686,11 +686,11 @@ This requirement also applies to **<INS>[platform software]</INS>** that interpr
 
 ###### Applying SC 2.5.2 Pointer Cancellation to Non-Web Documents and Software
 
-**Option 1: Add text indicating an example was added**
+**Options 1 & 2: Both options propose adding text indicating an example was added**
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and adding an example; and for non-web platform software by replacing "web content" with "platform software".
 
-**Option 2: Leave word substitution same as in editor's draft because the example would moved to after the WCAG2ICT notes**
+**Option 3: Do not mention the added example because the example is moved to after the WCAG2ICT notes**
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software by replacing "web content" with "platform software".
 
@@ -712,7 +712,7 @@ Content that interprets pointer actions and controls which events are used for e
 
 <div class="note"> 
 	
-**Original version: WCAG2ICT embedded an example into the WCAG note.**
+**Option 1: Leave the WCAG2ICT example embedded into the WCAG note.**
     
 Functions that emulate a keyboard or numeric keypad key press are considered essential. 
 <div class="example">
@@ -721,18 +721,18 @@ Examples of essential functionality for non-web software are features for meetin
 </div>
 <div class="note"> 
 	
-**Option 1: Move example outside of the WCAG note, but right under it.**
+**Option 2: Move example outside of the WCAG note, but right under it.**
     
 Functions that emulate a keyboard or numeric keypad key press are considered essential. 
 </div>
 <div class="example">
 
-**Option 1: The example would be here, right after the note talking about "essential"**
+**Option 2: The example would be here, right after the note talking about "essential"**
 
 Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
 <div class="note"> 
 	
-**Option 2: Leave the WCAG note as-is; move example further down after the notes (see other Option 2 below for its location)**
+**Option 3: Move the example further down after the notes (see other Option 3 below for its location)**
     
 Functions that emulate a keyboard or numeric keypad key press are considered essential. 
 </div>
@@ -746,7 +746,7 @@ This requirement applies to **<INS>[user agents and other [software](#software) 
 This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
 <div class="example">
 
-**Option 2: Move the example is here**
+**Option 3: WCAG2ICT Example is moved here**
 
 Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
 <div class="note">
