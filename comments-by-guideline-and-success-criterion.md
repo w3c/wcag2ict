@@ -753,7 +753,7 @@ With these substitutions, it would read:
 (for non-web documents)
 <div class="note">
 
-This requirement applies to [content](#content-on-and-off-the-web) that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+This requirement applies to **<INS>[[content](#content-on-and-off-the-web)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
 <div class="note">
 
