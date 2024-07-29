@@ -285,6 +285,23 @@ function removeChange () {
         element.remove();
     });
 }
+
+function furtherProcessNotes() {
+    let allNotes = document.querySelectorAll(".note");
+    allNotes.forEach(note => {
+        let noteTitle = note.querySelector("div > span").textContent;
+        if (note.querySelector(".wcag2ict")) {
+            noteTitle = noteTitle + " (Added)";
+        }
+        if (note.querySelector(".replacement")) {
+            noteTitle = noteTitle + " (Replaced)";
+        }
+        if (note.querySelector(".original")) {
+            noteTitle = noteTitle + " (Original)";
+        }
+        note.querySelector("div > span").textContent = noteTitle;
+    })
+}
 function finalCleanup() {
 	hideDeepNums();
 	hideDeepNumsGlossary();
@@ -293,6 +310,7 @@ function finalCleanup() {
 	addHeadingIds();
 	removeNumbering();
  removeChange();
+ furtherProcessNotes();
 }
 
 function postRespec() {
