@@ -1069,7 +1069,7 @@ With this substitution, it would read:
 
 ##### parsing22
 
-###### Applying SC 4.1.1 Parsing to Non-Web Documents and Software
+###### Applying SC 4.1.1 Parsing (Obsolete and removed) to Non-Web Documents and Software
 <div class="ednote">
 
 This section has been updated to reflect that WCAG 2.2 made 4.1.1 obsolete and removed. For WCAG 2.0 and 2.1, the 2013 WCAG2ICT guidance has been updated to reflect more current technology examples, the WCAG errata regarding content implemented using HTML and XML, and to address comments received.</div>
