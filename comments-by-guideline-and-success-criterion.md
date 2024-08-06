@@ -258,7 +258,7 @@ Except for parts of the content which require two-dimensional layout for usage o
 
 320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For <INS>**[content]**</INS> which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</div>
 
-<div class="note replacement">
+<div class="note original">
 
 Examples of content which requires two-dimensional layout are images required for understanding (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.</div>
 
@@ -669,7 +669,7 @@ With these substitutions, the notes would read:
 
 (for non-web documents)
 
-<div class="note wcag2ict">
+<div class="note replacement">
 
 This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the [user agent](#user-agent) or [assistive technology](#dfn-assistive-technologies)).</div>
 
@@ -679,7 +679,7 @@ Multipoint and path-based gestures are less common in documents. An example wher
 
 (for non-web software)
 
-<div class="note wcag2ict">
+<div class="note replacement">
 
 This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
 
