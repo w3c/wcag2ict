@@ -7,7 +7,7 @@ This draft of WCAG2ICT added guidance on applying new WCAG 2.2 glossary terms to
     
 The sections that follow are organized according to the glossary from WCAG 2. The text of each term from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections there are different kinds of notes, including:
 
-* **added** &mdash; custome notes added for the WCAG2ICT document
+* **added** &mdash; custom notes added for the WCAG2ICT document
 * **replaced** &mdash; original WCAG notes with replacements and/or additions as agreed in the WCAG2ICT document
 * **original** &mdash; original WCAG notes that have not been altered in the WCAG2ICT guidance
 
