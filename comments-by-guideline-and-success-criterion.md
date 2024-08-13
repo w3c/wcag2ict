@@ -718,7 +718,7 @@ This requirement applies to **<INS>[[software](#software) applications that inte
 
 <div class="note">
 
-This requirement also applies to **<INS>[platform software]</INS>** , such as user agents, assistive technology software, and operating systems. Each layer is responsible for its own pointer actions only, not for those in an underlying layer.</div>
+This requirement also applies to **<INS>[platform software]</INS>**, such as user agents, assistive technology software, and operating systems. Each layer is responsible for its own pointer actions only, not for those in an underlying layer.</div>
 
 <div class="note">
     
