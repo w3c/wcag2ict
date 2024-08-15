@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="a433e129b52f2ad2810f3094d554762c15cf90e8">
+<meta name="revision" content="9fbe4f0306adfa21f85f36567f812c3dc0206695">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -212,7 +212,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "a433e129b52f2ad2810f3094d554762c15cf90e8",
+  "gitRevision": "9fbe4f0306adfa21f85f36567f812c3dc0206695",
   "publishISODate": "2024-08-15T00:00:00.000Z",
   "generatedSubtitle": "W3C Editor's Draft 15 August 2024"
 }</script>
@@ -1602,7 +1602,7 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 <p>supported by users' <a href="#dfn-assistive-technologies">assistive technologies</a> as well as the accessibility features in <ins><strong>[<a href="#dfn-user-agents">user agents</a> or other <a href="#software">software</a>]</strong></ins></p>
 <p>To qualify as an accessibility-supported use of a <ins><strong>[<a href="#document">non-web document</a> or software]</strong></ins> <a href="#dfn-technologies">technology</a> (or feature of a technology), both 1 and 2 must be satisfied for a <ins><strong>[non-web document or software]</strong></ins> technology (or feature):</p>
 <ol>
-<li><p><strong>The way that the <ins>[non-web document or software technology]</ins> is used must be supported by users' assistive technology (AT).</strong> This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the <a href="https://www.w3.org/TR/WCAG22/#dfn-human-language-s">human language(s)</a> of the <a href="#content-on-and-off-the-web">content</a>,</p>
+<li><p><strong>The way that the <ins>[non-web document or software technology]</ins> is used must be supported by users' assistive technology (AT).</strong> This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the <a href="https://www.w3.org/TR/WCAG22/#dfn-human-language-s">human language(s)</a> of the content,</p>
 <p><strong>AND</strong></p>
 </li>
 <li><p><strong>The <ins>[non-web document or software]</ins> technology must have accessibility-supported user agents <ins>[or other software]</ins> that are available to users.</strong> This means that at least one of the following four statements is true:</p>
@@ -1670,11 +1670,11 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 
 </section></section><section id="dfn-change-of-context"><div class="header-wrapper"><h4 id="x7-3-4-dfn-change-of-context">changes of context</h4><a class="self-link" href="#dfn-change-of-context" aria-label="Permalink for Section changes of context"></a></div><blockquote class="wcag-quote">  <p>major changes that, if made without user awareness, can disorient users who are not able to view       the entire page simultaneously    </p>   <p>Changes in context include changes of:</p>   <ol> <li><a class="internalDFN" data-link-type="dfn" href="https://www.w3.org/TR/wcag22/#dfn-user-agents" id="ref-for-dfn-user-agents-7" title="any software that retrieves and presents Web content for users">user agent</a>;       </li> <li><a class="internalDFN" data-link-type="dfn" href="https://www.w3.org/TR/wcag22/#dfn-viewport" id="ref-for-dfn-viewport-1" title="object in which the user agent presents content">viewport</a>;       </li> <li>focus;</li> <li><a class="internalDFN" data-link-type="dfn" href="https://www.w3.org/TR/wcag22/#dfn-content" id="ref-for-dfn-content-2" title="information and sensory experience to be communicated to the user by means of a user agent, including code or markup that defines the content's structure, presentation, and interactions">content</a> that changes the meaning of the <a class="internalDFN" data-link-type="dfn" href="https://www.w3.org/TR/wcag22/#dfn-web-page-s" id="ref-for-dfn-web-page-s-17" title="a non-embedded resource obtained from a single URI using HTTP plus any other resources that are used in the rendering or intended to be rendered together with it by a user agent">Web page</a> </li> </ol>   <div class="note" id="wcag-noteissue-container-generatedID--82" role="note"><div aria-level="3" class="note-title marker" id="wcag-noteh-note--82" role="heading"><span>Note</span></div><p class="">A change of content is not always a change of context. Changes in content, such as       an expanding outline, dynamic menu, or a tab control do not necessarily change the       context, unless they also change one of the above (e.g., focus).    </p></div>   <aside class="example" id="example-7"><div class="marker">Example</div><p><span>Example: </span>Opening a new window, moving focus to a different component, going to a new page (including       anything that would look to a user as if they had moved to a new page) or significantly       re-arranging the content of a page are examples of changes of context.    </p></aside>  </blockquote>
 <section id="applying-changes-of-context-to-non-web-documents-and-software"><div class="header-wrapper"><h5 id="x7-3-4-1-applying-changes-of-context-to-non-web-documents-and-software">Applying “changes of context” to Non-Web Documents and Software</h5><a class="self-link" href="#applying-changes-of-context-to-non-web-documents-and-software" aria-label="Permalink for Section Applying “changes of context” to Non-Web Documents and Software"></a></div>
-<p>This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” and “page” with “non-web document or content presented by software”.</p>
+<p>This applies directly as written and as described in the WCAG 2 glossary, replacing “page” with “non-web document or content presented by software”.</p>
 <p>With these substitutions, it would read:</p>
 <dl><dt>changes of context</dt><dd>
 
-<p>major changes in the content of the <ins><strong>[<a href="#document">non-web document</a> or <a href="#content-on-and-off-the-web">content</a> presented by <a href="#software">software</a>]</strong></ins> that, if made without user awareness, can disorient users who are not able to view the entire <ins><strong>non-web document or content presented by software]</strong></ins> simultaneously</p>
+<p>major changes that, if made without user awareness, can disorient users who are not able to view the entire <ins><strong><a href="#document">non-web document</a> or <a href="#content-on-and-off-the-web">content</a> presented by <a href="#software">software</a>]</strong></ins> simultaneously</p>
 <p>Changes in context include changes of:</p>
 <ol>
 <li><p><a href="#dfn-user-agents">user agent</a>;</p>
@@ -1683,7 +1683,7 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 </li>
 <li><p>focus;</p>
 </li>
-<li><p>content that changes the meaning of the <ins><strong>[non-web document or content presented by software]</strong></ins>.</p>
+<li><p><a href="#dfn-content">content</a> that changes the meaning of the <ins><strong>[non-web document or content presented by software]</strong></ins>.</p>
 </li>
 </ol>
 <div class="note" role="note" id="issue-container-generatedID-171"><div role="heading" class="note-title marker" id="h-note-163" aria-level="6"><span>Note</span></div><div class="">
@@ -1832,7 +1832,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>With this substitution and addition, it would read:</p>
 <dl><dt>programmatically determined (programmatically determinable)</dt><dd>
 
-<p>determined by <a href="#software">software</a> from author-supplied data provided in a way that different <ins><strong>[<a href="#dfn-assistive-technologies">assistive technologies</a> and accessibility features of software]</strong></ins> can extract and present this information to users in different modalities</p>
+<p>determined by software from author-supplied data provided in a way that different <ins><strong>[<a href="#dfn-assistive-technologies">assistive technologies</a> and accessibility features of software]</strong></ins> can extract and present this information to users in different modalities</p>
 <div class="example">
 
 <p><span>Example 1: </span>Determined in a markup language from elements and attributes that are accessed directly by commonly available assistive technology <ins><strong>[and accessibility features of software]</strong></ins>.</p></div><p></p>
@@ -1859,12 +1859,12 @@ People with low vision often use devices at less than the standard viewing dista
 <dl><dt>relative luminance</dt><dd>
 
 <p>the relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white</p>
-<div class="note" role="note" id="issue-container-generatedID-191"><div role="heading" class="note-title marker" id="h-note-182" aria-level="6"><span>Note 1</span></div><div class="">For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 \* **R** + 0.7152 \* **G** + 0.0722 \* **B** where **R**, **G** and **B** are defined as:
+<div class="note" role="note" id="issue-container-generatedID-191"><div role="heading" class="note-title marker" id="h-note-182" aria-level="6"><span>Note 1</span></div><div class="">For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> where <strong>R</strong>, <strong>G</strong> and <strong>B</strong> are defined as:
 
 <ul>
-<li>if RsRGB &lt;= 0.03928 then <strong>R</strong> = RsRGB/12.92 else <strong>R</strong> = ((RsRGB+0.055)/1.055) ^ 2.4</li>
-<li>if GsRGB &lt;= 0.03928 then <strong>G</strong> = GsRGB/12.92 else <strong>G</strong> = ((GsRGB+0.055)/1.055) ^ 2.4</li>
-<li>if BsRGB &lt;= 0.03928 then <strong>B</strong> = BsRGB/12.92 else <strong>B</strong> = ((BsRGB+0.055)/1.055) ^ 2.4</li>
+<li>if RsRGB &lt;= 0.04045 then <strong>R</strong> = RsRGB/12.92 else <strong>R</strong> = ((RsRGB+0.055)/1.055) ^ 2.4</li>
+<li>if GsRGB &lt;= 0.04045 then <strong>G</strong> = GsRGB/12.92 else <strong>G</strong> = ((GsRGB+0.055)/1.055) ^ 2.4</li>
+<li>if BsRGB &lt;= 0.04045 then <strong>B</strong> = BsRGB/12.92 else <strong>B</strong> = ((BsRGB+0.055)/1.055) ^ 2.4</li>
 </ul>
 <p>and RsRGB, GsRGB, and BsRGB are defined as:</p>
 <ul>
@@ -1872,7 +1872,7 @@ People with low vision often use devices at less than the standard viewing dista
 <li>GsRGB = G8bit/255</li>
 <li>BsRGB = B8bit/255</li>
 </ul>
-<p>The “^” character is the exponentiation operator. (Formula taken from <a href="http://www.w3.org/TR/WCAG22/#bib-srgb">[sRGB]</a>).</p></div></div><p></p>
+<p>The “^” character is the exponentiation operator. (Formula taken from <a href="http://www.w3.org/TR/WCAG22/#bib-srgb">[sRGB]</a>.)</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-192"><div role="heading" class="note-title marker" id="h-note-183" aria-level="6"><span>Note 2</span></div><div class="">Before May 2021 the value of 0.04045 in the definition was different (0.03928). It was taken from an older version of the specification and has been updated. It has no practical effect on the calculations in the context of these guidelines.</div></div>
 <div class="note" role="note" id="issue-container-generatedID-193"><div role="heading" class="note-title marker" id="h-note-184" aria-level="6"><span>Note 3</span></div><div class="">
 
@@ -1885,7 +1885,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>Tools are available that automatically do the calculations when testing contrast and flash.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-196"><div role="heading" class="note-title marker" id="h-note-187" aria-level="6"><span>Note 6</span></div><div class="">
     
-<p>A <a href="http://www.w3.org/TR/WCAG22/relative-luminance.html">MathML version of the relative luminance definition</a> is available.</p></div></div>
+<p>A <a href="https://www.w3.org/TR/WCAG22/relative-luminance.html">separate page giving the relative luminance definition using MathML</a> to display the formulas is available.</p></div></div>
 </dd></dl><p></p>
 <div class="note" role="note" id="issue-container-generatedID-197"><div role="heading" class="note-title marker" id="h-note-188" aria-level="6"><span>Note 1</span></div><div class="">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”</div></div>
 
@@ -1912,7 +1912,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>same result when used</p>
 <div class="example"> 
 
-<p><span>Example 1: </span>A submit “search” button on one web page and a “find” button on another web page may both have a field to enter a term and list topics in the Web site related to the term submitted. In this case, they would have the same functionality but would not be labeled consistently.</p></div><p></p>
+<p><span>Example 1: </span>A submit “search” button on one Web page and a “find” button on another Web page may both have a field to enter a term and list topics in the Web site related to the term submitted. In this case, they would have the same functionality but would not be labeled consistently.</p></div><p></p>
 <div class="example">
 
 <p><span>Example 2: </span>A ribbon icon that saves the document that looks like an arrow pointing into a folder in one case, and an arrow pointing into a hard drive in another. In this case as well, they would have the same functionality but would not be labeled consistently.</p></div></dd></dl><p></p>
@@ -1993,7 +1993,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>With this substitution, it would read:</p>
 <dl><dt>user interface component</dt><dd>
 
-<p>a part of the <a href="#content-on-and-off-the-web">content</a> that is perceived by users as a single control for a distinct function</p>
+<p>a part of the content that is perceived by users as a single control for a distinct function</p>
 <div class="note" role="note" id="issue-container-generatedID-203"><div role="heading" class="note-title marker" id="h-note-194" aria-level="6"><span>Note 1</span></div><div class="">
 
 <p>Multiple user interface components may be implemented as a single programmatic element. "Components" here is not tied to programming techniques, but rather to what the user perceives as separate controls.</p></div></div><p></p>
@@ -2013,13 +2013,13 @@ People with low vision often use devices at less than the standard viewing dista
 <p>With this substitution, it would read:</p>
 <dl><dt>viewport</dt><dd>
 
-<p>object in which the <ins><strong>[<a href="#software">software</a>]</strong></ins> presents <a href="#content-on-and-off-the-web">content</a></p>
+<p>object in which the <ins><strong>[<a href="#software">software</a>]</strong></ins> presents content</p>
 <div class="note" role="note" id="issue-container-generatedID-206"><div role="heading" class="note-title marker" id="h-note-197" aria-level="6"><span>Note 1</span></div><div class="">
 
 <p>The <ins><strong>[software]</strong></ins> presents content through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <ins><strong>[software]</strong></ins> such as prompts, menus, and alerts are not viewports.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-207"><div role="heading" class="note-title marker" id="h-note-198" aria-level="6"><span>Note 2</span></div><div class="">
 
-<p>This definition is based on <a href="http://www.w3.org/TR/WAI-USERAGENT/glossary.html">User Agent Accessibility Guidelines 1.0 Glossary</a>.</p></div></div>
+<p>This definition is based on <a href="http://www.w3.org/TR/WAI-USERAGENT/glossary.html">User Agent Accessibility Guidelines 1.0 Glossary</a> <a href="https://www.w3.org/TR/WCAG22/#bib-uaag10">[UAAG10]</a>.</p></div></div>
 </dd></dl><p></p>
 </section></section><section id="dfn-web-page-s"><div class="header-wrapper"><h4 id="x7-3-32-dfn-web-page-s">Web page</h4><a class="self-link" href="#dfn-web-page-s" aria-label="Permalink for Section Web page"></a></div><blockquote class="wcag-quote">  <p>a non-embedded resource obtained from a single URI using HTTP plus any other resources       that are used in the rendering or intended to be rendered together with it by a <a class="internalDFN" data-link-type="dfn" href="https://www.w3.org/TR/wcag22/#dfn-user-agents" id="ref-for-dfn-user-agents-13" title="any software that retrieves and presents Web content for users">user agent</a></p>   <div class="note" id="wcag-noteissue-container-generatedID--157" role="note"><div aria-level="3" class="note-title marker" id="wcag-noteh-note--157" role="heading"><span>Note 1</span></div><p class="">Although any "other resources" would be rendered together with the primary resource,       they would not necessarily be rendered simultaneously with each other.    </p></div>   <div class="note" id="wcag-noteissue-container-generatedID--158" role="note"><div aria-level="3" class="note-title marker" id="wcag-noteh-note--158" role="heading"><span>Note 2</span></div><p class="">For the purposes of conformance with these guidelines, a resource must be "non-embedded"       within the scope of conformance to be considered a Web page.    </p></div>   <aside class="example" id="example-39"><div class="marker">Example 1</div><p><span>Example 1: </span>A Web resource including all embedded images and media.</p></aside>   <aside class="example" id="example-40"><div class="marker">Example 2</div><p><span>Example 2: </span>A Web mail program built using Asynchronous JavaScript and XML (AJAX). The program       lives entirely at http://example.com/mail, but includes an inbox, a contacts area       and a calendar. Links or buttons are provided that cause the inbox, contacts, or calendar       to display, but do not change the URI of the page as a whole.    </p></aside>   <aside class="example" id="example-41"><div class="marker">Example 3</div><p><span>Example 3: </span>A customizable portal site, where users can choose content to display from a set of       different content modules.    </p></aside>   <aside class="example" id="example-42"><div class="marker">Example 4</div><p><span>Example 4: </span>When you enter "http://shopping.example.com/" in your browser, you enter a movie-like       interactive shopping environment where you visually move around in a store dragging       products off of the shelves around you and into a visual shopping cart in front of       you. Clicking on a product causes it to be demonstrated with a specification sheet       floating alongside. This might be a single-page Web site or just one page within a       Web site.    </p></aside>  </blockquote>
 <section id="applying-web-page-to-non-web-documents-and-software"><div class="header-wrapper"><h5 id="x7-3-32-1-applying-web-page-to-non-web-documents-and-software">Applying “Web Page” to Non-Web Documents and Software</h5><a class="self-link" href="#applying-web-page-to-non-web-documents-and-software" aria-label="Permalink for Section Applying “Web Page” to Non-Web Documents and Software"></a></div>
