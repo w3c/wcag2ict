@@ -686,20 +686,16 @@ This requirement also applies to **<INS>[platform software]</INS>** that interpr
 
 ###### Applying SC 2.5.2 Pointer Cancellation to Non-Web Documents and Software
 
-**Options 1 & 2: Both options propose adding text indicating an example was added**
-
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and adding an example; and for non-web platform software by replacing "web content" with "platform software".
-
-**Option 3: Do not mention the added example because the example is moved to after the WCAG2ICT notes**
-
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software by replacing "web content" with "platform software".
 
 With these substitutions, the notes would read: 
 
 (for non-web documents)
+
 <div class="note">
     
 Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
+
 <div class="note">
     
 This requirement applies to <INS>**[[content](#content-on-and-off-the-web)]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
@@ -711,31 +707,12 @@ Content that interprets pointer actions and controls which events are used for e
 (for non-web software)
 
 <div class="note"> 
-	
-**Option 1: Leave the WCAG2ICT example embedded into the WCAG note.**
     
-Functions that emulate a keyboard or numeric keypad key press are considered essential. 
+Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
+
 <div class="example">
 
 Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
-</div>
-<div class="note"> 
-	
-**Option 2: Move example outside of the WCAG note, but right under it.**
-    
-Functions that emulate a keyboard or numeric keypad key press are considered essential. 
-</div>
-<div class="example">
-
-**Option 2: The example would be here, right after the note talking about "essential"**
-
-Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
-<div class="note"> 
-	
-**Option 3: Move the example further down after the notes (see other Option 3 below for its location)**
-    
-Functions that emulate a keyboard or numeric keypad key press are considered essential. 
-</div>
 
 <div class="note">
     
@@ -744,11 +721,7 @@ This requirement applies to **<INS>[user agents and other [software](#software) 
 <div class="note">
 
 This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
-<div class="example">
 
-**Option 3: WCAG2ICT Example is moved here**
-
-Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
 <div class="note">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
