@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="6f94d320d6d2f076e6e3b891ea19ea90da48a848">
+<meta name="revision" content="839d5fbe34af45e599a4d1c37cb42d4206266b46">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -212,7 +212,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "6f94d320d6d2f076e6e3b891ea19ea90da48a848",
+  "gitRevision": "839d5fbe34af45e599a4d1c37cb42d4206266b46",
   "publishISODate": "2024-08-15T00:00:00.000Z",
   "generatedSubtitle": "W3C Editor's Draft 15 August 2024"
 }</script>
@@ -841,7 +841,7 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 <section id="applying-sc-1-4-2-audio-control-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-1-5-3-1-applying-sc-1-4-2-audio-control-to-non-web-documents-and-software">Applying SC 1.4.2 Audio Control to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-1-4-2-audio-control-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 1.4.2 Audio Control to Non-Web Documents and Software"></a></div>
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent">Intent from Understanding Success Criterion 1.4.2</a>, replacing “on a Web page” with “in a non-web document or software”, “any content” with “any part of a non-web document or software”, “whole page” with “whole document or software”, and “on the Web page” with “in the document or software”; and removing “See Conformance Requirement 5: Non-Interference”.</p>
 <p>With these substitutions, it would read:</p>
-<p><strong>1.4.2 Audio Control:</strong> If any audio <ins><strong>[in a <a href="#document">non-web document</a> or <a href="#software">software</a>]</strong></ins> plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a <a href="https://www.w3.org/TR/WCAG22/#dfn-mechanism">mechanism</a> is available to control audio volume independently from the overall system volume level.</p>
+<p><strong>1.4.2 Audio Control:</strong> If any audio <ins><strong>[in a <a href="#document">non-web document</a> or <a href="#software">software</a>]</strong></ins> plays automatically for more than 3 seconds, either a <a href="https://www.w3.org/TR/WCAG22/#dfn-mechanism">mechanism</a> is available to pause or stop the audio, or a  mechanism is available to control audio volume independently from the overall system volume level.</p>
 <div class="note" role="note" id="issue-container-generatedID-55"><div role="heading" class="note-title marker" id="h-note-50" aria-level="7"><span>Note 1</span></div><div class="">
     
 <p>Since any <ins><strong>[part of a <a href="#document">non-web document</a> or <a href="#software">software</a>]</strong></ins> that does not meet this success criterion can interfere with a user's ability to use the <ins><strong>[whole document or software]</strong></ins>, all <a href="#content-on-and-off-the-web">content</a> <ins><strong>[in the document or software]</strong></ins> (whether or not it is used to meet other success criteria) must meet this success criterion.</p></div></div><p></p>
@@ -1051,10 +1051,10 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 <p>For requirements related to flickering or flashing content, refer to <a href="https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions">Guideline 2.3</a>.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-92"><div role="heading" class="note-title marker" id="h-note-86" aria-level="7"><span>Note 2</span></div><div class="">
     
-<p>Since any <a href="#content-on-and-off-the-web">content</a> that does not meet this success criterion can interfere with a user's ability to use the whole <ins><strong>[<a href="#document">non-web documents</a> and <a href="#software">software</a>]</strong></ins>, all content on the <ins><strong>[non-web documents and software]</strong></ins> (whether it is used to meet other success criteria or not) must meet this success criterion.</p></div></div><p></p>
+<p>Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <ins><strong>[<a href="#document">non-web documents</a> and <a href="#software">software</a>]</strong></ins>, all content on the <ins><strong>[non-web documents and software]</strong></ins> (whether it is used to meet other success criteria or not) must meet this success criterion.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-93"><div role="heading" class="note-title marker" id="h-note-87" aria-level="7"><span>Note 3</span></div><div class="">
     
-<p><a href="#content-on-and-off-the-web">Content</a> that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</p></div></div><p></p>
+<p>Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-94"><div role="heading" class="note-title marker" id="h-note-88" aria-level="7"><span>Note 4</span></div><div class="">
     
 <p>An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</p></div></div><p></p>
