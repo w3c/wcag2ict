@@ -194,7 +194,7 @@ With these substitutions, it would read:
 
 <DL><DT>changes of context</DT><DD>
 
-major changes that, if made without user awareness, can disorient users who are not able to view the entire <INS>**non-web document or content presented by software]**</INS> simultaneously
+major changes that, if made without user awareness, can disorient users who are not able to view the entire <INS>**[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS> simultaneously
 
 Changes in context include changes of:
 
