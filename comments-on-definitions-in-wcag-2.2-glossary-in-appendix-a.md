@@ -368,7 +368,7 @@ With this substitution and addition, it would read:
 
 <div class="note">
 
-A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of [software](#software)]**</INS>. In many (but not all) cases the name and the label are the same.</div>
+A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of software]**</INS>. In many (but not all) cases the name and the label are the same.</div>
 <div class="note">
 
 The term label is not limited to the label element in HTML.</div></DD></DL>
