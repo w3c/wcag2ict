@@ -997,9 +997,9 @@ With this substitution, it would read:
 
 1.  **Reversible:** Submissions are reversible.
     
-2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-error) and the user is provided an opportunity to correct them.
+2.  **Checked:** Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
     
-3.  **Confirmed:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
+3.  **Confirmed:** A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
 
 ##### redundant-entry
 
