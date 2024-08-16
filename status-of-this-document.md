@@ -2,14 +2,5 @@ This is a Technical Report on Applying WCAG 2 to Non-Web Information and Communi
 
 <div class="ednote">
   
-The current draft includes guidance for all of the WCAG 2 success criteria from WCAG 2.0, 2.1, and 2.2. 
-
-The group is seeking feedback on the following aspects that were added or have substantial changes in this draft:
-
-- Guidance for WCAG 2.2 success criteria and glossary term definitions added by this draft
-- Updates to the closed functionality guidance in the [Comments on Closed Functionality](#comments-on-closed-functionality) and [Appendix A. Success Criteria Problematic for Closed Functionality](#success-criteria-problematic-for-closed-functionality) sections
-- WCAG2ICT key term definitions added in this draft: [closed functionality](#closed-functionality), [menu-driven interface](#menu-driven-interface), [platform software](#platform-software), and [virtual keyboard](#virtual-keyboard)
-
-This is the planned last draft before we publish this as a W3C Working Group Note.
-
+The technical report includes guidance for all of the WCAG 2 success criteria from WCAG 2.0, 2.1, and 2.2. 
 </div>
