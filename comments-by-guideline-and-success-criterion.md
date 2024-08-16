@@ -451,14 +451,19 @@ With this substitution, it would read:
 
 <dl><dt>Turn off</dt>
 <dd>The user is allowed to turn off the time limit before encountering it; or</dd>
+	
 <dt>Adjust</dt>
 <dd>The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or</dd>
+
 <dt>Extend</dt>
 <dd>The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, “press the space bar”), and the user is allowed to extend the time limit at least ten times; or</dd>
+
 <dt>Real-time Exception</dt>
 <dd>The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or</dd>
+
 <dt>Essential Exception</dt>
 <dd>The time limit is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> and extending it would invalidate the activity; or</dd>
+
 <dt>20 Hour Exception</dt>
 <dd>The time limit is longer than 20 hours.</dd>
 </dl>
@@ -1011,11 +1016,16 @@ With this substitution, it would read:
 
 **3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>**[[non-web documents](#document) or [software](#software)]**</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true:
 
-1.  **Reversible:** Submissions are reversible.
+<dl>
+<dt>Reversible</dt>
+<dd>Submissions are reversible.</dd>
     
-2.  **Checked:** Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
+<dt>Checked</dt>
+<dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>
     
-3.  **Confirmed:** A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
+<dt>Confirmed</dt>
+<dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
+</dl>
 
 ##### redundant-entry
 
