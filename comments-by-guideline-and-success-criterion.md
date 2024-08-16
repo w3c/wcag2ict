@@ -449,12 +449,19 @@ With this substitution, it would read:
 
 **2.2.1 Timing Adjustable:** For each time limit that is set by <INS>**[[non-web documents](#document) or [software](#software)]**</INS>, at least one of the following is true:
 
-*   **Turn off:** The user is allowed to turn off the time limit before encountering it; or
-*   **Adjust:** The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or
-*   **Extend:** The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, “press the space bar”), and the user is allowed to extend the time limit at least ten times; or
-*   **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
-*   **Essential Exception:** The time limit is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) and extending it would invalidate the activity; or
-*   **20 Hour Exception:** The time limit is longer than 20 hours.
+<dl><dt>Turn off</dt>
+<dd>The user is allowed to turn off the time limit before encountering it; or</dd>
+<dt>Adjust</dt>
+<dd>The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or</dd>
+<dt>Extend</dt>
+<dd>The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, “press the space bar”), and the user is allowed to extend the time limit at least ten times; or</dd>
+<dt>Real-time Exception</dt>
+<dd>The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or</dd>
+<dt>Essential Exception</dt>
+<dd>The time limit is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> and extending it would invalidate the activity; or</dd>
+<dt>20 Hour Exception</dt>
+<dd>The time limit is longer than 20 hours.</dd>
+</dl>
     
 <div class="note">
     
