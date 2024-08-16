@@ -1058,7 +1058,9 @@ With this substitution, it would read:
 "Object recognition" and "Personal content" may be represented by images, video, or audio.</div>
 <div class="note">
 
-Examples of mechanisms that satisfy this criterion include: support for password entry by password managers to reduce memory need, and copy and paste to reduce the cognitive burden of re-typing.</div>
+Examples of mechanisms that satisfy this criterion include: 
+1. support for password entry by password managers to reduce memory need, and
+2. copy and paste to reduce the cognitive burden of re-typing.</div>
 <div class="note">
     
 If the non-web software is an application, passwords used to unlock the underlying [platform software](#platform-software) are out of scope for this requirement as these are not up to a software application’s author.</div>
