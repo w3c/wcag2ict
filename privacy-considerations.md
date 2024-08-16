@@ -4,4 +4,3 @@ This Working Group Note does not introduce any new privacy considerations. Howev
 <div class='note'>
 
 The [WCAG 2 Privacy Considerations section](https://www.w3.org/TR/WCAG22/#privacy-summary) also notes specific success criteria that are identified to have possible implications for privacy that could also exist for non-web ICT.</div>
-
