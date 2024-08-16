@@ -301,9 +301,12 @@ With this substitution, it would read:
 
 **1.4.11 Non-text Contrast:** The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
 
-- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-components) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and not modified by the author;
+<dl><dt>User Interface Components</dt>
+<dd>Visual information required to identify <a href="#dfn-user-interface-components">user interface components</a> and <a href="https://www.w3.org/TR/WCAG22/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the <INS><strong>[<a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</strong></INS> and not modified by the author;</dd>
 
-- **Graphical Objects:** Parts of graphics required to understand the content, except when a particular presentation of graphics is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.
+<dt>Graphical Objects</dt>
+<dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> to the information being conveyed.</dd>
+</dl>
 
 <div class="note">
     
