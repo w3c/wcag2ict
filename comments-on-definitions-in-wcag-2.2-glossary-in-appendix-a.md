@@ -560,7 +560,7 @@ See the guidance on [sets of documents](#set-of-documents) and [sets of software
 
 #####  Applying “style property” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings, user style sheets" with "user agent, platform software or other software settings".
+This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings" with "user agent, platform software or other software interface settings, or".
 
 With these substitutions, it would read:
 
@@ -572,7 +572,7 @@ Style properties can have several origins:
 
 - <INS>**[User agent or platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
 - **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>**[programmatically-set styles]**</INS>);
-- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other [software](#software)]**</INS> interface settings)
+- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other [software](#software) interface settings, or]**</INS> user style sheets)
 </DD></DL>
 
 #### dfn-targets
