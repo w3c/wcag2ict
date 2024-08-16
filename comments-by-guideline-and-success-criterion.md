@@ -686,14 +686,16 @@ This requirement also applies to **<INS>[platform software]</INS>** that interpr
 
 ###### Applying SC 2.5.2 Pointer Cancellation to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software by replacing "web content" with "platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and adding an example; and for non-web platform software by replacing "web content" with "platform software".
 
 With these substitutions, the notes would read: 
 
 (for non-web documents)
+
 <div class="note">
     
 Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
+
 <div class="note">
     
 This requirement applies to <INS>**[[content](#content-on-and-off-the-web)]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
@@ -704,13 +706,13 @@ Content that interprets pointer actions and controls which events are used for e
 
 (for non-web software)
 
-<div class="note">
+<div class="note"> 
     
-Functions that emulate a keyboard or numeric keypad key press are considered essential. 
+Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
+
 <div class="example">
 
 Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
-</div>
 
 <div class="note">
     
