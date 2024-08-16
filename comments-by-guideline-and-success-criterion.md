@@ -56,7 +56,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “in some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “in some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and/or [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
 
 ##### audio-description-or-media-alternative-prerecorded
 
@@ -82,7 +82,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and/or [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
 
 ##### audio-description-prerecorded
 
@@ -183,7 +183,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to control audio volume independently from the overall system volume level.
+**1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to pause or stop the audio, or a  mechanism is available to control audio volume independently from the overall system volume level.
 
 <div class="note">
     
@@ -476,10 +476,10 @@ With these substitutions, it would read:
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
 <div class="note">
     
-Since any [content](#content-on-and-off-the-web) that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#software)]**</INS>, all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#software)]**</INS>, all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 <div class="note">
     
-[Content](#content-on-and-off-the-web) that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
+Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
 <div class="note">
     
 An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</div>
@@ -571,7 +571,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.4.3 Focus Order:** If <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
+**2.4.3 Focus Order:** If <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [navigated sequentially](#dfn-navigated-sequentially) and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
 
 ##### link-purpose-in-context
 
@@ -691,9 +691,11 @@ This applies directly as written, and as described in [Intent from Understanding
 With these substitutions, the notes would read: 
 
 (for non-web documents)
+
 <div class="note">
     
 Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
+
 <div class="note">
     
 This requirement applies to <INS>**[[content](#content-on-and-off-the-web)]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
@@ -704,13 +706,13 @@ Content that interprets pointer actions and controls which events are used for e
 
 (for non-web software)
 
-<div class="note">
+<div class="note"> 
     
-Functions that emulate a keyboard or numeric keypad key press are considered essential. 
+Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
+
 <div class="example">
 
 Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
-</div>
 
 <div class="note">
     
@@ -748,7 +750,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**2.5.7 Dragging Movements:** All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
+**2.5.7 Dragging Movements:** All [functionality](#dfn-functionality) that uses a [dragging movement](#dfn-dragging-movements) for operation can be achieved by a [single pointer](#dfn-single-pointer) without dragging, unless dragging is [essential](#dfn-essential) or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
 
 (for non-web documents)
 <div class="note">
@@ -781,12 +783,12 @@ With these substitutions, it would read:
 - **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
 - **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
 - **Inline:** The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;
-- **<INS>[User agent or platform software]</INS> control:** The size of the target and target offset is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and is not modified by the author;
-- **Essential:** A particular [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed;
+- **<INS>[User agent or platform software]</INS> control:** The size of the target is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and is not modified by the author;
+- **Essential:** A particular [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed.
 
 <div class="note">
 
-Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders with granular values, color pickers displaying a gradient of colors, or editable areas where you position the cursor.</div>
+Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders, color pickers displaying a gradient of colors, or editable areas where you position the cursor.</div>
 <div class="note">
 
 For inline targets the line-height should be interpreted as perpendicular to the flow of text. For example, in a language displayed vertically, the line-height would be horizontal.</div>
@@ -997,9 +999,9 @@ With this substitution, it would read:
 
 1.  **Reversible:** Submissions are reversible.
     
-2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-error) and the user is provided an opportunity to correct them.
+2.  **Checked:** Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
     
-3.  **Confirmed:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
+3.  **Confirmed:** A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
 
 ##### redundant-entry
 
