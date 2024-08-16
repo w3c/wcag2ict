@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="57242f7e94293aebd2dbe06b0ece39f0a639b5f4">
+<meta name="revision" content="b9887374f3a47116ca94fc744af2d173f768c3ad">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -212,7 +212,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "57242f7e94293aebd2dbe06b0ece39f0a639b5f4",
+  "gitRevision": "b9887374f3a47116ca94fc744af2d173f768c3ad",
   "publishISODate": "2024-08-16T00:00:00.000Z",
   "generatedSubtitle": "W3C Editor's Draft 16 August 2024"
 }</script>
@@ -1946,7 +1946,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>See the guidance on <a href="#set-of-documents">sets of documents</a> and <a href="#set-of-software-programs">sets of software programs</a> in the Key Terms section.</p></div></div><p></p>
 </section></section><section id="dfn-style-properties"><div class="header-wrapper"><h4 id="x7-3-25-dfn-style-properties">style property</h4><a class="self-link" href="#dfn-style-properties" aria-label="Permalink for Section style property"></a></div><blockquote class="wcag-quote">  <p>property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of  content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by user agents</p>   <p>Style properties can have several origins:</p>   <ul> <li>User agent default styles: The default style property values applied in the absence of any author or user styles. Some web content technologies specify a default rendering, others do not;</li> <li>Author styles: Style property values that are set by the author as part of the content (e.g. in-line styles, author style sheets);</li> <li>User styles: Style property values that are set by the user (e.g. via user agent interface settings, user style sheets)</li> </ul>  </blockquote>
 <section id="applying-style-property-to-non-web-documents-and-software"><div class="header-wrapper"><h5 id="x7-3-25-1-applying-style-property-to-non-web-documents-and-software">Applying “style property” to Non-Web Documents and Software</h5><a class="self-link" href="#applying-style-property-to-non-web-documents-and-software" aria-label="Permalink for Section Applying “style property” to Non-Web Documents and Software"></a></div>
-<p>This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings, user style sheets" with "user agent, platform software or other software settings".</p>
+<p>This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings" with "user agent, platform software or other software interface settings, or".</p>
 <p>With these substitutions, it would read:</p>
 <dl><dt>style property</dt><dd>
 
@@ -1955,7 +1955,7 @@ People with low vision often use devices at less than the standard viewing dista
 <ul>
 <li><ins><strong>[User agent or platform software]</strong></ins> <strong>default styles:</strong> The default style property values applied in the absence of any author or user styles. Some <ins><strong>[content]</strong></ins> technologies specify a default rendering, others do not;</li>
 <li><strong>Author styles:</strong> Style property values that are set by the author as part of the content (e.g. <ins><strong>[programmatically-set styles]</strong></ins>);</li>
-<li><strong>User styles:</strong> Style property values that are set by the user (e.g. via <ins><strong>[user agent, platform software or other <a href="#software">software</a>]</strong></ins> interface settings)</li></ul></dd></dl>
+<li><strong>User styles:</strong> Style property values that are set by the user (e.g. via <ins><strong>[user agent, platform software or other <a href="#software">software</a> interface settings, or]</strong></ins> user style sheets)</li></ul></dd></dl>
 
 </section></section><section id="dfn-targets"><div class="header-wrapper"><h4 id="x7-3-26-dfn-targets">target</h4><a class="self-link" href="#dfn-targets" aria-label="Permalink for Section target"></a></div><blockquote class="wcag-quote">  <p>region of the display that will accept a pointer action, such as the interactive area of a user interface component</p>   <div class="note" id="wcag-noteissue-container-generatedID--146" role="note"><div aria-level="3" class="note-title marker" id="wcag-noteh-note--146" role="heading"><span>Note</span></div><p class="">If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same page.</p></div>  </blockquote>
 <section id="applying-target-to-non-web-documents-and-software"><div class="header-wrapper"><h5 id="x7-3-26-1-applying-target-to-non-web-documents-and-software">Applying “target” to Non-Web Documents and Software</h5><a class="self-link" href="#applying-target-to-non-web-documents-and-software" aria-label="Permalink for Section Applying “target” to Non-Web Documents and Software"></a></div>
