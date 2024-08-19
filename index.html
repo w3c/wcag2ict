@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="b2e39009a636fa913b1631bf24516ffbb6d14b5f">
+<meta name="revision" content="79095e7955bfe3c3e9f18e8928b02e7a64a1486d">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -212,16 +212,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "b2e39009a636fa913b1631bf24516ffbb6d14b5f",
-  "publishISODate": "2024-08-16T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 16 August 2024"
+  "gitRevision": "79095e7955bfe3c3e9f18e8928b02e7a64a1486d",
+  "publishISODate": "2024-08-19T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 19 August 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-08-16">16 August 2024</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-08-19">19 August 2024</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -916,12 +916,13 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 <p>This applies directly as  written and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent">Intent from Understanding Success Criterion 1.4.11</a>, replacing "user agent" with "user agent or platform software. </p>
 <p>With this substitution, it would read:</p>
 <p><strong>1.4.11 Non-text Contrast:</strong> The visual <a href="https://www.w3.org/TR/WCAG22/#dfn-presentation">presentation</a> of the following have a <a href="#dfn-contrast-ratio">contrast ratio</a> of at least 3:1 against adjacent color(s):</p>
-<ul>
-<li><p><strong>User Interface Components:</strong> Visual information required to identify <a href="#dfn-user-interface-components">user interface components</a> and <a href="https://www.w3.org/TR/WCAG22/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the <ins><strong>[<a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</strong></ins> and not modified by the author;</p>
-</li>
-<li><p><strong>Graphical Objects:</strong> Parts of graphics required to understand the content, except when a particular presentation of graphics is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> to the information being conveyed.</p>
-</li>
-</ul>
+<dl><dt>User Interface Components</dt>
+<dd>Visual information required to identify <a href="#dfn-user-interface-components">user interface components</a> and <a href="https://www.w3.org/TR/WCAG22/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the <ins><strong>[<a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</strong></ins> and not modified by the author;</dd>
+
+<dt>Graphical Objects</dt>
+<dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> to the information being conveyed.</dd>
+</dl>
+
 <div class="note" role="note" id="issue-container-generatedID-72"><div role="heading" class="note-title marker" id="h-note-66" aria-level="7"><span>Note 1</span></div><div class="">
     
 <p>An example of appearance modification by the author is content that sets the visual style of a control, such as a color or border, to differ from the default style for the user agent or platform.</p></div></div><p></p>
@@ -1017,14 +1018,25 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent">Intent from Understanding Success Criterion 2.2.1</a>, replacing “the content” with “non-web documents or software”.</p>
 <p>With this substitution, it would read:</p>
 <p><strong>2.2.1 Timing Adjustable:</strong> For each time limit that is set by <ins><strong>[<a href="#document">non-web documents</a> or <a href="#software">software</a>]</strong></ins>, at least one of the following is true:</p>
-<ul>
-<li><strong>Turn off:</strong> The user is allowed to turn off the time limit before encountering it; or</li>
-<li><strong>Adjust:</strong> The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or</li>
-<li><strong>Extend:</strong> The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, “press the space bar”), and the user is allowed to extend the time limit at least ten times; or</li>
-<li><strong>Real-time Exception:</strong> The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or</li>
-<li><strong>Essential Exception:</strong> The time limit is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> and extending it would invalidate the activity; or</li>
-<li><strong>20 Hour Exception:</strong> The time limit is longer than 20 hours.</li>
-</ul>
+<dl><dt>Turn off</dt>
+<dd>The user is allowed to turn off the time limit before encountering it; or</dd>
+    
+<dt>Adjust</dt>
+<dd>The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or</dd>
+
+<dt>Extend</dt>
+<dd>The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, “press the space bar”), and the user is allowed to extend the time limit at least ten times; or</dd>
+
+<dt>Real-time Exception</dt>
+<dd>The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or</dd>
+
+<dt>Essential Exception</dt>
+<dd>The time limit is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> and extending it would invalidate the activity; or</dd>
+
+<dt>20 Hour Exception</dt>
+<dd>The time limit is longer than 20 hours.</dd>
+</dl>
+    
 <div class="note" role="note" id="issue-container-generatedID-90"><div role="heading" class="note-title marker" id="h-note-84" aria-level="7"><span>Note</span></div><div class="">
     
 <p>This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with <a href="https://www.w3.org/TR/WCAG22/#on-focus">Success Criterion 3.2.1</a>, which puts limits on changes of content or context as a result of user action.</p></div></div><p></p>
@@ -1033,12 +1045,14 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent">Intent from Understanding Success Criterion 2.2.2</a>, replacing “page” and “Web page” with “non-web documents and software” and removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion.</p>
 <p>With these substitutions, it would read:</p>
 <p><strong>2.2.2 Pause, Stop, Hide:</strong> For moving, <a href="https://www.w3.org/TR/WCAG22/#dfn-blinking">blinking</a>, scrolling, or auto-updating information, all of the following are true:</p>
-<ul>
-<li><p><strong>Moving, blinking, scrolling:</strong> For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to <a href="https://www.w3.org/TR/WCAG22/#dfn-pause">pause</a>, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a>; and</p>
-</li>
-<li><p><strong>Auto-updating:</strong> For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.</p>
-</li>
-</ul>
+<dl>
+<dt>Moving, blinking, scrolling</dt>
+<dd>For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to <a href="https://www.w3.org/TR/WCAG22/#dfn-pause)">pause</a>, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a>; and</dd>
+    
+<dt>Auto-updating</dt>
+<dd></dd>For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
+</dl>
+    
 <div class="note" role="note" id="issue-container-generatedID-91"><div role="heading" class="note-title marker" id="h-note-85" aria-level="7"><span>Note 1</span></div><div class="">
     
 <p>For requirements related to flickering or flashing content, refer to <a href="https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions">Guideline 2.3</a>.</p></div></div><p></p>
@@ -1379,14 +1393,17 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data#intent">Intent from Understanding Success Criterion 3.3.4</a> replacing “web pages” with “non-web documents or software”.</p>
 <p>With this substitution, it would read:</p>
 <p><strong>3.3.4 Error Prevention (Legal, Financial, Data):</strong> For <ins><strong>[<a href="#document">non-web documents</a> or <a href="#software">software</a>]</strong></ins> that cause <a href="https://www.w3.org/TR/WCAG22/#dfn-legal-commitments">legal commitments</a> or financial transactions for the user to occur, that modify or delete <a href="https://www.w3.org/TR/WCAG22/#dfn-user-controllable">user-controllable</a> data in data storage systems, or that submit user test responses, at least one of the following is true:</p>
-<ol>
-<li><p><strong>Reversible:</strong> Submissions are reversible.</p>
-</li>
-<li><p><strong>Checked:</strong> Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</p>
-</li>
-<li><p><strong>Confirmed:</strong> A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</p>
-</li>
-</ol>
+<dl>
+<dt>Reversible</dt>
+<dd>Submissions are reversible.</dd>
+    
+<dt>Checked</dt>
+<dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>
+    
+<dt>Confirmed</dt>
+<dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
+</dl>
+
 </section></section><section id="redundant-entry"><div class="header-wrapper"><h5 id="x6-3-4-6-redundant-entry">3.3.7 Redundant Entry</h5><a class="self-link" href="#redundant-entry" aria-label="Permalink for Section 3.3.7 Redundant Entry"></a></div><blockquote class="wcag-quote">     <p>Information previously entered by or provided to the user that is required to be entered again in the same <a class="internalDFN" data-link-type="dfn" href="https://www.w3.org/TR/wcag22/#dfn-processes" id="ref-for-dfn-processes-2" title="series of user actions where each action is required in order to complete an activity">process</a> is either:</p>   <ul> <li>auto-populated, or</li> <li>available for the user to select.</li> </ul>   <p>Except when:</p>   <ul> <li>re-entering the information is <a class="internalDFN" data-link-type="dfn" href="https://www.w3.org/TR/wcag22/#dfn-essential" id="ref-for-dfn-essential-16" title="if removed, would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform">essential</a>,</li> <li>the information is required to ensure the security of the content, or</li> <li>previously entered information is no longer valid.</li> </ul>  </blockquote>
 <section id="applying-sc-3-3-7-redundant-entry-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-3-4-6-1-applying-sc-3-3-7-redundant-entry-to-non-web-documents-and-software">Applying SC 3.3.7 Redundant Entry to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-3-3-7-redundant-entry-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 3.3.7 Redundant Entry to Non-Web Documents and Software"></a></div>
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry#intent">Intent from Understanding Success Criterion 3.3.7</a>.</p>
@@ -1403,16 +1420,18 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 <dt>Object Recognition</dt>
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
-<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <ins><strong> a Web site, <a href="#document">non-web document</a>, or <a href="#software">software</a></strong></ins>.</dd>
+<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <ins><strong>[a Web site, <a href="#document">non-web document</a>, or <a href="#software">software</a>]</strong></ins>.</dd>
 </dl>
 <div class="note" role="note" id="issue-container-generatedID-150"><div role="heading" class="note-title marker" id="h-note-144" aria-level="7"><span>Note 1</span></div><div class="">
 
 <p>"Object recognition" and "Personal content" may be represented by images, video, or audio.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-151"><div role="heading" class="note-title marker" id="h-note-145" aria-level="7"><span>Note 2</span></div><div class="">
 
-<p>Examples of mechanisms that satisfy this criterion include: support for password entry by password managers to reduce memory need, and copy and paste to reduce the cognitive burden of re-typing.</p></div></div><p></p>
-<div class="note" role="note" id="issue-container-generatedID-152"><div role="heading" class="note-title marker" id="h-note-146" aria-level="7"><span>Note 3</span></div><div class="">
-    
+<p>Examples of mechanisms that satisfy this criterion include: </p>
+<ol>
+<li>support for password entry by password managers to reduce memory need, and</li>
+<li>copy and paste to reduce the cognitive burden of re-typing.</li></ol></div></div><div class="note" role="note" id="issue-container-generatedID-152"><div role="heading" class="note-title marker" id="h-note-146" aria-level="7"><span>Note 3</span></div><div class="">
+
 <p>If the non-web software is an application, passwords used to unlock the underlying <a href="#platform-software">platform software</a> are out of scope for this requirement as these are not up to a software application’s author.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-153"><div role="heading" class="note-title marker" id="h-note-147" aria-level="7"><span>Note 4</span></div><div class="">
 
