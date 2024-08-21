@@ -559,7 +559,7 @@ With this substitution, it would read:
 <div class="note">
     
 As described in the WCAG intent, the name of a [non-web software application](#software) or [non-web document](#document) (e.g. document, media file, etc.) is a sufficient title if it describes the topic or purpose.</div>
-div class="note">
+<div class="note">
     
 Although not required by this success criterion, ensuring that individual windows or screens have a title that describes the topic or purpose addresses the user needs identified in the Understanding Success Criterion 2.4.2 Intent section, and is generally considered a best practice.</div>
 
