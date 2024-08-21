@@ -406,7 +406,7 @@ With this substitution and addition, it would read:
 
 <DL><DT>programmatically determined (programmatically determinable)</DT><DD>
 
-determined by software from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS> can extract and present this information to users in different modalities
+determined by software from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of [software](#software)]**</INS> can extract and present this information to users in different modalities
 
 <div class="example">
 
