@@ -190,7 +190,7 @@ With these substitutions, it would read:
 
 **1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to pause or stop the audio, or a  mechanism is available to control audio volume independently from the overall system volume level.
 
-<div class="note replacement">
+<div class="note">
     
 Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content-on-and-off-the-web) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) must meet this success criterion.</div>
 
@@ -254,11 +254,11 @@ With this substitution, it would read:
 
 Except for parts of the content which require two-dimensional layout for usage or meaning.
 
-<div class="note replacement">
+<div class="note">
 
 320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For <INS>**[content]**</INS> which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</div>
 
-<div class="note original">
+<div class="note">
 
 Examples of content which requires two-dimensional layout are images required for understanding (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.</div>
 
@@ -363,12 +363,12 @@ With these substitutions, it would read:
 
 Exception: The visual presentation of the additional content is controlled by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and is not modified by the author.
 
-<div class="note replacement">
+<div class="note">
 
 Examples of additional content controlled by the <INS>**[user agent or platform software]**</INS> include <INS>**[tooltips]**</INS> created through use of <INS>**[user interface object attributes]**</INS>.</div>
  
-<div class="note replacement">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
-<div class="note replacement">
+<div class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
+<div class="note">
 
 This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as links used to skip to another part of a page) do not present additional content they are not covered by this criterion.</div>
 
@@ -410,7 +410,7 @@ With these substitutions, it would read:
 
 **2.1.2 No Keyboard Trap:** If keyboard focus can be moved to a component of the <INS>**[[non-web document](#document) or [software](#software)]**</INS> using a [keyboard interface](#dfn-keyboard-interface), then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
 
-<div class="note replacement">
+<div class="note">
     
 Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, all content <INS>**[in the non-web document or software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 <div class="note wcag2ict">
@@ -473,7 +473,7 @@ With this substitution, it would read:
 <dd>The time limit is longer than 20 hours.</dd>
 </dl>
     
-<div class="note original">
+<div class="note">
     
 This success criterion helps ensure that users can complete tasks without unexpected changes in content or context that are a result of a time limit. This success criterion should be considered in conjunction with [Success Criterion 3.2.1](https://www.w3.org/TR/WCAG22/#on-focus), which puts limits on changes of content or context as a result of user action.</div>
 
@@ -495,10 +495,10 @@ With these substitutions, it would read:
 <dd></dd>For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.</dd>
 </dl>
     
-<div class="note original">
+<div class="note">
     
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
-<div class="note replacement">
+<div class="note">
     
 Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#software)]**</INS>, all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 <div class="note">
@@ -527,7 +527,7 @@ With these substitutions, it would read:
 
 **2.3.1 Three Flashes or Below Threshold:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> do not contain anything that flashes more than three times in any one second period, or the [flash](https://www.w3.org/TR/WCAG22/#dfn-flashes) is below the [general flash and red flash thresholds](#dfn-general-flash-and-red-flash-thresholds).
 
-<div class="note replacement">
+<div class="note">
     
 Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, all content on the <INS>**[non-web document or software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 
@@ -688,7 +688,7 @@ With these substitutions, the notes would read:
 
 (for non-web documents)
 
-<div class="note replacement">
+<div class="note">
 
 This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the [user agent](#user-agent) or [assistive technology](#dfn-assistive-technologies)).</div>
 
@@ -698,7 +698,7 @@ Multipoint and path-based gestures are less common in documents. An example wher
 
 (for non-web software)
 
-<div class="note replacement">
+<div class="note">
 
 This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
 
@@ -738,7 +738,7 @@ Functions that emulate a keyboard or numeric keypad key press are considered ess
 
 Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
 
-<div class="note wcag2ict">
+<div class="note">
     
 This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
 
@@ -777,7 +777,7 @@ With these substitutions, it would read:
 **2.5.7 Dragging Movements:** All [functionality](#dfn-functionality) that uses a [dragging movement](#dfn-dragging-movements) for operation can be achieved by a [single pointer](#dfn-single-pointer) without dragging, unless dragging is [essential](#dfn-essential) or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
 
 (for non-web documents)
-<div class="note replacement">
+<div class="note">
 
 This requirement applies to **<INS>[[content](#content-on-and-off-the-web)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
@@ -810,7 +810,7 @@ With these substitutions, it would read:
 - **<INS>[User agent or platform software]</INS> control:** The size of the target is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and is not modified by the author;
 - **Essential:** A particular [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed.
 
-<div class="note original">
+<div class="note">
 
 Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders, color pickers displaying a gradient of colors, or editable areas where you position the cursor.</div>
 <div class="note">
@@ -973,10 +973,10 @@ With these substitutions, it would read:
 * Self-help option;
 * A fully automated contact mechanism
 
-<div class="note replacement">
+<div class="note">
 
 Help mechanisms may be provided directly **<INS>[in the non-web document or software]</INS>**, or may be provided via a direct link to a **<INS>[different non-web document, software, or Web page]</INS>** containing the information.</div>
-<div class="note replacement">
+<div class="note">
     
 For this success criterion, "the same order relative to other **<INS>[content]</INS>**" can be thought of as how the content is ordered when the **<INS>[non-web document or software content is serialized]</INS>**. The visual position of a help mechanism is likely to be consistent across **<INS>[non-web documents or software]</INS>** for the same **<INS>[content layout variation]</INS>** (e.g., CSS break-point). The user can initiate a change, such as changing the **<INS>[non-web document’s or software's]</INS>** zoom or orientation, which may trigger a different **<INS>[content layout variation]</INS>**. This criterion is concerned with relative order across **<INS>[non-web documents or software]</INS>** displayed in the same **<INS>[content layout variation]</INS>** (e.g., same zoom level and orientation).</div>
 <div class="note wcag2ict">
@@ -1058,15 +1058,15 @@ With this substitution, it would read:
 <dt>Personal Content</dt>
 <dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS><strong>[a Web site, <a href="#document">non-web document</a>, or <a href="#software">software</a>]</strong></INS>.</dd>
 </dl>
-<div class="note original">
+<div class="note">
 
 "Object recognition" and "Personal content" may be represented by images, video, or audio.</div>
-<div class="note original">
+<div class="note">
 
 Examples of mechanisms that satisfy this criterion include: 
 1. support for password entry by password managers to reduce memory need, and
 2. copy and paste to reduce the cognitive burden of re-typing.</div>
-<div class="note">
+<div class="note wcag2ict">
     
 If the non-web software is an application, passwords used to unlock the underlying [platform software](#platform-software) are out of scope for this requirement as these are not up to a software application’s author.</div>
 <div class="note wcag2ict">
@@ -1115,7 +1115,7 @@ This applies directly as written, and as described in [Intent from Understanding
 With this substitution, it would read:
 
 4.1.1 Parsing: **<INS>[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technologies) and accessibility features of software or to a user-selectable [user agent](#user-agent)]</INS>**, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
-<div class="note original">
+<div class="note">
     
 Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.</div>
 <div class="note wcag2ict">
@@ -1154,7 +1154,7 @@ With this substitution, it would read:
 
 **4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-components) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determinable); states, properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technologies).
 
-<div class="note original">
+<div class="note">
     
 This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already meet this success criterion when used according to specification.</div>
 <div class="note wcag2ict">
