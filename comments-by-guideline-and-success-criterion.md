@@ -1093,7 +1093,7 @@ With this substitution, it would read:
 
 ##### parsing21
 
-###### Applying SC 4.1.1 Parsing (2.0 and 2.1) to Non-Web Documents and Software
+###### Applying SC 4.1.1 Parsing (2.1) to Non-Web Documents and Software
 
 **WCAG 2.0 and 2.1 Guidance:**
 
