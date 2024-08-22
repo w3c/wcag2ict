@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="e0e3579e073b5429888d6ae35a8ed91a6ba51a2e">
+<meta name="revision" content="57c72a45a5827a15ae655a347624861b0aa319ed">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -212,16 +212,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "e0e3579e073b5429888d6ae35a8ed91a6ba51a2e",
-  "publishISODate": "2024-08-20T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 20 August 2024"
+  "gitRevision": "57c72a45a5827a15ae655a347624861b0aa319ed",
+  "publishISODate": "2024-08-22T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 22 August 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-08-20">20 August 2024</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-08-22">22 August 2024</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -1815,7 +1815,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p><a href="https://www.w3.org/TR/WCAG22/#dfn-text">text</a> or other component with a <a href="https://www.w3.org/TR/WCAG22/#dfn-text-alternative">text alternative</a> that is presented to a user to identify a component within <ins><strong>[<a href="#content-on-and-off-the-web">content</a>]</strong></ins></p>
 <div class="note" role="note" id="issue-container-generatedID-185"><div role="heading" class="note-title marker" id="h-note-176" aria-level="6"><span>Note 1</span></div><div class="">
 
-<p>A label is presented to all users whereas the <a href="#dfn-name">name</a> may be hidden and only exposed by assistive technology <ins><strong>[or by accessibility features of software]</strong></ins>. In many (but not all) cases the name and the label are the same.</p></div></div><p></p>
+<p>A label is presented to all users whereas the <a href="#dfn-name">name</a> may be hidden and only exposed by assistive technology <ins><strong>[or by accessibility features of <a href="#software">software</a>]</strong></ins>. In many (but not all) cases the name and the label are the same.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-186"><div role="heading" class="note-title marker" id="h-note-177" aria-level="6"><span>Note 2</span></div><div class="">
 
 <p>The term label is not limited to the label element in HTML.</p></div></div></dd></dl><p></p>
@@ -1828,7 +1828,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>text by which software can identify a component within <ins><strong>[<a href="#content-on-and-off-the-web">content</a>]</strong></ins> to the user</p>
 <div class="note" role="note" id="issue-container-generatedID-187"><div role="heading" class="note-title marker" id="h-note-178" aria-level="6"><span>Note 1</span></div><div class="">
 
-<p>The name may be hidden and only exposed by assistive technology <ins><strong>[or by accessibility features of software]</strong></ins>, whereas a <a href="#dfn-labels">label</a> is presented to all users. In many (but not all) cases, the label and the name are the same.</p></div></div><p></p>
+<p>The name may be hidden and only exposed by assistive technology <ins><strong>[or by accessibility features of <a href="#software">software</a>]</strong></ins>, whereas a <a href="#dfn-labels">label</a> is presented to all users. In many (but not all) cases, the label and the name are the same.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-188"><div role="heading" class="note-title marker" id="h-note-179" aria-level="6"><span>Note 2</span></div><div class="">
 
 <p>This is unrelated to the name attribute in HTML.</p></div></div><p></p>
@@ -1842,7 +1842,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>With this substitution and addition, it would read:</p>
 <dl><dt>programmatically determined (programmatically determinable)</dt><dd>
 
-<p>determined by software from author-supplied data provided in a way that different <ins><strong>[<a href="#dfn-assistive-technologies">assistive technologies</a> and accessibility features of software]</strong></ins> can extract and present this information to users in different modalities</p>
+<p>determined by software from author-supplied data provided in a way that different <ins><strong>[<a href="#dfn-assistive-technologies">assistive technologies</a> and accessibility features of <a href="#software">software</a>]</strong></ins> can extract and present this information to users in different modalities</p>
 <div class="example">
 
 <p><span>Example 1: </span>Determined in a markup language from elements and attributes that are accessed directly by commonly available assistive technology <ins><strong>[and accessibility features of software]</strong></ins>.</p></div><p></p>
@@ -1858,7 +1858,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>With this substitution, it would read:</p>
 <dl><dt>programmatically set</dt><dd>
 
-<p>set by software using methods that are supported by <ins><strong>[<a href="#dfn-assistive-technologies">assistive technologies</a> and accessibility features of software]</strong></ins></p>
+<p>set by software using methods that are supported by <ins><strong>[<a href="#dfn-assistive-technologies">assistive technologies</a> and accessibility features of <a href="#software">software</a>]</strong></ins></p>
 </dd></dl><div class="note" role="note" id="issue-container-generatedID-190"><div role="heading" class="note-title marker" id="h-note-181" aria-level="6"><span>Note</span></div><div class="">
 
 <p>Software typically enables <a href="#content-on-and-off-the-web">content</a> to be programmatically determined through the use of <a href="#accessibility-services-of-platform-software">accessibility services of platform software</a>. Non-web documents typically enable content to be programmatically determined through the use of accessibility services of the user agent.</p></div></div><p></p>
