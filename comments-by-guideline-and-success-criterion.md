@@ -1093,19 +1093,7 @@ With this substitution, it would read:
 
 ##### parsing21
 
-\[Text for 2.1.1 Parsing goes here.\]
-
-##### parsing22
-
-###### Applying SC 4.1.1 Parsing (Obsolete and removed) to Non-Web Documents and Software
-<div class="ednote">
-
-This section has been updated to reflect that WCAG 2.2 made 4.1.1 obsolete and removed. For WCAG 2.0 and 2.1, the 2013 WCAG2ICT guidance has been updated to reflect more current technology examples, the WCAG errata regarding content implemented using HTML and XML, and to address comments received.</div>
-
-**WCAG 2.2 Guidance:**
-<div class="note">
-
-WCAG 2.2 has made this success criterion obsolete and removed it as a requirement in the standard. Therefore, the interpretation of this success criterion for [non-web documents](#document) and [software](#software) has been removed.</div>
+###### Applying SC 4.1.1 Parsing (2.0 and 2.1) to Non-Web Documents and Software
 
 **WCAG 2.0 and 2.1 Guidance:**
 
@@ -1142,6 +1130,14 @@ Examples of markup that might be separately exposed and available to assistive t
 
 * LaTeX documents
 * Markdown documents</div>
+
+##### parsing22
+
+###### Applying SC 4.1.1 Parsing (Obsolete and removed) to Non-Web Documents and Software
+
+<div class="note">
+
+WCAG 2.2 has made this success criterion obsolete and removed it as a requirement in the standard. Therefore, the interpretation of this success criterion for [non-web documents](#document) and [software](#software) has been removed.</div>
 
 ##### name-role-value
 
