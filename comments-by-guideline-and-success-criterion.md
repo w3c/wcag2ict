@@ -56,7 +56,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “in some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “in some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and/or [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
 
 ##### audio-description-or-media-alternative-prerecorded
 
@@ -82,7 +82,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
     
-The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and / or text alternative for both speech and non-speech audio information needed to understand the media [content](#content-on-and-off-the-web)” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired.” Per the definition in WCAG 2, to meet this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and/or [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
 
 ##### audio-description-prerecorded
 
@@ -183,7 +183,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to control audio volume independently from the overall system volume level.
+**1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to pause or stop the audio, or a  mechanism is available to control audio volume independently from the overall system volume level.
 
 <div class="note">
     
@@ -301,9 +301,12 @@ With this substitution, it would read:
 
 **1.4.11 Non-text Contrast:** The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
 
-- **User Interface Components:** Visual information required to identify [user interface components](#dfn-user-interface-components) and [states](https://www.w3.org/TR/WCAG22/#dfn-states), except for inactive components or where the appearance of the component is determined by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and not modified by the author;
+<dl><dt>User Interface Components</dt>
+<dd>Visual information required to identify <a href="#dfn-user-interface-components">user interface components</a> and <a href="https://www.w3.org/TR/WCAG22/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the <INS><strong>[<a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</strong></INS> and not modified by the author;</dd>
 
-- **Graphical Objects:** Parts of graphics required to understand the content, except when a particular presentation of graphics is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.
+<dt>Graphical Objects</dt>
+<dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> to the information being conveyed.</dd>
+</dl>
 
 <div class="note">
     
@@ -446,12 +449,24 @@ With this substitution, it would read:
 
 **2.2.1 Timing Adjustable:** For each time limit that is set by <INS>**[[non-web documents](#document) or [software](#software)]**</INS>, at least one of the following is true:
 
-*   **Turn off:** The user is allowed to turn off the time limit before encountering it; or
-*   **Adjust:** The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or
-*   **Extend:** The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, “press the space bar”), and the user is allowed to extend the time limit at least ten times; or
-*   **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
-*   **Essential Exception:** The time limit is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) and extending it would invalidate the activity; or
-*   **20 Hour Exception:** The time limit is longer than 20 hours.
+<dl><dt>Turn off</dt>
+<dd>The user is allowed to turn off the time limit before encountering it; or</dd>
+	
+<dt>Adjust</dt>
+<dd>The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting; or</dd>
+
+<dt>Extend</dt>
+<dd>The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, “press the space bar”), and the user is allowed to extend the time limit at least ten times; or</dd>
+
+<dt>Real-time Exception</dt>
+<dd>The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or</dd>
+
+<dt>Essential Exception</dt>
+<dd>The time limit is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> and extending it would invalidate the activity; or</dd>
+
+<dt>20 Hour Exception</dt>
+<dd>The time limit is longer than 20 hours.</dd>
+</dl>
     
 <div class="note">
     
@@ -467,19 +482,23 @@ With these substitutions, it would read:
 
 **2.2.2 Pause, Stop, Hide:** For moving, [blinking](https://www.w3.org/TR/WCAG22/#dfn-blinking), scrolling, or auto-updating information, all of the following are true:
 
-*   **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to [pause](https://www.w3.org/TR/WCAG22/#dfn-pause), stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential); and
+<dl>
+<dt>Moving, blinking, scrolling</dt>
+<dd>For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to <a href="https://www.w3.org/TR/WCAG22/#dfn-pause)">pause</a>, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a>; and</dd>
     
-*   **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
+<dt>Auto-updating</dt>
+<dd></dd>For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.</dd>
+</dl>
     
 <div class="note">
     
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
 <div class="note">
     
-Since any [content](#content-on-and-off-the-web) that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#software)]**</INS>, all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#software)]**</INS>, all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
 <div class="note">
     
-[Content](#content-on-and-off-the-web) that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
+Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
 <div class="note">
     
 An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.</div>
@@ -571,7 +590,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.4.3 Focus Order:** If <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
+**2.4.3 Focus Order:** If <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [navigated sequentially](#dfn-navigated-sequentially) and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
 
 ##### link-purpose-in-context
 
@@ -658,7 +677,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.5.1 Pointer Gestures to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software by replacing "web content" with "platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "software applications that interpret" and "user agent" with "underlying platform software".
 
 With these substitutions, the notes would read:
 
@@ -676,24 +695,26 @@ Multipoint and path-based gestures are less common in documents. An example wher
 
 <div class="note">
 
-This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
+This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
 
 <div class="note">
 
-This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+This requirement also applies to platform software, such as user agents, assistive technology software, and operating systems. Each layer is responsible for its own pointer actions only, not for those in an underlying layer.</div>
 
 ##### pointer-cancellation
 
 ###### Applying SC 2.5.2 Pointer Cancellation to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software by replacing "web content" with "platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "software applications that interpret" and "user agent" with "underlying platform software".
 
 With these substitutions, the notes would read: 
 
 (for non-web documents)
+
 <div class="note">
     
 Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
+
 <div class="note">
     
 This requirement applies to <INS>**[[content](#content-on-and-off-the-web)]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
@@ -704,21 +725,21 @@ Content that interprets pointer actions and controls which events are used for e
 
 (for non-web software)
 
-<div class="note">
+<div class="note"> 
     
-Functions that emulate a keyboard or numeric keypad key press are considered essential. 
+Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
+
 <div class="example">
 
 Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
-</div>
 
 <div class="note">
     
-This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
+This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
 
 <div class="note">
 
-This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+This requirement also applies to platform software, such as user agents, assistive technology software, and operating systems. Each layer is responsible for its own pointer actions only, not for those in an underlying layer.</div>
 
 <div class="note">
     
@@ -744,16 +765,16 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or platform software", and making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software applications by replacing "web content that interprets" with "user agents and other software applications that interpret" and "user agent" with "underlying platform software", and for non-web platform software by replacing "web content" with "platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or platform software" and by making changes to the notes for non-web documents by replacing “web content” with "content", and for non-web software applications by replacing "web content that interprets" with "software applications that interpret" and "user agent" with "underlying platform software".
 
 With these substitutions, it would read:
 
-**2.5.7 Dragging Movements:** All functionality that uses a dragging movement for operation can be achieved by a single pointer without dragging, unless dragging is essential or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
+**2.5.7 Dragging Movements:** All [functionality](#dfn-functionality) that uses a [dragging movement](#dfn-dragging-movements) for operation can be achieved by a [single pointer](#dfn-single-pointer) without dragging, unless dragging is [essential](#dfn-essential) or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
 
 (for non-web documents)
 <div class="note">
 
-This requirement applies to [content](#content-on-and-off-the-web) that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+This requirement applies to **<INS>[[content](#content-on-and-off-the-web)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
 <div class="note">
 
@@ -762,11 +783,11 @@ Dragging movements for operation are less common in documents. An example where 
 (for non-web software)
 <div class="note">
 
-This requirement applies to **<INS>[user agents and other [software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
+This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
 
 <div class="note">
 
-This requirement also applies to **<INS>[platform software]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the assistive technology).</div>
+This requirement also applies to platform software, such as user agents, assistive technology software, and operating systems. Each layer is responsible for its own pointer actions only, not for those in an underlying layer.</div>
 
 ##### target-size-minimum
 
@@ -781,12 +802,12 @@ With these substitutions, it would read:
 - **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
 - **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
 - **Inline:** The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;
-- **<INS>[User agent or platform software]</INS> control:** The size of the target and target offset is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and is not modified by the author;
-- **Essential:** A particular [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed;
+- **<INS>[User agent or platform software]</INS> control:** The size of the target is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and is not modified by the author;
+- **Essential:** A particular [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed.
 
 <div class="note">
 
-Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders with granular values, color pickers displaying a gradient of colors, or editable areas where you position the cursor.</div>
+Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders, color pickers displaying a gradient of colors, or editable areas where you position the cursor.</div>
 <div class="note">
 
 For inline targets the line-height should be interpreted as perpendicular to the flow of text. For example, in a language displayed vertically, the line-height would be horizontal.</div>
@@ -995,11 +1016,16 @@ With this substitution, it would read:
 
 **3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>**[[non-web documents](#document) or [software](#software)]**</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true:
 
-1.  **Reversible:** Submissions are reversible.
+<dl>
+<dt>Reversible</dt>
+<dd>Submissions are reversible.</dd>
     
-2.  **Checked:** Data entered by the user is checked for [input errors](#dfn-input-error) and the user is provided an opportunity to correct them.
+<dt>Checked</dt>
+<dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>
     
-3.  **Confirmed:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available for reviewing, confirming, and correcting information before finalizing the submission.
+<dt>Confirmed</dt>
+<dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
+</dl>
 
 ##### redundant-entry
 
@@ -1025,14 +1051,16 @@ With this substitution, it would read:
 <dt>Object Recognition</dt>
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
-<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS><strong> a Web site, <a href="#document">non-web document</a>, or <a href="#software">software</a></strong></INS>.</dd>
+<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS><strong>[a Web site, <a href="#document">non-web document</a>, or <a href="#software">software</a>]</strong></INS>.</dd>
 </dl>
 <div class="note">
 
 "Object recognition" and "Personal content" may be represented by images, video, or audio.</div>
 <div class="note">
 
-Examples of mechanisms that satisfy this criterion include: support for password entry by password managers to reduce memory need, and copy and paste to reduce the cognitive burden of re-typing.</div>
+Examples of mechanisms that satisfy this criterion include: 
+1. support for password entry by password managers to reduce memory need, and
+2. copy and paste to reduce the cognitive burden of re-typing.</div>
 <div class="note">
     
 If the non-web software is an application, passwords used to unlock the underlying [platform software](#platform-software) are out of scope for this requirement as these are not up to a software application’s author.</div>

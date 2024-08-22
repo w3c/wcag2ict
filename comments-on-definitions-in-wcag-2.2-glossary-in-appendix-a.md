@@ -105,7 +105,7 @@ supported by users' [assistive technologies](#dfn-assistive-technologies) as wel
 
 To qualify as an accessibility-supported use of a <INS>**[[non-web document](#document) or software]**</INS> [technology](#dfn-technologies) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>**[non-web document or software]**</INS> technology (or feature):
 
-1.  **The way that the <INS>[non-web document or software technology]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of the [content](#content-on-and-off-the-web),
+1.  **The way that the <INS>[non-web document or software technology]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of the content,
     
     **AND**
     
@@ -188,13 +188,13 @@ Assistive technologies that are important in the context of this document includ
 
 ##### Applying “changes of context” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” and “page” with “non-web document or content presented by software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “page” with “non-web document or content presented by software”.
 
 With these substitutions, it would read:
 
 <DL><DT>changes of context</DT><DD>
 
-major changes in the content of the <INS>**[[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS> that, if made without user awareness, can disorient users who are not able to view the entire <INS>**non-web document or content presented by software]**</INS> simultaneously
+major changes that, if made without user awareness, can disorient users who are not able to view the entire <INS>**[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS> simultaneously
 
 Changes in context include changes of:
 
@@ -204,7 +204,7 @@ Changes in context include changes of:
     
 3.  focus;
     
-4.  content that changes the meaning of the <INS>**[non-web document or content presented by software]**</INS>.  
+4.  [content](#dfn-content) that changes the meaning of the <INS>**[non-web document or content presented by software]**</INS>.  
 
 <div class="note">
 
@@ -406,7 +406,7 @@ With this substitution and addition, it would read:
 
 <DL><DT>programmatically determined (programmatically determinable)</DT><DD>
 
-determined by [software](#software) from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS> can extract and present this information to users in different modalities
+determined by software from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS> can extract and present this information to users in different modalities
 
 <div class="example">
 
@@ -447,11 +447,11 @@ With this substitution, it would read:
 
 the relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
 
-<div class="note">For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 \* **R** + 0.7152 \* **G** + 0.0722 \* **B** where **R**, **G** and **B** are defined as:
+<div class="note">For the sRGB colorspace, the relative luminance of a color is defined as L = 0.2126 * <strong>R</strong> + 0.7152 * <strong>G</strong> + 0.0722 * <strong>B</strong> where <strong>R</strong>, <strong>G</strong> and <strong>B</strong> are defined as:
 
-- if RsRGB <= 0.03928 then **R** = RsRGB/12.92 else **R** = ((RsRGB+0.055)/1.055) ^ 2.4
-- if GsRGB <= 0.03928 then **G** = GsRGB/12.92 else **G** = ((GsRGB+0.055)/1.055) ^ 2.4
-- if BsRGB <= 0.03928 then **B** = BsRGB/12.92 else **B** = ((BsRGB+0.055)/1.055) ^ 2.4  
+- if RsRGB <= 0.04045 then __R__ = RsRGB/12.92 else __R__ = ((RsRGB+0.055)/1.055) ^ 2.4
+- if GsRGB <= 0.04045 then __G__ = GsRGB/12.92 else __G__ = ((GsRGB+0.055)/1.055) ^ 2.4
+- if BsRGB <= 0.04045 then __B__ = BsRGB/12.92 else __B__ = ((BsRGB+0.055)/1.055) ^ 2.4  
 
 and RsRGB, GsRGB, and BsRGB are defined as:
 
@@ -459,7 +459,7 @@ and RsRGB, GsRGB, and BsRGB are defined as:
 - GsRGB = G8bit/255
 - BsRGB = B8bit/255
     
-The “^” character is the exponentiation operator. (Formula taken from [\[sRGB\]](http://www.w3.org/TR/WCAG22/#bib-srgb)).</div>
+The “^” character is the exponentiation operator. (Formula taken from [\[sRGB\]](http://www.w3.org/TR/WCAG22/#bib-srgb).)</div>
 <div class="note">Before May 2021 the value of 0.04045 in the definition was different (0.03928). It was taken from an older version of the specification and has been updated. It has no practical effect on the calculations in the context of these guidelines.</div>
 <div class="note">
 
@@ -472,7 +472,7 @@ If dithering occurs after delivery, then the source color value is used. For col
 Tools are available that automatically do the calculations when testing contrast and flash.</div>
 <div class="note">
     
-A [MathML version of the relative luminance definition](http://www.w3.org/TR/WCAG22/relative-luminance.html) is available.</div>
+A [separate page giving the relative luminance definition using MathML](https://www.w3.org/TR/WCAG22/relative-luminance.html) to display the formulas is available.</div>
 </DD></DL>
 
 <div class="note">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”</div>
@@ -511,7 +511,7 @@ same result when used
 
 <div class="example"> 
 
-A submit “search” button on one web page and a “find” button on another web page may both have a field to enter a term and list topics in the Web site related to the term submitted. In this case, they would have the same functionality but would not be labeled consistently.</div>
+A submit “search” button on one Web page and a “find” button on another Web page may both have a field to enter a term and list topics in the Web site related to the term submitted. In this case, they would have the same functionality but would not be labeled consistently.</div>
 <div class="example">
 
 A ribbon icon that saves the document that looks like an arrow pointing into a folder in one case, and an arrow pointing into a hard drive in another. In this case as well, they would have the same functionality but would not be labeled consistently.</div></DD></DL>
@@ -560,7 +560,7 @@ See the guidance on [sets of documents](#set-of-documents) and [sets of software
 
 #####  Applying “style property” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings, user style sheets" with "user agent, platform software or other software settings".
+This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent(s)” with “user agent(s) or platform software”, "web content" with "content", replacing "in-line styles, author style sheets" with "programmatically-set styles", and replacing "user agent interface settings" with "user agent, platform software or other software interface settings, or".
 
 With these substitutions, it would read:
 
@@ -572,7 +572,7 @@ Style properties can have several origins:
 
 - <INS>**[User agent or platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
 - **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>**[programmatically-set styles]**</INS>);
-- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other [software](#software)]**</INS> interface settings)
+- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other [software](#software) interface settings, or]**</INS> user style sheets)
 </DD></DL>
 
 #### dfn-targets
@@ -632,7 +632,7 @@ With this substitution, it would read:
 
 <DL><DT>user interface component</DT><DD>
 
-a part of the [content](#content-on-and-off-the-web) that is perceived by users as a single control for a distinct function
+a part of the content that is perceived by users as a single control for a distinct function
 
 <div class="note">
 
@@ -658,14 +658,14 @@ With this substitution, it would read:
 
 <DL><DT>viewport</DT><DD>
 
-object in which the <INS>**[[software](#software)]**</INS> presents [content](#content-on-and-off-the-web)
+object in which the <INS>**[[software](#software)]**</INS> presents content
 
 <div class="note">
 
 The <INS>**[software]**</INS> presents content through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <INS>**[software]**</INS> such as prompts, menus, and alerts are not viewports.</div>
 <div class="note">
 
-This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](http://www.w3.org/TR/WAI-USERAGENT/glossary.html).</div>
+This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](http://www.w3.org/TR/WAI-USERAGENT/glossary.html) [\[UAAG10\]](https://www.w3.org/TR/WCAG22/#bib-uaag10).</div>
 </DD></DL>
 
 #### dfn-web-page-s
