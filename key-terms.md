@@ -241,4 +241,4 @@ any software that acts as a keyboard and generates output that is treated by oth
 </DD></DL>
 <div class="note">
 
-Speech, eye-gaze, sip-and-puff, sounds, switches, and codes have all been used by virtual keyboards as input that generates "keystroke" output.</div>
+Eye-gaze, morse code, speech, and switches (e.g. sip-and-puff) have all been used by virtual keyboards as input that generates "keystroke" output.</div>
