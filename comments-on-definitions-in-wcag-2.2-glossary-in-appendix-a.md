@@ -368,7 +368,7 @@ With this substitution and addition, it would read:
 
 <div class="note">
 
-A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of software]**</INS>. In many (but not all) cases the name and the label are the same.</div>
+A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of [software](#software)]**</INS>. In many (but not all) cases the name and the label are the same.</div>
 <div class="note">
 
 The term label is not limited to the label element in HTML.</div></DD></DL>
@@ -387,7 +387,7 @@ text by which software can identify a component within <INS>**[[content](#conten
 
 <div class="note">
 
-The name may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of software]**</INS>, whereas a [label](#dfn-labels) is presented to all users. In many (but not all) cases, the label and the name are the same.</div>
+The name may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of [software](#software)]**</INS>, whereas a [label](#dfn-labels) is presented to all users. In many (but not all) cases, the label and the name are the same.</div>
 <div class="note">
 
 This is unrelated to the name attribute in HTML.</div>
@@ -406,7 +406,7 @@ With this substitution and addition, it would read:
 
 <DL><DT>programmatically determined (programmatically determinable)</DT><DD>
 
-determined by software from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS> can extract and present this information to users in different modalities
+determined by software from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of [software](#software)]**</INS> can extract and present this information to users in different modalities
 
 <div class="example">
 
@@ -429,7 +429,7 @@ With this substitution, it would read:
 
 <DL><DT>programmatically set</DT><DD>
 
-set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of software]**</INS>
+set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of [software](#software)]**</INS>
 
 </DD></DL><div class="note">
 
