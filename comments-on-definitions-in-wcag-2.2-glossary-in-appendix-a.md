@@ -169,13 +169,13 @@ With these substitutions, it would read:
 
 hardware and/or software that acts <INS>**[stand-alone]**</INS>, or along with <INS>**[mainstream information and communication technologies (ICT)]**</INS>, to provide functionality to meet the requirements of users with disabilities that go beyond those offered by <INS>**[mainstream ICT]**</INS>
 
-<div class="note original">
+<div class="note">
 
 Functionality provided by assistive technology includes alternative presentations (e.g., as synthesized speech or magnified content), alternative input methods (e.g., voice), additional navigation or orientation mechanisms, and content transformations (e.g., to make tables more accessible).</div>
-<div class="note replacement">
+<div class="note">
 
 Assistive technologies often communicate data and messages with <INS>**[mainstream ICTs]**</INS> by using and monitoring APIs.</div>
-<div class="note replacement">
+<div class="note">
 
 The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technologies is not absolute. Many <INS>**[mainstream ICTs]**</INS> provide some features to assist individuals with disabilities. The basic difference is that <INS>**[mainstream ICTs]**</INS> target broad and diverse audiences that usually include people with and without disabilities. Assistive technologies target narrowly defined populations of users with specific disabilities. The assistance provided by an assistive technology is more specific and appropriate to the needs of its target users. The <INS>**[mainstream ICT]**</INS> may provide important functionality to assistive technologies like retrieving <INS>**[[content](#content-on-and-off-the-web)]**</INS> from program objects or parsing markup into identifiable bundles.</div>
 <div class="example">
@@ -212,7 +212,7 @@ Changes in context include changes of:
     
 4.  [content](#dfn-content) that changes the meaning of the <INS>**[non-web document or content presented by software]**</INS>.  
 
-<div class="note original">
+<div class="note">
 
 A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).</div>
 <div class="example">
@@ -328,7 +328,7 @@ With this substitution, it would read:
 
 information provided by the user that is not accepted
 
-<div class="note replacement">This includes:
+<div class="note">This includes:
 
 1.  Information that is required by the <INS>**[[non-web document](#document) or [software](#software)]**</INS> but omitted by the user
     
@@ -372,7 +372,7 @@ With this substitution and addition, it would read:
 
 [text](https://www.w3.org/TR/WCAG22/#dfn-text) or other component with a [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) that is presented to a user to identify a component within <INS>**[[content](#content-on-and-off-the-web)]**</INS>
 
-<div class="note replacement">
+<div class="note">
 
 A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of [software](#software)]**</INS>. In many (but not all) cases the name and the label are the same.</div>
 <div class="note">
@@ -391,7 +391,7 @@ With this substitution and addition, it would read:
 
 text by which software can identify a component within <INS>**[[content](#content-on-and-off-the-web)]**</INS> to the user
 
-<div class="note replacement">
+<div class="note">
 
 The name may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of [software](#software)]**</INS>, whereas a [label](#dfn-labels) is presented to all users. In many (but not all) cases, the label and the name are the same.</div>
 <div class="note">
@@ -470,13 +470,13 @@ The “^” character is the exponentiation operator. (Formula taken from [\[sRG
 <div class="note">
 
 Almost all systems used today to view <INS>**[[content](#content-on-and-off-the-web)]**</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
-<div class="note original">
+<div class="note">
 
 If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered should be used (average R, average G, and average B).</div>
-<div class="note original">
+<div class="note">
 
 Tools are available that automatically do the calculations when testing contrast and flash.</div>
-<div class="note original">
+<div class="note">
     
 A [separate page giving the relative luminance definition using MathML](https://www.w3.org/TR/WCAG22/relative-luminance.html) to display the formulas is available.</div>
 </DD></DL>
@@ -592,7 +592,7 @@ With this substitution, it would read:
     
 region of the display that will accept a pointer action, such as the interactive area of a user interface component
 
-<div class="note replacement">
+<div class="note">
     
 If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>**[[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS>.</div></DD></DL>
 
@@ -640,13 +640,13 @@ With this substitution, it would read:
 
 a part of the content that is perceived by users as a single control for a distinct function
 
-<div class="note original">
+<div class="note">
 
 Multiple user interface components may be implemented as a single programmatic element. "Components" here is not tied to programming techniques, but rather to what the user perceives as separate controls.</div>
-<div class="note original">
+<div class="note">
 
 User interface components include form elements and links as well as components generated by scripts.</div>
-<div class="note original">
+<div class="note">
 
 What is meant by "component" or "user interface component" here is also sometimes called "user interface element".</div>
 <div class="example">
@@ -666,10 +666,10 @@ With this substitution, it would read:
 
 object in which the <INS>**[[software](#software)]**</INS> presents content
 
-<div class="note replacement">
+<div class="note">
 
 The <INS>**[software]**</INS> presents content through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <INS>**[software]**</INS> such as prompts, menus, and alerts are not viewports.</div>
-<div class="note original">
+<div class="note">
 
 This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](http://www.w3.org/TR/WAI-USERAGENT/glossary.html) [\[UAAG10\]](https://www.w3.org/TR/WCAG22/#bib-uaag10).</div>
 </DD></DL>
