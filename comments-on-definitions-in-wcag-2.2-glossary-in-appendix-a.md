@@ -374,13 +374,8 @@ With this substitution and addition, it would read:
 
 <div class="note replacement">
 
-<<<<<<< HEAD
-A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of software]**</INS>. In many (but not all) cases the name and the label are the same.</div>
-<div class="note original">
-=======
 A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of [software](#software)]**</INS>. In many (but not all) cases the name and the label are the same.</div>
 <div class="note">
->>>>>>> main
 
 The term label is not limited to the label element in HTML.</div></DD></DL>
 
@@ -398,13 +393,8 @@ text by which software can identify a component within <INS>**[[content](#conten
 
 <div class="note replacement">
 
-<<<<<<< HEAD
-The name may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of software]**</INS>, whereas a [label](#dfn-labels) is presented to all users. In many (but not all) cases, the label and the name are the same.</div>
-<div class="note original">
-=======
 The name may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of [software](#software)]**</INS>, whereas a [label](#dfn-labels) is presented to all users. In many (but not all) cases, the label and the name are the same.</div>
 <div class="note">
->>>>>>> main
 
 This is unrelated to the name attribute in HTML.</div>
 <div class="example">
