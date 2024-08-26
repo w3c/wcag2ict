@@ -738,7 +738,7 @@ Content that interprets pointer actions and controls which events are used for e
     
 Functions that emulate a keyboard or numeric keypad key press are considered essential.</div>
 
-<div class="example">
+<div class="example wcag2ict">
 
 Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</div>
 
