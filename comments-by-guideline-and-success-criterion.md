@@ -5,9 +5,9 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections there are different kinds of notes, including:
 
-* **added** &mdash; custom notes added for the WCAG2ICT document
-* **replaced** &mdash; original WCAG notes with replacements and/or additions as agreed in the WCAG2ICT document
 * **original** &mdash; original WCAG notes that have not been altered in the WCAG2ICT guidance
+* **replaced** &mdash; original WCAG notes with replacements and/or additions as agreed in the WCAG2ICT document
+* **added** &mdash; custom notes added for the WCAG2ICT document, marked with the text "added".
 
 ### perceivable
 
