@@ -790,7 +790,7 @@ This requirement applies to **<INS>[[content](#content-on-and-off-the-web)]</INS
 Dragging movements for operation are less common in documents. An example where a document author could add dragging functionality is an interactive prototype document created in a software design tool.</div>
 
 (for non-web software)
-<div class="note wcag2ict">
+<div class="note">
 
 This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
 
