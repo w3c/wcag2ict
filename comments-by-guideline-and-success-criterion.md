@@ -599,7 +599,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.4.3 Focus Order:** If <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [navigated sequentially](#dfn-navigated-sequentially) and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
+**2.4.3 Focus Order:** If <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [navigated sequentially](https://www.w3.org/TR/WCAG22/#dfn-navigated-sequentially) and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
 
 ##### link-purpose-in-context
 
@@ -778,7 +778,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**2.5.7 Dragging Movements:** All [functionality](#dfn-functionality) that uses a [dragging movement](#dfn-dragging-movements) for operation can be achieved by a [single pointer](#dfn-single-pointer) without dragging, unless dragging is [essential](#dfn-essential) or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
+**2.5.7 Dragging Movements:** All [functionality](https://www.w3.org/TR/WCAG22/#dfn-functionality) that uses a [dragging movement](https://www.w3.org/TR/WCAG22/#dfn-dragging-movements) for operation can be achieved by a [single pointer](https://www.w3.org/TR/wcag22/#dfn-single-pointer) without dragging, unless dragging is [essential](https://www.w3.org/TR/wcag22/#dfn-essential) or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
 
 (for non-web documents)
 <div class="note">
