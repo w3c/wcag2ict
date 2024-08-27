@@ -1097,9 +1097,7 @@ With this substitution, it would read:
 
 ##### parsing21
 
-###### Applying SC 4.1.1 Parsing (2.1) to Non-Web Documents and Software
-
-**WCAG 2.0 and 2.1 Guidance:**
+###### Applying SC 4.1.1 Parsing (2.0 and 2.1) to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG21/Understanding/parsing#intent), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
 
