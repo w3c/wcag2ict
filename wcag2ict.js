@@ -286,7 +286,7 @@ function removeChange () {
     });
 }
 
-function furtherProcessNotes() {
+function furtherProcessNotesAndExamples() {
     let allNotes = document.querySelectorAll(".note");
     allNotes.forEach(note => {
         let noteTitle = note.querySelector("div > span").textContent;
@@ -301,6 +301,11 @@ function furtherProcessNotes() {
         }
         note.querySelector("div > span").textContent = noteTitle;
     })
+    let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict");
+    wcag2ictExamples.forEach(example => {
+        example.textContent =example.textContent.replace("\n\nExample:", "\n\nExample (Added):");
+        console.log(example.textContent)
+    })
 }
 function finalCleanup() {
 	hideDeepNums();
@@ -310,7 +315,7 @@ function finalCleanup() {
 	addHeadingIds();
 	removeNumbering();
  removeChange();
- furtherProcessNotes();
+ furtherProcessNotesAndExamples();
 }
 
 function postRespec() {
