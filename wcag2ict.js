@@ -289,14 +289,37 @@ function removeChange() {
         element.remove();
     });
 }
+
+function furtherProcessNotesAndExamples() {
+    let allNotes = document.querySelectorAll(".note");
+    allNotes.forEach(note => {
+        let noteTitle = note.querySelector("div > span").textContent;
+        if (note.querySelector(".wcag2ict")) {
+            noteTitle = noteTitle + " (Added)";
+        }
+        if (note.querySelector(".replacement")) {
+            noteTitle = noteTitle + " (Replaced)";
+        }
+        if (note.querySelector(".original")) {
+            noteTitle = noteTitle + " (Original)";
+        }
+        note.querySelector("div > span").textContent = noteTitle;
+    })
+    let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict");
+    wcag2ictExamples.forEach(example => {
+        example.textContent =example.textContent.replace("\n\nExample:", "\n\nExample (Added):");
+        console.log(example.textContent)
+    })
+}
 function finalCleanup() {
-    hideDeepNums();
-    hideDeepNumsGlossary();
-    numberNotes();
-    renumberExamples();
-    addHeadingIds();
-    removeNumbering();
-    removeChange();
+	hideDeepNums();
+	hideDeepNumsGlossary();
+	numberNotes();
+	renumberExamples();
+	addHeadingIds();
+	removeNumbering();
+ removeChange();
+ furtherProcessNotesAndExamples();
 }
 
 function postRespec() {
