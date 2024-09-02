@@ -136,7 +136,7 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
             
         *   is as easy to find and obtain for a person with a disability as it is for a person without disabilities.     
 
-<div class="note">
+<div class="note wcag2ict">
 
 <INS>**[The concepts behind the five Notes and in [Understanding Accessibility Supported](http://www.w3.org/WAI/WCAG22/Understanding/conformance#accessibility-support) are applicable to web technologies. The same or similar factors are applicable for non-web technologies.]**</INS></div></DD></DL>
 
@@ -219,7 +219,7 @@ A change of content is not always a change of context. Changes in content, such 
 
 Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.</div>
 </DD></DL>
-<div class="note">
+<div class="note wcag2ict">
 
 A change in the user agent might include bringing up a new window, or might be a significant change in the menus and/or toolbars that are displayed and available for interacting with some portion of the document.</div>
 
@@ -264,7 +264,7 @@ See the guidance on [content in the Key Terms section](#content-on-and-off-the-w
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
-<div class="note">
+<div class="note wcag2ict">
 
 Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”</div>
 
@@ -275,11 +275,11 @@ Because relative luminance is defined such that it cannot directly apply to hard
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
-<div class="note">
+<div class="note wcag2ict">
     
 [Non-web software](#software) and its accompanying [platform software](#platform-software) do not use CSS pixel measurements. Therefore, use platform-defined density-independent pixel measurements which approximate the CSS reference pixel. Examples of platform-defined density-independent pixel measurements include: points (pt) for iOS and macOS, density-independent pixels (dp) for Android, and effective pixels (epx) for Windows.</div>
 
-<div class="note">
+<div class="note wcag2ict">
 Examples where a density-independent pixel may not be defined in the platform:
 
 - Software designed for specific hardware, such as kiosks or office equipment, where the author knows the physical screen size and, potentially, the pixel density.
@@ -290,10 +290,10 @@ When there is no platform-defined density-independent pixel measurement, the ref
 - Determine a viewing distance that matches the use case and display type. For instance, in the case of a touchscreen, the viewing distance is normally less than the length of an arm, typically around 28 inches (71 cm).
 - Calculate the size of the reference pixel: Divide the viewing distance by 2688. The number 2688 is obtained by dividing 28 inches (arm's length) by the derived reference pixel size (1/96 inch). </div>
 
-<div class="note">
+<div class="note wcag2ict">
 Most software and devices are usable at more than one viewing distance. However, only viewing distances that are plausible for the product can be considered an appropriate approximation for the reference pixel. For example, in software designed for use with a touchscreen, a visual-angle pixel longer than 0.11 inch (0.28 mm) would not be plausible, because this would signify a viewing distance of more than arm’s length. </div>
 
-<div class="note">
+<div class="note wcag2ict">
 People with low vision often use devices at less than the standard viewing distance. However, basing the density-independent pixel on a typical viewing distance provides a balance of benefits for users with disabilities. If a longer viewing distance were chosen as the basis for the density-independent pixel, the viewport would be measured with a smaller number of larger pixels, causing Success Criterion 1.4.10 Reflow to be less stringent. If a shorter viewing distance were chosen, user interface components would be measured with a larger number of smaller pixels, causing some success criteria, such as 2.5.8 Target Size, to be less stringent. </div>
 
 #### dfn-down-event
@@ -302,7 +302,7 @@ People with low vision often use devices at less than the standard viewing dista
 
 This applies directly as written and as described in the WCAG 2 glossary.
  
-<div class="note">
+<div class="note wcag2ict">
     
 The down-event may have different names on different platforms. For example <INS>**["PointerPressed” or “mousedown”]**</INS>.</div>
 
@@ -312,7 +312,7 @@ The down-event may have different names on different platforms. For example <INS
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
-<div class="note">
+<div class="note wcag2ict">
 
 Because this deals with relative luminance and not luminance, it can only be applied to information on a display, not to hardware sources of light.</div>
 
@@ -343,10 +343,10 @@ information provided by the user that is not accepted
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
-<div class="note">
+<div class="note wcag2ict">
 
 Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., an interface where the software accepts text or other keystroke input). Underlying [platform software](#platform-software) may provide device independent input services to applications that enable operation via such a keyboard interface. [Software](#software) that supports operation via such platform device independent services would be operable via a keyboard interface and would satisfy the success criterion.</div>
-<div class="note">
+<div class="note wcag2ict">
 
 This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a [virtual keyboard](#virtual-keyboard).</div>
 
@@ -356,7 +356,7 @@ This success criterion does not imply that software always needs to directly sup
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
-<div class="note">
+<div class="note wcag2ict">
 
 A key command issued by a long press of a key (2 seconds or more) and other accessibility features provided by the platform are not considered a keyboard shortcut. Such commands often occur when there are limited keys, or no modifier keys, present on a device.</div>
 
@@ -421,7 +421,7 @@ Determined in a markup language from elements and attributes that are accessed d
 
 Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <INS>**[and accessibility features of software]**</INS> via an accessibility API that is supported by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
 
-</DD></DL><div class="note">
+</DD></DL><div class="note wcag2ict">
 
 Software typically enables content to be programmatically determined through the use of [accessibility services of platform software](#accessibility-services-of-platform-software). Non-web documents typically enable [content](#content-on-and-off-the-web) to be programmatically determined through the use of accessibility services of the user agent.</div>
 
@@ -437,7 +437,7 @@ With this substitution, it would read:
 
 set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of [software](#software)]**</INS>
 
-</DD></DL><div class="note">
+</DD></DL><div class="note wcag2ict">
 
 Software typically enables [content](#content-on-and-off-the-web) to be programmatically determined through the use of [accessibility services of platform software](#accessibility-services-of-platform-software). Non-web documents typically enable content to be programmatically determined through the use of accessibility services of the user agent.</div>
 
@@ -481,7 +481,7 @@ Tools are available that automatically do the calculations when testing contrast
 A [separate page giving the relative luminance definition using MathML](https://www.w3.org/TR/WCAG22/relative-luminance.html) to display the formulas is available.</div>
 </DD></DL>
 
-<div class="note">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”</div>
+<div class="note wcag2ict">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”</div>
 
 #### dfn-role
 
@@ -499,7 +499,7 @@ text or number by which software can identify the function of a component within
 
 A number that indicates whether an image functions as a hyperlink, command button, or check box.</div>
 </DD></DL>
-<div class="note">
+<div class="note wcag2ict">
 
 “AccessibleRole” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
 
@@ -540,7 +540,7 @@ the success criterion does not evaluate to 'false' when applied to the <INS>**[[
 
 See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.
 
-<div class="note">
+<div class="note wcag2ict">
 
 For success criteria that use the term “set of web pages”, the term is replaced by "set of non-web documents" and "set of software programs" when applying this to non-web technologies.</div>
 
@@ -558,7 +558,7 @@ With these substitutions, it would read:
     
 2.  The way a <INS>**[[set of documents](#set-of-documents) or [set of software programs](#set-of-software-programs)]**</INS> is organized
 
-</DD></DL><div class="note">
+</DD></DL><div class="note wcag2ict">
 
 See the guidance on [sets of documents](#set-of-documents) and [sets of software programs](#set-of-software-programs) in the Key Terms section.</div>
 
@@ -618,7 +618,7 @@ Some common examples of <INS>**[[non-web document](#document) and software techn
 
 This applies directly as written and as described in the WCAG 2 glossary.
  
-<div class="note">
+<div class="note wcag2ict">
     
 The up-event may have different names on different platforms, such as <INS>**[“PointerReleased” or “mouseup”]**</INS>.</div>
 
@@ -680,6 +680,6 @@ This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](h
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
-<div class="note">
+<div class="note wcag2ict">
 
 For those success criteria that use the term “web page”, WCAG2ICT provides specific replacement term(s) for “Web page”.</div>
