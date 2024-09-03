@@ -119,7 +119,7 @@ This applies directly as written, and as described in [Intent from Understanding
 In software, programmatic determinability is best achieved through the use of [accessibility services provided by platform software](#accessibility-services-of-platform-software) to enable interoperability between software and assistive technologies and accessibility features of software.</div>
 <div class="note wcag2ict">
     
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality)).</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### meaningful-sequence
 
