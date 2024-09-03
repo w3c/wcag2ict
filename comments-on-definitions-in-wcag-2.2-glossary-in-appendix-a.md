@@ -345,7 +345,7 @@ This applies directly as written and as described in the WCAG 2 glossary.
 
 <div class="note wcag2ict">
 
-Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., an interface where the software accepts text or other keystroke input). Underlying [platform software](#platform-software) may provide device independent input services to applications that enable operation via such a keyboard interface. [Software](#software) that supports operation via such platform device independent services would be operable via a keyboard interface and would satisfy the success criterion.</div>
+Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., an interface where the software accepts text or other keystroke input). [Platform software](#platform-software) may provide device independent input services to applications that enable operation via such a keyboard interface. [Software](#software) that supports operation via such platform device independent services would be operable via a keyboard interface and would satisfy the success criterion.</div>
 <div class="note wcag2ict">
 
 This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a [virtual keyboard](#virtual-keyboard).</div>
