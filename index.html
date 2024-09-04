@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="708290b5baaac1d6f535deb3d1838c05baeb8d40">
+<meta name="revision" content="4f2191b22c8afab975e6199b1942ab02b0cea194">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -212,16 +212,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "708290b5baaac1d6f535deb3d1838c05baeb8d40",
-  "publishISODate": "2024-09-03T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 03 September 2024"
+  "gitRevision": "4f2191b22c8afab975e6199b1942ab02b0cea194",
+  "publishISODate": "2024-09-04T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 04 September 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-09-03">03 September 2024</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-09-04">04 September 2024</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -984,7 +984,7 @@ The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 gu
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent">Intent from Understanding Success Criterion 2.1.1</a>.</p>
 <div class="note" role="note" id="issue-container-generatedID-81"><div role="heading" class="note-title marker" id="h-note-75" aria-level="7"><span>Note 1 (Added)</span></div><div class="wcag2ict">
     
-<p>Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., an interface where the software accepts text or other keystroke input). <a href="#platform-software">Platform software</a> may provide device independent input services to applications that enable operation via such a keyboard interface. Software that supports operation via such platform device independent services would be operable via a keyboard interface and would satisfy the success criterion.</p></div></div><p></p>
+<p>Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., the interface where the software accepts text or other keystroke input from the platform which may come from a keyboard or from a keyboard alternative). <a href="#platform-software">Platform software</a> may provide device independent input services to applications that enable operation via such a keyboard interface. When software supports such a device-independent service of the platform, and the software or non-web document functionality is made fully operable through the service, then this success criterion would be satisfied.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-82"><div role="heading" class="note-title marker" id="h-note-76" aria-level="7"><span>Note 2 (Added)</span></div><div class="wcag2ict">
 
 <p>This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a <a href="#virtual-keyboard">virtual keyboard</a>.</p></div></div><p></p>
@@ -1442,7 +1442,7 @@ Example (Added): Examples of essential functionality for non-web software are fe
 <li>support for password entry by password managers to reduce memory need, and</li>
 <li>copy and paste to reduce the cognitive burden of re-typing.</li></ol></div></div><div class="note" role="note" id="issue-container-generatedID-153"><div role="heading" class="note-title marker" id="h-note-147" aria-level="7"><span>Note 3 (Added)</span></div><div class="wcag2ict">
 
-<p>If the non-web software is an application, passwords used to unlock the underlying <a href="#platform-software">platform software</a> are out of scope for this requirement as these are not up to a software application’s author.</p></div></div><p></p>
+<p>Any passwords used to unlock underlying <a href="#platform-software">platform software</a> (running below the non-web software) are out of scope for this requirement since these are not under control of the non-web software’s author.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-154"><div role="heading" class="note-title marker" id="h-note-148" aria-level="7"><span>Note 4 (Added)</span></div><div class="wcag2ict">
 
 <p>There are cases where non-web software has an authentication process and no alternative or assistance mechanism is feasible, for example when entering a password when starting, powering on / turning on an ICT (device or otherwise). In such situations, it may not be possible for the non-web software to meet this success criterion.</p></div></div><p></p>
@@ -1812,7 +1812,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>This applies directly as written and as described in the WCAG 2 glossary.</p>
 <div class="note" role="note" id="issue-container-generatedID-183"><div role="heading" class="note-title marker" id="h-note-174" aria-level="6"><span>Note 1 (Added)</span></div><div class="wcag2ict">
 
-<p>Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., an interface where the software accepts text or other keystroke input). <a href="#platform-software">Platform software</a> may provide device independent input services to applications that enable operation via such a keyboard interface. <a href="#software">Software</a> that supports operation via such platform device independent services would be operable via a keyboard interface and would satisfy the success criterion.</p></div></div><p></p>
+<p>Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., the interface where the software accepts text or other keystroke input from the platform which may come from a keyboard or from a keyboard alternative). <a href="#platform-software">Platform software</a> may provide device independent input services to applications that enable operation via such a keyboard interface.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-184"><div role="heading" class="note-title marker" id="h-note-175" aria-level="6"><span>Note 2 (Added)</span></div><div class="wcag2ict">
 
 <p>This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a <a href="#virtual-keyboard">virtual keyboard</a>.</p></div></div><p></p>
