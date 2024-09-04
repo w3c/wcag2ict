@@ -1072,7 +1072,7 @@ Examples of mechanisms that satisfy this criterion include:
 2. copy and paste to reduce the cognitive burden of re-typing.</div>
 <div class="note wcag2ict">
     
-If the non-web software is an application, passwords used to unlock the underlying [platform software](#platform-software) are out of scope for this requirement as these are not up to a software application’s author.</div>
+Any passwords used to unlock underlying [platform software](#platform-software) (running below the non-web software) are out of scope for this requirement since these are not under control of the non-web software’s author.</div>
 <div class="note wcag2ict">
 
 There are cases where non-web software has an authentication process and no alternative or assistance mechanism is feasible, for example when entering a password when starting, powering on / turning on an ICT (device or otherwise). In such situations, it may not be possible for the non-web software to meet this success criterion.</div>
