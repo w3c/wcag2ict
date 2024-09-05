@@ -65,6 +65,9 @@ For non-web software on products with closed functionality, those who implement 
 <li>Where standards for banking or security have authentication requirements that are regulated or strictly enforced, those requirements may be judged to take legal precedence over Success Criterion 3.3.8 Accessible Authentication (Minimum).</li>
 </ul>  
 </li>
+<li><a href="#parsing>4.1.1 Parsing</a>
+<ul><li>When WCAG 2.0 and 2.1 were written, the <a href=https://www.w3.org/TR/2013/NOTE-UNDERSTANDING-WCAG20-20130905/ensure-compat-parses.html#ensure-compat-parses-intent-head>Intent of 4.1.1</a> was to provide consistency so that different user agents or assistive technologies would yield the same result.</li>
+<li>In WCAG 2.2, 4.1.1 Parsing was made obsolete and WCAG 2.2 removed it as a requirement, so this success criterion is not applicable.</li></ul></li>
 <li><a href="#name-role-value">4.1.2 Name, Role, Value</a> — Requires information in a programmatically determinable form.</li>
 <li><a href="#status-messages">4.1.3 Status Messages</a> — Depends upon status messages being programmatically determinable using <a href="#dfn-role">role</a> or properties.
 <div class="note">Non-web software with closed functionality would need equivalent facilitation to provide access to status messages.</div></li>
