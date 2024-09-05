@@ -5,11 +5,7 @@ Comments on Definitions in WCAG 2 Glossary
     
 This draft of WCAG2ICT added guidance on applying new WCAG 2.2 glossary terms to non-web documents and software. The following terms were added since the First Public Working Draft: Cognitive function test,  dragging movements, encloses, focus indicator, minimum bounding box, and perimeter. In addition, guidance for the term [CSS pixel](#dfn-css-pixels) was updated to address public comments.</div>
     
-The sections that follow are organized according to the glossary from WCAG 2. The text of each term from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections there are different kinds of notes, including:
-
-* **original** &mdash; original WCAG notes that have not been altered in the WCAG2ICT guidance
-* **replaced** &mdash; original WCAG notes with replacements and/or additions as agreed in the WCAG2ICT document
-* **added** &mdash; custom notes added for the WCAG2ICT document, marked with the text "added".
+The sections that follow are organized according to the glossary from WCAG 2. The text of each term from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
 
 The following is a complete list of definitions from the WCAG 2 glossary. Some items apply to all technologies and do not require additional guidance in this document; guidance on the remainder follows.
 
