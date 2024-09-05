@@ -382,7 +382,7 @@ The term label is not limited to the label element in HTML.</div></DD></DL>
 
 ##### Applying “large scale (text)” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent” with “user agent or non-web software” in Note 3 and “browsers” with "user agents or platform software” in Note 4.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “user agent” with “user agent or non-web software” in Note 3 and “browsers” with "browsers, user agents, or platform software” in Note 4.
 
 With this substitution and addition, it would read:
 
@@ -404,7 +404,7 @@ Font size is the size when the content is delivered. It does not include resizin
 The actual size of the character that a user sees is dependent both on the author-defined size and the user's display, <INS>**[user agent or [non-web software](#software)]**</INS> settings. For many mainstream body text fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150% of the default size for body text (assuming that the body font is 100%), but authors would need to check this for the particular fonts in use. When fonts are defined in relative units, the actual point size is calculated by the <INS>**[user agent or [non-web software]**</INS> for display. The point size should be obtained from the <INS>**[user agent or non-web software]**</INS>, or calculated based on font metrics as the <INS>**[user agent or non-web software]**</INS> does, when evaluating this success criterion. Users who have low vision would be responsible for choosing appropriate settings.</div>
 <div class="note">
 
-When using text without specifying the font size, the smallest font size used on major <INS>**[[user agents](#user-agent), or [platform software](#platform-software)]**</INS> for unspecified text would be a reasonable size to assume for the font. If a level 1 heading is rendered in 14pt bold or higher on major <INS>**[user agents, or platform software]**</INS>, then it would be reasonable to assume it is large text. Relative scaling can be calculated from the default sizes in a similar fashion.</div>
+When using text without specifying the font size, the smallest font size used on major <INS>**[browsers, [user agents](#user-agent), or [platform software](#platform-software)]**</INS> for unspecified text would be a reasonable size to assume for the font. If a level 1 heading is rendered in 14pt bold or higher on major <INS>**[browsers, user agents, or platform software]**</INS>, then it would be reasonable to assume it is large text. Relative scaling can be calculated from the default sizes in a similar fashion.</div>
 <div class="note wcag2ict">
 
 When evaluating non-web documents and software, 1 point means 1.333 [CSS pixels](#dfn-css-pixels).</div></DD></DL>
