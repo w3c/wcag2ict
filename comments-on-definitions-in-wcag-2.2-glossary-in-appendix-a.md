@@ -407,7 +407,7 @@ The actual size of the character that a user sees is dependent both on the autho
 When using text without specifying the font size, the smallest font size used on major <INS>**[[user agents](#user-agent), or [platform software](#platform-software)]**</INS> for unspecified text would be a reasonable size to assume for the font. If a level 1 heading is rendered in 14pt bold or higher on major <INS>**[user agents, or platform software]**</INS>, then it would be reasonable to assume it is large text. Relative scaling can be calculated from the default sizes in a similar fashion.</div>
 <div class="note wcag2ict">
 
-When evaluating non-web documents and software, 1 point means 1.333 [CSS pixels](#dfn-css-pixel).</div></DD></DL>
+When evaluating non-web documents and software, 1 point means 1.333 [CSS pixels](#dfn-css-pixels).</div></DD></DL>
 
 #### dfn-name
 
