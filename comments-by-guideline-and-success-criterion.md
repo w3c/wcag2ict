@@ -1124,16 +1124,16 @@ This success criterion would be satisfied in cases where:
 </div>
 <div class="example wcag2ict">
 
-Examples where 4.1.1 Parsing would be satisfied:
-
-* An HTML page embedded inside a desktop application (as outlined in the [WCAG 2.1 note on 4.1.1](https://www.w3.org/TR/WCAG21/#h-note-27) and the [WCAG 2.0 editorial errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) in the thirteenth list item)
-* A PDF document (not authored using a markup language)
-* Android or iOS apps which use a markup language to specify UI layout (accessibility information is exposed via platform accessibility APIs, not the markup)
-
-Examples of markup that might be separately exposed and available to assistive technologies and to user agents include:
-
-* LaTeX documents
-* Markdown documents</div>
+<p>Examples where 4.1.1 Parsing would be satisfied:</p>
+<ul>
+<li>An HTML page embedded inside a desktop application (as outlined in the <a href=https://www.w3.org/TR/WCAG21/#h-note-27>WCAG 2.1 note on 4.1.1>WCAG 2.1 note on 4.1.1</a> and the <a href=https://www.w3.org/WAI/WCAG20/errata/#editorial>WCAG 2.0 editorial errata</a> in the thirteenth list item)</li>
+<li>A PDF document (not authored using a markup language)</li>
+<li>Android or iOS apps which use a markup language to specify UI layout (accessibility information is exposed via platform accessibility APIs, not the markup)</li>
+</ul>
+<p>Examples of markup that might be separately exposed and available to assistive technologies and to user agents include:</p>
+<ul>
+<li>LaTeX documents</li>
+<li>Markdown documents</li></ul></div>
 
 ##### parsing22
 
