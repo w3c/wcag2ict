@@ -1104,14 +1104,11 @@ With this substitution, it would read:
 
 ###### Applying SC 4.1.1 Parsing (WCAG 2.0 and 2.1), to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG21/Understanding/parsing#intent), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG21/Understanding/parsing#intent), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent” and replacing the two notes with Notes 3 and 4.
 
 With this substitution, it would read:
 
 4.1.1 Parsing: **<INS>[For [non-web documents](#document) or [software](#software) that use markup languages, in such a way that the markup is separately exposed and available to [assistive technologies](#dfn-assistive-technologies) and accessibility features of software or to a user-selectable [user agent](#user-agent)]</INS>**, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
-<div class="note wcag2ict">
-    
-Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.</div>
 <div class="note wcag2ict">
 
 Markup is not always available to [assistive technologies](#dfn-assistive-technologies) or to user selectable [user agents](#user-agent) such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.
@@ -1125,7 +1122,7 @@ This success criterion would be satisfied in cases where:
 * Non-web documents or software are not authored using a markup language.
 * Non-web documents or software are authored using a markup language, but accessibility information is exposed via platform accessibility APIs, not by making the markup itself available to assistive technologies.
 </div>
-<div class="example">
+<div class="example wcag2ict">
 
 Examples where 4.1.1 Parsing would be satisfied:
 
