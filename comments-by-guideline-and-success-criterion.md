@@ -1130,6 +1130,9 @@ Examples of markup that might be separately exposed and available to assistive t
 
 * LaTeX documents
 * Markdown documents</div>
+<div class="note wcag2ict">
+    
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### parsing22
 
