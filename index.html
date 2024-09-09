@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="b62f5954b6ecee1621358818c6b22c74a73290db">
+<meta name="revision" content="f73dacfe35812ab37cd68a8ff44f55581a538349">
 <meta name="description" content="This document, “Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)” describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var{position:relative;cursor:pointer}
@@ -212,16 +212,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "b62f5954b6ecee1621358818c6b22c74a73290db",
-  "publishISODate": "2024-09-06T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 06 September 2024"
+  "gitRevision": "f73dacfe35812ab37cd68a8ff44f55581a538349",
+  "publishISODate": "2024-09-09T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 09 September 2024"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-09-06">06 September 2024</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2024-09-09">09 September 2024</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -341,12 +341,12 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <div class="note" role="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note" aria-level="4"><span>Note 1</span></div><div class="">Hereafter, the use of WCAG 2 means all WCAG 2.x versions — 2.0, 2.1, and 2.2.</div></div>
 
 <p>This document is intended to help clarify how to use WCAG 2 to make non-web documents and software more accessible to people with disabilities. Addressing accessibility involves addressing the needs of people with auditory, cognitive, neurological, physical, speech, and visual impairments, as well as accessibility needs of people due to the effects of aging. Although WCAG 2 addresses some user needs for people with cognitive and learning disabilities as well as mental health related disabilities, following the WCAG supplement <a href="https://www.w3.org/TR/coga-usable/">Making Content Usable for People with Cognitive and Learning Disabilities</a> is recommended for non-web ICT to address the user needs of these groups. Developers are also encouraged to obtain testing input from persons with disabilities using applications and content.</p>
-<p>Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities. Since WCAG 2 was developed for the Web, addressing accessibility for non-web documents and software may involve requirements and considerations beyond those included in this document. Authors and developers are encouraged to seek relevant advice about current best practices to ensure that non-web documents and software are accessible, as much as possible, to people with disabilities.  The following WCAG 2 supporting documents, though they have not been changed to fully apply in non-web contexts, contain helpful information to learn about the user needs, intent, and generalized implementation techniques:</p>
+<p>Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities. Since WCAG 2 was developed for the Web, addressing accessibility for non-web documents and software may involve requirements and considerations beyond those included in this document. Authors and developers are encouraged to seek relevant advice about current best practices to ensure that non-web documents and software are accessible, as much as possible, to people with disabilities. The following supporting documents contain helpful information to learn about the user needs, intent, and generalized implementation techniques to support a wider range of people with disabilities:</p>
 <ul>
 <li><a href="https://www.w3.org/WAI/intro/wcag.php">WCAG 2 Overview</a></li>
 <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/">Techniques for WCAG 2.2</a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-wcag22-techs" title="Techniques for WCAG 2.2">WCAG22-TECHS</a></cite>]</li>
 <li><a href="https://www.w3.org/WAI/WCAG22/quickref/">How to Meet WCAG (Quick Reference)</a></li>
-<li><a href="https://w3c.github.io/Mobile-A11y-TF-Note/">Mobile Accessibility: How WCAG 2.0 and other <abbr title="World Wide Web Consortium">W3C</abbr>/WAI Guidelines Apply to Mobile</a> - This draft resource, as of the date of the WCAG2ICT Note publication, is undergoing an update by the Mobile Accessibility Task Force to cover WCAG 2.2.</li>
+<li><a href="https://www.w3.org/groups/wg/ag/publications/">Additional Accessibility Guidelines Working Group - Publications</a></li>
 </ul>
 <p>While WCAG 2 was designed to be technology-neutral, it assumes the presence of a “user agent” such as a browser, media player, or assistive technology as a means to access web content. As a result, the application of WCAG 2 to documents and software in non-web contexts necessitates some interpretation in order to determine how the intent of each WCAG 2 success criterion could be met in these different contexts of use. Therefore, the bulk of the Task Force's work involved evaluating how each WCAG 2 success criterion would apply in the context of non-web ICT, if it were applied to non-web ICT.</p>
 <p>The Task Force found that the majority of success criteria from WCAG 2 can be applied to non-web documents and software with either no or minimal changes. Since many of the Level A and AA success criteria do not include any web-related terms, they apply directly as written and as described in the “Intent” sections from the <a href="https://www.w3.org/WAI/WCAG22/Understanding/">Understanding WCAG 2.2</a> [<cite><a class="bibref" data-link-type="biblio" href="#bib-understanding-wcag22" title="Understanding Web Content Accessibility Guidelines 2.2">UNDERSTANDING-WCAG22</a></cite>] resource. Additional notes were provided, as needed, to provide assistance in applying them to non-web documents and software.</p>
