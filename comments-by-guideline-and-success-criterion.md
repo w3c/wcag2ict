@@ -1118,7 +1118,7 @@ This success criterion would be satisfied in cases where:
 * Non-web documents or software are not authored using a markup language.
 * Non-web documents or software are authored using a markup language, but accessibility information is exposed via platform accessibility APIs, not by making the markup itself available to assistive technologies.
 </div>
-<div class="example">
+<div class="example wcag2ict">
 
 Examples where 4.1.1 Parsing would be satisfied:
 
