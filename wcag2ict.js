@@ -307,8 +307,7 @@ function furtherProcessNotesAndExamples() {
     })
     let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict");
     wcag2ictExamples.forEach(example => {
-        example.textContent =example.textContent.replace("\n\nExample:", "\n\nExample (Added):");
-        console.log(example.textContent)
+        example.innerHTML = example.innerHTML.replace("Example:", "Example (Added):");
     })
 }
 function finalCleanup() {
