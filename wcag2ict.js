@@ -52,9 +52,6 @@ function prepSec(n) {
     var nsec = document.querySelector('#' + nid);
     if (nsec) {
         var nname = n.num + " " + n.handle;
-        if (nlevel) {
-            var nname = n.num + " " + n.handle + " " + n.level;
-        }
         // get the TOC item
         var tocitem = document.querySelector('a[class="tocxref"][href="#' + nid + '"]');
         // last child is the text
@@ -81,6 +78,10 @@ function prepSec(n) {
         content = content.replace(/href="(?!http)([^"]*)"/g, 'href="https://www.w3.org/TR/wcag22/$1"')
         bq.innerHTML = content;
         nhead.after(bq);
+        // insert sc Level on separte line
+        var scLevel = document.createElement("p");
+        scLevel.innerHTML = nlevel;
+        bq.before(scLevel);
     }
 }
 
