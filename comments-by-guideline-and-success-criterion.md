@@ -1,7 +1,5 @@
 Comments by Guideline and Success Criterion
 -------------------------------------------
-<div class="ednote">
-The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2 guidelines, success criteria, and glossary terms into this draft. The Task Force also made changes to address public comments.</div>
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
 
@@ -236,8 +234,6 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### reflow
 
 ###### Applying SC 1.4.10 Reflow to Non-Web Documents and Software
-
-<div class="ednote">The WCAG2ICT Task Force made changes to give additional guidance around how 1.4.10 Reflow should be applied to non-web software in response to public comments. </div>
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent), replacing “web content” with “content”.
 
