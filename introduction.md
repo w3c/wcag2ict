@@ -68,8 +68,6 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-<p class="ednote">The WCAG2ICT Task Force has incorporated all of the new WCAG 2.1 and WCAG 2.2  guidelines, criteria and glossary terms, and addressed all open issues on content in the previous draft of the document. </p>
-
 The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2), and the change to 4.1.1 Parsing listed in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1) section:
 
 * New [Background](#background) section to explain the history and known uses of WCAG2ICT
@@ -113,6 +111,7 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
         * [target](#dfn-targets)
         * [up event](#dfn-up-event)
 * Updated terms
+    * [large scale](#large-scale)
     * [set of web pages](#dfn-set-of-web-pages)
     * [set of non-web documents](#set-of-documents)
     * [set of software programs](#set-of-software-programs)
