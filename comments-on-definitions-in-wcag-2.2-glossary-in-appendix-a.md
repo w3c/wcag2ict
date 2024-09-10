@@ -1,9 +1,5 @@
 Comments on Definitions in WCAG 2 Glossary
 ----------------------------------------------------------
-
-<div class="ednote">
-    
-This draft of WCAG2ICT added guidance on applying new WCAG 2.2 glossary terms to non-web documents and software. The following terms were added since the First Public Working Draft: Cognitive function test,  dragging movements, encloses, focus indicator, minimum bounding box, and perimeter. In addition, guidance for the term [CSS pixel](#dfn-css-pixels) was updated to address public comments.</div>
     
 The sections that follow are organized according to the glossary from WCAG 2. The text of each term from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
 
@@ -213,10 +209,10 @@ A change of content is not always a change of context. Changes in content, such 
 <div class="example">
 
 Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.</div>
-</DD></DL>
 <div class="note wcag2ict">
 
 A change in the user agent might include bringing up a new window, or might be a significant change in the menus and/or toolbars that are displayed and available for interacting with some portion of the document.</div>
+</DD></DL>
 
 #### dfn-cognitive-function-test
 
@@ -266,7 +262,6 @@ Because relative luminance is defined such that it cannot directly apply to hard
 #### dfn-css-pixels
 
 ##### Applying “CSS pixel” to Non-Web Documents and Software
-<div class="ednote">The WCAG2ICT task force has added additional notes around how “CSS pixel” should be applied to non-web software. These changes were made in response to public comments received on the previous draft. </div>
 
 This applies directly as written and as described in the WCAG 2 glossary.
 
@@ -446,10 +441,10 @@ Determined in a markup language from elements and attributes that are accessed d
 <div class="example">
 
 Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <INS>**[and accessibility features of software]**</INS> via an accessibility API that is supported by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
-
-</DD></DL><div class="note wcag2ict">
+<div class="note wcag2ict">
 
 Software typically enables content to be programmatically determined through the use of [accessibility services of platform software](#accessibility-services-of-platform-software). Non-web documents typically enable [content](#content-on-and-off-the-web) to be programmatically determined through the use of accessibility services of the user agent.</div>
+</DD></DL>
 
 #### dfn-programmatically-set
 
@@ -505,9 +500,10 @@ Tools are available that automatically do the calculations when testing contrast
 <div class="note">
     
 A [separate page giving the relative luminance definition using MathML](https://www.w3.org/TR/WCAG22/relative-luminance.html) to display the formulas is available.</div>
+<div class="note wcag2ict">
+    
+Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”</div>
 </DD></DL>
-
-<div class="note wcag2ict">Because relative luminance is defined such that it cannot directly apply to hardware, please note the text in the introduction which reads: “This document does not comment on hardware aspects of products, because the basic constructs on which WCAG 2 is built do not apply to these.”</div>
 
 #### dfn-role
 
@@ -524,10 +520,10 @@ text or number by which software can identify the function of a component within
 <div class="example">
 
 A number that indicates whether an image functions as a hyperlink, command button, or check box.</div>
-</DD></DL>
 <div class="note wcag2ict">
 
 “AccessibleRole” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a role.</div>
+</DD></DL>
 
 #### dfn-same-functionality
 
