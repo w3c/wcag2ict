@@ -23,7 +23,6 @@
 * Gregg Vanderheiden (Raising the Floor)
 
 ### Participants in the AG Working Group that Actively Reviewed and Contributed
-<div class="ednote">This list will be updated as AG WG reviews and contributions are completed.</div>
 
 * Jonathan Avila (Level Access)
 * Daniel Bjorge (Deque Systems, Inc.)
