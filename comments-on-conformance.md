@@ -10,7 +10,7 @@ WCAG2ICT is not a standard, so it is not possible to conform to WCAG2ICT. Howeve
 5.  WCAG 2 allows information on part of a page to not conform if the same information is available elsewhere on the page in a conforming fashion. However, WCAG 2 identifies four success criteria that must be met on all areas of the page because they can interfere with the user's ability to access and use other parts of the page:
     *   [1.4.2 Audio Control](http://www.w3.org/TR/WCAG22/#audio-control);
     *   [2.1.2 No Keyboard Trap](http://www.w3.org/TR/WCAG22/#no-keyboard-trap);
-    *   [2.2.2 Pause, Stop, Hide](http://www.w3.org/TR/WCAG22/#pause-stop-hide).
-    *   [2.3.1 Three Flashes or Below Threshold](http://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold);
+    *   [2.2.2 Pause, Stop, Hide](http://www.w3.org/TR/WCAG22/#pause-stop-hide);
+    *   [2.3.1 Three Flashes or Below Threshold](http://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold).
 
 Also, as noted in the Introduction, it wasn't possible to unambiguously carve up software into discrete pieces, and so the unit of evaluation for non-web software is the whole software program. As with any software testing, this can be a very large unit of evaluation, and methods similar to standard software testing may be needed.
