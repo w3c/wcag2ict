@@ -70,6 +70,6 @@ For non-web software on products with closed functionality, those who implement 
 </ul>
 </li>
 <li><a href="#name-role-value">4.1.2 Name, Role, Value</a> — Requires information in a programmatically determinable form.</li>
-<li><a href="#status-messages">4.1.3 Status Messages</a> — Depends upon status messages being programmatically determinable using <a href="#dfn-role">role</a> or properties.
+<li><a href="#status-messages">4.1.3 Status Messages</a> — Depends upon status messages being programmatically determinable using role or properties.
 <div class="note">Non-web software with closed functionality would need equivalent facilitation to provide access to status messages.</div></li>
 </ul>
