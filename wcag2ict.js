@@ -79,9 +79,11 @@ function prepSec(n) {
         bq.innerHTML = content;
         nhead.after(bq);
         // insert sc Level on separte line
-        var scLevel = document.createElement("p");
-        scLevel.innerHTML = nlevel;
-        bq.before(scLevel);
+        if (nlevel) {
+            var scLevel = document.createElement("p");
+            scLevel.innerHTML = nlevel;
+            bq.before(scLevel);
+        }
     }
 }
 
