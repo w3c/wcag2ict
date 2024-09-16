@@ -4,7 +4,7 @@
 * Shadi Abou-Zahra (Amazon)
 * Charles Adams (Oracle Corporation)
 * Bruce Bailey (U.S. Access Board)
-* Fernanda Bonnin (Microsoft)
+* Fernanda Bonnin (Microsoft Corporation)
 * Devanshu Chandra (Deque Systems, Inc.)
 * Michael Cooper (formerly W3C Staff)
 * Phil Day (NCR Atleos)
@@ -42,9 +42,9 @@
 * Todd Libby (Invited Expert)
 * David MacDonald (Invited Expert)
 * Rachael Bradley Montgomery (Library of Congress)
-* Scott O'Hara (Microsoft)
+* Scott O'Hara (Microsoft Corporation)
 * Kimberly Patch (Invited Expert)
-* Melanie Phillip (Deque Systems, Inc.)
+* Melanie Philipp (Deque Systems, Inc.)
 * Julie Rawe (Understood)
 * Roberto Scano (Invited Expert)
 * Lisa Seeman-Kestenbaum (Invited Expert)
@@ -56,10 +56,13 @@
 WCAG2ICT Task Force participants are also in the AG working group, but are not repeated here.
 
 ### Participants in the APA Working Group that Contributed
-Special thanks goes to members of the APA working group that contributed their expertise to updates in the Text / Command-line / Terminal Applications and Interfaces content. 
+Special thanks goes to members of the APA working group that contributed their expertise in document reviews and in updates to the Text / Command-line / Terminal Applications and Interfaces content. 
 
+* Matthew Atkinson (Samsung Electronics Co., Ltd.)
+* David Fazio (Invited Expert)
+* Neha Jadhav (Invited Expert)
+* Keith (Dr. Keith) Newton (Invited Expert)
 * Janina Sajka (Invited Expert)
-* Matthew Atkinson (TPGi)
 * Jason White (Invited Expert)
 
 ### Other Participants of the WCAG2ICT Task Force
