@@ -78,7 +78,6 @@ The following people contributed to the development of the 2013 WCAG2ICT Note.
 Shadi Abou-Zahra, Bruce Bailey, Judy Brewer, Michael Cooper, Pierce Crowell, Allen Hoffman, Kiran Kaja, Andrew Kirkpatrick, Peter Korn, Alex Li, David MacDonald, Mary Jo Mueller, Loïc Martínez Normand, Mike Pluke, Janina Sajka, Andi Snow-Weaver, Gregg Vanderheiden
 
 ### Enabling Funders
-
 This publication has been funded in part by funds from the following projects and contracts:
 
 * U.S. Federal funds from the Health and Human Services, National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR), under contract number HHS75P00120P00168. 
