@@ -111,7 +111,7 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
         * [target](#dfn-targets)
         * [up event](#dfn-up-event)
 * Updated terms
-    * [large scale](#large-scale)
+    * [large scale](#dfn-large-scale)
     * [set of web pages](#dfn-set-of-web-pages)
     * [set of non-web documents](#set-of-documents)
     * [set of software programs](#set-of-software-programs)
