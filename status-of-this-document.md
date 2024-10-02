@@ -1,1 +1,1 @@
-This is a Technical Report on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT). The purpose of this work is to update the 2013 WCAG2ICT Note's guidance to include changes made in WCAG 2.1 and 2.2.
+This is a W3C Group Note on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT). The purpose of this work is to update the previous WCAG2ICT Note's guidance to include changes made in WCAG 2.1 and 2.2.
