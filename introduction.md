@@ -18,7 +18,7 @@ This document is intended to help clarify how to use WCAG 2 to make non-web docu
 
 Although this document covers a wide range of issues, it is not able to address all the needs of all people with disabilities. Since WCAG 2 was developed for the Web, addressing accessibility for non-web documents and software may involve requirements and considerations beyond those included in this document. Authors and developers are encouraged to seek relevant advice about current best practices to ensure that non-web documents and software are accessible, as much as possible, to people with disabilities. The following supporting documents contain helpful information to learn about the user needs, intent, and generalized implementation techniques to support a wider range of people with disabilities:
 
-* [WCAG 2 Overview](https://www.w3.org/WAI/intro/wcag.php)
+* [WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/)
 * [Techniques for WCAG 2.2](https://www.w3.org/WAI/WCAG22/Techniques/) \[\[WCAG22-TECHS\]\]
 * [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/)
 * [Additional Accessibility Guidelines Working Group - Publications](https://www.w3.org/groups/wg/ag/publications/)
