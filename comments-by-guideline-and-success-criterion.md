@@ -484,7 +484,7 @@ With these substitutions, it would read:
 <dd>For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to <a href="https://www.w3.org/TR/WCAG22/#dfn-pause)">pause</a>, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a>; and</dd>
     
 <dt>Auto-updating</dt>
-<dd></dd>For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.</dd>
+<dd>For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.</dd>
 </dl>
     
 <div class="note">
