@@ -427,7 +427,7 @@ For non-web software, “AccessibleName” (or the corresponding term used in di
 
 ##### Applying “programmatically determined” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “user agents, including assistive technologies,” with “assistive technologies and accessibility features of software” and adding “and accessibility features of software” after “assistive technology”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “user agents, including assistive technologies", with “assistive technologies and accessibility features of software” and adding “and accessibility features of software” after “assistive technology”.
 
 With this substitution and addition, it would read:
 
