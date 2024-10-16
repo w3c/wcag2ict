@@ -6,8 +6,6 @@ labels: ''
 assignees: ''
 
 ---
-***
-See our first example of a completed template for 1.3.4 Orientation in [Issue 58](https://github.com/w3c/wcag2ict/issues/58).
 
 _**Instructional note**: Places where the text needs to be replaced are denoted using "@@" (two at signs) so you can easily search for and know what to change. For example, on the first line of the template:_
 * _where "@@ x.x.x @@" is found, replace that text with the Success Criterion number. (e.g. 1.1.1)_
