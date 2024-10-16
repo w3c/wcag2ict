@@ -6,7 +6,7 @@ labels: ''
 assignees: ''
 
 ---
-
+***
 _**Instructional note**: Places where the text needs to be replaced are denoted using "@@" (two at signs) so you can easily search for and know what to change. For example, on the first line of the template:_
 * _where "@@ x.x.x @@" is found, replace that text with the Success Criterion number. (e.g. 1.1.1)_
 * _where "@@ Short name @@ is found, replace with the short name of the Success Criterion (e.g. Non-text Content)_
