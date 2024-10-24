@@ -16,7 +16,7 @@ var respecConfig = {
 			key: "Previous Version",
 			data: [
 				{
-					href: "https://www.w3.org/TR/wcag2ict/",
+					href: "https://www.w3.org/TR/wcag2ict-20/",
 				},
 			],
 		},
