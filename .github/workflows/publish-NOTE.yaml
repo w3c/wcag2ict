@@ -1,0 +1,21 @@
+name: Publish NOTE to W3C TR space
+
+# See https://github.com/w3c/spec-prod/blob/main/docs/examples.md#deploy-to-github-pages
+
+on:
+  workflow_dispatch:
+    branches:
+      - 2024-NOTE
+
+jobs:
+  main:
+    name: Publish NOTE to TR
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: w3c/spec-prod@v2
+        with:
+          TOOLCHAIN: respec
+          W3C_ECHIDNA_TOKEN: ${{ secrets.ECHIDNA_TOKEN }}
+          W3C_BUILD_OVERRIDE: |
+            specStatus: NOTE
