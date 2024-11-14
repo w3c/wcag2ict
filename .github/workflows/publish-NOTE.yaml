@@ -4,6 +4,8 @@ name: Publish NOTE to W3C TR space
 
 on:
   workflow_dispatch:
+    branches:
+      - 2024-NOTE
 
 jobs:
   main:
