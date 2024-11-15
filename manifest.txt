@@ -1,0 +1,18 @@
+index.html?specStatus=NOTE;shortName=wcag2ict-22 respec
+abstract.md
+acknowledgements.md
+background-on-text-command-line-terminal-applications-and-interfaces.md
+closed-functionality.md
+comments-by-guideline-and-success-criterion.md
+comments-on-conformance.md
+comments-on-definitions-in-wcag-2.2-glossary-in-appendix-a.md
+index.html
+introduction.md
+key-terms.md
+privacy-considerations.md
+respec-config.js
+security-considerations.md
+status-of-this-document.md
+success-criteria-problematic-for-closed-functionality.md
+text-command-line-terminal-applications-and-interfaces.md
+wcag2ict.css
