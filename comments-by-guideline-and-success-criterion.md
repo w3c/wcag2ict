@@ -127,7 +127,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### sensory-characteristics
 
-###### Applying SC Sensory Characteristics 1.3.3 to Non-Web Documents and Software
+###### Applying SC 1.3.3 Sensory Characteristics to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics#intent).
 
