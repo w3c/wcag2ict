@@ -6,6 +6,12 @@
   border-left-style: none;
 }
 
+.wcag-quote .note em,
+.wcag-quote .ednote em,
+.wcag-quote .example em {
+  font-style: normal;
+}
+
 ins {
   text-decoration: none;
 }
