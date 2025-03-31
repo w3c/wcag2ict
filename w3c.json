@@ -1,5 +1,5 @@
  {
     "group":      "55145 ",
-    "contacts":   "daniel-montalvo",
+    "contacts":   ["daniel-montalvo"],
     "repo-type":  "note"
 }
