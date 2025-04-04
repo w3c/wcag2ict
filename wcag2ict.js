@@ -33,7 +33,15 @@ function prepGl(gl) {
 }
 
 function prepSc(sc) {
-    prepSec(sc, "sc");
+    prepSec(sc);
+
+    // insert sc Level on separate line
+    var bq = document.querySelector('#' + sc.id + ' blockquote');
+    if (bq) {
+        var el = document.createElement('p');
+        el.innerHTML = sc.level ? '(Level ' + sc.level + ')' : '(Obsolete and removed)';
+        bq.before(el);
+    }
 }
 
 function slugify(string) {
@@ -48,10 +56,9 @@ function slugify(string) {
 
 function prepSec(n) {
     var nid = n.id;
-    var nlevel = n.level;
     var nsec = document.querySelector('#' + nid);
     if (nsec) {
-        var nname = n.num + " " + n.handle;
+        var nname = n.num + (n.num.includes('.') ? ' ' : '. ') + n.handle;
         // get the TOC item
         var tocitem = document.querySelector('a[class="tocxref"][href="#' + nid + '"]');
         // last child is the text
@@ -71,19 +78,11 @@ function prepSec(n) {
         var bq = document.createElement("blockquote");
         bq.setAttribute("class", "wcag-quote");
 
-        // Make relative URLs absolute
         var content = n.content
         content = content.replace(/id="(h-note)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
         content = content.replace(/id="(issue-container-generatedID)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
-        content = content.replace(/href="(?!http)([^"]*)"/g, 'href="https://www.w3.org/TR/wcag22/$1"')
         bq.innerHTML = content;
         nhead.after(bq);
-        // insert sc Level on separte line
-        if (nlevel) {
-            var scLevel = document.createElement("p");
-            scLevel.innerHTML = nlevel;
-            bq.before(scLevel);
-        }
     }
 }
 
@@ -111,13 +110,9 @@ function prepTerm(n) {
         var bq = document.createElement("blockquote");
         bq.setAttribute("class", "wcag-quote");
 
-        // Make relative URLs absolute
         var definition = n.definition
-        // definition = definition.replaceAll(/<a href="(?!http)/g, '<a href="https://www.w3.org/WAI/WCAG22/Understanding/');
-        // definition = definition.replaceAll('https://www.w3.org/WAI/WCAG21/Understanding/', 'https://www.w3.org/WAI/WCAG22/Understanding/');
         definition = definition.replace(/id="(h-note)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
         definition = definition.replace(/id="(issue-container-generatedID)(-(.*?))?"/g, 'id="wcag-note$1-$2"')
-        definition = definition.replace(/href="(?!http)([^"]*)"/g, 'href="https://www.w3.org/TR/wcag22/$1"')
         bq.innerHTML = definition;
         nhead.after(bq);
     }
