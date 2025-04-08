@@ -573,14 +573,14 @@ With this substitution, it would read:
 **2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> have titles that describe topic or purpose.
 
 <div class="note wcag2ict">
-    
-As described in the WCAG intent, the name of a [non-web software application](#software) or [non-web document](#document) (e.g. document, media file, etc.) is a sufficient title if it describes the topic or purpose.</div>
-<div class="note wcag2ict">
-    
-Although not required by this success criterion, ensuring that individual windows or screens have a title (where that title describes the topic or purpose) addresses the user needs identified in the Understanding Success Criterion 2.4.2 Intent section, and is generally considered a best practice.</div>
 
+Consistent with Intent from Understanding, the product name of a [non-web software application](#software) helps users find content and orient themselves, and is the appropriate equivalent to title for a Web page.  
+The file name of a [non-web document](#document) is a sufficient title if it describes the topic or purpose.</div>
 <div class="note wcag2ict">
-    
+
+Although not required by this success criterion, ensuring that individual windows or screens have a title (where that title describes the topic or purpose) addresses the user needs identified in the Understanding Success Criterion 2.4.2 Intent section, and is generally considered a best practice.</div>
+<div class="note wcag2ict">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### focus-order
