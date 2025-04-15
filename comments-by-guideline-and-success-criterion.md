@@ -566,15 +566,17 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.2 Page Titled to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent) replacing “Web pages” with “non-web documents or software”.
+This should *not* be applied directly as written to non-web documents or software.  Titles for non-web software or documents must provide descriptive identification but titles almost never describe topic or purpose.
 
-With this substitution, it would read:
+Non-web software typically uses their product names as titles that provide descriptive identification but product names almost never describe topic or purpose.  Non-web documents use titles to provide descriptive indentification but it unusual for titles to describe topic or purpose.  The use of titles to provide description identification is _similar, but not identical, to_ the [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent).  Replacing “Web pages” with “non-web documents or software” and “describe topic or purpose” with “descriptive identification“
 
-**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> have titles that describe topic or purpose.
+With these substitution, it would read:
+
+**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> have titles that provide description identification.
 
 <div class="note wcag2ict">
     
-As described in the WCAG intent, the name of a [non-web software application](#software) or [non-web document](#document) (e.g. document, media file, etc.) is a sufficient title if it describes the topic or purpose.</div>
+As described in the WCAG intent, the product name of a [non-web software application](#software) is a sufficient title if it provides descriptive identification.</div>
 <div class="note wcag2ict">
     
 Although not required by this success criterion, ensuring that individual windows or screens have a title (where that title describes the topic or purpose) addresses the user needs identified in the Understanding Success Criterion 2.4.2 Intent section, and is generally considered a best practice.</div>
