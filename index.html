@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 35.3.0">
+<meta name="generator" content="ReSpec 35.3.1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 .issue-label{text-transform:initial}
@@ -56,7 +56,7 @@ a.bibref{text-decoration:none}
 .respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}
 }
 #references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}
-cite .bibref{font-style:normal}
+cite .bibref{font-style:italic}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 ol.tof,ul.tof{list-style:none outside none}
@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="08b43733ede2d3ff1ac02bb0e90d49fbd57cc3ad">
+<meta name="revision" content="c9716ded5ae2b8daf359e82461bda5094208d71a">
 <meta name="description" content="This document describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var:hover{text-decoration:underline;cursor:pointer}
@@ -229,16 +229,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "08b43733ede2d3ff1ac02bb0e90d49fbd57cc3ad",
-  "publishISODate": "2025-04-09T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 09 April 2025"
+  "gitRevision": "c9716ded5ae2b8daf359e82461bda5094208d71a",
+  "publishISODate": "2025-04-25T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 25 April 2025"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2025-04-09">09 April 2025</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2025-04-25">25 April 2025</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -320,7 +320,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     an Editor's Draft. 
   </p><p>Publication as an Editor's Draft does not
   imply endorsement by <abbr title="World Wide Web Consortium">W3C</abbr> and its Members. </p><p>
-    This is a draft document and may be updated, replaced or obsoleted by other
+    This is a draft document and may be updated, replaced, or obsoleted by other
     documents at any time. It is inappropriate to cite this document as other
     than work in progress.
     
@@ -1219,7 +1219,7 @@ any software that retrieves and presents Web content for users
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent">Intent from Understanding Success Criterion 2.1.1</a>.</p>
 <div class="note" role="note" id="issue-container-generatedID-75"><div role="heading" class="note-title marker" id="h-note-75" aria-level="7"><span>Note 1 (Added)</span></div><div class="wcag2ict">
     
-<p>Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., the interface where the software accepts text or other keystroke input from the platform which may come from a keyboard or from a keyboard alternative). <a href="#platform-software">Platform software</a> may provide device independent input services to applications that enable operation via such a keyboard interface. When software supports such a device-independent service of the platform, and the software or non-web document functionality is made fully operable through the service, then this success criterion would be satisfied.</p></div></div><p></p>
+<p>Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., the interface where the software accepts text or other keystroke input from the platform which may come from a keyboard or from a keyboard alternative). <a href="#platform-software">Platform software</a> may provide a ‘keyboard interface’ that software can read instead of reading any keyboard hardware directly. When software supports such a device-independent service of the platform, and the software or non-web document functionality is made fully operable through the service, then this success criterion would be satisfied.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-76"><div role="heading" class="note-title marker" id="h-note-76" aria-level="7"><span>Note 2 (Added)</span></div><div class="wcag2ict">
 
 <p>This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a <a href="#virtual-keyboard">virtual keyboard</a>.</p></div></div><p></p>
