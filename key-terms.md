@@ -58,10 +58,13 @@ information and sensory experience to be communicated to the user by means of **
 
 Non-web content occurs in two places; documents and software. When content occurs in a document, a user agent is needed in order to communicate the content's information and sensory experience to the user. When content occurs in software, a separate user agent isn't needed &mdash; the software itself performs that function.</div>
 <div class="note">
+
 Content from a third party needs special consideration since sometimes it may be under the control of the author (e.g. contracted and therefore may not be considered 3rd party) and sometimes it is completely out of the control of the author (e.g. email in an email client).</div>
 <div class="note">
+
 For non-web software, content also includes the user interface.</div>
 <div class="note">
+
 Within WCAG2ICT wherever “content” or “web content” appears in a success criterion it is replaced with “content” using the definition above.</div>
 
 ### Document
