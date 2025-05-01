@@ -564,15 +564,21 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### page-titled
 
-###### Applying SC 2.4.2 Page Titled to Non-Web Documents and Software
+###### Applying SC 2.4.2 Page Titled to Non-Web Documents
 
-This should **not** be applied directly as written to non-web documents or software.  Titles for non-web software or documents must provide descriptive identification but titles almost never describe topic or purpose.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent) replacing “Web pages” with “non-web documents”.
 
-Non-web software typically uses their product names as titles that provide descriptive identification but product names almost never describe topic or purpose.  Non-web documents use titles to provide descriptive identification but it is unusual for titles to describe topic or purpose.  The use of titles to provide description identification is _similar, but not identical, to_ the [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent).  Replacing “Web pages” with “non-web documents or software” and “describe topic or purpose” with “descriptive identification“
+With this substitution, it would read:
 
-With these substitutions, it would read:
+**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document)]**</INS> have titles that describe topic or purpose.
 
-**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> have titles that provide description identification.
+###### Applying SC 2.4.2 Page Titled to Non-Web Software
+
+This should **not** be applied directly as written to non-web software.  Titles for non-web software or documents must provide descriptive identification but titles almost never describe topic or purpose.
+
+For software, direct application of 2.4.2 Page Titled is problematic.  The following criterion is recommended as a substitute:
+
+**2.4.2 Page Titled:** <INS>**[[Non-web software](#software)]**</INS> have names that provide description identification.
 
 <div class="note wcag2ict">
     
