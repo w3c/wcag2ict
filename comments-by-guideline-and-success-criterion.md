@@ -570,13 +570,13 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With this substitution, it would read:
 
-**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document)]**</INS> have titles that describe topic or purpose.
+**2.4.2 Document Titled:** <INS>**[[Non-web documents](#document)]**</INS> have titles that describe topic or purpose.
 
 ###### Applying SC 2.4.2 Page Titled to Non-Web Software
 
 This should **not** be applied directly as written to non-web software.  For software, direct application of 2.4.2 Page Titled is problematic.  The following criterion is recommended as a substitute:
 
-**2.4.2 Page Titled:** <INS>**[[Non-web software](#software)]**</INS> have names that provide description identification.
+**2.4.2 Software Named:** <INS>**[[Non-web software](#software)]**</INS> have names that provide description identification.
 
 <div class="note wcag2ict">
 
