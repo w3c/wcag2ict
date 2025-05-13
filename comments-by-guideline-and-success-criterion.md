@@ -579,9 +579,9 @@ As described in the WCAG intent, the name of a [non-web document](#document) (e.
 
 (for non-web software)
 
-For software, direct application of 2.4.2 Page Titled is problematic.  The following criterion is recommended as a substitute:
+For non-web software, direct application of 2.4.2 Page Titled is problematic.  The following criterion is recommended as a substitute:
 
-<INS>[2.4.2 Non-web Software Name: “Where [software](#software) is in an environment that supports windows or pages/screens (as in mobile apps), has more than one window or page/screen, and there is a way to provide a programmatically determinable unique name for each, each window or page/screen is provided with a unique and meaningful name that can be used to distinguish them from each other.]</INS>
+<INS>**[2.4.2 Non-web Software Name:** “Where [software](#software) is in an environment that supports windows or pages/screens (as in mobile apps), has more than one window or page/screen, and there is a way to provide a programmatically determinable unique name for each, each window or page/screen is provided with a unique and meaningful name that can be used to distinguish them from each other.]</INS>
 <div class="ednote">Considering how the above substitute requirement is phrased, would there need to be a bullet in the Comments on Closed Functionality section?</div>
 <div class="note wcag2ict">
     
