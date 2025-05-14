@@ -566,22 +566,22 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.2 Page Titled to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent) replacing “Web pages” with “non-web documents or software”.
+(for non-web documents)
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent) replacing "Page" with "Non-web document" and “Web pages” with “non-web documents”.
 
 With this substitution, it would read:
 
-**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> have titles that describe topic or purpose.
+**2.4.2 <INS>[Non-Web Document]</INS> Titled:** <INS>**[[Non-web documents](#document)]**</INS> have titles that describe topic or purpose.
+<div class="note wcag2ict">
+    
+As described in the WCAG intent, the name of a [non-web document](#document) (e.g. document, media file, etc.) is a sufficient title if it describes the topic or purpose.</div>
 
-<div class="note wcag2ict">
-    
-As described in the WCAG intent, the name of a [non-web software application](#software) or [non-web document](#document) (e.g. document, media file, etc.) is a sufficient title if it describes the topic or purpose.</div>
-<div class="note wcag2ict">
-    
-Although not required by this success criterion, ensuring that individual windows or screens have a title (where that title describes the topic or purpose) addresses the user needs identified in the Understanding Success Criterion 2.4.2 Intent section, and is generally considered a best practice.</div>
+(for non-web software)
 
-<div class="note wcag2ict">
-    
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+This does not apply directly to non-web software through simple word substitution because application titles rarely describe the topic or purpose of the software. However, where the platform supports a programmatic title or name for a software window or screen, when a software application utilizes that feature to provide a unique title or name for each window or screen, the user can more easily find it or understand its purpose. This would address the user needs identified in the [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent). The following criterion is recommended as a substitute for the WCAG language:
+
+**2.4.2 Non-web Software Named:** In [non-web software](#software) implemented on a platform that supports title attributes for windows or screens, titles are provided that are unique or differentiable within the software.
 
 ##### focus-order
 
