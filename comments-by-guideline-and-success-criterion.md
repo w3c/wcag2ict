@@ -581,7 +581,7 @@ As described in the WCAG intent, the name of a [non-web document](#document) (e.
 
 This does not apply directly to non-web software through simple word substitution because application titles rarely describe the topic or purpose of the software. However, where the platform supports a programmatic title or name for a software window or screen, when a software application utilizes that feature to provide a unique title or name for each window or screen, the user can more easily find it or understand its purpose. This would address the user needs identified in the [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent). The following criterion is recommended as a substitute for the WCAG language:
 
-**2.4.2 Non-web Software Name:** In [software](#software) implemented on a platform that supports title attributes for windows or screens, titles are provided that are unique or differentiable within the software.
+**2.4.2 Non-web Software Name:** In [non-web software](#software) implemented on a platform that supports title attributes for windows or screens, titles are provided that are unique or differentiable within the software.
 
 ##### focus-order
 
