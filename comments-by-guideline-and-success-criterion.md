@@ -579,13 +579,9 @@ As described in the WCAG intent, the name of a [non-web document](#document) (e.
 
 (for non-web software)
 
-For non-web software, direct application of 2.4.2 Page Titled is problematic.  The following criterion is recommended as a substitute:
+This does not apply directly to non-web software through simple word substitution because application titles rarely describe the topic or purpose of the software. However, where the platform supports a programmatic title or name for a software window or screen, when a software application utilizes that feature to provide a unique title or name for each window or screen, the user can more easily find it or understand its purpose. This would address the user needs identified in the [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent). The following criterion is recommended as a substitute for the WCAG language:
 
-<INS>**[2.4.2 Non-web Software Name:** “Where [software](#software) is in an environment that supports windows or pages/screens (as in mobile apps), has more than one window or page/screen, and there is a way to provide a programmatically determinable unique name for each, each window or page/screen is provided with a unique and meaningful name that can be used to distinguish them from each other.]</INS>
-<div class="ednote">Considering how the above substitute requirement is phrased, would there need to be a bullet in the Comments on Closed Functionality section?</div>
-<div class="note wcag2ict">
-    
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+**2.4.2 Non-web Software Name:** “In [software](#software) implemented on a platform that supports title attributes for windows or screens, titles are provided that are unique or differentiable within the software.
 
 ##### focus-order
 
