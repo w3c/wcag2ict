@@ -564,7 +564,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### page-titled
 
-###### Applying SC 2.4.2 Page Titled to Non-Web Documents and Software
+###### Applying SC 2.4.2 Page Titled to Non-Web Documents
 
 (for non-web documents)
 
