@@ -566,7 +566,6 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.2 Page Titled to Non-Web Documents
 
-(for non-web documents)
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent) replacing "Page" with "Non-web document" and “Web pages” with “non-web documents”.
 
