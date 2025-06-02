@@ -564,26 +564,33 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### page-titled
 
-###### Applying SC 2.4.2 Page Titled to Non-Web Documents and Software
+###### Applying SC 2.4.2 Page Titled to Non-Web Documents
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent) replacing “Web pages” with “non-web documents or software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent) replacing “Web pages” with “non-web documents”.
 
 With this substitution, it would read:
 
-**2.4.2 Page Titled:** <INS>**[[Non-web documents](#document) or [software](#software)]**</INS> have titles that describe topic or purpose.
+**2.4.2 <INS>[Document]</INS> Titled:** <INS>**[[Non-web documents](#document)]**</INS> have titles that describe topic or purpose.
+
+###### Applying SC 2.4.2 Page Titled to Non-Web Software
+
+This should **not** be applied directly as written to non-web software.  For software, direct application of 2.4.2 Page Titled is problematic.  The following criterion is recommended as a substitute:
+
+**2.4.2 <INS>[Software Named]</INS>:** <INS>**[[Non-web software](#software)]**</INS> have names that provide description identification.
 
 <div class="note wcag2ict">
-    
-As described in the WCAG intent, the name of a [non-web software application](#software) or [non-web document](#document) (e.g. document, media file, etc.) is a sufficient title if it describes the topic or purpose.</div>
+
+As described in the WCAG intent, the name of a [non-web software application](#software) is a sufficient title if it describes the topic or purpose.</div>
 <div class="note wcag2ict">
-    
+
 Although not required by this success criterion, ensuring that individual windows or screens have a title (where that title describes the topic or purpose) addresses the user needs identified in the Understanding Success Criterion 2.4.2 Intent section, and is generally considered a best practice.</div>
 
 <div class="note wcag2ict">
-    
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### focus-order
+
 
 ###### Applying SC 2.4.3 Focus Order to Non-Web Documents and Software
 
