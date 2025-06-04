@@ -11,7 +11,7 @@ In WCAG 2, the Principles are provided for framing and understanding the success
 
 #### text-alternatives
 
-##### Applying Guideline 1.1 Text Alternatives to Non-Web Documents and Software
+##### Applying Guideline 1.1 Text Alternatives to Non- Documents and Software
 
 In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.1 applies directly as written.
 
@@ -178,7 +178,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### audio-control
 
 ###### Applying SC 1.4.2 Audio Control to Non-Web Documents and Software
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a Web page” with “in a non-web document or software”, “any content” with “any part of a non-web document or software”, “whole page” with “whole document or software”, and “on the Web page” with “in the document or software”; and removing “See Conformance Requirement 5: Non-Interference”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a web page” with “in a non-web document or software”, “any content” with “any part of a non-web document or software”, “whole page” with “whole document or software”, and “on the web page” with “in the document or software”; and removing “See Conformance Requirement 5: Non-Interference”.
 
 With these substitutions, it would read:
 
@@ -324,7 +324,7 @@ This applies directly as  written and as described in [Intent from Understanding
 This success criterion only applies to [non-web documents](#document) and [software](#software) that are implemented using markup languages and allow the user to modify these text spacing properties.</div>
 <div class="note wcag2ict">
 
-"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in [Electron](https://www.electronjs.org/) applications or iOS application Web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
+"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in [Electron](https://www.electronjs.org/) applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
 
 <div class="note wcag2ict">
     
@@ -396,7 +396,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.1.2 No Keyboard Trap to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software” and “on the Web page” with "in the non-web document or software"; and removing “See Conformance Requirement 5: Non-Interference”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software” and “on the web page” with "in the non-web document or software"; and removing “See Conformance Requirement 5: Non-Interference”.
 
 With these substitutions, it would read:
 
@@ -473,7 +473,7 @@ This success criterion helps ensure that users can complete tasks without unexpe
 
 ###### Applying SC 2.2.2 Pause, Stop, Hide to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” and “Web page” with “non-web documents and software” and removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” and “web page” with “non-web documents and software” and removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion.
 
 With these substitutions, it would read:
 
@@ -513,7 +513,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.3.1 Three Flashes or Below Threshold to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “Web pages” with “non-web documents or software” , “the whole page” with “the whole non-web document or software”, and “the Web page” with “the non-web document or software”; and removing “See Conformance Requirement 5: Non-Interference”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or software” , “the whole page” with “the whole non-web document or software”, and “the web page” with “the non-web document or software”; and removing “See Conformance Requirement 5: Non-Interference”.
 
 With these substitutions, it would read:
 
@@ -533,7 +533,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.4.1 Bypass Blocks to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “Web pages” with “non-web documents in a set of non-web documents” or “software programs in a set of software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “web pages” with “non-web documents in a set of non-web documents” or “software programs in a set of software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
 
 With these substitutions, this success criterion would read:
 
@@ -566,7 +566,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.2 Page Titled to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent) replacing “Web pages” with “non-web documents or software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent) replacing “web pages” with “non-web documents or software”.
 
 With this substitution, it would read:
 
@@ -587,7 +587,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.3 Focus Order to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.3](https://www.w3.org/WAI/WCAG22/Understanding/focus-order#intent) replacing “a Web page” with “non-web documents or software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.3](https://www.w3.org/WAI/WCAG22/Understanding/focus-order#intent) replacing “a web page” with “non-web documents or software”.
 
 With this substitution, it would read:
 
@@ -611,7 +611,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “set of Web pages” with “set of non-web documents” and “set of software programs”.
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
 
 With these substitutions, this success criterion would read:
 
@@ -904,7 +904,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.2.3 Consistent Navigation to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing “set of Web pages” with “set of non-web documents” and “set of software programs”.
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
 
 With these substitutions, it would read:
 
@@ -958,7 +958,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 3.2.6 Consistent Help to Non-Web Documents and Software
 
-This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "Web page(s)" and "page(s)" with "non-web document(s) or software program(s)", "set of Web pages" with "set of non-web documents or set of software programs", "page content" with "content", "on the page" with "in the non-web document or software", "page is serialized" with "non-web document or software content is serialized", "different page" with "different non-web document, software, or Web page", and "page variation" with "content layout variation".
+This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "web page(s)" and "page(s)" with "non-web document(s) or software program(s)", "set of web pages" with "set of non-web documents or set of software programs", "page content" with "content", "on the page" with "in the non-web document or software", "page is serialized" with "non-web document or software content is serialized", "different page" with "different non-web document, software, or web page", and "page variation" with "content layout variation".
 
 With these substitutions, it would read:
 
@@ -971,7 +971,7 @@ With these substitutions, it would read:
 
 <div class="note">
 
-Help mechanisms may be provided directly **<INS>[in the non-web document or software]</INS>**, or may be provided via a direct link to a **<INS>[different non-web document, software, or Web page]</INS>** containing the information.</div>
+Help mechanisms may be provided directly **<INS>[in the non-web document or software]</INS>**, or may be provided via a direct link to a **<INS>[different non-web document, software, or web page]</INS>** containing the information.</div>
 <div class="note">
     
 For this success criterion, "the same order relative to other **<INS>[content]</INS>**" can be thought of as how the content is ordered when the **<INS>[non-web document or software content is serialized]</INS>**. The visual position of a help mechanism is likely to be consistent across **<INS>[non-web documents or software]</INS>** for the same **<INS>[content layout variation]</INS>** (e.g., CSS break-point). The user can initiate a change, such as changing the **<INS>[non-web document’s or software's]</INS>** zoom or orientation, which may trigger a different **<INS>[content layout variation]</INS>**. This criterion is concerned with relative order across **<INS>[non-web documents or software]</INS>** displayed in the same **<INS>[content layout variation]</INS>** (e.g., same zoom level and orientation).</div>
@@ -1038,7 +1038,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.8 Accessible Authentication (Minimum) to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), replacing “the Web site” with “a Web site, non-web document, or software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), replacing “the web site” with “a web site, non-web document, or software”.
 
 With this substitution, it would read:
 
@@ -1052,7 +1052,7 @@ With this substitution, it would read:
 <dt>Object Recognition</dt>
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
-<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS><strong>[a Web site, <a href="#document">non-web document</a>, or <a href="#software">software</a>]</strong></INS>.</dd>
+<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS><strong>[a web site, <a href="#document">non-web document</a>, or <a href="#software">software</a>]</strong></INS>.</dd>
 </dl>
 <div class="note">
 
