@@ -798,14 +798,20 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**2.5.8 Target Size (Minimum):** The size of the [target](#dfn-targets) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixels), except where:
+**2.5.8 Target Size (Minimum):** The size of the [target](#dfn-targets) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 24 by 24 [CSS pixels](#dfn-css-pixels), except when:
 
-- **Spacing:** Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the [bounding box](https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes) of each, the circles do not intersect another target or the circle for another undersized target;
-- **Equivalent:** The function can be achieved through a different control **<INS>[in the same [non-web document](#document) or [software](#software)]</INS>** that meets this criterion.
-- **Inline:** The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;
-- **<INS>[User agent or platform software]</INS> control:** The size of the target is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and is not modified by the author;
-- **Essential:** A particular [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or is legally required for the information being conveyed.
-
+<dl>
+<dt>Spacing</dt>
+<dd>Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the <a href="https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes">bounding box</a> of each, the circles do not intersect another target or the circle for another undersized target;</dd>
+<dt>Equivalent</dt>
+<dd>The function can be achieved through a different control <strong><INS>[in the same <a href="#document">non-web document</a> or <a href="#software>software</a>]</INS></strong> that meets this criterion.</dd>
+<dt>Inline</dt>
+<dd>The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;</dd>
+<dt><INS>[User agent or platform software]</INS> control</dt>
+<dd>The size of the target is determined by the <strong><INS><a href="#user agent">user-agent</a> or <a href="#platform-software>platform software"</a>]</INS>** and is not modified by the author;</dd>
+<dt>Essential</dt>
+<dd>A particular <a href="https://www.w3.org/TR/WCAG22/#dfn-presentation">presentation</a> of the target is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> or is legally required for the information being conveyed.</dd>
+</dl>
 <div class="note">
 
 Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders, color pickers displaying a gradient of colors, or editable areas where you position the cursor.</div>
