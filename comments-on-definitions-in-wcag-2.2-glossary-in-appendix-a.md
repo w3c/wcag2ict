@@ -218,7 +218,7 @@ A change in the user agent might include bringing up a new window, or might be a
 
 ##### Applying “cognitive function test” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web sites” with “Web sites, non-web documents, and software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “websites” with “websites, non-web documents, and software”.
 
 With this substitution, it would read:
 
@@ -226,7 +226,7 @@ With this substitution, it would read:
 
 A task that requires the user to remember, manipulate, or transcribe information. Examples include, but are not limited to:
 
-memorization, such as remembering a username, password, set of characters, images, or patterns. The common identifiers name, e-mail, and phone number are not considered cognitive function tests as they are personal to the user and consistent across **<INS>[Web sites, [non-web documents](#document), and [software](#software)]</INS>**;
+memorization, such as remembering a username, password, set of characters, images, or patterns. The common identifiers name, e-mail, and phone number are not considered cognitive function tests as they are personal to the user and consistent across **<INS>[websites, [non-web documents](#document), and [software](#software)]</INS>**;
 
 * transcription, such as typing in characters;
 * use of correct spelling;
@@ -539,7 +539,7 @@ same result when used
 
 <div class="example"> 
 
-A submit “search” button on one Web page and a “find” button on another Web page may both have a field to enter a term and list topics in the Web site related to the term submitted. In this case, they would have the same functionality but would not be labeled consistently.</div>
+A submit “search” button on one Web page and a “find” button on another Web page may both have a field to enter a term and list topics in the website related to the term submitted. In this case, they would have the same functionality but would not be labeled consistently.</div>
 <div class="example">
 
 A ribbon icon that saves the document that looks like an arrow pointing into a folder in one case, and an arrow pointing into a hard drive in another. In this case as well, they would have the same functionality but would not be labeled consistently.</div></DD></DL>
