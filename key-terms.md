@@ -43,7 +43,7 @@ Examples of technology that may have closed functionality include but are not li
   
 Some of these technologies, though closed to some external assistive technologies, often have extensive internal accessibility features that serve as assistive technology that can be used by applications on these devices in the same way assistive technology is used on fully open devices, such as desktop computers. Others are open to some types of assistive technology but not others.</div>
 
-### Content (on and off the Web)
+### Content (on and off the web)
 
 WCAG 2 defines **content** as:
 >information and sensory experience to be communicated to the user by means of a [user agent](https://www.w3.org/TR/WCAG22/#dfn-user-agents), including code or markup that defines the content's [structure](https://www.w3.org/TR/WCAG22/#dfn-structure), [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation), and interactions
@@ -124,7 +124,7 @@ Platform software may run or host other software, and may isolate them from unde
 A single software component may have both platform and non-platform aspects.</div>
 <div class="example">
   
-Examples of platforms are: desktop operating systems; embedded operating systems, including mobile systems; Web browsers; plug-ins to Web browsers that render a particular media or format; and sets of components that allow other applications to execute, such as applications which support macros or scripting.</div>
+Examples of platforms are: desktop operating systems; embedded operating systems, including mobile systems; web browsers; plug-ins to web browsers that render a particular media or format; and sets of components that allow other applications to execute, such as applications which support macros or scripting.</div>
 
 This definition is based on the definition of "platform software" found in [[ISO_9241-171]] and [[ISO/IEC_13066-1]].</DL>
 
@@ -213,11 +213,11 @@ Because software with a user interface provides a function equivalent to a user 
 WCAG 2 defines **user agent** as:
 
 <blockquote>
-any software that retrieves and presents Web content for users
+any software that retrieves and presents web content for users
 
 <div class="example">
 
-Web browsers, media players, plug-ins, and other programs — including <a href="https://www.w3.org/TR/wcag22/#dfn-assistive-technologies">assistive technologies</a> — that help in retrieving, rendering, and interacting with Web content.</div>
+Web browsers, media players, plug-ins, and other programs — including <a href="https://www.w3.org/TR/wcag22/#dfn-assistive-technologies">assistive technologies</a> — that help in retrieving, rendering, and interacting with web content.</div>
 </blockquote>
 
 For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2, the term “user agent” only refers to retrieval and display of web content. For non-web ICT, the term “user agent” refers to retrieval and display of separate content that is _not on the Web_, which WCAG2ICT refers to as a “document”. Within WCAG2ICT, the term “user agent” is used as follows:
