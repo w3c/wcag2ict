@@ -804,7 +804,7 @@ With these substitutions, it would read:
 <dt>Spacing</dt>
 <dd>Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the <a href="https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes">bounding box</a> of each, the circles do not intersect another target or the circle for another undersized target;</dd>
 <dt>Equivalent</dt>
-<dd>The function can be achieved through a different control <strong><INS>[in the same <a href="#document">non-web document</a> or <a href="#software>software</a>]</INS></strong> that meets this criterion.</dd>
+<dd>The function can be achieved through a different control <strong><INS>[in the same <a href="#document">non-web document</a> or <a href="#software">software</a>]</INS></strong> that meets this criterion.</dd>
 <dt>Inline</dt>
 <dd>The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;</dd>
 <dt><INS>[User agent or platform software]</INS> control</dt>
