@@ -686,7 +686,7 @@ With these substitutions, the notes would read:
 
 <div class="note">
 
-This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the [user agent](#user-agent) or [assistive technology](#dfn-assistive-technologies)).</div>
+This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the [user agent](#user-agent) or [assistive technology](#dfn-assistive-technologies)).</div>
 
 <div class="note wcag2ict">
 
@@ -696,7 +696,7 @@ Multipoint and path-based gestures are less common in documents. An example wher
 
 <div class="note">
 
-This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
+This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e., this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
 
 <div class="note wcag2ict">
 
@@ -718,7 +718,7 @@ Functions that emulate a keyboard or numeric keypad key press are considered ess
 
 <div class="note">
     
-This requirement applies to <INS>**[[content](#content-on-and-off-the-web)]**</INS> that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+This requirement applies to <INS>**[[content](#content-on-and-off-the-web)]**</INS> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
 <div class="note wcag2ict">
     
@@ -736,7 +736,7 @@ Examples of essential functionality for non-web software are features for meetin
 
 <div class="note">
     
-This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
+This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e., this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
 
 <div class="note wcag2ict">
 
@@ -775,7 +775,7 @@ With these substitutions, it would read:
 (for non-web documents)
 <div class="note">
 
-This requirement applies to **<INS>[[content](#content-on-and-off-the-web)]</INS>** that interprets pointer actions (i.e. this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+This requirement applies to **<INS>[[content](#content-on-and-off-the-web)]</INS>** that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
 <div class="note wcag2ict">
 
@@ -784,7 +784,7 @@ Dragging movements for operation are less common in documents. An example where 
 (for non-web software)
 <div class="note">
 
-This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e. this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
+This requirement applies to **<INS>[[software](#software) applications that interpret]</INS>** pointer actions (i.e., this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
 
 <div class="note wcag2ict">
 
