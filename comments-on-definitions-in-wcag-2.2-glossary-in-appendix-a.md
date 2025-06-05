@@ -22,7 +22,6 @@ The following glossary items apply to all technologies and do not need further i
 *   correct reading sequence
 *   dragging movements
 *   emergency
-*   encloses
 *   essential
 *   extended audio description
 *   flash
