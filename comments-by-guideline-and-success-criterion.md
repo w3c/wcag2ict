@@ -186,7 +186,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content-on-and-off-the-web) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) <INS>**would need to**</INS> meet this success criterion.</div>
+Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content-on-and-off-the-web) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) <INS>**[would need to]**</INS> meet this success criterion.</div>
 
 <div class="note wcag2ict">
     
