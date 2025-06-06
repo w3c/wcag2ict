@@ -910,17 +910,17 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.2.3 Consistent Navigation to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple pages" with "in multiple non-web documents" and "in multiple non-web software programs"; and replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
 
 With these substitutions, it would read:
 
 (for non-web documents)
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[non-web documents](#document)]**</INS> within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>**[in multiple [non-web documents](#document)]**</INS> within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
 
 (for software programs)
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated on multiple <INS>**[[software programs](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>**[in multiple [software programs](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
 
 <div class="note wcag2ict">
     
