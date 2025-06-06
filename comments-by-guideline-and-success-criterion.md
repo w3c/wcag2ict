@@ -513,7 +513,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.3.1 Three Flashes or Below Threshold to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or software” , “whole page” with “whole non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the word "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or software” , “page” with “non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the word "must".
 
 With these substitutions, it would read:
 
@@ -521,7 +521,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole [non-web document](#document) or [software](#software)]**</INS>, <INS>**[it would be necessary for]**</INS> all content <INS>**[in the non-web document or software]**</INS> (whether it is used to meet other success criteria or not) <INS>**[to]**</INS> meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, <INS>**[it would be necessary for]**</INS> all content <INS>**[in the non-web document or software]**</INS> (whether it is used to meet other success criteria or not) <INS>**[to]**</INS> meet this success criterion.</div>
 
 #### navigable
 
