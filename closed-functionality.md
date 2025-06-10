@@ -7,7 +7,7 @@ ICT with [closed functionality](#closed-functionality) does not allow the use of
 
 <div class="example">
 
-In developing guidance for closed functionality, the task force has considered specific examples of ICT that historically have been partially or fully closed to assistive technologies:
+In developing guidance for ICT with closed functionality, the task force has considered specific examples of ICT that historically have been partially or fully closed to assistive technologies:
 
 * self-service transaction machines or kiosks (e.g. retail self-checkout, point of sales (POS) terminals, and Automated Teller Machines (ATMs))
 * telephony devices (e.g. internet phones, feature phones, and smartphones)
