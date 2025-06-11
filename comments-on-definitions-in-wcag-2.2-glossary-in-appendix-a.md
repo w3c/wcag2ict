@@ -383,10 +383,6 @@ with at least 18 point or 14 point bold or font size that would yield equivalent
 <div class="note">
 
 Fonts with extraordinarily thin strokes or unusual features and characteristics that reduce the familiarity of their letter forms are harder to read, especially at lower contrast levels.</div>
-<div class="note">
-
-The term label is not limited to the label element in HTML.</div>
-<div class="note">
 
 Font size is the size when the content is delivered. It does not include resizing that may be done by a user.</div>
 <div class="note">
