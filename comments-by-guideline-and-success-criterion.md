@@ -25,7 +25,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.</div>
 <div class="note wcag2ict">
-    
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### time-based-media
@@ -41,7 +41,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.1](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded#intent).
 
 <div class="note wcag2ict">
-    
+ 
 The alternative can be provided directly in the [non-web document](#document) or [software](#software) – or provided in an alternate version that meets the success criterion.</div>
 <div class="note wcag2ict">
     
