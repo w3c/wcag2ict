@@ -81,7 +81,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
     
-The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired". Per the definition in WCAG 2, to sasisfy this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and/or [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-captions)” notes that “In some countries, captions are called subtitles”. They are also sometimes referred to as “subtitles for the hearing impaired". Per the definition in WCAG 2, to satisfy this success criterion, whether called captions or subtitles, they would have to provide “synchronized visual and/or [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
 
 ##### audio-description-prerecorded
 
