@@ -178,15 +178,15 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### audio-control
 
 ###### Applying SC 1.4.2 Audio Control to Non-Web Documents and Software
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a web page” with “in a non-web document or software”, “any content” with “any part of a non-web document or software”, “whole page” with “whole document or software”, and “on the web page” with “in the document or software”; and removing “See Conformance Requirement 5: Non-Interference”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a web page” with “in the non-web document or software”, “whole page” with “whole non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
-**1.4.2 Audio Control:** If any audio <INS>**[in a [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to pause or stop the audio, or a  mechanism is available to control audio volume independently from the overall system volume level.
+**1.4.2 Audio Control:** If any audio <INS>**[in the [non-web document](#document) or [software](#software)]**</INS> plays automatically for more than 3 seconds, either a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
 
 <div class="note">
     
-Since any <INS>**[part of a [non-web document](#document) or [software](#software)]**</INS> that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole document or software]**</INS>, all [content](#content-on-and-off-the-web) <INS>**[in the document or software]**</INS> (whether or not it is used to meet other success criteria) must meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the <INS>**[whole non-web document or software]**</INS>, <INS>**[it would be necessary for]**</INS> all content <INS>**[in the non-web document or software]**</INS> (whether or not it is used to meet other success criteria) <INS>**[to]**</INS> meet this success criterion.</div>
 
 <div class="note wcag2ict">
     
@@ -396,7 +396,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.1.2 No Keyboard Trap to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software” and “on the web page” with "in the non-web document or software"; and removing “See Conformance Requirement 5: Non-Interference”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software” and “on the web page” with "in the non-web document or software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -404,7 +404,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, all content <INS>**[in the non-web document or software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, <INS>**[it would be necessary for]**</INS> all content <INS>**[in the non-web document or software]**</INS> (whether it is used to meet other success criteria or not) <INS>**[to]**</INS> meet this success criterion.</div>
 <div class="note wcag2ict">
 
 Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</div>
@@ -473,7 +473,7 @@ This success criterion helps ensure that users can complete tasks without unexpe
 
 ###### Applying SC 2.2.2 Pause, Stop, Hide to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” and “web page” with “non-web documents and software” and removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” with “non-web document or software” and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion; and adjusting Note 2 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -492,7 +492,7 @@ With these substitutions, it would read:
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web documents](#document) and [software](#software)]**</INS>, all content on the <INS>**[non-web documents and software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, <INS>**[it would be necessary for]**</INS> all content <INS>**[in the non-web document or software]**</INS> (whether it is used to meet other success criteria or not) <INS>**[to]**</INS> meet this success criterion.</div>
 <div class="note">
     
 Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
@@ -513,7 +513,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.3.1 Three Flashes or Below Threshold to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or software” , “the whole page” with “the whole non-web document or software”, and “the web page” with “the non-web document or software”; and removing “See Conformance Requirement 5: Non-Interference”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or software” , “page” with “non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -521,7 +521,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, all content on the <INS>**[non-web document or software]**</INS> (whether it is used to meet other success criteria or not) must meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>**[[non-web document](#document) or [software](#software)]**</INS>, <INS>**[it would be necessary for]**</INS> all content <INS>**[in the non-web document or software]**</INS> (whether it is used to meet other success criteria or not) <INS>**[to]**</INS> meet this success criterion.</div>
 
 #### navigable
 
