@@ -178,7 +178,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### audio-control
 
 ###### Applying SC 1.4.2 Audio Control to Non-Web Documents and Software
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a web page” with “in the non-web document or software”, “whole page” with “whole non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the word "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a web page” with “in the non-web document or software”, “whole page” with “whole non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -396,7 +396,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.1.2 No Keyboard Trap to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software” and “on the web page” with "in the non-web document or software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the word "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software” and “on the web page” with "in the non-web document or software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -473,7 +473,7 @@ This success criterion helps ensure that users can complete tasks without unexpe
 
 ###### Applying SC 2.2.2 Pause, Stop, Hide to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” with “non-web document or software” and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion; and adjusting Note 2 to avoid the use of the word "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” with “non-web document or software” and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion; and adjusting Note 2 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -513,7 +513,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.3.1 Three Flashes or Below Threshold to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or software” , “page” with “non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the word "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or software” , “page” with “non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
