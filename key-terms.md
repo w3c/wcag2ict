@@ -24,7 +24,7 @@ The term **closed functionality**, as used in WCAG2ICT, has the meaning below:
 a property or characteristic that prevents users from attaching, installing, or using [assistive technology](#dfn-assistive-technologies)</DD></DL>
 <div class="note">
 
-<p>To support users with disabilities, products with closed functionality might instead provide built-in features that function as assistive technology or use other mechanisms to make the technology accessible.</p></div>
+<p>To support users with disabilities, ICT with closed functionality might instead provide built-in features that function as assistive technology or use other mechanisms to make the technology accessible.</p></div>
 <div class="example">
 
 Examples of technology that may have closed functionality include but are not limited to: 
@@ -175,7 +175,7 @@ Any software program that is not part of a set, per this definition, would autom
 If there is any ambiguity whether the group is a set, then the group is not a set.</div>
 <div class="note">
 
-If there is no independent method to launch the software programs (as is common in products with closed functionality), those programs would not meet the definition of a “set of software programs”.</div>
+If there is no independent method to launch the software programs (as is common in ICT with closed functionality), those programs would not meet the definition of a “set of software programs”.</div>
 <div class="note">
 
 Although the term “software” is used throughout this document because this would apply to stand-alone software programs as well as individual software components and the software components in software-hardware combinations, the concept of “set of software programs” would only apply (by definition) to programs that can be launched separately from each other. Therefore, in the WCAG2ICT guidance for the provisions that use the phrase “set of” (success criteria 2.4.1, 2.4.5, 3.2.3, 3.2.4, and 3.2.6), the phrase “set of software programs” is used.</div>
