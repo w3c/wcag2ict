@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 35.4.0">
+<meta name="generator" content="ReSpec 35.4.1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 .issue-label{text-transform:initial}
@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="388eb8990aa3d86ea0ce50f94afde4b49cda3db0">
+<meta name="revision" content="188ce9b2ed2e43734c9103411925f72e6b9c44a3">
 <meta name="description" content="This document describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var:hover{text-decoration:underline;cursor:pointer}
@@ -229,16 +229,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "388eb8990aa3d86ea0ce50f94afde4b49cda3db0",
-  "publishISODate": "2025-06-05T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 05 June 2025"
+  "gitRevision": "188ce9b2ed2e43734c9103411925f72e6b9c44a3",
+  "publishISODate": "2025-06-12T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 12 June 2025"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2025-06-05">05 June 2025</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2025-06-12">12 June 2025</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -1789,12 +1789,12 @@ any software that retrieves and presents web content for users
 </section></section><section id="consistent-navigation"><div class="header-wrapper"><h5 id="x6-3-3-4-consistent-navigation">3.2.3 Consistent Navigation</h5><a class="self-link" href="#consistent-navigation" aria-label="Permalink for Section 3.2.3 Consistent Navigation"></a></div><p>(Level AA)</p><blockquote class="wcag-quote"><p>Navigational mechanisms that are repeated on multiple <a href="https://www.w3.org/TR/WCAG22/#dfn-web-page-s" title="a non-embedded resource obtained from a single URI using HTTP plus any other resources that are used in the rendering or intended to be rendered together with it by a user agent">web pages</a> within a <a href="https://www.w3.org/TR/WCAG22/#dfn-set-of-web-pages" title="collection of web pages that share a common purpose and that are created by the same author, group or organization">set of web pages</a> occur in the <a href="https://www.w3.org/TR/WCAG22/#dfn-same-relative-order" title="same position relative to other items">same relative order</a> each time they are repeated, unless a change is initiated by the user.
    </p></blockquote>
 <section id="applying-sc-3-2-3-consistent-navigation-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-3-3-4-1-applying-sc-3-2-3-consistent-navigation-to-non-web-documents-and-software">Applying SC 3.2.3 Consistent Navigation to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-3-2-3-consistent-navigation-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 3.2.3 Consistent Navigation to Non-Web Documents and Software"></a></div>
-<p>This applies directly as written and described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent">Intent from Understanding Success Criterion 3.2.3</a>, replacing “set of web pages” with “set of non-web documents” and “set of software programs”.</p>
+<p>This applies directly as written and described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent">Intent from Understanding Success Criterion 3.2.3</a>, replacing "on multiple pages" with "in multiple non-web documents" and "in multiple non-web software programs"; and replacing “set of web pages” with “set of non-web documents” and “set of software programs”.</p>
 <p>With these substitutions, it would read:</p>
 <p>(for non-web documents)</p>
-<p><strong>3.2.3 Consistent Navigation:</strong> Navigational mechanisms that are repeated on multiple <ins><strong>[<a href="#document">non-web documents</a>]</strong></ins> within a <ins><strong>[<a href="#set-of-documents">set of non-web documents</a>]</strong></ins> occur in the <a href="https://www.w3.org/TR/WCAG22/#dfn-same-relative-order">same relative order</a> each time they are repeated, unless a change is initiated by the user.</p>
+<p><strong>3.2.3 Consistent Navigation:</strong> Navigational mechanisms that are repeated <ins><strong>[in multiple <a href="#document">non-web documents</a>]</strong></ins> within a <ins><strong>[<a href="#set-of-documents">set of non-web documents</a>]</strong></ins> occur in the <a href="https://www.w3.org/TR/WCAG22/#dfn-same-relative-order">same relative order</a> each time they are repeated, unless a change is initiated by the user.</p>
 <p>(for software programs)</p>
-<p><strong>3.2.3 Consistent Navigation:</strong> Navigational mechanisms that are repeated on multiple <ins><strong>[<a href="#software">software programs</a>]</strong></ins> within a <ins><strong>[<a href="#set-of-software-programs">set of software programs</a>]</strong></ins> occur in the <a href="https://www.w3.org/TR/WCAG22/#dfn-same-relative-order">same relative order</a> each time they are repeated, unless a change is initiated by the user.</p>
+<p><strong>3.2.3 Consistent Navigation:</strong> Navigational mechanisms that are repeated <ins><strong>[in multiple <a href="#software">software programs</a>]</strong></ins> within a <ins><strong>[<a href="#set-of-software-programs">set of software programs</a>]</strong></ins> occur in the <a href="https://www.w3.org/TR/WCAG22/#dfn-same-relative-order">same relative order</a> each time they are repeated, unless a change is initiated by the user.</p>
 <div class="note" role="note" id="issue-container-generatedID-138"><div role="heading" class="note-title marker" id="h-note-138" aria-level="7"><span>Note 1 (Added)</span></div><div class="wcag2ict">
     
 <p>See <a href="#set-of-documents">set of documents</a> and <a href="#set-of-software-programs">set of software programs</a> in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the <a href="#interpretation-of-web-terminology-in-a-non-web-context">Interpretation of Web Terminology in a Non-web Context</a>.</p></div></div><p></p>
