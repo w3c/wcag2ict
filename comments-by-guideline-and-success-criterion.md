@@ -11,7 +11,7 @@ In WCAG 2, the Principles are provided for framing and understanding the success
 
 #### text-alternatives
 
-##### Applying Guideline 1.1 Text Alternatives to Non- Documents and Software
+##### Applying Guideline 1.1 Text Alternatives to Non-Web Documents and Software
 
 In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.1 applies directly as written.
 
