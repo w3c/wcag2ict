@@ -56,7 +56,7 @@ information and sensory experience to be communicated to the user by means of **
 </DD></DL>
 <div class="note">
 
-Non-web content occurs in two places; documents and software. When content occurs in a document, a user agent is needed in order to communicate the content's information and sensory experience to the user. When content occurs in software, a separate user agent isn't needed &mdash; the software itself performs that function.</div>
+Non-web content occurs in two places; documents and software. When content occurs in a non-web document, a user agent is needed in order to communicate the content's information and sensory experience to the user. When content occurs in non-web software, a separate user agent isn't needed &mdash; the software itself performs that function.</div>
 <div class="note">
 
 Content from a third party needs special consideration since sometimes it may be under the control of the author (e.g. contracted and therefore may not be considered 3rd party) and sometimes it is completely out of the control of the author (e.g. email in an email client).</div>
