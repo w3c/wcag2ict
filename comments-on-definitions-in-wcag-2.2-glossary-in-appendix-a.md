@@ -605,7 +605,7 @@ Style properties can have several origins:
 #### dfn-targets
 
 #####  Applying “target” to Non-Web Documents and Software
-This applies directly as written and as described in the WCAG 2 glossary, replacing “page” with “non-web document or content presented by software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “page” with “content”.
 
 With this substitution, it would read:
 
@@ -615,7 +615,7 @@ region of the display that will accept a pointer action, such as the interactive
 
 <div class="note">
     
-If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>**[[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS>.</div></DD></DL>
+If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>**[[content](#content-on-and-off-the-web)]**</INS>.</div></DD></DL>
 
 #### dfn-technologies
 
