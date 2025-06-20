@@ -808,7 +808,7 @@ With these substitutions, it would read:
 <dt>Inline</dt>
 <dd>The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;</dd>
 <dt><INS>[User agent or platform software]</INS> control</dt>
-<dd>The size of the target is determined by the <strong><INS><a href="#user agent">user-agent</a> or <a href="#platform-software">platform software</a>]</INS></strong> and is not modified by the author;</dd>
+<dd>The size of the target is determined by the <strong><INS><a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</INS></strong> and is not modified by the author;</dd>
 <dt>Essential</dt>
 <dd>A particular <a href="https://www.w3.org/TR/WCAG22/#dfn-presentation">presentation</a> of the target is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> or is legally required for the information being conveyed.</dd>
 </dl>
