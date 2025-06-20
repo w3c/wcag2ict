@@ -298,6 +298,9 @@ function furtherProcessNotesAndExamples() {
         if (note.querySelector(".replacement")) {
             noteTitle = noteTitle + " (Replaced)";
         }
+        if (note.querySelector(".modified")) {
+            noteTitle = noteTitle + " (Modified)";
+        }
         if (note.querySelector(".original")) {
             noteTitle = noteTitle + " (Original)";
         }
