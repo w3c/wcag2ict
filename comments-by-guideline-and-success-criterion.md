@@ -108,6 +108,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.1](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships#intent).
 
+(for non-web software)
 <div class="note wcag2ict">
     
 In software, programmatic determinability is best achieved by using the [accessibility services of platform software](#accessibility-services-of-platform-software) to enable interoperability between software and assistive technologies and accessibility features of software.</div>
@@ -322,13 +323,19 @@ This applies directly as  written and as described in [Intent from Understanding
 <div class="note wcag2ict">
 
 This success criterion only applies to [non-web documents](#document) and [software](#software) that are implemented using markup languages and allow the user to modify these text spacing properties.</div>
+(for non-web documents)
+<div class="note wcag2ict">
+    
+There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles. This success criterion does not mean that non-web documents need to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
+
+(for non-web software)
 <div class="note wcag2ict">
 
 "Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in [Electron](https://www.electronjs.org/) applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
 
 <div class="note wcag2ict">
     
-There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that documents and software need to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
+There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that non-web software needs to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
 
 <div class="note wcag2ict">
     
@@ -382,6 +389,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
 
+(for non-web software)
 <div class="note wcag2ict">
     
 Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., the interface where the software accepts text or other keystroke input from the platform which may come from a keyboard or from a keyboard alternative). [Platform software](#platform-software) may provide a ‘keyboard interface’ that software can read instead of reading any keyboard hardware directly. When software supports such a device-independent service of the platform, and the software or non-web document functionality is made fully operable through the service, then this success criterion would be satisfied.</div>
@@ -408,6 +416,8 @@ Since any content that does not meet this success criterion can interfere with a
 <div class="note wcag2ict">
 
 Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</div>
+
+(for non-web software)
 <div class="note wcag2ict">
 
 This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
@@ -422,6 +432,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.4](https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html).
 
+(for non-web software)
 <div class="note wcag2ict">
     
 The WCAG2ICT interpretation is that a long press of a key (2 seconds or more) and other accessibility features provided by the platform do not meet the WCAG definition of a keyboard shortcut. See the [keyboard shortcut](#dfn-keyboard-shortcuts) definition for more details.</div>
@@ -440,11 +451,11 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.2.1 Timing Adjustable to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.1](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent), replacing “the content” with “non-web documents or software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.1](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent), replacing “ content” with “non-web document or software”.
 
 With this substitution, it would read:
 
-**2.2.1 Timing Adjustable:** For each time limit that is set by <INS>**[[non-web documents](#document) or [software](#software)]**</INS>, at least one of the following is true:
+**2.2.1 Timing Adjustable:** For each time limit that is set by the <INS>**[[non-web document](#document) or [software](#software)]**</INS>, at least one of the following is true:
 
 <dl><dt>Turn off</dt>
 <dd>The user is allowed to turn off the time limit before encountering it; or</dd>
