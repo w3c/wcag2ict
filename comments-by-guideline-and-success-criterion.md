@@ -610,6 +610,8 @@ With this substitution, it would read:
 
 This applies directly as written and as described in [Intent from Understanding Success Criterion 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context#intent).
 
+(for non-web software)
+
 <div class="note wcag2ict">
     
 In software, a “link” is any text string or image in the user interface outside a user interface control that behaves like a hypertext link. This does not include general user interface controls or buttons. (An OK button, for example, would not be a link.)</div>
@@ -658,6 +660,8 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ###### Applying SC 2.4.6 Headings and Labels to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.6](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels#intent).
+
+(for non-web documents)
 
 <div class="note wcag2ict">
     
