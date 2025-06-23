@@ -601,7 +601,7 @@ This applies directly as written and as described in [Intent from Understanding 
 
 <div class="note wcag2ict">
     
-In software, a “link” is any text string or image in the user interface outside a user interface control that behaves like a hypertext link. This does not include general user interface controls or buttons. (An OK button, for example, would not be a link.)</div>
+In non-web software, a “link” is any text string or image in the user interface outside a user interface control that behaves like a hypertext link. This does not include general user interface controls or buttons. (An OK button, for example, would not be a link.)</div>
 
 <div class="note wcag2ict">
     
@@ -650,7 +650,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
     
-In [software](#software), headings and labels are used to describe sections of [content](#content-on-and-off-the-web) and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
+In non-web [software](#software), headings and labels are used to describe sections of [content](#content-on-and-off-the-web) and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
 
 ##### focus-visible
 
@@ -690,7 +690,7 @@ This requirement applies to <INS>**[content]**</INS> that interprets pointer act
 
 <div class="note wcag2ict">
 
-Multipoint and path-based gestures are less common in documents. An example where a document author could add such gestures is an interactive prototype document created in a software design tool.</div>
+Multipoint and path-based gestures are less common in non-web documents. An example where a non-web document author could add such gestures is an interactive prototype document created in a software design tool.</div>
 
 (for non-web software)
 
@@ -875,7 +875,7 @@ With this substitution, it would read:
 
 <div class="note wcag2ict">
     
-Examples of programmatic identification include language metadata or markup. There are some [software](#software) and [non-web document](#document) technologies where there is no assistive technology supported method for marking the language for the different passages or phrases in the non-web document or software, and it would not be possible to meet this success criterion with those technologies.</div>
+Examples of programmatic identification include language metadata or markup. There are some [non-web software](#software) and [non-web document](#document) technologies where there is no assistive technology supported method for marking the language for the different passages or phrases in the non-web document or software, and it would not be possible to meet this success criterion with those technologies.</div>
 <div class="note wcag2ict">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -1162,7 +1162,7 @@ This success criterion is primarily for software developers who develop or use c
 For conforming to this success criterion, it is usually best practice for software user interfaces to use the accessibility services provided by [platform software](#platform-software). These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
 <div class="note wcag2ict">
 
-For document formats that support interoperability with assistive technology, standard user interface components often meet this success criterion when used according to the general design and accessibility guidance for the document format.</div>
+For non-web document formats that support interoperability with assistive technology, standard user interface components often meet this success criterion when used according to the general design and accessibility guidance for the document format.</div>
 <div class="note wcag2ict">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
