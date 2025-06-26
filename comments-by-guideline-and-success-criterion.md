@@ -328,14 +328,14 @@ This success criterion only applies to [non-web documents](#document) and [softw
     
 There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles. This success criterion does not mean that non-web documents need to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
 
+<div class="note wcag2ict">
+    
+There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that non-web software needs to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
+
 (for non-web software)
 <div class="note wcag2ict">
 
 "Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in [Electron](https://www.electronjs.org/) applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
-
-<div class="note wcag2ict">
-    
-There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that non-web software needs to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
 
 <div class="note wcag2ict">
     
@@ -661,11 +661,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.6](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels#intent).
 
-(for non-web documents)
+(for non-web software)
 
 <div class="note wcag2ict">
     
-In [software](#software), headings and labels are used to describe sections of [content](#content-on-and-off-the-web) and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
+In non-web [software](#software), headings and labels are used to describe sections of [content](#content-on-and-off-the-web) and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
 
 ##### focus-visible
 
@@ -871,6 +871,7 @@ With this substitution, it would read:
 
 **3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable).
 
+(for non-web software)
 <div class="note wcag2ict">
     
 Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would satisfy this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [software](#software) would also satisfy this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technologies) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to satisfy this success criterion in that locale / language.</div>
@@ -1083,6 +1084,8 @@ With this substitution, it would read:
 Examples of mechanisms that satisfy this criterion include: 
 1. support for password entry by password managers to reduce memory need, and
 2. copy and paste to reduce the cognitive burden of re-typing.</div>
+
+(for non-web software)
 <div class="note wcag2ict">
     
 Any passwords used to unlock underlying [platform software](#platform-software) (running below the non-web software) are out of scope for this requirement since these are not under control of the non-web software’s author.</div>
@@ -1169,15 +1172,18 @@ With this substitution, it would read:
 
 **4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-components) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determinable); [states](https://www.w3.org/TR/WCAG22/#dfn-states), properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to [user agents](#user-agent), including [assistive technologies](#dfn-assistive-technologies).
 
+(for non-web documents)
+<div class="note wcag2ict">
+
+For document formats that support interoperability with assistive technology, standard user interface components often satisfy this success criterion when used according to the general design and accessibility guidance for the document format.</div>
+
+(for non-web software)
 <div class="note">
     
 This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already satisfy this success criterion when used according to specification.</div>
 <div class="note wcag2ict">
     
 For conforming to this success criterion, it is usually best practice for software user interfaces to use the [accessibility services of platform software](#accessibility-services-of-platform-software). These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
-<div class="note wcag2ict">
-
-For document formats that support interoperability with assistive technology, standard user interface components often satisfy this success criterion when used according to the general design and accessibility guidance for the document format.</div>
 <div class="note wcag2ict">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
