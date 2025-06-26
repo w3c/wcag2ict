@@ -1171,7 +1171,7 @@ With this substitution, it would read:
 (for non-web documents)
 <div class="note wcag2ict">
 
-For document formats that support interoperability with assistive technology, standard user interface components often satisfy this success criterion when used according to the general design and accessibility guidance for the document format.</div>
+For non-web document formats that support interoperability with assistive technology, standard user interface components often satisfy this success criterion when used according to the general design and accessibility guidance for the document format.</div>
 
 (for non-web software)
 <div class="note">
