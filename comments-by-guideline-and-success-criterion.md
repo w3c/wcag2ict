@@ -264,6 +264,11 @@ In technologies where CSS is not used, the definition of 'CSS pixel' applies as 
 <div class="note wcag2ict">
 
 If a [non-web document](#document) type and its available [user agents](#user-agent) do not support reflow, it may not be possible for a document of that type to satisfy this success criterion.</div>
+<div class="note wcag2ict">
+
+As written, this success criterion can only be met by non-web documents or software where the underlying user agent or platform can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.
+
+When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</div>
 
 (for non-web software)
 
