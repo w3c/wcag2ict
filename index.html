@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="65156176a4091b80cbf3f4a43366b76222dd1639">
+<meta name="revision" content="504c31f88684762cfa81e2ca47314242cae528c7">
 <meta name="description" content="This document describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var:hover{text-decoration:underline;cursor:pointer}
@@ -229,7 +229,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "65156176a4091b80cbf3f4a43366b76222dd1639",
+  "gitRevision": "504c31f88684762cfa81e2ca47314242cae528c7",
   "publishISODate": "2025-06-26T00:00:00.000Z",
   "generatedSubtitle": "W3C Editor's Draft 26 June 2025"
 }</script>
@@ -891,6 +891,7 @@ any software that retrieves and presents web content for users
    </p></blockquote>
 <section id="applying-sc-1-3-1-info-and-relationships-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-1-4-2-1-applying-sc-1-3-1-info-and-relationships-to-non-web-documents-and-software">Applying SC 1.3.1 Info and Relationships to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-1-3-1-info-and-relationships-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 1.3.1 Info and Relationships to Non-Web Documents and Software"></a></div>
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships#intent">Intent from Understanding Success Criterion 1.3.1</a>.</p>
+<p>(for non-web software)</p>
 <div class="note" role="note" id="issue-container-generatedID-45"><div role="heading" class="note-title marker" id="h-note-45" aria-level="7"><span>Note 1 (Added)</span></div><div class="wcag2ict">
     
 <p>In non-web software, programmatic determinability is best achieved by using the <a href="#accessibility-services-of-platform-software">accessibility services of platform software</a> to enable interoperability between the software and assistive technologies and accessibility features of software.</p></div></div><p></p>
@@ -1156,11 +1157,12 @@ any software that retrieves and presents web content for users
 
 <p>This success criterion only applies to <a href="#document">non-web documents</a> and <a href="#software">software</a> that are implemented using markup languages and allow the user to modify these text spacing properties.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-72"><div role="heading" class="note-title marker" id="h-note-72" aria-level="7"><span>Note 2 (Added)</span></div><div class="wcag2ict">
+    
+<p>There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that non-web software needs to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</p></div></div><p></p>
+<p>(for non-web software)</p>
+<div class="note" role="note" id="issue-container-generatedID-73"><div role="heading" class="note-title marker" id="h-note-73" aria-level="7"><span>Note 3 (Added)</span></div><div class="wcag2ict">
 
 <p>"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in <a href="https://www.electronjs.org/">Electron</a> applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</p></div></div><p></p>
-<div class="note" role="note" id="issue-container-generatedID-73"><div role="heading" class="note-title marker" id="h-note-73" aria-level="7"><span>Note 3 (Added)</span></div><div class="wcag2ict">
-    
-<p>There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that documents and software need to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-74"><div role="heading" class="note-title marker" id="h-note-74" aria-level="7"><span>Note 4 (Added)</span></div><div class="wcag2ict">
     
 <p>See also the <a href="#comments-on-closed-functionality">Comments on Closed Functionality</a>.</p></div></div><p></p>
@@ -1226,6 +1228,7 @@ any software that retrieves and presents web content for users
    </p></div></blockquote>
 <section id="applying-sc-2-1-1-keyboard-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-2-2-2-1-applying-sc-2-1-1-keyboard-to-non-web-documents-and-software">Applying SC 2.1.1 Keyboard to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-2-1-1-keyboard-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 2.1.1 Keyboard to Non-Web Documents and Software"></a></div>
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent">Intent from Understanding Success Criterion 2.1.1</a>.</p>
+<p>(for non-web software)</p>
 <div class="note" role="note" id="issue-container-generatedID-78"><div role="heading" class="note-title marker" id="h-note-78" aria-level="7"><span>Note 1 (Added)</span></div><div class="wcag2ict">
     
 <p>Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., the interface where the software accepts text or other keystroke input from the platform which may come from a keyboard or from a keyboard alternative). <a href="#platform-software">Platform software</a> may provide a ‘keyboard interface’ that software can read instead of reading any keyboard hardware directly. When software supports such a device-independent service of the platform, and the software or non-web document functionality is made fully operable through the service, then this success criterion would be satisfied.</p></div></div><p></p>
@@ -1254,6 +1257,7 @@ any software that retrieves and presents web content for users
 <div class="note" role="note" id="issue-container-generatedID-82"><div role="heading" class="note-title marker" id="h-note-82" aria-level="7"><span>Note 2 (Added)</span></div><div class="wcag2ict">
 
 <p>Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</p></div></div><p></p>
+<p>(for non-web software)</p>
 <div class="note" role="note" id="issue-container-generatedID-83"><div role="heading" class="note-title marker" id="h-note-83" aria-level="7"><span>Note 3 (Added)</span></div><div class="wcag2ict">
 
 <p>This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</p></div></div><p></p>
@@ -1276,6 +1280,7 @@ any software that retrieves and presents web content for users
   </dl></blockquote>
 <section id="applying-sc-2-1-4-character-key-shortcuts-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-2-2-4-1-applying-sc-2-1-4-character-key-shortcuts-to-non-web-documents-and-software">Applying SC 2.1.4 Character Key Shortcuts to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-2-1-4-character-key-shortcuts-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 2.1.4 Character Key Shortcuts to Non-Web Documents and Software"></a></div>
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html">Intent from Understanding Success Criterion 2.1.4</a>.</p>
+<p>(for non-web software)</p>
 <div class="note" role="note" id="issue-container-generatedID-85"><div role="heading" class="note-title marker" id="h-note-85" aria-level="7"><span>Note 1 (Added)</span></div><div class="wcag2ict">
     
 <p>The WCAG2ICT interpretation is that a long press of a key (2 seconds or more) and other accessibility features provided by the platform do not meet the WCAG definition of a keyboard shortcut. See the <a href="#dfn-keyboard-shortcuts">keyboard shortcut</a> definition for more details.</p></div></div><p></p>
@@ -1352,9 +1357,9 @@ any software that retrieves and presents web content for users
       should be considered in conjunction with <a href="https://www.w3.org/TR/WCAG22/#on-focus">Success Criterion 3.2.1</a>, which puts limits on changes of content or context as a result of user action.
    </p></div></blockquote>
 <section id="applying-sc-2-2-1-timing-adjustable-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-2-3-2-1-applying-sc-2-2-1-timing-adjustable-to-non-web-documents-and-software">Applying SC 2.2.1 Timing Adjustable to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-2-2-1-timing-adjustable-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 2.2.1 Timing Adjustable to Non-Web Documents and Software"></a></div>
-<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent">Intent from Understanding Success Criterion 2.2.1</a>, replacing “the content” with “non-web documents or software”.</p>
+<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent">Intent from Understanding Success Criterion 2.2.1</a>, replacing “ content” with “non-web document or software”.</p>
 <p>With this substitution, it would read:</p>
-<p><strong>2.2.1 Timing Adjustable:</strong> For each time limit that is set by <ins><strong>[<a href="#document">non-web documents</a> or <a href="#software">software</a>]</strong></ins>, at least one of the following is true:</p>
+<p><strong>2.2.1 Timing Adjustable:</strong> For each time limit that is set by the <ins><strong>[<a href="#document">non-web document</a> or <a href="#software">software</a>]</strong></ins>, at least one of the following is true:</p>
 <dl><dt>Turn off</dt>
 <dd>The user is allowed to turn off the time limit before encountering it; or</dd>
     
@@ -1525,6 +1530,7 @@ any software that retrieves and presents web content for users
    </p></blockquote>
 <section id="applying-sc-2-4-4-link-purpose-in-context-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-2-5-5-1-applying-sc-2-4-4-link-purpose-in-context-to-non-web-documents-and-software">Applying SC 2.4.4 Link Purpose (In Context) to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-2-4-4-link-purpose-in-context-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 2.4.4 Link Purpose (In Context) to Non-Web Documents and Software"></a></div>
 <p>This applies directly as written and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context#intent">Intent from Understanding Success Criterion 2.4.4</a>.</p>
+<p>(for non-web software)</p>
 <div class="note" role="note" id="issue-container-generatedID-102"><div role="heading" class="note-title marker" id="h-note-102" aria-level="7"><span>Note 1 (Added)</span></div><div class="wcag2ict">
     
 <p>In non-web software, a “link” is any text string or image in the user interface outside a user interface control that behaves like a hypertext link. This does not include general user interface controls or buttons. (An OK button, for example, would not be a link.)</p></div></div><p></p>
@@ -1560,6 +1566,7 @@ any software that retrieves and presents web content for users
    </p></blockquote>
 <section id="applying-sc-2-4-6-headings-and-labels-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-2-5-7-1-applying-sc-2-4-6-headings-and-labels-to-non-web-documents-and-software">Applying SC 2.4.6 Headings and Labels to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-2-4-6-headings-and-labels-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 2.4.6 Headings and Labels to Non-Web Documents and Software"></a></div>
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels#intent">Intent from Understanding Success Criterion 2.4.6</a>.</p>
+<p>(for non-web software)</p>
 <div class="note" role="note" id="issue-container-generatedID-110"><div role="heading" class="note-title marker" id="h-note-110" aria-level="7"><span>Note (Added)</span></div><div class="wcag2ict">
     
 <p>In non-web <a href="#software">software</a>, headings and labels are used to describe sections of <a href="#content-on-and-off-the-web">content</a> and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</p></div></div><p></p>
@@ -1750,6 +1757,7 @@ any software that retrieves and presents web content for users
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent">Intent from Understanding Success Criterion 3.1.1</a> replacing “each web page” with “non-web documents or software”.</p>
 <p>With this substitution, it would read:</p>
 <p><strong>3.1.1 Language of Page:</strong> The default <a href="https://www.w3.org/TR/WCAG22/#dfn-human-language-s">human language</a> of <ins><strong>[<a href="#document">non-web documents</a> or <a href="#software">software</a>]</strong></ins> can be <a href="#dfn-programmatically-determinable">programmatically determined</a>.</p>
+<p>(for non-web software)</p>
 <div class="note" role="note" id="issue-container-generatedID-133"><div role="heading" class="note-title marker" id="h-note-133" aria-level="7"><span>Note 1 (Added)</span></div><div class="wcag2ict">
     
 <p>Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would satisfy this success criterion. Applications that do not use the platform “locale / language” setting but instead use an <a href="#dfn-accessibility-supported">accessibility-supported</a> method for exposing the human language of the <a href="#software">software</a> would also satisfy this success criterion. Applications implemented in technologies where <a href="#dfn-assistive-technologies">assistive technologies</a> cannot determine the human language and that do not support the platform “locale / language” setting may not be able to satisfy this success criterion in that locale / language.</p></div></div><p></p>
@@ -1952,8 +1960,11 @@ any software that retrieves and presents web content for users
 <p>Examples of mechanisms that satisfy this criterion include: </p>
 <ol>
 <li>support for password entry by password managers to reduce memory need, and</li>
-<li>copy and paste to reduce the cognitive burden of re-typing.</li></ol></div></div><div class="note" role="note" id="issue-container-generatedID-150"><div role="heading" class="note-title marker" id="h-note-150" aria-level="7"><span>Note 3 (Added)</span></div><div class="wcag2ict">
+<li>copy and paste to reduce the cognitive burden of re-typing.</li></ol></div></div>
 
+<p>(for non-web software)</p>
+<div class="note" role="note" id="issue-container-generatedID-150"><div role="heading" class="note-title marker" id="h-note-150" aria-level="7"><span>Note 3 (Added)</span></div><div class="wcag2ict">
+    
 <p>Any passwords used to unlock underlying <a href="#platform-software">platform software</a> (running below the non-web software) are out of scope for this requirement since these are not under control of the non-web software’s author.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-151"><div role="heading" class="note-title marker" id="h-note-151" aria-level="7"><span>Note 4 (Added)</span></div><div class="wcag2ict">
 
@@ -2032,15 +2043,17 @@ any software that retrieves and presents web content for users
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/name-role-value#intent">Intent from Understanding Success Criterion 4.1.2</a>, replacing “user agents, including assistive technologies", with “assistive technologies and accessibility features of software” and the note with: “This success criterion is primarily for software developers who develop or use custom user interface components. For example, standard user interface components on most accessibility-supported platforms already meet this success criterion when used according to specification.”</p>
 <p>With this substitution, it would read:</p>
 <p><strong>4.1.2 Name, Role, Value:</strong> For all <a href="#dfn-user-interface-components">user interface components</a> (including but not limited to: form elements, links and components generated by scripts), the <a href="#dfn-name">name</a> and <a href="#dfn-role">role</a> can be <a href="#dfn-programmatically-determinable">programmatically determined</a>; <a href="https://www.w3.org/TR/WCAG22/#dfn-states">states</a>, properties, and values that can be set by the user can be <a href="#dfn-programmatically-set">programmatically set</a>; and notification of changes to these items is available to <ins><strong>[<a href="#dfn-assistive-technologies">assistive technologies</a> and accessibility features of <a href="#software">software</a>]</strong></ins>.</p>
-<div class="note" role="note" id="issue-container-generatedID-157"><div role="heading" class="note-title marker" id="h-note-157" aria-level="7"><span>Note 1</span></div><div class="">
-    
-<p>This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most <a href="#dfn-accessibility-supported">accessibility-supported</a> platforms already satisfy this success criterion when used according to specification.</p></div></div><p></p>
-<div class="note" role="note" id="issue-container-generatedID-158"><div role="heading" class="note-title marker" id="h-note-158" aria-level="7"><span>Note 2 (Added)</span></div><div class="wcag2ict">
-    
-<p>For conforming to this success criterion, it is usually best practice for software user interfaces to use the <a href="#accessibility-services-of-platform-software">accessibility services of platform software</a>. These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</p></div></div><p></p>
-<div class="note" role="note" id="issue-container-generatedID-159"><div role="heading" class="note-title marker" id="h-note-159" aria-level="7"><span>Note 3 (Added)</span></div><div class="wcag2ict">
+<p>(for non-web documents)</p>
+<div class="note" role="note" id="issue-container-generatedID-157"><div role="heading" class="note-title marker" id="h-note-157" aria-level="7"><span>Note 1 (Added)</span></div><div class="wcag2ict">
 
 <p>For non-web document formats that support interoperability with assistive technology, standard user interface components often satisfy this success criterion when used according to the general design and accessibility guidance for the document format.</p></div></div><p></p>
+<p>(for non-web software)</p>
+<div class="note" role="note" id="issue-container-generatedID-158"><div role="heading" class="note-title marker" id="h-note-158" aria-level="7"><span>Note 2</span></div><div class="">
+    
+<p>This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most <a href="#dfn-accessibility-supported">accessibility-supported</a> platforms already satisfy this success criterion when used according to specification.</p></div></div><p></p>
+<div class="note" role="note" id="issue-container-generatedID-159"><div role="heading" class="note-title marker" id="h-note-159" aria-level="7"><span>Note 3 (Added)</span></div><div class="wcag2ict">
+    
+<p>For conforming to this success criterion, it is usually best practice for software user interfaces to use the <a href="#accessibility-services-of-platform-software">accessibility services of platform software</a>. These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-160"><div role="heading" class="note-title marker" id="h-note-160" aria-level="7"><span>Note 4 (Added)</span></div><div class="wcag2ict">
     
 <p>See also the <a href="#comments-on-closed-functionality">Comments on Closed Functionality</a>.</p></div></div><p></p>
