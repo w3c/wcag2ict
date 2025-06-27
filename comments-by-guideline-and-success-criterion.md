@@ -108,9 +108,10 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.1](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships#intent).
 
+(for non-web software)
 <div class="note wcag2ict">
     
-In software, programmatic determinability is best achieved by using the [accessibility services of platform software](#accessibility-services-of-platform-software) to enable interoperability between software and assistive technologies and accessibility features of software.</div>
+In non-web software, programmatic determinability is best achieved by using the [accessibility services of platform software](#accessibility-services-of-platform-software) to enable interoperability between the software and assistive technologies and accessibility features of software.</div>
 <div class="note wcag2ict">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -263,6 +264,11 @@ In technologies where CSS is not used, the definition of 'CSS pixel' applies as 
 <div class="note wcag2ict">
 
 If a [non-web document](#document) type and its available [user agents](#user-agent) do not support reflow, it may not be possible for a document of that type to satisfy this success criterion.</div>
+<div class="note wcag2ict">
+
+As written, this success criterion can only be met by non-web documents or software where the underlying user agent or platform can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.
+
+When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</div>
 
 (for non-web software)
 
@@ -272,7 +278,7 @@ The intent section refers to the ability for content to reflow (for vertical scr
 <div class="note wcag2ict">
 
 Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the Web. For example:
-- When the software has a complex user interface with toolbars that need to be visible while manipulating content, as explained in the Intent from Understanding 1.4.10 Reflow.</div>
+- When the non-web software has a complex user interface with toolbars that need to be visible while manipulating content, as explained in the Intent from Understanding 1.4.10 Reflow.</div>
 
 <div class="note wcag2ict">
 
@@ -283,7 +289,7 @@ When the underlying user agent or platform does not support these dimensions for
 When users modify zoom, scaling, and/or display resolution at the platform software level (e.g. Operating System), it impacts the size of all applications and the [platform software](#platform-software) itself. This can result in improved readability in some applications but unwanted consequences in others.</div>
 <div class="note wcag2ict">
 
-Some software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported. Such software would satisfy this success criterion as long as there is no loss of information or functionality in the drafting view.</div>
+Some non-web software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported. Such software would satisfy this success criterion as long as there is no loss of information or functionality in the drafting view.</div>
 <div class="note wcag2ict">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -322,13 +328,15 @@ This applies directly as  written and as described in [Intent from Understanding
 <div class="note wcag2ict">
 
 This success criterion only applies to [non-web documents](#document) and [software](#software) that are implemented using markup languages and allow the user to modify these text spacing properties.</div>
-<div class="note wcag2ict">
-
-"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: <abbr title="HyperText Markup Language">HTML</abbr> (e.g., in [Electron](https://www.electronjs.org/) applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
 
 <div class="note wcag2ict">
     
-There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that documents and software need to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
+There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that non-web software needs to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
+
+(for non-web software)
+<div class="note wcag2ict">
+
+"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in [Electron](https://www.electronjs.org/) applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
 
 <div class="note wcag2ict">
     
@@ -382,6 +390,7 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
 
+(for non-web software)
 <div class="note wcag2ict">
     
 Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., the interface where the software accepts text or other keystroke input from the platform which may come from a keyboard or from a keyboard alternative). [Platform software](#platform-software) may provide a ‘keyboard interface’ that software can read instead of reading any keyboard hardware directly. When software supports such a device-independent service of the platform, and the software or non-web document functionality is made fully operable through the service, then this success criterion would be satisfied.</div>
@@ -408,6 +417,8 @@ Since any content that does not meet this success criterion can interfere with a
 <div class="note wcag2ict">
 
 Standard exit methods may vary by platform. For example, on many desktop platforms, the Escape key is a standard method for exiting.</div>
+
+(for non-web software)
 <div class="note wcag2ict">
 
 This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
@@ -422,6 +433,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.4](https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html).
 
+(for non-web software)
 <div class="note wcag2ict">
     
 The WCAG2ICT interpretation is that a long press of a key (2 seconds or more) and other accessibility features provided by the platform do not meet the WCAG definition of a keyboard shortcut. See the [keyboard shortcut](#dfn-keyboard-shortcuts) definition for more details.</div>
@@ -440,11 +452,11 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.2.1 Timing Adjustable to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.1](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent), replacing “the content” with “non-web documents or software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.1](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent), replacing “ content” with “non-web document or software”.
 
 With this substitution, it would read:
 
-**2.2.1 Timing Adjustable:** For each time limit that is set by <INS>**[[non-web documents](#document) or [software](#software)]**</INS>, at least one of the following is true:
+**2.2.1 Timing Adjustable:** For each time limit that is set by the <INS>**[[non-web document](#document) or [software](#software)]**</INS>, at least one of the following is true:
 
 <dl><dt>Turn off</dt>
 <dd>The user is allowed to turn off the time limit before encountering it; or</dd>
@@ -599,9 +611,11 @@ With this substitution, it would read:
 
 This applies directly as written and as described in [Intent from Understanding Success Criterion 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context#intent).
 
+(for non-web software)
+
 <div class="note wcag2ict">
     
-In software, a “link” is any text string or image in the user interface outside a user interface control that behaves like a hypertext link. This does not include general user interface controls or buttons. (An OK button, for example, would not be a link.)</div>
+In non-web software, a “link” is any text string or image in the user interface outside a user interface control that behaves like a hypertext link. This does not include general user interface controls or buttons. (An OK button, for example, would not be a link.)</div>
 
 <div class="note wcag2ict">
     
@@ -648,9 +662,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.6](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels#intent).
 
+(for non-web software)
+
 <div class="note wcag2ict">
     
-In [software](#software), headings and labels are used to describe sections of [content](#content-on-and-off-the-web) and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
+In non-web [software](#software), headings and labels are used to describe sections of [content](#content-on-and-off-the-web) and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
 
 ##### focus-visible
 
@@ -690,7 +706,7 @@ This requirement applies to <INS>**[content]**</INS> that interprets pointer act
 
 <div class="note wcag2ict">
 
-Multipoint and path-based gestures are less common in documents. An example where a document author could add such gestures is an interactive prototype document created in a software design tool.</div>
+Multipoint and path-based gestures are less common in non-web documents. An example where a non-web document author could add such gestures is an interactive prototype document created in a software design tool.</div>
 
 (for non-web software)
 
@@ -856,6 +872,7 @@ With this substitution, it would read:
 
 **3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable).
 
+(for non-web software)
 <div class="note wcag2ict">
     
 Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would satisfy this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [software](#software) would also satisfy this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technologies) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to satisfy this success criterion in that locale / language.</div>
@@ -874,8 +891,8 @@ With this substitution, it would read:
 **3.1.2 Language of Parts:** The [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of each passage or phrase in the <INS>**[[non-web document](#document) or [software](#software)]**</INS> can be [programmatically determined](#dfn-programmatically-determinable) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding [text](https://www.w3.org/TR/WCAG22/#dfn-text).
 
 <div class="note wcag2ict">
-    
-Examples of programmatic identification include language metadata or markup. There are some [software](#software) and [non-web document](#document) technologies where there is no assistive technology supported method for marking the language for the different passages or phrases in the non-web document or software, and it would not be possible to satisfy this success criterion with those technologies.</div>
+
+Examples of programmatic identification include language metadata or markup. There are some [non-web software](#software) and [non-web document](#document) technologies where there is no assistive technology supported method for marking the language for the different passages or phrases in the non-web document or software, and it would not be possible to satisfy this success criterion with those technologies.</div>
 <div class="note wcag2ict">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -1068,6 +1085,8 @@ With this substitution, it would read:
 Examples of mechanisms that satisfy this criterion include: 
 1. support for password entry by password managers to reduce memory need, and
 2. copy and paste to reduce the cognitive burden of re-typing.</div>
+
+(for non-web software)
 <div class="note wcag2ict">
     
 Any passwords used to unlock underlying [platform software](#platform-software) (running below the non-web software) are out of scope for this requirement since these are not under control of the non-web software’s author.</div>
@@ -1154,15 +1173,18 @@ With this substitution, it would read:
 
 **4.1.2 Name, Role, Value:** For all [user interface components](#dfn-user-interface-components) (including but not limited to: form elements, links and components generated by scripts), the [name](#dfn-name) and [role](#dfn-role) can be [programmatically determined](#dfn-programmatically-determinable); [states](https://www.w3.org/TR/WCAG22/#dfn-states), properties, and values that can be set by the user can be [programmatically set](#dfn-programmatically-set); and notification of changes to these items is available to <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of [software](#software)]**</INS>.
 
+(for non-web documents)
+<div class="note wcag2ict">
+
+For non-web document formats that support interoperability with assistive technology, standard user interface components often satisfy this success criterion when used according to the general design and accessibility guidance for the document format.</div>
+
+(for non-web software)
 <div class="note">
     
 This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already satisfy this success criterion when used according to specification.</div>
 <div class="note wcag2ict">
     
 For conforming to this success criterion, it is usually best practice for software user interfaces to use the [accessibility services of platform software](#accessibility-services-of-platform-software). These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
-<div class="note wcag2ict">
-
-For document formats that support interoperability with assistive technology, standard user interface components often satisfy this success criterion when used according to the general design and accessibility guidance for the document format.</div>
 <div class="note wcag2ict">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
