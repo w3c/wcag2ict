@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="ac7ec0f09d02cfd57417b65c0595fff860abd7bd">
+<meta name="revision" content="01b96dca4e75879493e7410560ba2ca8a87b0318">
 <meta name="description" content="This document describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var:hover{text-decoration:underline;cursor:pointer}
@@ -229,7 +229,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "ac7ec0f09d02cfd57417b65c0595fff860abd7bd",
+  "gitRevision": "01b96dca4e75879493e7410560ba2ca8a87b0318",
   "publishISODate": "2025-06-27T00:00:00.000Z",
   "generatedSubtitle": "W3C Editor's Draft 27 June 2025"
 }</script>
@@ -1166,7 +1166,7 @@ any software that retrieves and presents web content for users
 <p>(for non-web software)</p>
 <div class="note" role="note" id="issue-container-generatedID-74"><div role="heading" class="note-title marker" id="h-note-74" aria-level="7"><span>Note 3 (Added)</span></div><div class="wcag2ict">
 
-<p>"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in <a href="https://www.electronjs.org/">Electron</a> applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</p></div></div><p></p>
+<p>"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: <abbr title="HyperText Markup Language">HTML</abbr> (e.g., in <a href="https://www.electronjs.org/">Electron</a> applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-75"><div role="heading" class="note-title marker" id="h-note-75" aria-level="7"><span>Note 4 (Added)</span></div><div class="wcag2ict">
     
 <p>See also the <a href="#comments-on-closed-functionality">Comments on Closed Functionality</a>.</p></div></div><p></p>
@@ -1191,7 +1191,7 @@ any software that retrieves and presents web content for users
      <div class="note" role="note" id="wcag-noteissue-container-generatedID--13"><div role="heading" class="note-title marker" id="wcag-noteh-note--13" aria-level="5"><span>Note 2</span></div><p class="">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</p></div>
      <div class="note" role="note" id="wcag-noteissue-container-generatedID--14"><div role="heading" class="note-title marker" id="wcag-noteh-note--14" aria-level="5"><span>Note 3</span></div><p class="">This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as links used to skip to another part of a page) do not present additional content they are not covered by this criterion.</p></div></blockquote>
 <section id="applying-sc-1-4-13-content-on-hover-or-focus-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-1-5-10-1-applying-sc-1-4-13-content-on-hover-or-focus-to-non-web-documents-and-software">Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-1-4-13-content-on-hover-or-focus-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software"></a></div>
-<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html">Intent from Understanding Success Criterion 1.4.13</a>, replacing "user agent" with "user agent or platform software", "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".</p>
+<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html">Intent from Understanding Success Criterion 1.4.13</a>, replacing "user agent" with "user agent or platform software", "browser tooltips" with "tooltips", and "the <abbr title="HyperText Markup Language">HTML</abbr> title attribute" with "user interface object attributes".</p>
 <p>With these substitutions, it would read:</p>
 <p><strong>1.4.13 Content on Hover or Focus:</strong> Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:</p>
 <dl><dt>Dismissible</dt>
@@ -2013,14 +2013,14 @@ any software that retrieves and presents web content for users
     
 <p>This success criterion would be satisfied in cases where:</p>
 <ul>
-<li>Content is implemented using HTML or XML (as outlined in the <a href="https://www.w3.org/TR/WCAG21/#h-note-27">WCAG 2.1 note on 4.1.1</a> and the <a href="https://www.w3.org/WAI/WCAG20/errata/#editorial">WCAG 2.0 editorial errata</a> in the thirteenth list item)</li>
+<li>Content is implemented using <abbr title="HyperText Markup Language">HTML</abbr> or XML (as outlined in the <a href="https://www.w3.org/TR/WCAG21/#h-note-27">WCAG 2.1 note on 4.1.1</a> and the <a href="https://www.w3.org/WAI/WCAG20/errata/#editorial">WCAG 2.0 editorial errata</a> in the thirteenth list item)</li>
 <li>Non-web documents or software are not authored using a markup language.</li>
 <li>Non-web documents or software are authored using a markup language, but accessibility information is exposed via platform accessibility APIs, not by making the markup itself available to assistive technologies.</li></ul></div></div>
 <div class="example wcag2ict">
 
 <p><span>Example (Added): </span>Examples where 4.1.1 Parsing would be satisfied:</p>
 <ul>
-<li>An HTML page embedded inside a desktop application (as outlined in the <a href="https://www.w3.org/TR/WCAG21/#h-note-27">WCAG 2.1 note on 4.1.1</a> and the <a href="https://www.w3.org/WAI/WCAG20/errata/#editorial">WCAG 2.0 editorial errata</a> in the thirteenth list item)</li>
+<li>An <abbr title="HyperText Markup Language">HTML</abbr> page embedded inside a desktop application (as outlined in the <a href="https://www.w3.org/TR/WCAG21/#h-note-27">WCAG 2.1 note on 4.1.1</a> and the <a href="https://www.w3.org/WAI/WCAG20/errata/#editorial">WCAG 2.0 editorial errata</a> in the thirteenth list item)</li>
 <li>A PDF document (not authored using a markup language)</li>
 <li>Android or iOS apps which use a markup language to specify UI layout (accessibility information is exposed via platform accessibility APIs, not the markup)</li>
 </ul>
@@ -2269,7 +2269,7 @@ any software that retrieves and presents web content for users
 </li>
 <li><p><strong>The <ins>[non-web document or software]</ins> technology must have accessibility-supported user agents <ins>[or other software]</ins> that are available to users.</strong> This means that at least one of the following four statements is true:</p>
 <ol>
-<li><p>The technology is supported natively in widely-distributed user agents <ins><strong>[or other software]</strong></ins> that are also accessibility supported (such as HTML and CSS);</p>
+<li><p>The technology is supported natively in widely-distributed user agents <ins><strong>[or other software]</strong></ins> that are also accessibility supported (such as <abbr title="HyperText Markup Language">HTML</abbr> and CSS);</p>
 <p><strong>OR</strong></p>
 </li>
 <li><p>The technology is supported in a widely-distributed plug-in <ins><strong>[or other software extension]</strong></ins> that is also accessibility supported;</p>
@@ -2769,7 +2769,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>A label is presented to all users whereas the <a href="#dfn-name">name</a> may be hidden and only exposed by assistive technology <ins><strong>[or by accessibility features of <a href="#software">software</a>]</strong></ins>. In many (but not all) cases the name and the label are the same.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-182"><div role="heading" class="note-title marker" id="h-note-182" aria-level="6"><span>Note 2</span></div><div class="">
 
-<p>The term label is not limited to the label element in HTML.</p></div></div></dd></dl><p></p>
+<p>The term label is not limited to the label element in <abbr title="HyperText Markup Language">HTML</abbr>.</p></div></div></dd></dl><p></p>
 </section></section><section id="dfn-large-scale"><div class="header-wrapper"><h4 id="x7-3-16-dfn-large-scale">large scale</h4><a class="self-link" href="#dfn-large-scale" aria-label="Permalink for Section large scale"></a></div><blockquote class="wcag-quote"><p>with at least 18 point or 14 point bold or font size that would yield equivalent size
       for Chinese, Japanese and Korean (CJK) fonts
    </p>
@@ -2843,7 +2843,7 @@ People with low vision often use devices at less than the standard viewing dista
 <p>The name may be hidden and only exposed by assistive technology <ins><strong>[or by accessibility features of <a href="#software">software</a>]</strong></ins>, whereas a <a href="#dfn-labels">label</a> is presented to all users. In many (but not all) cases, the label and the name are the same.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-188"><div role="heading" class="note-title marker" id="h-note-188" aria-level="6"><span>Note 2</span></div><div class="">
 
-<p>This is unrelated to the name attribute in HTML.</p></div></div><p></p>
+<p>This is unrelated to the name attribute in <abbr title="HyperText Markup Language">HTML</abbr>.</p></div></div><p></p>
 <div class="example">
 
 <p><span>Example: </span>For non-web software, “AccessibleName” (or the corresponding term used in different APIs) of the Accessibility API of the platform is an example of such a name.</p></div>
