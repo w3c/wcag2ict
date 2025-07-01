@@ -623,34 +623,47 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### multiple-ways
 
-###### Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software
-
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
+###### Applying SC 2.4.2 Page Titled to Non-Web Documents
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing "web page" with "non-web document" and “set of web pages” with “set of non-web documents”.
 
 With these substitutions, this success criterion would read:
 
-(for non-web documents)
-
 **2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web document](#document)]**</INS> within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> except where the <INS>**[non-web document]**</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
+<div class="note wcag2ict">
+    
+See [set of documents](#set-of-documents) in the Key Terms section to determine when a group of documents is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
 
-(for software programs)
+The definitions of “[set of documents](#set-of-documents)” in the Key Terms section are predicated on the ability to navigate from each element of the set to each other, and navigation is a type of locating. So the mechanism used to navigate between elements of the set will be one way of locating information in the set. Non-web environments, generally major operating systems with browse and search capabilities, often provide infrastructure and tools that provide mechanisms for locating content in a set of non-web documents. For example, it may be possible to browse through the files that make up a set, or search within members of the set for the names of other members. A file directory would be the equivalent of a site map for documents in a set, and a search function in a file system would be equivalent to a web search function for web pages. Such facilities may provide additional ways of locating information in the set.</div>
+<div class="note wcag2ict">
+    
+While some users may find it useful to have multiple ways to locate some groups of user interface elements within a document, this is not required by the success criterion (and may pose difficulties in some situations).</div>
+<div class="note wcag2ict">
+    
+The definitions of “[set of documents](#set-of-documents)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from meeting this success criterion—is achieved by the definition of set.</div>
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[software program](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> except where the <INS>**[software program]**</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
+###### Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing "web page" with "non-web software program" and “set of web pages” with “set of software programs”.
+
+With these substitutions, this success criterion would read:
+
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web software program](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> except where the <INS>**[non-web software program]**</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
 
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div><div class="note wcag2ict">
+See [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of non-web software programs is considered a set for this success criterion. (Sets of non-web software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
 
-The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in the Key Terms section are predicated on the ability to navigate from each element of the set to each other, and navigation is a type of locating. So the mechanism used to navigate between elements of the set will be one way of locating information in the set. Non-web environments, generally major operating systems with browse and search capabilities, often provide infrastructure and tools that provide mechanisms for locating content in a set of non-web documents or a set of software programs. For example, it may be possible to browse through the files or programs that make up a set, or search within members of the set for the names of other members. A file directory would be the equivalent of a site map for documents in a set, and a search function in a file system would be equivalent to a web search function for web pages. Such facilities may provide additional ways of locating information in the set.</div>
+The definitions of “[set of software programs](#set-of-software-programs)” in the Key Terms section are predicated on the ability to navigate from each element of the set to each other, and navigation is a type of locating. The mechanism used to navigate between elements of the set would be one way of locating information in the set. Non-web environments, generally major operating systems with browse and search capabilities, often provide infrastructure and tools that provide mechanisms for locating content in a set of non-web software programs. For example, it may be possible to browse through the programs that make up a set, or search within members of the set for the names of other members. Such facilities may provide additional ways of locating information in the set.</div>
 <div class="note wcag2ict">
     
-An example of the use of “a software program that is part of process”, that would meet the exception for this success criterion, would be one where programs are interlinked but the interlinking depends on program A being used before program B, for validation or to initialize the dataset etc.</div>
+An example of the use of “a non-web software program that is part of process”, that would meet the exception for this success criterion, would be one where programs are interlinked but the interlinking depends on program A being used before program B, for validation or to initialize the dataset etc.</div>
 <div class="note wcag2ict">
     
-While some users may find it useful to have multiple ways to locate some groups of user interface elements within a document or software program, this is not required by the success criterion (and may pose difficulties in some situations).</div>
+While some users may find it useful to have multiple ways to locate some groups of user interface elements within a non-web software program, this is not required by the success criterion (and may pose difficulties in some situations).</div>
 <div class="note wcag2ict">
     
-The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from meeting this success criterion—is achieved by the definition of set.</div>
+The definitions of “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from meeting this success criterion—is achieved by the definition of set.</div>
 
 <div class="note wcag2ict">
     
