@@ -642,7 +642,7 @@ While some users may find it useful to have multiple ways to locate some groups 
     
 The definitions of “[set of documents](#set-of-documents)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from meeting this success criterion—is achieved by the definition of set.</div>
 
-###### Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software
+###### Applying SC 2.4.5 Multiple Ways to Non-Web Software
 This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing "web page" with "non-web software program" and “set of web pages” with “set of software programs”.
 
 With these substitutions, this success criterion would read:
