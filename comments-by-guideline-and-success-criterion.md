@@ -108,6 +108,11 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.1](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships#intent).
 
+(for non-web documents)
+<div class="note wcag2ict">
+	
+Where non-web documents contain non-standard structure types (roles), it is best practice to map them to a standard structure type as a fall-back solution for the reader.</div>
+
 (for non-web software)
 <div class="note wcag2ict">
     
