@@ -134,7 +134,7 @@ The concepts behind the five Notes and in [Understanding Accessibility Supported
 
 ##### Applying “ambiguous to users in general” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” with “non-web document or software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web page” with “non-web document or software”.
 
 With this substitution, it would read:
 
@@ -309,7 +309,7 @@ Because this deals with relative luminance and not luminance, it can only be app
 
 ##### Applying “input error” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” with “non-web document or software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web page” with “non-web document or software”.
 
 With this substitution, it would read:
 
@@ -553,7 +553,7 @@ the success criterion does not evaluate to 'false' when applied to the <INS>**[[
 
 #### dfn-set-of-web-pages
 
-##### Applying “set of Web pages” to Non-Web Documents and Software
+##### Applying “set of web pages” to Non-Web Documents and Software
 
 See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.
 
@@ -565,7 +565,7 @@ For success criteria that use the term “set of web pages”, the term is repla
 
 ##### Applying “structure” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “a Web page” with “non-web documents or software” and replacing “collection of Web pages” with “set of documents or set of software programs”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “a web page” with “non-web documents or software” and replacing “collection of web pages” with “set of documents or set of software programs”.
 
 With these substitutions, it would read:
 
