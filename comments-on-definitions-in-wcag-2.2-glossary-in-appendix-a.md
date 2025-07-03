@@ -151,7 +151,7 @@ The word guava in the following sentence “One of the notable exports is guava�
 
 ##### Applying “assistive technology” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT”), and replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT”), and replacing “web content” with “content”.
 
 With these substitutions, it would read:
 
@@ -399,7 +399,7 @@ When evaluating non-web documents and software, 1 point means 1.333 [CSS pixels]
 
 ##### Applying “name” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
 
 With this substitution and addition, it would read:
 
@@ -461,7 +461,7 @@ Software typically enables [content](#content-on-and-off-the-web) to be programm
 
 ##### Applying “relative luminance” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web content” with “content”.
 
 With this substitution, it would read:
 
@@ -504,7 +504,7 @@ Because relative luminance is defined such that it cannot directly apply to hard
 
 ##### Applying “role” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web content” with “content”.
 
 With this substitution, it would read:
 
