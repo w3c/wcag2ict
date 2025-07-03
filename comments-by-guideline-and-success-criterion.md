@@ -403,14 +403,9 @@ This applies directly as written, and as described in [Intent from Understanding
 (for non-web software)
 <div class="ednote wcag2ict">
 
-**Note 1 Proposal 1: Keep note as-is**
+**Note 1 from 3 July: Is there a better term than "keystrokes"?**
 	
-Keyboard interface does not refer to a physical device but to the interface between the software and any keyboard or keyboard substitute (i.e., the interface where the software accepts text or other keystroke input from the platform which may come from a keyboard or from a keyboard alternative). [Platform software](#platform-software) may provide a ‘keyboard interface’ that software can read instead of reading any keyboard hardware directly. When software supports such a device-independent service of the platform, and the software or non-web document functionality is made fully operable through the service, then this success criterion would be satisfied.</div>
-<div class="ednote wcag2ict">
-
-**Note 1 Proposal 2: Edit for clarity and brevity**
-	
-Keyboard interface does not refer to a physical device but to the platform service (e.g. operating system, browser, etc.) that provides software with keystrokes from any keyboard or keyboard substitute. When software supports such a device-independent service of the platform, and the non-web document or software functionality is made fully operable through the service, then this success criterion would be satisfied.</div>
+NOTE 1: Keyboard interface does not refer to a physical device but to the service of platform software (e.g. operating system, browser, etc.) that provides the software with **keystrokes** from any keyboard or keyboard substitute. When the non-web software supports such a device-independent service of the platform software, and the non-web software functionality is made fully operable through the service, then this success criterion would be satisfied.</div>
 <div class="ednote wcag2ict">
 
 **Note 2 Proposal 1: Keep note as-is**
@@ -425,7 +420,7 @@ NOTE 2: This success criterion does not imply that software always needs to dire
 NOTE 3: Nor does it imply that software always needs to provide its own [virtual keyboard](#virtual-keyboard). **But if it does, then it also needs to also support keyboard input from any keyboard interface provided by platform software.**</div>
 <div class="note wcag2ict">
 
-**Notes 2 & 3 Proposal 3: Split Note 2 into two notes (as it currently appears in the EN 301 549)**
+**Notes 2 & 3 Proposal 3: Split Note 2 into two notes (edits made to what appears in the EN 301 549)**
 
 NOTE 2: This success criterion does not imply that **non-web** software always needs to directly support a keyboard or “keyboard interface” **if one is not provided by the platform software. But if one is provided, the software needs to make all functionality avialable through it - unless the exception applies.**
 
