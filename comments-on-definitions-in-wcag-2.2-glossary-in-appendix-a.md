@@ -134,7 +134,7 @@ The concepts behind the five Notes and in [Understanding Accessibility Supported
 
 ##### Applying “ambiguous to users in general” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” with “non-web document or software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web page” with “non-web document or software”.
 
 With this substitution, it would read:
 
@@ -151,7 +151,7 @@ The word guava in the following sentence “One of the notable exports is guava�
 
 ##### Applying “assistive technology” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT”), and replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “acts as a user agent” with “acts stand-alone”, replacing “a mainstream user agent” with “mainstream information and communication technologies (ICT)” (later “mainstream ICT”), and replacing “web content” with “content”.
 
 With these substitutions, it would read:
 
@@ -309,7 +309,7 @@ Because this deals with relative luminance and not luminance, it can only be app
 
 ##### Applying “input error” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web page” with “non-web document or software”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web page” with “non-web document or software”.
 
 With this substitution, it would read:
 
@@ -387,7 +387,7 @@ Fonts with extraordinarily thin strokes or unusual features and characteristics 
 Font size is the size when the content is delivered. It does not include resizing that may be done by a user.</div>
 <div class="note">
 
-The actual size of the character that a user sees is dependent both on the author-defined size and the user's display, <INS>**[user agent or [non-web software](#software)]**</INS> settings. For many mainstream body text fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150% of the default size for body text (assuming that the body font is 100%), but authors would need to check this for the particular fonts in use. When fonts are defined in relative units, the actual point size is calculated by the <INS>**[user agent or [non-web software]**</INS> for display. The point size should be obtained from the <INS>**[user agent or non-web software]**</INS>, or calculated based on font metrics as the <INS>**[user agent or non-web software]**</INS> does, when evaluating this success criterion. Users who have low vision would be responsible for choosing appropriate settings.</div>
+The actual size of the character that a user sees is dependent both on the author-defined size and the user's display, <INS>**[user agent or [non-web software](#software)]**</INS> settings. For many mainstream body text fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150% of the default size for body text (assuming that the body font is 100%), but authors would need to check this for the particular fonts in use. When fonts are defined in relative units, the actual point size is calculated by the <INS>**[user agent or non-web software]**</INS> for display. The point size should be obtained from the <INS>**[user agent or non-web software]**</INS>, or calculated based on font metrics as the <INS>**[user agent or non-web software]**</INS> does, when evaluating this success criterion. Users who have low vision would be responsible for choosing appropriate settings.</div>
 <div class="note">
 
 When using text without specifying the font size, the smallest font size used on major <INS>**[browsers, [user agents](#user-agent), or other [platform software](#platform-software)]**</INS> for unspecified text would be a reasonable size to assume for the font. If a level 1 heading is rendered in 14pt bold or higher on major <INS>**[browsers, user agents, or platform software]**</INS>, then it would be reasonable to assume it is large text. Relative scaling can be calculated from the default sizes in a similar fashion.</div>
@@ -399,7 +399,7 @@ When evaluating non-web documents and software, 1 point means 1.333 [CSS pixels]
 
 ##### Applying “name” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web content” with “content” and adding “or by accessibility features of software” after “assistive technology” in Note 1.
 
 With this substitution and addition, it would read:
 
@@ -461,7 +461,7 @@ Software typically enables [content](#content-on-and-off-the-web) to be programm
 
 ##### Applying “relative luminance” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web content” with “content”.
 
 With this substitution, it would read:
 
@@ -504,7 +504,7 @@ Because relative luminance is defined such that it cannot directly apply to hard
 
 ##### Applying “role” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “Web content” with “content”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “web content” with “content”.
 
 With this substitution, it would read:
 
@@ -553,7 +553,7 @@ the success criterion does not evaluate to 'false' when applied to the <INS>**[[
 
 #### dfn-set-of-web-pages
 
-##### Applying “set of Web pages” to Non-Web Documents and Software
+##### Applying “set of web pages” to Non-Web Documents and Software
 
 See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.
 
@@ -565,7 +565,7 @@ For success criteria that use the term “set of web pages”, the term is repla
 
 ##### Applying “structure” to Non-Web Documents and Software
 
-This applies directly as written and as described in the WCAG 2 glossary, replacing “a Web page” with “non-web documents or software” and replacing “collection of Web pages” with “set of documents or set of software programs”.
+This applies directly as written and as described in the WCAG 2 glossary, replacing “a web page” with “non-web documents or software” and replacing “collection of web pages” with “set of documents or set of software programs”.
 
 With these substitutions, it would read:
 
