@@ -126,9 +126,9 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
             
         *   is as easy to find and obtain for a person with a disability as it is for a person without disabilities.     
 
-<div class="note wcag2ict">
+<div class="note replaced">
 
-<INS>**[The concepts behind the five Notes and in [Understanding Accessibility Supported](http://www.w3.org/WAI/WCAG22/Understanding/conformance#accessibility-support) are applicable to web technologies. The same or similar factors are applicable for non-web technologies.]**</INS></div></DD></DL>
+The concepts behind the five Notes and in [Understanding Accessibility Supported](http://www.w3.org/WAI/WCAG22/Understanding/conformance#accessibility-support) are applicable to web technologies. The same or similar factors are applicable for non-web technologies.</div></DD></DL>
 
 #### dfn-ambiguous-to-users-in-general
 
