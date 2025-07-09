@@ -543,29 +543,38 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ##### bypass-blocks
 
-###### Applying SC 2.4.1 Bypass Blocks to Non-Web Documents and Software
+###### Applying SC 2.4.1 Bypass Blocks to Non-Web Documents
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “on multiple web pages” with “in multiple non-web documents in a set of non-web documents” to explicitly state that the multiple documents are part of a set rather than any two documents.
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “web pages” with “non-web documents in a set of non-web documents” or “software programs in a set of software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
+**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated <INS>**[in multiple [non-web documents](#document) in a [set of non-web documents](#set-of-documents)]**</INS>.
+
+<div class="note wcag2ict">
+    
+See [set of documents](#set-of-documents) in the Key Terms section to determine when a group of documents is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
+    
+Individual documents (not in a set) would automatically satisfy this success criterion because this success criterion applies only to things that appear in a set.</div>
+<div class="note wcag2ict">
+    
+Although not required by the success criterion, being able to bypass blocks of content that are repeated _within_ non-web documents directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+
+###### Applying SC 2.4.1 Bypass Blocks to Non-Web Software
+
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “in multiple web pages” with “in multiple software programs in a set of software programs” to explicitly state that the software programs are part of a set rather than any two pieces of software.
 
 With these substitutions, this success criterion would read:
 
-(for non-web documents)
-
-**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated on multiple <INS>**[[non-web documents](#document) in a [set of non-web documents](#set-of-documents)]**</INS>.
-
-(for software programs)
-
-**2.4.1 Bypass Blocks:** A mechanism is available to bypass blocks of content that are repeated on multiple <INS>**[[software programs](#software) in a [set of software programs](#set-of-software-programs)]**</INS>.
+**2.4.1 Bypass Blocks:** A mechanism is available to bypass blocks of content that are repeated <INS>**[in multiple [software programs](#software) in a [set of software programs](#set-of-software-programs)]**</INS>.
 
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+See [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note wcag2ict">
     
-Individual documents or software programs (not in a set) would automatically satisfy this success criterion because this success criterion applies only to things that appear in a set.</div>
+Individual software programs (not in a set) would automatically satisfy this success criterion because this success criterion applies only to things that appear in a set.</div>
 <div class="note wcag2ict">
     
-Although not required by the success criterion, being able to bypass blocks of content that are repeated _within_ non-web documents or software directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+Although not required by the success criterion, being able to bypass blocks of content that are repeated _within_ software directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
 <div class="note wcag2ict">
     
 Many software user interface components have built-in mechanisms to navigate directly to / among them, which also have the effect of skipping over or bypassing blocks of content.</div>
