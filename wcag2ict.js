@@ -301,6 +301,12 @@ function furtherProcessNotesAndExamples() {
         if (note.querySelector(".original")) {
             noteTitle = noteTitle + " (Original)";
         }
+        if (note.querySelector(".wcag2ict.documents")) {  
+            noteTitle = noteTitle + " (for non-web documents)";
+        }
+        if (note.querySelector(".wcag2ict.software")) {  
+            noteTitle = noteTitle + " (for non-web software)";
+        }
         note.querySelector("div > span").textContent = noteTitle;
     })
     let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict");
