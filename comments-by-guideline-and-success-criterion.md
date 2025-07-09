@@ -546,6 +546,8 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 ###### Applying SC 2.4.1 Bypass Blocks to Non-Web Documents
 This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “on multiple web pages” with “in multiple non-web documents in a set of non-web documents” to explicitly state that the multiple documents are part of a set rather than any two documents.
 
+With these substitutions, this success criterion would read:
+
 **2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated <INS>**[in multiple [non-web documents](#document) in a [set of non-web documents](#set-of-documents)]**</INS>.
 
 <div class="note wcag2ict">
@@ -959,7 +961,7 @@ See [set of documents](#set-of-documents) in the Key Terms section to determine 
 <div class="note wcag2ict">
     
 Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within non-web documents directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
-###### Applying SC 3.2.3 Consistent Navigation to Software
+###### Applying SC 3.2.3 Consistent Navigation to Non-Web Software
 
 This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple pages" with "in multiple non-web software programs"; and replacing “set of web pages” with “set of software programs”.
 
@@ -980,26 +982,34 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### consistent-identification
 
-###### Applying SC 3.2.4 Consistent Identification to Non-Web Documents and Software
-
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
+###### Applying SC 3.2.4 Consistent Identification to Non-Web Documents
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents”.
 
 With these substitutions, it would read:
 
-(for non-web documents)
-
 **3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> are identified consistently.
 
-(for software programs)
+<div class="note wcag2ict">
+    
+See [set of documents](#set-of-documents) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
+    
+Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+
+###### Applying SC 3.2.4 Consistent Identification to Non-Web Software
+
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of software programs”.
+
+With these substitutions, it would read:
 
 **3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> are identified consistently.
 
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+See [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note wcag2ict">
     
-Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
 
 <div class="note wcag2ict">
     
