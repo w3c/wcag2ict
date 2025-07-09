@@ -743,7 +743,7 @@ This requirement applies to <INS>**[[content](#content-on-and-off-the-web)]**</I
 
 <div class="note wcag2ict">
     
-Content that interprets pointer actions and controls which events are used for executing functionality is less common in documents. An example where a document author could add such functionality is an interactive prototype document created in a software design tool.</div>
+Content that interprets pointer actions and controls which events are used for executing functionality is less common in non-web documents. An example where a non-web document author could add such functionality is an interactive prototype document created in a software design tool.</div>
 
 (for non-web software)
 
