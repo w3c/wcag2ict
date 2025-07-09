@@ -947,26 +947,32 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ##### consistent-navigation
 
-###### Applying SC 3.2.3 Consistent Navigation to Non-Web Documents and Software
-
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple pages" with "in multiple non-web documents" and "in multiple non-web software programs"; and replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
+###### Applying SC 3.2.3 Consistent Navigation to Non-Web Documents
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple pages" with "in multiple non-web documents"; and replacing “set of web pages” with “set of non-web documents”.
 
 With these substitutions, it would read:
 
-(for non-web documents)
-
 **3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>**[in multiple [non-web documents](#document)]**</INS> within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
+<div class="note wcag2ict">
+    
+See [set of documents](#set-of-documents) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
+    
+Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within non-web documents directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+###### Applying SC 3.2.3 Consistent Navigation to Software
 
-(for software programs)
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple pages" with "in multiple non-web software programs"; and replacing “set of web pages” with “set of software programs”.
+
+With these substitutions, it would read:
 
 **3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>**[in multiple [software programs](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
 
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note wcag2ict">
     
-Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within non-web documents or software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
 
 <div class="note wcag2ict">
     
