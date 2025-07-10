@@ -622,10 +622,11 @@ With these substitutions, this success criterion would read:
 
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div><div class="note wcag2ict">
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note wcag2ict software">
 
 Sets of software that meet this definition appear to be extremely rare.</div>
+<div class="note wcag2ict">
 
 The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in the Key Terms section are predicated on the ability to navigate from each element of the set to each other, and navigation is a type of locating. So the mechanism used to navigate between elements of the set will be one way of locating information in the set. Non-web environments, generally major operating systems with browse and search capabilities, often provide infrastructure and tools that provide mechanisms for locating content in a set of non-web documents or a set of software programs. For example, it may be possible to browse through the files or programs that make up a set, or search within members of the set for the names of other members. A file directory would be the equivalent of a site map for documents in a set, and a search function in a file system would be equivalent to a web search function for web pages. Such facilities may provide additional ways of locating information in the set.</div>
 <div class="note wcag2ict">
@@ -900,7 +901,7 @@ This applies directly as written and described in [Intent from Understanding Suc
 
 With these substitutions, it would read:
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>**[**in multiple **[non-web documents](#document)** within a **[set of non-web documents](#set-of-documents)** or in multiple **[software programs](#software)** within a **[set of software programs](#set-of-software-programs)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>**[** in multiple **[non-web documents](#document)** within a **[set of non-web documents](#set-of-documents)** or in multiple **[software programs](#software)** within a **[set of software programs](#set-of-software-programs)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
 
 <div class="note wcag2ict">
     
