@@ -295,8 +295,11 @@ function furtherProcessNotesAndExamples() {
         if (note.querySelector(".wcag2ict")) {
             noteTitle = noteTitle + " (Added)";
         }
-        if (note.querySelector(".replacement")) {
+        if (note.querySelector(".replaced")) {
             noteTitle = noteTitle + " (Replaced)";
+        }
+        if (note.querySelector(".modified")) {
+            noteTitle = noteTitle + " (Modified)";
         }
         if (note.querySelector(".original")) {
             noteTitle = noteTitle + " (Original)";
