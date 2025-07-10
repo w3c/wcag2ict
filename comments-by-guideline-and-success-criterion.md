@@ -536,29 +536,40 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ##### bypass-blocks
 
-###### Applying SC 2.4.1 Bypass Blocks to Non-Web Documents and Software
-
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “web pages” with “non-web documents in a set of non-web documents” or “software programs in a set of software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
+###### Applying SC 2.4.1 Bypass Blocks to Non-Web Documents
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “on multiple web pages” with “in multiple non-web documents in a set of non-web documents” to explicitly state that the multiple documents are part of a set rather than any two documents.
 
 With these substitutions, this success criterion would read:
 
-(for non-web documents)
-
-**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated on multiple <INS>**[[non-web documents](#document) in a [set of non-web documents](#set-of-documents)]**</INS>.
-
-(for software programs)
-
-**2.4.1 Bypass Blocks:** A mechanism is available to bypass blocks of content that are repeated on multiple <INS>**[[software programs](#software) in a [set of software programs](#set-of-software-programs)]**</INS>.
+**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated <INS>**[in multiple [non-web documents](#document) in a [set of non-web documents](#set-of-documents)]**</INS>.
 
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+See [set of documents](#set-of-documents) in the Key Terms section to determine when a group of documents is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note wcag2ict">
     
-Individual documents or software programs (not in a set) would automatically satisfy this success criterion because this success criterion applies only to things that appear in a set.</div>
+Individual documents (not in a set) would automatically satisfy this success criterion because this success criterion applies only to things that appear in a set.</div>
 <div class="note wcag2ict">
     
-Although not required by the success criterion, being able to bypass blocks of content that are repeated _within_ non-web documents or software directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+Although not required by the success criterion, being able to bypass blocks of content that are repeated _within_ non-web documents directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+
+###### Applying SC 2.4.1 Bypass Blocks to Non-Web Software
+
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “in multiple web pages” with “in multiple software programs in a set of software programs” to explicitly state that the software programs are part of a set rather than any two pieces of software.
+
+With these substitutions, this success criterion would read:
+
+**2.4.1 Bypass Blocks:** A mechanism is available to bypass blocks of content that are repeated <INS>**[in multiple [software programs](#software) in a [set of software programs](#set-of-software-programs)]**</INS>.
+
+<div class="note wcag2ict">
+    
+See [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
+    
+Individual software programs (not in a set) would automatically satisfy this success criterion because this success criterion applies only to things that appear in a set.</div>
+<div class="note wcag2ict">
+    
+Although not required by the success criterion, being able to bypass blocks of content that are repeated _within_ software directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
 <div class="note wcag2ict">
     
 Many software user interface components have built-in mechanisms to navigate directly to / among them, which also have the effect of skipping over or bypassing blocks of content.</div>
@@ -614,34 +625,47 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### multiple-ways
 
-###### Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software
-
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
+###### Applying SC 2.4.2 Page Titled to Non-Web Documents
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing "web page" with "non-web document" and “set of web pages” with “set of non-web documents”.
 
 With these substitutions, this success criterion would read:
 
-(for non-web documents)
-
 **2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web document](#document)]**</INS> within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> except where the <INS>**[non-web document]**</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
+<div class="note wcag2ict">
+    
+See [set of documents](#set-of-documents) in the Key Terms section to determine when a group of documents is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
 
-(for software programs)
+The definition of “[set of documents](#set-of-documents)” in the Key Terms section is predicated on the ability to navigate from each element of the set to each other, and navigation is a type of locating. So the mechanism used to navigate between elements of the set will be one way of locating information in the set. Non-web environments, generally major operating systems with browse and search capabilities, often provide infrastructure and tools that provide mechanisms for locating content in a set of non-web documents. For example, it may be possible to browse through the files that make up a set, or search within members of the set for the names of other members. A file directory would be the equivalent of a site map for documents in a set, and a search function in a file system would be equivalent to a web search function for web pages. Such facilities may provide additional ways of locating information in the set.</div>
+<div class="note wcag2ict">
+    
+While some users may find it useful to have multiple ways to locate some groups of user interface elements within a document, this is not required by the success criterion (and may pose difficulties in some situations).</div>
+<div class="note wcag2ict">
+    
+The definitions of “[set of documents](#set-of-documents)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from meeting this success criterion—is achieved by the definition of set.</div>
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[software program](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> except where the <INS>**[software program]**</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
+###### Applying SC 2.4.5 Multiple Ways to Non-Web Software
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing "web page" with "non-web software program" and “set of web pages” with “set of software programs”.
+
+With these substitutions, this success criterion would read:
+
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web software program](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> except where the <INS>**[non-web software program]**</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
 
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div><div class="note wcag2ict">
+See [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of non-web software programs is considered a set for this success criterion. (Sets of non-web software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
 
-The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in the Key Terms section are predicated on the ability to navigate from each element of the set to each other, and navigation is a type of locating. So the mechanism used to navigate between elements of the set will be one way of locating information in the set. Non-web environments, generally major operating systems with browse and search capabilities, often provide infrastructure and tools that provide mechanisms for locating content in a set of non-web documents or a set of software programs. For example, it may be possible to browse through the files or programs that make up a set, or search within members of the set for the names of other members. A file directory would be the equivalent of a site map for documents in a set, and a search function in a file system would be equivalent to a web search function for web pages. Such facilities may provide additional ways of locating information in the set.</div>
+The definition of “[set of software programs](#set-of-software-programs)” in the Key Terms section is predicated on the ability to navigate from each element of the set to each other, and navigation is a type of locating. The mechanism used to navigate between elements of the set would be one way of locating information in the set. Non-web environments, generally major operating systems with browse and search capabilities, often provide infrastructure and tools that provide mechanisms for locating content in a set of non-web software programs. For example, it may be possible to browse through the programs that make up a set, or search within members of the set for the names of other members. Such facilities may provide additional ways of locating information in the set.</div>
 <div class="note wcag2ict">
     
-An example of the use of “a software program that is part of process”, that would meet the exception for this success criterion, would be one where programs are interlinked but the interlinking depends on program A being used before program B, for validation or to initialize the dataset etc.</div>
+An example of the use of “a non-web software program that is part of process”, that would meet the exception for this success criterion, would be one where programs are interlinked but the interlinking depends on program A being used before program B, for validation or to initialize the dataset etc.</div>
 <div class="note wcag2ict">
     
-While some users may find it useful to have multiple ways to locate some groups of user interface elements within a document or software program, this is not required by the success criterion (and may pose difficulties in some situations).</div>
+While some users may find it useful to have multiple ways to locate some groups of user interface elements within a non-web software program, this is not required by the success criterion (and may pose difficulties in some situations).</div>
 <div class="note wcag2ict">
     
-The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from meeting this success criterion—is achieved by the definition of set.</div>
+The definitions of “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from meeting this success criterion—is achieved by the definition of set.</div>
 
 <div class="note wcag2ict software">
     
@@ -899,26 +923,32 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ##### consistent-navigation
 
-###### Applying SC 3.2.3 Consistent Navigation to Non-Web Documents and Software
-
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple pages" with "in multiple non-web documents" and "in multiple non-web software programs"; and replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
+###### Applying SC 3.2.3 Consistent Navigation to Non-Web Documents
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple pages" with "in multiple non-web documents"; and replacing “set of web pages” with “set of non-web documents”.
 
 With these substitutions, it would read:
 
-(for non-web documents)
-
 **3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>**[in multiple [non-web documents](#document)]**</INS> within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
+<div class="note wcag2ict">
+    
+See [set of documents](#set-of-documents) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
+    
+Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within non-web documents directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+###### Applying SC 3.2.3 Consistent Navigation to Non-Web Software
 
-(for software programs)
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple pages" with "in multiple non-web software programs"; and replacing “set of web pages” with “set of software programs”.
+
+With these substitutions, it would read:
 
 **3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>**[in multiple [software programs](#software)]**</INS> within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
 
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note wcag2ict">
     
-Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within non-web documents or software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
 
 <div class="note wcag2ict">
     
@@ -926,26 +956,34 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### consistent-identification
 
-###### Applying SC 3.2.4 Consistent Identification to Non-Web Documents and Software
-
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents” and “set of software programs”.
+###### Applying SC 3.2.4 Consistent Identification to Non-Web Documents
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents”.
 
 With these substitutions, it would read:
 
-(for non-web documents)
-
 **3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[[set of non-web documents](#set-of-documents)]**</INS> are identified consistently.
 
-(for software programs)
+<div class="note wcag2ict">
+    
+See [set of documents](#set-of-documents) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
+    
+Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+
+###### Applying SC 3.2.4 Consistent Identification to Non-Web Software
+
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of software programs”.
+
+With these substitutions, it would read:
 
 **3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[[set of software programs](#set-of-software-programs)]**</INS> are identified consistently.
 
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+See [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note wcag2ict">
     
-Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ non-web documents or software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+Although not required by this success criterion, ensuring that component identification be consistent when they occur more than once _within_ software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
 
 <div class="note wcag2ict">
     
