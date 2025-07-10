@@ -614,11 +614,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “a web page within a set of web pages” with “a non-web document within a set of non-web documents or a set of software programs within a set of software programs” and "the web page" with "the non-web document or software program**.
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents or a set of software programs within a set of software programs” and "the web page" with "the non-web document or software program**.
 
 With these substitutions, this success criterion would read:
 
-**2.4.5 Multiple Ways:** More than one way is available to locate <INS>a **[[non-web document](#document)**</INS> within a <INS>**[set of non-web documents](#set-of-documents)** or a **[software program](#software)** within a **[set of software programs](#set-of-software-programs)]**</INS> except where <INS>[the non-web document or software program]</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web document](#document)** within a **[set of non-web documents](#set-of-documents)** or a **[software program](#software)** within a **[set of software programs](#set-of-software-programs)]**</INS> except where <INS>[the non-web document or software program]</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
 
 <div class="note wcag2ict">
     
@@ -900,7 +900,7 @@ This applies directly as written and described in [Intent from Understanding Suc
 
 With these substitutions, it would read:
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>**[in multiple [non-web documents](#document) within a [set of non-web documents](#set-of-documents) or in multiple [software programs](#software) within a [set of software programs](#set-of-software-programs)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>[in multiple **[non-web documents](#document)** within a **[set of non-web documents](#set-of-documents)** or in multiple **[software programs](#software)** within a **[set of software programs](#set-of-software-programs)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
 
 <div class="note wcag2ict">
     
