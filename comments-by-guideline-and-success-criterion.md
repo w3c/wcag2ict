@@ -1150,7 +1150,7 @@ With this substitution, it would read:
 
 For non-web document formats that support interoperability with assistive technology, standard user interface components often satisfy this success criterion when used according to the general design and accessibility guidance for the document format.</div>
 
-<div class="note software">
+<div class="note replaced software">
     
 This success criterion is primarily for software developers who develop or use custom user interface components. Standard user interface components on most [accessibility-supported](#dfn-accessibility-supported) platforms already satisfy this success criterion when used according to specification.</div>
 <div class="note wcag2ict software">
