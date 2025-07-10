@@ -542,7 +542,7 @@ This applies directly as written and described in [Intent from Understanding Suc
 
 With these substitutions, this success criterion would read:
 
-**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated <INS>[ in multiple **[non-web documents](#document)** in a **[set of non-web documents](#set-of-documents)** or in multiple **[software programs](#software)** in a **[set of software programs](#set-of-software-programs)**]</INS>.
+**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated <INS>[in multiple **[non-web documents](#document)** in a **[set of non-web documents](#set-of-documents)** or in multiple **[software programs](#software)** in a **[set of software programs](#set-of-software-programs)**]</INS>.
 
 <div class="note wcag2ict">
     
