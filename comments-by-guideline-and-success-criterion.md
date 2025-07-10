@@ -542,7 +542,7 @@ This applies directly as written and described in [Intent from Understanding Suc
 
 With these substitutions, this success criterion would read:
 
-**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated <INS>**[** in multiple **[non-web documents](#document)** in a **[set of non-web documents](#set-of-documents)** or in multiple **[software programs](#software)** in a **[set of software programs](#set-of-software-programs)]**</INS>.
+**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated <INS>[ in multiple **[non-web documents](#document)** in a **[set of non-web documents](#set-of-documents)** or in multiple **[software programs](#software)** in a **[set of software programs](#set-of-software-programs)**]</INS>.
 
 <div class="note wcag2ict">
     
@@ -618,7 +618,7 @@ This applies directly as written and described in [Intent from Understanding Suc
 
 With these substitutions, this success criterion would read:
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>**[[non-web document](#document)** within a **[set of non-web documents](#set-of-documents)** or a **[software program](#software)** within a **[set of software programs](#set-of-software-programs)]**</INS> except where <INS>[the non-web document or software program]</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>[**[non-web document](#document)** within a **[set of non-web documents](#set-of-documents)** or a **[software program](#software)** within a **[set of software programs](#set-of-software-programs)**]</INS> except where <INS>[the non-web document or software program]</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
 
 <div class="note wcag2ict">
     
@@ -901,7 +901,7 @@ This applies directly as written and described in [Intent from Understanding Suc
 
 With these substitutions, it would read:
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>**[** in multiple **[non-web documents](#document)** within a **[set of non-web documents](#set-of-documents)** or in multiple **[software programs](#software)** within a **[set of software programs](#set-of-software-programs)]**</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>[in multiple **[non-web documents](#document)** within a **[set of non-web documents](#set-of-documents)** or in multiple **[software programs](#software)** within a **[set of software programs](#set-of-software-programs)**]</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
 
 <div class="note wcag2ict">
     
@@ -925,7 +925,7 @@ This applies directly as written and described in [Intent from Understanding Suc
 
 With these substitutions, it would read:
 
-**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>**[set of non-web documents](#set-of-documents)** or a **[set of software programs](#set-of-software-programs)]**</INS> are identified consistently.
+**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>[**[set of non-web documents](#set-of-documents)** or a **[set of software programs](#set-of-software-programs)**]</INS> are identified consistently.
 
 <div class="note wcag2ict">
     
