@@ -295,11 +295,20 @@ function furtherProcessNotesAndExamples() {
         if (note.querySelector(".wcag2ict")) {
             noteTitle = noteTitle + " (Added)";
         }
-        if (note.querySelector(".replacement")) {
+        if (note.querySelector(".replaced")) {
             noteTitle = noteTitle + " (Replaced)";
+        }
+        if (note.querySelector(".modified")) {
+            noteTitle = noteTitle + " (Modified)";
         }
         if (note.querySelector(".original")) {
             noteTitle = noteTitle + " (Original)";
+        }
+        if (note.querySelector(".wcag2ict.documents")) {  
+            noteTitle = noteTitle + " (for non-web documents)";
+        }
+        if (note.querySelector(".wcag2ict.software")) {  
+            noteTitle = noteTitle + " (for non-web software)";
         }
         note.querySelector("div > span").textContent = noteTitle;
     })
