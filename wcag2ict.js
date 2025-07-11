@@ -12,7 +12,7 @@ function fetchWcagInfo() {
             prepTerm(term);
         });
     }).then((data) => {
-        finalCleanup();
+        return finalCleanup();
     });
 }
 
@@ -325,10 +325,10 @@ function makeChangeLog() {
     per_page: '100'
   });
   const url = `https://api.github.com/search/issues?${params.toString()}`;
-  fetch(url)
+  return fetch(url)
     .then(response => {
       if (!response.ok) {
-        // Optionally handle error
+        console.warn('Failed to fetch changelog data:', response.status);
         return null;
       }
       return response.json();
@@ -350,6 +350,9 @@ function makeChangeLog() {
         });
         changelog.appendChild(ul);
       }
+    })
+    .catch(error => {
+      console.warn('Error fetching changelog:', error);
     });
 }
 
@@ -360,9 +363,9 @@ function finalCleanup() {
     renumberExamples();
     addHeadingIds();
     removeNumbering();
- removeChange();
- furtherProcessNotesAndExamples();
- makeChangeLog();
+    removeChange();
+    furtherProcessNotesAndExamples();
+    return makeChangeLog();
 }
 
 function postRespec() {
