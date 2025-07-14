@@ -908,7 +908,7 @@ When no other language has been specified for a phrase or passage of text, its h
 **Proposal 3: A more descriptive version of Proposal 2**
 
 When no other language has been specified for a phrase or passage of text, its human language is the default human language **as programmatically specified by** the non-web document or software **per success criterion 3.1.1. This means** the human language of all content in single language non-web documents or software can be programmatically determined**, which would satisfy the intent of this success criterion.**</div>
-<div class="note wcag2ict">
+<div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
