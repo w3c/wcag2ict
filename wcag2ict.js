@@ -303,10 +303,16 @@ function furtherProcessNotesAndExamples() {
         }
         if (note.querySelector(".original")) {
             noteTitle = noteTitle + " (Original)";
+	}
+        if (note.querySelector(".documents")) {  
+            noteTitle = noteTitle + " (for non-web documents)";
         }
         if (note.querySelector(".wcag2ict.documents")) {  
             noteTitle = noteTitle + " (for non-web documents)";
         }
+        if (note.querySelector(".software")) {  
+            noteTitle = noteTitle + " (for non-web software)";
+	}
         if (note.querySelector(".wcag2ict.software")) {  
             noteTitle = noteTitle + " (for non-web software)";
         }
