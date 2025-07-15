@@ -12,7 +12,7 @@ function fetchWcagInfo() {
             prepTerm(term);
         });
     }).then((data) => {
-        finalCleanup();
+        return finalCleanup();
     });
 }
 
@@ -317,15 +317,61 @@ function furtherProcessNotesAndExamples() {
         example.innerHTML = example.innerHTML.replace("Example:", "Example (Added):");
     })
 }
+function makeChangeLog() {
+
+  // Build the query string for the GitHub API
+  const params = new URLSearchParams({
+    q: 'repo:w3c/wcag2ict is:pr is:merged merged:>2024-11-15',
+    per_page: '100'
+  });
+  const url = `https://api.github.com/search/issues?${params.toString()}`;
+  return fetch(url)
+    .then(response => {
+      if (!response.ok) {
+        console.warn('Failed to fetch changelog data:', response.status);
+        return null;
+      }
+      return response.json();
+    })
+    .then(data => {
+      if (!data || !data.items) return;
+      const mergedPRs = data.items;
+      // Find the element with id 'changelog' and append a ul with PR links
+      const changelog = document.getElementById('changelog');
+      if (changelog) {
+        const ul = document.createElement('ul');
+        mergedPRs.forEach(pr => {
+          if (pr.title.startsWith('[Editorial]')) {
+            return;
+          }
+          const li = document.createElement('li');
+          const span = document.createElement('span');
+          span.textContent = new Date(pr.closed_at).toISOString().split('T')[0] + " ";
+          const a = document.createElement('a');
+          a.href = pr.html_url;
+          a.textContent = pr.title;
+          li.appendChild(span);
+          li.appendChild(a);
+          ul.appendChild(li);
+        });
+        changelog.appendChild(ul);
+      }
+    })
+    .catch(error => {
+      console.warn('Error fetching changelog:', error);
+    });
+}
+
 function finalCleanup() {
-	hideDeepNums();
-	hideDeepNumsGlossary();
-	numberNotes();
-	renumberExamples();
-	addHeadingIds();
-	removeNumbering();
- removeChange();
- furtherProcessNotesAndExamples();
+    hideDeepNums();
+    hideDeepNumsGlossary();
+    numberNotes();
+    renumberExamples();
+    addHeadingIds();
+    removeNumbering();
+    removeChange();
+    furtherProcessNotesAndExamples();
+    return makeChangeLog();
 }
 
 function postRespec() {
