@@ -1,7 +1,7 @@
 Background on Text / Command-line / Terminal Applications and Interfaces
 ------------------------------------------------------------------------
 
-How text interfaces are realized
+How Text Interfaces Are Realized
 --------------------------------
 
 The interface of a text application is realized through a server application directing which characters should be placed on the screen, along with either a hardware terminal or a terminal application that displays the characters. The client terminal application for text applications is analogous to a web user agent for web pages. Also, like web applications, text applications may execute primarily on a remote server or execute locally.
@@ -10,7 +10,7 @@ Some text applications render like a TeleTYpewriter (TTY); their output is alway
 
 Historically, input to the text application itself is provided exclusively through a keyboard interface, though Automatic Speech Recognition (ASR) based voice input is sometimes now an alternative option - especially on mobile devices.
 
-How text applications have been made accessible via assistive technology
+How Text Applications Have Been Made Accessible Via Assistive Technology
 ------------------------------------------------------------------------
 
 Strategies for making text applications accessible through assistive technology involve two key tasks: (1) obtaining all of the text displayed in the interface, and (2) performing an analysis on that text to detect screen updates and attempt to discern structural elements.
@@ -19,7 +19,7 @@ For example, a text application screen reader might directly access the matrix o
 
 Similarly, a text application screen magnifier would gain access to the matrix of character cells to magnify them or re-display them in a larger font. It would scan for screen refreshes and updates and then apply heuristics to what had changed in order to decide what sub-matrix of character cells should appear in a magnified view. It would also scan for inverse video and a moving text cursor to track text being input by the user (and might combine the text matrix scanning with scanning of the keyboard input to match user input to what is appearing on the screen).
 
-Applying WCAG 2 to text applications
+Applying WCAG 2 to Text Applications
 --------------------------------------
 
 To apply WCAG to text applications, it is necessary to apply the glossary terms [accessibility supported](#dfn-accessibility-supported) and [programmatically determined](#dfn-programmatically-determinable) in the context of how text applications are rendered and the history of assistive technologies that made them accessible.
