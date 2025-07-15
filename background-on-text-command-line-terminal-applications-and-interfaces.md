@@ -1,4 +1,4 @@
-Background on Text / Command-line / Terminal Applications and Interfaces
+Background on Text / Command-Line / Terminal Applications and Interfaces
 ------------------------------------------------------------------------
 
 How Text Interfaces Are Realized
