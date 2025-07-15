@@ -341,10 +341,16 @@ function makeChangeLog() {
       if (changelog) {
         const ul = document.createElement('ul');
         mergedPRs.forEach(pr => {
+          if (pr.title.startsWith('[Editorial]')) {
+            return;
+          }
           const li = document.createElement('li');
+          const span = document.createElement('span');
+          span.textContent = new Date(pr.closed_at).toISOString().split('T')[0] + " ";
           const a = document.createElement('a');
           a.href = pr.html_url;
           a.textContent = pr.title;
+          li.appendChild(span);
           li.appendChild(a);
           ul.appendChild(li);
         });
