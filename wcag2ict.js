@@ -303,11 +303,11 @@ function furtherProcessNotesAndExamples() {
         }
         if (note.querySelector(".original")) {
             noteTitle = noteTitle + " (Original)";
-        }
-        if (note.querySelector(".wcag2ict.documents")) {  
+	}
+        if (note.querySelector(".documents")) {  
             noteTitle = noteTitle + " (for non-web documents)";
         }
-        if (note.querySelector(".wcag2ict.software")) {  
+        if (note.querySelector(".software")) {  
             noteTitle = noteTitle + " (for non-web software)";
         }
         note.querySelector("div > span").textContent = noteTitle;

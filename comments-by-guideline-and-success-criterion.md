@@ -221,7 +221,7 @@ The Intent section refers to the ability to allow users to enlarge the text on s
 	
 For non-web software, there may be cases where the platform does not scale all text up to 200%. In such cases, authors are encouraged to meet user needs by scaling text to the extent supported by user settings in the platform.</div>
 
-<div class="note wcag2ict">
+<div class="note wcag2ict software">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
