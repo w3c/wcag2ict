@@ -8,7 +8,7 @@ This document is an update to a W3C [Working Group Note](https://www.w3.org/2005
 The 2013 WCAG2ICT has been relied upon in regulations and legislation.  One example is \[\[etsi-en-301-549\]\] (Europe) and other standards that reference or incorporate EN 301 549 (e.g., India, Kenya, Australia).  Another example is Section 508 (U.S.) [Application of WCAG 2.0 to Non-Web ICT](https://www.federalregister.gov/documents/2017/01/18/2017-00395/information-and-communication-technology-ict-standards-and-guidelines#h-36), which looked to WCAG2ICT for detailed direction with providing specific guidance and exceptions to particular criteria from being applied to non-web technology.  Section 508 incorporated by reference WCAG as the [Accessibility Standard applicable to non-web documents](https://www.access-board.gov/ict/#E205.4) and requires [WCAG Conformance for non-web software](https://www.access-board.gov/ict/#E207.2).
 
 
-### Guidance in this Document
+### Guidance in This Document
 
 This document provides informative guidance (guidance that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and that does not set requirements) with regard to the interpretation and application of Web Content Accessibility Guidelines (WCAG) to non-web information and communications technologies (ICT). This document is a [Working Group Note](https://www.w3.org/2021/Process-20211102/#WGNote) (in contrast to WCAG 2.0, WCAG 2.1, and WCAG 2.2, which are W3C Recommendations).  Specifically, this document provides informative guidance on applying WCAG 2.0, 2.1, and 2.2 Level A and AA success criteria to non-web ICT, specifically to non-web documents and software.  
 
@@ -27,7 +27,7 @@ While WCAG 2 was designed to be technology-neutral, it assumes the presence of a
 
 The Task Force found that the majority of success criteria from WCAG 2 can be applied to non-web documents and software with either no or minimal changes. Since many of the Level A and AA success criteria do not include any web-related terms, they apply directly as written and as described in the “Intent” sections from the [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\] resource. Additional notes were provided, as needed, to provide assistance in applying them to non-web documents and software.
 
-#### Interpretation of Web Terminology in a Non-web Context
+#### Interpretation of Web Terminology in a Non-Web Context
 
 When certain web-specific terms or phrases like “web page(s)” were used in success criteria, those were replaced with non-web terms or phrases like “non-web document(s) and software”. Additional notes were also provided to explain the terminology replacements.
 
