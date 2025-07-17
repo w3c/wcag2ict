@@ -1,6 +1,6 @@
 ## Acknowledgements
 
-### Active Participants of the WCAG2ICT Task Force Involved in the Development of this Document
+### Active Participants of the WCAG2ICT Task Force Involved in the Development of This Document
 * Shadi Abou-Zahra (Amazon)
 * Charles Adams (Oracle Corporation)
 * Bruce Bailey (U.S. Access Board)
