@@ -388,44 +388,18 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.1.1 Keyboard to Non-Web Documents and Software
 
-**Intro language Proposal 1: Keep as-is**
-
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
 
-**Intro language Proposal 2: Limit to non-web software that provides a keyboard or accepts input from a keyboard or keyboard interface**
-
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent) if it is limited to ICT that is, or includes, **non-web software that provides a keyboard or accepts input from a keyboard or keyboard interface.**
-
-**Intro language Proposal 3: Only scope in ICT that accepts keyboard input**
-
-**Where the non-web software runs on ICT that includes a keyboard with a software platform that provides device-independent input services for keyboard operation,** this applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
-
-(for non-web software)
-<div class="ednote wcag2ict">
-
-**Note 1 from 3 July: Is there a better term than "keystrokes"?**
+<div class="note wcag2ict software">
 	
-NOTE 1: Keyboard interface does not refer to a physical device but to the service of platform software (e.g. operating system, browser, etc.) that provides the software with **keystrokes** from any keyboard or keyboard substitute. When the non-web software supports such a device-independent service of the platform software, and the non-web software functionality is made fully operable through the service, then this success criterion would be satisfied.</div>
-<div class="ednote wcag2ict">
+Keyboard interface does not refer to a physical device but to the service of platform software (e.g. operating system, browser, etc.) that provides the software with keystrokes from any keyboard or keyboard substitute. When the non-web software supports such a device-independent service of the platform software, and the non-web software functionality is made fully operable through the service, then this success criterion would be satisfied.</div>
+<div class="note wcag2ict software">
 
-**Note 2 Proposal 1: Keep note as-is**
+This success criterion does not imply that non-web software always needs to directly support a keyboard or “keyboard interface” if one is not provided by the platform software. But if one is provided, the software needs to make all functionality available through it - unless the exception applies.</div>
+<div class="note wcag2ict software">
 
-NOTE 2: This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface”. Nor does it imply that software always needs to provide a [virtual keyboard](#virtual-keyboard).</div>
-<div class="ednote wcag2ict">
-
-**Notes 2 & 3 Proposal 2: Split Note 2 into two notes (as it currently appears in the EN 301 549)**
-
-NOTE 2: This success criterion does not imply that software always needs to directly support a keyboard or “keyboard interface” **if one is not provided by the platform software. But if one is provided, the software needs to make all functionality available through it - unless the exception applies.**
-
-NOTE 3: Nor does it imply that software always needs to provide its own [virtual keyboard](#virtual-keyboard). **But if it does, then it also needs to also support keyboard input from any keyboard interface provided by platform software.**</div>
-<div class="note wcag2ict">
-
-**Notes 2 & 3 Proposal 3: Split Note 2 into two notes (edits made to what appears in the EN 301 549)**
-
-NOTE 2: This success criterion does not imply that **non-web** software always needs to directly support a keyboard or “keyboard interface” **if one is not provided by the platform software. But if one is provided, the software needs to make all functionality available through it - unless the exception applies.**
-
-NOTE 3: Nor does **this success criterion** imply that **non-web** software always needs to provide its own [virtual keyboard](#virtual-keyboard). **But if it does, then **the non-web software** still needs to support keyboard input from any keyboard interface provided by **the** platform software.**</div>
-<div class="note wcag2ict">
+Nor does this success criterion imply that non-web software always needs to provide its own [virtual keyboard](#virtual-keyboard). But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.</div>
+<div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
