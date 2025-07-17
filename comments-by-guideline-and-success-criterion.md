@@ -867,21 +867,9 @@ With this substitution, it would read:
 <div class="note wcag2ict">
 
 Examples of programmatic identification include language metadata or markup. There are some [non-web software](#software) and [non-web document](#document) technologies where there is no assistive technology supported method for marking the language for the different passages or phrases in the non-web document or software, and it would not be possible to satisfy this success criterion with those technologies.</div>
-<div class="ednote wcag2ict">
+<div class="note wcag2ict">
 
-**Proposal 1: Exact verbiage in EN 301 549**
-
-Inheritance is one common method. For example a non-web document provides the language that it is using and it can be assumed that all of the text or user interface elements within that document will be using the same language unless it is indicated.</div>
-<div class="ednote wcag2ict">
-
-**Proposal 2: Verbiage quoted from the Intent for SC 3.1.2, adjusted for non-web**
-
-When no other language has been specified for a phrase or passage of text, its human language is the default human language of the non-web document or software. **So** the human language of all content in single language non-web documents or software can be programmatically determined.</div>
-<div class="ednote wcag2ict">
-
-**Proposal 3: A more descriptive version of Proposal 2**
-
-When no other language has been specified for a phrase or passage of text, its human language is the default human language **as programmatically specified by** the non-web document or software **per success criterion 3.1.1. This means** the human language of all content in single language non-web documents or software can be programmatically determined**, which would satisfy the intent of this success criterion.**</div>
+Inheritance is one common method. For example, where the primary language of a non-web document is programmatically determinable, it can be assumed that all of the text or user interface elements within that document will be using the same language unless it is indicated.</div>
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
