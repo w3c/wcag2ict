@@ -385,7 +385,20 @@ In WCAG 2, the Guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.1.1 Keyboard to Non-Web Documents and Software
 
+**Proposal 1:** Keep as-is
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
+
+**Proposal 2:** Limit to non-web software that provides a keyboard or accepts input from a keyboard or keyboard interface
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent) if it is limited to ICT that is, or includes, **non-web software that provides a keyboard or accepts input from a keyboard or keyboard interface.**
+
+**Proposal 3:** (variation on 2) Only scope in ICT that accepts keyboard input
+
+**Where the non-web software runs on ICT that includes a keyboard with a software platform that provides device-independent input services for keyboard operation,** this applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
+
+**Proposal 4:** Adjustment to proposal 3
+Where **ICT is or includes** non-web software **that can be run on** a software platform that provides **a** device-independent **keyboard interface service**, this applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
 
 <div class="note wcag2ict software">
 	
