@@ -424,7 +424,7 @@ NOTE 3: Nor does it imply that software always needs to provide its own [virtual
 
 NOTE 2: This success criterion does not imply that **non-web** software always needs to directly support a keyboard or “keyboard interface” **if one is not provided by the platform software. But if one is provided, the software needs to make all functionality available through it - unless the exception applies.**
 
-NOTE 3: Nor does **this success criterion** imply that **non-web** software always needs to provide its own [virtual keyboard](#virtual-keyboard). **But if it does, then **the non-web software** also needs to support keyboard input from any keyboard interface provided by **the** platform software.**</div>
+NOTE 3: Nor does **this success criterion** imply that **non-web** software always needs to provide its own [virtual keyboard](#virtual-keyboard). **But if it does, then **the non-web software** still needs to support keyboard input from any keyboard interface provided by **the** platform software.**</div>
 <div class="note wcag2ict">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
