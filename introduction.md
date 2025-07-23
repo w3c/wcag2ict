@@ -121,7 +121,7 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
 * Updated sections:
     <div class="note">
       <ul>
-        <li>Most of the existing sections have undergone WCAG2ICT Task Force review and updates.</li>
+        <li>All of the existing sections have undergone WCAG2ICT Task Force review to identify the necessary updates.</li>
         <li>Many sections needed only minor editorial and link URL updates, such as the guidance for the WCAG 2.0 success criteria.</li>
       </ul> 
     </div>
