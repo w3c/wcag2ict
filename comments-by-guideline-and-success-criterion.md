@@ -252,7 +252,7 @@ Except for parts of the content which require two-dimensional layout for usage o
 
 <div class="note">
 
-320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For <INS>**[content]**</INS> which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</div>
+320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For <INS>[**[content](#content-on-and-off-the-web)**]</INS> which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</div>
 
 <div class="note">
 
@@ -267,9 +267,9 @@ In technologies where CSS is not used, the definition of 'CSS pixel' applies as 
 If a [non-web document](#document) type and its available [user agents](#user-agent) do not support reflow, it may not be possible for a document of that type to satisfy this success criterion.</div>
 <div class="note wcag2ict documents">
 
-As written, this success criterion can only be met by non-web documents where the underlying user agent or platform can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.
+As written, this success criterion can only be met by non-web documents where the underlying user agent or platform software can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.
 
-When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</div>
+When the underlying user agent or platform software does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</div>
 
 <div class="note wcag2ict software">
 
@@ -280,9 +280,9 @@ Non-web software will have more frequent cases where two-dimensional layout is r
 - When the non-web software has a complex user interface with toolbars that need to be visible while manipulating content, as explained in the Intent from Understanding 1.4.10 Reflow.</div>
 <div class="note wcag2ict software">
 
-As written, this success criterion can only be met by non-web software where the underlying user agent or platform can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.
+As written, this success criterion can only be met by non-web software where the underlying user agent or platform software can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.
 
-When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.
+When the underlying user agent or platform software does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.
 
 When users modify zoom, scaling, and/or display resolution at the platform software level (e.g. Operating System), it impacts the size of all applications and the [platform software](#platform-software) itself. This can result in improved readability in some applications but unwanted consequences in others.</div>
 <div class="note wcag2ict software">
@@ -296,14 +296,14 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.11 Non-text Contrast to Non-Web Documents and Software
 
-This applies directly as written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or platform software".
+This applies directly as written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or other platform software".
 
 With this substitution, it would read:
 
 **1.4.11 Non-text Contrast:** The visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation) of the following have a [contrast ratio](#dfn-contrast-ratio) of at least 3:1 against adjacent color(s):
 
 <dl><dt>User Interface Components</dt>
-<dd>Visual information required to identify <a href="#dfn-user-interface-components">user interface components</a> and <a href="https://www.w3.org/TR/WCAG22/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the <INS><strong>[<a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</strong></INS> and not modified by the author;</dd>
+<dd>Visual information required to identify <a href="#dfn-user-interface-components">user interface components</a> and <a href="https://www.w3.org/TR/WCAG22/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the <INS>[<strong><a href="#user-agent">user agent</a></strong> or other <strong><a href="#platform-software">platform software</a></strong>]</INS> and not modified by the author;</dd>
 
 <dt>Graphical Objects</dt>
 <dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> to the information being conveyed.</dd>
@@ -343,7 +343,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or platform software", "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or other platform software", "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
 
 With these substitutions, it would read:
 
@@ -358,11 +358,11 @@ With these substitutions, it would read:
 <DT>Persistent</DT>
 <DD>The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.</DD></DL>
 
-Exception: The visual presentation of the additional content is controlled by the <INS>**[[user agent](#user-agent) or [platform software](#platform-software)]**</INS> and is not modified by the author.
+Exception: The visual presentation of the additional content is controlled by the <INS>[**[user agent](#user-agent)** or other **[platform software](#platform-software)**]</INS> and is not modified by the author.
 
 <div class="note">
 
-Examples of additional content controlled by the <INS>**[user agent or platform software]**</INS> include <INS>**[tooltips]**</INS> created through use of <INS>**[user interface object attributes]**</INS>.</div>
+Examples of additional content controlled by the <INS>[user agent or other platform software]</INS> include <INS>[tooltips]</INS> created through use of <INS>[user interface object attributes]</INS>.</div>
  
 <div class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
 <div class="note">
@@ -686,7 +686,7 @@ With these substitutions, the notes would read:
 
 <div class="note documents">
 
-This requirement applies to <INS>**[content]**</INS> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the [user agent](#user-agent) or [assistive technology](#dfn-assistive-technologies)).</div>
+This requirement applies to <INS>[**[content](#content-on-and-off-the-web)**]</INS> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the [user agent](#user-agent) or [assistive technology](#dfn-assistive-technologies)).</div>
 
 <div class="note wcag2ict documents">
 
@@ -694,7 +694,7 @@ Multipoint and path-based gestures are less common in non-web documents. An exam
 
 <div class="note software">
 
-This requirement applies to **<INS>[non-web [software](#software) that interprets]</INS>** pointer actions (i.e., this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
+This requirement applies to <INS>[non-web **[software](#software)** that interprets]</INS> pointer actions (i.e., this does not apply to actions that are required to operate the <INS>[underlying **[platform software](#platform-software)**]</INS> or assistive technology).</div>
 
 <div class="note wcag2ict software">
 
@@ -714,7 +714,7 @@ Functions that emulate a keyboard or numeric keypad key press are considered ess
 
 <div class="note documents">
     
-This requirement applies to <INS>**[[content](#content-on-and-off-the-web)]**</INS> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+This requirement applies to <INS>[**[content](#content-on-and-off-the-web)**]</INS> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
 <div class="note wcag2ict documents">
     
@@ -730,7 +730,7 @@ Examples of essential functionality for non-web software are features for meetin
 
 <div class="note software">
     
-This requirement applies to **<INS>[non-web [software](#software) that interprets]</INS>** pointer actions (i.e., this does not apply to actions that are required to operate the **<INS>[underlying [platform software](#platform-software)]</INS>** or assistive technology).</div>
+This requirement applies to <INS>[non-web **[software](#software)** that interprets]</INS> pointer actions (i.e., this does not apply to actions that are required to operate the <INS>[underlying **[platform software](#platform-software)**]</INS> or assistive technology).</div>
 
 <div class="note wcag2ict software">
 
@@ -760,15 +760,15 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or platform software" and by making changes to the notes for non-web documents by replacing “web content” with "content", and for non-web software by replacing "web content that interprets" with "non-web software that interprets" and "user agent" with "underlying platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or other platform software" and by making changes to the notes for non-web documents by replacing “web content” with "content", and for non-web software by replacing "web content that interprets" with "non-web software that interprets" and "user agent" with "underlying platform software".
 
 With these substitutions, it would read:
 
-**2.5.7 Dragging Movements:** All [functionality](https://www.w3.org/TR/WCAG22/#dfn-functionality) that uses a [dragging movement](https://www.w3.org/TR/WCAG22/#dfn-dragging-movements) for operation can be achieved by a [single pointer](https://www.w3.org/TR/wcag22/#dfn-single-pointer) without dragging, unless dragging is [essential](https://www.w3.org/TR/wcag22/#dfn-essential) or the functionality is determined by the **<INS>[[user agent](#user-agent) or [platform software](#platform-software)]</INS>** and not modified by the author.
+**2.5.7 Dragging Movements:** All [functionality](https://www.w3.org/TR/WCAG22/#dfn-functionality) that uses a [dragging movement](https://www.w3.org/TR/WCAG22/#dfn-dragging-movements) for operation can be achieved by a [single pointer](https://www.w3.org/TR/wcag22/#dfn-single-pointer) without dragging, unless dragging is [essential](https://www.w3.org/TR/wcag22/#dfn-essential) or the functionality is determined by the <INS>[**[user agent](#user-agent)** or other **[platform software](#platform-software)**]</INS> and not modified by the author.
 
 <div class="note documents">
 
-This requirement applies to **<INS>[[content](#content-on-and-off-the-web)]</INS>** that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</div>
+This requirement applies to <INS>[**[content](#content-on-and-off-the-web)**]</INS> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</div>
 
 <div class="note wcag2ict documents">
 
@@ -776,7 +776,7 @@ Dragging movements for operation are less common in documents. An example where 
 
 <div class="note software">
 
-This requirement applies to **<INS>[non-web [software](#software) that interprets]</INS>** pointer actions (i.e., this does not apply to actions that are required to operate the **<INS>[underlying platform software]</INS>** or assistive technology).</div>
+This requirement applies to <INS>[non-web **[software](#software)** that interprets]</INS> pointer actions (i.e., this does not apply to actions that are required to operate the <INS>[underlying platform software]</INS> or assistive technology).</div>
 
 <div class="note wcag2ict software">
 
@@ -786,7 +786,7 @@ This requirement also applies to platform software, such as user agents, assisti
 
 ###### Applying SC 2.5.8 Target Size (Minimum) to Non-Web Documents and Software:
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or platform software" and "on the same page" with "in the same non-web document or software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or other platform software" and "on the same page" with "in the same non-web document or software".
 
 With these substitutions, it would read:
 
@@ -796,11 +796,11 @@ With these substitutions, it would read:
 <dt>Spacing</dt>
 <dd>Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the <a href="https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes">bounding box</a> of each, the circles do not intersect another target or the circle for another undersized target;</dd>
 <dt>Equivalent</dt>
-<dd>The function can be achieved through a different control <strong><INS>[in the same <a href="#document">non-web document</a> or <a href="#software">software</a>]</INS></strong> that meets this criterion.</dd>
+<dd>The function can be achieved through a different control <INS>[in the same <strong><a href="#document">non-web document</a></strong> or <strong><a href="#software">software</a></strong>]</INS> that meets this criterion.</dd>
 <dt>Inline</dt>
 <dd>The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;</dd>
-<dt><INS>[User agent or platform software]</INS> control</dt>
-<dd>The size of the target is determined by the <strong><INS><a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</INS></strong> and is not modified by the author;</dd>
+<dt><INS>[User agent or other platform software]</INS> control</dt>
+<dd>The size of the target is determined by the <INS>[<strong><a href="#user-agent">user agent</a></strong> or other <strong></strong><a href="#platform-software">platform software</a></strong>]</INS> and is not modified by the author;</dd>
 <dt>Essential</dt>
 <dd>A particular <a href="https://www.w3.org/TR/WCAG22/#dfn-presentation">presentation</a> of the target is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> or is legally required for the information being conveyed.</dd>
 </dl>
@@ -1160,7 +1160,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
     
-For [non-web documents](#document) and [software](#software) where status messages are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the [user agent](#user-agent) or [platform software](#platform-software).</div>
+For [non-web documents](#document) and [software](#software) where status messages are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the [user agent](#user-agent) or other [platform software](#platform-software).</div>
 
 <div class="note wcag2ict software">
     

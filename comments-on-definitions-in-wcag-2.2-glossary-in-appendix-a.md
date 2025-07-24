@@ -387,10 +387,10 @@ Fonts with extraordinarily thin strokes or unusual features and characteristics 
 Font size is the size when the content is delivered. It does not include resizing that may be done by a user.</div>
 <div class="note">
 
-The actual size of the character that a user sees is dependent both on the author-defined size and the user's display, <INS>**[user agent or [non-web software](#software)]**</INS> settings. For many mainstream body text fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150% of the default size for body text (assuming that the body font is 100%), but authors would need to check this for the particular fonts in use. When fonts are defined in relative units, the actual point size is calculated by the <INS>**[user agent or non-web software]**</INS> for display. The point size should be obtained from the <INS>**[user agent or non-web software]**</INS>, or calculated based on font metrics as the <INS>**[user agent or non-web software]**</INS> does, when evaluating this success criterion. Users who have low vision would be responsible for choosing appropriate settings.</div>
+The actual size of the character that a user sees is dependent both on the author-defined size and the user's display, <INS>[user agent or **[non-web software](#software)**]</INS> settings. For many mainstream body text fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150% of the default size for body text (assuming that the body font is 100%), but authors would need to check this for the particular fonts in use. When fonts are defined in relative units, the actual point size is calculated by the <INS>[user agent or non-web software]</INS> for display. The point size should be obtained from the <INS>[user agent or non-web software]</INS>, or calculated based on font metrics as the <INS>**[user agent or non-web software]**</INS> does, when evaluating this success criterion. Users who have low vision would be responsible for choosing appropriate settings.</div>
 <div class="note">
 
-When using text without specifying the font size, the smallest font size used on major <INS>**[browsers, [user agents](#user-agent), or other [platform software](#platform-software)]**</INS> for unspecified text would be a reasonable size to assume for the font. If a level 1 heading is rendered in 14pt bold or higher on major <INS>**[browsers, user agents, or platform software]**</INS>, then it would be reasonable to assume it is large text. Relative scaling can be calculated from the default sizes in a similar fashion.</div>
+When using text without specifying the font size, the smallest font size used on major <INS>[browsers, **[user agents](#user-agent)**, or other **[platform software](#platform-software)**]</INS> for unspecified text would be a reasonable size to assume for the font. If a level 1 heading is rendered in 14pt bold or higher on major <INS>[browsers, user agents, or other platform software]</INS>, then it would be reasonable to assume it is large text. Relative scaling can be calculated from the default sizes in a similar fashion.</div>
 <div class="note wcag2ict">
 
 When evaluating non-web documents and software, 1 point means 1.333 [CSS pixels](#dfn-css-pixels).</div></DD></DL>
@@ -589,13 +589,13 @@ With these substitutions, it would read:
 
 <DL><DT>style property</DT><DD>
 
-property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>**[[user agents](#user-agent) or other [platform software](#platform-software)]**</INS>
+property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>[**[user agents](#user-agent)** or other **[platform software](#platform-software)**]</INS>
 
 Style properties can have several origins:
 
-- <INS>**[User agent or other platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
-- **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>**[programmatically-set styles]**</INS>);
-- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other [software](#software) interface settings, or]**</INS> user style sheets)
+- <INS>**[User agent or other platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>[content]</INS> technologies specify a default rendering, others do not;
+- **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>[programmatically-set styles]</INS>);
+- **User styles:** Style property values that are set by the user (e.g. via <INS>[user agent, platform software or other **[software](#software)** interface settings, or]</INS> user style sheets)
 </DD></DL>
 
 #### dfn-targets
@@ -623,11 +623,11 @@ With these substitutions, it would read:
 
 <DL><DT>technology <INS>([non-web document or software])</INS></DT><DD>
 
-[mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#user-agent) or other [software](#software)]**</INS>.
+[mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>[**[user agents](#user-agent)** or other **[software](#software)**]</INS>.
 
 <div class="example">
 
-Some common examples of <INS>**[[non-web document](#document) and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
+Some common examples of <INS>[**[non-web document](#document)** and software technologies include ODF, OOXML, Java, and C++]</INS>.</div></DD></DL>
 
 #### dfn-up-event
 
