@@ -390,6 +390,13 @@ This applies directly as written, and as described in [Intent from Understanding
 <div class="note wcag2ict software">
 	
 Keyboard interface does not refer to a physical device but to the service of [platform software](#platform-software) (e.g. operating system, browser, etc.) that provides the software with keystrokes from any keyboard or keyboard substitute. When the [non-web software](#software) supports such a device-independent service of the platform software, and the non-web software functionality is made fully operable through the service, then this success criterion would be satisfied.</div>
+<div class="note wcag2ict software">**Proposal 1:** Do not add any more notes.</div>
+<div class="note wcag2ict software">**Proposal 2: Note describing keyboard interface service** 
+	
+A "device-independent keyboard interface service" refers to the platform service that provides keystrokes to any software running on the platform. Inclusion of an on-screen keyboard can be done as well but does not meet this requirement since it does not allow for the use of keyboard alternatives.</div>
+<div class="note wcag2ict software">**Proposal 3: Edited version of Proposal 2 (removing last sentence)** 
+	
+A "device-independent keyboard interface service" refers to the platform service that provides keystrokes to any software running on the platform.</div>
 <div class="note wcag2ict software">
 
 This success criterion does not imply that non-web software always needs to directly support a keyboard or “keyboard interface” if one is not provided by the platform software. But if one is provided, the software needs to make all functionality available through it - unless the exception applies.</div>
