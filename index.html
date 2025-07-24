@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 35.4.2">
+<meta name="generator" content="ReSpec 35.4.3">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <style>
 .issue-label{text-transform:initial}
@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="280e96fd136302f17ec1fdaef3fac3629f6c7fc7">
+<meta name="revision" content="c2e11e9bd4bb9a8bb75bfde773e5a53d07d40569">
 <meta name="description" content="This document describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <style>
 var:hover{text-decoration:underline;cursor:pointer}
@@ -229,16 +229,16 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "280e96fd136302f17ec1fdaef3fac3629f6c7fc7",
-  "publishISODate": "2025-07-17T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 17 July 2025"
+  "gitRevision": "c2e11e9bd4bb9a8bb75bfde773e5a53d07d40569",
+  "publishISODate": "2025-07-24T00:00:00.000Z",
+  "generatedSubtitle": "W3C Editor's Draft 24 July 2025"
 }</script>
 <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2025-07-17">17 July 2025</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2025-07-24">24 July 2025</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
@@ -1077,7 +1077,7 @@ any software that retrieves and presents web content for users
 <p>Except for parts of the content which require two-dimensional layout for usage or meaning.</p>
 <div class="note" role="note" id="issue-container-generatedID-61"><div role="heading" class="note-title marker" id="h-note-61" aria-level="7"><span>Note 1</span></div><div class="">
 
-<p>320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For <ins><strong>[content]</strong></ins> which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</p></div></div><p></p>
+<p>320 CSS pixels is equivalent to a starting viewport width of 1280 CSS pixels wide at 400% zoom. For <ins>[<strong><a href="#content-on-and-off-the-web">content</a></strong>]</ins> which is designed to scroll horizontally (e.g., with vertical text), 256 CSS pixels is equivalent to a starting viewport height of 1024 CSS pixels at 400% zoom.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-62"><div role="heading" class="note-title marker" id="h-note-62" aria-level="7"><span>Note 2</span></div><div class="">
 
 <p>Examples of content which requires two-dimensional layout are images required for understanding (such as maps and diagrams), video, games, presentations, data tables (not individual cells), and interfaces where it is necessary to keep toolbars in view while manipulating content. It is acceptable to provide two-dimensional scrolling for such parts of the content.</p></div></div><p></p>
@@ -1089,8 +1089,8 @@ any software that retrieves and presents web content for users
 <p>If a <a href="#document">non-web document</a> type and its available <a href="#user-agent">user agents</a> do not support reflow, it may not be possible for a document of that type to satisfy this success criterion.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-65"><div role="heading" class="note-title marker" id="h-note-65" aria-level="7"><span>Note 5 (Added) (for non-web documents)</span></div><div class="wcag2ict documents">
 
-<p>As written, this success criterion can only be met by non-web documents where the underlying user agent or platform can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.</p>
-<p>When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</p></div></div><p></p>
+<p>As written, this success criterion can only be met by non-web documents where the underlying user agent or platform software can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.</p>
+<p>When the underlying user agent or platform software does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-66"><div role="heading" class="note-title marker" id="h-note-66" aria-level="7"><span>Note 6 (Added) (for non-web software)</span></div><div class="wcag2ict software">
 
 <p>The intent section refers to the ability for content to reflow (for vertical scrolling content at a width equivalent to 320 CSS pixels, or for horizontal scrolling content at a height equivalent to 256 CSS pixels) when user agent zooming is used to scale content or when the <a href="#dfn-viewport">viewport</a> changes in width. For <a href="#software">non-web software</a>, this means that when users scale content, adjust the size of a window, dialog, or other resizable content area, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features that satisfy this success criterion.</p></div></div><p></p>
@@ -1100,8 +1100,8 @@ any software that retrieves and presents web content for users
 <ul>
 <li>When the non-web software has a complex user interface with toolbars that need to be visible while manipulating content, as explained in the Intent from Understanding 1.4.10 Reflow.</li></ul></div></div><div class="note" role="note" id="issue-container-generatedID-68"><div role="heading" class="note-title marker" id="h-note-68" aria-level="7"><span>Note 8 (Added) (for non-web software)</span></div><div class="wcag2ict software">
 
-<p>As written, this success criterion can only be met by non-web software where the underlying user agent or platform can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.</p>
-<p>When the underlying user agent or platform does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</p>
+<p>As written, this success criterion can only be met by non-web software where the underlying user agent or platform software can present content at a width equivalent to 320 CSS pixels for vertical scrolling content and a height equivalent to 256 CSS pixels for horizontal scrolling content.</p>
+<p>When the underlying user agent or platform software does not support these dimensions for scrolling, reflow is encouraged as this capability is important to people with low vision. As a reasonable benchmark, evaluate at the nearest size to what the Reflow success criterion specifies.</p>
 <p>When users modify zoom, scaling, and/or display resolution at the platform software level (e.g. Operating System), it impacts the size of all applications and the <a href="#platform-software">platform software</a> itself. This can result in improved readability in some applications but unwanted consequences in others.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-69"><div role="heading" class="note-title marker" id="h-note-69" aria-level="7"><span>Note 9 (Added) (for non-web software)</span></div><div class="wcag2ict software">
 
@@ -1123,11 +1123,11 @@ any software that retrieves and presents web content for users
       						
    </dl></blockquote>
 <section id="applying-sc-1-4-11-non-text-contrast-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-1-5-8-1-applying-sc-1-4-11-non-text-contrast-to-non-web-documents-and-software">Applying SC 1.4.11 Non-text Contrast to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-1-4-11-non-text-contrast-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 1.4.11 Non-text Contrast to Non-Web Documents and Software"></a></div>
-<p>This applies directly as written and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent">Intent from Understanding Success Criterion 1.4.11</a>, replacing "user agent" with "user agent or platform software".</p>
+<p>This applies directly as written and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent">Intent from Understanding Success Criterion 1.4.11</a>, replacing "user agent" with "user agent or other platform software".</p>
 <p>With this substitution, it would read:</p>
 <p><strong>1.4.11 Non-text Contrast:</strong> The visual <a href="https://www.w3.org/TR/WCAG22/#dfn-presentation">presentation</a> of the following have a <a href="#dfn-contrast-ratio">contrast ratio</a> of at least 3:1 against adjacent color(s):</p>
 <dl><dt>User Interface Components</dt>
-<dd>Visual information required to identify <a href="#dfn-user-interface-components">user interface components</a> and <a href="https://www.w3.org/TR/WCAG22/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the <ins><strong>[<a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</strong></ins> and not modified by the author;</dd>
+<dd>Visual information required to identify <a href="#dfn-user-interface-components">user interface components</a> and <a href="https://www.w3.org/TR/WCAG22/#dfn-states">states</a>, except for inactive components or where the appearance of the component is determined by the <ins>[<strong><a href="#user-agent">user agent</a></strong> or other <strong><a href="#platform-software">platform software</a></strong>]</ins> and not modified by the author;</dd>
 
 <dt>Graphical Objects</dt>
 <dd>Parts of graphics required to understand the content, except when a particular presentation of graphics is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> to the information being conveyed.</dd>
@@ -1188,7 +1188,7 @@ any software that retrieves and presents web content for users
      <div class="note" role="note" id="wcag-noteissue-container-generatedID--13"><div role="heading" class="note-title marker" id="wcag-noteh-note--13" aria-level="5"><span>Note 2</span></div><p class="">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</p></div>
      <div class="note" role="note" id="wcag-noteissue-container-generatedID--14"><div role="heading" class="note-title marker" id="wcag-noteh-note--14" aria-level="5"><span>Note 3</span></div><p class="">This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as links used to skip to another part of a page) do not present additional content they are not covered by this criterion.</p></div></blockquote>
 <section id="applying-sc-1-4-13-content-on-hover-or-focus-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-1-5-10-1-applying-sc-1-4-13-content-on-hover-or-focus-to-non-web-documents-and-software">Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-1-4-13-content-on-hover-or-focus-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software"></a></div>
-<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html">Intent from Understanding Success Criterion 1.4.13</a>, replacing "user agent" with "user agent or platform software", "browser tooltips" with "tooltips", and "the <abbr title="HyperText Markup Language">HTML</abbr> title attribute" with "user interface object attributes".</p>
+<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html">Intent from Understanding Success Criterion 1.4.13</a>, replacing "user agent" with "user agent or other platform software", "browser tooltips" with "tooltips", and "the <abbr title="HyperText Markup Language">HTML</abbr> title attribute" with "user interface object attributes".</p>
 <p>With these substitutions, it would read:</p>
 <p><strong>1.4.13 Content on Hover or Focus:</strong> Where receiving and then removing pointer hover or keyboard focus triggers additional content to become visible and then hidden, the following are true:</p>
 <dl><dt>Dismissible</dt>
@@ -1200,10 +1200,10 @@ any software that retrieves and presents web content for users
 <dt>Persistent</dt>
 <dd>The additional content remains visible until the hover or focus trigger is removed, the user dismisses it, or its information is no longer valid.</dd></dl>
 
-<p>Exception: The visual presentation of the additional content is controlled by the <ins><strong>[<a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</strong></ins> and is not modified by the author.</p>
+<p>Exception: The visual presentation of the additional content is controlled by the <ins>[<strong><a href="#user-agent">user agent</a></strong> or other <strong><a href="#platform-software">platform software</a></strong>]</ins> and is not modified by the author.</p>
 <div class="note" role="note" id="issue-container-generatedID-77"><div role="heading" class="note-title marker" id="h-note-77" aria-level="7"><span>Note 1</span></div><div class="">
 
-<p>Examples of additional content controlled by the <ins><strong>[user agent or platform software]</strong></ins> include <ins><strong>[tooltips]</strong></ins> created through use of <ins><strong>[user interface object attributes]</strong></ins>.</p></div></div><p></p>
+<p>Examples of additional content controlled by the <ins>[user agent or other platform software]</ins> include <ins>[tooltips]</ins> created through use of <ins>[user interface object attributes]</ins>.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-78"><div role="heading" class="note-title marker" id="h-note-78" aria-level="7"><span>Note 2</span></div><div class="">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div></div>
 <div class="note" role="note" id="issue-container-generatedID-79"><div role="heading" class="note-title marker" id="h-note-79" aria-level="7"><span>Note 3</span></div><div class="">
 
@@ -1596,13 +1596,13 @@ any software that retrieves and presents web content for users
 <p>With these substitutions, the notes would read:</p>
 <div class="note" role="note" id="issue-container-generatedID-117"><div role="heading" class="note-title marker" id="h-note-117" aria-level="7"><span>Note 1 (for non-web documents)</span></div><div class="documents">
 
-<p>This requirement applies to <ins><strong>[content]</strong></ins> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the <a href="#user-agent">user agent</a> or <a href="#dfn-assistive-technologies">assistive technology</a>).</p></div></div><p></p>
+<p>This requirement applies to <ins>[<strong><a href="#content-on-and-off-the-web">content</a></strong>]</ins> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the <a href="#user-agent">user agent</a> or <a href="#dfn-assistive-technologies">assistive technology</a>).</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-118"><div role="heading" class="note-title marker" id="h-note-118" aria-level="7"><span>Note 2 (Added) (for non-web documents)</span></div><div class="wcag2ict documents">
 
 <p>Multipoint and path-based gestures are less common in non-web documents. An example where a non-web document author could add such gestures is an interactive prototype document created in a software design tool.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-119"><div role="heading" class="note-title marker" id="h-note-119" aria-level="7"><span>Note 3 (for non-web software)</span></div><div class="software">
 
-<p>This requirement applies to <strong><ins>[non-web <a href="#software">software</a> that interprets]</ins></strong> pointer actions (i.e., this does not apply to actions that are required to operate the <strong><ins>[underlying <a href="#platform-software">platform software</a>]</ins></strong> or assistive technology).</p></div></div><p></p>
+<p>This requirement applies to <ins>[non-web <strong><a href="#software">software</a></strong> that interprets]</ins> pointer actions (i.e., this does not apply to actions that are required to operate the <ins>[underlying <strong><a href="#platform-software">platform software</a></strong>]</ins> or assistive technology).</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-120"><div role="heading" class="note-title marker" id="h-note-120" aria-level="7"><span>Note 4 (Added) (for non-web software)</span></div><div class="wcag2ict software">
 
 <p>This requirement also applies to platform software, such as user agents, assistive technology software, and operating systems. Each layer is responsible for its own pointer actions only, not for those in an underlying layer.</p></div></div><p></p>
@@ -1634,7 +1634,7 @@ any software that retrieves and presents web content for users
 <p>Functions that emulate a keyboard or numeric keypad key press are considered essential.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-122"><div role="heading" class="note-title marker" id="h-note-122" aria-level="7"><span>Note 2 (for non-web documents)</span></div><div class="documents">
     
-<p>This requirement applies to <ins><strong>[<a href="#content-on-and-off-the-web">content</a>]</strong></ins> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</p></div></div><p></p>
+<p>This requirement applies to <ins>[<strong><a href="#content-on-and-off-the-web">content</a></strong>]</ins> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-123"><div role="heading" class="note-title marker" id="h-note-123" aria-level="7"><span>Note 3 (Added) (for non-web documents)</span></div><div class="wcag2ict documents">
     
 <p>Content that interprets pointer actions and controls which events are used for executing functionality is less common in non-web documents. An example where a non-web document author could add such functionality is an interactive prototype document created in a software design tool.</p></div></div><p></p>
@@ -1646,7 +1646,7 @@ any software that retrieves and presents web content for users
 <p><span>Example (Added): </span>Examples of essential functionality for non-web software are features for meeting environmental energy usage requirements (like waking a device from sleep, power saver mode, and low power state).</p></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-125"><div role="heading" class="note-title marker" id="h-note-125" aria-level="7"><span>Note 5 (for non-web software)</span></div><div class="software">
     
-<p>This requirement applies to <strong><ins>[non-web <a href="#software">software</a> that interprets]</ins></strong> pointer actions (i.e., this does not apply to actions that are required to operate the <strong><ins>[underlying <a href="#platform-software">platform software</a>]</ins></strong> or assistive technology).</p></div></div><p></p>
+<p>This requirement applies to <ins>[non-web <strong><a href="#software">software</a></strong> that interprets]</ins> pointer actions (i.e., this does not apply to actions that are required to operate the <ins>[underlying <strong><a href="#platform-software">platform software</a></strong>]</ins> or assistive technology).</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-126"><div role="heading" class="note-title marker" id="h-note-126" aria-level="7"><span>Note 6 (Added) (for non-web software)</span></div><div class="wcag2ict software">
 
 <p>This requirement also applies to platform software, such as user agents, assistive technology software, and operating systems. Each layer is responsible for its own pointer actions only, not for those in an underlying layer.</p></div></div><p></p>
@@ -1677,18 +1677,18 @@ any software that retrieves and presents web content for users
 </section></section><section id="dragging-movements"><div class="header-wrapper"><h5 id="x6-2-6-6-dragging-movements">2.5.7 Dragging Movements</h5><a class="self-link" href="#dragging-movements" aria-label="Permalink for Section 2.5.7 Dragging Movements"></a></div><p>(Level AA)</p><blockquote class="wcag-quote"><p>All <a href="https://www.w3.org/TR/WCAG22/#dfn-functionality" title="processes and outcomes achievable through user action">functionality</a> that uses a <a href="https://www.w3.org/TR/WCAG22/#dfn-dragging-movements" title="New">dragging movement</a> for operation can be achieved by a <a href="https://www.w3.org/TR/WCAG22/#dfn-single-pointer" title="an input modality that only targets a single point on the page/screen at a time – such as a mouse, single finger on a touch screen, or stylus.">single pointer</a> without dragging, unless dragging is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential" title="if removed, would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform">essential</a> or the functionality is determined by the <a href="https://www.w3.org/TR/WCAG22/#dfn-user-agents" title="any software that retrieves and presents web content for users">user agent</a> and not modified by the author.</p>
     <div class="note" role="note" id="wcag-noteissue-container-generatedID--36"><div role="heading" class="note-title marker" id="wcag-noteh-note--36" aria-level="5"><span>Note</span></div><p class="">This requirement applies to web content that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</p></div></blockquote>
 <section id="applying-sc-2-5-7-dragging-movements-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-2-6-6-1-applying-sc-2-5-7-dragging-movements-to-non-web-documents-and-software">Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software</h6><a class="self-link" href="#applying-sc-2-5-7-dragging-movements-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software"></a></div>
-<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent">Intent from Understanding Success Criterion 2.5.7</a>, replacing "user agent" with "user agent or platform software" and by making changes to the notes for non-web documents by replacing “web content” with "content", and for non-web software by replacing "web content that interprets" with "non-web software that interprets" and "user agent" with "underlying platform software".</p>
+<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent">Intent from Understanding Success Criterion 2.5.7</a>, replacing "user agent" with "user agent or other platform software" and by making changes to the notes for non-web documents by replacing “web content” with "content", and for non-web software by replacing "web content that interprets" with "non-web software that interprets" and "user agent" with "underlying platform software".</p>
 <p>With these substitutions, it would read:</p>
-<p><strong>2.5.7 Dragging Movements:</strong> All <a href="https://www.w3.org/TR/WCAG22/#dfn-functionality">functionality</a> that uses a <a href="https://www.w3.org/TR/WCAG22/#dfn-dragging-movements">dragging movement</a> for operation can be achieved by a <a href="https://www.w3.org/TR/wcag22/#dfn-single-pointer">single pointer</a> without dragging, unless dragging is <a href="https://www.w3.org/TR/wcag22/#dfn-essential">essential</a> or the functionality is determined by the <strong><ins>[<a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</ins></strong> and not modified by the author.</p>
+<p><strong>2.5.7 Dragging Movements:</strong> All <a href="https://www.w3.org/TR/WCAG22/#dfn-functionality">functionality</a> that uses a <a href="https://www.w3.org/TR/WCAG22/#dfn-dragging-movements">dragging movement</a> for operation can be achieved by a <a href="https://www.w3.org/TR/wcag22/#dfn-single-pointer">single pointer</a> without dragging, unless dragging is <a href="https://www.w3.org/TR/wcag22/#dfn-essential">essential</a> or the functionality is determined by the <ins>[<strong><a href="#user-agent">user agent</a></strong> or other <strong><a href="#platform-software">platform software</a></strong>]</ins> and not modified by the author.</p>
 <div class="note" role="note" id="issue-container-generatedID-129"><div role="heading" class="note-title marker" id="h-note-129" aria-level="7"><span>Note 1 (for non-web documents)</span></div><div class="documents">
 
-<p>This requirement applies to <strong><ins>[<a href="#content-on-and-off-the-web">content</a>]</ins></strong> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</p></div></div><p></p>
+<p>This requirement applies to <ins>[<strong><a href="#content-on-and-off-the-web">content</a></strong>]</ins> that interprets pointer actions (i.e., this does not apply to actions that are required to operate the user agent or assistive technology).</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-130"><div role="heading" class="note-title marker" id="h-note-130" aria-level="7"><span>Note 2 (Added) (for non-web documents)</span></div><div class="wcag2ict documents">
 
 <p>Dragging movements for operation are less common in documents. An example where a document author could add dragging functionality is an interactive prototype document created in a software design tool.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-131"><div role="heading" class="note-title marker" id="h-note-131" aria-level="7"><span>Note 3 (for non-web software)</span></div><div class="software">
 
-<p>This requirement applies to <strong><ins>[non-web <a href="#software">software</a> that interprets]</ins></strong> pointer actions (i.e., this does not apply to actions that are required to operate the <strong><ins>[underlying platform software]</ins></strong> or assistive technology).</p></div></div><p></p>
+<p>This requirement applies to <ins>[non-web <strong><a href="#software">software</a></strong> that interprets]</ins> pointer actions (i.e., this does not apply to actions that are required to operate the <ins>[underlying platform software]</ins> or assistive technology).</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-132"><div role="heading" class="note-title marker" id="h-note-132" aria-level="7"><span>Note 4 (Added) (for non-web software)</span></div><div class="wcag2ict software">
 
 <p>This requirement also applies to platform software, such as user agents, assistive technology software, and operating systems. Each layer is responsible for its own pointer actions only, not for those in an underlying layer.</p></div></div><p></p>
@@ -1708,18 +1708,18 @@ any software that retrieves and presents web content for users
     <div class="note" role="note" id="wcag-noteissue-container-generatedID--37"><div role="heading" class="note-title marker" id="wcag-noteh-note--37" aria-level="5"><span>Note 1</span></div><p class="">Targets that allow for values to be selected spatially based on position within the target are considered one target for the purpose of the success criterion. Examples include sliders, color pickers displaying a gradient of colors, or editable areas where you position the cursor.</p></div>
     <div class="note" role="note" id="wcag-noteissue-container-generatedID--38"><div role="heading" class="note-title marker" id="wcag-noteh-note--38" aria-level="5"><span>Note 2</span></div><p class="">For inline targets the line-height should be interpreted as perpendicular to the flow of text. For example, in a language displayed vertically, the line-height would be horizontal.</p></div></blockquote>
 <section id="applying-sc-2-5-8-target-size-minimum-to-non-web-documents-and-software"><div class="header-wrapper"><h6 id="x6-2-6-7-1-applying-sc-2-5-8-target-size-minimum-to-non-web-documents-and-software">Applying SC 2.5.8 Target Size (Minimum) to Non-Web Documents and Software:</h6><a class="self-link" href="#applying-sc-2-5-8-target-size-minimum-to-non-web-documents-and-software" aria-label="Permalink for Section Applying SC 2.5.8 Target Size (Minimum) to Non-Web Documents and Software:"></a></div>
-<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent">Intent from Understanding Success Criterion 2.5.8</a>, replacing "user agent" with "user agent or platform software" and "on the same page" with "in the same non-web document or software".</p>
+<p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent">Intent from Understanding Success Criterion 2.5.8</a>, replacing "user agent" with "user agent or other platform software" and "on the same page" with "in the same non-web document or software".</p>
 <p>With these substitutions, it would read:</p>
 <p><strong>2.5.8 Target Size (Minimum):</strong> The size of the <a href="#dfn-targets">target</a> for <a href="https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs">pointer inputs</a> is at least 24 by 24 <a href="#dfn-css-pixels">CSS pixels</a>, except when:</p>
 <dl>
 <dt>Spacing</dt>
 <dd>Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the <a href="https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes">bounding box</a> of each, the circles do not intersect another target or the circle for another undersized target;</dd>
 <dt>Equivalent</dt>
-<dd>The function can be achieved through a different control <strong><ins>[in the same <a href="#document">non-web document</a> or <a href="#software">software</a>]</ins></strong> that meets this criterion.</dd>
+<dd>The function can be achieved through a different control <ins>[in the same <strong><a href="#document">non-web document</a></strong> or <strong><a href="#software">software</a></strong>]</ins> that meets this criterion.</dd>
 <dt>Inline</dt>
 <dd>The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;</dd>
-<dt><ins>[User agent or platform software]</ins> control</dt>
-<dd>The size of the target is determined by the <strong><ins><a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>]</ins></strong> and is not modified by the author;</dd>
+<dt><ins>[User agent or other platform software]</ins> control</dt>
+<dd>The size of the target is determined by the <ins>[<strong><a href="#user-agent">user agent</a></strong> or other <strong></strong><a href="#platform-software">platform software</a>]</ins> and is not modified by the author;</dd>
 <dt>Essential</dt>
 <dd>A particular <a href="https://www.w3.org/TR/WCAG22/#dfn-presentation">presentation</a> of the target is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> or is legally required for the information being conveyed.</dd>
 </dl>
@@ -2054,7 +2054,7 @@ any software that retrieves and presents web content for users
 <p>This applies directly as written, and as described in <a href="https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html#intent">Intent from Understanding Success Criterion 4.1.3</a>.</p>
 <div class="note" role="note" id="issue-container-generatedID-169"><div role="heading" class="note-title marker" id="h-note-169" aria-level="7"><span>Note 1 (Added)</span></div><div class="wcag2ict">
     
-<p>For <a href="#document">non-web documents</a> and <a href="#software">software</a> where status messages are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the <a href="#user-agent">user agent</a> or <a href="#platform-software">platform software</a>.</p></div></div><p></p>
+<p>For <a href="#document">non-web documents</a> and <a href="#software">software</a> where status messages are not implemented using markup languages, there is still a user need to have status messages be programmatically exposed so that they can be presented to the user by assistive technologies without receiving focus. This is typically enabled through the use of accessibility services of the <a href="#user-agent">user agent</a> or other <a href="#platform-software">platform software</a>.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-170"><div role="heading" class="note-title marker" id="h-note-170" aria-level="7"><span>Note 2 (Added) (for non-web software)</span></div><div class="wcag2ict software">
     
 <p>See also the <a href="#comments-on-closed-functionality">Comments on Closed Functionality</a>.</p></div></div><p></p>
@@ -2806,10 +2806,10 @@ People with low vision often use devices at less than the standard viewing dista
 <p>Font size is the size when the content is delivered. It does not include resizing that may be done by a user.</p>
 <div class="note" role="note" id="issue-container-generatedID-191"><div role="heading" class="note-title marker" id="h-note-191" aria-level="6"><span>Note 2</span></div><div class="">
 
-<p>The actual size of the character that a user sees is dependent both on the author-defined size and the user's display, <ins><strong>[user agent or <a href="#software">non-web software</a>]</strong></ins> settings. For many mainstream body text fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150% of the default size for body text (assuming that the body font is 100%), but authors would need to check this for the particular fonts in use. When fonts are defined in relative units, the actual point size is calculated by the <ins><strong>[user agent or non-web software]</strong></ins> for display. The point size should be obtained from the <ins><strong>[user agent or non-web software]</strong></ins>, or calculated based on font metrics as the <ins><strong>[user agent or non-web software]</strong></ins> does, when evaluating this success criterion. Users who have low vision would be responsible for choosing appropriate settings.</p></div></div><p></p>
+<p>The actual size of the character that a user sees is dependent both on the author-defined size and the user's display, <ins>[user agent or <strong><a href="#software">non-web software</a></strong>]</ins> settings. For many mainstream body text fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150% of the default size for body text (assuming that the body font is 100%), but authors would need to check this for the particular fonts in use. When fonts are defined in relative units, the actual point size is calculated by the <ins>[user agent or non-web software]</ins> for display. The point size should be obtained from the <ins>[user agent or non-web software]</ins>, or calculated based on font metrics as the <ins><strong>[user agent or non-web software]</strong></ins> does, when evaluating this success criterion. Users who have low vision would be responsible for choosing appropriate settings.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-192"><div role="heading" class="note-title marker" id="h-note-192" aria-level="6"><span>Note 3</span></div><div class="">
 
-<p>When using text without specifying the font size, the smallest font size used on major <ins><strong>[browsers, <a href="#user-agent">user agents</a>, or other <a href="#platform-software">platform software</a>]</strong></ins> for unspecified text would be a reasonable size to assume for the font. If a level 1 heading is rendered in 14pt bold or higher on major <ins><strong>[browsers, user agents, or platform software]</strong></ins>, then it would be reasonable to assume it is large text. Relative scaling can be calculated from the default sizes in a similar fashion.</p></div></div><p></p>
+<p>When using text without specifying the font size, the smallest font size used on major <ins>[browsers, <strong><a href="#user-agent">user agents</a></strong>, or other <strong><a href="#platform-software">platform software</a></strong>]</ins> for unspecified text would be a reasonable size to assume for the font. If a level 1 heading is rendered in 14pt bold or higher on major <ins>[browsers, user agents, or other platform software]</ins>, then it would be reasonable to assume it is large text. Relative scaling can be calculated from the default sizes in a similar fashion.</p></div></div><p></p>
 <div class="note" role="note" id="issue-container-generatedID-193"><div role="heading" class="note-title marker" id="h-note-193" aria-level="6"><span>Note 4 (Added)</span></div><div class="wcag2ict">
 
 <p>When evaluating non-web documents and software, 1 point means 1.333 <a href="#dfn-css-pixels">CSS pixels</a>.</p></div></div></dd></dl><p></p>
@@ -3069,12 +3069,12 @@ sheets);</li>
 <p>With these substitutions, it would read:</p>
 <dl><dt>style property</dt><dd>
 
-<p>property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <ins><strong>[<a href="#user-agent">user agents</a> or other <a href="#platform-software">platform software</a>]</strong></ins></p>
+<p>property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <ins>[<strong><a href="#user-agent">user agents</a></strong> or other <strong><a href="#platform-software">platform software</a></strong>]</ins></p>
 <p>Style properties can have several origins:</p>
 <ul>
-<li><ins><strong>[User agent or other platform software]</strong></ins> <strong>default styles:</strong> The default style property values applied in the absence of any author or user styles. Some <ins><strong>[content]</strong></ins> technologies specify a default rendering, others do not;</li>
-<li><strong>Author styles:</strong> Style property values that are set by the author as part of the content (e.g. <ins><strong>[programmatically-set styles]</strong></ins>);</li>
-<li><strong>User styles:</strong> Style property values that are set by the user (e.g. via <ins><strong>[user agent, platform software or other <a href="#software">software</a> interface settings, or]</strong></ins> user style sheets)</li></ul></dd></dl>
+<li><ins><strong>[User agent or other platform software]</strong></ins> <strong>default styles:</strong> The default style property values applied in the absence of any author or user styles. Some <ins>[content]</ins> technologies specify a default rendering, others do not;</li>
+<li><strong>Author styles:</strong> Style property values that are set by the author as part of the content (e.g. <ins>[programmatically-set styles]</ins>);</li>
+<li><strong>User styles:</strong> Style property values that are set by the user (e.g. via <ins>[user agent, platform software or other <strong><a href="#software">software</a></strong> interface settings, or]</ins> user style sheets)</li></ul></dd></dl>
 
 </section></section><section id="dfn-targets"><div class="header-wrapper"><h4 id="x7-3-27-dfn-targets">target</h4><a class="self-link" href="#dfn-targets" aria-label="Permalink for Section target"></a></div><blockquote class="wcag-quote"><p>region of the display that will accept a pointer action, such as the interactive area of a <a href="https://www.w3.org/TR/WCAG22/#dfn-user-interface-components" title="a part of the content that is perceived by users as a single control for a distinct function">user interface component</a></p> 
     <div class="note" role="note" id="wcag-noteissue-container-generatedID--147"><div role="heading" class="note-title marker" id="wcag-noteh-note--147" aria-level="3"><span>Note</span></div><p class="">If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same page.</p></div></blockquote>
@@ -3107,10 +3107,10 @@ sheets);</li>
 <p>With these substitutions, it would read:</p>
 <dl><dt>technology <ins>([non-web document or software])</ins></dt><dd>
 
-<p><a href="https://www.w3.org/TR/WCAG22/#dfn-mechanism">mechanism</a> for encoding instructions to be rendered, played or executed by <ins><strong>[<a href="#user-agent">user agents</a> or other <a href="#software">software</a>]</strong></ins>.</p>
+<p><a href="https://www.w3.org/TR/WCAG22/#dfn-mechanism">mechanism</a> for encoding instructions to be rendered, played or executed by <ins>[<strong><a href="#user-agent">user agents</a></strong> or other <strong><a href="#software">software</a></strong>]</ins>.</p>
 <div class="example">
 
-<p><span>Example: </span>Some common examples of <ins><strong>[<a href="#document">non-web document</a> and software technologies include ODF, OOXML, Java, and C++]</strong></ins>.</p></div></dd></dl><p></p>
+<p><span>Example: </span>Some common examples of <ins>[<strong><a href="#document">non-web document</a></strong> and software technologies include ODF, OOXML, Java, and C++]</ins>.</p></div></dd></dl><p></p>
 </section></section><section id="dfn-up-event"><div class="header-wrapper"><h4 id="x7-3-29-dfn-up-event">up-event</h4><a class="self-link" href="#dfn-up-event" aria-label="Permalink for Section up-event"></a></div><blockquote class="wcag-quote"><p>platform event that occurs  when the trigger stimulus of a pointer is released</p>
 	<p>The up-event may have different names on different platforms, such as "touchend" or "mouseup".</p></blockquote>
 <section id="applying-up-event-to-non-web-documents-and-software"><div class="header-wrapper"><h5 id="x7-3-29-1-applying-up-event-to-non-web-documents-and-software">Applying “up-event” to Non-Web Documents and Software</h5><a class="self-link" href="#applying-up-event-to-non-web-documents-and-software" aria-label="Permalink for Section Applying “up-event” to Non-Web Documents and Software"></a></div>
