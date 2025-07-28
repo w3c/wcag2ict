@@ -555,8 +555,9 @@ the success criterion does not evaluate to 'false' when applied to the <INS>[**[
 
 ##### Applying “set of web pages” to Non-Web Documents and Software
 
-See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.
-
+<div class="note wcag2ict">
+    
+See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.</div>
 <div class="note wcag2ict">
 
 For success criteria that use the term “set of web pages”, the term is replaced by "set of non-web documents" and "set of software programs" when applying this to non-web technologies.</div>
