@@ -99,7 +99,7 @@ With these substitutions and addition, it would read:
 
 supported by users' [assistive technologies](#dfn-assistive-technologies) as well as the accessibility features in <INS>[**[user agents](#dfn-user-agents)** or other **[software](#software)**]</INS>
 
-To qualify as an accessibility-supported use of a <INS>[**[non-web document](#document)** or software]</INS> [technology](#dfn-technologies) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>**[non-web document or software]**</INS> technology (or feature):
+To qualify as an accessibility-supported use of a <INS>[**[non-web document](#document)** or software]</INS> [technology](#dfn-technologies) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>[non-web document or software]</INS> technology (or feature):
 
 1.  **The way that the <INS>[non-web document or software technology]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of the content,
     
