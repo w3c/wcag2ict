@@ -326,10 +326,12 @@ This applies directly as  written and as described in [Intent from Understanding
 <div class="note wcag2ict">
 
 This success criterion only applies to [non-web documents](#document) and [software](#software) that are implemented using markup languages and allow the user to modify these text spacing properties.</div>
-
-<div class="note wcag2ict">
+<div class="note wcag2ict documents">
     
-There are several mechanisms that allow users to modify text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles, or a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that non-web software needs to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that content respond appropriately to it.</div>
+There are several mechanisms that allow users to modify a document's text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles. When such a mechanism is available, the success criterion requires that the content responds appropriately to it.</div>
+<div class="note wcag2ict software">
+    
+There are several mechanisms that allow users to modify software's text spacing properties of content implemented in markup languages. For example, a software application may provide a "user style sheet" facility to modify the appearance of the software's own user interface. This success criterion does not mean that non-web software needs to implement their own mechanisms to allow users to set text spacing; however, when such a mechanism is available, the success criterion requires that the content responds appropriately to it.</div>
 
 <div class="note wcag2ict software">
 
