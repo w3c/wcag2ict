@@ -397,7 +397,11 @@ Keyboard interface does not refer to a physical device but to the service of [pl
 	
 **Proposal 2: Note describing keyboard interface service** 
 	
-A "device-independent keyboard interface service" refers to the platform service that provides keystrokes to any software running on the platform. Inclusion of an on-screen keyboard can be done as well but does not meet this requirement since it does not allow for the use of keyboard alternatives.</div>
+A "device-independent keyboard interface service" refers to the platform service that provides keystrokes to any software running on the platform.</div>
+
+<div class="note wcag2ict software">
+
+Inclusion of an on-screen keyboard can be done as well but does not satisfy this requirement since it does not allow for the use of keyboard alternatives whereas support of input from the device-independent keyboard interface service does.</div>
 <div class="note wcag2ict software">
 	
 **Proposal 3: Edited version of Proposal 2 (removing last sentence)** 
