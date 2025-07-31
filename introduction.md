@@ -59,7 +59,8 @@ The following stylistic conventions are used in this document:
 
 *   Quotes from WCAG 2 are in `<blockquote>` elements and visually styled with a gray bar on the left, and immediately follow the heading for the principle, guideline, or success criterion.
 *   Additional guidance provided by this document begins with the phrase “Applying” and has no special visual styling.
-*   Replacement text that is presented to show how an SC would read as modified by the advice in this document are in `<ins>` elements visually styled as bold green text with a dotted underline.
+*   Replacement text that is presented to show how an SC would read as modified by the advice in this document are in `<ins>` elements visually styled as green text with a dotted underline.
+*   Links that are contained in the word replacement text are also styled with bold text.
 *   Notes are slightly inset and begin with the phrase “NOTE”. Each note is in its own inset box styled in pale green with a darker green line on the left side of the box.
 *   Where WCAG Notes have been replaced or significantly rewritten in the guidance, they are notated with "(REPLACED)". Where WCAG2ICT added new notes, they are notated with "(ADDED)".
 *   References to glossary items from WCAG 2 are presented in `<cite>` elements visually styled as ordinary text with a dotted underline, and contain title attributes noting these are WCAG definitions. They turn blue with a yellow background when mouse or keyboard focus is placed over them.
