@@ -210,16 +210,19 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.4 Resize Text to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent).
+This success criterion is problematic to apply directly to non-web software because not all platforms provide text enlargement features that increase all displayed text to 200%. Non-web software needs to work with platform capabilities where they exist, but when the platform has text resizing that up to 200%, but not all text types scale to 200%, it is unreasonable for all apps on a particular platform to be required to build in their own text resizing. A reasonable expectation would be for non-web software to work with the text sizing features to the extent the platform provides. Doing so would still address the user needs identified in the [Intent from Understanding Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent). The following criterion is recommended as a substitute for the WCAG language:
 
+Except for captions and images of text, text can be resized without loss of content or functionality and without assistive technology either up to 200 percent or, if the platform provides text resizing capabilities but it does not reach 200 percent for all text, up to the text sizing capabilities of the platform.
+<div class="note wcag2ict documents"> 
+	
+[Content](#content-on-and-off-the-web) for which there are viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such viewers or editors, unless the content will not work with that zoom feature.</div>
+<div class="note wcag2ict software"> 
 
-<div class="note wcag2ict"> 
-
-The Intent section refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the application provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the application works with the platform accessibility features to satisfy this success criterion.</div>
+The [Intent section in Understanding 1.4.4 Resize Text](http://section) refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the [non-web software](#software) provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the non-web software works with the platform features to satisfy this success criterion.</div>
 
 <div class="note wcag2ict software">
 	
-For non-web software, there may be cases where the platform does not scale all text up to 200%. In such cases, authors are encouraged to meet user needs by scaling text to the extent supported by user settings in the platform.</div>
+For non-web software, sometimes the platform provides text scaling to 200% for most, but not all text (e.g. headings, which are naturally large, may not be increased in size to 200%, but other text does increase to 200%). In such cases, authors would only need to support text scaling to the extent provided by user settings in the platform, without losing content or functionality, to satisfy this success criterion.</div>
 
 <div class="note wcag2ict software">
 
