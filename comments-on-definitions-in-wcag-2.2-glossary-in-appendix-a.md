@@ -97,9 +97,9 @@ With these substitutions and addition, it would read:
 
 <DL><DT>accessibility supported</DT><DD>
 
-supported by users' [assistive technologies](#dfn-assistive-technologies) as well as the accessibility features in <INS>**[[user agents](#dfn-user-agents) or other [software](#software)]**</INS>
+supported by users' [assistive technologies](#dfn-assistive-technologies) as well as the accessibility features in <INS>[**[user agents](#dfn-user-agents)** or other **[software](#software)**]</INS>
 
-To qualify as an accessibility-supported use of a <INS>**[[non-web document](#document) or software]**</INS> [technology](#dfn-technologies) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>**[non-web document or software]**</INS> technology (or feature):
+To qualify as an accessibility-supported use of a <INS>[**[non-web document](#document)** or software]</INS> [technology](#dfn-technologies) (or feature of a technology), both 1 and 2 must be satisfied for a <INS>[non-web document or software]</INS> technology (or feature):
 
 1.  **The way that the <INS>[non-web document or software technology]</INS> is used must be supported by users' assistive technology (AT).** This means that the way that the technology is used has been tested for interoperability with users' assistive technology in the [human language(s)](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of the content,
     
@@ -108,15 +108,15 @@ To qualify as an accessibility-supported use of a <INS>**[[non-web document](#do
 2.  **The <INS>[non-web document or software]</INS> technology must have accessibility-supported user agents <INS>[or other software]</INS> that are available to users.** This means that at least one of the following four statements is true:
 
     
-    1.  The technology is supported natively in widely-distributed user agents <INS>**[or other software]**</INS> that are also accessibility supported (such as HTML and CSS);
+    1.  The technology is supported natively in widely-distributed user agents <INS>[or other software]</INS> that are also accessibility supported (such as HTML and CSS);
         
         **OR**
         
-    2.  The technology is supported in a widely-distributed plug-in <INS>**[or other software extension]**</INS> that is also accessibility supported;
+    2.  The technology is supported in a widely-distributed plug-in <INS>[or other software extension]</INS> that is also accessibility supported;
         
         **OR**
         
-    3. The content is available in a closed environment, such as a university or corporate network, where the user agent <INS>**[or other software]**</INS> required by the technology and used by the organization is also accessibility supported;
+    3. The content is available in a closed environment, such as a university or corporate network, where the user agent <INS>[or other software]</INS> required by the technology and used by the organization is also accessibility supported;
         
         **OR**
         
@@ -140,7 +140,7 @@ With this substitution, it would read:
 
 <DL><DT>ambiguous to users in general</DT><DD>
 
-the purpose cannot be determined from the link and all information of the <INS>**[[non-web document](#document) or [software](#software)]**</INS> presented to the user simultaneously with the link (i.e., readers without disabilities would not know what a link would do until they activated it)
+the purpose cannot be determined from the link and all information of the <INS>[**[non-web document](#document)** or **[software](#software)**]</INS> presented to the user simultaneously with the link (i.e., readers without disabilities would not know what a link would do until they activated it)
 
 <div class="example">
 
@@ -157,17 +157,17 @@ With these substitutions, it would read:
 
 <DL><DT>assistive technology (as used in this document)</DT><DD>
 
-hardware and/or software that acts <INS>**[stand-alone]**</INS>, or along with <INS>**[mainstream information and communication technologies (ICT)]**</INS>, to provide functionality to meet the requirements of users with disabilities that go beyond those offered by <INS>**[mainstream ICT]**</INS>
+hardware and/or software that acts <INS>[stand-alone]</INS>, or along with <INS>[mainstream information and communication technologies (ICT)]</INS>, to provide functionality to meet the requirements of users with disabilities that go beyond those offered by <INS>[mainstream ICT]</INS>
 
 <div class="note">
 
 Functionality provided by assistive technology includes alternative presentations (e.g., as synthesized speech or magnified content), alternative input methods (e.g., voice), additional navigation or orientation mechanisms, and content transformations (e.g., to make tables more accessible).</div>
 <div class="note">
 
-Assistive technologies often communicate data and messages with <INS>**[mainstream ICTs]**</INS> by using and monitoring APIs.</div>
+Assistive technologies often communicate data and messages with <INS>[mainstream ICTs]</INS> by using and monitoring APIs.</div>
 <div class="note">
 
-The distinction between <INS>**[mainstream ICTs]**</INS> and assistive technologies is not absolute. Many <INS>**[mainstream ICTs]**</INS> provide some features to assist individuals with disabilities. The basic difference is that <INS>**[mainstream ICTs]**</INS> target broad and diverse audiences that usually include people with and without disabilities. Assistive technologies target narrowly defined populations of users with specific disabilities. The assistance provided by an assistive technology is more specific and appropriate to the needs of its target users. The <INS>**[mainstream ICT]**</INS> may provide important functionality to assistive technologies like retrieving <INS>**[[content](#content-on-and-off-the-web)]**</INS> from program objects or parsing markup into identifiable bundles.</div>
+The distinction between <INS>[mainstream ICTs]</INS> and assistive technologies is not absolute. Many <INS>[mainstream ICTs]</INS> provide some features to assist individuals with disabilities. The basic difference is that <INS>[mainstream ICTs]</INS> target broad and diverse audiences that usually include people with and without disabilities. Assistive technologies target narrowly defined populations of users with specific disabilities. The assistance provided by an assistive technology is more specific and appropriate to the needs of its target users. The <INS>[mainstream ICT]</INS> may provide important functionality to assistive technologies like retrieving <INS>[**[content](#content-on-and-off-the-web)**]</INS> from program objects or parsing markup into identifiable bundles.</div>
 <div class="example">
 
 Assistive technologies that are important in the context of this document include the following:
@@ -190,7 +190,7 @@ With these substitutions, it would read:
 
 <DL><DT>changes of context</DT><DD>
 
-major changes that, if made without user awareness, can disorient users who are not able to view the entire <INS>**[non-web document](#document) or [content](#content-on-and-off-the-web) presented by [software](#software)]**</INS> simultaneously
+major changes that, if made without user awareness, can disorient users who are not able to view the entire <INS>[**[non-web document](#document)** or **[content](#content-on-and-off-the-web)** presented by **[software](#software)**]</INS> simultaneously
 
 Changes in context include changes of:
 
@@ -200,7 +200,7 @@ Changes in context include changes of:
     
 3.  focus;
     
-4.  [content](#dfn-content) that changes the meaning of the <INS>**[non-web document or content presented by software]**</INS>.  
+4.  [content](#dfn-content) that changes the meaning of the <INS>[non-web document or content presented by software]</INS>.  
 
 <div class="note">
 
@@ -225,7 +225,7 @@ With this substitution, it would read:
 
 A task that requires the user to remember, manipulate, or transcribe information. Examples include, but are not limited to:
 
-memorization, such as remembering a username, password, set of characters, images, or patterns. The common identifiers name, e-mail, and phone number are not considered cognitive function tests as they are personal to the user and consistent across **<INS>[websites, [non-web documents](#document), and [software](#software)]</INS>**;
+memorization, such as remembering a username, password, set of characters, images, or patterns. The common identifiers name, e-mail, and phone number are not considered cognitive function tests as they are personal to the user and consistent across <INS>[websites, **[non-web documents](#document)**, and **[software](#software)**]</INS>;
 
 * transcription, such as typing in characters;
 * use of correct spelling;
@@ -293,7 +293,7 @@ This applies directly as written and as described in the WCAG 2 glossary.
  
 <div class="note wcag2ict">
     
-The down-event may have different names on different platforms. For example <INS>**["PointerPressed” or “mousedown”]**</INS>.</div>
+The down-event may have different names on different platforms. For example <INS>["PointerPressed” or “mousedown”]</INS>.</div>
 
 #### dfn-general-flash-and-red-flash-thresholds
 
@@ -319,7 +319,7 @@ information provided by the user that is not accepted
 
 <div class="note">This includes:
 
-1.  Information that is required by the <INS>**[[non-web document](#document) or [software](#software)]**</INS> but omitted by the user
+1.  Information that is required by the <INS>[**[non-web document](#document)** or **[software](#software)**]</INS> but omitted by the user
     
 2.  Information that is provided by the user but that falls outside the required data format or values
 </div>    
@@ -359,11 +359,11 @@ With this substitution and addition, it would read:
 
 <DL><DT>label</DT><DD>
 
-[text](https://www.w3.org/TR/WCAG22/#dfn-text) or other component with a [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) that is presented to a user to identify a component within <INS>**[[content](#content-on-and-off-the-web)]**</INS>
+[text](https://www.w3.org/TR/WCAG22/#dfn-text) or other component with a [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) that is presented to a user to identify a component within <INS>[**[content](#content-on-and-off-the-web)**]</INS>
 
 <div class="note">
 
-A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of [software](#software)]**</INS>. In many (but not all) cases the name and the label are the same.</div>
+A label is presented to all users whereas the [name](#dfn-name) may be hidden and only exposed by assistive technology <INS>[or by accessibility features of **[software](#software)**]</INS>. In many (but not all) cases the name and the label are the same.</div>
 <div class="note">
 
 The term label is not limited to the label element in HTML.</div></DD></DL>
@@ -387,10 +387,10 @@ Fonts with extraordinarily thin strokes or unusual features and characteristics 
 Font size is the size when the content is delivered. It does not include resizing that may be done by a user.</div>
 <div class="note">
 
-The actual size of the character that a user sees is dependent both on the author-defined size and the user's display, <INS>**[user agent or [non-web software](#software)]**</INS> settings. For many mainstream body text fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150% of the default size for body text (assuming that the body font is 100%), but authors would need to check this for the particular fonts in use. When fonts are defined in relative units, the actual point size is calculated by the <INS>**[user agent or non-web software]**</INS> for display. The point size should be obtained from the <INS>**[user agent or non-web software]**</INS>, or calculated based on font metrics as the <INS>**[user agent or non-web software]**</INS> does, when evaluating this success criterion. Users who have low vision would be responsible for choosing appropriate settings.</div>
+The actual size of the character that a user sees is dependent both on the author-defined size and the user's display, <INS>[user agent or **[non-web software](#software)**]</INS> settings. For many mainstream body text fonts, 14 and 18 point is roughly equivalent to 1.2 and 1.5 em or to 120% or 150% of the default size for body text (assuming that the body font is 100%), but authors would need to check this for the particular fonts in use. When fonts are defined in relative units, the actual point size is calculated by the <INS>[user agent or non-web software]</INS> for display. The point size should be obtained from the <INS>[user agent or non-web software]</INS>, or calculated based on font metrics as the <INS>[user agent or non-web software]</INS> does, when evaluating this success criterion. Users who have low vision would be responsible for choosing appropriate settings.</div>
 <div class="note">
 
-When using text without specifying the font size, the smallest font size used on major <INS>**[browsers, [user agents](#user-agent), or other [platform software](#platform-software)]**</INS> for unspecified text would be a reasonable size to assume for the font. If a level 1 heading is rendered in 14pt bold or higher on major <INS>**[browsers, user agents, or platform software]**</INS>, then it would be reasonable to assume it is large text. Relative scaling can be calculated from the default sizes in a similar fashion.</div>
+When using text without specifying the font size, the smallest font size used on major <INS>[browsers, **[user agents](#user-agent)**, or other **[platform software](#platform-software)**]</INS> for unspecified text would be a reasonable size to assume for the font. If a level 1 heading is rendered in 14pt bold or higher on major <INS>[browsers, user agents, or other platform software]</INS>, then it would be reasonable to assume it is large text. Relative scaling can be calculated from the default sizes in a similar fashion.</div>
 <div class="note wcag2ict">
 
 When evaluating non-web documents and software, 1 point means 1.333 [CSS pixels](#dfn-css-pixels).</div></DD></DL>
@@ -405,11 +405,11 @@ With this substitution and addition, it would read:
 
 <DL><DT>name</DT><DD>
 
-text by which software can identify a component within <INS>**[[content](#content-on-and-off-the-web)]**</INS> to the user
+text by which software can identify a component within <INS>[**[content](#content-on-and-off-the-web)**]</INS> to the user
 
 <div class="note">
 
-The name may be hidden and only exposed by assistive technology <INS>**[or by accessibility features of [software](#software)]**</INS>, whereas a [label](#dfn-labels) is presented to all users. In many (but not all) cases, the label and the name are the same.</div>
+The name may be hidden and only exposed by assistive technology <INS>[or by accessibility features of **[software](#software)**]</INS>, whereas a [label](#dfn-labels) is presented to all users. In many (but not all) cases, the label and the name are the same.</div>
 <div class="note">
 
 This is unrelated to the name attribute in HTML.</div>
@@ -428,14 +428,14 @@ With this substitution and addition, it would read:
 
 <DL><DT>programmatically determined (programmatically determinable)</DT><DD>
 
-determined by software from author-supplied data provided in a way that different <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of [software](#software)]**</INS> can extract and present this information to users in different modalities
+determined by software from author-supplied data provided in a way that different <INS>[**[assistive technologies](#dfn-assistive-technologies)** and accessibility features of **[software](#software)**]</INS> can extract and present this information to users in different modalities
 
 <div class="example">
 
-Determined in a markup language from elements and attributes that are accessed directly by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
+Determined in a markup language from elements and attributes that are accessed directly by commonly available assistive technology <INS>[and accessibility features of software]</INS>.</div>
 <div class="example">
 
-Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <INS>**[and accessibility features of software]**</INS> via an accessibility API that is supported by commonly available assistive technology <INS>**[and accessibility features of software]**</INS>.</div>
+Determined from technology-specific data structures in a non-markup language and exposed to assistive technology <INS>[and accessibility features of software]</INS> via an accessibility API that is supported by commonly available assistive technology <INS>[and accessibility features of software]</INS>.</div>
 <div class="note wcag2ict">
 
 Software typically enables content to be programmatically determined through the use of [accessibility services of platform software](#accessibility-services-of-platform-software). Non-web documents typically enable [content](#content-on-and-off-the-web) to be programmatically determined through the use of accessibility services of the user agent.</div>
@@ -451,7 +451,7 @@ With this substitution, it would read:
 
 <DL><DT>programmatically set</DT><DD>
 
-set by software using methods that are supported by <INS>**[[assistive technologies](#dfn-assistive-technologies) and accessibility features of [software](#software)]**</INS>
+set by software using methods that are supported by <INS>[**[assistive technologies](#dfn-assistive-technologies)** and accessibility features of **[software](#software)**]</INS>
 
 </DD></DL><div class="note wcag2ict">
 
@@ -485,7 +485,7 @@ The “^” character is the exponentiation operator. (Formula taken from [\[sRG
 <div class="note">Before May 2021 the value of 0.04045 in the definition was different (0.03928). It was taken from an older version of the specification and has been updated. It has no practical effect on the calculations in the context of these guidelines.</div>
 <div class="note">
 
-Almost all systems used today to view <INS>**[[content](#content-on-and-off-the-web)]**</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
+Almost all systems used today to view <INS>[**[content](#content-on-and-off-the-web)**]</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
 <div class="note">
 
 If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered should be used (average R, average G, and average B).</div>
@@ -510,7 +510,7 @@ With this substitution, it would read:
 
 <DL><DT>role</DT><DD>
 
-text or number by which software can identify the function of a component within <INS>**[[content](#content-on-and-off-the-web)]**</INS>
+text or number by which software can identify the function of a component within <INS>[**[content](#content-on-and-off-the-web)**]</INS>
 
 <div class="example">
 
@@ -549,14 +549,15 @@ With this substitution, it would read:
 
 <DL><DT>satisfies a success criterion</DT><DD>
     
-the success criterion does not evaluate to 'false' when applied to the <INS>**[[non-web document](#document) or [software](#software)]**</INS></dd></dl>
+the success criterion does not evaluate to 'false' when applied to the <INS>[**[non-web document](#document)** or **[software](#software)**]</INS></dd></dl>
 
 #### dfn-set-of-web-pages
 
 ##### Applying “set of web pages” to Non-Web Documents and Software
 
-See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.
-
+<div class="note wcag2ict">
+    
+See the guidance on [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the [Key Terms](#key-terms) section.</div>
 <div class="note wcag2ict">
 
 For success criteria that use the term “set of web pages”, the term is replaced by "set of non-web documents" and "set of software programs" when applying this to non-web technologies.</div>
@@ -571,9 +572,9 @@ With these substitutions, it would read:
 
 <DL><DT>structure</DT><DD>
 
-1.  The way the parts of <INS>**[[non-web documents](#document) or [software](#software)]**</INS> are organized in relation to each other; and
+1.  The way the parts of <INS>[**[non-web documents](#document)** or **[software](#software)**]</INS> are organized in relation to each other; and
     
-2.  The way a <INS>**[[set of documents](#set-of-documents) or [set of software programs](#set-of-software-programs)]**</INS> is organized
+2.  The way a <INS>[**[set of documents](#set-of-documents)** or **[set of software programs](#set-of-software-programs)**]</INS> is organized
 
 </DD></DL><div class="note wcag2ict">
 
@@ -589,13 +590,13 @@ With these substitutions, it would read:
 
 <DL><DT>style property</DT><DD>
 
-property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>**[[user agents](#user-agent) or other [platform software](#platform-software)]**</INS>
+property whose value determines the presentation (e.g. font, color, size, location, padding, volume, synthesized speech prosody) of content elements as they are rendered (e.g. onscreen, via loudspeaker, via braille display) by <INS>[**[user agents](#user-agent)** or other **[platform software](#platform-software)**]</INS>
 
 Style properties can have several origins:
 
-- <INS>**[User agent or other platform software]**</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>**[content]**</INS> technologies specify a default rendering, others do not;
-- **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>**[programmatically-set styles]**</INS>);
-- **User styles:** Style property values that are set by the user (e.g. via <INS>**[user agent, platform software or other [software](#software) interface settings, or]**</INS> user style sheets)
+- <INS>[User agent or other platform software]</INS> **default styles:** The default style property values applied in the absence of any author or user styles. Some <INS>[content]</INS> technologies specify a default rendering, others do not;
+- **Author styles:** Style property values that are set by the author as part of the content (e.g. <INS>[programmatically-set styles]</INS>);
+- **User styles:** Style property values that are set by the user (e.g. via <INS>[user agent, platform software or other **[software](#software)** interface settings, or]</INS> user style sheets)
 </DD></DL>
 
 #### dfn-targets
@@ -611,7 +612,7 @@ region of the display that will accept a pointer action, such as the interactive
 
 <div class="note">
     
-If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>**[[content](#content-on-and-off-the-web)]**</INS>.</div></DD></DL>
+If two or more targets are overlapping, the overlapping area should not be included in the measurement of the target size, except when the overlapping targets perform the same action or open the same <INS>[**[content](#content-on-and-off-the-web)**]</INS>.</div></DD></DL>
 
 #### dfn-technologies
 
@@ -623,11 +624,11 @@ With these substitutions, it would read:
 
 <DL><DT>technology <INS>([non-web document or software])</INS></DT><DD>
 
-[mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>**[[user agents](#user-agent) or other [software](#software)]**</INS>.
+[mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) for encoding instructions to be rendered, played or executed by <INS>[**[user agents](#user-agent)** or other **[software](#software)**]</INS>.
 
 <div class="example">
 
-Some common examples of <INS>**[[non-web document](#document) and software technologies include ODF, OOXML, Java, and C++]**</INS>.</div></DD></DL>
+Some common examples of <INS>[**[non-web document](#document)** and software technologies include ODF, OOXML, Java, and C++]</INS>.</div></DD></DL>
 
 #### dfn-up-event
 
@@ -637,7 +638,7 @@ This applies directly as written and as described in the WCAG 2 glossary.
  
 <div class="note wcag2ict">
     
-The up-event may have different names on different platforms, such as <INS>**[“PointerReleased” or “mouseup”]**</INS>.</div>
+The up-event may have different names on different platforms, such as <INS>[“PointerReleased” or “mouseup”]</INS>.</div>
 
 #### dfn-user-agents
 
@@ -681,11 +682,11 @@ With this substitution, it would read:
 
 <DL><DT>viewport</DT><DD>
 
-object in which the <INS>**[[software](#software)]**</INS> presents content
+object in which the <INS>[**[software](#software)**]</INS> presents content
 
 <div class="note">
 
-The <INS>**[software]**</INS> presents content through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <INS>**[software]**</INS> such as prompts, menus, and alerts are not viewports.</div>
+The <INS>[software]</INS> presents content through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <INS>[software]</INS> such as prompts, menus, and alerts are not viewports.</div>
 <div class="note">
 
 This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](http://www.w3.org/TR/WAI-USERAGENT/glossary.html) [\[UAAG10\]](https://www.w3.org/TR/WCAG22/#bib-uaag10).</div>
