@@ -50,7 +50,7 @@ The following are out of scope for this document:
 *   This document is not sufficient by itself to ensure accessibility in non-web documents and software. This is because this document does not address accessibility requirements beyond those covered by WCAG which, as a web standard, does not fully cover all accessibility requirements for non-user interface aspects of platforms, user-interface components as individual items, or ICT with closed functionality (where there is no assistive technology to communicate programmatic information).
 *   This document does not comment on hardware aspects of products because the basic constructs on which WCAG 2 is built do not apply to hardware.
 *   This document does not provide supporting techniques for implementing WCAG 2 in non-web documents and software.
-*   This document is purely an informative Note about non-web ICT &mdash; it is not a standard &mdash; so it does not describe how non-web ICT should conform to it.
+*   This document is purely an informative Note about non-web ICT. It is not a standard &mdash; so it does not describe how non-web ICT should conform to it.
 
 ### Document Overview
 
