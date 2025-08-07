@@ -9,15 +9,16 @@
 * Michael Cooper (formerly W3C Staff)
 * Phil Day (NCR Atleos)
 * Mitchell Evan (TPGi)
-* Olivia Hogan-Stark (NCR Voyix)
+* Tamsin Ewing (W3C Staff)
 * Thorsten Katzmann (IBM Corporation)
 * Chris Loiselle (Oracle Corporation)
 * Loïc Martínez Normand (Universidad Politécnica de Madrid) 
-* Laura Miller (TPGi)
+* Laura Miller (US General Services Administration)
 * Daniel Montalvo (W3C Staff)
 * Mary Jo Mueller (IBM Corporation)
 * Sam Ogami (Invited Expert)
 * Mike Pluke (Invited Expert)
+* Jennifer Strickland (MITRE Corporation)
 * Shawn Thompson (Shared Services Canada)
 * Bryan Trogdon (Google LLC)
 * Gregg Vanderheiden (Raising the Floor)
@@ -70,7 +71,6 @@ Special thanks goes to members of the APA working group that contributed their e
 ### Other Participants of the WCAG2ICT Task Force
 * Kent Boucher (Oracle Corporation)
 * Tony Holland (IBM Corporation)
-* Anastasia Lanz (Deque Systems, Inc.)
 
 ### Previous Contributors
 The following people contributed to the development of the 2013 WCAG2ICT Note.
