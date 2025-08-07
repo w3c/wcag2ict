@@ -19,7 +19,7 @@ For non-web software on ICT with closed functionality, those who implement this 
 <li><a href="#contrast-minimum">1.4.3 Contrast (Minimum)</a> — There are cases where applying this success criterion to non-web software on ICT with closed functionality is problematic:
 <ul>
 <li>When the contrast of the content is determined by the hardware and not modifiable by the software author, it may not be possible to meet this success criterion.
-<div class="note">Hardware requirements for contrast are out of scope for WCAG2ICT (and this success criterion).</div></li>
+<div class="note">Contrast requirements for hardware are out of scope for WCAG2ICT (and this success criterion).</div></li>
 <li>When the color contrast ratio cannot be programmatically measured due to system limitations (e.g. lockdown), precise quantifiable testing of color contrast cannot be performed by a third party.  In such cases, the software author would need to confirm that the color combinations used meet the contrast requirement.
 <div class="note">Photographs (e.g., of a hardware display) are not sufficient for testing that content meets this success criterion.  This is because the quality of the lighting, camera, and physical aspects of the hardware display can dramatically affect the ability to capture the content for testing purposes.</div></li>
 </ul></li>
@@ -31,7 +31,7 @@ For non-web software on ICT with closed functionality, those who implement this 
 <li><a href="#non-text-contrast">1.4.11 Non-text Contrast</a> — There are cases where applying this success criterion to non-web software on ICT with closed functionality is problematic:
 <ul>
 <li>When the contrast of the content is determined by the hardware and not modifiable by the software author, it may not be possible to meet this success criterion.
-<div class="note">Hardware requirements for contrast are out of scope for WCAG2ICT (and this success criterion).</div></li>
+<div class="note">Contrast requirements for hardware are out of scope for WCAG2ICT (and this success criterion).</div></li>
 <li>When the color contrast ratio cannot be programmatically measured due to system limitations (e.g. lockdown), precise quantifiable testing of color contrast cannot be performed by a third party. In such cases, the software author would need to confirm that the color combinations used meet the contrast requirement.
 <div class="note">Photographs are not sufficient for testing that content meets this success criterion.  This is because the quality of the lighting, camera, and physical aspects of the hardware display can dramatically affect the ability to capture the content for testing purposes.</div></li>
 </ul></li>
