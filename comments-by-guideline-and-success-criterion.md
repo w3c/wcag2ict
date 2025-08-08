@@ -213,6 +213,8 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This success criterion is problematic to apply directly to non-web software because not all platforms provide text enlargement features that increase all displayed text to 200%. Non-web software needs to work with platform capabilities where they exist, but when the platform has text resizing that up to 200%, but not all text types scale to 200%, it is unreasonable for all apps on a particular platform to be required to build in their own text resizing. A reasonable expectation would be for non-web software to work with the text sizing features to the extent the platform provides. Doing so would still address the user needs identified in the [Intent from Understanding Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent). The following criterion is recommended as a substitute for the WCAG language:
 
 Except for captions and images of text, text can be resized without loss of content or functionality and without assistive technology either up to 200 percent or, if the platform provides text resizing capabilities but it does not reach 200 percent for all text, up to the text sizing capabilities of the platform.
+<div class="note wcag2ict">
+It is best practice to use only fonts that allow for scaling without loss of quality (e.g. pixelized presentation). This applies in particular to embedded fonts.</div>
 <div class="note wcag2ict documents"> 
 	
 [Content](#content-on-and-off-the-web) for which there are viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such viewers or editors, unless the content will not work with that zoom feature.</div>
