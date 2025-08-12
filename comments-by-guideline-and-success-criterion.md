@@ -42,7 +42,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
  
-The alternative can be provided directly in the [non-web document](#document) or [software](#software) – or provided in an alternate version that meets the success criterion.</div>
+The alternative can be provided directly in the [non-web document](#document) or [software](#software) – or provided in an alternate version that satisfies the success criterion.</div>
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -218,7 +218,7 @@ Except for captions and images of text, text can be resized without loss of cont
 It is best practice to use only fonts that allow for scaling without loss of quality (e.g. pixelized presentation). This applies in particular to embedded fonts.</div>
 <div class="note wcag2ict documents"> 
 	
-[Content](#content-on-and-off-the-web) for which there are viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such viewers or editors, unless the content will not work with that zoom feature.</div>
+[Content](#content-on-and-off-the-web) for which there are viewers or editors with a 200 percent zoom feature would automatically satisfy this success criterion when used with such viewers or editors, unless the content will not work with that zoom feature.</div>
 <div class="note wcag2ict software"> 
 
 The [Intent section in Understanding 1.4.4 Resize Text](http://section) refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the [non-web software](#software) provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the non-web software works with the platform features to satisfy this success criterion.</div>
@@ -279,7 +279,7 @@ When the underlying user agent or platform software does not support these dimen
 
 <div class="note wcag2ict software">
 
-The intent section refers to the ability for content to reflow (for vertical scrolling content at a width equivalent to 320 CSS pixels, or for horizontal scrolling content at a height equivalent to 256 CSS pixels) when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window, dialog, or other resizable content area, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features that satisfy this success criterion.</div>
+The intent section refers to the ability for content to reflow (for vertical scrolling content at a width equivalent to 320 CSS pixels, or for horizontal scrolling content at a height equivalent to 256 CSS pixels) when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window, dialog, or other resizable content area, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the non-web software works with platform features that satisfy this success criterion.</div>
 <div class="note wcag2ict software">
 
 Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the Web. For example:
@@ -651,7 +651,7 @@ The definitions of “[set of documents](#set-of-documents)” and “[set of so
 While some users may find it useful to have multiple ways to locate some groups of user interface elements within a non-web document or software program, this is not required by the success criterion (and may pose difficulties in some situations).</div>
 <div class="note wcag2ict">
     
-The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from meeting this success criterion—is achieved by the definition of set.</div>
+The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from satisfying this success criterion—is achieved by the definition of set.</div>
 
 <div class="note wcag2ict software">
 
@@ -865,7 +865,7 @@ With this substitution, it would read:
 
 <div class="note wcag2ict software">
     
-Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would satisfy this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [software](#software) would also satisfy this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technologies) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to satisfy this success criterion in that locale / language.</div>
+Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would satisfy this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [non-web software](#software) would also satisfy this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technologies) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to satisfy this success criterion in that locale / language.</div>
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -1063,7 +1063,7 @@ With this substitution, it would read:
 <dt>Object Recognition</dt>
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
-<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>[a website, <strong><a href="#document">non-web document</a></strong>strong>, or <strong><a href="#software">software</a></strong>]</INS>.</dd>
+<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>[a website, <strong><a href="#document">non-web document</a></strong>, or <strong><a href="#software">software</a></strong>]</INS>.</dd>
 </dl>
 <div class="note">
 
@@ -1154,7 +1154,7 @@ WCAG 2.2 has made this success criterion obsolete and removed it as a requiremen
 
 ###### Applying SC 4.1.2 Name, Role, Value to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.2](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value#intent), replacing “user agents, including assistive technologies", with “assistive technologies and accessibility features of underlying software” and the note with: “This success criterion is primarily for software developers who develop or use custom user interface components. For example, standard user interface components on most accessibility-supported platforms already meet this success criterion when used according to specification.”
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.2](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value#intent), replacing “user agents, including assistive technologies", with “assistive technologies and accessibility features of underlying software” and the note with: “This success criterion is primarily for software developers who develop or use custom user interface components. For example, standard user interface components on most accessibility-supported platforms already satisfy this success criterion when used according to specification.”
 
 With this substitution, it would read:
 
