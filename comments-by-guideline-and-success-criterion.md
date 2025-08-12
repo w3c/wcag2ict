@@ -390,8 +390,11 @@ In WCAG 2, the Principles are provided for framing and understanding the success
 In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.1 applies directly as written.
 
 ##### keyboard
+###### Applying SC 2.1.1 Keyboard to Non-Web Documents
 
-###### Applying SC 2.1.1 Keyboard to Non-Web Documents and Software
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
+
+###### Applying SC 2.1.1 Keyboard to Non-Web Software
 
 Where ICT is or includes non-web software that can be run on a software platform that provides a device-independent keyboard interface service, this applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
 
