@@ -982,7 +982,7 @@ For this success criterion, "the same order relative to other <INS>[content]</IN
 See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 
 <div class="note wcag2ict software">
-Sets of software that meet this definition appear to be extremely rare.
+Sets of software that meet this definition appear to be extremely rare.</div>
 
 #### input-assistance
 
