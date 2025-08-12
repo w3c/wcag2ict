@@ -24,7 +24,7 @@ var respecConfig = {
 			key: "WCAG2ICT 2.0 W3C Group Note",
 			data: [
 				{
-					href: "https://www.w3.org/TR/wcag2ict/",
+					href: "https://www.w3.org/TR/wcag2ict-20/",
 				},
 			],
 		},
