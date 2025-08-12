@@ -9,11 +9,19 @@ var respecConfig = {
 	copyrightStart: "2022",
 	license: "document",
 	
-	previousPublishDate:  "2013-09-05",
+	previousPublishDate:  "2024-11-15",
 	previousMaturity:  "NOTE",
 	otherLinks: [
 		{
 			key: "Previous Version",
+			data: [
+				{
+					href: "https://www.w3.org/TR/2024/NOTE-wcag2ict-22-20241115/",
+				},
+			],
+		},
+		{
+			key: "WCAG2ICT 2.0 W3C Group Note",
 			data: [
 				{
 					href: "https://www.w3.org/TR/wcag2ict-20/",
