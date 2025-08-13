@@ -3,13 +3,14 @@
 ### Active Participants of the WCAG2ICT Task Force Involved in the Development of This Document
 * Shadi Abou-Zahra (Amazon)
 * Charles Adams (Oracle Corporation)
-* Bruce Bailey (U.S. Access Board)
+* Bruce Bailey (Invited Expert)
 * Fernanda Bonnin (Microsoft Corporation)
 * Devanshu Chandra (Deque Systems, Inc.)
 * Michael Cooper (formerly W3C Staff)
 * Phil Day (NCR Atleos)
 * Mitchell Evan (TPGi)
 * Tamsin Ewing (W3C Staff)
+* Olivia Hogan-Stark (NCR Voyix)
 * Thorsten Katzmann (IBM Corporation)
 * Chris Loiselle (Oracle Corporation)
 * Loïc Martínez Normand (Universidad Politécnica de Madrid) 
@@ -21,7 +22,7 @@
 * Jennifer Strickland (MITRE Corporation)
 * Shawn Thompson (Shared Services Canada)
 * Bryan Trogdon (Google LLC)
-* Gregg Vanderheiden (Raising the Floor)
+* Gregg Vanderheiden (W3C Invited Expert)
 
 ### Participants in the AG Working Group that Actively Reviewed and Contributed
 
@@ -37,9 +38,9 @@
 * Detlev Fischer (Invited Expert)
 * Mike Gifford (Invited Expert)
 * Michael Gower (IBM Corporation)
-* Jan Jaap de Groot (Invited Expert)
+* Jan Jaap de Groot (Abra)
 * Shawn Henry (W3C Staff)
-* Andrew Kirkpatrick (Adobe)
+* Andrew Kirkpatrick (formerly Adobe)
 * Patrick Lauke (TetraLogical)
 * Todd Libby (Invited Expert)
 * David MacDonald (Invited Expert)
@@ -47,14 +48,14 @@
 * Lori Oakley (Oracle Corporation)
 * Scott O'Hara (Microsoft Corporation)
 * Kimberly Patch (Invited Expert)
-* Melanie Philipp (Deque Systems, Inc.)
+* Melanie Philipp (Invited Expert)
 * Julie Rawe (Understood)
 * Roberto Scano (Invited Expert)
-* Lisa Seeman-Kestenbaum (Invited Expert)
+* Lisa Seeman-Horwitz (Invited Expert)
 * Poornima Badhan Subramanian (Invited Expert)
-* Ben Tillyer (Invited Expert)
+* Ben Tillyer (University of Oxford)
 * Kevin White (W3C Staff)
-* Frankie Wolf (Level Access)
+* Frankie Wolf (Invited Expert)
 
 WCAG2ICT Task Force participants are also in the AG working group, but are not repeated here.
 
@@ -71,6 +72,7 @@ Special thanks goes to members of the APA working group that contributed their e
 ### Other Participants of the WCAG2ICT Task Force
 * Kent Boucher (Oracle Corporation)
 * Tony Holland (IBM Corporation)
+* Anastasia Lanz (Deque Systems, Inc.)
 
 ### Previous Contributors
 The following people contributed to the development of the 2013 WCAG2ICT Note.

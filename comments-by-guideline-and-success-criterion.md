@@ -42,7 +42,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
  
-The alternative can be provided directly in the [non-web document](#document) or [software](#software) – or provided in an alternate version that meets the success criterion.</div>
+The alternative can be provided directly in the [non-web document](#document) or [software](#software) – or provided in an alternate version that satisfies the success criterion.</div>
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -214,10 +214,11 @@ This success criterion is problematic to apply directly to non-web software beca
 
 Except for captions and images of text, text can be resized without loss of content or functionality and without assistive technology either up to 200 percent or, if the platform provides text resizing capabilities but it does not reach 200 percent for all text, up to the text sizing capabilities of the platform.
 <div class="note wcag2ict">
+
 It is best practice to use only fonts that allow for scaling without loss of quality (e.g. pixelized presentation). This applies in particular to embedded fonts.</div>
 <div class="note wcag2ict documents"> 
 	
-[Content](#content-on-and-off-the-web) for which there are viewers or editors with a 200 percent zoom feature would automatically meet this success criterion when used with such viewers or editors, unless the content will not work with that zoom feature.</div>
+[Content](#content-on-and-off-the-web) for which there are viewers or editors with a 200 percent zoom feature would automatically satisfy this success criterion when used with such viewers or editors, unless the content will not work with that zoom feature.</div>
 <div class="note wcag2ict software"> 
 
 The [Intent section in Understanding 1.4.4 Resize Text](http://section) refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the [non-web software](#software) provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the non-web software works with the platform features to satisfy this success criterion.</div>
@@ -278,7 +279,7 @@ When the underlying user agent or platform software does not support these dimen
 
 <div class="note wcag2ict software">
 
-The intent section refers to the ability for content to reflow (for vertical scrolling content at a width equivalent to 320 CSS pixels, or for horizontal scrolling content at a height equivalent to 256 CSS pixels) when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window, dialog, or other resizable content area, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the application works with platform features that satisfy this success criterion.</div>
+The intent section refers to the ability for content to reflow (for vertical scrolling content at a width equivalent to 320 CSS pixels, or for horizontal scrolling content at a height equivalent to 256 CSS pixels) when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window, dialog, or other resizable content area, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the non-web software works with platform features that satisfy this success criterion.</div>
 <div class="note wcag2ict software">
 
 Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the Web. For example:
@@ -597,7 +598,7 @@ With this substitution, it would read:
 <div class="note wcag2ict">
     
 As described in the WCAG intent, the name of a [non-web software application](#software) or [non-web document](#document) (e.g. document, media file, etc.) is a sufficient title if it describes the topic or purpose.</div>
-<div class="note wcag2ict">
+<div class="note wcag2ict software">
     
 Although not required by this success criterion, ensuring that individual windows or screens have a title (where that title describes the topic or purpose) addresses the user needs identified in the Understanding Success Criterion 2.4.2 Intent section, and is generally considered a best practice.</div>
 
@@ -650,7 +651,7 @@ The definitions of “[set of documents](#set-of-documents)” and “[set of so
 While some users may find it useful to have multiple ways to locate some groups of user interface elements within a non-web document or software program, this is not required by the success criterion (and may pose difficulties in some situations).</div>
 <div class="note wcag2ict">
     
-The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from meeting this success criterion—is achieved by the definition of set.</div>
+The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from satisfying this success criterion—is achieved by the definition of set.</div>
 
 <div class="note wcag2ict software">
 
@@ -864,7 +865,7 @@ With this substitution, it would read:
 
 <div class="note wcag2ict software">
     
-Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would satisfy this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [software](#software) would also satisfy this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technologies) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to satisfy this success criterion in that locale / language.</div>
+Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would satisfy this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [non-web software](#software) would also satisfy this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technologies) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to satisfy this success criterion in that locale / language.</div>
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -882,7 +883,7 @@ With this substitution, it would read:
 <div class="note wcag2ict">
 
 Examples of programmatic identification include language metadata or markup. There are some [non-web software](#software) and [non-web document](#document) technologies where there is no assistive technology supported method for marking the language for the different passages or phrases in the non-web document or software, and it would not be possible to satisfy this success criterion with those technologies.</div>
-<div class="note wcag2ict">
+<div class="note wcag2ict documents">
 
 Inheritance is one common method. For example, where the primary language of a non-web document is programmatically determinable, it can be assumed that all of the text or user interface elements within that document will be using the same language unless it is indicated.</div>
 <div class="note wcag2ict software">
@@ -984,7 +985,10 @@ Help mechanisms may be provided directly <INS>[in the non-web document or softwa
 For this success criterion, "the same order relative to other <INS>[content]</INS>" can be thought of as how the content is ordered when the <INS>[non-web document or software content is serialized]</INS>. The visual position of a help mechanism is likely to be consistent across <INS>[non-web documents or software]</INS> for the same <INS>[content layout variation]</INS> (e.g., CSS break-point). The user can initiate a change, such as changing the <INS>[non-web document’s or software's]</INS> zoom or orientation, which may trigger a different <INS>[content layout variation]</INS>. This criterion is concerned with relative order across <INS>[non-web documents or software]</INS> displayed in the same <INS>[content layout variation]</INS> (e.g., same zoom level and orientation).</div>
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+
+<div class="note wcag2ict software">
+Sets of software that meet this definition appear to be extremely rare.</div>
 
 #### input-assistance
 
@@ -1150,7 +1154,7 @@ WCAG 2.2 has made this success criterion obsolete and removed it as a requiremen
 
 ###### Applying SC 4.1.2 Name, Role, Value to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.2](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value#intent), replacing “user agents, including assistive technologies", with “assistive technologies and accessibility features of underlying software” and the note with: “This success criterion is primarily for software developers who develop or use custom user interface components. For example, standard user interface components on most accessibility-supported platforms already meet this success criterion when used according to specification.”
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.2](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value#intent), replacing “user agents, including assistive technologies", with “assistive technologies and accessibility features of underlying software” and the note with: “This success criterion is primarily for software developers who develop or use custom user interface components. For example, standard user interface components on most accessibility-supported platforms already satisfy this success criterion when used according to specification.”
 
 With this substitution, it would read:
 
