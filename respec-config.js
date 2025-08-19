@@ -42,7 +42,7 @@ var respecConfig = {
 		},
 		{
 			name: "Chris Loiselle",
-			mailto: "chris.loiselle@oracle.com",
+			mailto: "chris_loiselle@icloud.com",
 			company: "Invited Expert (formerly Oracle Corporation)",
 			w3cid: 65246,
 		},
