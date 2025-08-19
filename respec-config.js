@@ -43,8 +43,7 @@ var respecConfig = {
 		{
 			name: "Chris Loiselle",
 			mailto: "chris.loiselle@oracle.com",
-			company: "Oracle Corporation",
-			companyURI: "http://www.oracle.com/",
+			company: "Invited Expert (formerly Oracle Corporation)",
 			w3cid: 65246,
 		},
 		{
