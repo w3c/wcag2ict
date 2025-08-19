@@ -12,7 +12,7 @@
 * Tamsin Ewing (W3C Staff)
 * Olivia Hogan-Stark (NCR Voyix)
 * Thorsten Katzmann (IBM Corporation)
-* Chris Loiselle (Oracle Corporation)
+* Chris Loiselle (Invited Expert (formerly Oracle Corporation))
 * Loïc Martínez Normand (Universidad Politécnica de Madrid) 
 * Laura Miller (US General Services Administration)
 * Daniel Montalvo (W3C Staff)
