@@ -1,11 +1,11 @@
 var respecConfig = {
 	noRecTrack: true,
 	tocIntroductory: true,
-	specStatus: "NOTE",
+	specStatus: "ED",
 	maxTocLevel: 3,
 	shortName: "wcag2ict-22",
 	
-	publishDate:  "2025-08-21",
+	//publishDate:  "",
 	copyrightStart: "2022",
 	license: "document",
 	
@@ -43,8 +43,7 @@ var respecConfig = {
 		{
 			name: "Chris Loiselle",
 			mailto: "chris.loiselle@oracle.com",
-			company: "Oracle Corporation",
-			companyURI: "http://www.oracle.com/",
+			company: "Invited Expert (formerly Oracle Corporation)",
 			w3cid: 65246,
 		},
 		{
