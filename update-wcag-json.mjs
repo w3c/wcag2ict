@@ -23,6 +23,7 @@ compatible.successcriteria[0].handle =
 const parsing21 = wcag21.principles[3].guidelines[0].successcriteria[0];
 parsing21.id += "21";
 parsing21.handle += " (WCAG 2.1)";
+console.log(parsing21.content);
 compatible.successcriteria.unshift(parsing21);
 
 // Prune unneeded fields
