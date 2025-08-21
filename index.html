@@ -89,8 +89,9 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 	
 <meta name="color-scheme" content="light">
-<meta name="revision" content="797616044ca2b47940526bbd36c47ad63604132b">
+<meta name="revision" content="ae8a354a28dea723021c8d7bcbae213176c82b24">
 <meta name="description" content="This document describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
+<link rel="canonical" href="https://www.w3.org/TR/wcag2ict-22/">
 <style>
 var:hover{text-decoration:underline;cursor:pointer}
 var.respec-hl{color:var(--color,#000);background-color:var(--bg-color);box-shadow:0 0 0 2px var(--bg-color)}
@@ -118,9 +119,10 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <script id="initialUserConfig" type="application/json">{
   "noRecTrack": true,
   "tocIntroductory": true,
-  "specStatus": "ED",
+  "specStatus": "NOTE",
   "maxTocLevel": 4,
   "shortName": "wcag2ict-22",
+  "publishDate": "2025-08-21",
   "copyrightStart": "2022",
   "license": "document",
   "previousPublishDate": "2024-11-15",
@@ -157,7 +159,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "name": "Chris Loiselle",
       "mailto": "chris_loiselle@icloud.com",
       "company": "Invited Expert (formerly Oracle Corporation)",
-      "w3cid": 65246,
+      "w3cid": 169930,
       "url": "mailto:chris_loiselle@icloud.com"
     },
     {
@@ -236,21 +238,21 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "797616044ca2b47940526bbd36c47ad63604132b",
-  "publishISODate": "2025-08-19T00:00:00.000Z",
-  "generatedSubtitle": "W3C Editor's Draft 19 August 2025"
+  "gitRevision": "ae8a354a28dea723021c8d7bcbae213176c82b24",
+  "publishISODate": "2025-08-21T00:00:00.000Z",
+  "generatedSubtitle": "W3C Group Note 21 August 2025"
 }</script>
-<link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-ED"></head>
+<link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-NOTE"></head>
 	<body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#ED">W3C Editor's Draft</a> <time class="dt-published" datetime="2025-08-19">19 August 2025</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#NOTE">W3C Group Note</a> <time class="dt-published" datetime="2025-08-21">21 August 2025</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
         <dt>This version:</dt><dd>
-                <a class="u-url" href="https://w3c.github.io/wcag2ict/">https://w3c.github.io/wcag2ict/</a>
+                <a class="u-url" href="https://www.w3.org/TR/2025/NOTE-wcag2ict-22-20250821/">https://www.w3.org/TR/2025/NOTE-wcag2ict-22-20250821/</a>
               </dd>
         <dt>Latest published version:</dt><dd>
                 <a href="https://www.w3.org/TR/wcag2ict-22/">https://www.w3.org/TR/wcag2ict-22/</a>
@@ -268,7 +270,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         
         <dt>Editors:</dt><dd class="editor p-author h-card vcard" data-editor-id="46880">
     <a class="ed_mailto u-email email p-name" href="mailto:maryjom@us.ibm.com">Mary Jo Mueller</a> (<span class="p-org org h-org">IBM</span>)
-  </dd><dd class="editor p-author h-card vcard" data-editor-id="65246">
+  </dd><dd class="editor p-author h-card vcard" data-editor-id="169930">
     <a class="ed_mailto u-email email p-name" href="mailto:chris_loiselle@icloud.com">Chris Loiselle</a> (<span class="p-org org h-org">Invited Expert (formerly Oracle Corporation)</span>)
   </dd><dd class="editor p-author h-card vcard" data-editor-id="139781">
     <a class="ed_mailto u-email email p-name" href="mailto:phil.day@ncratleos.com">Phil Day</a> (<span class="p-org org h-org">NCR Atleos</span>)
@@ -326,31 +328,20 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 To comment, file an issue in the <a href="https://github.com/w3c/wcag2ict/"><abbr title="World Wide Web Consortium">W3C</abbr> WCAG2ICT</a> GitHub repository. Create separate GitHub issues for each topic, rather than commenting on multiple topics in a single issue. It is free to create a GitHub account to file issues. If filing issues in GitHub is not feasible, send email to <a href="mailto:public-wcag2ict-comments@w3.org">public-wcag2ict-comments@w3.org</a> (comment archive).</p>
 <p>
     This document was published by the <a href="https://www.w3.org/groups/wg/ag">Accessibility Guidelines Working Group</a> as
-    an Editor's Draft. 
-  </p><p>Publication as an Editor's Draft does not
-  imply endorsement by <abbr title="World Wide Web Consortium">W3C</abbr> and its Members. </p><p>
-    This is a draft document and may be updated, replaced, or obsoleted by other
-    documents at any time. It is inappropriate to cite this document as other
-    than a work in progress.
+    a Group Note using the
+        <a href="https://www.w3.org/policies/process/20250818/#recs-and-notes">Note track</a>. 
+  </p><p>This Group Note is endorsed by
+        the <a href="https://www.w3.org/groups/wg/ag">Accessibility Guidelines Working Group</a>, but is not endorsed by
+        <abbr title="World Wide Web Consortium">W3C</abbr> itself nor its
+        Members. </p><p data-deliverer="35422">
     
-  </p><p>
-    
-        This document was produced by a group
-        operating under the
+        The
         <a href="https://www.w3.org/policies/patent-policy/"><abbr title="World Wide Web Consortium">W3C</abbr> Patent
-          Policy</a>.
+          Policy</a>
+        does not carry any licensing requirements or commitments on this
+        document.
       
     
-                <abbr title="World Wide Web Consortium">W3C</abbr> maintains a
-                <a rel="disclosure" href="https://www.w3.org/groups/wg/ag/ipr">public list of any patent disclosures</a>
-          made in connection with the deliverables of
-          the group; that page also includes
-          instructions for disclosing a patent. An individual who has actual
-          knowledge of a patent that the individual believes contains
-          <a href="https://www.w3.org/policies/patent-policy/#def-essential">Essential Claim(s)</a>
-          must disclose the information in accordance with
-          <a href="https://www.w3.org/policies/patent-policy/#sec-Disclosure">section 6 of the <abbr title="World Wide Web Consortium">W3C</abbr> Patent Policy</a>.
-        
   </p><p>
                       This document is governed by the
                       <a id="w3c_process_revision" href="https://www.w3.org/policies/process/20250818/">18 August 2025 <abbr title="World Wide Web Consortium">W3C</abbr> Process Document</a>.
@@ -2024,7 +2015,7 @@ Sets of software that meet this definition appear to be extremely rare.</div></d
    
    <div class="note" role="note" id="wcag-noteissue-container-generatedID--26"><div role="heading" class="note-title marker" id="wcag-noteh-note--26" aria-level="5"><span>Note 1</span></div><p class="">This success criterion should be considered as always satisfied for any content using HTML or XML.</p></div>
 
-   <div class="note" role="note" id="wcag-noteissue-container-generatedID--27"><div role="heading" class="note-title marker" id="wcag-noteh-note--27" aria-level="5"><span>Note 2</span></div><div class="">
+   <div class="note" role="note" id="wcag-noteissue-container-generatedID--27-411-21"><div role="heading" class="note-title marker" id="wcag-noteh-note--27-411-21" aria-level="5"><span>Note 2</span></div><div class="">
       <p>Since this criterion was written, the HTML Living Standard has adopted specific requirements governing how user agents must handle incomplete tags, incorrect element nesting, duplicate attributes, and non-unique IDs. [<cite><a href="https://www.w3.org/TR/WCAG21/#bib-html" title="HTML Standard">HTML</a></cite>]</p>
       
       <p>Although the HTML standard treats some of these cases as non-conforming for authors, it is considered to "allow these features" for the purposes of this success criterion because the specification requires that user agents support handling these cases consistently. In practice, this criterion no longer provides any benefit to people with disabilities in itself.</p>
