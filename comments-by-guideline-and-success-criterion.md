@@ -618,7 +618,7 @@ This applies directly as written and as described in [Intent from Understanding 
 
 <div class="note wcag2ict software">
     
-In non-web software, a “link” is any text string or image in the user interface outside a user interface control that behaves like a hypertext link. This does not include general user interface controls or buttons. (An OK button, for example, would not be a link.)</div>
+In non-web software, a “link” is any user interface control that behaves like a hypertext link.</div>
 
 <div class="note wcag2ict software">
     
