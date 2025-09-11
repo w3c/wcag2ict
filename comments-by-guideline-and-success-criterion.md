@@ -233,7 +233,7 @@ The [Intent section in Understanding 1.4.4 Resize Text](http://section) refers t
 For non-web software, sometimes the platform provides text scaling to 200% for most, but not all text (e.g. headings, which are naturally large, may not be increased in size to 200%, but other text does increase to 200%). In such cases, authors would only need to support text scaling to the extent provided by user settings in the platform, without losing text-size semantics, content or functionality, to satisfy this success criterion.</div>
 <div class="note wcag2ict software">
 
-For software expected to be viewed at a distance of approximately 15 3/4 inches (400mm), good practice is for the default presentation for text to have an x-height that is at least as big as Arial font at 16 CSS px, which at 200% zoom would be 32 CSS px.</div>
+For non-web software expected to be viewed at a distance of approximately 15 3/4 inches (400mm), good practice is for the default presentation for text to have an x-height that is at least as big as Arial font at 16 CSS px, which at 200% zoom would be 32 CSS px.</div>
 <div class="note wcag2ict software">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
