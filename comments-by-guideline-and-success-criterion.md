@@ -141,9 +141,9 @@ This applies directly as written, and as described in [Intent from Understanding
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
 
-<div class="note wcag2ict">
+<div class="note wcag2ict software">
     
-Content that is only used on hardware with a fixed display orientation or that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
+Content that is only used on hardware with a fixed display orientation where a user cannot change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
 
 <div class="note wcag2ict software">
     
