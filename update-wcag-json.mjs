@@ -38,7 +38,7 @@ for (const principle of data.principles) {
       delete criterion.alt_id;
       delete criterion.details;
       delete criterion.title;
-      delete criterion.techniquesHtml;
+      delete criterion.techniques;
       delete criterion.versions;
     }
   }
