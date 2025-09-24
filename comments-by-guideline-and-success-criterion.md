@@ -139,7 +139,9 @@ This applies directly as written, and as described in [Intent from Understanding
 ###### Applying SC 1.3.4 Orientation to Non-Web Documents
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
+<div class="note wcag2ict documents">
 
+Content that is only used on hardware with a fixed display orientation where a user cannot change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
 ###### Applying SC 1.3.4 Orientation to Non-Web Software
 
 Where the non-web software is intended to run on a device which supports displaying content in more than one orientation, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
