@@ -136,10 +136,13 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics#intent).
 
 ##### orientation
-
-###### Applying SC 1.3.4 Orientation to Non-Web Documents and Software
+###### Applying SC 1.3.4 Orientation to Non-Web Documents
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
+
+###### Applying SC 1.3.4 Orientation to Non-Web Software
+
+Where the non-web software is intended to run on a device which supports displaying content in more than one orientation, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
 
 <div class="note wcag2ict software">
     
