@@ -144,7 +144,7 @@ This applies directly as written, and as described in [Intent from Understanding
 Content that is only used on hardware with a fixed display orientation where a user cannot change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
 <div class="example wcag2ict documents">
 
-A building directory displayed only on fixed displays around the building would be an example of non-web document that will only ever be viewed on a single locked-orientation display.</div>
+A digital building directory displayed only on fixed displays around the building would be an example of non-web document that will only ever be viewed on a single locked-orientation display.</div>
 
 ###### Applying SC 1.3.4 Orientation to Non-Web Software
 
