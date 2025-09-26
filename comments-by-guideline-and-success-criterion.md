@@ -136,14 +136,23 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics#intent).
 
 ##### orientation
-
-###### Applying SC 1.3.4 Orientation to Non-Web Documents and Software
+###### Applying SC 1.3.4 Orientation to Non-Web Documents
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
+<div class="note wcag2ict documents">
 
-<div class="note wcag2ict">
+Content that is only used on hardware with a fixed display orientation where a user cannot change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
+<div class="example wcag2ict documents">
+
+A digital building directory displayed only on fixed displays around the building would be an example of non-web document that will only ever be viewed on a single locked-orientation display.</div>
+
+###### Applying SC 1.3.4 Orientation to Non-Web Software
+
+Where the non-web software is intended to run on a device which supports displaying content in more than one orientation, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
+
+<div class="note wcag2ict software">
     
-Content that is only used on hardware with a fixed display orientation or that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
+Content that is only used on hardware with a fixed display orientation where a user cannot change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
 
 <div class="note wcag2ict software">
     
