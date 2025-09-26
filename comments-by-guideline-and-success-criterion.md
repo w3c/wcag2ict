@@ -414,7 +414,7 @@ Inclusion of an on-screen keyboard can be done as well but does not satisfy this
 This success criterion does not imply that non-web software always needs to directly support a keyboard or “keyboard interface” if one is not provided by the platform software. But if one is provided, the software needs to make all functionality available through it - unless the exception applies.</div>
 <div class="note wcag2ict software">
 
-Nor does this success criterion imply that non-web software always needs to provide its own [virtual keyboard](#virtual-keyboard). But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.</div>
+This success criterion also does not imply that non-web software always needs to provide its own [virtual keyboard](#virtual-keyboard). But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.</div>
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
