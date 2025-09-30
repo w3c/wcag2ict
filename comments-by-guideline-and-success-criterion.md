@@ -138,21 +138,20 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### orientation
 ###### Applying SC 1.3.4 Orientation to Non-Web Documents
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
+Where the non-web document is displayed on hardware that is designed to be reoriented in typical use, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
 <div class="note wcag2ict documents">
 
-Content that is only used on hardware with a fixed display orientation where a user cannot change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
-<div class="example wcag2ict documents">
-
-A digital building directory displayed only on fixed displays around the building would be an example of non-web document that will only ever be viewed on a single locked-orientation display.</div>
+A non-web document that is only used on hardware that supports a single display orientation, or is only displayed on hardware that is physically fixed in one orientation (e.g. a digital building directory) is excluded by the precondition and therefore does not need to provide support for orientation changes.</div>
 
 ###### Applying SC 1.3.4 Orientation to Non-Web Software
 
-Where the non-web software is intended to run on a device which supports displaying content in more than one orientation, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
+Where the non-web software is displayed on hardware that is designed to be reoriented in typical use, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
 
 <div class="note wcag2ict software">
     
 Content that is only used on hardware with a fixed display orientation where a user cannot change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
+<div class="example wcag2ict software">
+Calculators and wristwatches are not typically used in more than one orientation to view apps or for general functionality and digital building directories bolted to the wall are unable to be reoriented.</div>
 
 <div class="note wcag2ict software">
     
