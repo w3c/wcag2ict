@@ -149,7 +149,7 @@ Where the non-web software is displayed on hardware that is designed to be reori
 
 <div class="note wcag2ict software">
     
-Content that is only used on hardware with a fixed display orientation where a user cannot change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
+Non-web software that is only run on hardware that supports a single display orientation, or is run only on hardware that is physically fixed in one orientation (e.g. a digital building directory) is excluded by the precondition and therefore does not need to provide support for orientation changes.</div>
 <div class="example wcag2ict software">
 Calculators and wristwatches are not typically used in more than one orientation to view apps or for general functionality and digital building directories bolted to the wall are unable to be reoriented.</div>
 
