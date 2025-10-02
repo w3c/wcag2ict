@@ -219,7 +219,7 @@ It is best practice to use only fonts that allow for scaling without loss of qua
 [Content](#content-on-and-off-the-web) for which there are viewers or editors with a 200 percent zoom feature would automatically satisfy this success criterion when used with such viewers or editors, unless the content will not work with that zoom feature.</div>
 <div class="note wcag2ict documents"> 
 
-Best practice is for the default presentation of text to have an x-height of at least 1.2mm. For a 14 inch screen at 1920 x 1080 screen resolution with no zooming or display scaling, this means the x-height of the text needs to be at least as big as the x-height of Arial at 16 CSS px.</div>
+Best practice is for the smallest text have an x-height of at least 8 CSS px which corresponds to an x-height of 1.2mm, at a viewing distance of 400mm, with no zooming or screen scaling. This is the smallest font size - not the recommended font size for body text which should be larger.</div>
 
 ###### Applying SC 1.4.4 Resize Text to Non-Web Software
 This success criterion is problematic to apply directly to non-web software because not all platforms provide text enlargement features that increase all displayed text to 200%. Non-web software needs to work with platform capabilities where they exist, but when the platform has text resizing support up to 200%, but not all text types scale to 200%, it is unreasonable for all apps on a particular platform to be required to build in their own text resizing. Where the platform has text resizing support up to 200%, but where not all text resizes to 200% (because some of the text is already 200% of the default body text size), and provided semantic meaning indicated through differences in text size is maintained, the non-web software should work with the text sizing features to the extent the platform provides. Doing so would still address the user needs identified in the [Intent from Understanding Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent). The following criterion is recommended as a substitute for the WCAG language:
@@ -235,8 +235,8 @@ The [Intent section in Understanding 1.4.4 Resize Text](http://section) refers t
 	
 For non-web software, sometimes the platform provides text scaling to 200% for most, but not all text (e.g. headings, which are naturally large, may not be increased in size to 200%, but other text does increase to 200%). In such cases, authors would only need to support text scaling to the extent provided by user settings in the platform, without losing text-size semantics, content or functionality, to satisfy this success criterion.</div>
 <div class="note wcag2ict software">
-
-For non-web software expected to be viewed at a distance of approximately 15 3/4 inches (400mm), good practice is for the default presentation for text to have an x-height that is at least as big as Arial font at 16 CSS px, which at 200% zoom would be 32 CSS px.</div>
+	
+Best practice is for the smallest text have an x-height of at least 8 CSS px which corresponds to an x-height of 1.2mm, at a viewing distance of 400mm, with no zooming or screen scaling. This is the smallest font size - not the recommended font size for body text which should be larger.</div>
 <div class="note wcag2ict software">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
