@@ -352,7 +352,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or other platform software", "browser tooltips" with "tooltips", "the HTML title attribute" with "user interface object attributes", "links" with "links or other UI controls that behave like a link", and "a page" with "the non-web document or software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or other platform software", "browser tooltips" with "tooltips", "the HTML title attribute" with "user interface object attributes", "links" with "links or other user interface elements that behave like a link", and "a page" with "the non-web document or software".
 
 With these substitutions, it would read:
 
@@ -376,7 +376,7 @@ Examples of additional content controlled by the <INS>[user agent or other platf
 <div class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
 <div class="note">
 
-This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as <INS>[links or other UI controls that behave like a link]</INS> used to skip to another part of <INS>[the non-web document or software]</INS>) do not present additional content they are not covered by this criterion.</div>
+This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as <INS>[links or other user interface elements that behave like a link]</INS> used to skip to another part of <INS>[the non-web document or software]</INS>) do not present additional content they are not covered by this criterion.</div>
 
 ### operable
 
@@ -625,7 +625,7 @@ This applies directly as written and as described in [Intent from Understanding 
 
 <div class="note wcag2ict software">
     
-In non-web software, a “link” is any user interface control that behaves like a hypertext link.</div>
+In non-web software, a “link” is any user interface element that behaves like a hypertext link.</div>
 
 <div class="note wcag2ict software">
     
@@ -1133,7 +1133,7 @@ Examples where 4.1.1 Parsing would be satisfied:
 
 * An HTML page embedded inside a desktop application (as outlined in the [WCAG 2.1 note on 4.1.1](https://www.w3.org/TR/WCAG21/#h-note-27) and the [WCAG 2.0 editorial errata](https://www.w3.org/WAI/WCAG20/errata/#editorial) in the thirteenth list item)
 * A PDF document (not authored using a markup language)
-* Android or iOS apps which use a markup language to specify UI layout (accessibility information is exposed via platform accessibility APIs, not the markup)
+* Android or iOS apps which use a markup language to specify user interface layout (accessibility information is exposed via platform accessibility APIs, not the markup)
 
 Examples of markup that might be separately exposed and available to assistive technologies and to user agents include:
 
