@@ -151,7 +151,7 @@ Where the non-web software is displayed on hardware that is designed to be reori
 Non-web software that is only used on hardware that supports a single display orientation, or where it is an application that is displayed only on hardware that is physically fixed in one orientation (e.g. a digital building directory) is excluded by the precondition and therefore does not need to provide support for orientation changes.</div>
 <div class="example wcag2ict software">
 	
-Examples of software excluded by the precondition:
+Examples of software that is excluded by the precondition:
 - The software on a typical handheld calculator (one that typically would only be used in one orientation)
 - Software used on wristwatches (where the software typically is only displayed in one orientation) (sleep mode being non-typical)
 - Building directory software written to ONLY be used on tablet devices bolted to the wall, all in the same orientation
