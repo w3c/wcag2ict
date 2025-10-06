@@ -550,6 +550,12 @@ With these substitutions, it would read:
 <div class="note">
     
 Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[**[non-web document](#document)** or **[software](#software)**]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document or software]</INS> (whether it is used to meet other success criteria or not) <INS>[to]</INS> meet this success criterion.</div>
+<div class="note wcag2ict software">
+	
+This requirement applies to flashing of content on a screen and flashing of any other type caused by the ICT.</div>
+<div class="note wcag2ict software">
+	
+This requirement applies to those visual elements produced by the ICT itself. Content from an external source that is presented through the ICT, is the responsibility of the source. The requirement does not require the ICT to examine or modify such externally supplied content in any way.</div>
 
 #### navigable
 
