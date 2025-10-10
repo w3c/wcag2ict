@@ -312,19 +312,17 @@ function furtherProcessNotesAndExamples() {
         }
         note.querySelector("div > span").textContent = noteTitle;
     })
-    let wcag2ictExamples = document.querySelectorAll(".example");
+    let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict");
     wcag2ictExamples.forEach(example => {
-		let exampleTitle = example.querySelector("div > span").textContent;
-		if (example.queryselector (".wcag2ict")) {
-			exampleTitle = exampleTitle + " (Added)";
-		}	
-		if (example.queryselector(".documents")) {
-            exampleTitle = exampleTitle + " (for non-web documents)");
-		}
-		if (example.queryselector(".software")) {
-             exampleTitle = exampleTitle + " (for non-web software)");
-		}
-		example.querySelector("div > span").textContent = exampleTitle;
+        example.innerHTML = example.innerHTML.replace("Example:", "Example (Added):");
+    })
+	let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict.documents");
+    wcag2ictExamples.forEach(example => {
+        example.innerHTML = example.innerHTML.replace("Example:", "Example (Added) (for non-web documents):");
+    })
+	let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict.software");
+    wcag2ictExamples.forEach(example => {
+        example.innerHTML = example.innerHTML.replace("Example:", "Example (Added) (for non-web software):");
     })
 }
 function makeChangeLog() {
