@@ -314,13 +314,12 @@ function furtherProcessNotesAndExamples() {
     })
     let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict");
     wcag2ictExamples.forEach(example => {
+		example.innerHTML = example.innerHTML.replace("Example:", "Example (Added):");
 		let exampleTitle = example.querySelector("div > span").textContent;
 		if (example.queryselector(".documents")) {
-            example.innerHTML = example.innerHTML.replace("Example:", "Example (Added) (for non-web documents):");
+            example.innerHTML = example.innerHTML.replace("Example (Added):", "Example (Added) (for non-web documents):");
 		if (example.queryselector(".software")) {
-            example.innerHTML = example.innerHTML.replace("Example:", "Example (Added) (for non-web software):");
-		else  
-			example.innerHTML = example.innerHTML.replace("Example:", "Example (Added):");
+            example.innerHTML = example.innerHTML.replace("Example (Added):", "Example (Added) (for non-web software):")
     })
 }
 function makeChangeLog() {
