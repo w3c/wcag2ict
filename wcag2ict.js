@@ -312,15 +312,17 @@ function furtherProcessNotesAndExamples() {
         }
         note.querySelector("div > span").textContent = noteTitle;
     })
-    let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict");
+    let wcag2ictExamples = document.querySelectorAll(".example");
     wcag2ictExamples.forEach(example => {
-		example.innerHTML = example.innerHTML.replace("Example:", "Example (Added):");
 		let exampleTitle = example.querySelector("div > span").textContent;
+		if (example.queryselector (".wcag2ict")) {
+			example.innerHTML = example.innerHTML.replace("Example:", "Example (Added):");
+		}	
 		if (example.queryselector(".documents")) {
             example.innerHTML = example.innerHTML.replace("Example (Added):", "Example (Added) (for non-web documents):");
 		}
 		if (example.queryselector(".software")) {
-            example.innerHTML = example.innerHTML.replace("Example (Added):", "Example (Added) (for non-web software):")
+            example.innerHTML = example.innerHTML.replace("Example (Added):", "Example (Added) (for non-web software):");
 		}
     })
 }
