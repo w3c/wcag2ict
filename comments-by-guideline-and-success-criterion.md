@@ -64,11 +64,9 @@ The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-caption
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.3](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded#intent).
 
 <div class="note wcag2ict">
-    
-The WCAG 2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that “audio description” is “also called ‘video description’ and ‘descriptive narration’”.</div>
-<div class="note wcag2ict">
-
-Secondary or alternate audio tracks are commonly used for this purpose.</div>
+	
+Audio descriptions (also called "video descriptions", "descriptive narration", and "described videos") add descriptive information of important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track for the audio-video media.</div>
+	
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -90,11 +88,8 @@ The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-caption
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.5](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded#intent).
 
 <div class="note wcag2ict">
-    
-The WCAG 2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that audio description is “also called ‘video description’ and ‘descriptive narration’”.</div>
-<div class="note wcag2ict">
-
-Secondary or alternate audio tracks are commonly used for this purpose.</div>
+	
+Audio descriptions (also called "video descriptions", "descriptive narration",  and "described videos") add descriptive information of important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track for the audio-video media.</div>
 
 #### adaptable
 
