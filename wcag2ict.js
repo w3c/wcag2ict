@@ -318,8 +318,10 @@ function furtherProcessNotesAndExamples() {
 		let exampleTitle = example.querySelector("div > span").textContent;
 		if (example.queryselector(".documents")) {
             example.innerHTML = example.innerHTML.replace("Example (Added):", "Example (Added) (for non-web documents):");
+		}
 		if (example.queryselector(".software")) {
             example.innerHTML = example.innerHTML.replace("Example (Added):", "Example (Added) (for non-web software):")
+		}
     })
 }
 function makeChangeLog() {
