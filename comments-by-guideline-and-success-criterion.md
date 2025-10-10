@@ -139,6 +139,12 @@ This applies directly as written, and as described in [Intent from Understanding
 <div class="note wcag2ict">
     
 Content that is only used on hardware with a fixed display orientation or that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
+<div class="example wcag2ict documents>
+
+Test example for documents.</div>
+<div class="example wcag2ict software>
+
+Test example for software.</div>
 
 <div class="note wcag2ict software">
     
