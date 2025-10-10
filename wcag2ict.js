@@ -316,13 +316,13 @@ function furtherProcessNotesAndExamples() {
     wcag2ictExamples.forEach(example => {
 		let exampleTitle = example.querySelector("div > span").textContent;
 		if (example.queryselector (".wcag2ict")) {
-			example.innerHTML = example.innerHTML.replace("Example:", "Example (Added):");
+			exampleTitle = exampleTitle + " (Added)";
 		}	
 		if (example.queryselector(".documents")) {
-            example.innerHTML = example.innerHTML.replace("Example (Added):", "Example (Added) (for non-web documents):");
+            exampleTitle = exampleTitle + " (for non-web documents)");
 		}
 		if (example.queryselector(".software")) {
-            example.innerHTML = example.innerHTML.replace("Example (Added):", "Example (Added) (for non-web software):");
+             exampleTitle = exampleTitle + " (for non-web software)");
 		}
     })
 }
