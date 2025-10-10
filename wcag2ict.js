@@ -324,6 +324,7 @@ function furtherProcessNotesAndExamples() {
 		if (example.queryselector(".software")) {
              exampleTitle = exampleTitle + " (for non-web software)");
 		}
+		example.querySelector("div > span").textContent = exampleTitle;
     })
 }
 function makeChangeLog() {
