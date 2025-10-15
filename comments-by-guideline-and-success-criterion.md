@@ -136,25 +136,22 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics#intent).
 
 ##### orientation
-
 ###### Applying SC 1.3.4 Orientation to Non-Web Documents
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), when the non-web document is displayed on hardware that is designed to be reoriented in typical use.
-
+Where the non-web document is displayed on hardware that is designed to be reoriented in typical use, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
 <div class="example wcag2ict documents">
 
-A non-web document that is only used on hardware that supports a single display orientation, or is only displayed on hardware that is physically fixed in one orientation (e.g. a digital building directory) would not be displayed on hardware that is designed to be reoriented in typical use and therefore would not need to provide support for orientation changes.</div>
+A non-web document that is only used on hardware that supports a single display orientation, or is only displayed on hardware that is physically fixed in one orientation (e.g. a digital building directory) is excluded by the precondition and therefore does not need to provide support for orientation changes.</div>
 
 ###### Applying SC 1.3.4 Orientation to Non-Web Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), when the non-web software is displayed on hardware that is designed to be reoriented in typical use.
-
+Where the non-web software is displayed on hardware that is designed to be reoriented in typical use, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
 <div class="note wcag2ict software">
     
-Non-web software that is only used on hardware that supports a single display orientation, or when the software is an application that is displayed only on hardware that is physically fixed in one orientation (e.g. a digital building directory) would not be displayed on hardware that is designed to be reoriented in typical use and therefore would not need to provide support for orientation changes.</div>
+Non-web software that is only used on hardware that supports a single display orientation, or where it is an application that is displayed only on hardware that is physically fixed in one orientation (e.g. a digital building directory) is excluded by the precondition and therefore does not need to provide support for orientation changes.</div>
 <div class="example wcag2ict software">
 	
-Examples of software that would be excluded by this note:
+Examples of software that is excluded by the precondition:
 - The software on a typical handheld calculator (one that typically would only be used in one orientation)
 - Software used on wristwatches (where the software typically is only displayed in one orientation) (sleep mode being non-typical)
 - Building directory software written to ONLY be used on tablet devices bolted to the wall, all in the same orientation
