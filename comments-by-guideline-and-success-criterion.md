@@ -132,19 +132,31 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ##### orientation
 
-###### Applying SC 1.3.4 Orientation to Non-Web Documents and Software
+###### Applying SC 1.3.4 Orientation to Non-Web Documents
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), when the non-web document is displayed on hardware that is designed to be reoriented in typical use.
 
-<div class="note wcag2ict">
-    
-Content that is only used on hardware with a fixed display orientation or that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
+<div class="example wcag2ict documents">
+
+A non-web document that is only used on hardware that supports a single display orientation, or is only displayed on hardware that is physically fixed in one orientation (e.g. a digital building directory) would not be displayed on hardware that is designed to be reoriented in typical use and therefore would not need to provide support for orientation changes.</div>
+
+###### Applying SC 1.3.4 Orientation to Non-Web Software
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), when the non-web software is displayed on hardware that is designed to be reoriented in typical use.
 
 <div class="note wcag2ict software">
     
+Non-web software that is only used on hardware that supports a single display orientation, or when the software is an application that is displayed only on hardware that is physically fixed in one orientation (e.g. a digital building directory) would not be displayed on hardware that is designed to be reoriented in typical use and therefore would not need to provide support for orientation changes.</div>
+<div class="example wcag2ict software">
+	
+Examples of software that would be excluded by this note:
+- The software on a typical handheld calculator (one that typically would only be used in one orientation)
+- Software used on wristwatches (where the software typically is only displayed in one orientation) (sleep mode being non-typical)
+- Building directory software written to ONLY be used on tablet devices bolted to the wall, all in the same orientation
+</div>
+<div class="note wcag2ict software">
+    
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
-
-##### identify-input-purpose
 
 ###### Applying SC 1.3.5 Identify Input Purpose to Non-Web Documents and Software
 
