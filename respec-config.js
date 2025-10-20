@@ -64,7 +64,7 @@ var respecConfig = {
 		{
 			name: "Chris Loiselle",
 			company: "Oracle Corporation",
-			companyURI: "http://https://www.oracle.com/",
+			companyURI: "https://www.oracle.com/",
 		},
 		{
 			name: "Andi Snow-Weaver",
