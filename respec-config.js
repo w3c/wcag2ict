@@ -59,7 +59,6 @@ var respecConfig = {
 			name: "Peter Korn",
 			company:"Amazon",
 			companyURI: "https://www.amazon.com/",
-			
 		},
 		{
 			name: "Chris Loiselle",
