@@ -556,6 +556,9 @@ This requirement applies to flashing of content on a screen and flashing of any 
 <div class="note wcag2ict software">
 	
 This requirement applies to those visual elements produced by the ICT itself. Content from an external source that is presented through the ICT, is the responsibility of the source. The requirement does not require the ICT to examine or modify such externally supplied content in any way.</div>
+<div class="example wcag2ict software">
+
+Examples include TVs playing broadcast programs and media players that are playing content provided by the user.</div>
 
 #### navigable
 
