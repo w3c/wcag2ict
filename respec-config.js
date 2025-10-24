@@ -41,12 +41,6 @@ var respecConfig = {
 			w3cid: 46880,
 		},
 		{
-			name: "Chris Loiselle",
-			mailto: "chris_loiselle@icloud.com",
-			company: "Invited Expert (formerly Oracle Corporation)",
-			w3cid: 169930,
-		},
-		{
 			name: "Phil Day",
 			mailto: "phil.day@ncratleos.com",
 			company: "NCR Atleos",
@@ -65,7 +59,11 @@ var respecConfig = {
 			name: "Peter Korn",
 			company:"Amazon",
 			companyURI: "https://www.amazon.com/",
-			
+		},
+		{
+			name: "Chris Loiselle",
+			company: "Oracle Corporation",
+			companyURI: "https://www.oracle.com/",
 		},
 		{
 			name: "Andi Snow-Weaver",
