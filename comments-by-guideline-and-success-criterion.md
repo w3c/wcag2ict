@@ -64,11 +64,9 @@ The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-caption
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.3](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded#intent).
 
 <div class="note wcag2ict">
-    
-The WCAG 2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that “audio description” is “also called ‘video description’ and ‘descriptive narration’”.</div>
-<div class="note wcag2ict">
-
-Secondary or alternate audio tracks are commonly used for this purpose.</div>
+	
+Audio descriptions (also called "video descriptions", "descriptive narration", and "described videos") add descriptive information of important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track for the audio-video media.</div>
+	
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -90,11 +88,8 @@ The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-caption
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.5](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded#intent).
 
 <div class="note wcag2ict">
-    
-The WCAG 2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that audio description is “also called ‘video description’ and ‘descriptive narration’”.</div>
-<div class="note wcag2ict">
-
-Secondary or alternate audio tracks are commonly used for this purpose.</div>
+	
+Audio descriptions (also called "video descriptions", "descriptive narration",  and "described videos") add descriptive information of important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track for the audio-video media.</div>
 
 #### adaptable
 
@@ -223,25 +218,29 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### resize-text
 
-###### Applying SC 1.4.4 Resize Text to Non-Web Documents and Software
+###### Applying SC 1.4.4 Resize Text to Non-Web Documents
 
-This success criterion is problematic to apply directly to non-web software because not all platforms provide text enlargement features that increase all displayed text to 200%. Non-web software needs to work with platform capabilities where they exist, but when the platform has text resizing that up to 200%, but not all text types scale to 200%, it is unreasonable for all apps on a particular platform to be required to build in their own text resizing. A reasonable expectation would be for non-web software to work with the text sizing features to the extent the platform provides. Doing so would still address the user needs identified in the [Intent from Understanding Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent). The following criterion is recommended as a substitute for the WCAG language:
-
-Except for captions and images of text, text can be resized without loss of content or functionality and without assistive technology either up to 200 percent or, if the platform provides text resizing capabilities but it does not reach 200 percent for all text, up to the text sizing capabilities of the platform.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent).
 <div class="note wcag2ict">
 
 It is best practice to use only fonts that allow for scaling without loss of quality (e.g. pixelized presentation). This applies in particular to embedded fonts.</div>
 <div class="note wcag2ict documents"> 
 	
 [Content](#content-on-and-off-the-web) for which there are viewers or editors with a 200 percent zoom feature would automatically satisfy this success criterion when used with such viewers or editors, unless the content will not work with that zoom feature.</div>
+
+###### Applying SC 1.4.4 Resize Text to Non-Web Software
+This success criterion is problematic to apply directly to non-web software because not all platforms provide text enlargement features that increase all displayed text to 200%. Non-web software needs to work with platform capabilities where they exist, but when the platform has text resizing support up to 200%, but not all text types scale to 200%, it is unreasonable for all apps on a particular platform to be required to build in their own text resizing. Where the platform has text resizing support up to 200%, but where not all text resizes to 200% (because some of the text is already 200% of the default body text size), and provided semantic meaning indicated through differences in text size is maintained, the non-web software should work with the text sizing features to the extent the platform provides. Doing so would still address the user needs identified in the [Intent from Understanding Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent). The following criterion is recommended as a substitute for the WCAG language:
+
+Except for captions and images of text, text can be resized without loss of content or functionality and without assistive technology either up to 200 percent or, if the platform provides text resizing capabilities but it does not reach 200 percent for all text, up to the text sizing capabilities of the platform.
+<div class="note wcag2ict">
+
+It is best practice to use only fonts that allow for scaling without loss of quality (e.g. pixelized presentation). This applies in particular to embedded fonts.</div>
 <div class="note wcag2ict software"> 
 
 The [Intent section in Understanding 1.4.4 Resize Text](http://section) refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the [non-web software](#software) provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the non-web software works with the platform features to satisfy this success criterion.</div>
-
 <div class="note wcag2ict software">
 	
-For non-web software, sometimes the platform provides text scaling to 200% for most, but not all text (e.g. headings, which are naturally large, may not be increased in size to 200%, but other text does increase to 200%). In such cases, authors would only need to support text scaling to the extent provided by user settings in the platform, without losing content or functionality, to satisfy this success criterion.</div>
-
+For non-web software, sometimes the platform provides text scaling to 200% for most, but not all text (e.g. headings, which are naturally large, may not be increased in size to 200%, but other text does increase to 200%). In such cases, authors would only need to support text scaling to the extent provided by user settings in the platform, without losing text-size semantics, content or functionality, to satisfy this success criterion.</div>
 <div class="note wcag2ict software">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -360,7 +359,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or other platform software", "browser tooltips" with "tooltips", and "the HTML title attribute" with "user interface object attributes".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or other platform software", "browser tooltips" with "tooltips", "the HTML title attribute" with "user interface object attributes", "links" with "links or other UI controls that behave like a link", and "a page" with "the non-web document or software".
 
 With these substitutions, it would read:
 
@@ -384,7 +383,7 @@ Examples of additional content controlled by the <INS>[user agent or other platf
 <div class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
 <div class="note">
 
-This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as links used to skip to another part of a page) do not present additional content they are not covered by this criterion.</div>
+This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as <INS>[links or other UI controls that behave like a link]</INS> used to skip to another part of <INS>[the non-web document or software]</INS>) do not present additional content they are not covered by this criterion.</div>
 
 ### operable
 
@@ -422,7 +421,7 @@ Inclusion of an on-screen keyboard can be done as well but does not satisfy this
 This success criterion does not imply that non-web software always needs to directly support a keyboard or “keyboard interface” if one is not provided by the platform software. But if one is provided, the software needs to make all functionality available through it - unless the exception applies.</div>
 <div class="note wcag2ict software">
 
-Nor does this success criterion imply that non-web software always needs to provide its own [virtual keyboard](#virtual-keyboard). But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.</div>
+This success criterion also does not imply that non-web software always needs to provide its own [virtual keyboard](#virtual-keyboard). But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.</div>
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -558,6 +557,15 @@ With these substitutions, it would read:
 <div class="note">
     
 Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[**[non-web document](#document)** or **[software](#software)**]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document or software]</INS> (whether it is used to meet other success criteria or not) <INS>[to]</INS> meet this success criterion.</div>
+<div class="note wcag2ict software">
+	
+This requirement applies to flashing of content on a screen and flashing of any other type caused by the ICT.</div>
+<div class="note wcag2ict software">
+	
+This requirement applies to those visual elements produced by the ICT itself. Content from an external source that is presented through the ICT, is the responsibility of the source. The requirement does not require the ICT to examine or modify such externally supplied content in any way.</div>
+<div class="example wcag2ict software">
+
+Examples of ICT that presents content from an external source include TVs playing broadcast programs and media players that are playing content provided by the user.</div>
 
 #### navigable
 
@@ -643,7 +651,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents, or a set of software programs within a set of software programs” and "the web page" with "the non-web document or software program**.
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents, or a set of software programs within a set of software programs” and "the web page" with "the non-web document or software program".
 
 With these substitutions, this success criterion would read:
 
