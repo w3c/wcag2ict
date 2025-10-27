@@ -2,30 +2,17 @@
 
 ### Active Participants of the WCAG2ICT Task Force Involved in the Development of This Document
 * Shadi Abou-Zahra (Amazon)
-* Charles Adams (Oracle Corporation)
 * Bruce Bailey (Invited Expert)
-* Fernanda Bonnin (Microsoft Corporation)
-* Devanshu Chandra (Deque Systems, Inc.)
-* Michael Cooper (formerly W3C Staff)
 * Phil Day (NCR Atleos)
-* Mitchell Evan (TPGi)
 * Tamsin Ewing (W3C Staff)
-* Olivia Hogan-Stark (NCR Voyix)
-* Thorsten Katzmann (IBM Corporation)
-* Chris Loiselle (Invited Expert (formerly Oracle Corporation))
 * Loïc Martínez Normand (Universidad Politécnica de Madrid) 
 * Laura Miller (US General Services Administration)
 * Daniel Montalvo (W3C Staff)
 * Mary Jo Mueller (IBM Corporation)
-* Sam Ogami (Invited Expert)
 * Mike Pluke (Invited Expert)
-* Jennifer Strickland (MITRE Corporation)
-* Shawn Thompson (Shared Services Canada)
-* Bryan Trogdon (Google LLC)
 * Gregg Vanderheiden (W3C Invited Expert)
 
 ### Participants in the AG Working Group that Actively Reviewed and Contributed
-
 * Jonathan Avila (Level Access)
 * Daniel Bjorge (Deque Systems, Inc.)
 * Alastair Campbell (Nomensa)
@@ -59,25 +46,21 @@
 
 WCAG2ICT Task Force participants are also in the AG working group, but are not repeated here.
 
-### Participants in the APA Working Group that Contributed
-Special thanks goes to members of the APA working group that contributed their expertise in document reviews and in updates to the Text / Command-line / Terminal Applications and Interfaces content. 
-
-* Matthew Atkinson (Samsung Electronics Co., Ltd.)
-* David Fazio (Invited Expert)
-* Neha Jadhav (Invited Expert)
-* Keith (Dr. Keith) Newton (Invited Expert)
-* Janina Sajka (Invited Expert)
-* Jason White (Invited Expert)
-
 ### Other Participants of the WCAG2ICT Task Force
-* Kent Boucher (Oracle Corporation)
-* Tony Holland (IBM Corporation)
-* Anastasia Lanz (Deque Systems, Inc.)
+* Charles Adams (Oracle Corporation)
+* Fernanda Bonnin (Microsoft Corporation)
+* Devanshu Chandra (Deque Systems, Inc.)
+* Mitchell Evan (TPGi)
+* Thorsten Katzmann (IBM Corporation)
+* Sam Ogami (Invited Expert)
+* Jennifer Strickland (MITRE Corporation)
+* Shawn Thompson (Shared Services Canada)
+* Bryan Trogdon (Google LLC)
 
 ### Previous Contributors
-The following people contributed to the development of the 2013 WCAG2ICT Note.
+The following people contributed to the development of the WCAG2ICT Note:
 
-Shadi Abou-Zahra, Bruce Bailey, Judy Brewer, Michael Cooper, Pierce Crowell, Allen Hoffman, Kiran Kaja, Andrew Kirkpatrick, Peter Korn, Alex Li, David MacDonald, Mary Jo Mueller, Loïc Martínez Normand, Mike Pluke, Janina Sajka, Andi Snow-Weaver, Gregg Vanderheiden
+Charles Adams, Matthew Atkinson, Fernanda Bonnin, Judy Brewer, Devanshu Chandra, Michael Cooper, Mitchell Evan, Anastasia Lanz, Janina Sajka, Olivia Hogan-Stark, Thorsten Katzmann, Chris Loiselle, Sam Ogami, Shawn Thompson, Jason White
 
 ### Enabling Funders
 
