@@ -27,7 +27,7 @@
 * Michael Gower (IBM Corporation)
 * Jan Jaap de Groot (Abra)
 * Shawn Henry (W3C Staff)
-* Andrew Kirkpatrick (formerly Adobe)
+* Andrew Kirkpatrick (Evinced Inc.)
 * Patrick Lauke (TetraLogical)
 * Todd Libby (Invited Expert)
 * David MacDonald (Invited Expert)
