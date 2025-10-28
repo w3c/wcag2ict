@@ -131,15 +131,30 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics#intent).
 
 ##### orientation
+###### Applying SC 1.3.4 Orientation to Non-Web Documents
 
-###### Applying SC 1.3.4 Orientation to Non-Web Documents and Software
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), except for non-web documents that will never be displayed on hardware that is reoriented in typical use.
+<div class="example wcag2ict documents">
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
+Examples of non-web documents that will never be displayed on hardware that is reoriented in typical use include but are not limited to:
+- a building directory that is only displayed on displays (of any type including tablets) that are all fixed to the wall in one orientation,
+- reports of results of a test that are displayed only on the screen of the testing device, and
+- the status report sent to the screen of a copy machine (but not the status report that would be sent to a web interface to the same machine).</div>
 
-<div class="note wcag2ict">
+###### Applying SC 1.3.4 Orientation to Non-Web Software
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), except for non-web software that will never be displayed on hardware that is reoriented in typical use.
+<div class="note wcag2ict software">
     
-Content that is only used on hardware with a fixed display orientation or that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
-
+Non-web software that is only used on hardware that supports a single display orientation, or where it is an application that is displayed only on hardware that is physically fixed in one orientation (e.g. a digital building directory) is excluded by the precondition and therefore does not need to provide support for orientation changes.</div>
+<div class="example wcag2ict software">
+	
+Examples of non-web software that will never be displayed on hardware that is reoriented in typical use include but are not limited to:
+- software for a typical calculator that does not support screen re-orientation,
+- software menus and controls on a copier or other device that is not intended to be viewed in more than one orientation (but not any remote control software or app for the same device that runs on computers or mobile devices),
+- software on a wristwatch that is not intended to be viewed when the watch is not on the wrist, and
+- special applications such as software for displays around a building that will only be used on a known set of displays that are all permanently affixed in the same orientation.
+</div>
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
