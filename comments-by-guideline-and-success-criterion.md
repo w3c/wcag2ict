@@ -64,11 +64,9 @@ The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-caption
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.3](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded#intent).
 
 <div class="note wcag2ict">
-    
-The WCAG 2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that “audio description” is “also called ‘video description’ and ‘descriptive narration’”.</div>
-<div class="note wcag2ict">
-
-Secondary or alternate audio tracks are commonly used for this purpose.</div>
+	
+Audio descriptions (also called "video descriptions", "descriptive narration", and "described videos") add descriptive information of important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track for the audio-video media.</div>
+	
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -90,11 +88,8 @@ The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-caption
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.5](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded#intent).
 
 <div class="note wcag2ict">
-    
-The WCAG 2 definition of “[audio description](https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions)” says that audio description is “also called ‘video description’ and ‘descriptive narration’”.</div>
-<div class="note wcag2ict">
-
-Secondary or alternate audio tracks are commonly used for this purpose.</div>
+	
+Audio descriptions (also called "video descriptions", "descriptive narration",  and "described videos") add descriptive information of important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track for the audio-video media.</div>
 
 #### adaptable
 
@@ -136,15 +131,30 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics#intent).
 
 ##### orientation
+###### Applying SC 1.3.4 Orientation to Non-Web Documents
 
-###### Applying SC 1.3.4 Orientation to Non-Web Documents and Software
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), except for non-web documents that will never be displayed on hardware that is reoriented in typical use.
+<div class="example wcag2ict documents">
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent).
+Examples of non-web documents that will never be displayed on hardware that is reoriented in typical use include but are not limited to:
+- a building directory that is only displayed on displays (of any type including tablets) that are all fixed to the wall in one orientation,
+- reports of results of a test that are displayed only on the screen of the testing device, and
+- the status report sent to the screen of a copy machine (but not the status report that would be sent to a web interface to the same machine).</div>
 
-<div class="note wcag2ict">
+###### Applying SC 1.3.4 Orientation to Non-Web Software
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), except for non-web software that will never be displayed on hardware that is reoriented in typical use.
+<div class="note wcag2ict software">
     
-Content that is only used on hardware with a fixed display orientation or that has no sensor to detect or change the orientation is covered under the essential exception and does not need to provide support for orientation changes.</div>
-
+Non-web software that is only used on hardware that supports a single display orientation, or where it is an application that is displayed only on hardware that is physically fixed in one orientation (e.g. a digital building directory) is excluded by the precondition and therefore does not need to provide support for orientation changes.</div>
+<div class="example wcag2ict software">
+	
+Examples of non-web software that will never be displayed on hardware that is reoriented in typical use include but are not limited to:
+- software for a typical calculator that does not support screen re-orientation,
+- software menus and controls on a copier or other device that is not intended to be viewed in more than one orientation (but not any remote control software or app for the same device that runs on computers or mobile devices),
+- software on a wristwatch that is not intended to be viewed when the watch is not on the wrist, and
+- special applications such as software for displays around a building that will only be used on a known set of displays that are all permanently affixed in the same orientation.
+</div>
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -231,9 +241,6 @@ The [Intent section in Understanding 1.4.4 Resize Text](http://section) refers t
 <div class="note wcag2ict software">
 	
 For non-web software, sometimes the platform provides text scaling to 200% for most, but not all text (e.g. headings, which are naturally large, may not be increased in size to 200%, but other text does increase to 200%). In such cases, authors would only need to support text scaling to the extent provided by user settings in the platform, without losing text-size semantics, content or functionality, to satisfy this success criterion.</div>
-<div class="note wcag2ict software">
-
-For non-web software expected to be viewed at a distance of approximately 15 3/4 inches (400mm), good practice is for the default presentation for text to have an x-height that is at least as big as Arial font at 16 CSS px, which at 200% zoom would be 32 CSS px.</div>
 <div class="note wcag2ict software">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -550,6 +557,15 @@ With these substitutions, it would read:
 <div class="note">
     
 Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[**[non-web document](#document)** or **[software](#software)**]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document or software]</INS> (whether it is used to meet other success criteria or not) <INS>[to]</INS> meet this success criterion.</div>
+<div class="note wcag2ict software">
+	
+This requirement applies to flashing of content on a screen and flashing of any other type caused by the ICT.</div>
+<div class="note wcag2ict software">
+	
+This requirement applies to those visual elements produced by the ICT itself. Content from an external source that is presented through the ICT, is the responsibility of the source. The requirement does not require the ICT to examine or modify such externally supplied content in any way.</div>
+<div class="example wcag2ict software">
+
+Examples of ICT that presents content from an external source include TVs playing broadcast programs and media players that are playing content provided by the user.</div>
 
 #### navigable
 
@@ -631,7 +647,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents, or a set of software programs within a set of software programs” and "the web page" with "the non-web document or software program**.
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents, or a set of software programs within a set of software programs” and "the web page" with "the non-web document or software program".
 
 With these substitutions, this success criterion would read:
 
