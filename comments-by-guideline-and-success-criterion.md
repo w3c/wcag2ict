@@ -604,24 +604,20 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### page-titled
 
-###### Applying SC 2.4.2 Page Titled to Non-Web Documents and Software
+###### Applying SC 2.4.2 Page Titled to Non-Web Documents
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent) replacing “web pages” with “non-web documents or software”.
+This success criterion is problematic to apply directly to non-web documents through simple word substitution because not all document formats provide support for a programmatically determinable ”Title” attribute, and document titles don't always describe the topic or purpose of the document. File names, as the WCAG 2 Understanding document specifies, also rarely describe the topic or purpose of the document – especially where the document names are not under the author’s control. However, where the document authoring tool or technology provides the capability to supply a title or name for a document, when the non-web document utilizes the “Title” attribute to provide a unique title or name inside of each document, and/or when a meaningful file name can be supplied, the user can more easily find it or understand its purpose. This would address the user needs identified in the [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent). The following criterion is recommended as a substitute for the WCAG language:
 
-With this substitution, it would read:
+**2.4.2 Non-web Document Titled:**  In non-web documents implemented in a format that supports a programmatically determinable "Title"  attribute that is editable using common authoring tools for that document format, the non-web document has a title that describes the name, topic, or purpose.
+<div class="note wcag2ict documents">
 
-**2.4.2 Page Titled:** <INS>[**[Non-web documents](#document)** or **[software](#software)**]</INS> have titles that describe topic or purpose.
+The “Title” attribute is specified as "editable through that document format’s common authoring tools" so that authors can view and edit the Title without requiring specialized or external metadata utilities. “Common authoring tools" are the most readily available tools used for editing a particular document type.</div> 
 
-<div class="note wcag2ict">
-    
-As described in the WCAG intent, the name of a [non-web software application](#software) or [non-web document](#document) (e.g. document, media file, etc.) is a sufficient title if it describes the topic or purpose.</div>
-<div class="note wcag2ict software">
-    
-Although not required by this success criterion, ensuring that individual windows or screens have a title (where that title describes the topic or purpose) addresses the user needs identified in the Understanding Success Criterion 2.4.2 Intent section, and is generally considered a best practice.</div>
+###### Applying SC 2.4.2 Page Titled to Non-Web Software
 
-<div class="note wcag2ict software">
-    
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+This success criterion is problematic to apply directly to non-web software through simple word substitution because application titles rarely describe the topic or purpose of the software. However, where the platform supports a programmatic title or name for a software window or screen, when a software application utilizes that feature to provide a unique title or name for each window or screen, the user can more easily find it or understand its purpose. This would address the user needs identified in the [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent). The following criterion is recommended as a substitute for the WCAG language:
+
+**2.4.2 Non-web Software Titled:** In non-web software implemented on a platform that supports a "Title" attribute for windows or screens, the non-web software provides titles that describe the name, topic or purpose of each window or screen.
 
 ##### focus-order
 
