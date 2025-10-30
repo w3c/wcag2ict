@@ -315,6 +315,12 @@ function furtherProcessNotesAndExamples() {
     let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict");
     wcag2ictExamples.forEach(example => {
         example.innerHTML = example.innerHTML.replace("Example:", "Example (Added):");
+        if (example.classList.contains("documents")) {
+            example.innerHTML = example.innerHTML.replace("(Added):", "(Added) (for non-web documents):");
+        }
+        if (example.classList.contains("software")) {
+            example.innerHTML = example.innerHTML.replace("(Added):", "(Added) (for non-web software):");
+        }
     })
 }
 function makeChangeLog() {
