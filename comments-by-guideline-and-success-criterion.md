@@ -639,9 +639,9 @@ With this substitution, it would read:
 
 This applies directly as written and as described in [Intent from Understanding Success Criterion 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context#intent).
 
-<div class="note wcag2ict software">
+<div class="note wcag2ict">
     
-In non-web software, a “link” is any user interface control that behaves like a hypertext link.</div>
+In non-web documents or software, a “link” is any user interface control that behaves like a hypertext link.</div>
 
 <div class="note wcag2ict software">
     
