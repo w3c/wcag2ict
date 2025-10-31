@@ -46,6 +46,13 @@ var respecConfig = {
 			company: "NCR Atleos",
 			companyURI: "http://www.ncratleos.com/",
 			w3cid: 139781,
+		},
+		{
+			name: "Daniel Montalvo",
+			mailto: "dmontalvo@w3.org",
+			company: "W3C",
+			companyURI: "https://www.w3.org/",
+			w3cid: 114058,
 		}
 	],
 	
