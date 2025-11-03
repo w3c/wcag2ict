@@ -11,12 +11,16 @@ jobs:
     name: Build, Validate and Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: w3c/spec-prod@v2
         with:
           TOOLCHAIN: respec
           GH_PAGES_BUILD_OVERRIDE: |
             lint: false
+          # W3C_ECHIDNA_TOKEN: ${{ secrets.ECHIDNA_TOKEN }}
+          # W3C_WG_DECISION_URL: https://www.w3.org/WAI/GL/wiki/Decisions
+          # W3C_BUILD_OVERRIDE: |
+          #  specStatus: NOTE
           BUILD_FAIL_ON: nothing
           GH_PAGES_BRANCH: gh-pages
           VALIDATE_WEBIDL: false

@@ -315,20 +315,94 @@ function furtherProcessNotesAndExamples() {
     let wcag2ictExamples = document.querySelectorAll("div.example.wcag2ict");
     wcag2ictExamples.forEach(example => {
         example.innerHTML = example.innerHTML.replace("Example:", "Example (Added):");
+        if (example.classList.contains("documents")) {
+            example.innerHTML = example.innerHTML.replace("(Added):", "(Added) (for non-web documents):");
+        }
+        if (example.classList.contains("software")) {
+            example.innerHTML = example.innerHTML.replace("(Added):", "(Added) (for non-web software):");
+        }
     })
 }
 function makeChangeLog() {
-
-  // Build the query string for the GitHub API
-  const params = new URLSearchParams({
-    q: 'repo:w3c/wcag2ict is:pr is:merged merged:>2024-11-15',
-    per_page: '100'
+  // Dynamically build changelog periods from the HTML structure
+  const changelogSection = document.getElementById('changelog');
+  if (!changelogSection) {
+    console.warn('Changelog section not found');
+    return Promise.resolve();
+  }
+  
+  // Get all direct child sections with IDs starting with "changes-since-"
+  const changeSections = Array.from(changelogSection.querySelectorAll('section[id^="changes-since-"]'));
+  
+  if (changeSections.length === 0) {
+    console.warn('No changelog subsections found');
+    return Promise.resolve();
+  }
+  
+  // Build periods array from the sections
+  // First section goes from its date to present
+  // Subsequent sections go from their date to the previous section's date
+  const changelogPeriods = changeSections.map((section, index) => {
+    const elementId = section.id;
+    // Extract date from id format: "changes-since-YYYYMMDD"
+    const dateMatch = elementId.match(/changes-since-(\d{8})/);
+    if (!dateMatch) {
+      console.warn(`Invalid changelog section id format: ${elementId}`);
+      return null;
+    }
+    
+    const dateStr = dateMatch[1];
+    const startDate = `${dateStr.substring(0, 4)}-${dateStr.substring(4, 6)}-${dateStr.substring(6, 8)}`;
+    
+    // For the first section (most recent), endDate is undefined (to present)
+    // For other sections, endDate is the startDate of the previous section
+    let endDate;
+    if (index === 0) {
+      endDate = undefined; // to present
+    } else {
+      const prevDateMatch = changeSections[index - 1].id.match(/changes-since-(\d{8})/);
+      if (prevDateMatch) {
+        const prevDateStr = prevDateMatch[1];
+        endDate = `${prevDateStr.substring(0, 4)}-${prevDateStr.substring(4, 6)}-${prevDateStr.substring(6, 8)}`;
+      }
+    }
+    
+    return { startDate, endDate, elementId };
+  }).filter(period => period !== null);
+  
+  // Create promises for each changelog period
+  const fetchPromises = changelogPeriods.map((period) => {
+    return fetchChangelogForPeriod(period.startDate, period.endDate, period.elementId);
   });
+
+  // Wait for all fetches to complete
+  return Promise.all(fetchPromises);
+}
+
+function fetchChangelogForPeriod(startDate, endDate, elementId) {
+  // Build the query string for the GitHub API
+  let query;
+  if (endDate) {
+    // Use range syntax to get PRs between startDate and endDate (exclusive)
+    query = `repo:w3c/wcag2ict is:pr is:merged merged:${startDate}..${endDate}`;
+  } else {
+    // For the last period, get everything from startDate onwards
+    query = `repo:w3c/wcag2ict is:pr is:merged merged:>=${startDate}`;
+  }
+  
+  const params = new URLSearchParams({
+    q: query,
+    per_page: '100',
+    sort: 'updated',
+    order: 'desc'
+  });
+  
   const url = `https://api.github.com/search/issues?${params.toString()}`;
+  
   return fetch(url)
     .then(response => {
       if (!response.ok) {
-        console.warn('Failed to fetch changelog data:', response.status);
+        console.warn(`Failed to fetch changelog data for ${elementId}:`, response.status);
         return null;
       }
       return response.json();
@@ -336,14 +410,23 @@ function makeChangeLog() {
     .then(data => {
       if (!data || !data.items) return;
       const mergedPRs = data.items;
-      // Find the element with id 'changelog' and append a ul with PR links
-      const changelog = document.getElementById('changelog');
-      if (changelog) {
-        const ul = document.createElement('ul');
-        mergedPRs.forEach(pr => {
-          if (pr.title.startsWith('[Editorial]')) {
-            return;
-          }
+      
+      // Find the element and append a ul with PR links
+      const changelog = document.getElementById(elementId);
+      if (!changelog) {
+        console.warn(`Element with id '${elementId}' not found in the document`);
+        return;
+      }
+      
+      const ul = document.createElement('ul');
+      const filteredPRs = mergedPRs.filter(pr => !pr.title.startsWith('[Editorial]'));
+      
+      if (filteredPRs.length === 0) {
+        const li = document.createElement('li');
+        li.textContent = 'No changes in this period.';
+        ul.appendChild(li);
+      } else {
+        filteredPRs.forEach(pr => {
           const li = document.createElement('li');
           const span = document.createElement('span');
           span.textContent = new Date(pr.closed_at).toISOString().split('T')[0] + " ";
@@ -354,11 +437,11 @@ function makeChangeLog() {
           li.appendChild(a);
           ul.appendChild(li);
         });
-        changelog.appendChild(ul);
       }
+      changelog.appendChild(ul);
     })
     .catch(error => {
-      console.warn('Error fetching changelog:', error);
+      console.warn(`Error fetching changelog for ${elementId}:`, error);
     });
 }
 

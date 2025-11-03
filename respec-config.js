@@ -1,11 +1,11 @@
 var respecConfig = {
 	noRecTrack: true,
 	tocIntroductory: true,
-	specStatus: "ED",
+	specStatus: "DNOTE",
 	maxTocLevel: 3,
 	shortName: "wcag2ict-22",
 	
-	//publishDate:  "",
+	// publishDate:  "2025-08-21",
 	copyrightStart: "2022",
 	license: "document",
 	
@@ -41,18 +41,18 @@ var respecConfig = {
 			w3cid: 46880,
 		},
 		{
-			name: "Chris Loiselle",
-			mailto: "chris.loiselle@oracle.com",
-			company: "Oracle Corporation",
-			companyURI: "http://www.oracle.com/",
-			w3cid: 65246,
-		},
-		{
 			name: "Phil Day",
 			mailto: "phil.day@ncratleos.com",
 			company: "NCR Atleos",
 			companyURI: "http://www.ncratleos.com/",
 			w3cid: 139781,
+		},
+		{
+			name: "Daniel Montalvo",
+			mailto: "dmontalvo@w3.org",
+			company: "W3C",
+			companyURI: "https://www.w3.org/",
+			w3cid: 114058,
 		}
 	],
 	
@@ -66,7 +66,11 @@ var respecConfig = {
 			name: "Peter Korn",
 			company:"Amazon",
 			companyURI: "https://www.amazon.com/",
-			
+		},
+		{
+			name: "Chris Loiselle",
+			company: "Oracle Corporation",
+			companyURI: "https://www.oracle.com/",
 		},
 		{
 			name: "Andi Snow-Weaver",
