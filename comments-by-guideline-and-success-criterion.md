@@ -65,7 +65,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
 	
-Audio descriptions (also called "video descriptions", "descriptive narration", and "described videos") add descriptive information of important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track for the audio-video media.</div>
+Audio descriptions (also called "video descriptions", "descriptive narration", and "described videos") add voice narration for important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track for the audio-video media.</div>
 	
 <div class="note wcag2ict software">
     
