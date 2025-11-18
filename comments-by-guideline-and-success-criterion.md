@@ -3,6 +3,8 @@ Comments by Guideline and Success Criterion
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
 
+<div class="ednote">The WCAG2ICT Task Force is currently adding new guidance for the Level AAA criteria and are seeking review and scrutiny of this new guidance. All of the added criteria are noted in the section heading with "(Level AAA)" and have an editor's note in that section describing any specific review instructions or questions for reviewers to consider.</div>
+
 ### perceivable
 
 #### Applying Principle 1 Perceivable to Non-Web Documents and Software
