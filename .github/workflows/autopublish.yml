@@ -3,6 +3,7 @@ name: Deploy to gh-pages on push to main, check on pull requests
 # See https://github.com/w3c/spec-prod/blob/main/docs/examples.md#deploy-to-github-pages
 
 on:
+  workflow_dispatch: {}
   pull_request: {}
   push:
     branches: [main]
@@ -11,12 +12,13 @@ jobs:
     name: Build, Validate and Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: w3c/spec-prod@v2
         with:
           TOOLCHAIN: respec
           GH_PAGES_BUILD_OVERRIDE: |
             lint: false
+            specStatus: ED
           # W3C_ECHIDNA_TOKEN: ${{ secrets.ECHIDNA_TOKEN }}
           # W3C_WG_DECISION_URL: https://www.w3.org/WAI/GL/wiki/Decisions
           # W3C_BUILD_OVERRIDE: |
