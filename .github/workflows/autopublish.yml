@@ -18,7 +18,6 @@ jobs:
           TOOLCHAIN: respec
           GH_PAGES_BUILD_OVERRIDE: |
             lint: false
-            specStatus: ED
           # W3C_ECHIDNA_TOKEN: ${{ secrets.ECHIDNA_TOKEN }}
           # W3C_WG_DECISION_URL: https://www.w3.org/WAI/GL/wiki/Decisions
           # W3C_BUILD_OVERRIDE: |
