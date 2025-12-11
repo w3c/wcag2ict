@@ -1,19 +1,27 @@
 var respecConfig = {
 	noRecTrack: true,
 	tocIntroductory: true,
-	specStatus: "DNOTE",
+	specStatus: "NOTE",
 	maxTocLevel: 3,
 	shortName: "wcag2ict-22",
-	
-	// publishDate:  "2025-08-21",
+
+	publishDate: "2025-12-11",
 	copyrightStart: "2022",
 	license: "document",
-	
-	previousPublishDate:  "2024-11-15",
-	previousMaturity:  "NOTE",
+
+	previousPublishDate: "2025-08-15",
+	previousMaturity: "NOTE",
 	otherLinks: [
 		{
-			key: "Previous Version",
+			key: "15 August Version",
+			data: [
+				{
+					href: "https://www.w3.org/TR/2025/NOTE-wcag2ict-22-20250815/",
+				},
+			],
+		},
+		{
+			key: "24 November Version",
 			data: [
 				{
 					href: "https://www.w3.org/TR/2024/NOTE-wcag2ict-22-20241115/",
@@ -31,7 +39,7 @@ var respecConfig = {
 	],
 	// if there a publicly available Editors Draft, this is the link
 	edDraftURI: "https://w3c.github.io/wcag2ict/",
-	
+
 	editors: [
 		{
 			name: "Mary Jo Mueller",
@@ -55,7 +63,7 @@ var respecConfig = {
 			w3cid: 114058,
 		}
 	],
-	
+
 	formerEditors: [
 		{
 			name: "Michael Cooper",
@@ -64,7 +72,7 @@ var respecConfig = {
 		},
 		{
 			name: "Peter Korn",
-			company:"Amazon",
+			company: "Amazon",
 			companyURI: "https://www.amazon.com/",
 		},
 		{
@@ -81,14 +89,14 @@ var respecConfig = {
 			name: "Gregg Vanderheiden",
 			company: "Invited Expert, Trace Research and Development Center",
 		}
-		],
-	
-	
+	],
+
+
 	//authors:  [
 	//    { name: "Your Name", url: "http://example.org/",
 	//      company: "Your Company", companyURI: "http://example.com/" },
 	//],
-	
+
 	/*
 	 alternateFormats: [
 	 { uri: 'wcag21-diff.html', label: "Diff from Previous Recommendation" } ,
@@ -98,45 +106,45 @@ var respecConfig = {
 	 */
 	group: "ag",
 	github: "w3c/wcag2ict",
-	
+
 	maxTocLevel: 4,
-	
+
 	postProcess: [postRespec],
-	
+
 	localBiblio: {
 		"HARDING-BINNIE": {
-      		"authors": [
-      			"Harding G. F. A.",
-      			"Binnie, C.D."
-      		],
-      		"date": "2002",
-      		"title": "Independent Analysis of the ITC Photosensitive Epilepsy Calibration Test Tape"
-      	},
-			"UNDERSTANDING-WCAG22" : {
+			"authors": [
+				"Harding G. F. A.",
+				"Binnie, C.D."
+			],
+			"date": "2002",
+			"title": "Independent Analysis of the ITC Photosensitive Epilepsy Calibration Test Tape"
+		},
+		"UNDERSTANDING-WCAG22": {
 			"title": "Understanding Web Content Accessibility Guidelines 2.2",
 			"href": "https://www.w3.org/WAI/WCAG22/Understanding/",
-			},
-			"WCAG22-TECHS": {
-				"title": "Techniques for WCAG 2.2",
-				href: "https://www.w3.org/WAI/WCAG22/Techniques/",
-			},
-   	"IEC-4WD": {
-      		"date": "May 5, 1998",
-      		"title": "IEC/4WD 61966-2-1: Colour Measurement and Management in Multimedia Systems and Equipment - Part 2.1: Default Colour Space - sRGB",
-      	},
-          "ISO_9241-171": {
-            "isoNumber": "9241-171",
-            "href": "https://www.iso.org/standard/39080.html",
-            "title": "Ergonomics of human-system interaction Part 171: Guidance on software accessibility",
-            "date": "2008",
-            "publisher": "International Standards Organization"
-        },
-        "ISO/IEC_13066-1": {
-            "isoNumber": "13066-1",
-            "href": "https://www.iso.org/standard/53770.html",
-            "date": "2011",
-            "title": "Information technology - Interoperability with assistive technology (AT) Part 1: Requirements and recommendations for interoperability",
-            "publisher": "International Standards Organization"
-        },
-        },
+		},
+		"WCAG22-TECHS": {
+			"title": "Techniques for WCAG 2.2",
+			href: "https://www.w3.org/WAI/WCAG22/Techniques/",
+		},
+		"IEC-4WD": {
+			"date": "May 5, 1998",
+			"title": "IEC/4WD 61966-2-1: Colour Measurement and Management in Multimedia Systems and Equipment - Part 2.1: Default Colour Space - sRGB",
+		},
+		"ISO_9241-171": {
+			"isoNumber": "9241-171",
+			"href": "https://www.iso.org/standard/39080.html",
+			"title": "Ergonomics of human-system interaction Part 171: Guidance on software accessibility",
+			"date": "2008",
+			"publisher": "International Standards Organization"
+		},
+		"ISO/IEC_13066-1": {
+			"isoNumber": "13066-1",
+			"href": "https://www.iso.org/standard/53770.html",
+			"date": "2011",
+			"title": "Information technology - Interoperability with assistive technology (AT) Part 1: Requirements and recommendations for interoperability",
+			"publisher": "International Standards Organization"
+		},
+	},
 };
