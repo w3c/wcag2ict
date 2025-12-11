@@ -13,7 +13,7 @@ var respecConfig = {
 	previousMaturity: "NOTE",
 	otherLinks: [
 		{
-			key: "15 August Version",
+			key: "15 August 2025 Version",
 			data: [
 				{
 					href: "https://www.w3.org/TR/2025/NOTE-wcag2ict-22-20250815/",
@@ -21,7 +21,7 @@ var respecConfig = {
 			],
 		},
 		{
-			key: "24 November Version",
+			key: "24 November 2024 Version",
 			data: [
 				{
 					href: "https://www.w3.org/TR/2024/NOTE-wcag2ict-22-20241115/",
