@@ -89,7 +89,7 @@ dd{margin-left:0}
 <link rel="stylesheet" type="text/css" href="wcag2ict.css">
 
 <meta name="color-scheme" content="light">
-<meta name="revision" content="85f968886b995365566f5fddcdfba45f76e5f13c">
+<meta name="revision" content="d43404dddca18145c6e69619eb6842a57ad6dfca">
 <meta name="description" content="This document describes how the Web Content Accessibility Guidelines (WCAG) versions 2.0 [WCAG20], 2.1 [WCAG21], and 2.2 [WCAG22] principles, guidelines, and success criteria can be applied to non-web Information and Communications Technologies (ICT), specifically to non-web documents and software. It provides informative guidance (guidance that is not normative and does not set requirements).">
 <link rel="canonical" href="https://www.w3.org/TR/wcag2ict-22/">
 <style>
@@ -119,16 +119,25 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <script id="initialUserConfig" type="application/json">{
   "noRecTrack": true,
   "tocIntroductory": true,
-  "specStatus": "DNOTE",
+  "specStatus": "NOTE",
   "maxTocLevel": 4,
   "shortName": "wcag2ict-22",
+  "publishDate": "2025-12-11",
   "copyrightStart": "2022",
   "license": "document",
-  "previousPublishDate": "2024-11-15",
+  "previousPublishDate": "2025-08-15",
   "previousMaturity": "NOTE",
   "otherLinks": [
     {
-      "key": "Previous Version",
+      "key": "15 August 2025 Version",
+      "data": [
+        {
+          "href": "https://www.w3.org/TR/2025/NOTE-wcag2ict-22-20250815/"
+        }
+      ]
+    },
+    {
+      "key": "24 November 2024 Version",
       "data": [
         {
           "href": "https://www.w3.org/TR/2024/NOTE-wcag2ict-22-20241115/"
@@ -243,22 +252,22 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "lint": false,
-  "gitRevision": "85f968886b995365566f5fddcdfba45f76e5f13c",
-  "publishISODate": "2025-12-04T00:00:00.000Z",
-  "generatedSubtitle": "W3C Group Note Draft 04 December 2025"
+  "gitRevision": "d43404dddca18145c6e69619eb6842a57ad6dfca",
+  "publishISODate": "2025-12-11T00:00:00.000Z",
+  "generatedSubtitle": "W3C Group Note 11 December 2025"
 }</script>
-<link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-DNOTE"></head>
+<link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/2021/W3C-NOTE"></head>
 
 <body class="h-entry informative"><div class="head">
     <p class="logos"><a class="logo" href="https://www.w3.org/"><img crossorigin="" alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2021/logos/W3C" width="72">
   </a></p>
     <h1 id="title" class="title">Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)</h1> 
-    <p id="w3c-state"><a href="https://www.w3.org/standards/types#DNOTE">W3C Group Note Draft</a> <time class="dt-published" datetime="2025-12-04">04 December 2025</time></p>
+    <p id="w3c-state"><a href="https://www.w3.org/standards/types#NOTE">W3C Group Note</a> <time class="dt-published" datetime="2025-12-11">11 December 2025</time></p>
     <details open="">
       <summary>More details about this document</summary>
       <dl>
         <dt>This version:</dt><dd>
-                <a class="u-url" href="https://www.w3.org/TR/2025/DNOTE-wcag2ict-22-20251204/">https://www.w3.org/TR/2025/DNOTE-wcag2ict-22-20251204/</a>
+                <a class="u-url" href="https://www.w3.org/TR/2025/NOTE-wcag2ict-22-20251211/">https://www.w3.org/TR/2025/NOTE-wcag2ict-22-20251211/</a>
               </dd>
         <dt>Latest published version:</dt><dd>
                 <a href="https://www.w3.org/TR/wcag2ict-22/">https://www.w3.org/TR/wcag2ict-22/</a>
@@ -302,7 +311,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         <a href="https://github.com/w3c/wcag2ict/issues/">open issues</a>)
       </dd>
         
-        <dt>Previous Version</dt><dd>
+        <dt>15 August 2025 Version</dt><dd>
+    <a href="https://www.w3.org/TR/2025/NOTE-wcag2ict-22-20250815/">https://www.w3.org/TR/2025/NOTE-wcag2ict-22-20250815/</a>
+  </dd><dt>24 November 2024 Version</dt><dd>
     <a href="https://www.w3.org/TR/2024/NOTE-wcag2ict-22-20241115/">https://www.w3.org/TR/2024/NOTE-wcag2ict-22-20241115/</a>
   </dd><dt>WCAG2ICT 2.0 W3C Group Note</dt><dd>
     <a href="https://www.w3.org/TR/wcag2ict-20/">https://www.w3.org/TR/wcag2ict-20/</a>
@@ -336,15 +347,12 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p>To comment, file an issue in the <a href="https://github.com/w3c/wcag2ict/"><abbr title="World Wide Web Consortium">W3C</abbr> WCAG2ICT</a> GitHub repository. Create separate GitHub issues for each topic, rather than commenting on multiple topics in a single issue. It is free to create a GitHub account to file issues. If filing issues in GitHub is not feasible, send email to <a href="mailto:public-wcag2ict-comments@w3.org">public-wcag2ict-comments@w3.org</a> (comment archive).</p>
 <p>
     This document was published by the <a href="https://www.w3.org/groups/wg/ag">Accessibility Guidelines Working Group</a> as
-    a Group Note Draft using the
+    a Group Note using the
         <a href="https://www.w3.org/policies/process/20250818/#recs-and-notes">Note track</a>. 
-  </p><p>Group Note Drafts are not endorsed by
-        <abbr title="World Wide Web Consortium">W3C</abbr> nor its Members. </p><p>
-    This is a draft document and may be updated, replaced, or obsoleted by other
-    documents at any time. It is inappropriate to cite this document as other
-    than a work in progress.
-    
-  </p><p data-deliverer="35422">
+  </p><p>This Group Note is endorsed by
+        the <a href="https://www.w3.org/groups/wg/ag">Accessibility Guidelines Working Group</a>, but is not endorsed by
+        <abbr title="World Wide Web Consortium">W3C</abbr> itself nor its
+        Members. </p><p data-deliverer="35422">
     
         The
         <a href="https://www.w3.org/policies/patent-policy/"><abbr title="World Wide Web Consortium">W3C</abbr> Patent
