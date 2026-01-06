@@ -45,6 +45,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/535" target="_blank">Issue 535</a>.</div>
+
 #### Guideline 1.3 Adaptable
 
 ##### identify-purpose
@@ -53,6 +54,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/538" target="_blank">Issue 538</a>.</div>
+
 #### Guideline 1.4 Distinguishable
 
 ##### contrast-enhanced
@@ -76,7 +78,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/541" target="_blank">Issue 541</a>.</div>
 
-##### images-of-text
+##### images-of-text-no-exception
 
 ###### Applying SC 1.4.9 Images of Text (No Exception) to Non-Web Documents and Software
 <div class="ednote">
