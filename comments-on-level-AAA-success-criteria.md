@@ -13,7 +13,7 @@ The sections that follow contain guidance on applying the Level AAA success crit
   
 ### 1. Perceivable
 
-#### Guideline 1.2 Time-based Media
+#### 1.2 Time-based Media
 
 ##### sign-language-prerecorded
 
@@ -46,7 +46,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/535" target="_blank">Issue 535</a>.</div>
 
-#### Guideline 1.3 Adaptable
+#### 1.3 Adaptable
 
 ##### identify-purpose
 
@@ -55,7 +55,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/538" target="_blank">Issue 538</a>.</div>
 
-#### Guideline 1.4 Distinguishable
+#### 1.4 Distinguishable
 
 ##### contrast-enhanced
 
