@@ -42,16 +42,16 @@ The glossary terms in WCAG 2 were also reviewed and most of them applied to non-
 
 #### Applying Level AAA Success Criteria in a Non-Web Context
 <div class="ednote">
-  
-The WCAG2ICT Task Force is in process of adding guidance for Level AAA success criteria. We are seeking feedback on the following sections:
 
-- [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
+This is where we'll add the overarching caveats regarding Level AAA criteria and the application of these SC to non-web documents and software. Here is the info in WCAG 2.2 regarding Level AAA conformance. It's pretty brief.
 
-The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.
+From the WCAG 2 Layers of Guidance section:
 
-**_This is where we'll add the overarching caveats regarding Level AAA criteria and the application of these SC to non-web documents and software. Here is the info in WCAG 2.2 regarding Level AAA conformance:_**
+Note that even content that conforms at the highest level (AAA) will not be accessible to individuals with all types, degrees, or combinations of disability, particularly in the cognitive, language, and learning areas. Authors are encouraged to consider the full range of techniques, including the advisory techniques, Making Content Usable for People with Cognitive and Learning Disabilities, as well as to seek relevant advice about current best practice to ensure that web content is accessible, as far as possible, to this community. Metadata may assist users in finding content most suitable for their needs.
 
 <div class="note">
+From the Conformance section of WCAG 2.2: 
+  
 It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content._**</div></div>
 
 ### Excluded from Scope
