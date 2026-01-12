@@ -45,12 +45,12 @@ The glossary terms in WCAG 2 were also reviewed and most of them applied to non-
 
 **_This is where we'll add the overarching caveats regarding Level AAA criteria and the application of these SC to non-web documents and software. Here is the info in WCAG 2.2 regarding Level AAA conformance._**
 
-From the WCAG 2 Layers of Guidance section:
+From the <a href=https://www.w3.org/TR/WCAG22/#wcag-2-layers-of-guidance target="_blank">WCAG 2 Layers of Guidance</a> section:
 
 Note that even content that conforms at the highest level (AAA) will not be accessible to individuals with all types, degrees, or combinations of disability, particularly in the cognitive, language, and learning areas. Authors are encouraged to consider the full range of techniques, including the advisory techniques, Making Content Usable for People with Cognitive and Learning Disabilities, as well as to seek relevant advice about current best practice to ensure that web content is accessible, as far as possible, to this community. Metadata may assist users in finding content most suitable for their needs.
 
 <div class="note">
-From the Conformance section of WCAG 2.2: 
+From the  <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance level</a> section of WCAG 2.2: 
   
 It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content.</div></div>
 
