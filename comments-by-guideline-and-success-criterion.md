@@ -1,6 +1,14 @@
 Comments by Guideline and Success Criterion
 -------------------------------------------
 
+<div class="ednote">
+
+The WCAG2ICT Task Force is in process of adding guidance for Level AAA success criteria. We are seeking feedback on the following sections:
+
+- [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
+
+The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
+
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
 
 ### perceivable
