@@ -43,7 +43,7 @@ The glossary terms in WCAG 2 were also reviewed and most of them applied to non-
 #### Applying Level AAA Success Criteria in a Non-Web Context
 <div class="ednote">
 
-This is where we'll add the overarching caveats regarding Level AAA criteria and the application of these SC to non-web documents and software. Here is the info in WCAG 2.2 regarding Level AAA conformance. It's pretty brief.
+**_This is where we'll add the overarching caveats regarding Level AAA criteria and the application of these SC to non-web documents and software. Here is the info in WCAG 2.2 regarding Level AAA conformance._**
 
 From the WCAG 2 Layers of Guidance section:
 
@@ -52,7 +52,7 @@ Note that even content that conforms at the highest level (AAA) will not be acce
 <div class="note">
 From the Conformance section of WCAG 2.2: 
   
-It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content._**</div></div>
+It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content.</div></div>
 
 ### Excluded from Scope
 
