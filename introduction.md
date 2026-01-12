@@ -40,6 +40,20 @@ Not all success criteria have been fully adopted in all local regulations and le
 
 The glossary terms in WCAG 2 were also reviewed and most of them applied to non-web documents and software, as written. Some applied with additional notes or edits (largely related to phrases like “web page(s)”), and a small number of terms were only used in Level AAA success criteria, which are not addressed by the WCAG2ICT Note at this time.
 
+#### Applying Level AAA Success Criteria in a Non-Web Context
+<div class="ednote">
+  
+The WCAG2ICT Task Force is in process of adding guidance for Level AAA success criteria. We are seeking feedback on the following sections:
+
+- [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
+
+The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.
+
+**_This is where we'll add the overarching caveats regarding Level AAA criteria and the application of these SC to non-web documents and software. Here is the info in WCAG 2.2 regarding Level AAA conformance:_**
+
+<div class="note">
+It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content._**</div></div>
+
 ### Excluded from Scope
 
 The following are out of scope for this document:
