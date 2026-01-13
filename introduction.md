@@ -43,7 +43,7 @@ The glossary terms in WCAG 2 were also reviewed and most of them applied to non-
 #### Applying Level AAA Success Criteria in a Non-Web Context
 <div class="ednote">
 
-**_This is where we'll add the overarching caveats regarding Level AAA criteria and the application of these SC to non-web documents and software. Here is the info in WCAG 2.2 regarding Level AAA conformance._**
+**_This is where we could add the overarching caveats regarding Level AAA criteria and the application of these SC to non-web documents and software. Here is the info in WCAG 2.2 regarding Level AAA conformance. Open to other suggestions on where this might go and what the section title would be._**
 
 From the <a href=https://www.w3.org/TR/WCAG22/#wcag-2-layers-of-guidance target="_blank">WCAG 2 Layers of Guidance</a> section of WCAG 2.2:
 
