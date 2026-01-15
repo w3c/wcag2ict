@@ -93,15 +93,11 @@ Audio descriptions (also called "video descriptions", "descriptive narration", a
 
 ##### 1.2.6 Sign Language (Prerecorded) (Level AAA)
 
-###### Applying SC 1.2.6 Sign Language (Prerecorded) (Level AAA) to Non-Web Documents and Software
-
 <div class="note">
 
 See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
 
 ##### 1.2.7 Extended Audio Description (Prerecorded) (Level AAA)
-
-###### Applying SC 1.2.7 Extended Audio Description (Prerecorded) (Level AAA) to Non-Web Documents and Software
 
 <div class="note">
 
@@ -109,15 +105,11 @@ See the [Recommendations for Level AAA Success Criteria](#recommendations-for-le
 
 ##### 1.2.8 Media Alternative (Prerecorded) (Level AAA)
 
-###### Applying 1.2.8 Media Alternative (Prerecorded) (Level AAA) to Non-Web Documents and Software
-
 <div class="note">
 
 See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
 
 ##### 1.2.9 Audio-Only (Live) (Level AAA)
-
-###### Applying 1.2.9 Audio-Only (Live) (Level AAA) to Non-Web Documents and Software
 
 <div class="note">
 
@@ -211,8 +203,6 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### 1.3.6 Identify Purpose (Level AAA)
 
-###### Applying SC 1.3.6 Identify Purpose (Level AAA) to Non-Web Documents and Software
-
 <div class="note">
 
 See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
@@ -296,8 +286,6 @@ This applies directly as written, and as described in [Intent from Understanding
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### 1.4.6 Contrast (Enhanced) (Level AAA)
-
-###### Applying SC 1.4.6 Contrast (Enhanced) (Level AAA) to Non-Web Documents and Software
 
 <div class="note">
 
