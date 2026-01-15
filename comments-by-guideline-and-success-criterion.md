@@ -116,6 +116,10 @@ This applies directly as written, and as described in [Intent from Understanding
 
 Audio descriptions (also called "video descriptions", "descriptive narration", and "described videos") describe important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track for the audio-video media.</div>
 
+<div class="note wcag2ict">
+
+See also the [Applying Level AAA Success Criteria in a Non-Web Context](#applying-level-aaa-success-criteria-in-a-non-web-context).</div>
+
 ##### media-alternative-prerecorded
 
 ###### Applying SC 1.2.8 Media Alternative (Prerecorded) to Non-Web Documents and Software
