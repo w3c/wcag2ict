@@ -1,5 +1,13 @@
 Success Criteria Problematic for Closed Functionality
 -----------------------------------------------------
+<div class="ednote">
+
+Some of the Level AAA Success Criteria are problematic to apply to ICT with closed functionality. The following SC have been added to the bulleted list below:
+  
+- list will be filled in just prior to sending out for review.
+
+Please review this new information and provide feedback on whether the content is sufficient or needs changes.  
+</div>
 
 There are success criteria that can be problematic for developers of ICT with closed functionality.  Some criteria discuss making information available in text (which can be read by assistive technologies), making it “programmatically determinable” (rendered by a user agent and readable by assistive technologies), or doing something else to make content compatible with assistive technologies.  Where ICT with closed functionality doesn’t support use of assistive technology or the platform does not have an accessibility API, providing equivalent information and operation through another mechanism, such as functions built into the software that behave like assistive technology, would help meet the intent of these success criteria. See also the [Comments on Closed Functionality](#comments-on-closed-functionality) section.
 
