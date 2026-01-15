@@ -91,7 +91,7 @@ This applies directly as written, and as described in [Intent from Understanding
 	
 Audio descriptions (also called "video descriptions", "descriptive narration", and "described videos") describe important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track within the synchronized media.</div>
 
-#### 1.2.6 Sign Language (Prerecorded) (Level AAA)
+##### 1.2.6 Sign Language (Prerecorded) (Level AAA)
 
 ###### Applying SC 1.2.6 Sign Language (Prerecorded) (Level AAA) to Non-Web Documents and Software
 
@@ -99,7 +99,7 @@ Audio descriptions (also called "video descriptions", "descriptive narration", a
 
 See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
 
-#### 1.2.7 Extended Audio Description (Prerecorded) (Level AAA)
+##### 1.2.7 Extended Audio Description (Prerecorded) (Level AAA)
 
 ###### Applying SC 1.2.7 Extended Audio Description (Prerecorded) (Level AAA) to Non-Web Documents and Software
 
@@ -107,7 +107,7 @@ See the [Recommendations for Level AAA Success Criteria](#recommendations-for-le
 
 See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
 
-#### 1.2.8 Media Alternative (Prerecorded) (Level AAA)
+##### 1.2.8 Media Alternative (Prerecorded) (Level AAA)
 
 ###### Applying 1.2.8 Media Alternative (Prerecorded) (Level AAA) to Non-Web Documents and Software
 
@@ -115,7 +115,7 @@ See the [Recommendations for Level AAA Success Criteria](#recommendations-for-le
 
 See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
 
-#### 1.2.9 Audio-Only (Live) (Level AAA)
+##### 1.2.9 Audio-Only (Live) (Level AAA)
 
 ###### Applying 1.2.9 Audio-Only (Live) (Level AAA) to Non-Web Documents and Software
 
