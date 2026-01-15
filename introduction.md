@@ -40,6 +40,20 @@ Not all success criteria have been fully adopted in all local regulations and le
 
 The glossary terms in WCAG 2 were also reviewed and most of them applied to non-web documents and software, as written. Some applied with additional notes or edits (largely related to phrases like “web page(s)”), and a small number of terms were only used in Level AAA success criteria, which are not addressed by the WCAG2ICT Note at this time.
 
+#### Applying Level AAA Success Criteria in a Non-Web Context
+<div class="ednote">
+
+**_This is where we could add the overarching caveats regarding Level AAA criteria and the application of these SC to non-web documents and software. Here is the info in WCAG 2.2 regarding Level AAA conformance. Open to other suggestions on where this might go and what the section title would be._**
+
+From the <a href=https://www.w3.org/TR/WCAG22/#wcag-2-layers-of-guidance target="_blank">WCAG 2 Layers of Guidance</a> section of WCAG 2.2:
+
+<blockquote>Note that even content that conforms at the highest level (AAA) will not be accessible to individuals with all types, degrees, or combinations of disability, particularly in the cognitive, language, and learning areas. Authors are encouraged to consider the full range of techniques, including the advisory techniques, Making Content Usable for People with Cognitive and Learning Disabilities, as well as to seek relevant advice about current best practice to ensure that web content is accessible, as far as possible, to this community. Metadata may assist users in finding content most suitable for their needs.</blockquote>
+
+From the  <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance level</a> section of WCAG 2.2: 
+<div class="note">
+  
+<blockquote>It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content.</blockquote></div></div>
+
 ### Excluded from Scope
 
 The following are out of scope for this document:
