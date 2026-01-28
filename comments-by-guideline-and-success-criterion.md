@@ -291,6 +291,24 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
 
+##### 1.4.7 Low or No Background Audio (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 1.4.8 Visual Presentation (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 1.4.9 Images of Text (No Exception) (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
 ##### reflow
 
 ###### Applying SC 1.4.10 Reflow to Non-Web Documents and Software
@@ -487,6 +505,12 @@ This criterion applies when focus can be moved using a keyboard interface. Some 
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
+##### 2.1.3 Keyboard (No Exception) (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
 ##### character-key-shortcuts
 
 ###### Applying SC 2.1.4 Character Key Shortcuts to Non-Web Documents and Software
@@ -574,6 +598,30 @@ An animation that occurs as part of a preload phase or similar situation can be 
     
 While the success criterion uses the term “information”, the WCAG 2 [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent) makes it clear that this is to be applied to all content. Any [content](#content-on-and-off-the-web), even if just decorative, that is updated automatically, blinks, or moves may create an accessibility barrier.</div>
 
+##### 2.2.3 No Timing (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 2.2.4 Interruptions (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 2.2.5 Re-authenticating (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 2.2.6 Timeouts (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
 #### seizures-and-physical-reactions
 
 ##### Applying Guideline 2.3 Seizures and Physical Reactions to Non-Web Documents and Software
@@ -602,6 +650,18 @@ This requirement applies to those visual elements produced by the ICT itself. Co
 <div class="example wcag2ict software">
 
 Examples of ICT that presents content from an external source include TVs playing broadcast programs and media players that are playing content provided by the user.</div>
+
+##### 2.3.2 Three Flashes (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 2.3.3 Animation from Interactions (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
 
 #### navigable
 
@@ -732,11 +792,42 @@ This applies directly as written, and as described in [Intent from Understanding
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
+##### 2.4.8 Location (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 2.4.9 Link Purpose (Link Only) (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 2.4.10 Section Headings (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
 ##### focus-not-obscured-minimum
 
 ###### Applying SC 2.4.11 Focus not Obscured to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum#intent).
+
+
+##### 2.4.12 Focus Not Obscured (Enhanced) (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 2.4.13 Focus Appearance (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
 
 #### input-modalities
 
@@ -823,6 +914,20 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ###### Applying SC 2.5.4 Motion Actuation to Non-Web Documents and Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.4](https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html#intent).
+
+
+##### 2.5.5 Target Size (Enhanced) (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 2.5.6 Concurrent Input Mechanisms (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
 
 ##### dragging-movements
 
@@ -939,6 +1044,30 @@ Inheritance is one common method. For example, where the primary language of a n
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
+##### 3.1.3 Unusual Words (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 3.1.4 Abbreviations (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 3.1.5 Reading Level (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 3.1.6 Pronunciation (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
 #### predictable
 
 ##### Applying Guideline 3.2 Predictable to Non-Web Documents and Software
@@ -1010,6 +1139,12 @@ Sets of software that meet this definition appear to be extremely rare.</div>
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
+##### 3.2.5 Change on Request (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
 
 ##### consistent-help
 
@@ -1088,6 +1223,18 @@ With this substitution, it would read:
 <dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
 </dl>
 
+##### 3.3.5 Help (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
+##### 3.3.6 Error Prevention (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+
 ##### redundant-entry
 
 ###### Applying SC 3.3.7 Redundant Entry to Non-Web Documents and Software
@@ -1132,6 +1279,12 @@ There are cases where non-web software has an authentication process and no alte
 <div class="note wcag2ict software">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
+##### 3.3.9 Accessible Authentication (Enhanced) (Level AAA)
+
+<div class="note">
+
+See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
 
 ### robust
 
