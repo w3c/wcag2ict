@@ -271,5 +271,3 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/565" target="_blank">Issue 565</a>.</div>
   
-### 4. Robust
-  
