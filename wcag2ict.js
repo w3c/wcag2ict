@@ -246,6 +246,18 @@ function hideDeepNums() {
     });
 }
 
+function hideDeepNumsAAA() {
+    document.querySelectorAll("#recommendations-for-level-AAA-success-criteria section").forEach(function (item) {
+        var id = item.id;
+        if (id.startsWith("applying-")) {
+            var tocItem = getTocItem(id);
+            if (tocItem != null) tocItem.remove();
+            var secno = item.querySelector("bdi.secno");
+            if (secno != null) secno.remove();
+        }
+    });
+}
+
 function hideDeepNumsGlossary() {
     document.querySelectorAll("#glossary-items-with-specific-guidance section").forEach(function (item) {
         var id = item.id;
