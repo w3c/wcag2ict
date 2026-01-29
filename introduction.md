@@ -1,6 +1,7 @@
 ## Introduction
 
 ### Background
+
 This document is an update to a W3C [Working Group Note](https://www.w3.org/2005/10/Process-20051014/tr#WGNote) to incorporate new guidelines, success criteria, and definitions added in WCAG 2.1 and 2.2. 
 
 [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/2013/NOTE-wcag2ict-20130905/), approved in September 2013, described how WCAG 2.0 could be applied to non-web documents and software. WCAG2ICT was organized to mirror WCAG's sections: Perceivable, Operable, Understandable, and Robust.  WCAG2ICT clarified when and how WCAG success criteria could be applied to non-web documents and software.  Some were applicable without modification and some were applicable with edits and/or notes.  Glossary terms were also reviewed. Level AAA success criteria were not addressed in the 2013 WCAG2ICT Working Group Note. 
@@ -8,7 +9,6 @@ This document is an update to a W3C [Working Group Note](https://www.w3.org/2005
 The 2013 version of WCAG2ICT has been relied upon in regulations and legislation. An example is \[\[etsi-en-301-549\]\] (Europe) as well as other standards that reference or incorporate EN 301 549 (e.g., India, Kenya, Australia). Another example is the U.S. Section 508’s [Application of WCAG 2.0 to Non-Web ICT](https://www.federalregister.gov/documents/2017/01/18/2017-00395/information-and-communication-technology-ict-standards-and-guidelines#h-36), where WCAG was incorporated by reference into Section 508 as the [accessibility standard applicable to non-web documents](https://www.access-board.gov/ict/#E205.4) and which also requires [WCAG conformance for non-web software](https://www.access-board.gov/ict/#E207.2).
 
 These standards looked to WCAG2ICT for detailed direction and guidance on how to apply WCAG non-web technology. The WCAG2ICT guidance also led to a few exceptions where specific success criteria are not required in non-web contexts.
-
 
 ### Guidance in This Document
 
@@ -27,18 +27,20 @@ Although this document covers a wide range of issues, it is not able to address 
   
 While WCAG 2 was designed to be technology neutral, it assumes the presence of a “user agent” such as a browser, media player, or assistive technology that is used as a means to access web content. As a result, the application of WCAG 2 to documents and software in non-web contexts necessitates some interpretation in order to determine how the intent of each WCAG 2 success criterion could be met in these different contexts of use. Therefore, the bulk of the WCAG2ICT Task Force's work involved evaluating how each WCAG 2 success criterion would apply in the context of non-web ICT.
 
-The WCAG2ICT Task Force found that the majority of WCAG 2 success criteria can be applied to non-web documents and software with either no or minimal changes. Since many of the Level A and Level AA success criteria do not include any web-related terms, they apply directly as written and as described in the “Intent” sections from the [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\] resource. Additional notes were provided, as needed, to increase understanding about applying WCAG success criteria to non-web documents and software.
+The WCAG2ICT Task Force found that the majority of WCAG 2 success criteria can be applied to non-web documents and software with either no or minimal changes. Since most of the success criteria do not include any web-related terms, they apply directly as written and as described in the “Intent” sections from the [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\] resource. Additional notes were provided, as needed, to increase understanding about applying WCAG success criteria to non-web documents and software.
+
+It is not recommended that WCAG 2 conformance be required as a general policy for non-web documents and software because it is not possible to satisfy all success criteria for some non-web content.
 
 #### Interpretation of Web Terminology in a Non-Web Context
 
 When certain web-specific terms or phrases like “web page(s)” were used in success criteria, those were replaced with non-web terms or phrases like “non-web document(s) and software”. Additional notes were also provided to explain the terminology replacements.
 
-A small number of success criteria are written to apply to “a set of web pages” or “multiple web pages” and depend upon all pages in the set to share some characteristic or behavior. Since the unit of conformance in WCAG 2 is a single web page, the task force agreed that the equivalent unit of conformance for non-web documents is a single document. It follows that an equivalent unit of evaluation for a “set of web pages” would be a “set of documents”. Since it isn't possible to unambiguously carve up non-web software into discrete pieces, a single “web page” was equated to a “software program” and a “set of web pages” was equated to a “set of software programs”.  Both of these terms are defined in the Key Terms section of this document. See “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” to determine when a group of documents or pieces of software are considered a set. 
+A small number of success criteria are written to apply to “a set of web pages” or “multiple web pages” and depend upon all pages in the set to share some characteristic or behavior. Since the unit of conformance in WCAG 2 is a single web page, the task force agreed that the equivalent unit of conformance for non-web documents is a single document. It follows that an equivalent unit of evaluation for a “set of web pages” would be a “[set of documents](#set-of-documents)”. Since it isn't possible to unambiguously carve up non-web software into discrete pieces, a single “web page” was equated to a “software program” and a “set of web pages” was equated to a “[set of software programs](#set-of-software-programs)”.  Both of these terms are defined in the [Key Terms](#key-terms) section of this document.
 <div class="note">Sets of non-web software that meet this definition appear to be extremely rare.</div>
 
 Not all success criteria have been fully adopted in all local regulations and legislation, and may not be applicable to all technologies. WCAG2ICT has been used in some regulations to determine whether or not to apply certain success criteria. For example, some local standards such as Section 508 in the U.S., and EN 301 549 in Europe, state that WCAG 2.0 Success Criteria 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification do not apply to non-web documents and non-web software. In addition, EN 301 549 states that 2.4.2 Page Titled and 3.1.2 Language of Parts do not apply to non-web software. In contrast, the U.S. Department of Justice regulation, Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Services of State and Local Government Entities (89 FR 31320, 24 April 2024), directs implementers to utilize the guidance in this document to determine the applicability of success criteria and how to apply the requirements to mobile applications. Since this document does not specifically say which criteria can or should apply, those implementing this document (WCAG2ICT) should consider the applicability of individual success criteria to non-web documents and software.
 
-The glossary terms in WCAG 2 were also reviewed and most of them applied to non-web documents and software, as written. Some applied with additional notes or edits (largely related to phrases like “web page(s)”), and a small number of terms were only used in Level AAA success criteria, which are not addressed by the WCAG2ICT Note at this time.
+The glossary terms in WCAG 2 were also reviewed and most of them applied to non-web documents and software, as written. Some applied with additional notes or edits (largely related to phrases like “web page(s)”), and a small number of terms are only used in Level AAA success criteria. Level AAA success criteria were not addressed by previous versions of the WCAG2ICT Note.
 
 ### Excluded from Scope
 
@@ -73,7 +75,13 @@ The following stylistic conventions are used in this document:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2), and the change to 4.1.1 Parsing listed in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1) section:
+The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2) (inclusive of the change to 4.1.1 Parsing, as described in [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1)), and the addition of Level AAA success criteria.
+<div class="note">
+      <ul>
+        <li>All of the existing sections from 2013 have undergone WCAG2ICT Task Force review to identify the necessary updates.</li>
+        <li>Many sections needed only minor editorial and link URL updates, including the guidance for the WCAG 2.0 success criteria.</li>
+      </ul> 
+</div>
 
 * New [Background](#background) section to explain the history and known uses of WCAG2ICT
 * New key terms introduced by WCAG2ICT:
@@ -122,10 +130,3 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
     * [set of web pages](#dfn-set-of-web-pages)
     * [set of non-web documents](#set-of-documents)
     * [set of software programs](#set-of-software-programs)
-* Updated sections:
-    <div class="note">
-      <ul>
-        <li>All of the existing sections have undergone WCAG2ICT Task Force review to identify the necessary updates.</li>
-        <li>Many sections needed only minor editorial and link URL updates, such as the guidance for the WCAG 2.0 success criteria.</li>
-      </ul> 
-    </div>
