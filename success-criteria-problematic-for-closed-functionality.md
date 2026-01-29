@@ -5,6 +5,8 @@ There are success criteria that can be problematic for developers of ICT with cl
 
 Other success criteria would apply to ICT with closed functionality either if they are partially closed or if they allow for the connection of some types of devices. As an example, Success Criterion 2.1.1 Keyboard would apply to ICT that is closed to screen readers, but have a physical keyboard, a connector for standard keyboards, or allow the installation of alternate keyboards.  While these criteria, as written, are not always applicable to ICT with closed functionality, most of them can inform and aid development of built-in features needed to make ICT with closed functionality accessible. 
 
+## Level A and AA Criteria
+
 For non-web software on ICT with closed functionality, those who implement this document (WCAG2ICT) should consider the applicability of individual WCAG 2 success criteria on a criterion-by-criterion basis. Alternate accessibility provisions might be needed to cover the user needs addressed by the following Level A and AA success criteria:
 
 <ul>
@@ -73,7 +75,9 @@ For non-web software on ICT with closed functionality, those who implement this 
 <div class="note">Non-web software on ICT with closed functionality would need equivalent facilitation to provide access to status messages.</div></li>
 </ul>
 
-Level AAA success criteria are not considered mandatory, and per WCAG 2, "It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content." This is especially true for ICT with closed functionality, where there may not be available assistive technology and/or platform support to satisfy these criteria. The applicability of the following WCAG 2 Level AAA success criteria are considered problematic to apply to ICT with closed functionality:
+## Level AAA Criteria
+
+Level AAA success criteria are not considered mandatory, and per WCAG 2, "It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content." This is especially true for ICT with closed functionality, where there may not be available assistive technology and/or platform support (including user agents, such as browsers) to satisfy these criteria. The applicability of the following WCAG 2 Level AAA success criteria are considered problematic to apply to ICT with closed functionality:
 
 <ul>
 <li><a href="#non-text-content">Placeholder SC link</a> — Placeholder description of why it's problematic.</li>
