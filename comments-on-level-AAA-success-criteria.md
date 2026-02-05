@@ -1,5 +1,5 @@
-Recommendations for Level AAA Success Criteria
--------------------------------------------
+Comments on Level AAA Success Criteria
+--------------------------------------
 <div class="ednote">
   
 The WCAG2ICT Task Force is in process of adding guidance for Level AAA success criteria. We are seeking feedback on the following sections:
