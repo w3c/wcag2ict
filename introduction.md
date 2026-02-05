@@ -84,7 +84,7 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
 * All of the existing sections from 2013 have undergone close review by the WCAG2ICT Task Force and been approved by the Accessiblity Guidelines Working Group.
 * Many sections needed only minor editorial and link URL updates, such as the guidance for the original success criteria of WCAG 2.0.</div>
 
-* New [Background](#background) section describing the history and known uses of WCAG2ICT
+* New [Background](#background) section describing the history and known uses of WCAG2ICT.
 * New key terms introduced by WCAG2ICT:
   - [closed functionality](#closed-functionality)
   - [menu-driven interface](#menu-driven-interface)
