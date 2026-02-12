@@ -95,25 +95,25 @@ Audio descriptions (also called "video descriptions", "descriptive narration", a
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.2.7 Extended Audio Description (Prerecorded) (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.2.8 Media Alternative (Prerecorded) (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.2.9 Audio-Only (Live) (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### adaptable
 
@@ -205,7 +205,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### distinguishable
 
@@ -289,25 +289,25 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.4.7 Low or No Background Audio (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.4.8 Visual Presentation (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.4.9 Images of Text (No Exception) (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### reflow
 
@@ -509,7 +509,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### character-key-shortcuts
 
@@ -602,25 +602,25 @@ While the success criterion uses the term “information”, the WCAG 2 [Intent 
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.2.4 Interruptions (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.2.5 Re-authenticating (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.2.6 Timeouts (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### seizures-and-physical-reactions
 
@@ -655,13 +655,13 @@ Examples of ICT that presents content from an external source include TVs playin
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.3.3 Animation from Interactions (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### navigable
 
@@ -796,19 +796,19 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.4.9 Link Purpose (Link Only) (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.4.10 Section Headings (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### focus-not-obscured-minimum
 
@@ -821,13 +821,13 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.4.13 Focus Appearance (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### input-modalities
 
@@ -920,13 +920,13 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.5.6 Concurrent Input Mechanisms (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 
 ##### dragging-movements
@@ -1048,25 +1048,25 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 3.1.4 Abbreviations (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 3.1.5 Reading Level (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 3.1.6 Pronunciation (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### predictable
 
@@ -1144,7 +1144,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### consistent-help
 
@@ -1227,13 +1227,13 @@ With this substitution, it would read:
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 3.3.6 Error Prevention (Level AAA)
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### redundant-entry
 
@@ -1284,7 +1284,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Comments on Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ### robust
 
