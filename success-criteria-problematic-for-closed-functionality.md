@@ -77,7 +77,7 @@ For non-web software on ICT with closed functionality, those who implement this 
 
 ## Level AAA Criteria
 
-Level AAA success criteria are not considered mandatory, and per WCAG 2, "It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content." This is especially true for ICT with closed functionality, where there may not be available assistive technology and/or platform support (including user agents, such as browsers) to satisfy these criteria. The applicability of the following WCAG 2 Level AAA success criteria are considered problematic to apply to ICT with closed functionality:
+Level AAA success criteria should be considered, where possible, for applicable content because they cover user needs that are not met in full with Level A and AA success criteria. However, WCAG 2 <a href="https://www.w3.org/TR/WCAG22/#cc1">5.2.1 Conformance Level</a> NOTE 2 indicates that it is not recommended that Level AAA conformance be required. This is especially true for ICT with closed functionality, where assistive technology and/or platform support (including [user agents](#user-agents>) may not be available to satisfy these criteria. The applicability of the following WCAG 2 Level AAA success criteria is considered problematic to apply to ICT with closed functionality:
 
 <ul>
 <li><a href="#media-alternative-prerecorded">1.2.8 Media Alternative (Prerecorded) (Level AAA)</a> — One of the options available to authors for Success Criterion 1.2.8 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
