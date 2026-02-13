@@ -267,7 +267,7 @@ Except for captions and images of text, text can be resized without loss of cont
 It is best practice to use only fonts that allow for scaling without loss of quality (e.g. pixelized presentation). This applies in particular to embedded fonts.</div>
 <div class="note wcag2ict software"> 
 
-The [Intent section in Understanding 1.4.4 Resize Text](http://section) refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the [non-web software](#software) provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the non-web software works with the platform features to satisfy this success criterion.</div>
+The [Intent section in Understanding 1.4.4 Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html#intent) refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the [non-web software](#software) provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the non-web software works with the platform features to satisfy this success criterion.</div>
 <div class="note wcag2ict software">
 	
 For non-web software, sometimes the platform provides text scaling to 200% for most, but not all text (e.g. headings, which are naturally large, may not be increased in size to 200%, but other text does increase to 200%). In such cases, authors would only need to support text scaling to the extent provided by user settings in the platform, without losing text-size semantics, content or functionality, to satisfy this success criterion.</div>
@@ -576,7 +576,7 @@ With these substitutions, it would read:
 
 <dl>
 <dt>Moving, blinking, scrolling</dt>
-<dd>For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to <a href="https://www.w3.org/TR/WCAG22/#dfn-pause)">pause</a>, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a>; and</dd>
+<dd>For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to <a href="https://www.w3.org/TR/WCAG22/#dfn-pause">pause</a>, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a>; and</dd>
     
 <dt>Auto-updating</dt>
 <dd>For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.</dd>
@@ -937,7 +937,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**2.5.7 Dragging Movements:** All [functionality](https://www.w3.org/TR/WCAG22/#dfn-functionality) that uses a [dragging movement](https://www.w3.org/TR/WCAG22/#dfn-dragging-movements) for operation can be achieved by a [single pointer](https://www.w3.org/TR/wcag22/#dfn-single-pointer) without dragging, unless dragging is [essential](https://www.w3.org/TR/wcag22/#dfn-essential) or the functionality is determined by the <INS>[**[user agent](#user-agent)** or other **[platform software](#platform-software)**]</INS> and not modified by the author.
+**2.5.7 Dragging Movements:** All [functionality](https://www.w3.org/TR/WCAG22/#dfn-functionality) that uses a [dragging movement](https://www.w3.org/TR/WCAG22/#dfn-dragging-movements) for operation can be achieved by a [single pointer](https://www.w3.org/TR/WCAG22/#dfn-single-pointer) without dragging, unless dragging is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or the functionality is determined by the <INS>[**[user agent](#user-agent)** or other **[platform software](#platform-software)**]</INS> and not modified by the author.
 
 <div class="note documents">
 
