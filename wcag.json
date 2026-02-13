@@ -63,28 +63,28 @@
                             "level": "AA"
                         },
                         {
-                            "id": "sign-language-prerecorded-AAA",
+                            "id": "sign-language-prerecorded",
                             "num": "1.2.6",
                             "content": "<p><a href=\"https://www.w3.org/TR/WCAG22/#dfn-sign-language-interpretation\" title=\"translation of one language, generally a spoken language, into a sign language\">Sign language interpretation</a> is provided for all <a href=\"https://www.w3.org/TR/WCAG22/#dfn-prerecorded\" title=\"information that is not live\">prerecorded</a>\n      <a href=\"https://www.w3.org/TR/WCAG22/#dfn-audio\" title=\"the technology of sound reproduction\">audio</a> content in <a href=\"https://www.w3.org/TR/WCAG22/#dfn-synchronized-media\" title=\"audio or video synchronized with another format for presenting information and/or with time-based interactive components, unless the media is a media alternative for text that is clearly labeled as such\">synchronized media</a>.\n   </p>",
                             "handle": "Sign Language (Prerecorded)",
                             "level": "AAA"
                         },
                         {
-                            "id": "extended-audio-description-prerecorded-AAA",
+                            "id": "extended-audio-description-prerecorded",
                             "num": "1.2.7",
                             "content": "<p>Where pauses in foreground audio are insufficient to allow <a href=\"https://www.w3.org/TR/WCAG22/#dfn-audio-descriptions\" title=\"narration added to the soundtrack to describe important visual details that cannot be understood from the main soundtrack alone\">audio descriptions</a> to convey the sense of the video, <a href=\"https://www.w3.org/TR/WCAG22/#dfn-extended-audio-description\" title=\"audio description that is added to an audiovisual presentation by pausing the video so that there is time to add additional description\">extended audio description</a> is provided for all <a href=\"https://www.w3.org/TR/WCAG22/#dfn-prerecorded\" title=\"information that is not live\">prerecorded</a>\n      <a href=\"https://www.w3.org/TR/WCAG22/#dfn-video\" title=\"the technology of moving or sequenced pictures or images\">video</a> content in <a href=\"https://www.w3.org/TR/WCAG22/#dfn-synchronized-media\" title=\"audio or video synchronized with another format for presenting information and/or with time-based interactive components, unless the media is a media alternative for text that is clearly labeled as such\">synchronized media</a>.\n   </p>",
                             "handle": "Extended Audio Description (Prerecorded)",
                             "level": "AAA"
                         },
                         {
-                            "id": "media-alternative-prerecorded-AAA",
+                            "id": "media-alternative-prerecorded",
                             "num": "1.2.8",
                             "content": "<p>An <a href=\"https://www.w3.org/TR/WCAG22/#dfn-alternative-for-time-based-media\" title=\"document including correctly sequenced text descriptions of time-based visual and auditory information and providing a means for achieving the outcomes of any time-based interaction\">alternative for time-based media</a> is provided for all <a href=\"https://www.w3.org/TR/WCAG22/#dfn-prerecorded\" title=\"information that is not live\">prerecorded</a>\n      <a href=\"https://www.w3.org/TR/WCAG22/#dfn-synchronized-media\" title=\"audio or video synchronized with another format for presenting information and/or with time-based interactive components, unless the media is a media alternative for text that is clearly labeled as such\">synchronized media</a> and for all prerecorded <a href=\"https://www.w3.org/TR/WCAG22/#dfn-video-only\" title=\"a time-based presentation that contains only video (no audio and no interaction)\">video-only</a> media.\n   </p>",
                             "handle": "Media Alternative (Prerecorded)",
                             "level": "AAA"
                         },
                         {
-                            "id": "audio-only-live-AAA",
+                            "id": "audio-only-live",
                             "num": "1.2.9",
                             "content": "<p>An <a href=\"https://www.w3.org/TR/WCAG22/#dfn-alternative-for-time-based-media\" title=\"document including correctly sequenced text descriptions of time-based visual and auditory information and providing a means for achieving the outcomes of any time-based interaction\">alternative for time-based media</a> that presents equivalent information for <a href=\"https://www.w3.org/TR/WCAG22/#dfn-live\" title=\"information captured from a real-world event and transmitted to the receiver with no more than a broadcast delay\">live</a>\n      <a href=\"https://www.w3.org/TR/WCAG22/#dfn-audio-only\" title=\"a time-based presentation that contains only audio (no video and no interaction)\">audio-only</a> content is provided.\n   </p>",
                             "handle": "Audio-only (Live)",
@@ -134,7 +134,7 @@
                             "level": "AA"
                         },
                         {
-                            "id": "identify-purpose-AAA",
+                            "id": "identify-purpose",
                             "num": "1.3.6",
                             "content": "<p>In content implemented using markup languages, the purpose of <a href=\"https://www.w3.org/TR/WCAG22/#dfn-user-interface-components\" title=\"a part of the content that is perceived by users as a single control for a distinct function\">user interface components</a>, icons, and <a href=\"https://www.w3.org/TR/WCAG22/#dfn-regions\" title=\"perceivable, programmatically determined section of content\">regions</a> can be <a href=\"https://www.w3.org/TR/WCAG22/#dfn-programmatically-determinable\" title=\"determined by software from author-supplied data provided in a way that different user agents, including assistive technologies, can extract and present this information to users in different modalities\">programmatically determined</a>.</p>",
                             "handle": "Identify Purpose",
@@ -184,28 +184,28 @@
                             "level": "AA"
                         },
                         {
-                            "id": "contrast-enhanced-AAA",
+                            "id": "contrast-enhanced",
                             "num": "1.4.6",
                             "content": "<p>The visual presentation of <a href=\"https://www.w3.org/TR/WCAG22/#dfn-text\" title=\"sequence of characters that can be programmatically determined, where the sequence is expressing something in human language\">text</a> and <a href=\"https://www.w3.org/TR/WCAG22/#dfn-images-of-text\" title=\"text that has been rendered in a non-text form (e.g., an image) in order to achieve a particular visual effect\">images of text</a> has a <a href=\"https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio\" title=\"(L1 + 0.05) / (L2 + 0.05), where\">contrast ratio</a> of at least 7:1, except for the following:\n   </p>\n   \n   <dl>\n      \n      <dt>Large Text</dt>\n      \n      <dd>\n         \n         <p><a href=\"https://www.w3.org/TR/WCAG22/#dfn-large-scale\" title=\"with at least 18 point or 14 point bold or font size that would yield equivalent size for Chinese, Japanese and Korean (CJK) fonts\">Large-scale</a> text and images of large-scale text have a contrast ratio of at least 4.5:1;\n         </p>\n         \n      </dd>\n      \n      <dt>Incidental</dt>\n      \n      <dd>\n         \n         <p>Text or images of text that are part of an inactive <a href=\"https://www.w3.org/TR/WCAG22/#dfn-user-interface-components\" title=\"a part of the content that is perceived by users as a single control for a distinct function\">user interface component</a>, that are <a href=\"https://www.w3.org/TR/WCAG22/#dfn-pure-decoration\" title=\"serving only an aesthetic purpose, providing no information, and having no functionality\">pure decoration</a>, that are not visible to anyone, or that are part of a picture that contains significant\n            other visual content, have no contrast requirement.\n         </p>\n         \n      </dd>\n      \n      <dt>Logotypes</dt>\n      \n      <dd>\n         \n         <p>Text that is part of a logo or brand name has no contrast requirement.</p>\n         \n      </dd>\n      \n   </dl>",
                             "handle": "Contrast (Enhanced)",
                             "level": "AAA"
                         },
                         {
-                            "id": "low-or-no-background-audio-AAA",
+                            "id": "low-or-no-background-audio",
                             "num": "1.4.7",
                             "content": "<p>For <a href=\"https://www.w3.org/TR/WCAG22/#dfn-prerecorded\" title=\"information that is not live\">prerecorded</a>\n      <a href=\"https://www.w3.org/TR/WCAG22/#dfn-audio-only\" title=\"a time-based presentation that contains only audio (no video and no interaction)\">audio-only</a> content that (1) contains primarily speech in the foreground, (2) is not an audio\n      <a href=\"https://www.w3.org/TR/WCAG22/#dfn-captcha\" title=\"initialism for &quot;Completely Automated Public Turing test to tell Computers and Humans Apart&quot;\">CAPTCHA</a> or audio logo, and (3) is not vocalization intended to be primarily musical expression\n      such as singing or rapping, at least one of the following is true:\n   </p>\n   \n   <dl>\n      \n      <dt>No Background</dt>\n      \n      <dd>\n         \n         <p>The audio does not contain background sounds.</p>\n         \n      </dd>\n      \n      <dt>Turn Off</dt>\n      \n      <dd>\n         \n         <p>The background sounds can be turned off.</p>\n         \n      </dd>\n      \n      <dt>20 dB</dt>\n      \n      <dd>\n         \n         <p>The background sounds are at least 20 decibels lower than the foreground speech content,\n            with the exception of occasional sounds that last for only one or two seconds.\n         </p>\n         \n         <div class=\"note\" role=\"note\" id=\"issue-container-generatedID-4\"><div class=\"note-title marker\" id=\"h-note-4\"><span>Note</span></div><p class=\"\">Per the definition of \"decibel,\" background sound that meets this requirement will\n            be approximately four times quieter than the foreground speech content.\n         </p></div>\n         \n      </dd>\n      \n   </dl>",
                             "handle": "Low or No Background Audio",
                             "level": "AAA"
                         },
                         {
-                            "id": "visual-presentation-AAA",
+                            "id": "visual-presentation",
                             "num": "1.4.8",
                             "content": "<p>For the visual presentation of <a href=\"https://www.w3.org/TR/WCAG22/#dfn-blocks-of-text\" title=\"more than one sentence of text\">blocks of text</a>, a <a href=\"https://www.w3.org/TR/WCAG22/#dfn-mechanism\" title=\"process or technique for achieving a result\">mechanism</a> is available to achieve the following:\n   </p>\n   <ul>\n     <li>Foreground and background colors can be selected by the user.</li>   \n     <li>Width is no more than 80 characters or glyphs (40 if CJK).</li>   \n     <li>Text is not justified (aligned to both the left and the right margins).</li>   \n     <li>Line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.</li>   \n     <li>Text can be resized without <a href=\"https://www.w3.org/TR/WCAG22/#dfn-assistive-technologies\" title=\"hardware and/or software that acts as a user agent, or along with a mainstream user agent, to provide functionality to meet the requirements of users with disabilities that go beyond those offered by mainstream user agents\">assistive technology</a> up to 200 percent in a way that does not require the user to scroll horizontally to read a line of text <a href=\"https://www.w3.org/TR/WCAG22/#dfn-on-a-full-screen-window\" title=\"on the most common sized desktop/laptop display with the viewport maximized\">on a full-screen window</a>.</li>   \n  </ul>\n\n<div class=\"note\" role=\"note\" id=\"issue-container-generatedID-5\"><div class=\"note-title marker\" id=\"h-note-5\"><span>Note 1</span></div><p class=\"\">Content is not required to use these values. The requirement is that a mechanism is available for users to change these presentation aspects. The mechanism can be provided by the browser or other user agent. Content is not required to provide the mechanism.</p></div>\n\n<div class=\"note\" role=\"note\" id=\"issue-container-generatedID-6\"><div class=\"note-title marker\" id=\"h-note-6\"><span>Note 2</span></div><p class=\"\">Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and can conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.</p></div>",
                             "handle": "Visual Presentation",
                             "level": "AAA"
                         },
                         {
-                            "id": "images-of-text-no-exception-AAA",
+                            "id": "images-of-text-no-exception",
                             "num": "1.4.9",
                             "content": "<p><a href=\"https://www.w3.org/TR/WCAG22/#dfn-images-of-text\" title=\"text that has been rendered in a non-text form (e.g., an image) in order to achieve a particular visual effect\">Images of text</a> are only used for <a href=\"https://www.w3.org/TR/WCAG22/#dfn-pure-decoration\" title=\"serving only an aesthetic purpose, providing no information, and having no functionality\">pure decoration</a> or where a particular presentation of <a href=\"https://www.w3.org/TR/WCAG22/#dfn-text\" title=\"sequence of characters that can be programmatically determined, where the sequence is expressing something in human language\">text</a> is <a href=\"https://www.w3.org/TR/WCAG22/#dfn-essential\" title=\"if removed, would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform\">essential</a> to the information being conveyed.\n   </p>\n   \n   <div class=\"note\" role=\"note\" id=\"issue-container-generatedID-7\"><div class=\"note-title marker\" id=\"h-note-7\"><span>Note</span></div><p class=\"\">Logotypes (text that is part of a logo or brand name) are considered essential.</p></div>",
                             "handle": "Images of Text (No Exception)",
@@ -270,7 +270,7 @@
                             "level": "A"
                         },
                         {
-                            "id": "keyboard-no-exception-AAA",
+                            "id": "keyboard-no-exception",
                             "num": "2.1.3",
                             "content": "<p>All <a href=\"https://www.w3.org/TR/WCAG22/#dfn-functionality\" title=\"processes and outcomes achievable through user action\">functionality</a> of the content is operable through a <a href=\"https://www.w3.org/TR/WCAG22/#dfn-keyboard-interface\" title=\"interface used by software to obtain keystroke input\">keyboard interface</a> without requiring specific timings for individual keystrokes.\n   </p>",
                             "handle": "Keyboard (No Exception)",
@@ -306,28 +306,28 @@
                             "level": "A"
                         },
                         {
-                            "id": "no-timing-AAA",
+                            "id": "no-timing",
                             "num": "2.2.3",
                             "content": "<p>Timing is not an <a href=\"https://www.w3.org/TR/WCAG22/#dfn-essential\" title=\"if removed, would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform\">essential</a> part of the event or activity presented by the content, except for non-interactive\n      <a href=\"https://www.w3.org/TR/WCAG22/#dfn-synchronized-media\" title=\"audio or video synchronized with another format for presenting information and/or with time-based interactive components, unless the media is a media alternative for text that is clearly labeled as such\">synchronized media</a> and <a href=\"https://www.w3.org/TR/WCAG22/#dfn-real-time-events\" title=\"event that a) occurs at the same time as the viewing and b) is not completely generated by the content\">real-time events</a>.\n   </p>",
                             "handle": "No Timing",
                             "level": "AAA"
                         },
                         {
-                            "id": "interruptions-AAA",
+                            "id": "interruptions",
                             "num": "2.2.4",
                             "content": "<p>Interruptions can be postponed or suppressed by the user, except interruptions involving\n      an <a href=\"https://www.w3.org/TR/WCAG22/#dfn-emergency\" title=\"a sudden, unexpected situation or occurrence that requires immediate action to preserve health, safety, or property\">emergency</a>.\n   </p>",
                             "handle": "Interruptions",
                             "level": "AAA"
                         },
                         {
-                            "id": "re-authenticating-AAA",
+                            "id": "re-authenticating",
                             "num": "2.2.5",
                             "content": "<p>When an authenticated session expires, the user can continue the activity without\n      loss of data after re-authenticating.\n   </p>",
                             "handle": "Re-authenticating",
                             "level": "AAA"
                         },
                         {
-                            "id": "timeouts-AAA",
+                            "id": "timeouts",
                             "num": "2.2.6",
                             "content": "<p>Users are warned of the duration of any <a href=\"https://www.w3.org/TR/WCAG22/#dfn-user-inactivity\" title=\"any continuous period of time where no user actions occur\">user inactivity</a> that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.</p>\n  \n<div class=\"note\" role=\"note\" id=\"issue-container-generatedID-23\"><div class=\"note-title marker\" id=\"h-note-23\"><span>Note</span></div><p class=\"\">Privacy regulations may require explicit user consent before user identification has been authenticated and before user data is preserved. In cases where the user is a minor, explicit consent may not be solicited in most jurisdictions, countries or regions. Consultation with privacy professionals and legal counsel is advised when considering data preservation as an approach to satisfy this success criterion.</p></div>",
                             "handle": "Timeouts",
@@ -349,14 +349,14 @@
                             "level": "A"
                         },
                         {
-                            "id": "three-flashes-AAA",
+                            "id": "three-flashes",
                             "num": "2.3.2",
                             "content": "<p><a href=\"https://www.w3.org/TR/WCAG22/#dfn-web-page-s\" title=\"a non-embedded resource obtained from a single URI using HTTP plus any other resources that are used in the rendering or intended to be rendered together with it by a user agent\">Web pages</a> do not contain anything that <a href=\"https://www.w3.org/TR/WCAG22/#dfn-flashes\" title=\"a pair of opposing changes in relative luminance that can cause seizures in some people if it is large enough and in the right frequency range\">flashes</a> more than three times in any one second period.\n   </p>",
                             "handle": "Three Flashes",
                             "level": "AAA"
                         },
                         {
-                            "id": "animation-from-interactions-AAA",
+                            "id": "animation-from-interactions",
                             "num": "2.3.3",
                             "content": "<p><a href=\"https://www.w3.org/TR/WCAG22/#dfn-motion-animation\" title=\"addition of steps between conditions to create the illusion of movement or to give a sense of a smooth transition\">Motion animation</a> triggered by interaction can be disabled, unless the animation is <a href=\"https://www.w3.org/TR/WCAG22/#dfn-essential\" title=\"if removed, would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform\">essential</a> to the functionality or the information being conveyed.</p>",
                             "handle": "Animation from Interactions",
@@ -420,21 +420,21 @@
                             "level": "AA"
                         },
                         {
-                            "id": "location-AAA",
+                            "id": "location",
                             "num": "2.4.8",
                             "content": "<p>Information about the user's location within a <a href=\"https://www.w3.org/TR/WCAG22/#dfn-set-of-web-pages\" title=\"collection of web pages that share a common purpose and that are created by the same author, group or organization\">set of web pages</a> is available.\n   </p>",
                             "handle": "Location",
                             "level": "AAA"
                         },
                         {
-                            "id": "link-purpose-link-only-AAA",
+                            "id": "link-purpose-link-only",
                             "num": "2.4.9",
                             "content": "<p>A <a href=\"https://www.w3.org/TR/WCAG22/#dfn-mechanism\" title=\"process or technique for achieving a result\">mechanism</a> is available to allow the <a href=\"https://www.w3.org/TR/WCAG22/#dfn-purpose-of-each-link\" title=\"nature of the result obtained by activating a hyperlink\">purpose of each link</a> to be identified from link text alone,\n      except where the purpose of the link would be <a href=\"https://www.w3.org/TR/WCAG22/#dfn-ambiguous-to-users-in-general\" title=\"the purpose cannot be determined from the link and all information of the web page presented to the user simultaneously with the link (i.e., readers without disabilities would not know what a link would do until they activated it)\">ambiguous to users in general</a>.\n   </p>",
                             "handle": "Link Purpose (Link Only)",
                             "level": "AAA"
                         },
                         {
-                            "id": "section-headings-AAA",
+                            "id": "section-headings",
                             "num": "2.4.10",
                             "content": "<p><a href=\"https://www.w3.org/TR/WCAG22/#dfn-section\" title=\"a self-contained portion of written content that deals with one or more related topics or thoughts\">Section</a> headings are used to organize the content.\n   </p>\n   \n   <div class=\"note\" role=\"note\" id=\"issue-container-generatedID-25\"><div class=\"note-title marker\" id=\"h-note-25\"><span>Note 1</span></div><p class=\"\">\"Heading\" is used in its general sense and includes titles and other ways to add a\n      heading to different types of content.\n   </p></div>\n   \n   <div class=\"note\" role=\"note\" id=\"issue-container-generatedID-26\"><div class=\"note-title marker\" id=\"h-note-26\"><span>Note 2</span></div><p class=\"\">This success criterion covers sections within writing, not <a href=\"https://www.w3.org/TR/WCAG22/#dfn-user-interface-components\" title=\"a part of the content that is perceived by users as a single control for a distinct function\">user interface components</a>. User interface components are covered under <a href=\"https://www.w3.org/TR/WCAG22/#name-role-value\">Success Criterion 4.1.2</a>.\n   </p></div>",
                             "handle": "Section Headings",
@@ -448,14 +448,14 @@
                             "level": "AA"
                         },
                         {
-                            "id": "focus-not-obscured-enhanced-AAA",
+                            "id": "focus-not-obscured-enhanced",
                             "num": "2.4.12",
                             "content": "<p>When a <a href=\"https://www.w3.org/TR/WCAG22/#dfn-user-interface-components\" title=\"a part of the content that is perceived by users as a single control for a distinct function\">user interface component</a> receives keyboard focus, no part of the component is hidden by author-created content.</p>",
                             "handle": "Focus Not Obscured (Enhanced)",
                             "level": "AAA"
                         },
                         {
-                            "id": "focus-appearance-AAA",
+                            "id": "focus-appearance",
                             "num": "2.4.13",
                             "content": "<p>When the keyboard <a href=\"https://www.w3.org/TR/WCAG22/#dfn-focus-indicator\" title=\"New\">focus indicator</a> is visible, an area of the focus indicator meets all the following:</p>\n    <ul>\n        <li>is at least as large as the area of a 2 <a href=\"https://www.w3.org/TR/WCAG22/#dfn-css-pixels\" title=\"visual angle of about 0.0213 degrees\">CSS pixel</a> thick <a href=\"https://www.w3.org/TR/WCAG22/#dfn-perimeter\" title=\"New\">perimeter</a> of the unfocused component or sub-component, and</li>\n        <li>has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.</li>\n    </ul>\n\n    <p>Exceptions:</p>\n    <ul>\n        <li>The focus indicator is determined by the <a href=\"https://www.w3.org/TR/WCAG22/#dfn-user-agents\" title=\"any software that retrieves and presents web content for users\">user agent</a> and cannot be adjusted by the author, or</li>\n        <li>The focus indicator and the indicator's background color are not modified by the author.</li>\n    </ul>\n\n    <div class=\"note\" role=\"note\" id=\"issue-container-generatedID-29\"><div class=\"note-title marker\" id=\"h-note-29\"><span>Note 1</span></div><p class=\"\">What is perceived as the user interface component or sub-component (to determine the perimeter) depends on its visual <a href=\"https://www.w3.org/TR/WCAG22/#dfn-presentation\" title=\"rendering of the content in a form to be perceived by users\">presentation</a>. The visual presentation includes the component's visible <a href=\"https://www.w3.org/TR/WCAG22/#dfn-content\" title=\"information and sensory experience to be communicated to the user by means of a user agent, including code or markup that defines the content's structure, presentation, and interactions\">content</a>, border, and component-specific background. It does not include shadow and glow effects outside the component's content, background, or border.</p></div>\n\n    <div class=\"note\" role=\"note\" id=\"issue-container-generatedID-30\"><div class=\"note-title marker\" id=\"h-note-30\"><span>Note 2</span></div><p class=\"\">Examples of sub-components that may receive a focus indicator are menu items in an opened drop-down menu, or focusable cells in a grid.</p></div>\n\n    <div class=\"note\" role=\"note\" id=\"issue-container-generatedID-31\"><div class=\"note-title marker\" id=\"h-note-31\"><span>Note 3</span></div><p class=\"\">Contrast calculations can be based on colors defined within the <a href=\"https://www.w3.org/TR/WCAG22/#dfn-technologies\" title=\"mechanism for encoding instructions to be rendered, played or executed by user agents\">technology</a> (such as <abbr title=\"HyperText Markup Language\">HTML</abbr>, CSS, and SVG). Pixels modified by user agent resolution enhancements and anti-aliasing can be ignored.</p></div>",
                             "handle": "Focus Appearance",
@@ -498,14 +498,14 @@
                             "level": "A"
                         },
                         {
-                            "id": "target-size-enhanced-AAA",
+                            "id": "target-size-enhanced",
                             "num": "2.5.5",
                             "content": "<p>The size of the <a href=\"https://www.w3.org/TR/WCAG22/#dfn-targets\" title=\"region of the display that will accept a pointer action, such as the interactive area of a user interface component\">target</a> for <a href=\"https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs\" title=\"input from a device that can target a specific coordinate (or set of coordinates) on a screen, such as a mouse, pen, or touch contact\">pointer inputs</a> is at least 44 by 44 <a href=\"https://www.w3.org/TR/WCAG22/#dfn-css-pixels\" title=\"visual angle of about 0.0213 degrees\">CSS pixels</a> except when:</p>\n<dl>\n\t<dt>Equivalent</dt> \n  <dd>The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;</dd>\n\t<dt>Inline</dt> \n  <dd>The target is in a sentence or <a href=\"https://www.w3.org/TR/WCAG22/#dfn-blocks-of-text\" title=\"more than one sentence of text\">block of text</a>;</dd>\n\t<dt>User Agent Control</dt> \n  <dd>The size of the target is determined by the <a href=\"https://www.w3.org/TR/WCAG22/#dfn-user-agents\" title=\"any software that retrieves and presents web content for users\">user agent</a> and is not modified by the author;</dd>\n\t<dt>Essential</dt> \n  <dd>A particular <a href=\"https://www.w3.org/TR/WCAG22/#dfn-presentation\" title=\"rendering of the content in a form to be perceived by users\">presentation</a> of the target is <a href=\"https://www.w3.org/TR/WCAG22/#dfn-essential\" title=\"if removed, would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform\">essential</a> to the information being conveyed.</dd>\n</dl>",
                             "handle": "Target Size (Enhanced)",
                             "level": "AAA"
                         },
                         {
-                            "id": "concurrent-input-mechanisms-AAA",
+                            "id": "concurrent-input-mechanisms",
                             "num": "2.5.6",
                             "content": "<p>Web content does not restrict use of input modalities available on a platform except where the restriction is <a href=\"https://www.w3.org/TR/WCAG22/#dfn-essential\" title=\"if removed, would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform\">essential</a>, required to ensure the security of the content, or required to respect user settings.</p>",
                             "handle": "Concurrent Input Mechanisms",
@@ -556,28 +556,28 @@
                             "level": "AA"
                         },
                         {
-                            "id": "unusual-words-AAA",
+                            "id": "unusual-words",
                             "num": "3.1.3",
                             "content": "<p>A <a href=\"https://www.w3.org/TR/WCAG22/#dfn-mechanism\" title=\"process or technique for achieving a result\">mechanism</a> is available for identifying specific definitions of words or phrases <a href=\"https://www.w3.org/TR/WCAG22/#dfn-used-in-an-unusual-or-restricted-way\" title=\"words used in such a way that requires users to know exactly which definition to apply in order to understand the content correctly\">used in an unusual or restricted way</a>, including <a href=\"https://www.w3.org/TR/WCAG22/#dfn-idioms\" title=\"phrase whose meaning cannot be deduced from the meaning of the individual words and the specific words cannot be changed without losing the meaning\">idioms</a> and <a href=\"https://www.w3.org/TR/WCAG22/#dfn-jargon\" title=\"words used in a particular way by people in a particular field\">jargon</a>.\n   </p>",
                             "handle": "Unusual Words",
                             "level": "AAA"
                         },
                         {
-                            "id": "abbreviations-AAA",
+                            "id": "abbreviations",
                             "num": "3.1.4",
                             "content": "<p>A <a href=\"https://www.w3.org/TR/WCAG22/#dfn-mechanism\" title=\"process or technique for achieving a result\">mechanism</a> for identifying the expanded form or meaning of <a href=\"https://www.w3.org/TR/WCAG22/#dfn-abbreviations\" title=\"shortened form of a word, phrase, or name where the abbreviation has not become part of the language\">abbreviations</a> is available.\n   </p>",
                             "handle": "Abbreviations",
                             "level": "AAA"
                         },
                         {
-                            "id": "reading-level-AAA",
+                            "id": "reading-level",
                             "num": "3.1.5",
                             "content": "<p>When text requires reading ability more advanced than the <a href=\"https://www.w3.org/TR/WCAG22/#dfn-lower-secondary-education-level\" title=\"the two or three year period of education that begins after completion of six years of school and ends nine years after the beginning of primary education\">lower secondary education level</a> after removal of proper names and titles, <a href=\"https://www.w3.org/TR/WCAG22/#dfn-supplementary-content\" title=\"additional content that illustrates or clarifies the primary content\">supplemental content</a>, or a version that does not require reading ability more advanced than the lower\n      secondary education level, is available.\n   </p>",
                             "handle": "Reading Level",
                             "level": "AAA"
                         },
                         {
-                            "id": "pronunciation-AAA",
+                            "id": "pronunciation",
                             "num": "3.1.6",
                             "content": "<p>A <a href=\"https://www.w3.org/TR/WCAG22/#dfn-mechanism\" title=\"process or technique for achieving a result\">mechanism</a> is available for identifying specific pronunciation of words where meaning of the\n      words, in context, is ambiguous without knowing the pronunciation.\n   </p>",
                             "handle": "Pronunciation",
@@ -620,7 +620,7 @@
                             "level": "AA"
                         },
                         {
-                            "id": "change-on-request-AAA",
+                            "id": "change-on-request",
                             "num": "3.2.5",
                             "content": "<p><a href=\"https://www.w3.org/TR/WCAG22/#dfn-change-of-context\" title=\"major changes that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously\">Changes of context</a> are initiated only by user request or a <a href=\"https://www.w3.org/TR/WCAG22/#dfn-mechanism\" title=\"process or technique for achieving a result\">mechanism</a> is available to turn off such changes.\n   </p>",
                             "handle": "Change on Request",
@@ -670,14 +670,14 @@
                             "level": "AA"
                         },
                         {
-                            "id": "help-AAA",
+                            "id": "help",
                             "num": "3.3.5",
                             "content": "<p><a href=\"https://www.w3.org/TR/WCAG22/#dfn-context-sensitive-help\" title=\"help text that provides information related to the function currently being performed\">Context-sensitive help</a> is available.\n   </p>",
                             "handle": "Help",
                             "level": "AAA"
                         },
                         {
-                            "id": "error-prevention-all-AAA",
+                            "id": "error-prevention-all",
                             "num": "3.3.6",
                             "content": "<p>For <a href=\"https://www.w3.org/TR/WCAG22/#dfn-web-page-s\" title=\"a non-embedded resource obtained from a single URI using HTTP plus any other resources that are used in the rendering or intended to be rendered together with it by a user agent\">web pages</a> that require the user to submit information, at least one of the following is true:\n   </p>\n   \n   <dl>\n     <dt>Reversible</dt><dd>Submissions are reversible.</dd>\n     <dt>Checked</dt><dd>Data entered by the user is checked for <a href=\"https://www.w3.org/TR/WCAG22/#dfn-input-error\" title=\"information provided by the user that is not accepted\">input errors</a> and the user is provided an opportunity to correct them.</dd>\n     <dt>Confirmed</dt><dd>A <a href=\"https://www.w3.org/TR/WCAG22/#dfn-mechanism\" title=\"process or technique for achieving a result\">mechanism</a> is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>\n  </dl>",
                             "handle": "Error Prevention (All)",
@@ -698,7 +698,7 @@
                             "level": "AA"
                         },
                         {
-                            "id": "accessible-authentication-enhanced-AAA",
+                            "id": "accessible-authentication-enhanced",
                             "num": "3.3.9",
                             "content": "<p>A <a href=\"https://www.w3.org/TR/WCAG22/#dfn-cognitive-function-test\" title=\"New\">cognitive function test</a> (such as remembering a password or solving a puzzle) is not required for any step in an authentication <a href=\"https://www.w3.org/TR/WCAG22/#dfn-processes\" title=\"series of user actions where each action is required in order to complete an activity\">process</a> unless that step provides at least one of the following:</p> \n    <dl>\n        <dt>Alternative</dt>\n        <dd>Another authentication method that does not rely on a cognitive function test.</dd>\n        <dt>Mechanism</dt>\n        <dd>A <a href=\"https://www.w3.org/TR/WCAG22/#dfn-mechanism\" title=\"process or technique for achieving a result\">mechanism</a> is available to assist the user in completing the cognitive function test.</dd>\n    </dl>",
                             "handle": "Accessible Authentication (Enhanced)",
