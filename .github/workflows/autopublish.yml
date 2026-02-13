@@ -22,7 +22,8 @@ jobs:
           # W3C_WG_DECISION_URL: https://www.w3.org/WAI/GL/wiki/Decisions
           # W3C_BUILD_OVERRIDE: |
           #  specStatus: NOTE
-          BUILD_FAIL_ON: nothing
+          BUILD_FAIL_ON: error
           GH_PAGES_BRANCH: gh-pages
-          VALIDATE_WEBIDL: false
-          VALIDATE_MARKUP: false
+          VALIDATE_WEBIDL: true
+          VALIDATE_MARKUP: true
+          VALIDATE_LINKS: true
