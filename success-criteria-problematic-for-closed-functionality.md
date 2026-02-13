@@ -5,7 +5,9 @@ There are success criteria that can be problematic for developers of ICT with cl
 
 Other success criteria would apply to ICT with closed functionality either if they are partially closed or if they allow for the connection of some types of devices. As an example, Success Criterion 2.1.1 Keyboard would apply to ICT that is closed to screen readers, but have a physical keyboard, a connector for standard keyboards, or allow the installation of alternate keyboards.  While these criteria, as written, are not always applicable to ICT with closed functionality, most of them can inform and aid development of built-in features needed to make ICT with closed functionality accessible. 
 
-For non-web software on ICT with closed functionality, those who implement this document (WCAG2ICT) should consider the applicability of individual WCAG 2 success criteria on a criterion-by-criterion basis. Alternate accessibility provisions might be needed to cover the user needs addressed by the following success criteria:
+## Level A and AA Criteria
+
+For non-web software on ICT with closed functionality, those who implement this document (WCAG2ICT) should consider the applicability of individual WCAG 2 success criteria on a criterion-by-criterion basis. Alternate accessibility provisions might be needed to cover the user needs addressed by the following Level A and AA success criteria:
 
 <ul>
 <li><a href="#non-text-content">1.1.1 Non-text Content</a> — Depends upon text (or a text alternative) being in a programmatically determinable form.</li>
@@ -72,4 +74,12 @@ For non-web software on ICT with closed functionality, those who implement this 
 <li><a href="#name-role-value">4.1.2 Name, Role, Value</a> — Requires information in a programmatically determinable form.</li>
 <li><a href="#status-messages">4.1.3 Status Messages</a> — Depends upon status messages being programmatically determinable using role or properties.
 <div class="note">Non-web software on ICT with closed functionality would need equivalent facilitation to provide access to status messages.</div></li>
+</ul>
+
+## Level AAA Criteria
+
+Level AAA success criteria are not considered mandatory, and per WCAG 2, "It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content." This is especially true for ICT with closed functionality, where there may not be available assistive technology and/or platform support (including user agents, such as browsers) to satisfy these criteria. The applicability of the following WCAG 2 Level AAA success criteria are considered problematic to apply to ICT with closed functionality:
+
+<ul>
+<li><a href="#media-alternative-prerecorded">1.2.8 Media Alternative (Prerecorded) (Level AAA)</a> — One of the options available to authors for Success Criterion 1.2.8 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
 </ul>
