@@ -26,7 +26,7 @@ parsing21.handle += " (WCAG 2.1)";
 parsing21.content = parsing21.content.replace(/-27/g, "-27-411-21");
 compatible.successcriteria.unshift(parsing21);
 
-// Prune unneeded fields
+// Prune unneeded fields and fix duplicate ids on the AAA SCs
 for (const principle of data.principles) {
   delete principle.title;
   delete principle.versions;
@@ -40,6 +40,9 @@ for (const principle of data.principles) {
       delete criterion.title;
       delete criterion.techniques;
       delete criterion.versions;
+      if (criterion.level === "AAA") {
+        criterion.id += "-AAA";
+      }
     }
   }
 }
