@@ -217,7 +217,7 @@ any software that retrieves and presents web content for users
 
 <div class="example">
 
-Web browsers, media players, plug-ins, and other programs — including <a href="https://www.w3.org/TR/wcag22/#dfn-assistive-technologies">assistive technologies</a> — that help in retrieving, rendering, and interacting with web content.</div>
+Web browsers, media players, plug-ins, and other programs — including <a href="https://www.w3.org/TR/WCAG22/#dfn-assistive-technologies">assistive technologies</a> — that help in retrieving, rendering, and interacting with web content.</div>
 </blockquote>
 
 For non-web ICT, “user agent” needs to be viewed differently. In WCAG 2, the term “user agent” only refers to retrieval and display of web content. For non-web ICT, the term “user agent” refers to retrieval and display of separate content that is _not on the web_, which WCAG2ICT refers to as a “document”. Within WCAG2ICT, the term “user agent” is used as follows:
