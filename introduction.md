@@ -30,7 +30,7 @@ While WCAG 2 was designed to be technology neutral, it assumes the presence of a
 
 The WCAG2ICT Task Force found that the majority of WCAG 2 success criteria can be applied to non-web documents and software with either no or minimal changes.  Since most of the success criteria do not include any web-related terms, they apply directly as written and as described in the “Intent” sections from the [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\] resource.  Additional notes were provided, as needed, to increase understanding about applying WCAG success criteria to non-web documents and software.
 
-It is not recommended that WCAG 2 conformance be required as a general policy for all non-web documents and software because it is not possible to satisfy all success criteria for some non-web ICT.
+WCAG2ICT is useful as guidance for policy makers and other regulators to assess how WCAG 2 can be applied to non-web documents and software. However, because it is not possible to satisfy all success criteria for some non-web ICT, it is not recommended as a general policy that unmodified WCAG 2 success criteria be applied for all non-web documents and software.
 
 #### Interpretation of Web Terminology in a Non-Web Context
 
