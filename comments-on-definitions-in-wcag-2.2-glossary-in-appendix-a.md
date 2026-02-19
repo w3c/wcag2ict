@@ -128,7 +128,7 @@ To qualify as an accessibility-supported use of a <INS>[**[non-web document](#do
 
 <div class="note replaced">
 
-The concepts behind the five Notes and in [Understanding Accessibility Supported](http://www.w3.org/WAI/WCAG22/Understanding/conformance#accessibility-support) are applicable to web technologies. The same or similar factors are applicable for non-web technologies.</div></DD></DL>
+The concepts behind the five Notes and in [Understanding Accessibility Supported](https://www.w3.org/WAI/WCAG22/Understanding/conformance#accessibility-support) are applicable to web technologies. The same or similar factors are applicable for non-web technologies.</div></DD></DL>
 
 #### dfn-ambiguous-to-users-in-general
 
@@ -481,11 +481,11 @@ and RsRGB, GsRGB, and BsRGB are defined as:
 - GsRGB = G8bit/255
 - BsRGB = B8bit/255
     
-The “^” character is the exponentiation operator. (Formula taken from [\[sRGB\]](http://www.w3.org/TR/WCAG22/#bib-srgb).)</div>
+The “^” character is the exponentiation operator. (Formula taken from [\[sRGB\]](https://www.w3.org/TR/WCAG22/#bib-srgb).)</div>
 <div class="note">Before May 2021 the value of 0.04045 in the definition was different (0.03928). It was taken from an older version of the specification and has been updated. It has no practical effect on the calculations in the context of these guidelines.</div>
 <div class="note">
 
-Almost all systems used today to view <INS>[**[content](#content-on-and-off-the-web)**]</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](http://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
+Almost all systems used today to view <INS>[**[content](#content-on-and-off-the-web)**]</INS> assume sRGB encoding. Unless it is known that another color space will be used to process and display the content, authors should evaluate using sRGB colorspace. If using other color spaces, see [Understanding Success Criterion 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum).</div>
 <div class="note">
 
 If dithering occurs after delivery, then the source color value is used. For colors that are dithered at the source, the average values of the colors that are dithered should be used (average R, average G, and average B).</div>
@@ -689,7 +689,7 @@ object in which the <INS>[**[software](#software)**]</INS> presents content
 The <INS>[software]</INS> presents content through one or more viewports. Viewports include windows, frames, loudspeakers, and virtual magnifying glasses. A viewport may contain another viewport (e.g., nested frames). Interface components created by the <INS>[software]</INS> such as prompts, menus, and alerts are not viewports.</div>
 <div class="note">
 
-This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](http://www.w3.org/TR/WAI-USERAGENT/glossary.html) [\[UAAG10\]](https://www.w3.org/TR/WCAG22/#bib-uaag10).</div>
+This definition is based on [User Agent Accessibility Guidelines 1.0 Glossary](https://www.w3.org/TR/WAI-USERAGENT/glossary.html) [\[UAAG10\]](https://www.w3.org/TR/WCAG22/#bib-uaag10).</div>
 </DD></DL>
 
 #### dfn-web-page-s
