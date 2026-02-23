@@ -199,7 +199,23 @@ For non-web software and non-web documents that present input fields, the terms 
 <div class="note wcag2ict software"> 
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
-</div>
+</div> 
+
+##### identify-purpose
+
+###### Applying SC 1.3.6 Identify Purpose (Level AAA) to Non-Web Documents and Software
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.6](https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html#intent).
+
+<div class="note wcag2ict">
+	
+This success criterion only applies to **[non-web documents](#document)** and **[software](#software)** that are implemented using markup languages, and that support programmatically exposing the purpose of user interface components, icons and regions.</div>
+<div class="note wcag2ict software">
+
+"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in Electron applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### 1.3.6 Identify Purpose (Level AAA)
 
