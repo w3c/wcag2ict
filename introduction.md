@@ -12,7 +12,7 @@ These regulations and standards look to WCAG2ICT for detailed direction and guid
 
 ### Guidance in This Document
 
-WCAG2ICT provides informative guidance (guidance that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and does not set requirements) with regard to the interpretation and application of Web Content Accessibility Guidelines (WCAG) to non-web information and communications technologies (ICT).  WCAG2ICT is a [Working Group Note](https://www.w3.org/policies/process/#WGNote) (in contrast to WCAG 2.0, WCAG 2.1, and WCAG 2.2, which are W3C [Recommendations](https://www.w3.org/policies/process/#RecsW3C)).  WCAG2ICT provides informative guidance on applying WCAG 2.0, 2.1, and 2.2 Level A and AA success criteria to non-web ICT, specifically to non-web documents and software.
+WCAG2ICT provides informative guidance (guidance that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and does not set requirements) with regard to the interpretation and application of Web Content Accessibility Guidelines (WCAG) to non-web information and communications technologies (ICT).  WCAG2ICT is a [Working Group Note](https://www.w3.org/policies/process/#WGNote) (in contrast to WCAG 2.0, WCAG 2.1, and WCAG 2.2, which are W3C [Recommendations](https://www.w3.org/policies/process/#RecsW3C)).  WCAG2ICT provides informative guidance on applying WCAG 2.0, 2.1, and 2.2 Level A and AA success criteria to non-web ICT, including non-web documents and non-web software.
 <div class="note">
 
 The use of “WCAG 2” means all WCAG 2.x versions &mdash; 2.0, 2.1, and 2.2.</div>
