@@ -79,7 +79,7 @@ The following stylistic conventions are used in WCAG2ICT:
 The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2) (inclusive of the change to 4.1.1 Parsing, as described in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1)), and the addition of AAA success criteria.
 <div class="note">
 
-* All of the existing sections from 2013 have undergone close review by the WCAG2ICT Task Force and been approved by the Accessiblity Guidelines Working Group.
+* All of the existing sections from 2013 have undergone close review by the WCAG2ICT Task Force and been approved by the Accessibility Guidelines Working Group.
 * Many sections needed only minor editorial and link URL updates, such as the guidance for the original success criteria of WCAG 2.0.</div>
 
 * New [Background](#background) section describing the history and known uses of WCAG2ICT.
