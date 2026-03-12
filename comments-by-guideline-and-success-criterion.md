@@ -214,7 +214,9 @@ This success criterion only applies to **[non-web documents](#document)** and **
 
 "Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in Electron applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
 <div class="note wcag2ict software">
-
+<div class="note wcag2ict software">
+The WCAG2ICT working group also notes that as a Level AAA provision which is essentially a recommendation, this need not be limited to markup languages. If being considered for a requirement then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.
+</div>
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### 1.3.6 Identify Purpose (Level AAA)
