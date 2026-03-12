@@ -46,7 +46,7 @@ Today, there are not enough sign language interpreters world-wide to handle cont
 Some pre-programmed interactions (e.g., a game or VR) are considered “synchronized media” because the audio is timed to correspond with specific visual information.
 </div>
 
-<div class="note wcag2ict"> (for non-web software)
+<div class="note wcag2ict software">
 See also the Comments on Closed Functionality.
 </div>
 
