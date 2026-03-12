@@ -4,7 +4,7 @@ Comments on Level AAA Success Criteria
   
 The WCAG2ICT Task Force is in process of adding guidance for Level AAA success criteria. We are seeking feedback on the following sections:
 
-- [1.2.6 Sign Language (Prerecoded)](#sign-language-prerecorded)
+- [1.2.6 Sign Language (Prerecorded)](#sign-language-prerecorded)
 - [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
 - [1.2.8 Media Alternative (Prerecorded)](#media-alternative-prerecorded)
 
