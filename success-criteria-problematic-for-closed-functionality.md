@@ -82,4 +82,10 @@ Level AAA success criteria should be considered, where possible, for applicable 
 <ul>
   <li><a href="#sign-language-prerecorded">1.2.6 Sign Language (Prerecorded) (Level AAA)</a> - Live sign language translation may not currently be logistically feasible for ICT  with closed functionality.</li>
 <li><a href="#media-alternative-prerecorded">1.2.8 Media Alternative (Prerecorded) (Level AAA)</a> — One of the options available to authors for Success Criterion 1.2.8 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
+  <li><a href="#contrast-enhanced">1.4.6 Contrast (Enhanced) (Level AAA)</a> - There are cases where applying this success criterion to non-web software on ICT with closed functionality is problematic:
+  When the contrast of the content is determined by the hardware and not modifiable by the software author, it may not be possible to meet this success criterion.
+      <div class="note">Contrast requirements for hardware are out of scope for WCAG2ICT (and this success criterion).
+    When the color contrast ratio cannot be programmatically measured due to system limitations (e.g. lockdown), precise quantifiable testing of color contrast cannot be performed by a third party. In such cases, the software author would need to confirm that the color combinations used meet the contrast requirement.</div>
+      <div class="note">Photographs (e.g., of a hardware display) are not sufficient for testing that content meets this success criterion. This is because the quality of the lighting, camera, and physical aspects of the hardware display can dramatically affect the ability to capture the content for testing purposes.</div>
+  </li>
 </ul>
