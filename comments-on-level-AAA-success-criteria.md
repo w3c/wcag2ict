@@ -4,6 +4,7 @@ Comments on Level AAA Success Criteria
   
 The WCAG2ICT Task Force is in process of adding guidance for Level AAA success criteria. We are seeking feedback on the following sections:
 
+- [1.2.6 Sign Language (Prerecorded)](#sign-language-prerecorded)
 - [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
 - [1.2.8 Media Alternative (Prerecorded)](#media-alternative-prerecorded)
 
@@ -34,6 +35,21 @@ From the  <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance 
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/532" target="_blank">Issue 532</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.6](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded#intent).
+
+<div class="note wcag2ict">
+To date, meeting this success criteria has proven to be challenging, as it is  logistically impossible for all existing sign language interpreters to handle all content. Emerging technologies may, in the future, allow translation from text or speech to sign language directly. At that time, those who need sign language could use such a translator in the same way people who are blind use a screen reader. This would give people who need sign language a similar experience to that of screen reader users for all web content. As always, authors should not rely on such solutions until they are commonly available at a quality accepted by the signing community. In the meantime, providing sign language interpretation continues to be a need for native sign language users, especially in the context of any public service content.
+</div>
+
+<div class="note wcag2ict">
+Some pre-programmed interactions (e.g., a game or VR) are considered “synchronized media” because the audio is timed to correspond with specific visual information.
+</div>
+
+<div class="note wcag2ict software">
+See also the Comments on Closed Functionality.
+</div>
+
   
 ##### extended-audio-description-prerecorded
 
