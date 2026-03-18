@@ -131,7 +131,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### keyboard-no-exception
 
-###### Applying 2.1.3 Keyboard (No Exception) to non-web documents and software
+###### Applying SC 2.1.3 Keyboard (No Exception) to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/543" target="_blank">Issue 543</a>.</div>
@@ -140,14 +140,14 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### no-timing
 
-###### Applying 2.2.3 No Timing to non-web documents and software
+###### Applying SC 2.2.3 No Timing to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/544" target="_blank">Issue 544</a>.</div>
 
 ##### interruptions
 
-###### Applying 2.2.4 Interruptions to non-web documents and software
+###### Applying SC 2.2.4 Interruptions to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/545" target="_blank">Issue 545</a>.</div>
@@ -161,7 +161,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### timeouts
 
-###### Applying 2.2.6 Timeouts to non-web documents and software
+###### Applying SC 2.2.6 Timeouts to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/547" target="_blank">Issue 547</a>.</div>
@@ -170,14 +170,14 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### three-flashes
 
-###### Applying 2.3.2 Three Flashes to non-web documents and software
+###### Applying SC 2.3.2 Three Flashes to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/548" target="_blank">Issue 548</a>.</div>
 
 ##### Animation from Interactions
 
-###### Applying 2.3.3 Animation from Interactions to non-web documents and software
+###### Applying SC 2.3.3 Animation from Interactions to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/549" target="_blank">Issue 549</a>.</div>
@@ -186,21 +186,21 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### location
 
-###### Applying 2.4.8 Location to non-web documents and software
+###### Applying SC 2.4.8 Location to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/550" target="_blank">Issue 550</a>.</div>
 
 ##### link-purpose-link-only
 
-###### Applying 2.4.9 Link Purpose (Link Only) to non-web documents and software
+###### Applying SC 2.4.9 Link Purpose (Link Only) to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/551" target="_blank">Issue 551</a>.</div>
 
 ##### section-headings
 
-###### Applying 2.4.10 Section Headings to non-web documents and software
+###### Applying SC 2.4.10 Section Headings to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/552" target="_blank">Issue 552</a>.</div>
@@ -262,7 +262,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### pronunciation
 
-###### Applying 3.1.6 Pronunciation to non-web documents and software
+###### Applying SC 3.1.6 Pronunciation to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/561" target="_blank">Issue 561</a>.</div>
@@ -271,7 +271,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### change-on-request
 
-###### Applying 3.2.5 Change on Request to non-web documents and software
+###### Applying SC 3.2.5 Change on Request to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/562" target="_blank">Issue 562</a>.</div>
@@ -280,21 +280,21 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### help
 
-###### Applying 3.3.5 Help to non-web documents and software
+###### Applying SC 3.3.5 Help to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/563" target="_blank">Issue 563</a>.</div>
 
 ##### error-prevention
 
-###### Applying 3.3.6 Error Prevention to non-web documents and software
+###### Applying SC 3.3.6 Error Prevention to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/564" target="_blank">Issue 564</a>.</div>
 
 ##### accessible-authentication-enhanced
 
-###### Applying 3.3.9 Accessible Authentication (Enhanced) to non-web documents and software
+###### Applying SC 3.3.9 Accessible Authentication (Enhanced) to non-web documents and software
 <div class="ednote">
   
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/565" target="_blank">Issue 565</a>.</div>
