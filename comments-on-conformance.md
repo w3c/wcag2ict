@@ -1,4 +1,4 @@
-Comments on Conformance
+Comments on conformance
 -----------------------
 
 WCAG2ICT is not a standard, so it is not possible to conform to WCAG2ICT. However, some entities may wish to use the information in WCAG2ICT to help establish standards or regulations regarding accessibility in ICT that are based on WCAG 2. While such standards or regulations will need to address matters of conformance themselves, the following notes may be of assistance to those wishing to apply WCAG 2 to non-web documents and software:
