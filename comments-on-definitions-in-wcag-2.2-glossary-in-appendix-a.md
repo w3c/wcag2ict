@@ -70,7 +70,7 @@ The following glossary items apply to all technologies and do not need further i
 *   video-only
 *   visually customized
 
-### Glossary Items Used only in AAA Success Criteria
+### Glossary Items Used only in Level AAA Success Criteria
 
 This document does not provide guidance on applying AAA success criteria to non-web ICT, including the following definitions.
 

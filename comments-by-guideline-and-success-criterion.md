@@ -1,4 +1,4 @@
-Comments on Level A and AA Success Criteria
+Comments on Level A and Level AA Success Criteria
 --------------------------------------------
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
@@ -13,7 +13,7 @@ In WCAG 2, the Principles are provided for framing and understanding the success
 
 ##### Applying Guideline 1.1 Text Alternatives to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.1 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.1 applies directly as written.
 
 ##### non-text-content
 
@@ -23,7 +23,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
 
-CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.</div>
+CAPTCHAs do not currently appear outside of the web. However, if they do appear, this guidance is accurate.</div>
 <div class="note wcag2ict software">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -32,7 +32,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 1.2 Time Based Media to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.2 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.2 applies directly as written.
 
 ##### audio-only-and-video-only-prerecorded
 
@@ -119,7 +119,7 @@ See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-
 
 ##### Applying Guideline 1.3 Adaptable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.3 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.3 applies directly as written.
 
 ##### info-and-relationships
 
@@ -211,7 +211,7 @@ See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-
 
 ##### Applying Guideline 1.4 Distinguishable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.4 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.4 applies directly as written.
 
 ##### use-of-color
 
@@ -344,7 +344,7 @@ If a [non-web document](#document) type and its available [user agents](#user-ag
 The intent section refers to the ability for content to reflow (for vertical scrolling content at a width equivalent to 320 CSS pixels, or for horizontal scrolling content at a height equivalent to 256 CSS pixels) when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window, dialog, or other resizable content area, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the non-web software works with platform features that satisfy this success criterion.</div>
 <div class="note wcag2ict software">
 
-Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the Web. For example:
+Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the web. For example:
 - When the non-web software has a complex user interface with toolbars that need to be visible while manipulating content, as explained in the Intent from Understanding 1.4.10 Reflow.</div>
 <div class="note wcag2ict software">
 
@@ -449,7 +449,7 @@ In WCAG 2, the Principles are provided for framing and understanding the success
 
 ##### Applying Guideline 2.1 Keyboard Accessible to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.1 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.1 applies directly as written.
 
 ##### keyboard
 ###### Applying SC 2.1.1 Keyboard to Non-Web Documents
@@ -529,7 +529,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### Applying Guideline 2.2 Enough Time to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.2 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.2 applies directly as written.
 
 ##### timing-adjustable
 
@@ -626,7 +626,7 @@ See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-
 
 ##### Applying Guideline 2.3 Seizures and Physical Reactions to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.3 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.3 applies directly as written.
 
 ##### three-flashes-or-below-threshold
 
@@ -667,7 +667,7 @@ See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-
 
 ##### Applying Guideline 2.4 Navigable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.4 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.4 applies directly as written.
 
 ##### bypass-blocks
 
@@ -760,7 +760,7 @@ The definitions of “[set of documents](#set-of-documents)” and “[set of so
 While some users may find it useful to have multiple ways to locate some groups of user interface elements within a non-web document or software program, this is not required by the success criterion (and may pose difficulties in some situations).</div>
 <div class="note wcag2ict">
     
-The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from satisfying this success criterion—is achieved by the definition of set.</div>
+The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception — that items in a process are exempt from satisfying this success criterion — is achieved by the definition of set.</div>
 
 <div class="note wcag2ict software">
 
@@ -833,7 +833,7 @@ See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-
 
 ##### Applying Guideline 2.5 Input Modalities to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.5 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.5 applies directly as written.
 
 ##### pointer-gestures
 
@@ -1005,7 +1005,7 @@ In WCAG 2, the Principles are provided for framing and understanding the success
 
 ##### Applying Guideline 3.1 Readable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.1 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.1 applies directly as written.
 
 ##### language-of-page
 
@@ -1072,7 +1072,7 @@ See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-
 
 ##### Applying Guideline 3.2 Predictable to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or software”.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or software”.
 
 With this substitution, it would read:
 
@@ -1178,7 +1178,7 @@ Sets of software that meet this definition appear to be extremely rare.</div>
 
 ##### Applying Guideline 3.3 Input Assistance to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.3 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.3 applies directly as written.
 
 ##### error-identification
 
@@ -1300,7 +1300,7 @@ With this substitution, it would read:
 
 ##### Applying Guideline 4.1 Compatible to Non-Web Documents and Software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 4.1 applies directly as written, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 4.1 applies directly as written, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
 
 With this substitution, it would read:
 
