@@ -1,9 +1,9 @@
-Key Terms
+Key terms
 ---------
 
 WCAG2ICT provides some key glossary terms to address differences between web and non-web contexts and to introduce terms that are nonexistent in WCAG but important to define for a non-web context. “Content” and “user agent” are glossary terms from WCAG 2 that need to be interpreted significantly differently when applied to non-web ICT. The glossary term “web page” in WCAG 2 is replaced with the defined terms “document” and “software”, and both “set of web pages” and “multiple web pages” are replaced with the defined terms “set of documents” and “set of software programs”. The terms introduced by WCAG2ICT are “accessibility services of platform software” because non-web software doesn't leverage the WCAG notion of a user agent, and "closed functionality" which is specific to non-web software. The remaining glossary terms from WCAG 2 are addressed in [Chapter 7 Comments on Definitions in WCAG 2 Glossary](#comments-on-definitions-in-wcag-2-glossary). Terms defined and used in WCAG2ICT are applicable only to the interpretation of the guidance in this document. The particular definitions should not be interpreted as having applicability to situations beyond the scope of WCAG2ICT. Further information on usage of these terms follows.
 
-### Accessibility Services of Platform Software
+### Accessibility services of platform software
 
 The term **accessibility services of platform software**, as used in WCAG2ICT, has the meaning below:
 
@@ -15,7 +15,7 @@ services provided by an operating system, [user agent](#user-agent), or other [p
 
 These services are commonly provided in the form of accessibility APIs (application programming interfaces), and they provide two-way communication with assistive technologies, including exposing information about objects and events.</div>
 
-### Closed Functionality
+### Closed functionality
 
 The term **closed functionality**, as used in WCAG2ICT, has the meaning below:
 
@@ -100,7 +100,7 @@ An assembly of files that represented the video, audio, captions, and timing fil
 
 Counterexample: A binder file used to bind together the various exhibits for a legal case would not be a document.</div>
 
-### Menu-driven Interface
+### Menu-driven interface
 
 The term **menu-driven interface**, as used in WCAG2ICT, has the meaning below:
 
@@ -113,7 +113,7 @@ an interface composed of menus and sub-menus which the user accesses by pressing
 
 Products that have a menu-driven interface include, but are not limited to, self-service transaction machines, printers, and IP-based telephones.</div>
 
-### Platform Software
+### Platform software
 The term **platform software**, as used in WCAG2ICT, has the meaning below:
 <DL><DT>platform software</DT><DD>software that runs on an underlying software or hardware layer and that provides a set of software services to other software components</DD></DL>
 <div class="note">
@@ -128,7 +128,7 @@ Examples of platforms are: desktop operating systems; embedded operating systems
 
 This definition is based on the definition of "platform software" found in [[ISO_9241-171]] and [[ISO/IEC_13066-1]].</DL>
 
-### Set of Documents
+### Set of documents
 
 The term **set of documents**, as used in WCAG2ICT, has the meaning below:
 
@@ -147,7 +147,7 @@ If a set is broken apart, the individual parts are no longer part of a set, and 
 
 One example of a set of documents would be a three-part report where each part is a separate file. The table of contents is repeated at the beginning of each file to enable navigation to the other parts.</div>
 
-### Set of Software Programs
+### Set of software programs
 
 The term **set of software programs**, as used in WCAG2ICT, has the meaning below:
 
@@ -208,7 +208,7 @@ Software without a user interface does not have content and is not covered by th
 
 Because software with a user interface provides a function equivalent to a user agent in addition to content, the application of some WCAG 2 success criteria would be different for content embedded in software versus content in a document, where it is viewed through a separate user agent (e.g. browser, player, viewer, etc.).</div>
 
-### User Agent
+### User agent
 
 WCAG 2 defines **user agent** as:
 
@@ -236,7 +236,7 @@ An example of software that is not a user agent is a calculator application that
 
 Software that only shows a preview of content, such as a thumbnail or other non-fully functioning presentation, is not providing full user agent functionality.</div>
 
-### Virtual Keyboard
+### Virtual keyboard
 
 The term **virtual keyboard**, as used in WCAG2ICT, has the meaning below:
 
