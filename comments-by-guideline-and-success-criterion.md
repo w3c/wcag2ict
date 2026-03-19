@@ -203,7 +203,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### identify-purpose
 
-###### Applying SC 1.3.6 Identify Purpose (Level AAA) to Non-Web Documents and Software
+###### Applying SC 1.3.6 Identify Purpose (Level AAA) to Non-Web Documents and Non-Web Software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.6](https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html#intent).
 
