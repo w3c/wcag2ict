@@ -10,7 +10,7 @@ The 2013 version of WCAG2ICT has been relied upon in regulations and legislation
 
 These regulations and standards look to WCAG2ICT for detailed direction and guidance on how to apply WCAG to non-web technology.  WCAG2ICT also resulted in a few exceptions where specific success criteria are not required in non-web contexts.
 
-### Guidance in This Document
+### Guidance in this document
 
 WCAG2ICT provides informative guidance (guidance that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and does not set requirements) with regard to the interpretation and application of Web Content Accessibility Guidelines (WCAG) to non-web information and communications technologies (ICT).  WCAG2ICT is a [Working Group Note](https://www.w3.org/policies/process/#WGNote) (in contrast to WCAG 2.0, WCAG 2.1, and WCAG 2.2, which are W3C [Recommendations](https://www.w3.org/policies/process/#RecsW3C)).  WCAG2ICT provides informative guidance on applying WCAG 2.0, 2.1, and 2.2 Level A and AA success criteria to non-web ICT, including non-web documents and non-web software.
 <div class="note">
@@ -30,7 +30,7 @@ While WCAG 2 was designed to be technology neutral, it assumes the presence of a
 
 The WCAG2ICT Task Force found that the majority of WCAG 2 success criteria can be applied to non-web documents and software with either no or minimal changes.  Since most of the success criteria do not include any web-related terms, they apply directly as written and as described in the “Intent” sections from the [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/) \[\[UNDERSTANDING-WCAG22\]\] resource.  Additional notes were provided, as needed, to increase understanding about applying WCAG success criteria to non-web documents and software.  However, because it is not possible to satisfy all Level AAA success criteria for some non-web content, it is not recommended that Level AAA conformance be required as a general policy for non-web documents and software.
 
-#### Interpretation of Web Terminology in a Non-Web Context
+#### Interpretation of web terminology in a non-web context
 
 When certain web-specific terms or phrases like “web page(s)” were used in success criteria, those were replaced with non-web terms or phrases like “non-web document(s) and software”.  Additional notes were also provided to explain the terminology replacements.
 
@@ -43,7 +43,7 @@ Not all success criteria have been fully adopted in all local regulations and le
 
 The glossary terms in WCAG 2 were also reviewed and most of them applied, as written, to non-web documents and software.  Some applied with additional notes or edits (largely related to phrases like “web page(s)”), and a small number of terms that are only used in Level AAA success criteria.  Level AAA success criteria were not addressed by previous versions of the WCAG2ICT Note.
 
-### Excluded from Scope
+### Excluded from scope
 
 The following are out of scope for WCAG2ICT:
 
@@ -59,11 +59,11 @@ The following are out of scope for WCAG2ICT:
 * WCAG2ICT is purely an informative Note about non-web ICT.  
 * WCAG2ICT is not a standard and does not describe how non-web ICT should conform to it or to WCAG 2.
 
-### Document Overview
+### Document overview
 
 WCAG2ICT includes text excerpted from the WCAG 2.2 principles, guidelines, success criteria, and glossary definitions without any changes.  The guidance provided by WCAG2ICT for each principle, guideline, success criterion, and definition is preceded by a heading beginning with “Applying…”.  This guidance was created and updated by the WCAG2ICT Task Force, then reviewed and approved by the Accessibility Guidelines Working Group.
 
-### Document Conventions
+### Document conventions
 
 The following stylistic conventions are used in WCAG2ICT:
 

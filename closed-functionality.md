@@ -1,4 +1,4 @@
-Comments on Closed Functionality
+Comments on closed functionality
 --------------------------------
 
 As noted in the Introduction, WCAG 2 assumes the presence of a “user agent” such as a browser, media player, or assistive technology as a means to access web content. Many of the success criteria in WCAG 2 assume web content will be accessed by ICT where assistive technologies can be connected to it or installed on it. The assistive technologies then present the web content to people with disabilities in an accessible form. 
