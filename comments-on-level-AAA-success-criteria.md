@@ -92,7 +92,7 @@ This success criterion is problematic to apply directly to non-web documents (in
 
 
 
-###### Applying SC 1.2.9 Audio-Only (Live) to Non-Web Software
+###### Applying SC 1.2.9 Audio-Only (Live) to non-web software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.9](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live#intent).
 <div class="note wcag2ict software">
