@@ -84,4 +84,5 @@ Level AAA success criteria should be considered, where possible, for applicable 
 <ul>
   <li><a href="#sign-language-prerecorded">1.2.6 Sign Language (Prerecorded) (Level AAA)</a> - Live sign language translation may not currently be logistically feasible for ICT  with closed functionality.</li>
 <li><a href="#media-alternative-prerecorded">1.2.8 Media Alternative (Prerecorded) (Level AAA)</a> — One of the options available to authors for Success Criterion 1.2.8 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
+<li><a href="#media-alternative-prerecorded">1.2.9 Audio-only (Live) (Level AAA)</a> — One of the options available to authors for Success Criterion 1.2.9 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
 </ul>
