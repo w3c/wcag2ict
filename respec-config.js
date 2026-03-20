@@ -13,7 +13,7 @@ var respecConfig = {
 	previousMaturity:  "NOTE",
 	otherLinks: [
 		{
-			key: "Previous Version",
+			key: "Previous version",
 			data: [
 				{
 					href: "https://www.w3.org/TR/2024/NOTE-wcag2ict-22-20241115/",
