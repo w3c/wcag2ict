@@ -1,6 +1,6 @@
 ## Acknowledgements
 
-### Active Participants of the WCAG2ICT Task Force Involved in the Development of This Document
+### Active participants of the WCAG2ICT Task Force involved in the development of this document
 * Shadi Abou-Zahra (Amazon)
 * Bruce Bailey (Invited Expert)
 * Phil Day (NCR Atleos)
@@ -12,7 +12,7 @@
 * Mike Pluke (Invited Expert)
 * Gregg Vanderheiden (W3C Invited Expert)
 
-### Participants in the AG Working Group that Actively Reviewed and Contributed
+### Participants in the AG Working Group that actively reviewed and contributed
 * Jonathan Avila (Level Access)
 * Daniel Bjorge (Deque Systems, Inc.)
 * Alastair Campbell (Nomensa)
@@ -46,7 +46,7 @@
 
 WCAG2ICT Task Force participants are also in the AG working group, but are not repeated here.
 
-### Other Participants of the WCAG2ICT Task Force
+### Other participants of the WCAG2ICT Task Force
 * Charles Adams (Oracle Corporation)
 * Fernanda Bonnin (Microsoft Corporation)
 * Devanshu Chandra (Deque Systems, Inc.)
@@ -57,12 +57,12 @@ WCAG2ICT Task Force participants are also in the AG working group, but are not r
 * Shawn Thompson (Shared Services Canada)
 * Bryan Trogdon (Google LLC)
 
-### Previous Contributors
+### Previous contributors
 The following people contributed to the development of the WCAG2ICT Note:
 
 Charles Adams, Matthew Atkinson, Fernanda Bonnin, Judy Brewer, Devanshu Chandra, Michael Cooper, Mitchell Evan, Anastasia Lanz, Janina Sajka, Olivia Hogan-Stark, Thorsten Katzmann, Chris Loiselle, Sam Ogami, Shawn Thompson, Jason White
 
-### Enabling Funders
+### Enabling funders
 
 This publication has been funded in part with U.S. Federal funds from the Health and Human Services, National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR), initially under contract number ED-OSE-10-C-0067 and now under HHS75P00120P00168. The content of this publication does not necessarily reflect the views or policies of the U.S. Department of Health and Human Services or the U.S. Department of Education, nor does mention of trade names, commercial products, or organizations imply endorsement by the U.S. Government.
 
