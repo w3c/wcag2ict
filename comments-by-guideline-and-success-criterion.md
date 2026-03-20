@@ -1,42 +1,42 @@
-Comments on Requirements by Guideline and Success Criterion
--------------------------------------------------------------
+Comments on Level A and AA success criteria
+--------------------------------------------
 
 The sections that follow are organized according to the principles, guidelines, and success criteria from WCAG 2. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
 
 ### perceivable
 
-#### Applying Principle 1 Perceivable to Non-Web Documents and Software
+#### Applying Principle 1 Perceivable to non-web documents and software
 
 In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 1 applies directly as written.
 
 #### text-alternatives
 
-##### Applying Guideline 1.1 Text Alternatives to Non-Web Documents and Software
+##### Applying Guideline 1.1 Text Alternatives to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.1 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.1 applies directly as written.
 
 ##### non-text-content
 
-###### Applying SC 1.1.1 Non-text Content to Non-Web Documents and Software
+###### Applying SC 1.1.1 Non-text Content to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.1.1](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content#intent).
 
 <div class="note wcag2ict">
 
-CAPTCHAs do not currently appear outside of the Web. However, if they do appear, this guidance is accurate.</div>
+CAPTCHAs do not currently appear outside of the web. However, if they do appear, this guidance is accurate.</div>
 <div class="note wcag2ict software">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### time-based-media
 
-##### Applying Guideline 1.2 Time Based Media to Non-Web Documents and Software
+##### Applying Guideline 1.2 Time Based Media to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.2 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.2 applies directly as written.
 
 ##### audio-only-and-video-only-prerecorded
 
-###### Applying SC 1.2.1 Audio-only and Video-only (Prerecorded) to Non-Web Documents and Software
+###### Applying SC 1.2.1 Audio-only and Video-only (Prerecorded) to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.1](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded#intent).
 
@@ -49,7 +49,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### captions-prerecorded
 
-###### Applying SC 1.2.2 Captions (Prerecorded) to Non-Web Documents and Software
+###### Applying SC 1.2.2 Captions (Prerecorded) to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.2](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded#intent).
 
@@ -59,7 +59,7 @@ The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-caption
 
 ##### audio-description-or-media-alternative-prerecorded
 
-###### Applying SC 1.2.3 Audio Description or Media Alternative (Prerecorded) to Non-Web Documents and Software
+###### Applying SC 1.2.3 Audio Description or Media Alternative (Prerecorded) to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.3](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded#intent).
 
@@ -73,7 +73,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### captions-live
 
-###### Applying SC 1.2.4 Captions (Live) to Non-Web Documents and Software
+###### Applying SC 1.2.4 Captions (Live) to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.4](https://www.w3.org/WAI/WCAG22/Understanding/captions-live#intent).
 
@@ -83,7 +83,7 @@ The WCAG 2 definition of “[captions](https://www.w3.org/TR/WCAG22/#dfn-caption
 
 ##### audio-description-prerecorded
 
-###### Applying SC 1.2.5 Audio Description (Prerecorded) to Non-Web Documents and Software
+###### Applying SC 1.2.5 Audio Description (Prerecorded) to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.5](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded#intent).
 
@@ -95,35 +95,35 @@ Audio descriptions (also called "video descriptions", "descriptive narration", a
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.2.7 Extended Audio Description (Prerecorded) (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.2.8 Media Alternative (Prerecorded) (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.2.9 Audio-Only (Live) (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### adaptable
 
-##### Applying Guideline 1.3 Adaptable to Non-Web Documents and Software
+##### Applying Guideline 1.3 Adaptable to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.3 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.3 applies directly as written.
 
 ##### info-and-relationships
 
-###### Applying SC 1.3.1 Info and Relationships to Non-Web Documents and Software
+###### Applying SC 1.3.1 Info and Relationships to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.1](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships#intent).
 
@@ -140,7 +140,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### meaningful-sequence
 
-###### Applying SC 1.3.2 Meaningful Sequence to Non-Web Documents and Software
+###### Applying SC 1.3.2 Meaningful Sequence to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.2](https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence#intent).
 
@@ -150,12 +150,12 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### sensory-characteristics
 
-###### Applying SC 1.3.3 Sensory Characteristics to Non-Web Documents and Software
+###### Applying SC 1.3.3 Sensory Characteristics to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.3](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics#intent).
 
 ##### orientation
-###### Applying SC 1.3.4 Orientation to Non-Web Documents
+###### Applying SC 1.3.4 Orientation to non-web documents
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), except for non-web documents that will never be displayed on hardware that is reoriented in typical use.
 <div class="example wcag2ict documents">
@@ -165,7 +165,7 @@ Examples of non-web documents that will never be displayed on hardware that is r
 - reports of results of a test that are displayed only on the screen of the testing device, and
 - the status report sent to the screen of a copy machine (but not the status report that would be sent to a web interface to the same machine).</div>
 
-###### Applying SC 1.3.4 Orientation to Non-Web Software
+###### Applying SC 1.3.4 Orientation to non-web software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), except for non-web software that will never be displayed on hardware that is reoriented in typical use.
 <div class="note wcag2ict software">
@@ -185,7 +185,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### identify-input-purpose
 
-###### Applying SC 1.3.5 Identify Input Purpose to Non-Web Documents and Software
+###### Applying SC 1.3.5 Identify Input Purpose to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.5](https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose.html#intent).
 
@@ -199,29 +199,47 @@ For non-web software and non-web documents that present input fields, the terms 
 <div class="note wcag2ict software"> 
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div> 
+
+##### identify-purpose
+
+###### Applying SC 1.3.6 Identify Purpose (Level AAA) to Non-Web Documents and Non-Web Software
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.6](https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html#intent).
+
+<div class="note wcag2ict">
+	
+This success criterion only applies to **[non-web documents](#document)** and **[non-web software](#software)** that are implemented using markup languages, and that support programmatically exposing the purpose of user interface components, icons and regions.</div>
+<div class="note wcag2ict software">
+
+"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in Electron applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
+<div class="note wcag2ict software">
+<div class="note wcag2ict software">
+The WCAG2ICT working group also notes that as a Level AAA provision which is essentially a recommendation, this need not be limited to markup languages. If being considered for a requirement then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.
 </div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### 1.3.6 Identify Purpose (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### distinguishable
 
-##### Applying Guideline 1.4 Distinguishable to Non-Web Documents and Software
+##### Applying Guideline 1.4 Distinguishable to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.4 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 1.4 applies directly as written.
 
 ##### use-of-color
 
-###### Applying SC 1.4.1 Use of Color to Non-Web Documents and Software
+###### Applying SC 1.4.1 Use of Color to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.1](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color#intent).
 
 ##### audio-control
 
-###### Applying SC 1.4.2 Audio Control to Non-Web Documents and Software
+###### Applying SC 1.4.2 Audio Control to non-web documents and software
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a web page” with “in the non-web document or software”, “whole page” with “whole non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
@@ -238,7 +256,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### contrast-minimum
 
-###### Applying SC 1.4.3 Contrast Minimum to Non-Web Documents and Software
+###### Applying SC 1.4.3 Contrast Minimum to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum#intent).
 
@@ -248,7 +266,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### resize-text
 
-###### Applying SC 1.4.4 Resize Text to Non-Web Documents
+###### Applying SC 1.4.4 Resize Text to non-web documents
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent).
 <div class="note wcag2ict">
@@ -258,7 +276,7 @@ It is best practice to use only fonts that allow for scaling without loss of qua
 	
 [Content](#content-on-and-off-the-web) for which there are viewers or editors with a 200 percent zoom feature would automatically satisfy this success criterion when used with such viewers or editors, unless the content will not work with that zoom feature.</div>
 
-###### Applying SC 1.4.4 Resize Text to Non-Web Software
+###### Applying SC 1.4.4 Resize Text to non-web software
 This success criterion is problematic to apply directly to non-web software because not all platforms provide text enlargement features that increase all displayed text to 200%. Non-web software needs to work with platform capabilities where they exist, but when the platform has text resizing support up to 200%, but not all text types scale to 200%, it is unreasonable for all apps on a particular platform to be required to build in their own text resizing. Where the platform has text resizing support up to 200%, but where not all text resizes to 200% (because some of the text is already 200% of the default body text size), and provided semantic meaning indicated through differences in text size is maintained, the non-web software should work with the text sizing features to the extent the platform provides. Doing so would still address the user needs identified in the [Intent from Understanding Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text#intent). The following criterion is recommended as a substitute for the WCAG language:
 
 Except for captions and images of text, text can be resized without loss of content or functionality and without assistive technology either up to 200 percent or, if the platform provides text resizing capabilities but it does not reach 200 percent for all text, up to the text sizing capabilities of the platform.
@@ -267,7 +285,7 @@ Except for captions and images of text, text can be resized without loss of cont
 It is best practice to use only fonts that allow for scaling without loss of quality (e.g. pixelized presentation). This applies in particular to embedded fonts.</div>
 <div class="note wcag2ict software"> 
 
-The [Intent section in Understanding 1.4.4 Resize Text](http://section) refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the [non-web software](#software) provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the non-web software works with the platform features to satisfy this success criterion.</div>
+The [Intent section in Understanding 1.4.4 Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html#intent) refers to the ability to allow users to enlarge the text on screen at least up to 200% without needing to use [assistive technologies](#dfn-assistive-technologies). This means that the [non-web software](#software) provides some means for enlarging the text 200% (zoom or otherwise) without loss of [content](#content-on-and-off-the-web) or functionality, or that the non-web software works with the platform features to satisfy this success criterion.</div>
 <div class="note wcag2ict software">
 	
 For non-web software, sometimes the platform provides text scaling to 200% for most, but not all text (e.g. headings, which are naturally large, may not be increased in size to 200%, but other text does increase to 200%). In such cases, authors would only need to support text scaling to the extent provided by user settings in the platform, without losing text-size semantics, content or functionality, to satisfy this success criterion.</div>
@@ -277,7 +295,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### images-of-text
 
-###### Applying SC 1.4.5 Images of Text to Non-Web Documents and Software
+###### Applying SC 1.4.5 Images of Text to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.5](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text#intent).
 
@@ -289,29 +307,29 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.4.7 Low or No Background Audio (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.4.8 Visual Presentation (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 1.4.9 Images of Text (No Exception) (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### reflow
 
-###### Applying SC 1.4.10 Reflow to Non-Web Documents and Software
+###### Applying SC 1.4.10 Reflow to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.10](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html#intent), replacing “web content” with “content”.
 
@@ -334,7 +352,7 @@ Examples of content which requires two-dimensional layout are images required fo
 
 <div class="note wcag2ict">
 
-In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and software](#applying-css-pixel-to-non-web-documents-and-software).</div>
 
 <div class="note wcag2ict documents">
 
@@ -344,7 +362,7 @@ If a [non-web document](#document) type and its available [user agents](#user-ag
 The intent section refers to the ability for content to reflow (for vertical scrolling content at a width equivalent to 320 CSS pixels, or for horizontal scrolling content at a height equivalent to 256 CSS pixels) when user agent zooming is used to scale content or when the [viewport](#dfn-viewport) changes in width. For [non-web software](#software), this means that when users scale content, adjust the size of a window, dialog, or other resizable content area, or change the screen resolution, the content will reflow without loss of information or functionality, and without requiring scrolling in two dimensions; or that the non-web software works with platform features that satisfy this success criterion.</div>
 <div class="note wcag2ict software">
 
-Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the Web. For example:
+Non-web software will have more frequent cases where two-dimensional layout is relied upon for usage or meaning than what occurs on the web. For example:
 - When the non-web software has a complex user interface with toolbars that need to be visible while manipulating content, as explained in the Intent from Understanding 1.4.10 Reflow.</div>
 <div class="note wcag2ict software">
 
@@ -362,7 +380,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### non-text-contrast
 
-###### Applying SC 1.4.11 Non-text Contrast to Non-Web Documents and Software
+###### Applying SC 1.4.11 Non-text Contrast to non-web documents and software
 
 This applies directly as written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or other platform software".
 
@@ -387,7 +405,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### text-spacing
 
-###### Applying SC 1.4.12 Text Spacing to Non-Web Documents and Software
+###### Applying SC 1.4.12 Text Spacing to non-web documents and software
 
 This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.12](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent). 
 
@@ -411,7 +429,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### content-on-hover-or-focus
 
-###### Applying SC 1.4.13 Content on Hover or Focus to Non-Web Documents and Software
+###### Applying SC 1.4.13 Content on Hover or Focus to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or other platform software", "browser tooltips" with "tooltips", "the HTML title attribute" with "user interface object attributes", "links" with "links or other UI controls that behave like a link", and "a page" with "the non-web document or software".
 
@@ -441,22 +459,22 @@ This criterion applies to content that appears in addition to the triggering com
 
 ### operable
 
-#### Applying Principle 2 Operable to Non-Web Documents and Software
+#### Applying Principle 2 Operable to non-web documents and software
 
 In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 2 applies directly as written.
 
 #### keyboard-accessible
 
-##### Applying Guideline 2.1 Keyboard Accessible to Non-Web Documents and Software
+##### Applying Guideline 2.1 Keyboard Accessible to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.1 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.1 applies directly as written.
 
 ##### keyboard
-###### Applying SC 2.1.1 Keyboard to Non-Web Documents
+###### Applying SC 2.1.1 Keyboard to non-web documents
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
 
-###### Applying SC 2.1.1 Keyboard to Non-Web Software
+###### Applying SC 2.1.1 Keyboard to non-web software
 
 Where ICT is or includes non-web software that can be run on a software platform that provides a device-independent keyboard interface service, this applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.1](https://www.w3.org/WAI/WCAG22/Understanding/keyboard#intent).
 
@@ -482,7 +500,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### no-keyboard-trap
 
-###### Applying SC 2.1.2 No Keyboard Trap to Non-Web Documents and Software
+###### Applying SC 2.1.2 No Keyboard Trap to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software” and “on the web page” with "in the non-web document or software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
@@ -509,11 +527,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### character-key-shortcuts
 
-###### Applying SC 2.1.4 Character Key Shortcuts to Non-Web Documents and Software
+###### Applying SC 2.1.4 Character Key Shortcuts to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.4](https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts.html).
 
@@ -527,13 +545,13 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 #### enough-time
 
-##### Applying Guideline 2.2 Enough Time to Non-Web Documents and Software
+##### Applying Guideline 2.2 Enough Time to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.2 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.2 applies directly as written.
 
 ##### timing-adjustable
 
-###### Applying SC 2.2.1 Timing Adjustable to Non-Web Documents and Software
+###### Applying SC 2.2.1 Timing Adjustable to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.1](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent), replacing “ content” with “non-web document or software”.
 
@@ -566,7 +584,7 @@ This success criterion helps ensure that users can complete tasks without unexpe
 
 ##### pause-stop-hide
 
-###### Applying SC 2.2.2 Pause, Stop, Hide to Non-Web Documents and Software
+###### Applying SC 2.2.2 Pause, Stop, Hide to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” with “non-web document or software” and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion; and adjusting Note 2 to avoid the use of the normative term "must".
 
@@ -576,7 +594,7 @@ With these substitutions, it would read:
 
 <dl>
 <dt>Moving, blinking, scrolling</dt>
-<dd>For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to <a href="https://www.w3.org/TR/WCAG22/#dfn-pause)">pause</a>, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a>; and</dd>
+<dd>For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to <a href="https://www.w3.org/TR/WCAG22/#dfn-pause">pause</a>, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a>; and</dd>
     
 <dt>Auto-updating</dt>
 <dd>For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.</dd>
@@ -602,35 +620,35 @@ While the success criterion uses the term “information”, the WCAG 2 [Intent 
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.2.4 Interruptions (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.2.5 Re-authenticating (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.2.6 Timeouts (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### seizures-and-physical-reactions
 
-##### Applying Guideline 2.3 Seizures and Physical Reactions to Non-Web Documents and Software
+##### Applying Guideline 2.3 Seizures and Physical Reactions to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.3 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.3 applies directly as written.
 
 ##### three-flashes-or-below-threshold
 
-###### Applying SC 2.3.1 Three Flashes or Below Threshold to Non-Web Documents and Software
+###### Applying SC 2.3.1 Three Flashes or Below Threshold to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or software” , “page” with “non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
@@ -655,23 +673,23 @@ Examples of ICT that presents content from an external source include TVs playin
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.3.3 Animation from Interactions (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### navigable
 
-##### Applying Guideline 2.4 Navigable to Non-Web Documents and Software
+##### Applying Guideline 2.4 Navigable to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.4 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.4 applies directly as written.
 
 ##### bypass-blocks
 
-###### Applying SC 2.4.1 Bypass Blocks to Non-Web Documents and Software
+###### Applying SC 2.4.1 Bypass Blocks to non-web documents and software
 
 This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “on multiple web pages” with “in multiple non-web documents in a set of non-web documents, or in multiple software programs in a set of software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
 
@@ -700,7 +718,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### page-titled
 
-###### Applying SC 2.4.2 Page Titled to Non-Web Documents
+###### Applying SC 2.4.2 Page Titled to non-web documents
 
 This success criterion is problematic to apply directly to non-web documents through simple word substitution because not all document formats provide support for a programmatically determinable Title property, and document titles don't always describe the topic or purpose of the document. File names, as the WCAG 2 Understanding document specifies, also rarely describe the topic or purpose of the document – especially where the document names are not under the author’s control. However, where the document authoring tool or technology provides the capability to supply a title or name for a document, when the non-web document utilizes the Title property to provide a unique title or name inside of each document, and/or when a meaningful file name can be supplied, the user can more easily find it or understand its purpose. This would address the user needs identified in the [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent). The following criterion is recommended as a substitute for the WCAG language:
 
@@ -709,7 +727,7 @@ This success criterion is problematic to apply directly to non-web documents thr
 
 The Title property is specified as "editable through that document format’s common authoring tools" so that authors can view and edit the Title without requiring specialized or external metadata utilities. “Common authoring tools" are the most readily available tools used for editing a particular document type.</div> 
 
-###### Applying SC 2.4.2 Page Titled to Non-Web Software
+###### Applying SC 2.4.2 Page Titled to non-web software
 
 This success criterion is problematic to apply directly to non-web software through simple word substitution because application titles rarely describe the topic or purpose of the software. However, where the platform supports a programmatic title or name for a software window or screen, when a software application utilizes that feature to provide a unique title or name for each window or screen, the user can more easily find it or understand its purpose. This would address the user needs identified in the [Intent from Understanding Success Criterion 2.4.2](https://www.w3.org/WAI/WCAG22/Understanding/page-titled#intent). The following criterion is recommended as a substitute for the WCAG language:
 
@@ -717,7 +735,7 @@ This success criterion is problematic to apply directly to non-web software thro
 
 ##### focus-order
 
-###### Applying SC 2.4.3 Focus Order to Non-Web Documents and Software
+###### Applying SC 2.4.3 Focus Order to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.3](https://www.w3.org/WAI/WCAG22/Understanding/focus-order#intent) replacing “a web page” with “non-web documents or software”.
 
@@ -727,7 +745,7 @@ With this substitution, it would read:
 
 ##### link-purpose-in-context
 
-###### Applying SC 2.4.4 Link Purpose (In Context) to Non-Web Documents and Software
+###### Applying SC 2.4.4 Link Purpose (In Context) to non-web documents and software
 
 This applies directly as written and as described in [Intent from Understanding Success Criterion 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context#intent).
 
@@ -741,7 +759,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### multiple-ways
 
-###### Applying SC 2.4.5 Multiple Ways to Non-Web Documents and Software
+###### Applying SC 2.4.5 Multiple Ways to non-web documents and software
 
 This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents, or a set of software programs within a set of software programs” and "the web page" with "the non-web document or software program".
 
@@ -760,7 +778,7 @@ The definitions of “[set of documents](#set-of-documents)” and “[set of so
 While some users may find it useful to have multiple ways to locate some groups of user interface elements within a non-web document or software program, this is not required by the success criterion (and may pose difficulties in some situations).</div>
 <div class="note wcag2ict">
     
-The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception—that items in a process are exempt from satisfying this success criterion—is achieved by the definition of set.</div>
+The definitions of “[set of documents](#set-of-documents)” and “[set of software programs](#set-of-software-programs)” in WCAG2ICT require every item in the set to be independently reachable, and so nothing in such a set can be a “step in a process” that can't be reached any other way. The purpose of the exception — that items in a process are exempt from satisfying this success criterion — is achieved by the definition of set.</div>
 
 <div class="note wcag2ict software">
 
@@ -774,7 +792,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### headings-and-labels
 
-###### Applying SC 2.4.6 Headings and Labels to Non-Web Documents and Software
+###### Applying SC 2.4.6 Headings and Labels to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.6](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels#intent).
 
@@ -784,7 +802,7 @@ In non-web [software](#software), headings and labels are used to describe secti
 
 ##### focus-visible
 
-###### Applying SC 2.4.7 Focus Visible to Non-Web Documents and Software
+###### Applying SC 2.4.7 Focus Visible to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.7](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible#intent).
 
@@ -796,23 +814,23 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.4.9 Link Purpose (Link Only) (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.4.10 Section Headings (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### focus-not-obscured-minimum
 
-###### Applying SC 2.4.11 Focus not Obscured to Non-Web Documents and Software
+###### Applying SC 2.4.11 Focus not Obscured to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.11](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum#intent).
 
@@ -821,23 +839,23 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.4.13 Focus Appearance (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### input-modalities
 
-##### Applying Guideline 2.5 Input Modalities to Non-Web Documents and Software
+##### Applying Guideline 2.5 Input Modalities to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.5 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.5 applies directly as written.
 
 ##### pointer-gestures
 
-###### Applying SC 2.5.1 Pointer Gestures to Non-Web Documents and Software
+###### Applying SC 2.5.1 Pointer Gestures to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.1](https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software by replacing "web content that interprets" with "non-web software that interprets" and "user agent" with "underlying platform software".
 
@@ -861,7 +879,7 @@ This requirement also applies to platform software, such as user agents, assisti
 
 ##### pointer-cancellation
 
-###### Applying SC 2.5.2 Pointer Cancellation to Non-Web Documents and Software
+###### Applying SC 2.5.2 Pointer Cancellation to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.2](https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation.html#intent), making changes to the notes for non-web documents by replacing “web content” with "content", for non-web software by replacing "web content that interprets" with "non-web software that interprets" and "user agent" with "underlying platform software".
 
@@ -901,7 +919,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### label-in-name
 
-###### Applying SC 2.5.3 Label in Name to Non-Web Documents and Software
+###### Applying SC 2.5.3 Label in Name to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.3](https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html#intent).
 
@@ -911,7 +929,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### motion-actuation
 
-###### Applying SC 2.5.4 Motion Actuation to Non-Web Documents and Software
+###### Applying SC 2.5.4 Motion Actuation to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.4](https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation.html#intent).
 
@@ -920,24 +938,24 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 2.5.6 Concurrent Input Mechanisms (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 
 ##### dragging-movements
 
-###### Applying SC 2.5.7 Dragging Movements to Non-Web Documents and Software
+###### Applying SC 2.5.7 Dragging Movements to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.7](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html#intent), replacing "user agent" with "user agent or other platform software" and by making changes to the notes for non-web documents by replacing “web content” with "content", and for non-web software by replacing "web content that interprets" with "non-web software that interprets" and "user agent" with "underlying platform software".
 
 With these substitutions, it would read:
 
-**2.5.7 Dragging Movements:** All [functionality](https://www.w3.org/TR/WCAG22/#dfn-functionality) that uses a [dragging movement](https://www.w3.org/TR/WCAG22/#dfn-dragging-movements) for operation can be achieved by a [single pointer](https://www.w3.org/TR/wcag22/#dfn-single-pointer) without dragging, unless dragging is [essential](https://www.w3.org/TR/wcag22/#dfn-essential) or the functionality is determined by the <INS>[**[user agent](#user-agent)** or other **[platform software](#platform-software)**]</INS> and not modified by the author.
+**2.5.7 Dragging Movements:** All [functionality](https://www.w3.org/TR/WCAG22/#dfn-functionality) that uses a [dragging movement](https://www.w3.org/TR/WCAG22/#dfn-dragging-movements) for operation can be achieved by a [single pointer](https://www.w3.org/TR/WCAG22/#dfn-single-pointer) without dragging, unless dragging is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) or the functionality is determined by the <INS>[**[user agent](#user-agent)** or other **[platform software](#platform-software)**]</INS> and not modified by the author.
 
 <div class="note documents">
 
@@ -957,7 +975,7 @@ This requirement also applies to platform software, such as user agents, assisti
 
 ##### target-size-minimum
 
-###### Applying SC 2.5.8 Target Size (Minimum) to Non-Web Documents and Software:
+###### Applying SC 2.5.8 Target Size (Minimum) to non-web documents and software:
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or other platform software" and "on the same page" with "in the same non-web document or software".
 
@@ -985,7 +1003,7 @@ Targets that allow for values to be selected spatially based on position within 
 For inline targets the line-height should be interpreted as perpendicular to the flow of text. For example, in a language displayed vertically, the line-height would be horizontal.</div>
 <div class="note wcag2ict">
 
-In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to Non-Web Documents and Software](#applying-css-pixel-to-non-web-documents-and-software).</div>
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and software](#applying-css-pixel-to-non-web-documents-and-software).</div>
 
 <div class="note wcag2ict documents">
 
@@ -997,19 +1015,19 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ### understandable
 
-#### Applying Principle 3 Understandable to Non-Web Documents and Software
+#### Applying Principle 3 Understandable to non-web documents and software
 
 In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 3 applies directly as written.
 
 #### readable
 
-##### Applying Guideline 3.1 Readable to Non-Web Documents and Software
+##### Applying Guideline 3.1 Readable to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.1 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.1 applies directly as written.
 
 ##### language-of-page
 
-###### Applying SC 3.1.1 Language of Page to Non-Web Documents and Software
+###### Applying SC 3.1.1 Language of Page to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent) replacing “each web page” with “non-web documents or software”.
 
@@ -1026,7 +1044,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### language-of-parts
 
-###### Applying SC 3.1.2 Language of Parts to Non-Web Documents and Software
+###### Applying SC 3.1.2 Language of Parts to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.2](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts#intent) replacing “content” with “non-web document or software”.
 
@@ -1048,31 +1066,31 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 3.1.4 Abbreviations (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 3.1.5 Reading Level (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 3.1.6 Pronunciation (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 #### predictable
 
-##### Applying Guideline 3.2 Predictable to Non-Web Documents and Software
+##### Applying Guideline 3.2 Predictable to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or software”.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or software”.
 
 With this substitution, it would read:
 
@@ -1080,7 +1098,7 @@ With this substitution, it would read:
 
 ##### on-focus
 
-###### Applying SC 3.2.1 On Focus to Non-Web Documents and Software
+###### Applying SC 3.2.1 On Focus to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.1](https://www.w3.org/WAI/WCAG22/Understanding/on-focus#intent).
 
@@ -1090,13 +1108,13 @@ Some compound documents and their user agents are designed to provide significan
 
 ##### on-input
 
-###### Applying SC 3.2.2 On Input to Non-Web Documents and Software
+###### Applying SC 3.2.2 On Input to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.2](https://www.w3.org/WAI/WCAG22/Understanding/on-input#intent).
 
 ##### consistent-navigation
 
-###### Applying SC 3.2.3 Consistent Navigation to Non-Web Documents and Software
+###### Applying SC 3.2.3 Consistent Navigation to non-web documents and software
 
 This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web documents within a set of non-web documents, or in multiple non-web software programs within a set of software programs”.
 
@@ -1119,7 +1137,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### consistent-identification
 
-###### Applying SC 3.2.4 Consistent Identification to Non-Web Documents and Software
+###### Applying SC 3.2.4 Consistent Identification to non-web documents and software
 
 This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents or a set of software programs”.
 
@@ -1144,11 +1162,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### consistent-help
 
-###### Applying SC 3.2.6 Consistent Help to Non-Web Documents and Software
+###### Applying SC 3.2.6 Consistent Help to non-web documents and software
 
 This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "web page(s)" and "page(s)" with "non-web document(s) or software program(s)", "set of web pages" with "set of non-web documents or set of software programs", "page content" with "content", "on the page" with "in the non-web document or software", "page is serialized" with "non-web document or software content is serialized", "different page" with "different non-web document, software, or web page", and "page variation" with "content layout variation".
 
@@ -1176,13 +1194,13 @@ Sets of software that meet this definition appear to be extremely rare.</div>
 
 #### input-assistance
 
-##### Applying Guideline 3.3 Input Assistance to Non-Web Documents and Software
+##### Applying Guideline 3.3 Input Assistance to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.3 applies directly as written.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.3 applies directly as written.
 
 ##### error-identification
 
-###### Applying SC 3.3.1 Error Identification to Non-Web Documents and Software
+###### Applying SC 3.3.1 Error Identification to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.1](https://www.w3.org/WAI/WCAG22/Understanding/error-identification#intent).
 
@@ -1192,19 +1210,19 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### labels-or-instructions
 
-###### Applying SC 3.3.2 Labels or Instructions to Non-Web Documents and Software
+###### Applying SC 3.3.2 Labels or Instructions to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.2](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions#intent).
 
 ##### error-suggestion
 
-###### Applying SC 3.3.3 Error Suggestion to Non-Web Documents and Software
+###### Applying SC 3.3.3 Error Suggestion to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.3](https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion#intent).
 
 ##### error-prevention-legal-financial-data
 
-###### Applying SC 3.3.4 Error Prevention (Legal, Financial, Data) to Non-Web Documents and Software
+###### Applying SC 3.3.4 Error Prevention (Legal, Financial, Data) to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.4](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data#intent) replacing “web pages” with “non-web documents or software”.
 
@@ -1227,23 +1245,23 @@ With this substitution, it would read:
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### 3.3.6 Error Prevention (Level AAA)
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ##### redundant-entry
 
-###### Applying SC 3.3.7 Redundant Entry to Non-Web Documents and Software
+###### Applying SC 3.3.7 Redundant Entry to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.7](https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry#intent).
 
 ##### accessible-authentication-minimum
 
-###### Applying SC 3.3.8 Accessible Authentication (Minimum) to Non-Web Documents and Software
+###### Applying SC 3.3.8 Accessible Authentication (Minimum) to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), replacing “the website” with “a website, non-web document, or software”.
 
@@ -1284,11 +1302,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 <div class="note">
 
-See the [Recommendations for Level AAA Success Criteria](#recommendations-for-level-aaa-success-criteria).</div>
+See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-criteria).</div>
 
 ### robust
 
-#### Applying Principle 4 Robust to Non-Web Documents and Software
+#### Applying Principle 4 Robust to non-web documents and software
 
 In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 4 applies directly as written replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
 
@@ -1298,9 +1316,9 @@ With this substitution, it would read:
 
 #### compatible
 
-##### Applying Guideline 4.1 Compatible to Non-Web Documents and Software
+##### Applying Guideline 4.1 Compatible to non-web documents and software
 
-In WCAG 2, the Guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 4.1 applies directly as written, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 4.1 applies directly as written, replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
 
 With this substitution, it would read:
 
@@ -1308,7 +1326,7 @@ With this substitution, it would read:
 
 ##### parsing21
 
-###### Applying SC 4.1.1 Parsing (WCAG 2.0 and 2.1) to Non-Web Documents and Software
+###### Applying SC 4.1.1 Parsing (WCAG 2.0 and 2.1) to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.1](https://www.w3.org/WAI/WCAG21/Understanding/parsing#intent), replacing “In content implemented using markup languages” with “For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent” and replacing the WCAG notes with notes applicable to non-web documents and software.
 
@@ -1346,7 +1364,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### parsing22
 
-###### Applying SC 4.1.1 Parsing (Obsolete and removed) (WCAG 2.2) to Non-Web Documents and Software
+###### Applying SC 4.1.1 Parsing (Obsolete and removed) (WCAG 2.2) to non-web documents and software
 
 <div class="note wcag2ict">
 
@@ -1354,7 +1372,7 @@ WCAG 2.2 has made this success criterion obsolete and removed it as a requiremen
 
 ##### name-role-value
 
-###### Applying SC 4.1.2 Name, Role, Value to Non-Web Documents and Software
+###### Applying SC 4.1.2 Name, Role, Value to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.2](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value#intent), replacing “user agents, including assistive technologies", with “assistive technologies and accessibility features of underlying software” and the note with: “This success criterion is primarily for software developers who develop or use custom user interface components. For example, standard user interface components on most accessibility-supported platforms already satisfy this success criterion when used according to specification.”
 
@@ -1378,7 +1396,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### status-messages
 
-###### Applying SC 4.1.3 Status Messages to Non-Web Documents and Software
+###### Applying SC 4.1.3 Status Messages to non-web documents and software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 4.1.3](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html#intent).
 

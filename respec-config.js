@@ -13,7 +13,7 @@ var respecConfig = {
 	previousMaturity:  "NOTE",
 	otherLinks: [
 		{
-			key: "Previous Version",
+			key: "Previous version",
 			data: [
 				{
 					href: "https://www.w3.org/TR/2024/NOTE-wcag2ict-22-20241115/",
@@ -44,7 +44,7 @@ var respecConfig = {
 			name: "Phil Day",
 			mailto: "phil.day@ncratleos.com",
 			company: "NCR Atleos",
-			companyURI: "http://www.ncratleos.com/",
+			companyURI: "https://www.ncratleos.com/",
 			w3cid: 139781,
 		},
 		{
@@ -60,7 +60,7 @@ var respecConfig = {
 		{
 			name: "Michael Cooper",
 			company: "W3C",
-			companyURI: "http://https://www.w3.org/",
+			companyURI: "https://https://www.w3.org/",
 		},
 		{
 			name: "Peter Korn",
@@ -75,7 +75,7 @@ var respecConfig = {
 		{
 			name: "Andi Snow-Weaver",
 			company: "IBM",
-			companyURI: "http://www.ibm.com/",
+			companyURI: "https://www.ibm.com/",
 		},
 		{
 			name: "Gregg Vanderheiden",
@@ -85,8 +85,8 @@ var respecConfig = {
 	
 	
 	//authors:  [
-	//    { name: "Your Name", url: "http://example.org/",
-	//      company: "Your Company", companyURI: "http://example.com/" },
+	//    { name: "Your Name", url: "https://example.org/",
+	//      company: "Your Company", companyURI: "https://example.com/" },
 	//],
 	
 	/*
