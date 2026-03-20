@@ -68,7 +68,6 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.2.9 Audio-Only (Live) to Non-Web Documents
 
-This success criterion is problematic to apply directly to non-web documents because there is no support to include live audio in non-web document technology that exist today.
 
 Where a non-web document technology supports incorporation of live audio-only content, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.9](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live#intent).
 <div class="note wcag2ict documents">
