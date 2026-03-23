@@ -7,7 +7,7 @@ The sections that follow are organized according to the principles, guidelines, 
 
 #### Applying Principle 1 Perceivable to non-web documents and software
 
-In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 1 applies directly as written.
+In WCAG 2, the principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 1 applies directly as written.
 
 #### text-alternatives
 
@@ -461,7 +461,7 @@ This criterion applies to content that appears in addition to the triggering com
 
 #### Applying Principle 2 Operable to non-web documents and software
 
-In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 2 applies directly as written.
+In WCAG 2, the principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 2 applies directly as written.
 
 #### keyboard-accessible
 
@@ -1017,7 +1017,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 #### Applying Principle 3 Understandable to non-web documents and software
 
-In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 3 applies directly as written.
+In WCAG 2, the principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 3 applies directly as written.
 
 #### readable
 
@@ -1308,7 +1308,7 @@ See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-
 
 #### Applying Principle 4 Robust to non-web documents and software
 
-In WCAG 2, the Principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 4 applies directly as written replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
+In WCAG 2, the principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 4 applies directly as written replacing “user agents, including assistive technologies” with “assistive technologies and accessibility features of software”.
 
 With this substitution, it would read:
 
