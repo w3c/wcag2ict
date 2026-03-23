@@ -1,3 +1,5 @@
-This is a W3C Group Note on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT). The purpose of this work is to update the previous WCAG2ICT Note's guidance to include changes made in WCAG 2.1 and 2.2, as well as to address public feedback received after first publication of this updated Note.
+This is a W3C Group Note on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT). The purpose of this work is to update the previous WCAG2ICT Note's guidance to include changes made in WCAG 2.1 and 2.2, as well as to address public feedback received after the first publication of this updated Note.
 
-To comment, file an issue in the [W3C WCAG2ICT](https://github.com/w3c/wcag2ict/) GitHub repository. Create separate GitHub issues for each topic, rather than commenting on multiple topics in a single issue. It is free to create a GitHub account to file issues. If filing issues in GitHub is not feasible, send email to public-wcag2ict-comments@w3.org (comment archive).
+To comment, file an issue in the [W3C WCAG2ICT GitHub repository](https://github.com/w3c/wcag2ict/). Create separate GitHub issues for each topic, rather than commenting on multiple topics in a single issue. It is free to create a GitHub account to file issues. If filing issues in GitHub is not feasible, email public-wcag2ict-comments@w3.org ([comment archive](https://lists.w3.org/Archives/Public/public-wcag2ict-tf/)).
+
+In-progress updates to the document may be viewed in the publicly visible [Editor's Draft](https://w3c.github.io/wcag2ict/).
