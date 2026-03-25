@@ -89,7 +89,7 @@ Where a non-web document technology supports incorporation of live audio-only co
 <div class="note wcag2ict documents">
 
 This success criterion is problematic to apply directly to non-web documents (including audio files) that are then played by live audio players (such as  internet radio players). These live audio players may not currently support displaying captions and it may pose a risk if used in vehicles so may not be suitable in all cases.
-
+</div>
 
 
 ###### Applying SC 1.2.9 Audio-Only (Live) to non-web software
