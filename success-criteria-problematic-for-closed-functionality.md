@@ -6,7 +6,6 @@ There are success criteria that can be problematic for developers of ICT with cl
 Other success criteria would apply to ICT with closed functionality either if they are partially closed or if they allow for the connection of some types of devices. As an example, Success Criterion 2.1.1 Keyboard would apply to ICT that is closed to screen readers, but have a physical keyboard, a connector for standard keyboards, or allow the installation of alternate keyboards.  While these criteria, as written, are not always applicable to ICT with closed functionality, most of them can inform and aid development of built-in features needed to make ICT with closed functionality accessible. 
 
 ## Level A and Level AA criteria
->>>>>>> 6d71e9e (Make headings h2 and below sentence case)
 
 For non-web software on ICT with closed functionality, those who implement this document (WCAG2ICT) should consider the applicability of individual WCAG 2 success criteria on a criterion-by-criterion basis. Alternate accessibility provisions might be needed to cover the user needs addressed by the following Level A and AA success criteria:
 
@@ -85,5 +84,11 @@ Level AAA success criteria should be considered, where possible, for applicable 
 <li><a href="#sign-language-prerecorded">1.2.6 Sign Language (Prerecorded) (Level AAA)</a> - Live sign language translation may not currently be logistically feasible for ICT  with closed functionality.</li>
 <li><a href="#media-alternative-prerecorded">1.2.8 Media Alternative (Prerecorded) (Level AAA)</a> — One of the options available to authors for Success Criterion 1.2.8 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
 <li><a href="#media-alternative-prerecorded">1.2.9 Audio-only (Live) (Level AAA)</a> — One of the options available to authors for Success Criterion 1.2.9 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
-<li><a href="">1.4.9 Images of Text (No Exception) (Level AAA)</a> — To enable assistive technology to modify displayed text (e.g., adjusting contrast, increasing font size), machine-readable text is needed, as opposed to mere images of text. Not all ICT with closed functionality has the capability to support visual modification of displayed text or images of text, given there is no interoperability with assistive technology and/or lack of platform support.</li>
+ <li><a href="#contrast-enhanced">1.4.6 Contrast (Enhanced) (Level AAA)</a> - There are cases where applying this success criterion to non-web software on ICT with closed functionality is problematic:
+  When the contrast of the content is determined by the hardware and not modifiable by the software author, it may not be possible to meet this success criterion.
+      <div class="note">Contrast requirements for hardware are out of scope for WCAG2ICT (and this success criterion).
+    When the color contrast ratio cannot be programmatically measured due to system limitations (e.g. lockdown), precise quantifiable testing of color contrast cannot be performed by a third party. In such cases, the software author would need to confirm that the color combinations used meet the contrast requirement.</div>
+      <div class="note">Photographs (e.g., of a hardware display) are not sufficient for testing that content meets this success criterion. This is because the quality of the lighting, camera, and physical aspects of the hardware display can dramatically affect the ability to capture the content for testing purposes.</div>
+  </li>
+  <li><a href="">1.4.9 Images of Text (No Exception) (Level AAA)</a> — To enable assistive technology to modify displayed text (e.g., adjusting contrast, increasing font size), machine-readable text is needed, as opposed to mere images of text. Not all ICT with closed functionality has the capability to support visual modification of displayed text or images of text, given there is no interoperability with assistive technology and/or lack of platform support.</li>
 </ul>
