@@ -6,7 +6,7 @@ There are success criteria that can be problematic for developers of ICT with cl
 Other success criteria would apply to ICT with closed functionality either if they are partially closed or if they allow for the connection of some types of devices. As an example, Success Criterion 2.1.1 Keyboard would apply to ICT that is closed to screen readers, but have a physical keyboard, a connector for standard keyboards, or allow the installation of alternate keyboards.  While these criteria, as written, are not always applicable to ICT with closed functionality, most of them can inform and aid development of built-in features needed to make ICT with closed functionality accessible. 
 
 ## Level A and Level AA criteria
->>>>>>> 6d71e9e (Make headings h2 and below sentence case)
+
 
 For non-web software on ICT with closed functionality, those who implement this document (WCAG2ICT) should consider the applicability of individual WCAG 2 success criteria on a criterion-by-criterion basis. Alternate accessibility provisions might be needed to cover the user needs addressed by the following Level A and AA success criteria:
 
@@ -85,5 +85,6 @@ Level AAA success criteria should be considered, where possible, for applicable 
 <li><a href="#sign-language-prerecorded">1.2.6 Sign Language (Prerecorded) (Level AAA)</a> - Live sign language translation may not currently be logistically feasible for ICT  with closed functionality.</li>
 <li><a href="#media-alternative-prerecorded">1.2.8 Media Alternative (Prerecorded) (Level AAA)</a> — One of the options available to authors for Success Criterion 1.2.8 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
 <li><a href="#media-alternative-prerecorded">1.2.9 Audio-only (Live) (Level AAA)</a> — One of the options available to authors for Success Criterion 1.2.9 is providing a media alternative that is text which, in the absence of connected assistive technology, would need to be made available in different modalities.</li>
+<li><a href="#visual-presentation">1.4.8 Visual Presentation (Level AAA)</a> - In non-web software on ICT with closed functionality the ability for users to modify presentation aspects of text is rarely supported and there may not be the capability to use platform services to make text size/spacing adjustments. Therefore, some other non-WCAG requirements would be needed for ICT with closed functionality to ensure that content is readable by persons with low vision. As a result, meeting Success Criterion 1.4.8 in a closed environment may place a much heavier burden on the content author.</li>
 <li><a href="">1.4.9 Images of Text (No Exception) (Level AAA)</a> — To enable assistive technology to modify displayed text (e.g., adjusting contrast, increasing font size), machine-readable text is needed, as opposed to mere images of text. Not all ICT with closed functionality has the capability to support visual modification of displayed text or images of text, given there is no interoperability with assistive technology and/or lack of platform support.</li>
 </ul>
