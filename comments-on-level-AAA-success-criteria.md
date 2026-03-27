@@ -7,7 +7,9 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [1.2.6 Sign Language (Prerecorded)](#sign-language-prerecorded)
 - [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
 - [1.2.8 Media Alternative (Prerecorded)](#media-alternative-prerecorded)
+- [1.2.9 Audio-only (Live)](#audio-only-live)
 - [1.4.6 Contrast (Enhanced)](#contrast-enhanced)
+- [1.4.9 Images of Text (No Exception)](#images-of-text-no-exception)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
@@ -83,9 +85,27 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### audio-only-live
 
 ###### Applying SC 1.2.9 Audio-Only (Live) to non-web documents and software
-<div class="ednote">
+
+
+Where a non-web document technology supports incorporation of live audio-only content, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.9](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live#intent).
+<div class="note wcag2ict documents">
+
+This success criterion is problematic to apply directly to non-web documents (including audio files) that are then played by live audio players (such as  internet radio players). These live audio players may not currently support displaying captions and it may pose a risk if used in vehicles so may not be suitable in all cases.
+</div>
+
+
+###### Applying SC 1.2.9 Audio-Only (Live) to non-web software
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.9](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live#intent).
+<div class="note wcag2ict software">
   
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/535" target="_blank">Issue 535</a>.</div>
+Some ways to satisfy this success criterion would be to provide live captions (also known as subtitles or “subtitles for the hearing impaired") or a text transcript, script, or other text-based alternative.</div>
+<div class="note wcag2ict software">
+  
+When captions are provided, to satisfy this success criterion, they would have to provide a "synchronized [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+<div class="note wcag2ict software">
+  
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 1.3 Adaptable
 
@@ -127,9 +147,12 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 ##### images-of-text-no-exception
 
 ###### Applying SC 1.4.9 Images of Text (No Exception) to non-web documents and software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/542" target="_blank">Issue 542</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.9](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html#intent).
+
+<div class="note wcag2ict software">
+See also the Comments on Closed Functionality.
+</div>
 
 ### 2. Operable
 
