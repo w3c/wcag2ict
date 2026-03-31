@@ -8,6 +8,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
 - [1.2.8 Media Alternative (Prerecorded)](#media-alternative-prerecorded)
 - [1.2.9 Audio-only (Live)](#audio-only-live)
+- [1.4.6 Contrast (Enhanced)](#contrast-enhanced)
 - [1.4.9 Images of Text (No Exception)](#images-of-text-no-exception)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
@@ -120,9 +121,13 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 ##### contrast-enhanced
 
 ###### Applying SC 1.4.6 Contrast (Enhanced) to non-web documents and software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/539" target="_blank">Issue 539</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.6](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced#intent). 
+
+<div class="note wcag2ict">
+This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope. 
+</div>
+<div class="note wcag2ict software">
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### low-or-no-background-audio
 
