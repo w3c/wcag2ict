@@ -143,7 +143,7 @@ With these substitutions, the notes would read:
 <div class="note wcag2ict">
 Content is not required to use these values. The requirement is that a mechanism is available for users to change these presentation aspects. The mechanism can be provided by the <INS>**[user agent](#user-agent), [platform software](#platform-software), or other [non-web software](#software)**</INS>. Content is not required to provide the mechanism.
 </div>
-Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and can conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.
+<div class="note wcag2ict">Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and can conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.
 </div>
 <div class="note wcag2ict software">
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
