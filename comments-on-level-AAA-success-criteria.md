@@ -8,6 +8,8 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
 - [1.2.8 Media Alternative (Prerecorded)](#media-alternative-prerecorded)
 - [1.2.9 Audio-only (Live)](#audio-only-live)
+- [1.4.6 Contrast (Enhanced)](#contrast-enhanced)
+- [1.4.8 Visual Presentation](#visual-presentation)
 - [1.4.9 Images of Text (No Exception)](#images-of-text-no-exception)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
@@ -119,24 +121,32 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### contrast-enhanced
 
-###### Applying SC 1.4.6 Contrast (Enhanced) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/539" target="_blank">Issue 539</a>.</div>
+###### Applying SC 1.4.6 Contrast (Enhanced) to non-web documents and software
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.6](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced#intent). 
+
+<div class="note wcag2ict">
+This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope. 
+</div>
+<div class="note wcag2ict software">
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### low-or-no-background-audio
 
-###### Applying SC 1.4.7 Low or No Background Audio to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/540" target="_blank">Issue 540</a>.</div>
+###### Applying SC 1.4.7 Low or No Background Audio to non-web documents and software
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.7](https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html#intent).
 
 ##### visual-presentation
 
-###### Applying SC 1.4.8 Visual Presentation to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/541" target="_blank">Issue 541</a>.</div>
+###### Applying SC 1.4.8 Visual Presentation to non-web documents and software
+This applies directly as written, and as described in Intent from Understanding Success Criterion 1.4.8, replacing “browser or other user agent” with “user agent, platform software, or other non-web software” in Note 1.
+With these substitutions, the notes would read:
+<div class="note wcag2ict">
+Content is not required to use these values. The requirement is that a mechanism is available for users to change these presentation aspects. The mechanism can be provided by the <INS>[**[user agent](#user-agent), [platform software](#platform-software), or other [non-web software](#software)**]</INS>. Content is not required to provide the mechanism.
+</div>
+<div class="note wcag2ict">Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and can conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.
+</div>
+<div class="note wcag2ict software">
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### images-of-text-no-exception
 
