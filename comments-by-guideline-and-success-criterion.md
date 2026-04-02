@@ -194,7 +194,7 @@ This applies directly as written, and as described in [Intent from Understanding
 [Non-web software](#software) and [non-web document](#document) technologies that do not provide attributes that support identifying the expected meaning for the form input data are not in scope for this success criterion.</div>
 <div class="note wcag2ict">
 
-For non-web software and non-web documents that present input fields, the terms for the input purposes would be the equivalent terms to those listed in the WCAG 2 section [Input Purposes for User Interface Components](https://www.w3.org/TR/WCAG22/#input-purposes) that are supported by the technology used.
+For non-web documents and non-web software that present input fields, the terms for the input purposes would be the equivalent terms to those listed in the WCAG 2 section [Input Purposes for User Interface Components](https://www.w3.org/TR/WCAG22/#input-purposes) that are supported by the technology used.
 </div>
 <div class="note wcag2ict software"> 
 
@@ -240,7 +240,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### audio-control
 
 ###### Applying SC 1.4.2 Audio Control to non-web documents and non-web software
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a web page” with “in the non-web document or software”, “whole page” with “whole non-web document or software”, and “on the web page” with “in the non-web document or software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a web page” with “in the non-web document or non-web software”, “whole page” with “whole non-web document or non-web software”, and “on the web page” with “in the non-web document or non-web software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -411,7 +411,7 @@ This applies directly as  written and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
 
-This success criterion only applies to [non-web documents](#document) and [software](#software) that are implemented using markup languages and allow the user to modify these text spacing properties.</div>
+This success criterion only applies to [non-web documents](#document) and [non-web software](#software) that are implemented using markup languages and allow the user to modify these text spacing properties.</div>
 <div class="note wcag2ict documents">
     
 There are several mechanisms that allow users to modify a document's text spacing properties of content implemented in markup languages. For example, an eBook technology may have an available user agent that allows users to override document text styles. When such a mechanism is available, the success criterion requires that the content responds appropriately to it.</div>
@@ -431,7 +431,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.13 Content on Hover or Focus to non-web documents and software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or other platform software", "browser tooltips" with "tooltips", "the HTML title attribute" with "user interface object attributes", "links" with "links or other UI controls that behave like a link", and "a page" with "the non-web document or software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or other platform software", "browser tooltips" with "tooltips", "the HTML title attribute" with "user interface object attributes", "links" with "links or other UI controls that behave like a link", and "a page" with "the non-web document or non-web software".
 
 With these substitutions, it would read:
 
@@ -455,7 +455,7 @@ Examples of additional content controlled by the <INS>[user agent or other platf
 <div class="note">Custom tooltips, sub-menus, and other nonmodal popups that display on hover and focus are examples of additional content covered by this criterion.</div>
 <div class="note">
 
-This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as <INS>[links or other UI controls that behave like a link]</INS> used to skip to another part of <INS>[the non-web document or software]</INS>) do not present additional content they are not covered by this criterion.</div>
+This criterion applies to content that appears in addition to the triggering component itself. Since hidden components that are made visible on keyboard focus (such as <INS>[links or other UI controls that behave like a link]</INS> used to skip to another part of <INS>[the non-web document or non-web software]</INS>) do not present additional content they are not covered by this criterion.</div>
 
 ### operable
 
@@ -502,7 +502,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.1.2 No Keyboard Trap to non-web documents and software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or software” and “on the web page” with "in the non-web document or software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or non-web software” and “on the web page” with "in the non-web document or non-web software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -586,7 +586,7 @@ This success criterion helps ensure that users can complete tasks without unexpe
 
 ###### Applying SC 2.2.2 Pause, Stop, Hide to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” with “non-web document or software” and “on the web page” with “in the non-web document or non-web software”; removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion; and adjusting Note 2 to avoid the use of the normative term "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” with “non-web document or non-web software” and “on the web page” with “in the non-web document or non-web software”; removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion; and adjusting Note 2 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -691,7 +691,7 @@ In WCAG 2, the guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.4.1 Bypass Blocks to non-web documents and non-web software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “on multiple web pages” with “in multiple non-web documents in a set of non-web documents, or in multiple software programs in a set of software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “on multiple web pages” with “in multiple non-web documents in a set of non-web documents, or in multiple non-web software programs in a set of non-web software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
 
 With these substitutions, this success criterion would read:
 
