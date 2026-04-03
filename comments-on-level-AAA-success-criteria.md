@@ -11,6 +11,8 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [1.4.6 Contrast (Enhanced)](#contrast-enhanced)
 - [1.4.8 Visual Presentation](#visual-presentation)
 - [1.4.9 Images of Text (No Exception)](#images-of-text-no-exception)
+- [2.1.3 Keyboard (No Exception)](#keyboard-no-exception)
+- [2.2.3 No Timing](#no-timing)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
@@ -199,9 +201,7 @@ See also the Comments on Closed Functionality.
 ##### no-timing
 
 ###### Applying SC 2.2.3 No Timing to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/544" target="_blank">Issue 544</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.3](https://www.w3.org/WAI/WCAG22/Understanding/no-timing#intent).
 
 ##### interruptions
 
