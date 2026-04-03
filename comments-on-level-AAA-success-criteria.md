@@ -53,8 +53,8 @@ Some pre-programmed interactions (e.g., a game or VR) are considered “synchron
 </div>
 
 <div class="note wcag2ict software">
-See also the Comments on Closed Functionality.
-</div>
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
   
 ##### extended-audio-description-prerecorded
@@ -129,7 +129,8 @@ This applies directly as written, and as described in [Intent from Understanding
 <div class="note wcag2ict">
 This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope. 
 </div>
-<div class="note wcag2ict software">
+<div class="note wcag2ict">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### low-or-no-background-audio
@@ -147,7 +148,8 @@ Content is not required to use these values. The requirement is that a mechanism
 </div>
 <div class="note wcag2ict">Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and can conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.
 </div>
-<div class="note wcag2ict software">
+<div class="note wcag2ict">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### images-of-text-no-exception
@@ -156,7 +158,8 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.9](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html#intent).
 
-<div class="note wcag2ict software">
+<div class="note wcag2ict">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ### 2. Operable
