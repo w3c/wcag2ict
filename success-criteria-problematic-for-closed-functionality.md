@@ -95,4 +95,5 @@ Assumes operation via a keyboard interface which also allows for alternative inp
 A keypad that provides full access to functionality might be considered a keyboard.
 </div>
 </li>
+<li><a href="#re-authenticating">2.2.5 Re-authenticating (Level AAA)</a> — ICT with closed functionality may offer more limitations on how much data can be kept between sessions. This is particularly true of systems that are designed to be used in public environments.</li>
 </ul>
