@@ -36,14 +36,12 @@ From the  <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance 
 ##### sign-language-prerecorded
 
 ###### Applying SC 1.2.6 Sign Language (Prerecorded) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/532" target="_blank">Issue 532</a>.</div>
-
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.6](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded#intent).
 
 <div class="note wcag2ict">
-To date, meeting this success criteria has proven to be challenging, as it is  logistically impossible for all existing sign language interpreters to handle all content. Emerging technologies may, in the future, allow translation from text or speech to sign language directly. At that time, those who need sign language could use such a translator in the same way people who are blind use a screen reader. This would give people who need sign language a similar experience to that of screen reader users for all web content. As always, authors should not rely on such solutions until they are commonly available at a quality accepted by the signing community. In the meantime, providing sign language interpretation continues to be a need for native sign language users, especially in the context of any public service content.
+To date, meeting this success criteria has proven to be infeasible, as there are not enough human sign language interpreters available to handle a fraction of the volume of video content being produced. As compared to captioning and audio description, sign language interpretation is a very specialized skill. Emerging technologies may, in the future, allow translation from text or speech to sign language directly. At that time, those who need sign language could use such an automated translation tool in the same way people who are blind use a screen reader. This would give people who need to have audio content presented in sign language the same ability to access this content that
+people who are blind have access to by using their screen readers.
+As always, authors should not rely on such solutions until they are commonly available at a quality accepted by the signing community. In the meantime, providing sign language interpretation continues to be a need for native sign language users, especially in the context of any public service content.
 </div>
 
 <div class="note wcag2ict">
