@@ -157,8 +157,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.9](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html#intent).
 
 <div class="note wcag2ict software">
-See also the Comments on Closed Functionality.
-</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ### 2. Operable
 
@@ -195,8 +194,7 @@ This success criterion also does not imply that non-web software always needs to
 </div>
 
 <div class="note wcag2ict software">
-See also the Comments on Closed Functionality.
-</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 2.2 Enough Time
 
@@ -216,8 +214,7 @@ This applies directly as written, and as described in [Intent from Understanding
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.5](https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html#intent).
 
 <div class="note wcag2ict software">
-See also the Comments on Closed Functionality.
-</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### timeouts
 
