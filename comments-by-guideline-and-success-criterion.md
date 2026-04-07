@@ -405,7 +405,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### text-spacing
 
-###### Applying SC 1.4.12 Text Spacing to non-web documents and software
+###### Applying SC 1.4.12 Text Spacing to non-web documents and non-web software
 
 This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.12](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent). 
 
@@ -429,7 +429,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### content-on-hover-or-focus
 
-###### Applying SC 1.4.13 Content on Hover or Focus to non-web documents and software
+###### Applying SC 1.4.13 Content on Hover or Focus to non-web documents and non-web software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.13](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), replacing "user agent" with "user agent or other platform software", "browser tooltips" with "tooltips", "the HTML title attribute" with "user interface object attributes", "links" with "links or other UI controls that behave like a link", and "a page" with "the non-web document or non-web software".
 
@@ -459,13 +459,13 @@ This criterion applies to content that appears in addition to the triggering com
 
 ### operable
 
-#### Applying Principle 2 Operable to non-web documents and software
+#### Applying Principle 2 Operable to non-web documents and non-web software
 
 In WCAG 2, the principles are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Principle 2 applies directly as written.
 
 #### keyboard-accessible
 
-##### Applying Guideline 2.1 Keyboard Accessible to non-web documents and software
+##### Applying Guideline 2.1 Keyboard Accessible to non-web documents and non-web software
 
 In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 2.1 applies directly as written.
 
@@ -500,7 +500,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### no-keyboard-trap
 
-###### Applying SC 2.1.2 No Keyboard Trap to non-web documents and software
+###### Applying SC 2.1.2 No Keyboard Trap to non-web documents and non-web software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or non-web software” and “on the web page” with "in the non-web document or non-web software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
@@ -648,7 +648,7 @@ In WCAG 2, the guidelines are provided for framing and understanding the success
 
 ##### three-flashes-or-below-threshold
 
-###### Applying SC 2.3.1 Three Flashes or Below Threshold to non-web documents and software
+###### Applying SC 2.3.1 Three Flashes or Below Threshold to non-web documents and non-web software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or non-web software” , “page” with “non-web document or non-web software”, and “on the web page” with “in the non-web document or non-web software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
@@ -975,7 +975,7 @@ This requirement also applies to platform software, such as user agents, assisti
 
 ##### target-size-minimum
 
-###### Applying SC 2.5.8 Target Size (Minimum) to non-web documents and software:
+###### Applying SC 2.5.8 Target Size (Minimum) to non-web documents and non-web software:
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or other platform software" and "on the same page" with "in the same non-web document or non-web software".
 
@@ -1137,7 +1137,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### consistent-identification
 
-###### Applying SC 3.2.4 Consistent Identification to non-web documents and software
+###### Applying SC 3.2.4 Consistent Identification to non-web documents and non-web software
 
 This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents or a set of non-web software programs”.
 
@@ -1184,7 +1184,7 @@ With these substitutions, it would read:
 Help mechanisms may be provided directly <INS>[in the non-web document or non-web software]</INS>, or may be provided via a direct link to a <INS>[different non-web document, non-web software, or web page]</INS> containing the information.</div>
 <div class="note">
     
-For this success criterion, "the same order relative to other <INS>[content]</INS>" can be thought of as how the content is ordered when the <INS>[non-web document or non-web software content is serialized]</INS>. The visual position of a help mechanism is likely to be consistent across <INS>[non-web documents or software]</INS> for the same <INS>[content layout variation]</INS> (e.g., CSS break-point). The user can initiate a change, such as changing the <INS>[non-web document’s or non-web software's]</INS> zoom or orientation, which may trigger a different <INS>[content layout variation]</INS>. This criterion is concerned with relative order across <INS>[non-web documents or non-web software]</INS> displayed in the same <INS>[content layout variation]</INS> (e.g., same zoom level and orientation).</div>
+For this success criterion, "the same order relative to other <INS>[content]</INS>" can be thought of as how the content is ordered when the <INS>[non-web document or non-web software content is serialized]</INS>. The visual position of a help mechanism is likely to be consistent across <INS>[non-web documents or non-web software]</INS> for the same <INS>[content layout variation]</INS> (e.g., CSS break-point). The user can initiate a change, such as changing the <INS>[non-web document’s or non-web software's]</INS> zoom or orientation, which may trigger a different <INS>[content layout variation]</INS>. This criterion is concerned with relative order across <INS>[non-web documents or non-web software]</INS> displayed in the same <INS>[content layout variation]</INS> (e.g., same zoom level and orientation).</div>
 <div class="note wcag2ict">
     
 See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and non-web software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
@@ -1216,7 +1216,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ##### error-suggestion
 
-###### Applying SC 3.3.3 Error Suggestion to non-web documents and on-web software
+###### Applying SC 3.3.3 Error Suggestion to non-web documents and non-web software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.3](https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion#intent).
 
