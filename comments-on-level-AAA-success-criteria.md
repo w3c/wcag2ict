@@ -21,8 +21,8 @@ The rest of the Level AAA criteria, as noted with editor's notes in the sections
 The sections that follow contain guidance on applying the Level AAA success criteria from WCAG 2 to non-web documents and non-web software. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
 
 <div class="ednote">
-
-**_This is where we could add a note with the overarching caveats regarding Level AAA criteria and the application of these SC to non-web documents and non-web software. Here is the info in WCAG 2.2 regarding Level AAA conformance. We will need to have some proposals for what content would actually be included in here._**
+These two notes apply as written to non-web software and non-web documents.
+</div>
 
 From the <a href=https://www.w3.org/TR/WCAG22/#wcag-2-layers-of-guidance target="_blank">WCAG 2 Layers of Guidance</a> section of WCAG 2.2:
 
