@@ -121,7 +121,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### contrast-enhanced
 
-###### Applying SC 1.4.6 Contrast (Enhanced) to non-web documents and software
+###### Applying SC 1.4.6 Contrast (Enhanced) to non-web documents and non-web software
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.6](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced#intent). 
 
 <div class="note wcag2ict">
@@ -132,12 +132,12 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### low-or-no-background-audio
 
-###### Applying SC 1.4.7 Low or No Background Audio to non-web documents and software
+###### Applying SC 1.4.7 Low or No Background Audio to non-web documents and non-web software
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.7](https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html#intent).
 
 ##### visual-presentation
 
-###### Applying SC 1.4.8 Visual Presentation to non-web documents and software
+###### Applying SC 1.4.8 Visual Presentation to non-web documents and non-web software
 This applies directly as written, and as described in Intent from Understanding Success Criterion 1.4.8, replacing “browser or other user agent” with “user agent, platform software, or other non-web software” in Note 1.
 With these substitutions, the notes would read:
 <div class="note wcag2ict">
