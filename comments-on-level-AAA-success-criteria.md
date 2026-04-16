@@ -8,6 +8,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
 - [1.2.8 Media Alternative (Prerecorded)](#media-alternative-prerecorded)
 - [1.2.9 Audio-only (Live)](#audio-only-live)
+- [1.3.6 Identify Purpose](#identify-purpose)
 - [1.4.6 Contrast (Enhanced)](#contrast-enhanced)
 - [1.4.8 Visual Presentation](#visual-presentation)
 - [1.4.9 Images of Text (No Exception)](#images-of-text-no-exception)
