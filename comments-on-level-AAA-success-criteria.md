@@ -114,10 +114,21 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### identify-purpose
 
-###### Applying SC 1.3.6 Identify Purpose to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/538" target="_blank">Issue 538</a>.</div>
+###### Applying SC 1.3.6 Identify Purpose (Level AAA) to Non-Web Documents and Non-Web Software
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.6](https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html#intent).
+
+<div class="note wcag2ict">
+	
+This success criterion only applies to **[non-web documents](#document)** and **[non-web software](#software)** that are implemented using markup languages, and that support programmatically exposing the purpose of user interface components, icons and regions.</div>
+<div class="note wcag2ict software">
+
+"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in Electron applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
+<div class="note wcag2ict software">
+<div class="note wcag2ict software">
+The WCAG2ICT working group also notes that as a Level AAA provision which is essentially a recommendation, this need not be limited to markup languages. If being considered for a requirement then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.
+ </div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 1.4 Distinguishable
 
