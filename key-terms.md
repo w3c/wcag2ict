@@ -124,6 +124,7 @@ a [document](#document) that is not a web page, not embedded in web pages nor us
 <div class="note wcag2ict">
 For clarity, if a document that is viewable on the web is downloaded from the web and distributed off the web it becomes a non-web document. 
 </div>
+
 ### Platform software
 The term **platform software**, as used in WCAG2ICT, has the meaning below:
 <DL><DT>platform software</DT><DD>software that runs on an underlying software or hardware layer and that provides a set of software services to other software components</DD></DL>
