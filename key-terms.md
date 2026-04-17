@@ -105,7 +105,7 @@ The term **non-web document**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>non-web document (as used in WCAG2ICT)</DT><DD>
 
-a document that is not a web page, not embedded in web pages nor used in the rendering or functioning of the page
+a [document](#document) that is not a web page, not embedded in web pages nor used in the rendering or functioning of the page
 </DD></DL>
 
 <div class="note wcag2ict">
