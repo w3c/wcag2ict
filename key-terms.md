@@ -100,18 +100,6 @@ An assembly of files that represented the video, audio, captions, and timing fil
 
 Counterexample: A binder file used to bind together the various exhibits for a legal case would not be a document.</div>
 
-### Non-web document
-The term **non-web document**, as used in WCAG2ICT, has the meaning below:
-
-<DL><DT>non-web document (as used in WCAG2ICT)</DT><DD>
-
-a [document](#document) that is not a web page, not embedded in web pages nor used in the rendering or functioning of the page
-</DD></DL>
-
-<div class="note wcag2ict">
-For clarity, if a document that is viewable on the web is downloaded from the web and distributed off the web it becomes a non-web document. 
-</div>
-
 ### Menu-driven interface
 
 The term **menu-driven interface**, as used in WCAG2ICT, has the meaning below:
@@ -125,6 +113,17 @@ an interface composed of menus and sub-menus which the user accesses by pressing
 
 Products that have a menu-driven interface include, but are not limited to, self-service transaction machines, printers, and IP-based telephones.</div>
 
+### Non-web document
+The term **non-web document**, as used in WCAG2ICT, has the meaning below:
+
+<DL><DT>non-web document (as used in WCAG2ICT)</DT><DD>
+
+a [document](#document) that is not a web page, not embedded in web pages nor used in the rendering or functioning of the page
+</DD></DL>
+
+<div class="note wcag2ict">
+For clarity, if a document that is viewable on the web is downloaded from the web and distributed off the web it becomes a non-web document. 
+</div>
 ### Platform software
 The term **platform software**, as used in WCAG2ICT, has the meaning below:
 <DL><DT>platform software</DT><DD>software that runs on an underlying software or hardware layer and that provides a set of software services to other software components</DD></DL>
