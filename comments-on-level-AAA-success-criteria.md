@@ -16,6 +16,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.2.3 No Timing](#no-timing)
 - [2.2.4 Interruptions](#interruptions)
 - [2.2.5 Re-authenticating](#re-authenticating)
+- [2.2.6 Timeouts](#timeouts)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
@@ -237,9 +238,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### timeouts
 
 ###### Applying SC 2.2.6 Timeouts to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/547" target="_blank">Issue 547</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.6](https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html#intent).
 
 #### 2.3 Seizures and Physical Reactions
 
