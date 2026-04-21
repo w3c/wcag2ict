@@ -8,9 +8,15 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
 - [1.2.8 Media Alternative (Prerecorded)](#media-alternative-prerecorded)
 - [1.2.9 Audio-only (Live)](#audio-only-live)
+- [1.3.6 Identify Purpose](#identify-purpose)
 - [1.4.6 Contrast (Enhanced)](#contrast-enhanced)
 - [1.4.8 Visual Presentation](#visual-presentation)
 - [1.4.9 Images of Text (No Exception)](#images-of-text-no-exception)
+- [2.1.3 Keyboard (No Exception)](#keyboard-no-exception)
+- [2.2.3 No Timing](#no-timing)
+- [2.2.4 Interruptions](#interruptions)
+- [2.2.5 Re-authenticating](#re-authenticating)
+- [2.2.6 Timeouts](#timeouts)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
@@ -36,14 +42,12 @@ From the  <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance 
 ##### sign-language-prerecorded
 
 ###### Applying SC 1.2.6 Sign Language (Prerecorded) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/532" target="_blank">Issue 532</a>.</div>
-
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.6](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded#intent).
 
 <div class="note wcag2ict">
-To date, meeting this success criteria has proven to be challenging, as it is  logistically impossible for all existing sign language interpreters to handle all content. Emerging technologies may, in the future, allow translation from text or speech to sign language directly. At that time, those who need sign language could use such a translator in the same way people who are blind use a screen reader. This would give people who need sign language a similar experience to that of screen reader users for all web content. As always, authors should not rely on such solutions until they are commonly available at a quality accepted by the signing community. In the meantime, providing sign language interpretation continues to be a need for native sign language users, especially in the context of any public service content.
+To date, meeting this success criteria has proven to be infeasible, as there are not enough human sign language interpreters available to handle a fraction of the volume of video content being produced. As compared to captioning and audio description, sign language interpretation is a very specialized skill. Emerging technologies may, in the future, allow translation from text or speech to sign language directly. At that time, those who need sign language could use such an automated translation tool in the same way people who are blind use a screen reader. This would give people who need to have audio content presented in sign language the same ability to access this content that
+people who are blind have access to by using their screen readers.
+As always, authors should not rely on such solutions until they are commonly available at a quality accepted by the signing community. In the meantime, providing sign language interpretation continues to be a need for native sign language users, especially in the context of any public service content.
 </div>
 
 <div class="note wcag2ict">
@@ -51,8 +55,8 @@ Some pre-programmed interactions (e.g., a game or VR) are considered “synchron
 </div>
 
 <div class="note wcag2ict software">
-See also the Comments on Closed Functionality.
-</div>
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
   
 ##### extended-audio-description-prerecorded
@@ -113,31 +117,46 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### identify-purpose
 
 ###### Applying SC 1.3.6 Identify Purpose to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/538" target="_blank">Issue 538</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.6](https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html#intent).
+
+<div class="note wcag2ict">
+	
+This success criterion only applies to **[non-web documents](#document)** and **[non-web software](#software)** that are implemented using markup languages, and that support programmatically exposing the purpose of user interface components, icons and regions.</div>
+<div class="note wcag2ict software">
+
+"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in Electron applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
+<div class="note wcag2ict software">
+The WCAG2ICT working group also notes that as a Level AAA provision which is essentially a recommendation, this need not be limited to markup languages. If being considered for a requirement then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.
+</div>
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+
+</div>
 
 #### 1.4 Distinguishable
 
 ##### contrast-enhanced
 
-###### Applying SC 1.4.6 Contrast (Enhanced) to non-web documents and software
+###### Applying SC 1.4.6 Contrast (Enhanced) to non-web documents and non-web software
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.6](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced#intent). 
 
 <div class="note wcag2ict">
 This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope. 
 </div>
-<div class="note wcag2ict software">
+<div class="note wcag2ict">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### low-or-no-background-audio
 
-###### Applying SC 1.4.7 Low or No Background Audio to non-web documents and software
+###### Applying SC 1.4.7 Low or No Background Audio to non-web documents and non-web software
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.7](https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html#intent).
 
 ##### visual-presentation
 
-###### Applying SC 1.4.8 Visual Presentation to non-web documents and software
+###### Applying SC 1.4.8 Visual Presentation to non-web documents and non-web software
 This applies directly as written, and as described in Intent from Understanding Success Criterion 1.4.8, replacing “browser or other user agent” with “user agent, platform software, or other non-web software” in Note 1.
 With these substitutions, the notes would read:
 <div class="note wcag2ict">
@@ -145,7 +164,8 @@ Content is not required to use these values. The requirement is that a mechanism
 </div>
 <div class="note wcag2ict">Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and can conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.
 </div>
-<div class="note wcag2ict software">
+<div class="note wcag2ict">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### images-of-text-no-exception
@@ -154,9 +174,9 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.9](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html#intent).
 
-<div class="note wcag2ict software">
-See also the Comments on Closed Functionality.
-</div>
+<div class="note wcag2ict">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ### 2. Operable
 
@@ -164,40 +184,61 @@ See also the Comments on Closed Functionality.
 
 ##### keyboard-no-exception
 
-###### Applying SC 2.1.3 Keyboard (No Exception) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/543" target="_blank">Issue 543</a>.</div>
+###### Applying SC 2.1.3 Keyboard (No Exception) to non-web documents
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.3](https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html#intent).
+
+###### Applying SC 2.1.3 Keyboard (No Exception) to non-web software
+
+Where ICT is or includes non-web software that can be run on a software platform that provides a device-independent keyboard interface service, this applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.3](https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html#intent).
+
+<div class="note wcag2ict software">
+Keyboard interface does not refer to a physical device but to the service of platform software (e.g. operating system, browser, etc.) that provides the software with keystrokes from any keyboard or keyboard substitute. When the non-web software supports such a device-independent service of the platform software, and the non-web software functionality is made fully operable through the service, then this success criterion would be satisfied.
+</div>
+
+<div class="note wcag2ict software">
+A "device-independent keyboard interface service" refers to the platform service that provides keystrokes to any software running on the platform.
+</div>
+
+<div class="note wcag2ict software">
+Inclusion of an on-screen keyboard can be done as well but does not satisfy this requirement since it does not allow for the use of keyboard alternatives whereas support of input from the device-independent keyboard interface service does.
+</div>
+
+<div class="note wcag2ict software">
+This success criterion does not imply that non-web software always needs to directly support a keyboard or “keyboard interface” if one is not provided by the platform software. But if one is provided, the software needs to make all functionality available through it - unless the exception applies.
+</div>
+
+<div class="note wcag2ict software">
+This success criterion also does not imply that non-web software always needs to provide its own virtual keyboard. But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.
+</div>
+
+<div class="note wcag2ict software">
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 2.2 Enough Time
 
 ##### no-timing
 
 ###### Applying SC 2.2.3 No Timing to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/544" target="_blank">Issue 544</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.3](https://www.w3.org/WAI/WCAG22/Understanding/no-timing#intent).
 
 ##### interruptions
 
 ###### Applying SC 2.2.4 Interruptions to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/545" target="_blank">Issue 545</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.4](https://www.w3.org/WAI/WCAG22/Understanding/interruptions.html#intent).
 
 ##### re-authenticating
 
 ###### Applying 2.2.5 Re-authenticating to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/546" target="_blank">Issue 546</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.5](https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html#intent).
+
+<div class="note wcag2ict software">
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### timeouts
 
 ###### Applying SC 2.2.6 Timeouts to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/547" target="_blank">Issue 547</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.6](https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html#intent).
 
 #### 2.3 Seizures and Physical Reactions
 
