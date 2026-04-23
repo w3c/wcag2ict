@@ -33,10 +33,13 @@ The WCAG2ICT Task Force found that the majority of WCAG 2 success criteria can b
 #### Interpretation of web terminology in a non-web context
 
 When certain web-specific terms or phrases like “web page(s)” were used in success criteria, those were replaced with non-web terms or phrases like “non-web document(s) and non-web software”.  Additional notes were also provided to explain the terminology replacements.
+<div class="note">
+
+WCAG2ICT’s guidance for [documents](#document) is technically scoped to [non-web documents](#non-web-document) (i.e., those distributed outside of websites).</div>
 
 A small number of success criteria are written to apply to “a set of web pages” or “multiple web pages” and depend upon all pages in the set to share some characteristic or behavior.  Since the unit of conformance in WCAG 2 is a single web page, the Working Group determined that the equivalent unit of conformance for non-web documents is a single document.  It follows that an equivalent unit of evaluation for a “set of web pages” would be a “[set of documents](#set-of-documents)”.  Since it is not possible to unambiguously carve up non-web software into discrete pieces, a single “web page” was equated to a “software program” and a “set of web pages” was equated to a “[set of software programs](#set-of-software-programs)”.  Both of these terms are defined in the [Key Terms](#key-terms) section of this document.
 <div class="note">
-  
+
 Sets of non-web software that meet this definition appear to be extremely rare.</div>
 
 Not all success criteria have been fully adopted in all local regulations and legislation, and may not be applicable to all technologies.  WCAG2ICT has been used in some regulations to determine whether or not to apply certain success criteria.  Some standards (for example, Section 508 in the U.S., and EN 301 549 in Europe) do not apply WCAG 2 Success Criteria 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification to non-web documents and non-web software.  In addition, EN 301 549 does not apply 2.4.2 Page Titled and 3.1.2 Language of Parts to non-web software.  In contrast, the U.S. Department of Justice [Guidance to Revisions to ADA Title II Regulation on Accessibility of Web Information and Services of State and Local Government Entities, Appendix D to Part 35, Title 28](https://www.ecfr.gov/current/title-28/chapter-I/part-35/appendix-Appendix%20D%20to%20Part%2035), directs implementers to utilize the guidance in WCAG2ICT to determine the applicability of success criteria and how to apply the requirements to mobile applications.  Since WCAG2ICT does not specifically say which criteria can or should apply, those implementing WCAG2ICT should consider the applicability of individual success criteria to non-web documents and non-web software.
@@ -116,11 +119,11 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
 * Obsolete and removed WCAG 2.2 success criteria (and for which errata exist for WCAG 2.0 and 2.1):
   - [Success Criterion 4.1.1 Parsing](#parsing22)
 * New terms from WCAG 2.1 and 2.2:
-  - added to [Glossary Items that Apply to All Technologies](#glossary-items-that-apply-to-all-technologies): 
+  - added to [Glossary items that apply to all technologies](#glossary-items-that-apply-to-all-technologies): 
     * dragging movements, focus indicator, minimum bounding box, pointer input, process, single pointer, state, and status message
-  - added to [Glossary Items Used only in AAA Success Criteria](#glossary-items-used-only-in-aaa-success-criteria):
+  - added to [Glossary items used only in Level AAA Success criteria](#glossary-items-used-only-in-level-aaa-success-criteria):
     * motion animation, perimeter, region, and user inactivity
-  - added to [Glossary Items with Specific Guidance](#glossary-items-with-specific-guidance): 
+  - added to [Glossary items with specific guidance](#glossary-items-with-specific-guidance): 
     * [cognitive function test](#dfn-cognitive-function-test)
     * [css pixel](#dfn-css-pixels)
     * [down event](#dfn-down-event)

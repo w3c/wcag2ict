@@ -122,7 +122,7 @@ a [document](#document) that is not a web page, not embedded in web pages nor us
 </DD></DL>
 
 <div class="note wcag2ict">
-For clarity, if a document that is viewable on the web is downloaded from the web and distributed off the web it becomes a non-web document. 
+For clarity, if a document that is viewable on the web is downloaded from the web and distributed off the web, it becomes a non-web document. 
 </div>
 
 ### Platform software
