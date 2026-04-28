@@ -17,6 +17,8 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.2.4 Interruptions](#interruptions)
 - [2.2.5 Re-authenticating](#re-authenticating)
 - [2.2.6 Timeouts](#timeouts)
+- [2.3.2 Three Flashes](#three-flashes)
+- [2.3.3 Animation from Interactions](#animation-from-interactions)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
@@ -244,17 +246,25 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ##### three-flashes
 
-###### Applying SC 2.3.2 Three Flashes to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/548" target="_blank">Issue 548</a>.</div>
+###### Applying SC 2.3.2 Three Flashes to non-web documents 
 
-##### Animation from Interactions
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.2](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html#intent), replacing “Web pages do not” with “non-web document does not".
+
+With these substitutions, it would read:
+<INS>[**Non-web document does not**]</INS> contain anything that [flashes](https://www.w3.org/TR/WCAG22/#dfn-flashes) more than three times in any one second period.
+
+###### Applying SC 2.3.2 Three Flashes to non-web software
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.2](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html#intent), replacing “Web pages do not” with "non-web software does not”.
+
+With these substitutions, it would read:
+<INS>[**Non-web software does not**]</INS> contain anything that [flashes](https://www.w3.org/TR/WCAG22/#dfn-flashes) more than three times in any one second period.
+
+
+##### animation-from-interactions
 
 ###### Applying SC 2.3.3 Animation from Interactions to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/549" target="_blank">Issue 549</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.3](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html#intent).
+
 
 #### 2.4 Navigable
 
