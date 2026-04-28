@@ -247,6 +247,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### three-flashes
 
 ###### Applying SC 2.3.2 Three Flashes to non-web documents 
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.2](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html#intent), replacing “Web pages do not” with “non-web document does not".
 
 With these substitutions, it would read:
