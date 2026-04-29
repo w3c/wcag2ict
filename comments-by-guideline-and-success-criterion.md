@@ -328,7 +328,7 @@ Examples of content which requires two-dimensional layout are images required fo
 
 <div class="note wcag2ict">
 
-In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-software).</div>
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
 
 <div class="note wcag2ict documents">
 
@@ -979,7 +979,7 @@ Targets that allow for values to be selected spatially based on position within 
 For inline targets the line-height should be interpreted as perpendicular to the flow of text. For example, in a language displayed vertically, the line-height would be horizontal.</div>
 <div class="note wcag2ict">
 
-In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-software).</div>
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
 
 <div class="note wcag2ict documents">
 
