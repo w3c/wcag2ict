@@ -21,6 +21,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.3.2 Three Flashes](#three-flashes)
 - [2.3.3 Animation from Interactions](#animation-from-interactions)
 - [2.4.8 Location](#location)
+- [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
@@ -289,7 +290,7 @@ See [set of documents](https://www.w3.org/TR/wcag2ict-22/#set-of-documents) and 
 The accessibility barrier this SC addresses for websites is extremely unlikely in the context of non-web documents and non-web software.
 </div>
 
-<div class="note wcag2ictsoftware">
+<div class="note wcag2ict software">
 
 Sets of software that meet this definition appear to be extremely rare.
 </div>
@@ -302,9 +303,17 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### link-purpose-link-only
 
 ###### Applying SC 2.4.9 Link Purpose (Link Only) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/551" target="_blank">Issue 551</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.9](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only.html#intent).
+
+<div class="note wcag2ict">
+
+In non-web documents or non-web software, a “link” is any user interface control that behaves like a hypertext link.
+</div>
+
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### section-headings
 
