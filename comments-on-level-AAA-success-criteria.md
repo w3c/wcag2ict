@@ -20,6 +20,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.2.6 Timeouts](#timeouts)
 - [2.3.2 Three Flashes](#three-flashes)
 - [2.3.3 Animation from Interactions](#animation-from-interactions)
+- [2.4.8 Location](#location)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
@@ -272,9 +273,31 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### location
 
 ###### Applying SC 2.4.8 Location to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/550" target="_blank">Issue 550</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.8](https://www.w3.org/WAI/WCAG22/Understanding/location.html#intent), replacing “set of Web pages” with “set of non-web documents or set of non-web software programs".
+
+With these substitutions, it would read:
+
+**2.4.8 Location:** Information about the user's location within a <INS>[**[set of non-web documents](#set-of-documents)** or a **[set of non-web software programs](https://www.w3.org/TR/WCAG22/#dfn-set-of-software-programs)**]</INS> is available.
+
+<div class="note wcag2ict">
+
+See [set of documents](https://www.w3.org/TR/wcag2ict-22/#set-of-documents) and [set of software programs](https://www.w3.org/TR/wcag2ict-22/#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and non-web software. See the [Interpretation of Web Terminology in a Non-web Context](https://www.w3.org/TR/wcag2ict-22/#interpretation-of-web-terminology-in-a-non-web-context).
+</div>
+
+<div class="note wcag2ict">
+
+The accessibility barrier this SC addresses for websites is extremely unlikely in the context of non-web documents and non-web software.
+</div>
+
+<div class="note wcag2ictsoftware">
+
+Sets of software that meet this definition appear to be extremely rare.
+</div>
+
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### link-purpose-link-only
 
