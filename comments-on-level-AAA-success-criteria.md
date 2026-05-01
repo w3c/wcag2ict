@@ -10,6 +10,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [1.2.9 Audio-only (Live)](#audio-only-live)
 - [1.3.6 Identify Purpose](#identify-purpose)
 - [1.4.6 Contrast (Enhanced)](#contrast-enhanced)
+- [1.4.7 Low or No Background Audio](#low-or-no-background-audio)
 - [1.4.8 Visual Presentation](#visual-presentation)
 - [1.4.9 Images of Text (No Exception)](#images-of-text-no-exception)
 - [2.1.3 Keyboard (No Exception)](#keyboard-no-exception)
