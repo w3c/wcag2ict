@@ -22,6 +22,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.3.3 Animation from Interactions](#animation-from-interactions)
 - [2.4.8 Location](#location)
 - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
+- [2.4.10 Section Headings](#section-headings)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
@@ -318,9 +319,17 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### section-headings
 
 ###### Applying SC 2.4.10 Section Headings to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/552" target="_blank">Issue 552</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.10](https://www.w3.org/WAI/WCAG22/Understanding/section-headings.html).
+
+<div class="note wcag2ict software">
+
+In non-web software, headings and labels are used to describe sections of content and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.
+</div>
+
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### focus-not-obscured-enhanced
 
