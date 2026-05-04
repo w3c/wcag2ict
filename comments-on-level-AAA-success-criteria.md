@@ -282,7 +282,7 @@ With these substitutions, it would read:
 
 <div class="note wcag2ict">
 
-See [set of documents](https://www.w3.org/TR/wcag2ict-22/#set-of-documents) and [set of software programs](https://www.w3.org/TR/wcag2ict-22/#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. (Sets of software that meet this definition appear to be extremely rare.) Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and non-web software. See the [Interpretation of Web Terminology in a Non-web Context](https://www.w3.org/TR/wcag2ict-22/#interpretation-of-web-terminology-in-a-non-web-context).
+See [set of documents](https://www.w3.org/TR/wcag2ict-22/#set-of-documents) and [set of software programs](https://www.w3.org/TR/wcag2ict-22/#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and non-web software. See the [Interpretation of Web Terminology in a Non-web Context](https://www.w3.org/TR/wcag2ict-22/#interpretation-of-web-terminology-in-a-non-web-context).
 </div>
 
 <div class="note wcag2ict">
