@@ -96,4 +96,6 @@ A keypad that provides full access to functionality might be considered a keyboa
 </div>
 </li>
 <li><a href="#re-authenticating">2.2.5 Re-authenticating (Level AAA)</a> — ICT with closed functionality may offer more limitations on how much data can be kept between sessions. This is particularly true of systems that are designed to be used in public environments.</li>
+<li><a href="#location">2.4.8 Location (Level AAA)</a> — The WCAG2ICT interpretation of this success criterion replaces "sets of Web pages" with "sets of software programs" which are extremely rare - especially for non-web software on ICT with closed functionality. However, allowing the user to know their location in a complex non-web document or non-web software is generally considered best practice.</li>
+<li><a href="#link-purpose-in-context">2.4.9 Link Purpose (Link Only)</a> — This success criterion relies upon text and context being made available in a programmatically determinable form.</li>
 </ul>
