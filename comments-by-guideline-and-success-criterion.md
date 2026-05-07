@@ -1078,7 +1078,7 @@ With this substitution, it would read:
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.1](https://www.w3.org/WAI/WCAG22/Understanding/on-focus#intent).
 
-<div class="note wcag2ict">
+<div class="note wcag2ict documents">
     
 Some compound documents and their user agents are designed to provide significantly different viewing and editing functionality depending upon what portion of the compound document is being interacted with (e.g. a presentation that contains an embedded spreadsheet, where the menus and toolbars of the user agent change depending upon whether the user is interacting with the presentation content, or the embedded spreadsheet content). If the user uses a mechanism other than putting focus on that portion of the compound document with which they mean to interact (e.g. by a menu choice or special keyboard gesture), any resulting [change of context](#dfn-change-of-context) wouldn't be subject to this success criterion because it was not caused by a change of focus.</div>
 
