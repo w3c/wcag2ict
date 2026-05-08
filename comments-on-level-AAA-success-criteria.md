@@ -335,9 +335,17 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### focus-not-obscured-enhanced
 
 ###### Applying 2.4.12 Focus Not Obscured (Enhanced) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/553" target="_blank">Issue 553</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.12](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html#intent).
+
+<div class="note wcag2ict software">
+
+This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.
+</div>
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### focus-appearance
 
