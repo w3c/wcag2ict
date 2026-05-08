@@ -23,6 +23,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.8 Location](#location)
 - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
 - [2.4.10 Section Headings](#section-headings)
+- [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
