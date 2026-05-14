@@ -24,6 +24,8 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
 - [2.4.10 Section Headings](#section-headings)
 - [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
+- [3.3.6 Error Prevention (All)](#error-prevention)
+- [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
@@ -422,7 +424,6 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### error-prevention
 
-###### Applying SC 3.3.5 Help to non-web documents and non-web software
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
 <div class="ednote">
   
