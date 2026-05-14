@@ -23,6 +23,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.8 Location](#location)
 - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
 - [2.4.10 Section Headings](#section-headings)
+- [3.2.5 Change on Request](#change-on-request)
 - [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
@@ -30,7 +31,6 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
 The sections that follow contain guidance on applying the Level AAA success criteria from WCAG 2 to non-web documents and non-web software. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
-
 <div class="ednote">
 These two notes apply as written to non-web software and non-web documents.
 </div>
@@ -51,6 +51,7 @@ From the  <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance 
 ##### sign-language-prerecorded
 
 ###### Applying SC 1.2.6 Sign Language (Prerecorded) to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.6](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded#intent).
 
 <div class="note wcag2ict">
@@ -67,7 +68,6 @@ Some pre-programmed interactions (e.g., a game or VR) are considered “synchron
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
-  
 ##### extended-audio-description-prerecorded
 
 ###### Applying SC 1.2.7 Extended Audio Description (Prerecorded) to non-web documents and non-web software
@@ -100,13 +100,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.2.9 Audio-Only (Live) to non-web documents and non-web software
 
-
 Where a non-web document technology supports incorporation of live audio-only content, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.9](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live#intent).
 <div class="note wcag2ict documents">
 
 This success criterion is problematic to apply directly to non-web documents (including audio files) that are then played by live audio players (such as  internet radio players). These live audio players may not currently support displaying captions and it may pose a risk if used in vehicles so may not be suitable in all cases.
 </div>
-
 
 ###### Applying SC 1.2.9 Audio-Only (Live) to non-web software
 
@@ -266,12 +264,10 @@ This applies directly as written, and as described in [Intent from Understanding
 With these substitutions, it would read:
 <INS>[**Non-web software does not**]</INS> contain anything that [flashes](https://www.w3.org/TR/WCAG22/#dfn-flashes) more than three times in any one second period.
 
-
 ##### animation-from-interactions
 
 ###### Applying SC 2.3.3 Animation from Interactions to non-web documents and non-web software
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.3](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html#intent).
-
 
 #### 2.4 Navigable
 
@@ -307,6 +303,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### link-purpose-link-only
 
 ###### Applying SC 2.4.9 Link Purpose (Link Only) to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.9](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only.html#intent).
 
 <div class="note wcag2ict">
@@ -322,6 +319,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### section-headings
 
 ###### Applying SC 2.4.10 Section Headings to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.10](https://www.w3.org/WAI/WCAG22/Understanding/section-headings.html).
 
 <div class="note wcag2ict software">
@@ -409,9 +407,8 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 ##### change-on-request
 
 ###### Applying SC 3.2.5 Change on Request to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/562" target="_blank">Issue 562</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.5](https://www.w3.org/WAI/WCAG22/Understanding/change-on-request#intent).
 
 #### 3.3 Input Assistance
 
@@ -423,6 +420,8 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/563" target="_blank">Issue 563</a>.</div>
 
 ##### error-prevention
+
+###### Applying SC 3.3.5 Help to non-web documents and non-web software
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
 
