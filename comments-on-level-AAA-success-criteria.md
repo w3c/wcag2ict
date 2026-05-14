@@ -425,9 +425,24 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 ##### error-prevention
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/564" target="_blank">Issue 564</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages that require” with “**Non-web documents and non-web software that require**”.
+With these substitutions, it would read:
+
+For <ins>[non-web documents](#non-web-documents) and [non-web software](#non-web-software)</ins> <del>[Web pages](https://www.w3.org/TR/WCAG22/#dfn-web-page-s)</del> that require the user to submit information, at least one of the following is true:
+<dl>
+<dt>Reversible</dt>
+<dd>Submissions are reversible.</dd>
+<dt>Checked</dt>
+<dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>
+<dt>Confirmed</dt>
+<dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
+</dl>
+
+<div class="note wcag2ict software">
+Software that requires the user to entering a password or a personal identification number (PIN) can still meet this success criterion. The individual characters of the password or PIN are masked on entry, which may appear to be problematic, as less feedback is given to the user. However, the masking of characters or digits in a password occurs regardless of output; meaning that sighted people have the same experience as screen reader users. In both cases the user still has sufficient feedback to know that they have entered a character, even if they cannot know whether the entire password or PIN was correct until it is complete and submitted. As a result they still have the opportunity to review and correct information (by deleting and re-entering characters). 
+</div>
+
 
 ##### accessible-authentication-enhanced
 
