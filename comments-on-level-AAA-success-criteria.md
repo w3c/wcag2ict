@@ -24,6 +24,9 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
 - [2.4.10 Section Headings](#section-headings)
 - [3.2.5 Change on Request](#change-on-request)
+- [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
+- [3.3.6 Error Prevention (All)](#error-prevention)
+- [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
@@ -332,9 +335,17 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### focus-not-obscured-enhanced
 
 ###### Applying 2.4.12 Focus Not Obscured (Enhanced) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/553" target="_blank">Issue 553</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.12](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html#intent).
+
+<div class="note wcag2ict software">
+
+This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.
+</div>
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### focus-appearance
 
@@ -413,13 +424,43 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 ###### Applying SC 3.3.5 Help to non-web documents and non-web software
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/564" target="_blank">Issue 564</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages that require” with “**Non-web documents and non-web software that require**”.
+With these substitutions, it would read:
+
+For <ins>[non-web documents](#non-web-documents) and [non-web software](#non-web-software)</ins> <del>[Web pages](https://www.w3.org/TR/WCAG22/#dfn-web-page-s)</del> that require the user to submit information, at least one of the following is true:
+<dl>
+<dt>Reversible</dt>
+<dd>Submissions are reversible.</dd>
+<dt>Checked</dt>
+<dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>
+<dt>Confirmed</dt>
+<dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
+</dl>
+
+<div class="note wcag2ict software">
+Software that requires the user to entering a password or a personal identification number (PIN) can still meet this success criterion. The individual characters of the password or PIN are masked on entry, which may appear to be problematic, as less feedback is given to the user. However, the masking of characters or digits in a password occurs regardless of output; meaning that sighted people have the same experience as screen reader users. In both cases the user still has sufficient feedback to know that they have entered a character, even if they cannot know whether the entire password or PIN was correct until it is complete and submitted. As a result they still have the opportunity to review and correct information (by deleting and re-entering characters). 
+</div>
+
 
 ##### accessible-authentication-enhanced
 
 ###### Applying SC 3.3.9 Accessible Authentication (Enhanced) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/565" target="_blank">Issue 565</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.9](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html#intent).
+
+<div class="note wcag2ict">
+Examples of mechanisms that satisfy this criterion include:
+support for password entry by password managers to reduce memory need, and copy and paste to reduce the cognitive burden of re-typing.</div>
+
+<div class="note wcag2ict"> 
+
+Any passwords used to unlock underlying platform software (running below the non-web software) are out of scope for this requirement since these are not under control of the non-web software’s author.</div>
+
+<div class="note wcag2ict>
+
+There are cases where non-web software has an authentication process and no alternative or assistance mechanism is feasible, for example when entering a password when starting, powering on / turning on an ICT (device or otherwise). In such situations, it may not be possible for the non-web software to satisfy this success criterion. </div>
+
+<div class="note wcag2ict>
+
+See also the Comments on Closed Functionality.</div>
