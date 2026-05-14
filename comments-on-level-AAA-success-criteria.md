@@ -447,7 +447,21 @@ Software that requires the user to entering a password or a personal identificat
 ##### accessible-authentication-enhanced
 
 ###### Applying SC 3.3.9 Accessible Authentication (Enhanced) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/565" target="_blank">Issue 565</a>.</div>
-  
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.9](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html#intent).
+
+<div class="note wcag2ict">
+Examples of mechanisms that satisfy this criterion include:
+support for password entry by password managers to reduce memory need, and copy and paste to reduce the cognitive burden of re-typing.</div>
+
+<div class="note wcag2ict"> 
+
+Any passwords used to unlock underlying platform software (running below the non-web software) are out of scope for this requirement since these are not under control of the non-web software’s author.</div>
+
+<div class="note wcag2ict>
+
+There are cases where non-web software has an authentication process and no alternative or assistance mechanism is feasible, for example when entering a password when starting, powering on / turning on an ICT (device or otherwise). In such situations, it may not be possible for the non-web software to satisfy this success criterion. </div>
+
+<div class="note wcag2ict>
+
+See also the Comments on Closed Functionality.</div>
