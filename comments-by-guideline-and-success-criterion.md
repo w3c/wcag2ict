@@ -667,11 +667,11 @@ In WCAG 2, the guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.4.1 Bypass Blocks to non-web documents and non-web software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “on multiple web pages” with “in multiple non-web documents in a set of non-web documents, or in multiple non-web software programs in a set of non-web software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “on multiple web pages” with “in multiple non-web documents in a set of non-web documents", or "in multiple non-web software programs in a set of non-web software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
 
 With these substitutions, this success criterion would read:
 
-**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated <INS>[in multiple **[non-web documents](#document)** in a **[set of non-web documents](#set-of-documents)**, or in multiple **[non-web software programs](#software)** in a **[set of non-web software programs](#set-of-software-programs)**]</INS>.
+**2.4.1 Bypass Blocks:** A [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) is available to bypass blocks of content that are repeated <INS>[in multiple **[non-web documents](#document)** in a **[set of non-web documents](#set-of-documents)**]</INS>, or <INS>[in multiple **[non-web software programs](#software)** in a **[set of non-web software programs](#set-of-software-programs)**]</INS>.
 
 <div class="note wcag2ict">
     
