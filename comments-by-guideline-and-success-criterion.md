@@ -626,7 +626,7 @@ In WCAG 2, the guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.3.1 Three Flashes or Below Threshold to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or non-web software” , “page” with “non-web document or non-web software”, and “on the web page” with “in the non-web document or non-web software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.1](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold#intent), replacing “web pages” with “non-web documents or non-web software” , “page” with “non-web document" or "non-web software”, and “on the web page” with “in the non-web document" or "in the non-web software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -634,7 +634,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[**[non-web document](#document)** or **[non-web software](#software)**]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document or non-web software]</INS> (whether it is used to meet other success criteria or not) <INS>[to]</INS> meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[**[non-web document](#document)** or **[non-web software](#software)**]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document]</INS> or <INS>[in the non-web software]</INS> (whether it is used to meet other success criteria or not) <INS>[to]</INS> meet this success criterion.</div>
 <div class="note wcag2ict software">
 	
 This requirement applies to flashing of content on a screen and flashing of any other type caused by the ICT.</div>
