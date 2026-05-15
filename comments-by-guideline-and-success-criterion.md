@@ -713,7 +713,7 @@ This success criterion is problematic to apply directly to non-web software thro
 
 ###### Applying SC 2.4.3 Focus Order to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.3](https://www.w3.org/WAI/WCAG22/Understanding/focus-order#intent) replacing “a web page” with “non-web documents or non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.3](https://www.w3.org/WAI/WCAG22/Understanding/focus-order#intent) replacing “a web page” with “non-web documents" or "non-web software”.
 
 With this substitution, it would read:
 
