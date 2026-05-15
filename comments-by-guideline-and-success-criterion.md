@@ -1005,11 +1005,11 @@ In WCAG 2, the guidelines are provided for framing and understanding the success
 
 ###### Applying SC 3.1.1 Language of Page to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent) replacing “each web page” with “non-web documents or non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent) replacing “each web page” with “non-web documents" or "non-web software”.
 
 With this substitution, it would read:
 
-**3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>[**[non-web documents](#document)** or **[non-web software](#software)**]</INS> can be [programmatically determined](#dfn-programmatically-determinable).
+**3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>[**[non-web documents](#document)**]</INS> or <INS>[**[non-web software](#software)**]</INS> can be [programmatically determined](#dfn-programmatically-determinable).
 
 <div class="note wcag2ict software">
     
