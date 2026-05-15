@@ -1066,11 +1066,11 @@ See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-
 
 ##### Applying Guideline 3.2 Predictable to non-web documents and non-web software
 
-In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or non-web software”.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents" or "non-web software”.
 
 With this substitution, it would read:
 
-**Guideline 3.2 Predictable:** Make <INS>[**[non-web documents](#document)** or **[non-web software](#software)**]</INS> appear and operate in predictable ways.
+**Guideline 3.2 Predictable:** Make <INS>[**[non-web documents](#document)**]</INS> or <INS>[**[non-web software](#software)**]</INS> appear and operate in predictable ways.
 
 ##### on-focus
 
