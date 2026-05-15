@@ -1239,7 +1239,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.8 Accessible Authentication (Minimum) to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), replacing “the website” with “a website, non-web document, or non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), replacing “the website” with “non-web document" or "non-web software”.
 
 With this substitution, it would read:
 
@@ -1253,7 +1253,7 @@ With this substitution, it would read:
 <dt>Object Recognition</dt>
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
-<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>[a website, <strong><a href="#document">non-web document</a></strong>, or <strong><a href="#software">non-web software</a></strong>]</INS>.</dd>
+<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to a <INS>[<strong><a href="#document">non-web document</a></strong>]</INS> or <INS>[<strong><a href="#software">non-web software</a></strong>]</INS>.</dd>
 </dl>
 <div class="note">
 
