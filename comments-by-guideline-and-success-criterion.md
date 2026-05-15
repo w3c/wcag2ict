@@ -562,7 +562,7 @@ This success criterion helps ensure that users can complete tasks without unexpe
 
 ###### Applying SC 2.2.2 Pause, Stop, Hide to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” with “non-web document or non-web software” and “on the web page” with “in the non-web document or non-web software”; removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion; and adjusting Note 2 to avoid the use of the normative term "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” with “non-web document" or "non-web software” and “on the web page” with “in the non-web document" or "in the non-web software”; removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion; and adjusting Note 2 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -581,7 +581,7 @@ With these substitutions, it would read:
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[**[non-web document](#document)** or **[non-web software](#software)**]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document or non-web software]</INS> (whether it is used to meet other success criteria or not) <INS>[to]</INS> meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[**[non-web document](#document)** or **[non-web software](#software)**]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document]</INS> or <INS>[in the non-web software]</INS> (whether it is used to meet other success criteria or not) <INS>[to]</INS> meet this success criterion.</div>
 <div class="note">
     
 Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
