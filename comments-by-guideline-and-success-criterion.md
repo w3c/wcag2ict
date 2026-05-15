@@ -1144,7 +1144,7 @@ See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-
 
 ###### Applying SC 3.2.6 Consistent Help to non-web documents and non-web software
 
-This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "web page(s)" and "page(s)" with "non-web document(s) or non-web software program(s)", "set of web pages" with "set of non-web documents or set of non-web software programs", "page content" with "content", "on the page" with "in the non-web document or non-web software", "page is serialized" with "non-web document or non-web software content is serialized", "different page" with "different non-web document, non-web software, or web page", and "page variation" with "content layout variation".
+This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "web page(s)" and "page(s)" with "non-web document(s) or non-web software program(s)", "set of web pages" with "set of non-web documents or set of non-web software programs", "page content" with "content", "on the page" with "in the non-web document or non-web software", "page is serialized" with "non-web document or non-web software content is serialized", "different page" with "different non-web document, non-web software", and "page variation" with "content layout variation".
 
 With these substitutions, it would read:
 
@@ -1239,7 +1239,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.8 Accessible Authentication (Minimum) to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), replacing “the website” with “a website, non-web document, or non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), replacing “the website” with “a non-web document or non-web software”.
 
 With this substitution, it would read:
 
@@ -1253,7 +1253,8 @@ With this substitution, it would read:
 <dt>Object Recognition</dt>
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
-<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>[a website, <strong><a href="#document">non-web document</a></strong>, or <strong><a href="#software">non-web software</a></strong>]</INS>.</dd>
+<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>[a
+<strong><a href="#document">non-web document</a></strong>, or <strong><a href="#software">non-web software</a></strong>]</INS>.</dd>
 </dl>
 <div class="note">
 
