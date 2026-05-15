@@ -216,7 +216,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### audio-control
 
 ###### Applying SC 1.4.2 Audio Control to non-web documents and non-web software
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a web page” with “in the non-web document or non-web software”, “whole page” with “whole non-web document or non-web software”, and “on the web page” with “in the non-web document or non-web software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.2](https://www.w3.org/WAI/WCAG22/Understanding/audio-control#intent), replacing “on a web page” with “in the non-web document" or "in the non-web software”, “whole page” with “whole non-web document" or "whole non-web software”, and “on the web page” with “in the non-web document" or "in the non-web software”; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -224,7 +224,7 @@ With these substitutions, it would read:
 
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the <INS>[whole non-web document or non-web software]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document or non-web software]</INS> (whether or not it is used to meet other success criteria) <INS>[to]</INS> meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the <INS>[whole non-web document]</INS> or <INS>[whole non-web software]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document]</INS> or <INS>[in the non-web software]</INS> (whether or not it is used to meet other success criteria) <INS>[to]</INS> meet this success criterion.</div>
 
 <div class="note wcag2ict software">
     
