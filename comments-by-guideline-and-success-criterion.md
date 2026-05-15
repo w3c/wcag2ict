@@ -737,11 +737,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.5 Multiple Ways to non-web documents and non-web software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents, or a set of non-web software programs within a set of non-web software programs” and "the web page" with "the non-web document or non-web software program".
+This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents", or "a set of non-web software programs within a set of non-web software programs” and "the web page" with "the non-web document" or "the non-web software program".
 
 With these substitutions, this success criterion would read:
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>[**[non-web document](#document)** within a **[set of non-web documents](#set-of-documents)**, or a **[non-web software program](#software)** within a **[set of non-web software programs](#set-of-software-programs)**]</INS> except where <INS>[the non-web document or non-web software program]</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>[**[non-web document](#document)** within a **[set of non-web documents](#set-of-documents)**]</INS>, or a <INS>[**[non-web software program](#software)** within a **[set of non-web software programs](#set-of-software-programs)**]</INS> except where <INS>[the non-web document]</INS> or <INS>[the non-web software program]</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
 
 <div class="note wcag2ict">
     
