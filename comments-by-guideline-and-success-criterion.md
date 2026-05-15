@@ -953,7 +953,7 @@ This requirement also applies to platform software, such as user agents, assisti
 
 ###### Applying SC 2.5.8 Target Size (Minimum) to non-web documents and non-web software:
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or other platform software" and "on the same page" with "in the same non-web document or non-web software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.8](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#intent), replacing "user agent" with "user agent or other platform software" and "on the same page" with "in the same non-web document" or "in the same non-web software".
 
 With these substitutions, it would read:
 
@@ -963,7 +963,7 @@ With these substitutions, it would read:
 <dt>Spacing</dt>
 <dd>Undersized targets (those less than 24 by 24 CSS pixels) are positioned so that if a 24 CSS pixel diameter circle is centered on the <a href="https://www.w3.org/TR/WCAG22/#dfn-bounding-boxes">bounding box</a> of each, the circles do not intersect another target or the circle for another undersized target;</dd>
 <dt>Equivalent</dt>
-<dd>The function can be achieved through a different control <INS>[in the same <strong><a href="#document">non-web document</a></strong> or <strong><a href="#software">non-web software</a></strong>]</INS> that meets this criterion.</dd>
+<dd>The function can be achieved through a different control <INS>[in the same <strong><a href="#document">non-web document</a></strong>]</INS> or <INS>[in the same <strong><a href="#software">non-web software</a></strong>]</INS> that meets this criterion.</dd>
 <dt>Inline</dt>
 <dd>The target is in a sentence or its size is otherwise constrained by the line-height of non-target text;</dd>
 <dt><INS>[User agent or other platform software]</INS> control</dt>
