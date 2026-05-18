@@ -1090,24 +1090,40 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ##### consistent-navigation
 
-###### Applying SC 3.2.3 Consistent Navigation to non-web documents and non-web software
+###### Applying SC 3.2.3 Consistent Navigation to non-web documents 
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web documents within a set of non-web documents, or in multiple non-web software programs within a set of non-web software programs”.
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web documents within a set of non-web documents”.
 
 With these substitutions, it would read:
 
-**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>[in multiple **[non-web documents](#document)** within a **[set of non-web documents](#set-of-documents)**, or in multiple **[non-web software programs](#software)** within a **[set of non-web software programs](#set-of-software-programs)**]</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>[in multiple **[non-web documents](#document)** within a **[set of non-web documents](#set-of-documents)**]</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
 
 <div class="note wcag2ict">
     
-See [set of documents](#set-of-documents) and [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and non-web software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+See [set of documents](#set-of-documents) in the Key Terms section to determine when a group of documents is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
 <div class="note wcag2ict">
     
-Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within non-web documents or non-web software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
-<div class="note wcag2ict software">
+Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within non-web documents directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+
+
+###### Applying SC 3.2.3 Consistent Navigation to non-web software
+
+This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web software programs within a set of non-web software programs”.
+
+With these substitutions, it would read:
+
+**3.2.3 Consistent Navigation:** Navigational mechanisms that are repeated <INS>[in multiple **[non-web software programs](#software)** within a **[set of non-web software programs](#set-of-software-programs)**]</INS> occur in the [same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) each time they are repeated, unless a change is initiated by the user.
+
+<div class="note wcag2ict">
+    
+See [set of software programs](#set-of-software-programs) in the Key Terms section to determine when a group of software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web software. See the [Interpretation of Web Terminology in a Non-web Context](#interpretation-of-web-terminology-in-a-non-web-context).</div>
+<div class="note wcag2ict">
+    
+Although not required by this success criterion, ensuring that navigation elements have consistent order when repeated within non-web software programs directly addresses user needs identified in the Intent section for this success criterion, and is generally considered best practice.</div>
+<div class="note wcag2ict">
 
 Sets of software that meet this definition appear to be extremely rare.</div>
-<div class="note wcag2ict software">
+<div class="note wcag2ict">
     
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
@@ -1144,7 +1160,7 @@ See the [Comments on Level AAA Success Criteria](#comments-on-level-aaa-success-
 
 ###### Applying SC 3.2.6 Consistent Help to non-web documents and non-web software
 
-This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "web page(s)" and "page(s)" with "non-web document(s) or non-web software program(s)", "set of web pages" with "set of non-web documents or set of non-web software programs", "page content" with "content", "on the page" with "in the non-web document or non-web software", "page is serialized" with "non-web document or non-web software content is serialized", "different page" with "different non-web document, non-web software, or web page", and "page variation" with "content layout variation".
+This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "web page(s)" and "page(s)" with "non-web document(s) or non-web software program(s)", "set of web pages" with "set of non-web documents or set of non-web software programs", "page content" with "content", "on the page" with "in the non-web document or non-web software", "page is serialized" with "non-web document or non-web software content is serialized", "different page" with "different non-web document, non-web software", and "page variation" with "content layout variation".
 
 With these substitutions, it would read:
 
@@ -1239,7 +1255,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.8 Accessible Authentication (Minimum) to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), replacing “the website” with “a website, non-web document, or non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.8](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html), replacing “the website” with “a non-web document or non-web software”.
 
 With this substitution, it would read:
 
@@ -1253,7 +1269,8 @@ With this substitution, it would read:
 <dt>Object Recognition</dt>
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
-<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>[a website, <strong><a href="#document">non-web document</a></strong>, or <strong><a href="#software">non-web software</a></strong>]</INS>.</dd>
+<dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>[a
+<strong><a href="#document">non-web document</a></strong>, or <strong><a href="#software">non-web software</a></strong>]</INS>.</dd>
 </dl>
 <div class="note">
 
