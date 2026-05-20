@@ -421,8 +421,6 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### error-prevention
 
-###### Applying SC 3.3.5 Help to non-web documents and non-web software
-
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages that require” with “**Non-web documents and non-web software that require**”.
