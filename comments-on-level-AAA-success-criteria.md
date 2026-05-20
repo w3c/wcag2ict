@@ -23,8 +23,8 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.8 Location](#location)
 - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
 - [2.4.10 Section Headings](#section-headings)
-- [3.2.5 Change on Request](#change-on-request)
 - [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
+- [3.2.5 Change on Request](#change-on-request)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
 
