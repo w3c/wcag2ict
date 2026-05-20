@@ -23,8 +23,8 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.8 Location](#location)
 - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
 - [2.4.10 Section Headings](#section-headings)
-- [3.2.5 Change on Request](#change-on-request)
 - [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
+- [3.2.5 Change on Request](#change-on-request)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
 
@@ -420,8 +420,6 @@ This applies directly as written, and as described in [Intent from Understanding
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/563" target="_blank">Issue 563</a>.</div>
 
 ##### error-prevention
-
-###### Applying SC 3.3.5 Help to non-web documents and non-web software
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
 
