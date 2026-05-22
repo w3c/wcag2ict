@@ -446,10 +446,16 @@ With these substitutions, it would read:
 
 ##### unusual-words
 
-###### Applying 3.1.3 Unusual Words to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/558" target="_blank">Issue 558</a>.</div>
+###### Applying 3.1.3 Unusual Words to non-web documents
+This success criterion is problematic to apply directly to non-web documents because not all document formats provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide definitions of words or phrases. Where the non-web document format provides such a mechanism, the non-web document should work with these features to the extent the format provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
+
+###### Applying 3.1.3 Unusual Words to non-web software
+This success criterion is problematic to apply directly to non-web software because not all platforms provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide definitions of words or phrases. Non-web software needs to work with platform capabilities where they exist, but when the platform does not provide capabilities, it is unreasonable for all apps on a particular platform to build in their own mechanism to provide definitions of words or phrases. Where the platform does provide a suitable mechanism, the non-web software should work with these features to the extent the platform provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
+
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### abbreviations
 
