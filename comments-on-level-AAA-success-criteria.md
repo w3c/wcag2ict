@@ -25,6 +25,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.10 Section Headings](#section-headings)
 - [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
 - [2.4.13 Focus Appearance](#focus-appearance)
+- [2.5.5 Target Size (Enhanced)](#target-size-enhanced)
 - [3.2.5 Change on Request](#change-on-request)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
@@ -356,7 +357,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-When the keyboard [focus indicator](https://www.w3.org/TR/WCAG22/#dfn-focus-indicator) is visible, an area of the focus indicator meets all the following:
+**2.4.13 Focus Appearance:** When the keyboard [focus indicator](https://www.w3.org/TR/WCAG22/#dfn-focus-indicator) is visible, an area of the focus indicator meets all the following:
 
 - is at least as large as the area of a 2 [CSS pixel](https://www.w3.org/TR/WCAG22/#dfn-css-pixels) thick [perimeter](https://www.w3.org/TR/WCAG22/#dfn-perimeter) of the unfocused component or sub-component, and
 - has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.
@@ -399,9 +400,35 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### target-size-enhanced
 
 ###### Applying 2.5.5 Target Size (Enhanced) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/555" target="_blank">Issue 555</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.5](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html#intent), replacing “user agent” with “user agent or platform software”.
+
+With these substitutions, it would read:
+
+**2.5.5 Target Size (Enhanced):** The size of the [target](https://www.w3.org/TR/WCAG22/#dfn-targets) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 44 by 44 [CSS pixels](https://www.w3.org/TR/WCAG22/#dfn-css-pixels) except when:
+<dl>
+<dt>Equivalent</dt>
+<dd>The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;</dd>
+<dt>Inline</dt>
+<dd>The target is in a sentence or block of text;</dd>
+<dt>User Agent Control</dt>
+<dd>The size of the target is determined by the <INS>**[user agent or platform software]**</INS> and is not modified by the author;</dd>
+<dt>Essential</dt>
+<dd>A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.</dd> 
+</dl>
+
+<div class="note wcag2ict">
+
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
+</div>
+
+<div class="note wcag2ict documents">
+Some non-web document formats are designed for viewing at a wide range of zoom levels provided by the user agent. However, the commonly available user agents for these formats may lack a consistent base zoom level from which to evaluate this criterion. For such documents, evaluate target sizes at a zoom level that aligns with the intended usage of the content.
+</div>
+
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### concurrent-input-mechanisms
 
