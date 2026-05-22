@@ -24,6 +24,9 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
 - [2.4.10 Section Headings](#section-headings)
 - [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
+- [2.4.13 Focus Appearance](#focus-appearance)
+- [2.5.5 Target Size (Enhanced)](#target-size-enhanced)
+- [2.5.6 Concurrent Input Mechanisms](#concurrent-input-mechanisms)
 - [3.2.5 Change on Request](#change-on-request)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
@@ -342,6 +345,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.
 </div>
+
 <div class="note wcag2ict software">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
@@ -350,25 +354,91 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### focus-appearance
 
 ###### Applying 2.4.13 Focus Appearance to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/554" target="_blank">Issue 554</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.13](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html#intent), replacing “user agent” with “user agent or platform software”.
+
+With these substitutions, it would read:
+
+**2.4.13 Focus Appearance:** When the keyboard [focus indicator](https://www.w3.org/TR/WCAG22/#dfn-focus-indicator) is visible, an area of the focus indicator meets all the following:
+
+- is at least as large as the area of a 2 [CSS pixel](https://www.w3.org/TR/WCAG22/#dfn-css-pixels) thick [perimeter](https://www.w3.org/TR/WCAG22/#dfn-perimeter) of the unfocused component or sub-component, and
+- has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.
+
+Exceptions:
+- The focus indicator is determined by the **[[user agent](https://www.w3.org/TR/WCAG22/#dfn-user-agents) or platform software]** and cannot be adjusted by the author, or
+- The focus indicator and the indicator's background color are not modified by the author.
+
+<div class="note wcag2ict">
+
+What is perceived as the user interface component or sub-component (to determine enclosure or size) depends on its visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation). The visual presentation includes the component's visible [content](https://www.w3.org/TR/WCAG22/#dfn-content), border, and component-specific background. It does not include shadow and glow effects outside the component's content, background, or border.
+</div>
+
+<div class="note wcag2ict">
+
+Examples of sub-components that may receive a focus indicator are menu items in an opened drop-down menu, or focusable cells in a grid.</div>
+
+<div class="note wcag2ict">
+
+Contrast calculations can be based on colors defined within the [technology](https://www.w3.org/TR/WCAG22/#dfn-technologies) (such as HTML, CSS and SVG). Pixels modified by **[user agent or platform software]** resolution enhancements and anti-aliasing can be ignored.
+</div>
+
+<div class="note wcag2ict">
+
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
+</div>
+
+<div class="note wcag2ict software">
+
+This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.
+</div>
+
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 #### 2.5 Input Modalities
 
 ##### target-size-enhanced
 
 ###### Applying 2.5.5 Target Size (Enhanced) to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/555" target="_blank">Issue 555</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.5](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html#intent), replacing “user agent” with “user agent or platform software”.
+
+With these substitutions, it would read:
+
+**2.5.5 Target Size (Enhanced):** The size of the [target](https://www.w3.org/TR/WCAG22/#dfn-targets) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 44 by 44 [CSS pixels](https://www.w3.org/TR/WCAG22/#dfn-css-pixels) except when:
+<dl>
+<dt>Equivalent</dt>
+<dd>The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;</dd>
+<dt>Inline</dt>
+<dd>The target is in a sentence or block of text;</dd>
+<dt>User Agent Control</dt>
+<dd>The size of the target is determined by the <INS>**[user agent or platform software]**</INS> and is not modified by the author;</dd>
+<dt>Essential</dt>
+<dd>A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.</dd> 
+</dl>
+
+<div class="note wcag2ict">
+
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
+</div>
+
+<div class="note wcag2ict documents">
+Some non-web document formats are designed for viewing at a wide range of zoom levels provided by the user agent. However, the commonly available user agents for these formats may lack a consistent base zoom level from which to evaluate this criterion. For such documents, evaluate target sizes at a zoom level that aligns with the intended usage of the content.
+</div>
+
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### concurrent-input-mechanisms
 
 ###### Applying 2.5.6 Concurrent Input Mechanisms to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/556" target="_blank">Issue 556</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.6](https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms.html#intent), replacing “Web content” with “Content”.
+
+With these substitutions, it would read: 
+
+**2.5.6 Concurrent Input Mechanisms:** **[[Content](#content-on-and-off-the-web)]** does not restrict use of input modalities available on a platform except where the restriction is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential), required to ensure the security of the content, or required to respect user settings.
 
 ### 3. Understandable
 
@@ -376,10 +446,16 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 
 ##### unusual-words
 
-###### Applying 3.1.3 Unusual Words to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/558" target="_blank">Issue 558</a>.</div>
+###### Applying 3.1.3 Unusual Words to non-web documents
+This success criterion is problematic to apply directly to non-web documents because not all document formats provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide definitions of words or phrases. Where the non-web document format provides such a mechanism, the non-web document should work with these features to the extent the format provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
+
+###### Applying 3.1.3 Unusual Words to non-web software
+This success criterion is problematic to apply directly to non-web software because not all platforms provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide definitions of words or phrases. Non-web software needs to work with platform capabilities where they exist, but when the platform does not provide capabilities, it is unreasonable for all apps on a particular platform to build in their own mechanism to provide definitions of words or phrases. Where the platform does provide a suitable mechanism, the non-web software should work with these features to the extent the platform provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
+
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### abbreviations
 
