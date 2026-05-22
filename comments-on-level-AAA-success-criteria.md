@@ -24,6 +24,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
 - [2.4.10 Section Headings](#section-headings)
 - [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
+- [2.4.13 Focus Appearance](#focus-appearance)
 - [3.2.5 Change on Request](#change-on-request)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
@@ -342,6 +343,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.
 </div>
+
 <div class="note wcag2ict software">
 
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
@@ -350,9 +352,47 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### focus-appearance
 
 ###### Applying 2.4.13 Focus Appearance to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/554" target="_blank">Issue 554</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.13](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html#intent), replacing “user agent” with “user agent or platform software”.
+
+With these substitutions, it would read:
+
+When the keyboard [focus indicator](https://www.w3.org/TR/WCAG22/#dfn-focus-indicator) is visible, an area of the focus indicator meets all the following:
+
+- is at least as large as the area of a 2 [CSS pixel](https://www.w3.org/TR/WCAG22/#dfn-css-pixels) thick [perimeter](https://www.w3.org/TR/WCAG22/#dfn-perimeter) of the unfocused component or sub-component, and
+- has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.
+
+Exceptions:
+- The focus indicator is determined by the **[[user agent](https://www.w3.org/TR/WCAG22/#dfn-user-agents) or platform software]** and cannot be adjusted by the author, or
+- The focus indicator and the indicator's background color are not modified by the author.
+
+<div class="note wcag2ict">
+
+What is perceived as the user interface component or sub-component (to determine enclosure or size) depends on its visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation). The visual presentation includes the component's visible [content](https://www.w3.org/TR/WCAG22/#dfn-content), border, and component-specific background. It does not include shadow and glow effects outside the component's content, background, or border.
+</div>
+
+<div class="note wcag2ict">
+
+Examples of sub-components that may receive a focus indicator are menu items in an opened drop-down menu, or focusable cells in a grid.</div>
+
+<div class="note wcag2ict">
+
+Contrast calculations can be based on colors defined within the [technology](https://www.w3.org/TR/WCAG22/#dfn-technologies) (such as HTML, CSS and SVG). Pixels modified by **[user agent or platform software]** resolution enhancements and anti-aliasing can be ignored.
+</div>
+
+<div class="note wcag2ict">
+
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
+</div>
+
+<div class="note wcag2ict software">
+
+This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.
+</div>
+
+<div class="note wcag2ict software">
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 #### 2.5 Input Modalities
 
