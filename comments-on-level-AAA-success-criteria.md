@@ -26,6 +26,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
 - [2.4.13 Focus Appearance](#focus-appearance)
 - [2.5.5 Target Size (Enhanced)](#target-size-enhanced)
+- [2.5.6 Concurrent Input Mechanisms](#concurrent-input-mechanisms)
 - [3.2.5 Change on Request](#change-on-request)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
@@ -433,9 +434,11 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### concurrent-input-mechanisms
 
 ###### Applying 2.5.6 Concurrent Input Mechanisms to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/556" target="_blank">Issue 556</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.6](https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms.html#intent), replacing “Web content” with “Content”.
+
+With these substitutions, it would read: 
+
+**2.5.6 Concurrent Input Mechanisms:** **[[Content](#content-on-and-off-the-web)]** does not restrict use of input modalities available on a platform except where the restriction is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential), required to ensure the security of the content, or required to respect user settings.
 
 ### 3. Understandable
 
