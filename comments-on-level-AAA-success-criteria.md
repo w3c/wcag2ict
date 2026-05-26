@@ -502,7 +502,7 @@ Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a h
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages that require” with “**Non-web documents and non-web software that require**”.
 With these substitutions, it would read:
 
-For <ins>[non-web documents](#non-web-documents) and [non-web software](#non-web-software)</ins> <del>[Web pages](https://www.w3.org/TR/WCAG22/#dfn-web-page-s)</del> that require the user to submit information, at least one of the following is true:
+For <ins>[non-web documents](#document) and [non-web software](#software)</ins> <del>[Web pages](https://www.w3.org/TR/WCAG22/#dfn-web-page-s)</del> that require the user to submit information, at least one of the following is true:
 <dl>
 <dt>Reversible</dt>
 <dd>Submissions are reversible.</dd>
