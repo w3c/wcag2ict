@@ -28,6 +28,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.5.5 Target Size (Enhanced)](#target-size-enhanced)
 - [2.5.6 Concurrent Input Mechanisms](#concurrent-input-mechanisms)
 - [3.2.5 Change on Request](#change-on-request)
+- [3.3.5 Help](#help)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
 
@@ -150,6 +151,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### contrast-enhanced
 
 ###### Applying SC 1.4.6 Contrast (Enhanced) to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.6](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced#intent). 
 
 <div class="note wcag2ict">
@@ -230,6 +232,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### no-timing
 
 ###### Applying SC 2.2.3 No Timing to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.3](https://www.w3.org/WAI/WCAG22/Understanding/no-timing#intent).
 
 ##### interruptions
@@ -240,6 +243,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### re-authenticating
 
 ###### Applying 2.2.5 Re-authenticating to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.5](https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html#intent).
 
 <div class="note wcag2ict software">
@@ -248,6 +252,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### timeouts
 
 ###### Applying SC 2.2.6 Timeouts to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.6](https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html#intent).
 
 #### 2.3 Seizures and Physical Reactions
@@ -262,6 +267,7 @@ With these substitutions, it would read:
 <INS>[**Non-web document does not**]</INS> contain anything that [flashes](https://www.w3.org/TR/WCAG22/#dfn-flashes) more than three times in any one second period.
 
 ###### Applying SC 2.3.2 Three Flashes to non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.2](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html#intent), replacing “Web pages do not” with "non-web software does not”.
 
 With these substitutions, it would read:
@@ -270,6 +276,7 @@ With these substitutions, it would read:
 ##### animation-from-interactions
 
 ###### Applying SC 2.3.3 Animation from Interactions to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.3](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html#intent).
 
 #### 2.4 Navigable
@@ -277,6 +284,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### location
 
 ###### Applying SC 2.4.8 Location to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.8](https://www.w3.org/WAI/WCAG22/Understanding/location.html#intent), replacing “set of Web pages” with “set of non-web documents or set of non-web software programs".
 
 With these substitutions, it would read:
@@ -354,6 +362,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### focus-appearance
 
 ###### Applying 2.4.13 Focus Appearance to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.13](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html#intent), replacing “user agent” with “user agent or platform software”.
 
 With these substitutions, it would read:
@@ -401,6 +410,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### target-size-enhanced
 
 ###### Applying 2.5.5 Target Size (Enhanced) to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.5](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html#intent), replacing “user agent” with “user agent or platform software”.
 
 With these substitutions, it would read:
@@ -434,6 +444,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### concurrent-input-mechanisms
 
 ###### Applying 2.5.6 Concurrent Input Mechanisms to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.6](https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms.html#intent), replacing “Web content” with “Content”.
 
 With these substitutions, it would read: 
@@ -447,9 +458,11 @@ With these substitutions, it would read:
 ##### unusual-words
 
 ###### Applying 3.1.3 Unusual Words to non-web documents
+
 This success criterion is problematic to apply directly to non-web documents because not all document formats provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide definitions of words or phrases. Where the non-web document format provides such a mechanism, the non-web document should work with these features to the extent the format provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 
 ###### Applying 3.1.3 Unusual Words to non-web software
+
 This success criterion is problematic to apply directly to non-web software because not all platforms provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide definitions of words or phrases. Non-web software needs to work with platform capabilities where they exist, but when the platform does not provide capabilities, it is unreasonable for all apps on a particular platform to build in their own mechanism to provide definitions of words or phrases. Where the platform does provide a suitable mechanism, the non-web software should work with these features to the extent the platform provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 
 <div class="note wcag2ict software">
@@ -491,9 +504,8 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### help
 
 ###### Applying SC 3.3.5 Help to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/563" target="_blank">Issue 563</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.5](https://www.w3.org/WAI/WCAG22/Understanding/help#intent).
 
 ##### error-prevention
 
@@ -515,7 +527,6 @@ For <ins>[non-web documents](#document) and [non-web software](#software)</ins> 
 <div class="note wcag2ict software">
 Software that requires the user to entering a password or a personal identification number (PIN) can still meet this success criterion. The individual characters of the password or PIN are masked on entry, which may appear to be problematic, as less feedback is given to the user. However, the masking of characters or digits in a password occurs regardless of output; meaning that sighted people have the same experience as screen reader users. In both cases the user still has sufficient feedback to know that they have entered a character, even if they cannot know whether the entire password or PIN was correct until it is complete and submitted. As a result they still have the opportunity to review and correct information (by deleting and re-entering characters). 
 </div>
-
 
 ##### accessible-authentication-enhanced
 
