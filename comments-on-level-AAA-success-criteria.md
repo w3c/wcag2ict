@@ -507,6 +507,13 @@ This applies directly as written, and as described in [Intent from Understanding
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.5](https://www.w3.org/WAI/WCAG22/Understanding/help#intent).
 
+<div class="note wcag2ict">As noted in [glossary item context-sensitive help], clear labels or other information provided by the system can act as context-sensitive help.
+</div>
+
+<div class="note wcag2ict software">
+See also the Comments on Closed Functionality.
+</div>
+
 ##### error-prevention
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
