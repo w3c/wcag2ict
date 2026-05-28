@@ -385,8 +385,7 @@ With these substitutions, it would read:
 </dl>
 
 <div class="note wcag2ict">
-In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
-</div>
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
 
 <div class="note wcag2ict documents">
 Some non-web document formats are designed for viewing at a wide range of zoom levels provided by the user agent. However, the commonly available user agents for these formats may lack a consistent base zoom level from which to evaluate this criterion. For such documents, evaluate target sizes at a zoom level that aligns with the intended usage of the content.</div>
@@ -460,6 +459,9 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
 As noted in [glossary item context-sensitive help], clear labels or other information provided by the system can act as context-sensitive help.</div>
+
+<div class="note wcag2ict documents">
+This success criterion readily applies to player/viewer software application. This success criterion is problematic to apply to static non-web documents. It is possible for some non-web file formats to include interactive elements that are specific to the document and independent of the software used. Examples of non-web documents that can directly support context-sensitive include, but are not limited to, PDF forms, complex spreadsheets, and database source files.</div>
 
 <div class="note wcag2ict software">
 See also the Comments on Closed Functionality.</div>
