@@ -27,7 +27,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.13 Focus Appearance](#focus-appearance)
 - [2.5.5 Target Size (Enhanced)](#target-size-enhanced)
 - [2.5.6 Concurrent Input Mechanisms](#concurrent-input-mechanisms)
-- 3.1.3 
+- [3.1.3 Unusual Words](#unusual-words)
 - [3.1.4 Abbreviations](#abbreviations)
 - 3.1.5
 - 3.1.6
