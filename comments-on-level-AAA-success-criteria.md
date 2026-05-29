@@ -29,8 +29,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.5.6 Concurrent Input Mechanisms](#concurrent-input-mechanisms)
 - [3.1.3 Unusual Words](#unusual-words)
 - [3.1.4 Abbreviations](#abbreviations)
-- 3.1.5
-- 3.1.6
+- [3.1.5 Reading Level](#reading-level)
 - [3.2.5 Change on Request](#change-on-request)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
