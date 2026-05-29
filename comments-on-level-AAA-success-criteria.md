@@ -484,9 +484,13 @@ Help is a mechanism for software that can provide explanations of abbreviations.
 ##### reading-level
 
 ###### Applying 3.1.5 Reading Level to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/560" target="_blank">Issue 560</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.5](https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html#intent).
+
+<div class="note wcag2ict software">
+
+Help can be a mechanism for providing [supplemental content](https://www.w3.org/TR/WCAG22/#dfn-supplementary-content).
+</div>
 
 ##### pronunciation
 
