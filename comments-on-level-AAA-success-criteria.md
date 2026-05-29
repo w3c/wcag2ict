@@ -27,6 +27,10 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.13 Focus Appearance](#focus-appearance)
 - [2.5.5 Target Size (Enhanced)](#target-size-enhanced)
 - [2.5.6 Concurrent Input Mechanisms](#concurrent-input-mechanisms)
+- 3.1.3 
+- [3.1.4 Abbreviations](#abbreviations)
+- 3.1.5
+- 3.1.6
 - [3.2.5 Change on Request](#change-on-request)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
@@ -459,10 +463,17 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### abbreviations
 
-###### Applying 3.1.4 Abbreviations to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/559" target="_blank">Issue 559</a>.</div>
+##### Applying SC 3.1.4 Abbreviations to non-web documents 
+
+This success criterion is problematic to apply directly to non-web documents because not all document formats provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide the expanded form or meaning of [abbreviations](https://www.w3.org/TR/WCAG22/#dfn-abbreviations). Where the non-web document format provides such a mechanism, the non-web document should work with these features to the extent the format provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.4](https://w3.org/WAI/WCAG22/Understanding/abbreviations.html#intent).
+
+##### Applying Applying SC 3.1.4 Abbreviations to non-web software
+
+This success criterion applies as written as described in [Intent from Understanding Success Criterion 3.1.4](https://w3.org/WAI/WCAG22/Understanding/abbreviations.html#intent).
+
+<div class="note wcag2ict software">
+Help is a mechanism for software that can provide explanations of abbreviations. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.4](https://w3.org/WAI/WCAG22/Understanding/abbreviations.html#intent).
+</div>
 
 ##### reading-level
 
