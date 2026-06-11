@@ -471,7 +471,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 This success criterion is problematic to apply directly to non-web documents because not all document formats provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide the expanded form or meaning of [abbreviations](https://www.w3.org/TR/WCAG22/#dfn-abbreviations). Where the non-web document format provides such a mechanism, the non-web document should work with these features to the extent the format provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.4](https://w3.org/WAI/WCAG22/Understanding/abbreviations.html#intent).
 
-##### Applying Applying SC 3.1.4 Abbreviations to non-web software
+##### Applying SC 3.1.4 Abbreviations to non-web software
 
 This success criterion applies as written as described in [Intent from Understanding Success Criterion 3.1.4](https://w3.org/WAI/WCAG22/Understanding/abbreviations.html#intent).
 
