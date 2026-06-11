@@ -373,6 +373,7 @@ This applies directly as written, and as described in [Intent from Understanding
 With these substitutions, it would read:
 
 **2.5.5 Target Size (Enhanced):** The size of the [target](https://www.w3.org/TR/WCAG22/#dfn-targets) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 44 by 44 [CSS pixels](https://www.w3.org/TR/WCAG22/#dfn-css-pixels) except when:
+
 <dl>
   <dt>Equivalent</dt>
     <dd>The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;</dd>
@@ -383,13 +384,10 @@ With these substitutions, it would read:
   <dt>Essential</dt>
     <dd>A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.</dd> 
 </dl>
-
 <div class="note wcag2ict">
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
-
 <div class="note wcag2ict documents">
 Some non-web document formats are designed for viewing at a wide range of zoom levels provided by the user agent. However, the commonly available user agents for these formats may lack a consistent base zoom level from which to evaluate this criterion. For such documents, evaluate target sizes at a zoom level that aligns with the intended usage of the content.</div>
-
 <div class="note wcag2ict software">
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
@@ -458,11 +456,9 @@ This applies directly as written, and as described in [Intent from Understanding
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.5](https://www.w3.org/WAI/WCAG22/Understanding/help#intent).
 
 <div class="note wcag2ict">
-As noted in [glossary item context-sensitive help], clear labels or other information provided by the system can act as context-sensitive help.</div>
-
+As noted in [context-sensitive help](#dfn-context-sensitive-help), clear labels or other information provided by the system can act as context-sensitive help.</div>
 <div class="note wcag2ict documents">
 This success criterion readily applies to player/viewer software application. This success criterion is problematic to apply to static non-web documents. It is possible for some non-web file formats to include interactive elements that are specific to the document and independent of the software used. Examples of non-web documents that can directly support context-sensitive include, but are not limited to, PDF forms, complex spreadsheets, and database source files.</div>
-
 <div class="note wcag2ict software">
 See also the Comments on Closed Functionality.</div>
 
@@ -475,6 +471,7 @@ This applies directly as written, and as described in [Intent from Understanding
 With these substitutions, it would read:
 
 For <ins>[non-web documents](#document) and [non-web software](#software)</ins> <del>[Web pages](https://www.w3.org/TR/WCAG22/#dfn-web-page-s)</del> that require the user to submit information, at least one of the following is true:
+
 <dl>
   <dt>Reversible</dt>
     <dd>Submissions are reversible.</dd>
@@ -483,7 +480,6 @@ For <ins>[non-web documents](#document) and [non-web software](#software)</ins> 
   <dt>Confirmed</dt>
     <dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
 </dl>
-
 <div class="note wcag2ict software">
 Software that requires the user to entering a password or a personal identification number (PIN) can still meet this success criterion. The individual characters of the password or PIN are masked on entry, which may appear to be problematic, as less feedback is given to the user. However, the masking of characters or digits in a password occurs regardless of output; meaning that sighted people have the same experience as screen reader users. In both cases the user still has sufficient feedback to know that they have entered a character, even if they cannot know whether the entire password or PIN was correct until it is complete and submitted. As a result they still have the opportunity to review and correct information (by deleting and re-entering characters).</div>
 
