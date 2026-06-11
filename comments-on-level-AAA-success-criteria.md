@@ -486,7 +486,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
 
-As noted in [context-sensitive help](#context-sensitive-help), clear labels or other information provided by the system can act as context-sensitive help.</div>
+As noted in [context-sensitive help](https://www.w3.org/TR/WCAG22/#dfn-context-sensitive-help), clear labels or other information provided by the system can act as context-sensitive help.</div>
 
 <div class="note wcag2ict documents">
 
