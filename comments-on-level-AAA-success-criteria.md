@@ -431,6 +431,7 @@ Help is a mechanism for software that can provide definitions of words or phrase
 </div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### abbreviations
@@ -485,7 +486,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
 
-As noted in [context-sensitive help](#dfn-context-sensitive-help), clear labels or other information provided by the system can act as context-sensitive help.</div>
+As noted in [context-sensitive help](#context-sensitive-help), clear labels or other information provided by the system can act as context-sensitive help.</div>
 
 <div class="note wcag2ict documents">
 
