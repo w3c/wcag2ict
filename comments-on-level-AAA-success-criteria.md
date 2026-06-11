@@ -3,7 +3,6 @@ Comments on Level AAA success criteria
 <div class="ednote">
   
 The WCAG2ICT Task Force is in process of adding guidance for Level AAA success criteria. We are seeking feedback on the following sections:
-
 - [1.2.6 Sign Language (Prerecorded)](#sign-language-prerecorded)
 - [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
 - [1.2.8 Media Alternative (Prerecorded)](#media-alternative-prerecorded)
@@ -31,23 +30,24 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [3.1.4 Abbreviations](#abbreviations)
 - [3.1.5 Reading Level](#reading-level)
 - [3.2.5 Change on Request](#change-on-request)
+- [3.3.5 Help](#help)
 - [3.3.6 Error Prevention (All)](#error-prevention)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
 
 The sections that follow contain guidance on applying the Level AAA success criteria from WCAG 2 to non-web documents and non-web software. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
+
 <div class="ednote">
-These two notes apply as written to non-web software and non-web documents.
-</div>
+These two notes apply as written to non-web software and non-web documents.</div>
 
 From the <a href=https://www.w3.org/TR/WCAG22/#wcag-2-layers-of-guidance target="_blank">WCAG 2 Layers of Guidance</a> section of WCAG 2.2:
 
 <blockquote>Note that even content that conforms at the highest level (AAA) will not be accessible to individuals with all types, degrees, or combinations of disability, particularly in the cognitive, language, and learning areas. Authors are encouraged to consider the full range of techniques, including the advisory techniques, Making Content Usable for People with Cognitive and Learning Disabilities, as well as to seek relevant advice about current best practice to ensure that web content is accessible, as far as possible, to this community. Metadata may assist users in finding content most suitable for their needs.</blockquote>
 
-From the  <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance level</a> section of WCAG 2.2: 
-<div class="note">
+From the <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance level</a> section of WCAG 2.2: 
 
+<div class="note">
 <blockquote>It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content.</blockquote></div></div>
   
 ### 1. Perceivable
@@ -61,14 +61,12 @@ From the  <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.6](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded#intent).
 
 <div class="note wcag2ict">
-To date, meeting this success criteria has proven to be infeasible, as there are not enough human sign language interpreters available to handle a fraction of the volume of video content being produced. As compared to captioning and audio description, sign language interpretation is a very specialized skill. Emerging technologies may, in the future, allow translation from text or speech to sign language directly. At that time, those who need sign language could use such an automated translation tool in the same way people who are blind use a screen reader. This would give people who need to have audio content presented in sign language the same ability to access this content that
-people who are blind have access to by using their screen readers.
-As always, authors should not rely on such solutions until they are commonly available at a quality accepted by the signing community. In the meantime, providing sign language interpretation continues to be a need for native sign language users, especially in the context of any public service content.
-</div>
+To date, meeting this success criteria has proven to be infeasible, as there are not enough human sign language interpreters available to handle a fraction of the volume of video content being produced. As compared to captioning and audio description, sign language interpretation is a very specialized skill. Emerging technologies may, in the future, allow translation from text or speech to sign language directly. At that time, those who need sign language could use such an automated translation tool in the same way people who are blind use a screen reader. This would give people who need to have audio content presented in sign language the same ability to access this content that people who are blind have access to by using their screen readers.
+
+As always, authors should not rely on such solutions until they are commonly available at a quality accepted by the signing community. In the meantime, providing sign language interpretation continues to be a need for native sign language users, especially in the context of any public service content.</div>
 
 <div class="note wcag2ict">
-Some pre-programmed interactions (e.g., a game or VR) are considered “synchronized media” because the audio is timed to correspond with specific visual information.
-</div>
+Some pre-programmed interactions (e.g., a game or VR) are considered “synchronized media” because the audio is timed to correspond with specific visual information.</div>
 
 <div class="note wcag2ict software">
 
@@ -77,11 +75,10 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### extended-audio-description-prerecorded
 
 ###### Applying SC 1.2.7 Extended Audio Description (Prerecorded) to non-web documents and non-web software
-  
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.7](https://www.w3.org/WAI/WCAG22/Understanding/extended-audio-description-prerecorded#intent).
 
 <div class="note wcag2ict">
-
 Audio descriptions (also called "video descriptions", "descriptive narration", and "described videos") describe important visual information needed to understand the video content, including text displayed in the video. Where the main audio track of the video fully describes important visual information, audio descriptions would not be needed at all as the requirement would already be met. When audio descriptions are needed, one way to implement them is by providing a second audio track for the audio-video media.</div>
 
 ##### media-alternative-prerecorded
@@ -91,15 +88,14 @@ Audio descriptions (also called "video descriptions", "descriptive narration", a
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.8](https://www.w3.org/WAI/WCAG22/Understanding/media-alternative-prerecorded#intent).
 
 <div class="note wcag2ict">
-
 As described in Intent from Understanding Success Criterion 1.2.8, this success criterion is concerned with providing an accessible alternative to time-based media such as audio visual material. This accessible alternative could be in text form, may provide a running description, and could read something like a book. 
 
 When audio visual media is redundant to other forms of information (such as in text and as audio guidance), the intent of this Success Criterion would be satisfied.</div>
-<div class="note wcag2ict">
 
-Prerecorded media is defined as information that is not live. Media content that is generated by a computer on-demand, such as by generative AI is not considered live.</div>
 <div class="note wcag2ict">
+Prerecorded media is defined as information that is not live. Media content that is generated by a computer on-demand, such as by generative AI, is not considered live.</div>
 
+<div class="note wcag2ict">
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### audio-only-live
@@ -107,22 +103,21 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ###### Applying SC 1.2.9 Audio-Only (Live) to non-web documents and non-web software
 
 Where a non-web document technology supports incorporation of live audio-only content, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.9](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live#intent).
-<div class="note wcag2ict documents">
 
-This success criterion is problematic to apply directly to non-web documents (including audio files) that are then played by live audio players (such as  internet radio players). These live audio players may not currently support displaying captions and it may pose a risk if used in vehicles so may not be suitable in all cases.
-</div>
+<div class="note wcag2ict documents">
+This success criterion is problematic to apply directly to non-web documents (including audio files) that are then played by live audio players (such as  internet radio players). These live audio players may not currently support displaying captions, captions may pose a risk if used in vehicles,  and so captioning may not be suitable in all cases.</div>
 
 ###### Applying SC 1.2.9 Audio-Only (Live) to non-web software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.9](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live#intent).
+
 <div class="note wcag2ict software">
-  
 Some ways to satisfy this success criterion would be to provide live captions (also known as subtitles or “subtitles for the hearing impaired") or a text transcript, script, or other text-based alternative.</div>
+
 <div class="note wcag2ict software">
-  
 When captions are provided, to satisfy this success criterion, they would have to provide a "synchronized [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+
 <div class="note wcag2ict software">
-  
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 1.3 Adaptable
@@ -134,51 +129,51 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.6](https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html#intent).
 
 <div class="note wcag2ict">
-	
 This success criterion only applies to **[non-web documents](#document)** and **[non-web software](#software)** that are implemented using markup languages, and that support programmatically exposing the purpose of user interface components, icons and regions.</div>
-<div class="note wcag2ict software">
 
+<div class="note wcag2ict software">
 "Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in Electron applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
-<div class="note wcag2ict software">
-The WCAG2ICT working group also notes that as a Level AAA provision which is essentially a recommendation, this need not be limited to markup languages. If being considered for a requirement then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.
-</div>
-<div class="note wcag2ict software">
 
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+<div class="note wcag2ict software">
+The WCAG2ICT working group also notes that as a Level AAA provision which is essentially a recommendation, this need not be limited to markup languages. If being considered for a requirement then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.</div>
 
-</div>
+<div class="note wcag2ict software">
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 1.4 Distinguishable
 
 ##### contrast-enhanced
 
 ###### Applying SC 1.4.6 Contrast (Enhanced) to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.6](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced#intent). 
 
 <div class="note wcag2ict">
-This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope. 
-</div>
-<div class="note wcag2ict">
+This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope.</div>
 
+<div class="note wcag2ict">
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### low-or-no-background-audio
 
 ###### Applying SC 1.4.7 Low or No Background Audio to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.7](https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html#intent).
 
 ##### visual-presentation
 
 ###### Applying SC 1.4.8 Visual Presentation to non-web documents and non-web software
-This applies directly as written, and as described in Intent from Understanding Success Criterion 1.4.8, replacing “browser or other user agent” with “user agent, platform software, or other non-web software” in Note 1.
-With these substitutions, the notes would read:
-<div class="note wcag2ict">
-Content is not required to use these values. The requirement is that a mechanism is available for users to change these presentation aspects. The mechanism can be provided by the <INS>[**[user agent](#user-agent), [platform software](#platform-software), or other [non-web software](#software)**]</INS>. Content is not required to provide the mechanism.
-</div>
-<div class="note wcag2ict">Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and can conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.
-</div>
-<div class="note wcag2ict">
 
+This applies directly as written, and as described in Intent from Understanding Success Criterion 1.4.8, replacing “browser or other user agent” with “user agent, platform software, or other non-web software” in Note 1.
+
+With these substitutions, the notes would read:
+
+<div class="note wcag2ict">
+Content is not required to use these values. The requirement is that a mechanism is available for users to change these presentation aspects. The mechanism can be provided by the <INS>[**[user agent](#user-agent), [platform software](#platform-software), or other [non-web software](#software)**]</INS>. Content is not required to provide the mechanism.</div>
+
+<div class="note wcag2ict">Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and can conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.</div>
+
+<div class="note wcag2ict">
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### images-of-text-no-exception
@@ -188,7 +183,6 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.9](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html#intent).
 
 <div class="note wcag2ict">
-
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ### 2. Operable
@@ -206,24 +200,19 @@ This applies directly as written, and as described in [Intent from Understanding
 Where ICT is or includes non-web software that can be run on a software platform that provides a device-independent keyboard interface service, this applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.3](https://www.w3.org/WAI/WCAG22/Understanding/keyboard-no-exception.html#intent).
 
 <div class="note wcag2ict software">
-Keyboard interface does not refer to a physical device but to the service of platform software (e.g. operating system, browser, etc.) that provides the software with keystrokes from any keyboard or keyboard substitute. When the non-web software supports such a device-independent service of the platform software, and the non-web software functionality is made fully operable through the service, then this success criterion would be satisfied.
-</div>
+Keyboard interface does not refer to a physical device but to the service of platform software (e.g. operating system, browser, etc.) that provides the software with keystrokes from any keyboard or keyboard substitute. When the non-web software supports such a device-independent service of the platform software, and the non-web software functionality is made fully operable through the service, then this success criterion would be satisfied.</div>
 
 <div class="note wcag2ict software">
-A "device-independent keyboard interface service" refers to the platform service that provides keystrokes to any software running on the platform.
-</div>
+A "device-independent keyboard interface service" refers to the platform service that provides keystrokes to any software running on the platform.</div>
 
 <div class="note wcag2ict software">
-Inclusion of an on-screen keyboard can be done as well but does not satisfy this requirement since it does not allow for the use of keyboard alternatives whereas support of input from the device-independent keyboard interface service does.
-</div>
+Inclusion of an on-screen keyboard can be done as well but does not satisfy this requirement since it does not allow for the use of keyboard alternatives whereas support of input from the device-independent keyboard interface service does.</div>
 
 <div class="note wcag2ict software">
-This success criterion does not imply that non-web software always needs to directly support a keyboard or “keyboard interface” if one is not provided by the platform software. But if one is provided, the software needs to make all functionality available through it - unless the exception applies.
-</div>
+This success criterion does not imply that non-web software always needs to directly support a keyboard or “keyboard interface” if one is not provided by the platform software. But if one is provided, the software needs to make all functionality available through it - unless the exception applies.</div>
 
 <div class="note wcag2ict software">
-This success criterion also does not imply that non-web software always needs to provide its own virtual keyboard. But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.
-</div>
+This success criterion also does not imply that non-web software always needs to provide its own virtual keyboard. But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.</div>
 
 <div class="note wcag2ict software">
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
@@ -233,16 +222,19 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### no-timing
 
 ###### Applying SC 2.2.3 No Timing to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.3](https://www.w3.org/WAI/WCAG22/Understanding/no-timing#intent).
 
 ##### interruptions
 
 ###### Applying SC 2.2.4 Interruptions to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.4](https://www.w3.org/WAI/WCAG22/Understanding/interruptions.html#intent).
 
 ##### re-authenticating
 
 ###### Applying 2.2.5 Re-authenticating to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.5](https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html#intent).
 
 <div class="note wcag2ict software">
@@ -251,6 +243,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 ##### timeouts
 
 ###### Applying SC 2.2.6 Timeouts to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.6](https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html#intent).
 
 #### 2.3 Seizures and Physical Reactions
@@ -262,17 +255,21 @@ This applies directly as written, and as described in [Intent from Understanding
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.2](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html#intent), replacing “Web pages do not” with “non-web document does not".
 
 With these substitutions, it would read:
+
 <INS>[**Non-web document does not**]</INS> contain anything that [flashes](https://www.w3.org/TR/WCAG22/#dfn-flashes) more than three times in any one second period.
 
 ###### Applying SC 2.3.2 Three Flashes to non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.2](https://www.w3.org/WAI/WCAG22/Understanding/three-flashes.html#intent), replacing “Web pages do not” with "non-web software does not”.
 
 With these substitutions, it would read:
+
 <INS>[**Non-web software does not**]</INS> contain anything that [flashes](https://www.w3.org/TR/WCAG22/#dfn-flashes) more than three times in any one second period.
 
 ##### animation-from-interactions
 
 ###### Applying SC 2.3.3 Animation from Interactions to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.3.3](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html#intent).
 
 #### 2.4 Navigable
@@ -280,6 +277,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### location
 
 ###### Applying SC 2.4.8 Location to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.8](https://www.w3.org/WAI/WCAG22/Understanding/location.html#intent), replacing “set of Web pages” with “set of non-web documents or set of non-web software programs".
 
 With these substitutions, it would read:
@@ -287,24 +285,16 @@ With these substitutions, it would read:
 **2.4.8 Location:** Information about the user's location within a <INS>[**[set of non-web documents](#set-of-documents)** or a **[set of non-web software programs](https://www.w3.org/TR/WCAG22/#dfn-set-of-software-programs)**]</INS> is available.
 
 <div class="note wcag2ict">
-
-See [set of documents](https://www.w3.org/TR/wcag2ict-22/#set-of-documents) and [set of software programs](https://www.w3.org/TR/wcag2ict-22/#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and non-web software. See the [Interpretation of Web Terminology in a Non-web Context](https://www.w3.org/TR/wcag2ict-22/#interpretation-of-web-terminology-in-a-non-web-context).
-</div>
+See [set of documents](https://www.w3.org/TR/wcag2ict-22/#set-of-documents) and [set of software programs](https://www.w3.org/TR/wcag2ict-22/#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and non-web software. See the [Interpretation of Web Terminology in a Non-web Context](https://www.w3.org/TR/wcag2ict-22/#interpretation-of-web-terminology-in-a-non-web-context).</div>
 
 <div class="note wcag2ict">
-
-The accessibility barrier this SC addresses for websites is extremely unlikely in the context of non-web documents and non-web software.
-</div>
+The accessibility barrier this SC addresses for websites is extremely unlikely in the context of non-web documents and non-web software.</div>
 
 <div class="note wcag2ict software">
-
-Sets of software that meet this definition appear to be extremely rare.
-</div>
+Sets of software that meet this definition appear to be extremely rare.</div>
 
 <div class="note wcag2ict software">
-
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
-</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### link-purpose-link-only
 
@@ -313,14 +303,10 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.9](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-link-only.html#intent).
 
 <div class="note wcag2ict">
-
-In non-web documents or non-web software, a “link” is any user interface control that behaves like a hypertext link.
-</div>
+In non-web documents or non-web software, a “link” is any user interface control that behaves like a hypertext link.</div>
 
 <div class="note wcag2ict software">
-
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
-</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### section-headings
 
@@ -329,14 +315,10 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.10](https://www.w3.org/WAI/WCAG22/Understanding/section-headings.html).
 
 <div class="note wcag2ict software">
-
-In non-web software, headings and labels are used to describe sections of content and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.
-</div>
+In non-web software, headings and labels are used to describe sections of content and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
 
 <div class="note wcag2ict software">
-
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
-</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### focus-not-obscured-enhanced
 
@@ -345,24 +327,20 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.12](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html#intent).
 
 <div class="note wcag2ict software">
-
-This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.
-</div>
+This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
 
 <div class="note wcag2ict software">
-
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
-</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### focus-appearance
 
 ###### Applying 2.4.13 Focus Appearance to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.13](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html#intent), replacing “user agent” with “user agent or platform software”.
 
 With these substitutions, it would read:
 
 **2.4.13 Focus Appearance:** When the keyboard [focus indicator](https://www.w3.org/TR/WCAG22/#dfn-focus-indicator) is visible, an area of the focus indicator meets all the following:
-
 - is at least as large as the area of a 2 [CSS pixel](https://www.w3.org/TR/WCAG22/#dfn-css-pixels) thick [perimeter](https://www.w3.org/TR/WCAG22/#dfn-perimeter) of the unfocused component or sub-component, and
 - has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.
 
@@ -371,72 +349,62 @@ Exceptions:
 - The focus indicator and the indicator's background color are not modified by the author.
 
 <div class="note wcag2ict">
-
-What is perceived as the user interface component or sub-component (to determine enclosure or size) depends on its visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation). The visual presentation includes the component's visible [content](https://www.w3.org/TR/WCAG22/#dfn-content), border, and component-specific background. It does not include shadow and glow effects outside the component's content, background, or border.
-</div>
+What is perceived as the user interface component or sub-component (to determine enclosure or size) depends on its visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation). The visual presentation includes the component's visible [content](https://www.w3.org/TR/WCAG22/#dfn-content), border, and component-specific background. It does not include shadow and glow effects outside the component's content, background, or border.</div>
 
 <div class="note wcag2ict">
-
 Examples of sub-components that may receive a focus indicator are menu items in an opened drop-down menu, or focusable cells in a grid.</div>
 
 <div class="note wcag2ict">
-
-Contrast calculations can be based on colors defined within the [technology](https://www.w3.org/TR/WCAG22/#dfn-technologies) (such as HTML, CSS and SVG). Pixels modified by **[user agent or platform software]** resolution enhancements and anti-aliasing can be ignored.
-</div>
+Contrast calculations can be based on colors defined within the [technology](https://www.w3.org/TR/WCAG22/#dfn-technologies) (such as HTML, CSS and SVG). Pixels modified by **[user agent or platform software]** resolution enhancements and anti-aliasing can be ignored.</div>
 
 <div class="note wcag2ict">
-
-In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
-</div>
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
 
 <div class="note wcag2ict software">
-
-This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.
-</div>
+This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
 
 <div class="note wcag2ict software">
-
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
-</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 2.5 Input Modalities
 
 ##### target-size-enhanced
 
 ###### Applying 2.5.5 Target Size (Enhanced) to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.5](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html#intent), replacing “user agent” with “user agent or platform software”.
 
 With these substitutions, it would read:
 
 **2.5.5 Target Size (Enhanced):** The size of the [target](https://www.w3.org/TR/WCAG22/#dfn-targets) for [pointer inputs](https://www.w3.org/TR/WCAG22/#dfn-pointer-inputs) is at least 44 by 44 [CSS pixels](https://www.w3.org/TR/WCAG22/#dfn-css-pixels) except when:
+
 <dl>
-<dt>Equivalent</dt>
-<dd>The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;</dd>
-<dt>Inline</dt>
-<dd>The target is in a sentence or block of text;</dd>
-<dt>User Agent Control</dt>
-<dd>The size of the target is determined by the <INS>**[user agent or platform software]**</INS> and is not modified by the author;</dd>
-<dt>Essential</dt>
-<dd>A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.</dd> 
+  <dt>Equivalent</dt>
+    <dd>The target is available through an equivalent link or control on the same page that is at least 44 by 44 CSS pixels;</dd>
+  <dt>Inline</dt>
+    <dd>The target is in a sentence or block of text;</dd>
+  <dt>User Agent Control</dt>
+    <dd>The size of the target is determined by the <INS>**[user agent or platform software]**</INS> and is not modified by the author;</dd>
+  <dt>Essential</dt>
+    <dd>A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.</dd> 
 </dl>
 
 <div class="note wcag2ict">
 
-In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
-</div>
+In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
 
 <div class="note wcag2ict documents">
-Some non-web document formats are designed for viewing at a wide range of zoom levels provided by the user agent. However, the commonly available user agents for these formats may lack a consistent base zoom level from which to evaluate this criterion. For such documents, evaluate target sizes at a zoom level that aligns with the intended usage of the content.
-</div>
+
+Some non-web document formats are designed for viewing at a wide range of zoom levels provided by the user agent. However, the commonly available user agents for these formats may lack a consistent base zoom level from which to evaluate this criterion. For such documents, evaluate target sizes at a zoom level that aligns with the intended usage of the content.</div>
 
 <div class="note wcag2ict software">
 
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
-</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### concurrent-input-mechanisms
 
 ###### Applying 2.5.6 Concurrent Input Mechanisms to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.6](https://www.w3.org/WAI/WCAG22/Understanding/concurrent-input-mechanisms.html#intent), replacing “Web content” with “Content”.
 
 With these substitutions, it would read: 
@@ -450,9 +418,11 @@ With these substitutions, it would read:
 ##### unusual-words
 
 ###### Applying 3.1.3 Unusual Words to non-web documents
+
 This success criterion is problematic to apply directly to non-web documents because not all document formats provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide definitions of words or phrases. Where the non-web document format provides such a mechanism, the non-web document should work with these features to the extent the format provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 
 ###### Applying 3.1.3 Unusual Words to non-web software
+
 This success criterion applies as written as described in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 
 <div class="note wcag2ict software">
@@ -462,8 +432,7 @@ Help is a mechanism for software that can provide definitions of words or phrase
 
 <div class="note wcag2ict software">
 
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
-</div>
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### abbreviations
 
@@ -494,8 +463,9 @@ Help can be a mechanism for providing [supplemental content](https://www.w3.org/
 ##### pronunciation
 
 ###### Applying SC 3.1.6 Pronunciation to non-web documents and non-web software
+
 <div class="ednote">
-  
+
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/561" target="_blank">Issue 561</a>.</div>
 
 #### 3.2 Predictable
@@ -511,31 +481,41 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### help
 
 ###### Applying SC 3.3.5 Help to non-web documents and non-web software
-<div class="ednote">
-  
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/563" target="_blank">Issue 563</a>.</div>
+
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.5](https://www.w3.org/WAI/WCAG22/Understanding/help#intent).
+
+<div class="note wcag2ict">
+
+As noted in [context-sensitive help](https://www.w3.org/TR/WCAG22/#dfn-context-sensitive-help), clear labels or other information provided by the system can act as context-sensitive help.</div>
+
+<div class="note wcag2ict documents">
+
+This success criterion readily applies to player/viewer software application. This success criterion is problematic to apply to static non-web documents. It is possible for some non-web file formats to include interactive elements that are specific to the document and independent of the software used. Examples of non-web documents that can directly support context-sensitive include, but are not limited to, PDF forms, complex spreadsheets, and database source files.</div>
+
+<div class="note wcag2ict software">
+
+See also the Comments on Closed Functionality.</div>
 
 ##### error-prevention
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages that require” with “**Non-web documents and non-web software that require**”.
+
 With these substitutions, it would read:
 
 For <ins>[non-web documents](#document) and [non-web software](#software)</ins> <del>[Web pages](https://www.w3.org/TR/WCAG22/#dfn-web-page-s)</del> that require the user to submit information, at least one of the following is true:
+
 <dl>
-<dt>Reversible</dt>
-<dd>Submissions are reversible.</dd>
-<dt>Checked</dt>
-<dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>
-<dt>Confirmed</dt>
-<dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
+  <dt>Reversible</dt>
+    <dd>Submissions are reversible.</dd>
+  <dt>Checked</dt>
+    <dd>Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</dd>
+  <dt>Confirmed</dt>
+    <dd>A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</dd>
 </dl>
-
 <div class="note wcag2ict software">
-Software that requires the user to entering a password or a personal identification number (PIN) can still meet this success criterion. The individual characters of the password or PIN are masked on entry, which may appear to be problematic, as less feedback is given to the user. However, the masking of characters or digits in a password occurs regardless of output; meaning that sighted people have the same experience as screen reader users. In both cases the user still has sufficient feedback to know that they have entered a character, even if they cannot know whether the entire password or PIN was correct until it is complete and submitted. As a result they still have the opportunity to review and correct information (by deleting and re-entering characters). 
-</div>
-
+Software that requires the user to entering a password or a personal identification number (PIN) can still meet this success criterion. The individual characters of the password or PIN are masked on entry, which may appear to be problematic, as less feedback is given to the user. However, the masking of characters or digits in a password occurs regardless of output; meaning that sighted people have the same experience as screen reader users. In both cases the user still has sufficient feedback to know that they have entered a character, even if they cannot know whether the entire password or PIN was correct until it is complete and submitted. As a result they still have the opportunity to review and correct information (by deleting and re-entering characters).</div>
 
 ##### accessible-authentication-enhanced
 
@@ -547,14 +527,11 @@ This applies directly as written, and as described in [Intent from Understanding
 Examples of mechanisms that satisfy this criterion include:
 support for password entry by password managers to reduce memory need, and copy and paste to reduce the cognitive burden of re-typing.</div>
 
-<div class="note wcag2ict"> 
-
+<div class="note wcag2ict">
 Any passwords used to unlock underlying platform software (running below the non-web software) are out of scope for this requirement since these are not under control of the non-web software’s author.</div>
 
 <div class="note wcag2ict>
-
 There are cases where non-web software has an authentication process and no alternative or assistance mechanism is feasible, for example when entering a password when starting, powering on / turning on an ICT (device or otherwise). In such situations, it may not be possible for the non-web software to satisfy this success criterion. </div>
 
 <div class="note wcag2ict>
-
 See also the Comments on Closed Functionality.</div>
