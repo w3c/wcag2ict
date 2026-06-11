@@ -26,6 +26,9 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [2.4.13 Focus Appearance](#focus-appearance)
 - [2.5.5 Target Size (Enhanced)](#target-size-enhanced)
 - [2.5.6 Concurrent Input Mechanisms](#concurrent-input-mechanisms)
+- [3.1.3 Unusual Words](#unusual-words)
+- [3.1.4 Abbreviations](#abbreviations)
+- [3.1.5 Reading Level](#reading-level)
 - [3.2.5 Change on Request](#change-on-request)
 - [3.3.5 Help](#help)
 - [3.3.6 Error Prevention (All)](#error-prevention)
@@ -412,25 +415,41 @@ With these substitutions, it would read:
 This success criterion is problematic to apply directly to non-web documents because not all document formats provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide definitions of words or phrases. Where the non-web document format provides such a mechanism, the non-web document should work with these features to the extent the format provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 
 ###### Applying 3.1.3 Unusual Words to non-web software
+This success criterion applies as written as described in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 
-This success criterion is problematic to apply directly to non-web software because not all platforms provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide definitions of words or phrases. Non-web software needs to work with platform capabilities where they exist, but when the platform does not provide capabilities, it is unreasonable for all apps on a particular platform to build in their own mechanism to provide definitions of words or phrases. Where the platform does provide a suitable mechanism, the non-web software should work with these features to the extent the platform provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
+<div class="note wcag2ict software">
+
+Help is a mechanism for software that can provide definitions of words or phrases. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
+</div>
 
 <div class="note wcag2ict software">
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### abbreviations
 
-###### Applying 3.1.4 Abbreviations to non-web documents and non-web software
+##### Applying SC 3.1.4 Abbreviations to non-web documents 
 
-<div class="ednote">
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/559" target="_blank">Issue 559</a>.</div>
+This success criterion is problematic to apply directly to non-web documents because not all document formats provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide the expanded form or meaning of [abbreviations](https://www.w3.org/TR/WCAG22/#dfn-abbreviations). Where the non-web document format provides such a mechanism, the non-web document should work with these features to the extent the format provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.4](https://w3.org/WAI/WCAG22/Understanding/abbreviations.html#intent).
+
+##### Applying SC 3.1.4 Abbreviations to non-web software
+
+This success criterion applies as written as described in [Intent from Understanding Success Criterion 3.1.4](https://w3.org/WAI/WCAG22/Understanding/abbreviations.html#intent).
+
+<div class="note wcag2ict software">
+
+Help is a mechanism for software that can provide explanations of abbreviations. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.4](https://w3.org/WAI/WCAG22/Understanding/abbreviations.html#intent).
+</div>
 
 ##### reading-level
 
 ###### Applying 3.1.5 Reading Level to non-web documents and non-web software
 
-<div class="ednote">
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/560" target="_blank">Issue 560</a>.</div>
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.5](https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html#intent).
+
+<div class="note wcag2ict software">
+
+Help can be a mechanism for providing [supplemental content](https://www.w3.org/TR/WCAG22/#dfn-supplementary-content).
+</div>
 
 ##### pronunciation
 
