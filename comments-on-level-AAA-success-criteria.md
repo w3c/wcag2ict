@@ -228,6 +228,7 @@ This applies directly as written, and as described in [Intent from Understanding
 ##### interruptions
 
 ###### Applying SC 2.2.4 Interruptions to non-web documents and non-web software
+
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.4](https://www.w3.org/WAI/WCAG22/Understanding/interruptions.html#intent).
 
 ##### re-authenticating
@@ -387,11 +388,17 @@ With these substitutions, it would read:
   <dt>Essential</dt>
     <dd>A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.</dd> 
 </dl>
+
 <div class="note wcag2ict">
+
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
+
 <div class="note wcag2ict documents">
+
 Some non-web document formats are designed for viewing at a wide range of zoom levels provided by the user agent. However, the commonly available user agents for these formats may lack a consistent base zoom level from which to evaluate this criterion. For such documents, evaluate target sizes at a zoom level that aligns with the intended usage of the content.</div>
+
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### concurrent-input-mechanisms
@@ -415,6 +422,7 @@ With these substitutions, it would read:
 This success criterion is problematic to apply directly to non-web documents because not all document formats provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide definitions of words or phrases. Where the non-web document format provides such a mechanism, the non-web document should work with these features to the extent the format provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 
 ###### Applying 3.1.3 Unusual Words to non-web software
+
 This success criterion applies as written as described in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 
 <div class="note wcag2ict software">
@@ -456,6 +464,7 @@ Help can be a mechanism for providing [supplemental content](https://www.w3.org/
 ###### Applying SC 3.1.6 Pronunciation to non-web documents and non-web software
 
 <div class="ednote">
+
 Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/561" target="_blank">Issue 561</a>.</div>
 
 #### 3.2 Predictable
@@ -475,10 +484,15 @@ This applies directly as written, and as described in [Intent from Understanding
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.5](https://www.w3.org/WAI/WCAG22/Understanding/help#intent).
 
 <div class="note wcag2ict">
+
 As noted in [context-sensitive help](#dfn-context-sensitive-help), clear labels or other information provided by the system can act as context-sensitive help.</div>
+
 <div class="note wcag2ict documents">
+
 This success criterion readily applies to player/viewer software application. This success criterion is problematic to apply to static non-web documents. It is possible for some non-web file formats to include interactive elements that are specific to the document and independent of the software used. Examples of non-web documents that can directly support context-sensitive include, but are not limited to, PDF forms, complex spreadsheets, and database source files.</div>
+
 <div class="note wcag2ict software">
+
 See also the Comments on Closed Functionality.</div>
 
 ##### error-prevention
