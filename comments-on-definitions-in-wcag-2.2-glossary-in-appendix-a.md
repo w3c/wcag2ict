@@ -16,9 +16,11 @@ The following glossary items apply to all technologies and do not need further i
 *   audio description
 *   audio-only
 *   blinking
+*   blocks of text
 *   CAPTCHA
 *   captions
 *   conformance
+*   context-sensitive help
 *   correct reading sequence
 *   dragging movements
 *   emergency
@@ -39,11 +41,13 @@ The following glossary items apply to all technologies and do not need further i
 *   mechanism
 *   media alternative for text
 *   minimum bounding box
+*   motion animation
 *   navigated sequentially
 *   non-text content
 *   normative
 *   on a full-screen window
 *   paused
+*   perimeter
 *   pointer input
 *   prerecorded
 *   presentation
@@ -52,36 +56,27 @@ The following glossary items apply to all technologies and do not need further i
 *   programmatically determined link context
 *   pure decoration
 *   real-time event
+*   region
 *   relationships
 *   relied upon (technologies that are)
 *   same relative order
+*   section
 *   sign language
 *   sign language interpretation
 *   single pointer
 *   specific sensory experience
 *   state
 *   status message
+*   supplemental content
 *   synchronized media
 *   text
 *   text alternative
 *   used in an unusual or restricted way
 *   user-controllable
+*   user inactivity
 *   video
 *   video-only
 *   visually customized
-
-### Glossary items used only in Level AAA success criteria
-
-This document does not provide guidance on applying AAA success criteria to non-web ICT, including the following definitions.
-
-*   blocks of text
-*   context-sensitive help
-*   motion animation
-*   perimeter
-*   region
-*   section
-*   supplemental content
-*   user inactivity
 
 ### Glossary items with specific guidance
 

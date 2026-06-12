@@ -2,7 +2,7 @@
 
 ### Background
 
-This document is an update to a W3C [Working Group Note](https://www.w3.org/policies/process/#note-track) to incorporate new guidelines, success criteria, and definitions added in WCAG 2.1 and 2.2. 
+This document is an update to a W3C [Working Group Note](https://www.w3.org/policies/process/#note-track) to incorporate new guidelines, success criteria, and definitions added in WCAG 2.1 and 2.2. The current version also includes Level AAA success criteria.
 
 [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/2013/NOTE-wcag2ict-20130905/), approved in September 2013, described how WCAG 2.0 could be applied to non-web documents and non-web software.  WCAG2ICT was organized to mirror WCAG’s sections: Perceivable, Operable, Understandable, and Robust.  WCAG2ICT clarified when and how WCAG success criteria could be applied to non-web documents and non-web software.  Some were applicable without modification and some were applicable with edits and/or notes.  Glossary terms were also reviewed.  Level AAA success criteria were not addressed in the 2013 WCAG2ICT Working Group Note. 
 
@@ -44,7 +44,7 @@ Sets of non-web software that meet this definition appear to be extremely rare.<
 
 Not all success criteria have been fully adopted in all local standards, regulations, and legislation, and may not be applicable to all technologies.  WCAG2ICT has been used in some standards and regulations to determine whether or not to apply certain success criteria.  Some standards (for example, Section 508 in the U.S., and EN 301 549 in Europe) do not apply WCAG 2 Success Criteria 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification to non-web documents and non-web software.  In addition, EN 301 549 does not apply 2.4.2 Page Titled and 3.1.2 Language of Parts to non-web software.  In contrast, the U.S. Department of Justice [Guidance to Revisions to ADA Title II Regulation on Accessibility of Web Information and Services of State and Local Government Entities, Appendix D to Part 35, Title 28](https://www.ecfr.gov/current/title-28/chapter-I/part-35/appendix-Appendix%20D%20to%20Part%2035), directs implementers to utilize the guidance in WCAG2ICT to determine the applicability of success criteria and how to apply the requirements to mobile applications.  Since WCAG2ICT does not specifically say which criteria can or should apply, those implementing WCAG2ICT should consider the applicability of individual success criteria to non-web documents and non-web software.
 
-The glossary terms in WCAG 2 were also reviewed and most of them applied, as written, to non-web documents and non-web software.  Some applied with additional notes or edits (largely related to phrases like “web page(s)”), and a small number of terms that are only used in Level AAA success criteria.  Level AAA success criteria were not addressed by previous versions of the WCAG2ICT Note.
+The glossary terms in WCAG 2 were also reviewed and most of them applied, as written, to non-web documents and non-web software.  Some applied with additional notes or edits (largely related to phrases like “web page(s)”), and a small number of terms that are only used in Level AAA success criteria.  Level AAA success criteria were not addressed by previous versions of the WCAG2ICT Note but are now included in this version.
 
 ### Excluded from scope
 
