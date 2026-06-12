@@ -147,7 +147,8 @@ Examples of non-web documents that will never be displayed on hardware that is r
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.4](https://www.w3.org/WAI/WCAG22/Understanding/orientation#intent), except for non-web software that will never be displayed on hardware that is reoriented in typical use.
 <div class="note wcag2ict software">
     
-Non-web software that is only used on hardware that supports a single display orientation, or where it is an application that is displayed only on hardware that is physically fixed in one orientation (e.g. a digital building directory) is excluded by the precondition and therefore does not need to provide support for orientation changes.</div>
+Non-web software that is only used on hardware that supports a single display orientation, or where it is an application that is displayed only on hardware that is physically fixed in one orientation (e.g. a digital building directory) falls outside the scope of this requirement and therefore does not need to provide support for orientation changes.
+</div>
 <div class="example wcag2ict software">
 	
 Examples of non-web software that will never be displayed on hardware that is reoriented in typical use include but are not limited to:

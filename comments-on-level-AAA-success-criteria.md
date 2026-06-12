@@ -29,6 +29,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [3.1.3 Unusual Words](#unusual-words)
 - [3.1.4 Abbreviations](#abbreviations)
 - [3.1.5 Reading Level](#reading-level)
+- [3.1.6 Pronunciation](#pronunciation)
 - [3.2.5 Change on Request](#change-on-request)
 - [3.3.5 Help](#help)
 - [3.3.6 Error Prevention (All)](#error-prevention)
@@ -430,10 +431,6 @@ This success criterion applies as written as described in [Intent from Understan
 Help is a mechanism for software that can provide definitions of words or phrases. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 </div>
 
-<div class="note wcag2ict software">
-
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
-
 ##### abbreviations
 
 ##### Applying SC 3.1.4 Abbreviations to non-web documents 
@@ -462,11 +459,18 @@ Help can be a mechanism for providing [supplemental content](https://www.w3.org/
 
 ##### pronunciation
 
-###### Applying SC 3.1.6 Pronunciation to non-web documents and non-web software
+##### Applying SC 3.1.6 Pronunciation to non-web documents 
 
-<div class="ednote">
+This success criterion is problematic to apply directly to non-web documents because not all document formats provide support for a [mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to identify the specific pronunciation of words where meaning of the words, in context, is ambiguous without knowing the pronunciation. Where the non-web document format provides such a mechanism, the non-web document should work with these features to the extent the format provides. Doing so would still address the user needs identified in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
 
-Guidance currently under development by the WCAG2ICT Task Force. See GitHub <a href="https://github.com/w3c/wcag2ict/issues/561" target="_blank">Issue 561</a>.</div>
+##### Applying SC 3.1.6 Pronunciation to non-web software
+
+This success criterion applies as written as described in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
+
+<div class="note wcag2ict software">
+
+Help is a mechanism for software that can provide definitions of words or phrases. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
+</div>
 
 #### 3.2 Predictable
 

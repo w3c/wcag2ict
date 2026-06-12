@@ -2,7 +2,7 @@
 
 ### Background
 
-This document is an update to a W3C [Working Group Note](https://www.w3.org/policies/process/#note-track) to incorporate new guidelines, success criteria, and definitions added in WCAG 2.1 and 2.2. 
+This document is an update to a W3C [Working Group Note](https://www.w3.org/policies/process/#note-track) to incorporate new guidelines, success criteria, and definitions added in WCAG 2.1 and 2.2. The current version also includes Level AAA success criteria.
 
 [Guidance on Applying WCAG 2.0 to Non-Web Information and Communications Technologies (WCAG2ICT)](https://www.w3.org/TR/2013/NOTE-wcag2ict-20130905/), approved in September 2013, described how WCAG 2.0 could be applied to non-web documents and non-web software.  WCAG2ICT was organized to mirror WCAG’s sections: Perceivable, Operable, Understandable, and Robust.  WCAG2ICT clarified when and how WCAG success criteria could be applied to non-web documents and non-web software.  Some were applicable without modification and some were applicable with edits and/or notes.  Glossary terms were also reviewed.  Level AAA success criteria were not addressed in the 2013 WCAG2ICT Working Group Note. 
 
@@ -44,7 +44,7 @@ Sets of non-web software that meet this definition appear to be extremely rare.<
 
 Not all success criteria have been fully adopted in all local standards, regulations, and legislation, and may not be applicable to all technologies.  WCAG2ICT has been used in some standards and regulations to determine whether or not to apply certain success criteria.  Some standards (for example, Section 508 in the U.S., and EN 301 549 in Europe) do not apply WCAG 2 Success Criteria 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification to non-web documents and non-web software.  In addition, EN 301 549 does not apply 2.4.2 Page Titled and 3.1.2 Language of Parts to non-web software.  In contrast, the U.S. Department of Justice [Guidance to Revisions to ADA Title II Regulation on Accessibility of Web Information and Services of State and Local Government Entities, Appendix D to Part 35, Title 28](https://www.ecfr.gov/current/title-28/chapter-I/part-35/appendix-Appendix%20D%20to%20Part%2035), directs implementers to utilize the guidance in WCAG2ICT to determine the applicability of success criteria and how to apply the requirements to mobile applications.  Since WCAG2ICT does not specifically say which criteria can or should apply, those implementing WCAG2ICT should consider the applicability of individual success criteria to non-web documents and non-web software.
 
-The glossary terms in WCAG 2 were also reviewed and most of them applied, as written, to non-web documents and non-web software.  Some applied with additional notes or edits (largely related to phrases like “web page(s)”), and a small number of terms that are only used in Level AAA success criteria.  Level AAA success criteria were not addressed by previous versions of the WCAG2ICT Note.
+The glossary terms in WCAG 2 were also reviewed and most of them applied, as written, to non-web documents and non-web software.  Some applied with additional notes or edits (largely related to phrases like “web page(s)”), and a small number of terms that are only used in Level AAA success criteria.  Level AAA success criteria were not addressed by previous versions of the WCAG2ICT Note but are now included in this version.
 
 ### Excluded from scope
 
@@ -116,6 +116,38 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
   - [Success Criterion 3.2.6 Consistent Help](#consistent-help)
   - [Success Criterion 3.3.7 Redundant Entry](#redundant-entry)
   - [Success Criterion 3.3.8 Accessible Authentication (Minimum)](#accessible-authentication-minimum)
+* WCAG 2.1 and 2.2 Level AAA success criteria:
+  - [1.2.6 Sign Language (Prerecorded)](#sign-language-prerecorded)
+  - [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
+  - [1.2.8 Media Alternative (Prerecorded)](#media-alternative-prerecorded)
+  - [1.2.9 Audio-only (Live)](#audio-only-live)
+  - [1.3.6 Identify Purpose](#identify-purpose)
+  - [1.4.6 Contrast (Enhanced)](#contrast-enhanced)
+  - [1.4.7 Low or No Background Audio](#low-or-no-background-audio)
+  - [1.4.8 Visual Presentation](#visual-presentation)
+  - [1.4.9 Images of Text (No Exception)](#images-of-text-no-exception)
+  - [2.1.3 Keyboard (No Exception)](#keyboard-no-exception)
+  - [2.2.3 No Timing](#no-timing)
+  - [2.2.4 Interruptions](#interruptions)
+  - [2.2.5 Re-authenticating](#re-authenticating)
+  - [2.2.6 Timeouts](#timeouts)
+  - [2.3.2 Three Flashes](#three-flashes)
+  - [2.3.3 Animation from Interactions](#animation-from-interactions)
+  - [2.4.8 Location](#location)
+  - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
+  - [2.4.10 Section Headings](#section-headings)
+  - [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
+  - [2.4.13 Focus Appearance](#focus-appearance)
+  - [2.5.5 Target Size (Enhanced)](#target-size-enhanced)
+  - [2.5.6 Concurrent Input Mechanisms](#concurrent-input-mechanisms)
+  - [3.1.3 Unusual Words](#unusual-words)
+  - [3.1.4 Abbreviations](#abbreviations)
+  - [3.1.5 Reading Level](#reading-level)
+  - [3.1.6 Pronunciation](#pronunciation)
+  - [3.2.5 Change on Request](#change-on-request)
+  - [3.3.5 Help](#help)
+  - [3.3.6 Error Prevention (All)](#error-prevention)
+  - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
 * Obsolete and removed WCAG 2.2 success criteria (and for which errata exist for WCAG 2.0 and 2.1):
   - [Success Criterion 4.1.1 Parsing](#parsing22)
 * New terms from WCAG 2.1 and 2.2:
