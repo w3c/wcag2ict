@@ -431,10 +431,6 @@ This success criterion applies as written as described in [Intent from Understan
 Help is a mechanism for software that can provide definitions of words or phrases. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 </div>
 
-<div class="note wcag2ict software">
-
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
-
 ##### abbreviations
 
 ##### Applying SC 3.1.4 Abbreviations to non-web documents 
