@@ -101,13 +101,6 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ##### audio-only-live
 
-###### Applying SC 1.2.9 Audio-Only (Live) to non-web documents and non-web software
-
-Where a non-web document technology supports incorporation of live audio-only content, this applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.9](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live#intent).
-
-<div class="note wcag2ict documents">
-This success criterion is problematic to apply directly to non-web documents (including audio files) that are then played by live audio players (such as  internet radio players). These live audio players may not currently support displaying captions, captions may pose a risk if used in vehicles,  and so captioning may not be suitable in all cases.</div>
-
 ###### Applying SC 1.2.9 Audio-Only (Live) to non-web software
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.9](https://www.w3.org/WAI/WCAG22/Understanding/audio-only-live#intent).
