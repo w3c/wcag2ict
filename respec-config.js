@@ -33,13 +33,7 @@ var respecConfig = {
 	edDraftURI: "https://w3c.github.io/wcag2ict/",
 	
 	editors: [
-		{
-			name: "Mary Jo Mueller",
-			mailto: "maryjom@us.ibm.com",
-			company: "IBM",
-			companyURI: "https://www.ibm.com/",
-			w3cid: 46880,
-		},
+		
 		{
 			name: "Phil Day",
 			mailto: "phil.day@ncratleos.com",
@@ -48,11 +42,25 @@ var respecConfig = {
 			w3cid: 139781,
 		},
 		{
+			name: "Mary Jo Mueller",
+			mailto: "maryjom@us.ibm.com",
+			company: "IBM",
+			companyURI: "https://www.ibm.com/",
+			w3cid: 46880,
+		},
+		{
 			name: "Daniel Montalvo",
 			mailto: "dmontalvo@w3.org",
 			company: "W3C",
 			companyURI: "https://www.w3.org/",
 			w3cid: 114058,
+		},
+		{
+			name: "Laura Miller",
+			mailto: "laura.b.miller@gsa.gov",
+			company: "US General Services Administration",
+			companyURI: "https://www.gsa.gov",
+			w3cid: 133616,
 		}
 	],
 	
