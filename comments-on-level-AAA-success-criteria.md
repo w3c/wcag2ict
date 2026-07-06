@@ -186,6 +186,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.9](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html#intent).
 
 <div class="note wcag2ict">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ### 2. Operable
