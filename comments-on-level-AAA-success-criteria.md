@@ -312,6 +312,7 @@ This applies directly as written, and as described in [Intent from Understanding
 In non-web documents or non-web software, a “link” is any user interface control that behaves like a hypertext link.</div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### section-headings
