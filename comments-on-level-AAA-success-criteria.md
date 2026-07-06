@@ -109,9 +109,12 @@ This applies directly as written, and as described in [Intent from Understanding
 Some ways to satisfy this success criterion would be to provide live captions (also known as subtitles or “subtitles for the hearing impaired") or a text transcript, script, or other text-based alternative.</div>
 
 <div class="note wcag2ict software">
-When captions are provided, to satisfy this success criterion, they would have to provide a "synchronized [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+
+When captions are provided, to satisfy this success criterion, they would have to provide a "synchronized [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.
+</div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 1.3 Adaptable
