@@ -243,6 +243,7 @@ This applies directly as written, and as described in [Intent from Understanding
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.5](https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html#intent).
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### timeouts
