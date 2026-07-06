@@ -338,6 +338,7 @@ This applies directly as written, and as described in [Intent from Understanding
 This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### focus-appearance
