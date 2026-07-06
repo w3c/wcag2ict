@@ -398,7 +398,9 @@ With these substitutions, it would read:
   <dt>User Agent Control</dt>
     <dd>The size of the target is determined by the <INS>**[user agent or platform software]**</INS> and is not modified by the author;</dd>
   <dt>Essential</dt>
-    <dd>A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.</dd> 
+    <dd>
+    A particular presentation of the target is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> to the information being conveyed.
+    </dd> 
 </dl>
 
 <div class="note wcag2ict">
