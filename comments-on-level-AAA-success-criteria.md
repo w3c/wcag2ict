@@ -151,6 +151,7 @@ This applies directly as written, and as described in [Intent from Understanding
 This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope.</div>
 
 <div class="note wcag2ict">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### low-or-no-background-audio
