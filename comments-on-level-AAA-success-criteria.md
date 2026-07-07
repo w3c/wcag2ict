@@ -109,9 +109,12 @@ This applies directly as written, and as described in [Intent from Understanding
 Some ways to satisfy this success criterion would be to provide live captions (also known as subtitles or “subtitles for the hearing impaired") or a text transcript, script, or other text-based alternative.</div>
 
 <div class="note wcag2ict software">
-When captions are provided, to satisfy this success criterion, they would have to provide a "synchronized [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.</div>
+
+When captions are provided, to satisfy this success criterion, they would have to provide a "synchronized [text alternative](https://www.w3.org/TR/WCAG22/#dfn-text-alternative) for both speech and non-speech audio information needed to understand the media content” where non-speech information includes “sound effects, music, laughter, speaker identification and location”.
+</div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 1.3 Adaptable
@@ -123,6 +126,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.3.6](https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html#intent).
 
 <div class="note wcag2ict">
+
 This success criterion only applies to **[non-web documents](#document)** and **[non-web software](#software)** that are implemented using markup languages, and that support programmatically exposing the purpose of user interface components, icons and regions.</div>
 
 <div class="note wcag2ict software">
@@ -132,6 +136,7 @@ This success criterion only applies to **[non-web documents](#document)** and **
 The WCAG2ICT working group also notes that as a Level AAA provision which is essentially a recommendation, this need not be limited to markup languages. If being considered for a requirement then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.</div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 1.4 Distinguishable
@@ -146,6 +151,7 @@ This applies directly as written, and as described in [Intent from Understanding
 This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope.</div>
 
 <div class="note wcag2ict">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### low-or-no-background-audio
@@ -163,12 +169,15 @@ This applies directly as written, and as described in Intent from Understanding 
 With these substitutions, the notes would read:
 
 <div class="note wcag2ict">
+
 Content is not required to use these values. The requirement is that a mechanism is available for users to change these presentation aspects. The mechanism can be provided by the <INS>[**[user agent](#user-agent), [platform software](#platform-software), or other [non-web software](#software)**]</INS>. Content is not required to provide the mechanism.</div>
 
 <div class="note wcag2ict">Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and can conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.</div>
 
 <div class="note wcag2ict">
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### images-of-text-no-exception
 
@@ -177,6 +186,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.9](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text-no-exception.html#intent).
 
 <div class="note wcag2ict">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ### 2. Operable
@@ -209,6 +219,7 @@ This success criterion does not imply that non-web software always needs to dire
 This success criterion also does not imply that non-web software always needs to provide its own virtual keyboard. But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.</div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 2.2 Enough Time
@@ -232,6 +243,7 @@ This applies directly as written, and as described in [Intent from Understanding
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.5](https://www.w3.org/WAI/WCAG22/Understanding/re-authenticating.html#intent).
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### timeouts
@@ -300,6 +312,7 @@ This applies directly as written, and as described in [Intent from Understanding
 In non-web documents or non-web software, a “link” is any user interface control that behaves like a hypertext link.</div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### section-headings
@@ -312,6 +325,7 @@ This applies directly as written, and as described in [Intent from Understanding
 In non-web software, headings and labels are used to describe sections of content and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### focus-not-obscured-enhanced
@@ -324,6 +338,7 @@ This applies directly as written, and as described in [Intent from Understanding
 This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 ##### focus-appearance
@@ -343,12 +358,14 @@ Exceptions:
 - The focus indicator and the indicator's background color are not modified by the author.
 
 <div class="note wcag2ict">
+
 What is perceived as the user interface component or sub-component (to determine enclosure or size) depends on its visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation). The visual presentation includes the component's visible [content](https://www.w3.org/TR/WCAG22/#dfn-content), border, and component-specific background. It does not include shadow and glow effects outside the component's content, background, or border.</div>
 
 <div class="note wcag2ict">
 Examples of sub-components that may receive a focus indicator are menu items in an opened drop-down menu, or focusable cells in a grid.</div>
 
 <div class="note wcag2ict">
+
 Contrast calculations can be based on colors defined within the [technology](https://www.w3.org/TR/WCAG22/#dfn-technologies) (such as HTML, CSS and SVG). Pixels modified by **[user agent or platform software]** resolution enhancements and anti-aliasing can be ignored.</div>
 
 <div class="note wcag2ict">
@@ -358,6 +375,7 @@ In technologies where CSS is not used, the definition of 'CSS pixel' applies as 
 This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
 
 <div class="note wcag2ict software">
+
 See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
 
 #### 2.5 Input Modalities
@@ -380,7 +398,9 @@ With these substitutions, it would read:
   <dt>User Agent Control</dt>
     <dd>The size of the target is determined by the <INS>**[user agent or platform software]**</INS> and is not modified by the author;</dd>
   <dt>Essential</dt>
-    <dd>A particular presentation of the target is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential) to the information being conveyed.</dd> 
+    <dd>
+    A particular presentation of the target is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> to the information being conveyed.
+    </dd> 
 </dl>
 
 <div class="note wcag2ict">
