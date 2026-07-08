@@ -1005,7 +1005,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 3.2.6 Consistent Help to non-web documents and non-web software
 
-This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "web page(s)" and "page(s)" with "non-web document(s) or non-web software program(s)", "set of web pages" with "set of non-web documents or set of non-web software programs", "page content" with "content", "on the page" with "in the non-web document or non-web software", "page is serialized" with "non-web document or non-web software content is serialized", "different page" with "different non-web document, non-web software", and "page variation" with "content layout variation".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "web page(s)" and "page(s)" with "non-web document(s) or non-web software program(s)", "set of web pages" with "set of non-web documents or set of non-web software programs", "page content" with "content", "on the page" with "in the non-web document or non-web software", "page is serialized" with "non-web document or non-web software content is serialized", "different page" with "different non-web document, non-web software", and "page variation" with "content layout variation".
 
 With these substitutions, it would read:
 
