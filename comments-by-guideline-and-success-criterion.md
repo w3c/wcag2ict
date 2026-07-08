@@ -943,7 +943,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.2.3 Consistent Navigation to non-web documents 
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web documents within a set of non-web documents”.
+This applies directly as written, and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web documents within a set of non-web documents”.
 
 With these substitutions, it would read:
 
