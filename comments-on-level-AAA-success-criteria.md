@@ -437,7 +437,7 @@ This success criterion is problematic to apply directly to non-web documents bec
 
 ###### Applying 3.1.3 Unusual Words to non-web software
 
-This success criterion applies as written as described in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
+This success criterion applies as written, as described in [Intent from Understanding Success Criterion 3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 
 <div class="note wcag2ict software">
 
