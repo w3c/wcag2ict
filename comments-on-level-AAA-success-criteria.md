@@ -452,7 +452,7 @@ This success criterion is problematic to apply directly to non-web documents bec
 
 ##### Applying SC 3.1.4 Abbreviations to non-web software
 
-This success criterion applies as written as described in [Intent from Understanding Success Criterion 3.1.4](https://w3.org/WAI/WCAG22/Understanding/abbreviations.html#intent).
+This success criterion applies as written, as described in [Intent from Understanding Success Criterion 3.1.4](https://w3.org/WAI/WCAG22/Understanding/abbreviations.html#intent).
 
 <div class="note wcag2ict software">
 
