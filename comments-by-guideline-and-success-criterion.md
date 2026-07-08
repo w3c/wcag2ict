@@ -638,7 +638,7 @@ With this substitution, it would read:
 
 ###### Applying SC 2.4.4 Link Purpose (In Context) to non-web documents and non-web software
 
-This applies directly as written and as described in [Intent from Understanding Success Criterion 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context#intent).
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context#intent).
 
 <div class="note wcag2ict">
     
