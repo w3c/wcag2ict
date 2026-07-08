@@ -959,7 +959,7 @@ Although not required by this success criterion, ensuring that navigation elemen
 
 ###### Applying SC 3.2.3 Consistent Navigation to non-web software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web software programs within a set of non-web software programs”.
+This applies directly as written, and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web software programs within a set of non-web software programs”.
 
 With these substitutions, it would read:
 
