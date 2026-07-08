@@ -982,7 +982,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 3.2.4 Consistent Identification to non-web documents and non-web software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents" or "set of non-web software programs”.
+This applies directly as written, and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents" or "set of non-web software programs”.
 
 With these substitutions, it would read:
 
