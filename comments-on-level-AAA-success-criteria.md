@@ -478,7 +478,7 @@ This success criterion is problematic to apply directly to non-web documents bec
 
 ##### Applying SC 3.1.6 Pronunciation to non-web software
 
-This success criterion applies as written as described in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
+This success criterion applies as written, as described in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
 
 <div class="note wcag2ict software">
 
