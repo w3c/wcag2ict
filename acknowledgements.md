@@ -9,7 +9,7 @@
 * Laura Miller (US General Services Administration)
 * Daniel Montalvo (W3C Staff)
 * Mary Jo Mueller (IBM Corporation)
-* Mike Pluke (Invited Expert)
+* Sam Ogami (Invited Expert)
 * Gregg Vanderheiden (W3C Invited Expert)
 
 ### Participants in the AG Working Group that actively reviewed and contributed
@@ -52,7 +52,6 @@ WCAG2ICT Task Force participants are also in the AG working group, but are not r
 * Devanshu Chandra (Deque Systems, Inc.)
 * Mitchell Evan (TPGi)
 * Thorsten Katzmann (IBM Corporation)
-* Sam Ogami (Invited Expert)
 * Jennifer Strickland (MITRE Corporation)
 * Shawn Thompson (Shared Services Canada)
 * Bryan Trogdon (Google LLC)
@@ -60,7 +59,7 @@ WCAG2ICT Task Force participants are also in the AG working group, but are not r
 ### Previous contributors
 The following people contributed to the development of the WCAG2ICT Note:
 
-Charles Adams, Matthew Atkinson, Fernanda Bonnin, Judy Brewer, Devanshu Chandra, Michael Cooper, Mitchell Evan, Anastasia Lanz, Janina Sajka, Olivia Hogan-Stark, Thorsten Katzmann, Chris Loiselle, Sam Ogami, Shawn Thompson, Jason White
+Charles Adams, Matthew Atkinson, Fernanda Bonnin, Judy Brewer, Devanshu Chandra, Michael Cooper, Mitchell Evan, Anastasia Lanz, Janina Sajka, Olivia Hogan-Stark, Thorsten Katzmann, Chris Loiselle, Sam Ogami, Mike Pluke, Shawn Thompson, Jason White
 
 ### Enabling funders
 
