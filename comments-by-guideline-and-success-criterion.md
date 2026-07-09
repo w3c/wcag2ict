@@ -313,7 +313,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.11 Non-text Contrast to non-web documents and non-web software
 
-This applies directly as written and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or other platform software".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.11](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#intent), replacing "user agent" with "user agent or other platform software".
 
 With this substitution, it would read:
 
@@ -338,7 +338,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 1.4.12 Text Spacing to non-web documents and non-web software
 
-This applies directly as  written and as described in [Intent from Understanding Success Criterion 1.4.12](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent). 
+This applies directly as  written, and as described in [Intent from Understanding Success Criterion 1.4.12](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#intent). 
 
 <div class="note wcag2ict">
 
@@ -582,7 +582,7 @@ In WCAG 2, the guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.4.1 Bypass Blocks to non-web documents and non-web software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “on multiple web pages” with “in multiple non-web documents in a set of non-web documents", or "in multiple non-web software programs in a set of non-web software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.1](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks#intent), replacing “on multiple web pages” with “in multiple non-web documents in a set of non-web documents", or "in multiple non-web software programs in a set of non-web software programs” to explicitly state that the multiple documents (or software programs) are part of a set rather than any two documents or pieces of software.
 
 With these substitutions, this success criterion would read:
 
@@ -638,7 +638,7 @@ With this substitution, it would read:
 
 ###### Applying SC 2.4.4 Link Purpose (In Context) to non-web documents and non-web software
 
-This applies directly as written and as described in [Intent from Understanding Success Criterion 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context#intent).
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context#intent).
 
 <div class="note wcag2ict">
     
@@ -652,7 +652,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 2.4.5 Multiple Ways to non-web documents and non-web software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents", or "a set of non-web software programs within a set of non-web software programs” and "the web page" with "the non-web document" or "the non-web software program".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents", or "a set of non-web software programs within a set of non-web software programs” and "the web page" with "the non-web document" or "the non-web software program".
 
 With these substitutions, this success criterion would read:
 
@@ -943,7 +943,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.2.3 Consistent Navigation to non-web documents 
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web documents within a set of non-web documents”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web documents within a set of non-web documents”.
 
 With these substitutions, it would read:
 
@@ -959,7 +959,7 @@ Although not required by this success criterion, ensuring that navigation elemen
 
 ###### Applying SC 3.2.3 Consistent Navigation to non-web software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web software programs within a set of non-web software programs”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.3](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation#intent), replacing "on multiple web pages within a set of web pages" with "in multiple non-web software programs within a set of non-web software programs”.
 
 With these substitutions, it would read:
 
@@ -982,7 +982,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 3.2.4 Consistent Identification to non-web documents and non-web software
 
-This applies directly as written and described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents" or "set of non-web software programs”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents" or "set of non-web software programs”.
 
 With these substitutions, it would read:
 
@@ -1005,7 +1005,7 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 
 ###### Applying SC 3.2.6 Consistent Help to non-web documents and non-web software
 
-This applies directly as written and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "web page(s)" and "page(s)" with "non-web document(s) or non-web software program(s)", "set of web pages" with "set of non-web documents or set of non-web software programs", "page content" with "content", "on the page" with "in the non-web document or non-web software", "page is serialized" with "non-web document or non-web software content is serialized", "different page" with "different non-web document, non-web software", and "page variation" with "content layout variation".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.6](https://www.w3.org/WAI/WCAG22/Understanding/consistent-help#intent), replacing "web page(s)" and "page(s)" with "non-web document(s) or non-web software program(s)", "set of web pages" with "set of non-web documents or set of non-web software programs", "page content" with "content", "on the page" with "in the non-web document or non-web software", "page is serialized" with "non-web document or non-web software content is serialized", "different page" with "different non-web document, non-web software", and "page variation" with "content layout variation".
 
 With these substitutions, it would read:
 
