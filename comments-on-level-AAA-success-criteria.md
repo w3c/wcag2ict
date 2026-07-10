@@ -148,11 +148,27 @@ See also the [Comments on Closed Functionality](#comments-on-closed-functionalit
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.6](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced#intent). 
 
 <div class="note wcag2ict">
-This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope.</div>
+This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope.
+</div>
 
 <div class="note wcag2ict">
+It may be more difficult to meet this success criterion when the author of the non-web software or non-web document can only modify the appearance of content within a limited contrast range determined by hardware or platform.
+</div>
 
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+<div class="note wcag2ict">
+When the contrast of the content is determined by the hardware and not modifiable by the author of the non-web software or non-web document, it may not be possible to meet this success criterion.
+</div>
+
+<div class="note wcag2ict">
+Contrast requirements for hardware are out of scope for WCAG2ICT (and this success criterion). </div>
+
+<div class="note wcag2ict">
+When the color contrast ratio cannot be programmatically measured due to system limitations (e.g. lockdown), precise quantifiable testing of color contrast cannot be performed by a third party. In such cases, the author of the non-web software or non-web document would need to confirm that the color combinations used meet the contrast requirement.
+</div>
+
+<div class="note wcag2ict">
+Photographs (e.g., of a hardware display) are not sufficient for testing that content meets this success criterion. This is because the quality of the lighting, camera, and physical aspects of the hardware display can dramatically affect the ability to capture the content for testing purposes.
+</div>
 
 ##### low-or-no-background-audio
 
