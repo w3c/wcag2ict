@@ -347,12 +347,32 @@ With this substitution, it would read:
 </dl>
 
 <div class="note wcag2ict">
-    
-An example of appearance modification by the author is content that sets the visual style of a control, such as a color or border, to differ from the default style for the user agent or platform.</div>
+An example of appearance modification by the author is content that sets the visual style of a control, such as a color or border, to differ from the default style for the user agent or platform.
+</div>
 
-<div class="note wcag2ict software">
-    
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+<div class="note wcag2ict">
+NOTE 
+This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope.</div>
+
+<div class="note wcag2ict">
+It may be more difficult to meet this success criterion when the author of the non-web software or non-web document can only modify the appearance of content within a limited contrast range determined by hardware or platform.
+</div>
+
+<div class="note wcag2ict">
+When the contrast of the content is determined by the hardware and not modifiable by the author of the non-web software or non-web document, it may not be possible to meet this success criterion.
+</div>
+
+<div class="note wcag2ict">
+Contrast requirements for hardware are out of scope for WCAG2ICT (and this success criterion).
+</div>
+
+<div class="note wcag2ict">
+When the color contrast ratio cannot be programmatically measured due to system limitations (e.g. lockdown), precise quantifiable testing of color contrast cannot be performed by a third party. In such cases, the author of the non-web software or non-web document would need to confirm that the color combinations used meet the contrast requirement.
+</div>
+
+<div class="note wcag2ict">
+Photographs are not sufficient for testing that content meets this success criterion.  This is because the quality of the lighting, camera, and physical aspects of the hardware display can dramatically affect the ability to capture the content for testing purposes.
+</div>
 
 ##### text-spacing
 
