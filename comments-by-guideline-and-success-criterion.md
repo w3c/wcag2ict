@@ -351,7 +351,6 @@ An example of appearance modification by the author is content that sets the vis
 </div>
 
 <div class="note wcag2ict">
-NOTE 
 This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope.</div>
 
 <div class="note wcag2ict">
