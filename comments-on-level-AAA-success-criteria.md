@@ -389,6 +389,7 @@ Examples of sub-components that may receive a focus indicator are menu items in 
 Contrast calculations can be based on colors defined within the [technology](https://www.w3.org/TR/WCAG22/#dfn-technologies) (such as HTML, CSS and SVG). Pixels modified by **[user agent or platform software]** resolution enhancements and anti-aliasing can be ignored.</div>
 
 <div class="note wcag2ict">
+
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
 
 <div class="note wcag2ict software">
