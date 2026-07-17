@@ -32,7 +32,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [3.1.6 Pronunciation](#pronunciation)
 - [3.2.5 Change on Request](#change-on-request)
 - [3.3.5 Help](#help)
-- [3.3.6 Error Prevention (All)](#error-prevention)
+- [3.3.6 Error Prevention (All)](#error-prevention-all)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
@@ -534,7 +534,7 @@ This success criterion readily applies to player/viewer software application. Th
 
 See also the Comments on Closed Functionality.</div>
 
-##### error-prevention
+##### error-prevention-all
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
 
@@ -542,7 +542,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-For <ins>[non-web documents](#document) and [non-web software](#software)</ins> <del>[Web pages](https://www.w3.org/TR/WCAG22/#dfn-web-page-s)</del> that require the user to submit information, at least one of the following is true:
+For <ins>[non-web documents](#document) and [non-web software](#software)</ins> that require the user to submit information, at least one of the following is true:
 
 <dl>
   <dt>Reversible</dt>
