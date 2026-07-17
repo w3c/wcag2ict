@@ -32,7 +32,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [3.1.6 Pronunciation](#pronunciation)
 - [3.2.5 Change on Request](#change-on-request)
 - [3.3.5 Help](#help)
-- [3.3.6 Error Prevention (All)](#error-prevention)
+- [3.3.6 Error Prevention (All)](#error-prevention-all)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
 
 The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
@@ -176,11 +176,12 @@ Photographs (e.g., of a hardware display) are not sufficient for testing that co
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.7](https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html#intent).
 
+
 ##### visual-presentation
 
 ###### Applying SC 1.4.8 Visual Presentation to non-web documents and non-web software
 
-This applies directly as written, and as described in Intent from Understanding Success Criterion 1.4.8, replacing “browser or other user agent” with “user agent, platform software, or other non-web software” in Note 1.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.8](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation#intent), replacing “browser or other user agent” with “user agent, platform software, or other non-web software” in Note 1.
 
 With these substitutions, the notes would read:
 
@@ -307,7 +308,9 @@ With these substitutions, it would read:
 **2.4.8 Location:** Information about the user's location within a <INS>[**[set of non-web documents](#set-of-documents)** or a **[set of non-web software programs](https://www.w3.org/TR/WCAG22/#dfn-set-of-software-programs)**]</INS> is available.
 
 <div class="note wcag2ict">
-See [set of documents](https://www.w3.org/TR/wcag2ict-22/#set-of-documents) and [set of software programs](https://www.w3.org/TR/wcag2ict-22/#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and non-web software. See the [Interpretation of Web Terminology in a Non-web Context](https://www.w3.org/TR/wcag2ict-22/#interpretation-of-web-terminology-in-a-non-web-context).</div>
+
+See [set of documents](https://www.w3.org/TR/wcag2ict-22/#set-of-documents) and [set of software programs](https://www.w3.org/TR/wcag2ict-22/#set-of-software-programs) in the Key Terms section to determine when a group of documents or software programs is considered a set for this success criterion. Those implementing this document (WCAG2ICT) will need to consider if this success criterion is appropriate to apply to non-web documents and non-web software. See the [Interpretation of Web Terminology in a Non-web Context](https://www.w3.org/TR/wcag2ict-22/#interpretation-of-web-terminology-in-a-non-web-context).
+</div>
 
 <div class="note wcag2ict">
 The accessibility barrier this SC addresses for websites is extremely unlikely in the context of non-web documents and non-web software.</div>
@@ -316,7 +319,9 @@ The accessibility barrier this SC addresses for websites is extremely unlikely i
 Sets of software that meet this definition appear to be extremely rare.</div>
 
 <div class="note wcag2ict software">
-See also the [Comments on Closed Functionality](#comments-on-closed-functionality).</div>
+
+See also the [Comments on Closed Functionality](#comments-on-closed-functionality).
+</div>
 
 ##### link-purpose-link-only
 
@@ -385,6 +390,7 @@ Examples of sub-components that may receive a focus indicator are menu items in 
 Contrast calculations can be based on colors defined within the [technology](https://www.w3.org/TR/WCAG22/#dfn-technologies) (such as HTML, CSS and SVG). Pixels modified by **[user agent or platform software]** resolution enhancements and anti-aliasing can be ignored.</div>
 
 <div class="note wcag2ict">
+
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
 
 <div class="note wcag2ict software">
@@ -523,13 +529,13 @@ As noted in [context-sensitive help](https://www.w3.org/TR/WCAG22/#dfn-context-s
 
 <div class="note wcag2ict documents">
 
-This success criterion readily applies to player/viewer software application. This success criterion is problematic to apply to static non-web documents. It is possible for some non-web file formats to include interactive elements that are specific to the document and independent of the software used. Examples of non-web documents that can directly support context-sensitive include, but are not limited to, PDF forms, complex spreadsheets, and database source files.</div>
+This success criterion readily applies to player/viewer software application. This success criterion is problematic to apply to static non-web documents. It is possible for some non-web file formats to include interactive elements that are specific to the document and independent of the software used. Examples of non-web documents that can directly support context-sensitive help include, but are not limited to, PDF forms, complex spreadsheets, and database source files.</div>
 
 <div class="note wcag2ict software">
 
 See also the Comments on Closed Functionality.</div>
 
-##### error-prevention
+##### error-prevention-all
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
 
@@ -537,7 +543,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-For <ins>[non-web documents](#document) and [non-web software](#software)</ins> <del>[Web pages](https://www.w3.org/TR/WCAG22/#dfn-web-page-s)</del> that require the user to submit information, at least one of the following is true:
+For <ins>[non-web documents](#document) and [non-web software](#software)</ins> that require the user to submit information, at least one of the following is true:
 
 <dl>
   <dt>Reversible</dt>
@@ -563,8 +569,8 @@ support for password entry by password managers to reduce memory need, and copy 
 <div class="note wcag2ict">
 Any passwords used to unlock underlying platform software (running below the non-web software) are out of scope for this requirement since these are not under control of the non-web software’s author.</div>
 
-<div class="note wcag2ict>
+<div class="note wcag2ict">
 There are cases where non-web software has an authentication process and no alternative or assistance mechanism is feasible, for example when entering a password when starting, powering on / turning on an ICT (device or otherwise). In such situations, it may not be possible for the non-web software to satisfy this success criterion. </div>
 
-<div class="note wcag2ict>
+<div class="note wcag2ict">
 See also the Comments on Closed Functionality.</div>
