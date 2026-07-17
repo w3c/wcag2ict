@@ -176,11 +176,12 @@ Photographs (e.g., of a hardware display) are not sufficient for testing that co
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.7](https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html#intent).
 
+
 ##### visual-presentation
 
 ###### Applying SC 1.4.8 Visual Presentation to non-web documents and non-web software
 
-This applies directly as written, and as described in Intent from Understanding Success Criterion 1.4.8, replacing “browser or other user agent” with “user agent, platform software, or other non-web software” in Note 1.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.8](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation#intent), replacing “browser or other user agent” with “user agent, platform software, or other non-web software” in Note 1.
 
 With these substitutions, the notes would read:
 
