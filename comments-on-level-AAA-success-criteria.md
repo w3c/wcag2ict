@@ -569,8 +569,8 @@ support for password entry by password managers to reduce memory need, and copy 
 <div class="note wcag2ict">
 Any passwords used to unlock underlying platform software (running below the non-web software) are out of scope for this requirement since these are not under control of the non-web software’s author.</div>
 
-<div class="note wcag2ict>
+<div class="note wcag2ict">
 There are cases where non-web software has an authentication process and no alternative or assistance mechanism is feasible, for example when entering a password when starting, powering on / turning on an ICT (device or otherwise). In such situations, it may not be possible for the non-web software to satisfy this success criterion. </div>
 
-<div class="note wcag2ict>
+<div class="note wcag2ict">
 See also the Comments on Closed Functionality.</div>
