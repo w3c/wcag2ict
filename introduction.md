@@ -146,7 +146,7 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
   - [3.1.6 Pronunciation](#pronunciation)
   - [3.2.5 Change on Request](#change-on-request)
   - [3.3.5 Help](#help)
-  - [3.3.6 Error Prevention (All)](#error-prevention)
+  - [3.3.6 Error Prevention (All)](#error-prevention-all)
   - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
 * Obsolete and removed WCAG 2.2 success criteria (and for which errata exist for WCAG 2.0 and 2.1):
   - [Success Criterion 4.1.1 Parsing](#parsing22)
