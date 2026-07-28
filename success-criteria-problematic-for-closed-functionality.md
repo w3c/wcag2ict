@@ -14,7 +14,7 @@ For non-web software on ICT with closed functionality, those who implement this 
 Depends upon text (or a text alternative) being in a programmatically
 determinable form.
 
-### [1.2.1 Pre-recorded video](#audio-only-and-video-only-prerecorded) {#problematic-for-closed-audio-only-and-video-only-prerecorded}
+### [1.2.1 Audio-only and video-only (pre-recorded)](#audio-only-and-video-only-prerecorded) {#problematic-for-closed-audio-only-and-video-only-prerecorded}
 
 One of the options available to authors for Success Criterion 1.2.1 is
 providing a media alternative that is text which, in the absence of
@@ -28,7 +28,7 @@ providing a media alternative that is text which, in the absence of
 connected assistive technology, would need to be made available in
 different modalities.
 
-### [1.3.1 Info and Relationships](#info-and-relationships) {#probematic-for-closed-info-and-relationships}
+### [1.3.1 Info and Relationships](#info-and-relationships) {#problematic-for-closed-info-and-relationships}
 
 Requires that information be in a programmatically determinable form or
 in text (that is programmatically determinable).
@@ -81,7 +81,7 @@ text rendering support than the support found in user agents for the
 web. As a result, meeting Success Criterion 1.4.4 in a closed
 environment may place a much heavier burden on the content author.
 
-### [1.4.5 Images of Text](#images-of-text) {##problematic-for-closed-images-of-text}
+### [1.4.5 Images of Text](#images-of-text) {#problematic-for-closed-images-of-text}
 
 To enable assistive technology to modify displayed text (e.g., adjusting
 contrast, increasing font size), machine-readable text is needed, as
@@ -340,7 +340,7 @@ for ICT with closed functionality:
   WCAG 2.2 removed it as a requirement, so this success criterion is not
   applicable.
 
-### [4.1.2 Name, Role, Value](#name-role-value) {#problematic-for-cllosed-name-role-value}
+### [4.1.2 Name, Role, Value](#name-role-value) {#problematic-for-closed-name-role-value}
 
 Requires information in a programmatically determinable form.
 
@@ -433,7 +433,7 @@ in a programmatically determinable form.
 
 Requires information in a programmatically determinable form.
 
-### [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced) {#problematic-forc-closed-focus-not-obscured}
+### [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced) {#problematic-for-closed-focus-not-obscured}
 
 Presumes that there is a mode of operation where focus can be moved and
 controlled by keyboard. Some ICT with closed functionality may offer
