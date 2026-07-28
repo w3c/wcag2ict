@@ -278,11 +278,11 @@ function addHeadingIds() {
 }
 function removeNumbering() {
     // Select all headings, tocItems, and elements with an aria-label attribute in the document
-    var elements = document.querySelectorAll('h2, h3, h4, h5, h6');
+    var elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
     // Iterate over each element
     elements.forEach(element => {
         // Use regex to remove numbering from the text
-        element.firstChild.textContent = "";
+        element.textContent = element.textContent.replace(/^[0-9.]+\s*/, '');
         if (element.nextElementSibling.hasAttribute("aria-label")) {
             element.nextSibling.setAttribute("aria-label", "Permalink for Section " + element.textContent);
         }
