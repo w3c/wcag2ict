@@ -69,7 +69,7 @@ Audio descriptions (also called "video descriptions", "descriptive narration", a
 	
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#audio-description-or-media-alternative-prerecorded).</div>
+See also the [Comments on Closed Functionality](#problematic-for-closed-audio-description-or-media-alternative-prerecorded).</div>
 
 ##### captions-live
 
