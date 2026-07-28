@@ -21,7 +21,7 @@ providing a media alternative that is text which, in the absence of
 connected assistive technology, would need to be made available in
 different modalities.
 
-### [1.2.3 Audio description or Media Alternative](#audio-description-or- media-alternative-prerecorded) {#problematic-for-closed-audio-description-or- media-alternative-prerecorded}
+### [1.2.3 Audio description or Media Alternative](#audio-description-or-media-alternative-prerecorded) {#problematic-for-closed-audio-description-or-media-alternative-prerecorded}
 
 One of the options available to authors for Success Criterion 1.2.3 is
 providing a media alternative that is text which, in the absence of
