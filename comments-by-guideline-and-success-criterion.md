@@ -1218,7 +1218,7 @@ Examples of markup that might be separately exposed and available to assistive t
 * Markdown documents</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-parsing21
+See also the [Comments on Closed Functionality](#problematic-for-closed-parsing21).</div>
 
 ##### parsing22
 
