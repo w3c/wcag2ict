@@ -9,12 +9,12 @@ Other success criteria would apply to ICT with closed functionality either if th
 
 For non-web software on ICT with closed functionality, those who implement this document (WCAG2ICT) should consider the applicability of individual WCAG 2 success criteria on a criterion-by-criterion basis. Alternate accessibility provisions might be needed to cover the user needs addressed by the following Level A and AA success criteria:
 
-### [1.1.1 Non-text Content](#non-text-content) {problematic-for-closed-non-text-content}
+### [1.1.1 Non-text Content](#non-text-content) {#problematic-for-closed-non-text-content}
 
 Depends upon text (or a text alternative) being in a programmatically
 determinable form.
 
-### [1.2.1 Pre-recorded video](#audio-only-and-video-only-prerecorded) {problematic-for-closed-audio-only-and-video-only-prerecorded}
+### [1.2.1 Pre-recorded video](#audio-only-and-video-only-prerecorded) {#problematic-for-closed-audio-only-and-video-only-prerecorded}
 
 One of the options available to authors for Success Criterion 1.2.1 is
 providing a media alternative that is text which, in the absence of
