@@ -26,7 +26,7 @@ This applies directly as written, and as described in [Intent from Understanding
 CAPTCHAs do not currently appear outside of the web. However, if they do appear, this guidance is accurate.</div>
 <div class="note wcag2ict software">
 
-For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, non-text content](#problematic-for-closed-non-text-content).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Non-text Content](#problematic-for-closed-non-text-content).</div>
 
 #### time-based-media
 
@@ -45,7 +45,7 @@ This applies directly as written, and as described in [Intent from Understanding
 The alternative can be provided directly in the [non-web document](#document) or [non-web software](#software) – or provided in an alternate version that satisfies the success criterion.</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-audio-only-and-video-only-prerecorded).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Audio-only and Video-only (Prerecorded)](#problematic-for-closed-audio-only-and-video-only-prerecorded).</div>
 
 ##### captions-prerecorded
 
@@ -69,7 +69,7 @@ Audio descriptions (also called "video descriptions", "descriptive narration", a
 	
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-audio-description-or-media-alternative-prerecorded).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Audio Description or Media Alternative (Prerecorded)](#problematic-for-closed-audio-description-or-media-alternative-prerecorded).</div>
 
 ##### captions-live
 
@@ -113,7 +113,7 @@ Where non-web documents contain non-standard structure types (roles), it is best
 In non-web software, programmatic determinability is best achieved by using the [accessibility services of platform software](#accessibility-services-of-platform-software) to enable interoperability between the software and assistive technologies and accessibility features of software.</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-info-and-relationships).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Info and Relationships](#problematic-for-closed-info-and-relationships).</div>
 
 ##### meaningful-sequence
 
@@ -123,7 +123,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-meaningful-sequence).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Meaningful Sequence](#problematic-for-closed-meaningful-sequence).</div>
 
 ##### sensory-characteristics
 
@@ -159,7 +159,7 @@ Examples of non-web software that will never be displayed on hardware that is re
 </div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-orientation).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Orientation](#problematic-for-closed-orientation).</div>
 
 ##### identify-input-purpose
 
@@ -176,7 +176,7 @@ For non-web documents and non-web software that present input fields, the terms 
 </div>
 <div class="note wcag2ict software"> 
 
-See also the [Comments on Closed Functionality](#problematic-for-closed-identify-input-purpose).
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Identify Input Purpose](#problematic-for-closed-identify-input-purpose).
 </div> 
 
 #### distinguishable
@@ -206,7 +206,7 @@ Since any content that does not meet this success criterion can interfere with a
 
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-use-of-color).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Use of Color](#problematic-for-closed-use-of-color).</div>
 
 ##### contrast-minimum
 
@@ -265,7 +265,7 @@ The [Intent section in Understanding 1.4.4 Resize Text](https://www.w3.org/WAI/W
 For non-web software, sometimes the platform provides text scaling to 200% for most, but not all text (e.g. headings, which are naturally large, may not be increased in size to 200%, but other text does increase to 200%). In such cases, authors would only need to support text scaling to the extent provided by user settings in the platform, without losing text-size semantics, content or functionality, to satisfy this success criterion.</div>
 <div class="note wcag2ict software">
 
-See also the [Comments on Closed Functionality](#problematic-for-closed-resize-text).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see  [Success criteria problematic for closed functionality, Resize Text](#problematic-for-closed-resize-text).</div>
 
 ##### images-of-text
 
@@ -275,7 +275,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-images-of-text).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Images of Text](#problematic-for-closed-images-of-text).</div>
 
 
 ##### reflow
@@ -327,7 +327,7 @@ When users modify zoom, scaling, and/or display resolution at the platform softw
 Some non-web software applications provide a mode of operation where reflow is possible, while other modes are unable to reflow. An example is a document authoring tool, which includes both a "print preview mode" (without reflow, for users to view the spatial formatting) and a "drafting view mode" where reflow is supported. Such software would satisfy this success criterion as long as there is no loss of information or functionality in the drafting view.</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-reflow).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Reflow](#problematic-for-closed-reflow).</div>
 
 ##### non-text-contrast
 
@@ -395,7 +395,7 @@ There are several mechanisms that allow users to modify software's text spacing 
 
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-text-spacing).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see  [Success criteria problematic for closed functionalityText Spacing](#problematic-for-closed-text-spacing).</div>
 
 ##### content-on-hover-or-focus
 
@@ -466,7 +466,7 @@ This success criterion does not imply that non-web software always needs to dire
 This success criterion also does not imply that non-web software always needs to provide its own [virtual keyboard](#virtual-keyboard). But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-keyboard).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionalityKeyboard](#problematic-for-closed-keyboard).</div>
 
 ##### no-keyboard-trap
 
@@ -491,7 +491,7 @@ This criterion applies when focus can be moved using a keyboard interface. Some 
 
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-no-keyboard-trap).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionalityNo Keyboard Trap](#problematic-for-closed-no-keyboard-trap).</div>
 
 
 ##### character-key-shortcuts
@@ -506,7 +506,7 @@ The WCAG2ICT interpretation is that a long press of a key (2 seconds or more) an
 
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-character-key-shortcuts).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Character Key Shortcuts](#problematic-for-closed-character-key-shortcuts).</div>
 
 #### enough-time
 
@@ -644,7 +644,7 @@ Sets of software that meet this definition appear to be extremely rare.</div>
 Many software user interface components have built-in mechanisms to navigate directly to / among them, which also have the effect of skipping over or bypassing blocks of content.</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-bypass-blocks).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Bypass Blocks](#problematic-for-closed-bypass-blocks).</div>
 
 ##### page-titled
 
@@ -684,8 +684,8 @@ This applies directly as written, and as described in [Intent from Understanding
 In non-web documents or non-web software, a “link” is any user interface control that behaves like a hypertext link.</div>
 
 <div class="note wcag2ict software">
-    
-See also the [Comments on Closed Functionality](#problematic-for-closed-link-purpose-in-context).</div>
+     
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionalityLink Purpose (In Context)](#problematic-for-closed-link-purpose-in-context).</div>
 
 ##### multiple-ways
 
@@ -718,7 +718,7 @@ Sets of software that meet this definition appear to be extremely rare.</div>
 An example of the use of “a software program that is part of process”, that would meet the exception for this success criterion, would be one where programs are interlinked but the interlinking depends on program A being used before program B, for validation or to initialize the dataset, etc.</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-multiple-ways).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Multiple Ways](#problematic-for-closed-multiple-ways).</div>
 
 ##### headings-and-labels
 
@@ -817,7 +817,7 @@ This requirement also applies to platform software, such as user agents, assisti
 
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-pointer-cancellation).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Pointer Cancellation](#problematic-for-closed-pointer-cancellation).</div>
 
 ##### label-in-name
 
@@ -827,7 +827,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict software">
 
-See also the [Comments on Closed Functionality](#problematic-for-closed-label-in-name).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Label in Name](#problematic-for-closed-label-in-name).</div>
 
 ##### motion-actuation
 
@@ -900,7 +900,7 @@ Some non-web document formats are designed for viewing at a wide range of zoom l
 
 <div class="note wcag2ict software">
 
-See also the [Comments on Closed Functionality](#problematic-for-closed-target-size-minimum).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Target Size (Minimum)](#problematic-for-closed-target-size-minimum).</div>
 
 ### understandable
 
@@ -929,7 +929,7 @@ With this substitution, it would read:
 Where software platforms provide a “locale / language” setting, applications that use that setting and render their interface in that “locale / language” would satisfy this success criterion. Applications that do not use the platform “locale / language” setting but instead use an [accessibility-supported](#dfn-accessibility-supported) method for exposing the human language of the [non-web software](#software) would also satisfy this success criterion. Applications implemented in technologies where [assistive technologies](#dfn-assistive-technologies) cannot determine the human language and that do not support the platform “locale / language” setting may not be able to satisfy this success criterion in that locale / language.</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-language-of-page).</div>
+[Success criteria problematic for closed functionality, Language of Page](#problematic-for-closed-language-of-page).</div>
 
 ##### language-of-parts
 
@@ -949,7 +949,7 @@ Examples of programmatic identification include language metadata or markup. The
 Inheritance is one common method. For example, where the primary language of a non-web document is programmatically determinable, it can be assumed that all of the text or user interface elements within that document will be using the same language unless it is indicated.</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-language-of-parts).</div>
+[Success criteria problematic for closed functionality, Language of Parts](#problematic-for-closed-language-of-parts).</div>
 
 
 #### predictable
@@ -1014,7 +1014,7 @@ Although not required by this success criterion, ensuring that navigation elemen
 Sets of software that meet this definition appear to be extremely rare.</div>
 <div class="note wcag2ict">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-consistent-navigation).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Consistent Navigation](#problematic-for-closed-consistent-navigation).</div>
 
 ##### consistent-identification
 
@@ -1037,7 +1037,7 @@ Although not required by this success criterion, ensuring that component identif
 Sets of software that meet this definition appear to be extremely rare.</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-consistent-identification).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Consistent Identification](#problematic-for-closed-consistent-identification).</div>
 
 ##### consistent-help
 
@@ -1081,7 +1081,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict software">
 
-See also the [Comments on Closed Functionality](#problematic-for-closed-error-identification).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Error Identification](#problematic-for-closed-error-identification).</div>
 
 ##### labels-or-instructions
 
@@ -1218,7 +1218,7 @@ Examples of markup that might be separately exposed and available to assistive t
 * Markdown documents</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-parsing21).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Parsing (WCAG 2.1)](#problematic-for-closed-parsing21).</div>
 
 ##### parsing22
 
@@ -1250,7 +1250,7 @@ This success criterion is primarily for software developers who develop or use c
 For conforming to this success criterion, it is usually best practice for software user interfaces to use the [accessibility services of platform software](#accessibility-services-of-platform-software). These accessibility services enable interoperability between software user interfaces and both assistive technologies and accessibility features of software in standardized ways. Most platform accessibility services go beyond programmatic exposure of name and role, and programmatic setting of states, properties and values (and notification of same), and specify additional information that could be exposed and / or set (for instance, a list of the available actions for a given user interface component, and a means to programmatically execute one of the listed actions).</div>
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-name-role-value).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Name, Role, Value](#problematic-for-closed-name-role-value).</div>
 
 ##### status-messages
 
@@ -1264,4 +1264,4 @@ For [non-web documents](#document) and [non-web software](#software) where statu
 
 <div class="note wcag2ict software">
     
-See also the [Comments on Closed Functionality](#problematic-for-closed-status-messages).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Status Messages](#problematic-for-closed-status-messages).</div>
