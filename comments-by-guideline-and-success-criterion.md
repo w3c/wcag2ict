@@ -26,7 +26,7 @@ This applies directly as written, and as described in [Intent from Understanding
 CAPTCHAs do not currently appear outside of the web. However, if they do appear, this guidance is accurate.</div>
 <div class="note wcag2ict software">
 
-See also the [Comments on Closed Functionality](#problematic-for-closed-non-text-content).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, non-text content](#problematic-for-closed-non-text-content).</div>
 
 #### time-based-media
 
