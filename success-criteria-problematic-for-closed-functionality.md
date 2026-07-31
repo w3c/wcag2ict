@@ -275,7 +275,7 @@ form intended to drive correct pronunciation. Where another mechanism
 achieves correct pronunciation for ICT with closed functionality, such
 as self-voicing, the intent of this success criterion would be met.
 
-### [3.1.3 Unusual Words](#unusual-words) {{#problematic-for-closed-unusual-words}
+### [3.1.3 Unusual Words](#unusual-words) {#problematic-for-closed-unusual-words}
 
 This success criterion is problematic to apply to ICT with closed
 functionality as support may not be available for a
