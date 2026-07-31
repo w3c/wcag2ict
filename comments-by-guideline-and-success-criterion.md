@@ -395,7 +395,7 @@ There are several mechanisms that allow users to modify software's text spacing 
 
 <div class="note wcag2ict software">
     
-For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see  [Success criteria problematic for closed functionality, Text Spacing](#problematic-for-closed-text-spacing).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Text Spacing](#problematic-for-closed-text-spacing).</div>
 
 ##### content-on-hover-or-focus
 
