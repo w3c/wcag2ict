@@ -466,7 +466,7 @@ This success criterion does not imply that non-web software always needs to dire
 This success criterion also does not imply that non-web software always needs to provide its own [virtual keyboard](#virtual-keyboard). But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.</div>
 <div class="note wcag2ict software">
     
-For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionalityKeyboard](#problematic-for-closed-keyboard).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Keyboard](#problematic-for-closed-keyboard).</div>
 
 ##### no-keyboard-trap
 
