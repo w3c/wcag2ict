@@ -491,7 +491,7 @@ This criterion applies when focus can be moved using a keyboard interface. Some 
 
 <div class="note wcag2ict software">
     
-For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionalityNo Keyboard Trap](#problematic-for-closed-no-keyboard-trap).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, No Keyboard Trap](#problematic-for-closed-no-keyboard-trap).</div>
 
 
 ##### character-key-shortcuts
