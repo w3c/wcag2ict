@@ -949,7 +949,7 @@ Examples of programmatic identification include language metadata or markup. The
 Inheritance is one common method. For example, where the primary language of a non-web document is programmatically determinable, it can be assumed that all of the text or user interface elements within that document will be using the same language unless it is indicated.</div>
 <div class="note wcag2ict software">
     
-[Success criteria problematic for closed functionality, Language of Parts](#problematic-for-closed-language-of-parts).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Language of Parts](#problematic-for-closed-language-of-parts).</div>
 
 
 #### predictable
