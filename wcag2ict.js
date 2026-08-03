@@ -282,9 +282,7 @@ function removeNumbering() {
     headings.forEach(heading => {
         heading.querySelector(":scope > .secno, :scope > bdi.secno")?.remove();
 
-        const selfLink = heading.querySelector(
-            ":scope > a.self-link, :scope > a.headerlink"
-        );
+        const selfLink = heading.nextElementSibling;
         if (selfLink) {
             selfLink.setAttribute(
                 "aria-label",
