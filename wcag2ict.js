@@ -277,22 +277,27 @@ function addHeadingIds() {
     });
 }
 function removeNumbering() {
-    // Select all headings, tocItems, and elements with an aria-label attribute in the document
-    var elements = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-    // Iterate over each element
-    elements.forEach(element => {
-        // Use regex to remove numbering from the text
-        element.textContent = element.textContent.replace(/^[0-9.]+\s*/, '');
-        if (element.nextElementSibling.hasAttribute("aria-label")) {
-            element.nextSibling.setAttribute("aria-label", "Permalink for Section " + element.textContent);
+    const headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+    headings.forEach(heading => {
+        heading.querySelector(":scope > .secno, :scope > bdi.secno")?.remove();
+
+        const selfLink = heading.querySelector(
+            ":scope > a.self-link, :scope > a.headerlink"
+        );
+        if (selfLink) {
+            selfLink.setAttribute(
+                "aria-label",
+                `Permalink for Section ${heading.textContent.trim()}`
+            );
         }
     });
-    // update tocItems
-    var tocItems = document.querySelectorAll('a[class="tocxref"]');
-    tocItems.forEach(tocItem => {
-        tocItem.textContent = tocItem.textContent.replace(/^[0-9.]+\s*/, '');
+
+    document.querySelectorAll("a.tocxref").forEach(tocItem => {
+        tocItem.querySelector(".secno, bdi.secno")?.remove();
     });
 }
+
 function removeChange() {
     elements = document.querySelectorAll(".change")
     elements.forEach(element => {
