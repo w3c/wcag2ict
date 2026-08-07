@@ -91,7 +91,7 @@ a non-web document that is not a web page, not embedded in web pages nor used in
 
 <div class="note wcag2ict">
 
-All uses of the word "document" by itself within WCAG2ICT means non-web document.
+All uses of the word "document" by itself within WCAG2ICT mean non-web document.
 </div>
 
 <div class="note wcag2ict">
