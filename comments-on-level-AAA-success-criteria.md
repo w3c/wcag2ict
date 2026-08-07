@@ -34,8 +34,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 - [3.3.5 Help](#help)
 - [3.3.6 Error Prevention (All)](#error-prevention-all)
 - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
-
-The rest of the Level AAA criteria, as noted with editor's notes in the sections below, are still under development.</div>
+</div>
 
 The sections that follow contain guidance on applying the Level AAA success criteria from WCAG 2 to non-web documents and non-web software. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
 
