@@ -12,7 +12,7 @@ These standards and regulations look to WCAG2ICT for detailed direction and guid
 
 ### Guidance in this document
 
-WCAG2ICT provides informative guidance (guidance that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and does not set requirements) with regard to the interpretation and application of Web Content Accessibility Guidelines (WCAG) to non-web information and communications technologies (ICT).  WCAG2ICT is a [Working Group Note](https://www.w3.org/policies/process/#WGNote) (in contrast to WCAG 2.0, WCAG 2.1, and WCAG 2.2, which are W3C [Recommendations](https://www.w3.org/policies/process/#RecsW3C)).  WCAG2ICT provides informative guidance on applying WCAG 2.0, 2.1, and 2.2 Level A, AA, and AAA success criteria to non-web ICT, including non-web documents and non-web software.
+WCAG2ICT provides informative guidance (guidance that is not [normative](https://www.w3.org/TR/WCAG22/#dfn-normative) and does not set requirements) with regard to the interpretation and application of Web Content Accessibility Guidelines (WCAG) to non-web information and communications technologies (ICT).  WCAG2ICT is a [Working Group Note](https://www.w3.org/policies/process/#WGNote) (in contrast to WCAG 2.0, WCAG 2.1, and WCAG 2.2, which are W3C [Recommendations](https://www.w3.org/policies/process/#RecsW3C)).  WCAG2ICT provides informative guidance on applying WCAG 2.0, 2.1, and 2.2 levels A, AA, and AAA success criteria to non-web ICT, including non-web documents and non-web software.
 <div class="note">
 
 The use of “WCAG 2” means all WCAG 2.x versions &mdash; 2.0, 2.1, and 2.2.</div>
@@ -35,16 +35,20 @@ The WCAG2ICT Task Force found that the majority of WCAG 2 success criteria can b
 When certain web-specific terms or phrases like “web page(s)” were used in success criteria, those were replaced with non-web terms or phrases like “non-web document(s) and non-web software”.  Additional notes were also provided to explain the terminology replacements.
 <div class="note">
 
-WCAG2ICT’s guidance for [documents](#document) is technically scoped to [non-web documents](#non-web-document) (i.e., those distributed outside of websites).</div>
+WCAG2ICT’s guidance for [documents](#document) is technically scoped to [non-web documents](#non-web-document) (in other words, those distributed outside of websites).</div>
 
-A small number of success criteria are written to apply to “a set of web pages” or “multiple web pages” and depend upon all pages in the set to share some characteristic or behavior.  Since the unit of conformance in WCAG 2 is a single web page, the Working Group determined that the equivalent unit of conformance for non-web documents is a single document.  It follows that an equivalent unit of evaluation for a “set of web pages” would be a “[set of documents](#set-of-documents)”.  Since it is not possible to unambiguously carve up non-web software into discrete pieces, a single “web page” was equated to a “software program” and a “set of web pages” was equated to a “[set of software programs](#set-of-software-programs)”.  Both of these terms are defined in the [Key Terms](#key-terms) section of this document.
+A small number of success criteria are written to apply to “a set of web pages” or “multiple web pages” and depend upon all pages in the set to share some characteristic or behavior.  Since the unit of conformance in WCAG 2 is a single web page, the WCAG2ICT Working Group determined that the equivalent unit of conformance for non-web documents is a single document.  It follows that an equivalent unit of evaluation for a “set of web pages” would be a “[set of documents](#set-of-documents)”.  Since it is not possible to unambiguously carve up non-web software into discrete pieces, a single “web page” was equated to a “software program” and a “set of web pages” was equated to a “[set of software programs](#set-of-software-programs)”.  Both of these terms are defined in the [Key terms](#key-terms) section of this document.
 <div class="note">
 
 Sets of non-web software that meet this definition appear to be extremely rare.</div>
 
-Not all success criteria have been fully adopted in all local standards, regulations, and legislation, and may not be applicable to all technologies.  WCAG2ICT has been used in some standards and regulations to determine whether or not to apply certain success criteria.  Some standards (for example, Section 508 in the U.S., and EN 301 549 in Europe) do not apply WCAG 2 Success Criteria 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification to non-web documents and non-web software.  In addition, EN 301 549 does not apply 2.4.2 Page Titled and 3.1.2 Language of Parts to non-web software.  In contrast, the U.S. Department of Justice [Guidance to Revisions to ADA Title II Regulation on Accessibility of Web Information and Services of State and Local Government Entities, Appendix D to Part 35, Title 28](https://www.ecfr.gov/current/title-28/chapter-I/part-35/appendix-Appendix%20D%20to%20Part%2035), directs implementers to utilize the guidance in WCAG2ICT to determine the applicability of success criteria and how to apply the requirements to mobile applications.  Since WCAG2ICT does not specifically say which criteria can or should apply, those implementing WCAG2ICT should consider the applicability of individual success criteria to non-web documents and non-web software.
+Not all WCAG success criteria have been fully adopted in all local standards, regulations, and legislation, and some may not apply to all technologies.  Some standards and regulations have used the guidance in WCAG2ICT to determinie whether or not certain success criteria apply to non-web documents and non-web software. 
 
-The glossary terms in WCAG 2 were also reviewed and most of them applied, as written, to non-web documents and non-web software.  Some applied with additional notes or edits (largely related to phrases like “web page(s)”), and a small number of terms that are only used in Level AAA success criteria.  Level AAA success criteria were not addressed by previous versions of the WCAG2ICT Note but are now included in this version.
+For example, Section 508 (U.S.) and EN 301 549 (Europe) do not apply these four success criteria to non-web documents and non-web software: 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification.  EN 301 549 also does not apply these two success criteria to non-web software: 2.4.2 Page Titled and 3.1.2 Language of Parts.  
+
+In contrast, the U.S. Department of Justice [Guidance to Revisions to ADA Title II Regulation on Accessibility of Web Information and Services of State and Local Government Entities, Appendix D to Part 35, Title 28](https://www.ecfr.gov/current/title-28/chapter-I/part-35/appendix-Appendix%20D%20to%20Part%2035) directs implementers to use the guidance in WCAG2ICT to determine which WCAG success criteria apply and, where they do, how to apply the requirements to mobile applications. WCAG2ICT provides guidance to inform these decisions but does not specifically identify which success criteria can or should apply to non-web documents and non-web software. It is up to implementers to consider whether individual success criteria apply.
+
+The glossary terms in WCAG 2 were also reviewed. Most were applied as written to non-web documents and non-web software. Some required additional notes or edits (largely related to phrases like “web page(s)”). This version of the WCAG2ICT Note also includes a few terms used only in Level AAA success criteria that previous versions did not address.
 
 ### Excluded from scope
 
@@ -72,7 +76,7 @@ The following stylistic conventions are used in WCAG2ICT:
 
 * Quotes from WCAG 2 are in `<blockquote>` elements and visually styled with a gray bar on the left, and immediately follow the heading for the principle, guideline, or success criterion.
 * Additional guidance provided by WCAG2ICT begins with the phrase “Applying” and has no special visual styling.
-* Replacement text that is presented to show how a success criterion would read as modified by the advice in WCAG2ICT are in `<ins>` elements that are visually styled as green text with a dotted underline.
+* Replacement text that is presented to show how a success criterion would read as modified by the advice in WCAG2ICT is in `<ins>` elements that are visually styled as green text with a dotted underline.
 * Links that are contained in the word replacement text are also styled with bold text.
 * Notes are slightly inset and begin with the phrase “NOTE” &mdash; each note is in its own inset box that is styled in pale green with a darker green line on the left side of the box.
 * Where WCAG Notes have been replaced or significantly rewritten in the guidance, they are notated with ”(REPLACED)”; and where WCAG2ICT added new notes, they are notated with “(ADDED)”.
@@ -83,7 +87,7 @@ The following stylistic conventions are used in WCAG2ICT:
 
 ### Comparison with the 2013 WCAG2ICT Note
 
-The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2) (inclusive of the change to 4.1.1 Parsing, as described in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1)), and the addition of AAA success criteria.
+The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2) (inclusive of the change to 4.1.1 Parsing, as described in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1)), and the addition of Level AAA success criteria.
 <div class="note">
 
 * All of the existing sections from 2013 have undergone close review by the WCAG2ICT Task Force and been approved by the Accessibility Guidelines Working Group.
