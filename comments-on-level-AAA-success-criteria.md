@@ -333,7 +333,7 @@ In non-web documents or non-web software, a “link” is any user interface con
 
 <div class="note wcag2ict software">
 
-For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Link Purpose (Link Only)](#problematic-for-closed-link-purpose-in-context).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Link Purpose (Link Only)](#problematic-for-closed-link-purpose-link-only).</div>
 
 ##### section-headings
 
