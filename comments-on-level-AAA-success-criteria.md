@@ -304,7 +304,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**2.4.8 Location:** Information about the user's location within a <INS>[**[set of non-web documents](#set-of-documents)** or a **[set of non-web software programs](https://www.w3.org/TR/WCAG22/#dfn-set-of-software-programs)**]</INS> is available.
+**2.4.8 Location:** Information about the user's location within a <INS>[**[set of non-web documents](#set-of-documents)** or a **[set of non-web software programs](#set-of-software-programs)**]</INS> is available.
 
 <div class="note wcag2ict">
 
