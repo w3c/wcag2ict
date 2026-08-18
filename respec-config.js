@@ -5,7 +5,7 @@ var respecConfig = {
 	maxTocLevel: 3,
 	shortName: "wcag2ict-22",
 	
-	// publishDate:  "2025-08-21",
+	// publishDate:  "2026-08-18",
 	copyrightStart: "2022",
 	license: "document",
 	
@@ -16,7 +16,7 @@ var respecConfig = {
 			key: "Previous version",
 			data: [
 				{
-					href: "https://www.w3.org/TR/2024/NOTE-wcag2ict-22-20241115/",
+					href: "https://www.w3.org/TR/2025/NOTE-wcag2ict-22-20251211/",
 				},
 			],
 		},
