@@ -33,11 +33,15 @@ The WCAG2ICT Task Force found that the majority of WCAG 2 success criteria can b
 #### Interpretation of web terminology in a non-web context
 
 When certain web-specific terms or phrases like “web page(s)” were used in success criteria, those were replaced with non-web terms or phrases like “non-web document(s) and non-web software”.  Additional notes were also provided to explain the terminology replacements.
+
 <div class="note">
 
-WCAG2ICT’s guidance for [documents](#document) is technically scoped to [non-web documents](#document) (in other words, those distributed outside of websites).</div>
+WCAG2ICT’s guidance for [documents](#document) is technically scoped to [non-web documents](#non-web-document) (in other words, those distributed outside of websites).
 
-A small number of success criteria are written to apply to “a set of web pages” or “multiple web pages” and depend upon all pages in the set to share some characteristic or behavior.  Since the unit of conformance in WCAG 2 is a single web page, the WCAG2ICT Working Group determined that the equivalent unit of conformance for non-web documents is a single document.  It follows that an equivalent unit of evaluation for a “set of web pages” would be a “[set of documents](#set-of-documents)”.  Since it is not possible to unambiguously carve up non-web software into discrete pieces, a single “web page” was equated to a “software program” and a “set of web pages” was equated to a “[set of software programs](#set-of-software-programs)”.  Both of these terms are defined in the [Key terms](#key-terms) section of this document.
+</div>
+
+A small number of success criteria are written to apply to “a set of web pages” or “multiple web pages” and depend upon all pages in the set to share some characteristic or behavior.  Since the unit of conformance in WCAG 2 is a single web page, the Working Group determined that the equivalent unit of conformance for non-web documents is a single document.  It follows that an equivalent unit of evaluation for a “set of web pages” would be a “[set of documents](#set-of-documents)”.  Since it is not possible to unambiguously carve up non-web software into discrete pieces, a single “web page” was equated to a “software program” and a “set of web pages” was equated to a “[set of software programs](#set-of-software-programs)”.  Both of these terms are defined in the [Key terms](#key-terms) section of this document.
+
 <div class="note">
 
 Sets of non-web software that meet this definition appear to be extremely rare.</div>
