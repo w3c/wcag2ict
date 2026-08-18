@@ -424,7 +424,7 @@ rare - especially for non-web software on ICT with closed functionality.
 However, allowing the user to know their location in a complex non-web
 document or non-web software is generally considered best practice.
 
-### [2.4.9 Link Purpose (Link Only)](#link-purpose-in-context) {#problematic-for-closed-link-purpose-in-context}
+### [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only) {#problematic-for-closed-link-purpose-link-only}
 
 This success criterion relies upon text and context being made available
 in a programmatically determinable form.

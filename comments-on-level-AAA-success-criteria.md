@@ -304,7 +304,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 With these substitutions, it would read:
 
-**2.4.8 Location:** Information about the user's location within a <INS>[**[set of non-web documents](#set-of-documents)** or a **[set of non-web software programs](https://www.w3.org/TR/WCAG22/#dfn-set-of-software-programs)**]</INS> is available.
+**2.4.8 Location:** Information about the user's location within a <INS>[**[set of non-web documents](#set-of-documents)** or a **[set of non-web software programs](#set-of-software-programs)**]</INS> is available.
 
 <div class="note wcag2ict">
 
@@ -333,7 +333,7 @@ In non-web documents or non-web software, a “link” is any user interface con
 
 <div class="note wcag2ict software">
 
-For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Link Purpose (Link Only)](#problematic-for-closed-link-purpose-in-context).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Link Purpose (Link Only)](#problematic-for-closed-link-purpose-link-only).</div>
 
 ##### section-headings
 

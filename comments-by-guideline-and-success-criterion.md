@@ -206,7 +206,7 @@ Since any content that does not meet this success criterion can interfere with a
 
 <div class="note wcag2ict software">
     
-For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Use of Color](#problematic-for-closed-use-of-color).</div>
+For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Audio Control](#problematic-for-closed-audio-control).</div>
 
 ##### contrast-minimum
 

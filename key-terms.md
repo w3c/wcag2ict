@@ -81,7 +81,7 @@ an interface composed of menus and sub-menus which the user accesses by pressing
 
 Products that have a menu-driven interface include, but are not limited to, self-service transaction machines, printers, and IP-based telephones.</div>
 
-### Non-web document
+### Non-web document {#document}
 The term **non-web document**, as used in WCAG2ICT, has the meaning below:
 
 <DL><DT>non-web document (as used in WCAG2ICT)</DT><DD>
