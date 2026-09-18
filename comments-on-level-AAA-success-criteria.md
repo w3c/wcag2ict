@@ -38,8 +38,7 @@ The WCAG2ICT Task Force is in process of adding guidance for Level AAA success c
 
 The sections that follow contain guidance on applying the Level AAA success criteria from WCAG 2 to non-web documents and non-web software. The text of each success criterion from WCAG 2 is copied as quoted text. Following that, the WCAG2ICT guidance is provided. The WCAG2ICT guidance can be found in the sections where the headings begin with "Applying..." to highlight that this is the content specific to this document. Within these sections custom notes added by WCAG2ICT are marked with the text "ADDED".
 
-<div class="ednote">
-These two notes apply as written to non-web software and non-web documents.</div>
+WCAG 2 makes some specific commentary regarding Level AAA success criteria that are included below.
 
 From the <a href=https://www.w3.org/TR/WCAG22/#wcag-2-layers-of-guidance target="_blank">WCAG 2 Layers of Guidance</a> section of WCAG 2.2:
 
@@ -48,7 +47,10 @@ From the <a href=https://www.w3.org/TR/WCAG22/#wcag-2-layers-of-guidance target=
 From the <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance level</a> section of WCAG 2.2: 
 
 <div class="note">
-<blockquote>It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content.</blockquote></div></div>
+<blockquote>It is not recommended that Level AAA conformance be required as a general policy for entire sites because it is not possible to satisfy all Level AAA success criteria for some content.</blockquote></div>
+
+<div class="note wcag2ict">
+These two notes also apply, as written, to non-web software and non-web documents.</div>
   
 ### 1. Perceivable
 
