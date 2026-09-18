@@ -89,6 +89,44 @@ The following stylistic conventions are used in WCAG2ICT:
 * In headings, the term ”Success Criterion” has been shortened to “SC” for brevity.
 * The short title “WCAG2ICT” is used to reference this document.
 
+### Comparison with the December 2025 WCAG2ICT Note
+
+The following changes and additions have been made to update the December 2025 WCAG2ICT document to incorporate guidance on the Level AAA success criteria.
+
+- Added guidance for WCAG 2.1 and 2.2 Level AAA success criteria:
+  - [1.2.6 Sign Language (Prerecorded)](https://w3c.github.io/wcag2ict/#sign-language-prerecorded)
+  - [1.2.7 Extended Audio Description (Prerecorded)](https://w3c.github.io/wcag2ict/#extended-audio-description-prerecorded)
+  - [1.2.8 Media Alternative (Prerecorded)](https://w3c.github.io/wcag2ict/#media-alternative-prerecorded)
+  - [1.2.9 Audio-only (Live)](https://w3c.github.io/wcag2ict/#audio-only-live)
+  - [1.3.6 Identify Purpose](https://w3c.github.io/wcag2ict/#identify-purpose)
+  - [1.4.6 Contrast (Enhanced)](https://w3c.github.io/wcag2ict/#contrast-enhanced)
+  - [1.4.7 Low or No Background Audio](https://w3c.github.io/wcag2ict/#low-or-no-background-audio)
+  - [1.4.8 Visual Presentation](https://w3c.github.io/wcag2ict/#visual-presentation)
+  - [1.4.9 Images of Text (No Exception)](https://w3c.github.io/wcag2ict/#images-of-text-no-exception)
+  - [2.1.3 Keyboard (No Exception)](https://w3c.github.io/wcag2ict/#keyboard-no-exception)
+  - [2.2.3 No Timing](https://w3c.github.io/wcag2ict/#no-timing)
+  - [2.2.4 Interruptions](https://w3c.github.io/wcag2ict/#interruptions)
+  - [2.2.5 Re-authenticating](https://w3c.github.io/wcag2ict/#re-authenticating)
+  - [2.2.6 Timeouts](https://w3c.github.io/wcag2ict/#timeouts)
+  - [2.3.2 Three Flashes](https://w3c.github.io/wcag2ict/#three-flashes)
+  - [2.3.3 Animation from Interactions](https://w3c.github.io/wcag2ict/#animation-from-interactions)
+  - [2.4.8 Location](https://w3c.github.io/wcag2ict/#location)
+  - [2.4.9 Link Purpose (Link Only)](https://w3c.github.io/wcag2ict/#link-purpose-link-only)
+  - [2.4.10 Section Headings](https://w3c.github.io/wcag2ict/#section-headings)
+  - [2.4.12 Focus Not Obscured (Enhanced)](https://w3c.github.io/wcag2ict/#focus-not-obscured-enhanced)
+  - [2.4.13 Focus Appearance](https://w3c.github.io/wcag2ict/#focus-appearance)
+  - [2.5.5 Target Size (Enhanced)](https://w3c.github.io/wcag2ict/#target-size-enhanced)
+  - [2.5.6 Concurrent Input Mechanisms](https://w3c.github.io/wcag2ict/#concurrent-input-mechanisms)
+  - [3.1.3 Unusual Words](https://w3c.github.io/wcag2ict/#unusual-words)
+  - [3.1.4 Abbreviations](https://w3c.github.io/wcag2ict/#abbreviations)
+  - [3.1.5 Reading Level](https://w3c.github.io/wcag2ict/#reading-level)
+  - [3.1.6 Pronunciation](https://w3c.github.io/wcag2ict/#pronunciation)
+  - [3.2.5 Change on Request](https://w3c.github.io/wcag2ict/#change-on-request)
+  - [3.3.5 Help](https://w3c.github.io/wcag2ict/#help)
+  - [3.3.6 Error Prevention (All)](https://w3c.github.io/wcag2ict/#error-prevention-all)
+  - [3.3.9 Accessible Authentication (Enhanced)](https://w3c.github.io/wcag2ict/#accessible-authentication-enhanced)
+
+
 ### Comparison with the 2013 WCAG2ICT Note
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2) (inclusive of the change to 4.1.1 Parsing, as described in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1)), and the addition of Level AAA success criteria.
@@ -176,3 +214,5 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
   - [set of web pages](#dfn-set-of-web-pages)
   - [set of non-web documents](#set-of-documents)
   - [set of software programs](#set-of-software-programs)
+
+
