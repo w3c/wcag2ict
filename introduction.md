@@ -89,6 +89,52 @@ The following stylistic conventions are used in WCAG2ICT:
 * In headings, the term ”Success Criterion” has been shortened to “SC” for brevity.
 * The short title “WCAG2ICT” is used to reference this document.
 
+### Comparison with the December 2025 WCAG2ICT Note
+
+The following changes and additions have been made to update the December 2025 WCAG2ICT document to incorporate guidance on the Level AAA success criteria.
+
+- Added guidance for WCAG 2.1 and 2.2 Level AAA success criteria:
+  - [1.2.6 Sign Language (Prerecorded)](#sign-language-prerecorded)
+  - [1.2.7 Extended Audio Description (Prerecorded)](#extended-audio-description-prerecorded)
+  - [1.2.8 Media Alternative (Prerecorded)](#media-alternative-prerecorded)
+  - [1.2.9 Audio-only (Live)](#audio-only-live)
+  - [1.3.6 Identify Purpose](#identify-purpose)
+  - [1.4.6 Contrast (Enhanced)](#contrast-enhanced)
+  - [1.4.7 Low or No Background Audio](#low-or-no-background-audio)
+  - [1.4.8 Visual Presentation](#visual-presentation)
+  - [1.4.9 Images of Text (No Exception)](#images-of-text-no-exception)
+  - [2.1.3 Keyboard (No Exception)](#keyboard-no-exception)
+  - [2.2.3 No Timing](#no-timing)
+  - [2.2.4 Interruptions](#interruptions)
+  - [2.2.5 Re-authenticating](#re-authenticating)
+  - [2.2.6 Timeouts](#timeouts)
+  - [2.3.2 Three Flashes](#three-flashes)
+  - [2.3.3 Animation from Interactions](#animation-from-interactions)
+  - [2.4.8 Location](#location)
+  - [2.4.9 Link Purpose (Link Only)](#link-purpose-link-only)
+  - [2.4.10 Section Headings](#section-headings)
+  - [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced)
+  - [2.4.13 Focus Appearance](#focus-appearance)
+  - [2.5.5 Target Size (Enhanced)](#target-size-enhanced)
+  - [2.5.6 Concurrent Input Mechanisms](#concurrent-input-mechanisms)
+  - [3.1.3 Unusual Words](#unusual-words)
+  - [3.1.4 Abbreviations](#abbreviations)
+  - [3.1.5 Reading Level](#reading-level)
+  - [3.1.6 Pronunciation](#pronunciation)
+  - [3.2.5 Change on Request](#change-on-request)
+  - [3.3.5 Help](#help)
+  - [3.3.6 Error Prevention (All)](#error-prevention-all)
+  - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
+- Structural change to accommodate Level AAA content in a separate section: [Comments on Level AAA success criteria](#comments-on-level-aaa-success-criteria)
+- Structural change to [Success criteria problematic for closed functionality](#success-criteria-problematic-for-closed-functionality) to accommodate Level AAA content in a separate section: [Level AAA criteria](#level-aaa-criteria)
+- Minor editorial changes to improve readability including:
+  - Change from "non-web documents and software" to "non-web documents and non-web software" 
+  - Consistent use of "non-web document" to reduce confusion (in place of "document" and "non-web document") 
+  - Clarification that contrast only applies to emissive displays ([1.4.3 Contrast (Minimum)](#contrast-minimum), [1.4.6 Contrast (Enhanced)](#contrast-enhanced))
+  - Updated guidance for [2.1.1 Keyboard](#keyboard) in [Success criteria problematic for closed functionality](#success-criteria-problematic-for-closed-functionality)
+  - Updated word substitution (removal of "web page") in [3.2.6 Consistent Help](#consistent-help) and [3.3.8 Accessible Authentication (Minimum)](#accessible-authentication-minimum)
+
+
 ### Comparison with the 2013 WCAG2ICT Note
 
 The following changes and additions have been made to update the 2013 WCAG2ICT document to incorporate the [new features in WCAG 2.1](https://www.w3.org/TR/WCAG21/#new-features-in-wcag-2-1), the [new features in WCAG 2.2](https://www.w3.org/TR/WCAG22/#new-features-in-wcag-2-2) (inclusive of the change to 4.1.1 Parsing, as described in the [Comparison with WCAG 2.1](https://www.w3.org/TR/WCAG22/#comparison-with-wcag-2-1)), and the addition of Level AAA success criteria.
@@ -176,3 +222,5 @@ The following changes and additions have been made to update the 2013 WCAG2ICT d
   - [set of web pages](#dfn-set-of-web-pages)
   - [set of non-web documents](#set-of-documents)
   - [set of software programs](#set-of-software-programs)
+
+
