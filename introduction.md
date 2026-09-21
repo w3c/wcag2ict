@@ -125,6 +125,14 @@ The following changes and additions have been made to update the December 2025 W
   - [3.3.5 Help](#help)
   - [3.3.6 Error Prevention (All)](#error-prevention-all)
   - [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced)
+- Structural change to accommodate Level AAA content in a separate section: [Comments on Level AAA success criteria](#comments-on-level-aaa-success-criteria)
+- Structural change to [Success criteria problematic for closed functionality](#success-criteria-problematic-for-closed-functionality) to accommodate Level AAA content in a separate section: [Level AAA criteria](#level-aaa-criteria)
+- Minor editorial changes to improve readability including:
+  - Change from "non-web documents and software" to "non-web documents and non-web software" 
+  - Consistent use of "non-web document" to reduce confusion (in place of "document" and "non-web document") 
+  - Clarification that contrast only applies to emissive displays ([1.4.3 Contrast (Minimum)](#contrast-minimum), [1.4.6 Contrast (Enhanced)](#contrast-enhanced)).
+  - Updated guidance for [2.1.1 Keyboard](#keyboard) in [Success criteria problematic for closed functionality](#success-criteria-problematic-for-closed-functionality)
+  - Updated word substitution (removal of "web page") in [3.2.6 Consistent Help](#consistent-help) and [3.3.8 Accessible Authentication (Minimum)](#accessible-authentication-minimum)
 
 
 ### Comparison with the 2013 WCAG2ICT Note
