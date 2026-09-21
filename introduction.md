@@ -130,7 +130,7 @@ The following changes and additions have been made to update the December 2025 W
 - Minor editorial changes to improve readability including:
   - Change from "non-web documents and software" to "non-web documents and non-web software" 
   - Consistent use of "non-web document" to reduce confusion (in place of "document" and "non-web document") 
-  - Clarification that contrast only applies to emissive displays ([1.4.3 Contrast (Minimum)](#contrast-minimum), [1.4.6 Contrast (Enhanced)](#contrast-enhanced)).
+  - Clarification that contrast only applies to emissive displays ([1.4.3 Contrast (Minimum)](#contrast-minimum), [1.4.6 Contrast (Enhanced)](#contrast-enhanced))
   - Updated guidance for [2.1.1 Keyboard](#keyboard) in [Success criteria problematic for closed functionality](#success-criteria-problematic-for-closed-functionality)
   - Updated word substitution (removal of "web page") in [3.2.6 Consistent Help](#consistent-help) and [3.3.8 Accessible Authentication (Minimum)](#accessible-authentication-minimum)
 
