@@ -48,8 +48,6 @@ Sets of non-web software that meet this definition appear to be extremely rare.<
 
 Not all WCAG success criteria have been fully adopted in all local standards, regulations, and legislation, and some may not apply to all technologies.  Some standards and regulations have used the guidance in WCAG2ICT to determine whether or not certain success criteria apply to non-web documents and non-web software. 
 
-For example, Section 508 (U.S.) and EN 301 549 (Europe) do not apply these four success criteria to non-web documents and non-web software: 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification.  EN 301 549 also does not apply these two success criteria to non-web software: 2.4.2 Page Titled and 3.1.2 Language of Parts.  
-
 For example, Section 508 (U.S.) and EN 301 549 Versions 3.2.1 and earlier do not apply these four success criteria to non-web documents and non-web software: 2.4.1 Bypass Blocks, 2.4.5 Multiple Ways, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification. EN 301 549 v.3.2.1 also does not apply these two success criteria to non-web software: 2.4.2 Page Titled and 3.1.2 Language of Parts. 
 
 EN 301 549 4.1.1 does not apply 2.4.1 Bypass Blocks and 2.4.5 Multiple Ways. However, it now does apply 3.2.3 Consistent Navigation to non-web documentation and applies 3.2.4 Consistent Identification to both non-web documents and non-web software. EN 301 549 v4.1.1 also does not apply 3.1.2 Language of Parts to non-web software.
