@@ -1099,11 +1099,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.4 Error Prevention (Legal, Financial, Data) to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.4](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data#intent) replacing “web pages” with “non-web documents" or "non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.4](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data#intent) replacing “web pages” with “non-web documents or non-web software”.
 
 With this substitution, it would read:
 
-**3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>[**[non-web documents](#document)** or **[non-web software](#software)**]</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true:
+**3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>[**[non-web documents](#document) or [non-web software](#software)**]</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true:
 
 <dl>
 <dt>Reversible</dt>
