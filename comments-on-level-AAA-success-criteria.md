@@ -408,7 +408,7 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying 2.5.5 Target Size (Enhanced) to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.5](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html#intent), replacing “user agent” with “user agent or platform software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.5](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html#intent), replacing “user agent” with “user agent or other platform software”.
 
 With these substitutions, it would read:
 
@@ -420,7 +420,9 @@ With these substitutions, it would read:
   <dt>Inline</dt>
     <dd>The target is in a sentence or block of text;</dd>
   <dt>User Agent Control</dt>
-    <dd>The size of the target is determined by the <INS>**[user agent or platform software]**</INS> and is not modified by the author;</dd>
+    <dd>The size of the target is determined by the 
+    <INS><b>[user agent or other platform software]</b></INS>
+     and is not modified by the author;</dd>
   <dt>Essential</dt>
     <dd>
     A particular presentation of the target is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> to the information being conveyed.
