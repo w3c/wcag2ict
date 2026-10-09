@@ -472,11 +472,11 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying SC 2.1.2 No Keyboard Trap to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document" or "non-web software” and “on the web page” with "in the non-web document" or "in the non-web software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or non-web software” and “on the web page” with "in the non-web document" or "in the non-web software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
-**2.1.2 No Keyboard Trap:** If keyboard focus can be moved to a component of the <INS>[**[non-web document](#document)** or **[non-web software](#software)**]</INS> using a [keyboard interface](#dfn-keyboard-interface), then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
+**2.1.2 No Keyboard Trap:** If keyboard focus can be moved to a component of the <INS>[**[non-web document](#document) or [non-web software](#software)**]</INS> using a [keyboard interface](#dfn-keyboard-interface), then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
 
 <div class="note">
     
