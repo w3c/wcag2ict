@@ -303,7 +303,7 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 2.4.8 Location to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.8](https://www.w3.org/WAI/WCAG22/Understanding/location.html#intent), replacing “set of Web pages” with “set of non-web documents or set of non-web software programs".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.8](https://www.w3.org/WAI/WCAG22/Understanding/location.html#intent), replacing “set of Web pages” with “set of non-web documents or a set of non-web software programs".
 
 With these substitutions, it would read:
 
@@ -315,7 +315,7 @@ See [set of documents](https://www.w3.org/TR/wcag2ict-22/#set-of-documents) and 
 </div>
 
 <div class="note wcag2ict">
-The accessibility barrier this SC addresses for websites is extremely unlikely in the context of non-web documents and non-web software.</div>
+The accessibility barrier this success criterion addresses for websites is extremely unlikely in the context of non-web documents and non-web software.</div>
 
 <div class="note wcag2ict software">
 Sets of software that meet this definition appear to be extremely rare.</div>
