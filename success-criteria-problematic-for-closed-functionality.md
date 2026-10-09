@@ -446,7 +446,7 @@ Criterion
 
 This success criterion is problematic to apply to ICT with closed
 functionality as they may not support the provision of context-sensitive
-help. However, as noted in \[glossary item context-sensitive help\],
+help. However, as noted in [context-sensitive help](https://www.w3.org/TR/WCAG22/#dfn-context-sensitive-help),
 clear labels or other information provided by the system can act as
 context-sensitive help.
 
