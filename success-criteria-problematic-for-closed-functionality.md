@@ -453,8 +453,8 @@ context-sensitive help.
 ### [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced) {#problematic-for-closed-accessible-authentication-enhanced}
 
 There are situations where satisfying this success criterion is problematic
-for ICT with closed functionality. ICT that are designed for shared
-use (such as in a public library) or have closed functionality might
+for ICT with closed functionality. ICT that is designed for shared
+use (such as in a public library) or has closed functionality might
 block mechanisms typically used to assist the user, such as copying
 authentication information from a password manager. Instead, an
 alternative authentication method might be needed.
