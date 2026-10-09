@@ -409,9 +409,9 @@ a keyboard.
 
 ### [2.2.5 Re-authenticating (Level AAA)](#re-authenticating) {#problematic-for-closed-re-authentication}
 
-ICT with closed functionality may offer more limitations on how much
+ICT with closed functionality may have more limitations on how much
 data can be kept between sessions. This is particularly true of ICT 
-that are designed to be used in public environments.
+that is designed to be used in public environments.
 
 ### [2.4.8 Location (Level AAA)](#location) {#problematic-for-closed-location}
 
