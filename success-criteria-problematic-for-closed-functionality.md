@@ -360,7 +360,7 @@ Level AAA success criteria should be considered, where possible, for applicable 
 
 ### [1.2.6 Sign Language (Prerecorded) (Level AAA)](#sign-language-prerecorded) {#problematic-for-closed-sign-language-prerecorded}
 
-Live sign language translation may not currently be logistically
+Live sign language interpretation may not currently be logistically
 feasible for ICT with closed functionality.
 
 ### [1.2.8 Media Alternative (Prerecorded) (Level AAA)](#media-alternative-prerecorded) {#problematic-for-closed-media-alternative-prerecorded}
