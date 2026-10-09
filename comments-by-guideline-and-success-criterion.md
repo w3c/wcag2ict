@@ -1141,7 +1141,7 @@ With this substitution, it would read:
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
 <dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>[a
-<strong><a href="#document">non-web document</a></strong>, or <strong><a href="#software">non-web software</a></strong>]</INS>.</dd>
+<strong><a href="#document">non-web document</a> or <a href="#software">non-web software</a></strong>]</INS>.</dd>
 </dl>
 <div class="note">
 
