@@ -358,7 +358,7 @@ For general guidance, see also the [comments on closed functionality](#comments-
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.12](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html#intent).
 
 <div class="note wcag2ict software">
-This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
+This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore this success criterion would be satisfied.</div>
 
 <div class="note wcag2ict software">
 
