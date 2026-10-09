@@ -237,18 +237,6 @@ form intended to drive correct pronunciation. Where another mechanism
 achieves correct pronunciation for ICT with closed functionality, such
 as self-voicing, the intent of this success criterion would be met.
 
-### [3.1.3 Unusual Words](#unusual-words) {#problematic-for-closed-unusual-words}
-
-This success criterion is problematic to apply to ICT with closed
-functionality as support may not be available for a
-[mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide
-definitions of words or phrases. However, if the ICT with closed
-functionality has a help function, this can be used as a mechanism for
-software that can provide definitions of words or phrases. This would
-address the user needs identified in [Intent from Understanding Success
-Criterion
-3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
-
 ### [3.2.3 Consistent Navigation](#consistent-navigation) {#problematic-for-closed-consistent-navigation}
 
 This success criterion is interpreted to only apply to "sets of software
@@ -441,6 +429,18 @@ physical size standard would be more straightforward to apply, as
 calculations for a CSS pixel are dependent on the viewing distance or
 pixel density of the display.
 </div>
+
+### [3.1.3 Unusual Words](#unusual-words) {#problematic-for-closed-unusual-words}
+
+This success criterion is problematic to apply to ICT with closed
+functionality as support may not be available for a
+[mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide
+definitions of words or phrases. However, if the ICT with closed
+functionality has a help function, this can be used as a mechanism for
+software that can provide definitions of words or phrases. This would
+address the user needs identified in [Intent from Understanding Success
+Criterion
+3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
 
 ### [3.3.5 Help](#help) {#problematic-for-closed-help}
 
