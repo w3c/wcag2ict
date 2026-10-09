@@ -472,11 +472,11 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying SC 2.1.2 No Keyboard Trap to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document" or "non-web software” and “on the web page” with "in the non-web document" or "in the non-web software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent), replacing “page” with “non-web document or non-web software” and “on the web page” with "in the non-web document" or "in the non-web software"; removing “See Conformance Requirement 5: Non-Interference”; and adjusting Note 1 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
-**2.1.2 No Keyboard Trap:** If keyboard focus can be moved to a component of the <INS>[**[non-web document](#document)** or **[non-web software](#software)**]</INS> using a [keyboard interface](#dfn-keyboard-interface), then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
+**2.1.2 No Keyboard Trap:** If keyboard focus can be moved to a component of the <INS>[**[non-web document](#document) or [non-web software](#software)**]</INS> using a [keyboard interface](#dfn-keyboard-interface), then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
 
 <div class="note">
     
@@ -518,11 +518,11 @@ In WCAG 2, the guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.2.1 Timing Adjustable to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.1](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent), replacing “ content” with “non-web document" or "non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.1](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent), replacing “content” with “non-web document or non-web software”.
 
 With this substitution, it would read:
 
-**2.2.1 Timing Adjustable:** For each time limit that is set by the <INS>[**[non-web document](#document)** or **[non-web software](#software)**]</INS>, at least one of the following is true:
+**2.2.1 Timing Adjustable:** For each time limit that is set by the <INS>[**[non-web document](#document) or [non-web software](#software)**]</INS>, at least one of the following is true:
 
 <dl><dt>Turn off</dt>
 <dd>The user is allowed to turn off the time limit before encountering it; or</dd>
@@ -551,7 +551,7 @@ This success criterion helps ensure that users can complete tasks without unexpe
 
 ###### Applying SC 2.2.2 Pause, Stop, Hide to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” with “non-web document" or "non-web software” and “on the web page” with “in the non-web document" or "in the non-web software”; removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion; and adjusting Note 2 to avoid the use of the normative term "must".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.2](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide#intent), replacing “page” with “non-web document or non-web software” and “on the web page” with “in the non-web document or in the non-web software”; removing “See Conformance Requirement 5: Non-Interference” in Note 2 of the success criterion; and adjusting Note 2 to avoid the use of the normative term "must".
 
 With these substitutions, it would read:
 
@@ -570,7 +570,7 @@ With these substitutions, it would read:
 For requirements related to flickering or flashing content, refer to [Guideline 2.3](https://www.w3.org/TR/WCAG22/#seizures-and-physical-reactions).</div>
 <div class="note">
     
-Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[**[non-web document](#document)** or **[non-web software](#software)**]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document]</INS> or <INS>[in the non-web software]</INS> (whether it is used to meet other success criteria or not) <INS>[to]</INS> meet this success criterion.</div>
+Since any content that does not meet this success criterion can interfere with a user's ability to use the whole <INS>[**[non-web document](#document) or [non-web software](#software)**]</INS>, <INS>[it would be necessary for]</INS> all content <INS>[in the non-web document or in the non-web software]</INS> (whether it is used to meet other success criteria or not) <INS>[to]</INS> meet this success criterion.</div>
 <div class="note">
     
 Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.</div>
@@ -691,11 +691,11 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying SC 2.4.5 Multiple Ways to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents", or "a set of non-web software programs within a set of non-web software programs” and "the web page" with "the non-web document" or "the non-web software program".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.5](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways#intent), replacing “web page within a set of web pages” with “non-web document within a set of non-web documents or a set of non-web software programs within a set of non-web software programs” and "the web page" with "the non-web document" or "the non-web software program".
 
 With these substitutions, this success criterion would read:
 
-**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>[**[non-web document](#document)** within a **[set of non-web documents](#set-of-documents)**]</INS>, or a <INS>[**[non-web software program](#software)** within a **[set of non-web software programs](#set-of-software-programs)**]</INS> except where <INS>[the non-web document]</INS> or <INS>[the non-web software program]</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
+**2.4.5 Multiple Ways:** More than one way is available to locate a <INS>[**[non-web document](#document) within a [set of non-web documents](#set-of-documents)], or a [non-web software program](#software) within a [set of non-web software programs](#set-of-software-programs)**]</INS> except where <INS>[the non-web document]</INS> or <INS>[the non-web software program]</INS> is the result of, or a step in, a [process](https://www.w3.org/TR/WCAG22/#dfn-processes).
 
 <div class="note wcag2ict">
     
@@ -918,11 +918,11 @@ In WCAG 2, the guidelines are provided for framing and understanding the success
 
 ###### Applying SC 3.1.1 Language of Page to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent) replacing “each web page” with “non-web documents" or "non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.1](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page#intent) replacing “each web page” with “non-web documents or non-web software”.
 
 With this substitution, it would read:
 
-**3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>[**[non-web documents](#document)**]</INS> or <INS>[**[non-web software](#software)**]</INS> can be [programmatically determined](#dfn-programmatically-determinable).
+**3.1.1 Language of Page:** The default [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of <INS>[**[non-web documents](#document) or [non-web software](#software)**]</INS> can be [programmatically determined](#dfn-programmatically-determinable).
 
 <div class="note wcag2ict software">
     
@@ -935,11 +935,11 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying SC 3.1.2 Language of Parts to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.2](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts#intent) replacing “content” with “non-web document" or "non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.1.2](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts#intent) replacing “content” with “non-web document or non-web software”.
 
 With this substitution, it would read:
 
-**3.1.2 Language of Parts:** The [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of each passage or phrase in the <INS>[**[non-web document](#document)**]</INS> or <INS>[**[non-web software](#software)**]</INS> can be [programmatically determined](#dfn-programmatically-determinable) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding [text](https://www.w3.org/TR/WCAG22/#dfn-text).
+**3.1.2 Language of Parts:** The [human language](https://www.w3.org/TR/WCAG22/#dfn-human-language-s) of each passage or phrase in the <INS>[**[non-web document](#document) or [non-web software](#software)**]</INS> can be [programmatically determined](#dfn-programmatically-determinable) except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding [text](https://www.w3.org/TR/WCAG22/#dfn-text).
 
 <div class="note wcag2ict">
 
@@ -956,11 +956,11 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ##### Applying Guideline 3.2 Predictable to non-web documents and non-web software
 
-In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents" or "non-web software”.
+In WCAG 2, the guidelines are provided for framing and understanding the success criteria under them but are not used for conformance to WCAG. Guideline 3.2 applies directly as written, replacing “web pages” with “non-web documents or non-web software”.
 
 With this substitution, it would read:
 
-**Guideline 3.2 Predictable:** Make <INS>[**[non-web documents](#document)**]</INS> or <INS>[**[non-web software](#software)**]</INS> appear and operate in predictable ways.
+**Guideline 3.2 Predictable:** Make <INS>[**[non-web documents](#document) or [non-web software](#software)**]</INS> appear and operate in predictable ways.
 
 ##### on-focus
 
@@ -1020,11 +1020,11 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying SC 3.2.4 Consistent Identification to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents" or "set of non-web software programs”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.2.4](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification#intent), replacing “set of web pages” with “set of non-web documents or set of non-web software programs”.
 
 With these substitutions, it would read:
 
-**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>[**[set of non-web documents](#set-of-documents)**]</INS> or a <INS>[**[set of non-web software programs](#set-of-software-programs)**]</INS> are identified consistently.
+**3.2.4 Consistent Identification:** Components that have the [same functionality](#dfn-same-functionality) within a <INS>[**[set of non-web documents](#set-of-documents) or a [set of non-web software programs](#set-of-software-programs)**]</INS> are identified consistently.
 
 <div class="note wcag2ict">
     
@@ -1099,11 +1099,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 3.3.4 Error Prevention (Legal, Financial, Data) to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.4](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data#intent) replacing “web pages” with “non-web documents" or "non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.4](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data#intent) replacing “web pages” with “non-web documents or non-web software”.
 
 With this substitution, it would read:
 
-**3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>[**[non-web documents](#document)** or **[non-web software](#software)**]</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true:
+**3.3.4 Error Prevention (Legal, Financial, Data):** For <INS>[**[non-web documents](#document) or [non-web software](#software)**]</INS> that cause [legal commitments](https://www.w3.org/TR/WCAG22/#dfn-legal-commitments) or financial transactions for the user to occur, that modify or delete [user-controllable](https://www.w3.org/TR/WCAG22/#dfn-user-controllable) data in data storage systems, or that submit user test responses, at least one of the following is true:
 
 <dl>
 <dt>Reversible</dt>
@@ -1141,7 +1141,7 @@ With this substitution, it would read:
 <dd>The cognitive function test is to recognize objects.</dd>
 <dt>Personal Content</dt>
 <dd>The cognitive function test is to identify <a href="https://www.w3.org/TR/WCAG22/#dfn-non-text-content">non-text content</a> the user provided to <INS>[a
-<strong><a href="#document">non-web document</a></strong>, or <strong><a href="#software">non-web software</a></strong>]</INS>.</dd>
+<strong><a href="#document">non-web document</a> or <a href="#software">non-web software</a></strong>]</INS>.</dd>
 </dl>
 <div class="note">
 

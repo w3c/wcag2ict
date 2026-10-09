@@ -61,7 +61,7 @@ From the <a href=https://www.w3.org/TR/WCAG22/#cc1 target="_blank">Conformance l
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.6](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded#intent).
 
 <div class="note wcag2ict">
-To date, requiring all media content to satisfy this success criterion is infeasible, as there are not enough human sign language interpreters available to handle a fraction of the volume of video content being produced. As compared to captioning and audio description, sign language interpretation is a very specialized skill. Emerging technologies may, in the future, allow translation from text or speech to sign language directly. At that time, those who need sign language could use such an automated translation tool in the same way people who are blind use a screen reader. This would give people who need to have audio content presented in sign language the same ability to access this content that people who are blind have access to by using their screen readers.
+To date, requiring all media content to satisfy this success criterion is infeasible, as there are not enough human sign language interpreters available to handle a fraction of the volume of video content being produced. As compared to captioning and audio description, sign language interpretation is a very specialized skill. Emerging technologies may, in the future, allow interpretation from text or speech to sign language directly. At that time, those who need sign language could use such an automated interpretation tool in the same way people who are blind use a screen reader. This would give people who need to have audio content presented in sign language the same ability to access this content that people who are blind have access to by using their screen readers.
 
 As always, authors should not rely on such solutions until they are commonly available at a quality accepted by the signing community. In the meantime, providing sign language interpretation continues to be a need for native sign language users, especially in the context of any public service content.</div>
 
@@ -183,15 +183,15 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 1.4.8 Visual Presentation to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.8](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation#intent), replacing “browser or other user agent” with “user agent, platform software, or other non-web software” in Note 1.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.8](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation#intent), replacing “browser or other user agent” with “user agent or other platform software, or by other non-web software” in Note 1.
 
 With these substitutions, the notes would read:
 
-<div class="note wcag2ict">
+<div class="note">
 
-Content is not required to use these values. The requirement is that a mechanism is available for users to change these presentation aspects. The mechanism can be provided by the <INS>[**[user agent](#user-agent), [platform software](#platform-software), or other [non-web software](#software)**]</INS>. Content is not required to provide the mechanism.</div>
+Content is not required to use these values. The requirement is that a mechanism is available for users to change these presentation aspects. The mechanism can be provided by the <INS>[**[user agent](#user-agent), or other  [platform software](#platform-software), or by other [non-web software](#software)**]</INS>. Content is not required to provide the mechanism.</div>
 
-<div class="note wcag2ict">Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and can conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.</div>
+<div class="note">Writing systems for some languages use different presentation aspects to improve readability and legibility. If a presentation aspect in this success criterion is not used in a writing system, content in that writing system does not need to use that presentation setting and may  conform without it. Authors are encouraged to follow guidance for improving readability and legibility of text in their writing system.</div>
 
 <div class="note wcag2ict">
 
@@ -303,11 +303,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 ###### Applying SC 2.4.8 Location to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.8](https://www.w3.org/WAI/WCAG22/Understanding/location.html#intent), replacing “set of Web pages” with “set of non-web documents or set of non-web software programs".
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.8](https://www.w3.org/WAI/WCAG22/Understanding/location.html#intent), replacing “set of Web pages” with “set of non-web documents or a set of non-web software programs".
 
 With these substitutions, it would read:
 
-**2.4.8 Location:** Information about the user's location within a <INS>[**[set of non-web documents](#set-of-documents)** or a **[set of non-web software programs](#set-of-software-programs)**]</INS> is available.
+**2.4.8 Location:** Information about the user's location within a <INS>[**[set of non-web documents](#set-of-documents) or a [set of non-web software programs](#set-of-software-programs)**]</INS> is available.
 
 <div class="note wcag2ict">
 
@@ -315,7 +315,7 @@ See [set of documents](https://www.w3.org/TR/wcag2ict-22/#set-of-documents) and 
 </div>
 
 <div class="note wcag2ict">
-The accessibility barrier this SC addresses for websites is extremely unlikely in the context of non-web documents and non-web software.</div>
+The accessibility barrier this success criterion addresses for websites is extremely unlikely in the context of non-web documents and non-web software.</div>
 
 <div class="note wcag2ict software">
 Sets of software that meet this definition appear to be extremely rare.</div>
@@ -358,7 +358,7 @@ For general guidance, see also the [comments on closed functionality](#comments-
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.12](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html#intent).
 
 <div class="note wcag2ict software">
-This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
+This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus handling or management; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore this success criterion would be satisfied.</div>
 
 <div class="note wcag2ict software">
 
@@ -408,7 +408,7 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying 2.5.5 Target Size (Enhanced) to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.5](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html#intent), replacing “user agent” with “user agent or platform software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.5.5](https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html#intent), replacing “user agent” with “user agent or other platform software”.
 
 With these substitutions, it would read:
 
@@ -420,7 +420,9 @@ With these substitutions, it would read:
   <dt>Inline</dt>
     <dd>The target is in a sentence or block of text;</dd>
   <dt>User Agent Control</dt>
-    <dd>The size of the target is determined by the <INS>**[user agent or platform software]**</INS> and is not modified by the author;</dd>
+    <dd>The size of the target is determined by the 
+    <INS><b>[user agent or other platform software]</b></INS>
+     and is not modified by the author;</dd>
   <dt>Essential</dt>
     <dd>
     A particular presentation of the target is <a href="https://www.w3.org/TR/WCAG22/#dfn-essential">essential</a> to the information being conveyed.
@@ -506,7 +508,7 @@ This success criterion applies as written, as described in [Intent from Understa
 
 <div class="note wcag2ict software">
 
-Help is a mechanism for software that can provide definitions of words or phrases. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
+A help mechanism may provide pronunciation of words or phrases. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
 </div>
 
 #### 3.2 Predictable
@@ -541,7 +543,7 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages that require” with “**Non-web documents and non-web software that require**”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages” with “**Non-web documents and non-web software**”.
 
 With these substitutions, it would read:
 

@@ -78,7 +78,7 @@ functionality.
 
 Non-web software on ICT with closed functionality may offer more limited
 text rendering support than the support found in user agents for the
-web. As a result, meeting Success Criterion 1.4.4 in a closed
+web. As a result, satisfying success criterion 1.4.4 in a closed
 environment may place a much heavier burden on the content author.
 
 ### [1.4.5 Images of Text](#images-of-text) {#problematic-for-closed-images-of-text}
@@ -121,12 +121,9 @@ software](#applying-sc-1-4-12-text-spacing-to-non-web-documents-and-non-web-soft
 This is based on the assumption that assistive technologies have access
 to the keyboard interface and can thus provide alternate ways for
 keyboard input alongside any other mechanism (internal or external)
-provided for keyboard input. In products that do not accept input from a
-keyboard interface and are therefore closed to assistive technologies
-that involve alternate keyboard input methods, some requirements beyond
-WCAG\'s would be needed to ensure that content is operable by people
-with disabilities for whom it is necessary to use alternate keyboard
-input methods.
+provided for keyboard input. When ICT does not accept input from a
+keyboard interface, it is effectively closed to assistive technologies
+that provide alternate keyboard input methods. This means that additional requirements would be needed, beyond WCAG success criteria, to ensure that content is operable by people with disabilities who need to use alternate keyboard input methods.
 
 <div class="note">
 A keypad that provides full access to functionality might be considered
@@ -148,7 +145,7 @@ satisfied.
 
 ICT with closed functionality might lack a mechanism for keyboard
 shortcuts because their mode of operation revolves around a single key
-performing a single function. For such systems, this success criterion
+performing a single function. For such ICT, this success criterion
 is satisfied.
 
 ### [2.4.1 Bypass Blocks](#bypass-blocks) {#problematic-for-closed-bypass-blocks}
@@ -187,18 +184,6 @@ move an onscreen focus element between multiple options. In this case,
 there is no concept of focus, thus there is no need for a visible
 indicator and this success criterion would be satisfied.
 
-### [2.4.13 Focus Appearance](#focus-appearance) {#problematic-for-closed-focus-appearance}
-
-Presumes that there is a mode of operation where focus can be moved and
-controlled by keyboard. Some ICT with closed functionality may offer
-tactilely discernible input such as a numeric keypad or other functional
-groups of keys, but do not offer any mechanism for conveying focus
-because the user interface is designed not to need that. For example,
-the keys are used to select options from a spoken menu rather than to
-move an onscreen focus element between multiple options. In this case,
-there is no concept of focus, thus there is no need for a visible
-indicator and this success criterion would be satisfied.
-
 ### [2.5.2 Pointer Cancellation](#pointer-cancellation) {#problematic-for-closed-pointer-cancellation}
 
 As noted in the section [Applying SC 2.5.2 Pointer Cancellation to
@@ -213,29 +198,6 @@ sleep, power saver mode, and low power state).
 Requires information in a programmatically determinable form;
 specifically, the programmatic name contains the text of the visual
 label.
-
-### [2.5.5 Target Size (Enhanced)](#target-size-enhanced) {#problematic-for-closed-target-size-enhanced}
-
-This success criterion uses CSS pixels for defining the target size. ICT
-with closed functionality may not use CSS pixels as a standard
-measurement, but the definition of 'CSS pixel' still applies as
-described in [Applying "CSS pixel" to non-web documents and non-web
-software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
-If the system supports a density-independent pixel measurement, it
-should be used in place of CSS pixels.
-
-<div class="note">
-If the viewing distance and pixel density of the system are unknown,
-approximating the reference pixel as described in Applying "CSS pixel"
-to non-web documents and non-web software is not possible.
-</div>
-
-<div class="note">
-For non-web software designed to run on specific known hardware, a
-physical size standard would be more straightforward to apply, as
-calculations for a CSS pixel are dependent on the viewing distance or
-pixel density of the display.
-</div>
 
 ### [2.5.8 Target Size (Minimum)](#target-size-minimum) {#problematic-for-closed-target-size-minimum}
 
@@ -275,18 +237,6 @@ form intended to drive correct pronunciation. Where another mechanism
 achieves correct pronunciation for ICT with closed functionality, such
 as self-voicing, the intent of this success criterion would be met.
 
-### [3.1.3 Unusual Words](#unusual-words) {#problematic-for-closed-unusual-words}
-
-This success criterion is problematic to apply to ICT with closed
-functionality as support may not be available for a
-[mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide
-definitions of words or phrases. However, if the ICT with closed
-functionality has a help function, this can be used as a mechanism for
-software that can provide definitions of words or phrases. This would
-address the user needs identified in [Intent from Understanding Success
-Criterion
-3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
-
 ### [3.2.3 Consistent Navigation](#consistent-navigation) {#problematic-for-closed-consistent-navigation}
 
 This success criterion is interpreted to only apply to "sets of software
@@ -317,10 +267,10 @@ definition of text is that it be \"programmatically determinable\".
 
 ### [3.3.8 Accessible Authentication (Minimum)](#accessible-authentication-minimum) {#problematic-for-closed-accessible-authentication-minimum}
 
-There are situations where meeting this success criterion is problematic
+There are situations where satisfying this success criterion is problematic
 for ICT with closed functionality:
 
-- Systems that are designed for shared use (such as in a public library)
+- ICT that are designed for shared use (such as in a public library)
   or have closed functionality might block mechanisms typically used to
   assist the user, such as copying authentication information from a
   password manager. Instead, an alternative authentication method might
@@ -360,7 +310,7 @@ Level AAA success criteria should be considered, where possible, for applicable 
 
 ### [1.2.6 Sign Language (Prerecorded) (Level AAA)](#sign-language-prerecorded) {#problematic-for-closed-sign-language-prerecorded}
 
-Live sign language translation may not currently be logistically
+Live sign language interpretation may not currently be logistically
 feasible for ICT with closed functionality.
 
 ### [1.2.8 Media Alternative (Prerecorded) (Level AAA)](#media-alternative-prerecorded) {#problematic-for-closed-media-alternative-prerecorded}
@@ -379,13 +329,13 @@ different modalities.
 
 ### [1.4.8 Visual Presentation (Level AAA)](#visual-presentation) {#problematic-for-closed-visual-presentation}
 
-In non-web software on ICT with closed functionality the ability for
+In non-web software on ICT with closed functionality, the ability for
 users to modify presentation aspects of text is rarely supported and
 there may not be the capability to use platform services to make text
 size/spacing adjustments. Therefore, some other requirements beyond
 WCAG's would be needed for ICT with closed functionality to ensure that
-content is readable by persons with low vision. As a result, meeting
-Success Criterion 1.4.8 in a closed environment may place a much heavier
+content is readable by persons with low vision. As a result, satisfying 
+success criterion 1.4.8 in a closed environment may place a much heavier
 burden on the content author.
 
 ### [1.4.9 Images of Text (No Exception) (Level AAA)](#images-of-text-no-exception) {#problematic-for-closed-images-of-text-no-exception}
@@ -412,9 +362,9 @@ a keyboard.
 
 ### [2.2.5 Re-authenticating (Level AAA)](#re-authenticating) {#problematic-for-closed-re-authentication}
 
-ICT with closed functionality may offer more limitations on how much
-data can be kept between sessions. This is particularly true of systems
-that are designed to be used in public environments.
+ICT with closed functionality may have more limitations on how much
+data can be kept between sessions. This is particularly true of ICT 
+that is designed to be used in public environments.
 
 ### [2.4.8 Location (Level AAA)](#location) {#problematic-for-closed-location}
 
@@ -445,19 +395,66 @@ move an onscreen focus element between multiple options. In this case,
 there is no concept of focus, thus there is no need for a visible
 indicator and this success criterion would be satisfied.
 
+### [2.4.13 Focus Appearance](#focus-appearance) {#problematic-for-closed-focus-appearance}
+
+Presumes that there is a mode of operation where focus can be moved and
+controlled by keyboard. Some ICT with closed functionality may offer
+tactilely discernible input such as a numeric keypad or other functional
+groups of keys, but do not offer any mechanism for conveying focus
+because the user interface is designed not to need that. For example,
+the keys are used to select options from a spoken menu rather than to
+move an onscreen focus element between multiple options. In this case,
+there is no concept of focus, thus there is no need for a visible
+indicator and this success criterion would be satisfied.
+
+### [2.5.5 Target Size (Enhanced)](#target-size-enhanced) {#problematic-for-closed-target-size-enhanced}
+
+This success criterion uses CSS pixels for defining the target size. ICT
+with closed functionality may not use CSS pixels as a standard
+measurement, but the definition of 'CSS pixel' still applies as
+described in [Applying "CSS pixel" to non-web documents and non-web
+software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
+If the system supports a density-independent pixel measurement, it
+should be used in place of CSS pixels.
+
+<div class="note">
+If the viewing distance and pixel density of the system are unknown,
+approximating the reference pixel as described in Applying "CSS pixel"
+to non-web documents and non-web software is not possible.
+</div>
+
+<div class="note">
+For non-web software designed to run on specific known hardware, a
+physical size standard would be more straightforward to apply, as
+calculations for a CSS pixel are dependent on the viewing distance or
+pixel density of the display.
+</div>
+
+### [3.1.3 Unusual Words](#unusual-words) {#problematic-for-closed-unusual-words}
+
+This success criterion is problematic to apply to ICT with closed
+functionality as support may not be available for a
+[mechanism](https://www.w3.org/TR/WCAG22/#dfn-mechanism) to provide
+definitions of words or phrases. However, if the ICT with closed
+functionality has a help function, this can be used as a mechanism for
+software that can provide definitions of words or phrases. This would
+address the user needs identified in [Intent from Understanding Success
+Criterion
+3.1.3](https://www.w3.org/WAI/WCAG22/Understanding/unusual-words.html#intent).
+
 ### [3.3.5 Help](#help) {#problematic-for-closed-help}
 
 This success criterion is problematic to apply to ICT with closed
 functionality as they may not support the provision of context-sensitive
-help. However, as noted in \[glossary item context-sensitive help\],
+help. However, as noted in [context-sensitive help](https://www.w3.org/TR/WCAG22/#dfn-context-sensitive-help),
 clear labels or other information provided by the system can act as
 context-sensitive help.
 
 ### [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced) {#problematic-for-closed-accessible-authentication-enhanced}
 
-There are situations where meeting this success criterion is problematic
-for ICT with closed functionality. Systems that are designed for shared
-use (such as in a public library) or have closed functionality might
+There are situations where satisfying this success criterion is problematic
+for ICT with closed functionality. ICT that is designed for shared
+use (such as in a public library) or has closed functionality might
 block mechanisms typically used to assist the user, such as copying
 authentication information from a password manager. Instead, an
 alternative authentication method might be needed.

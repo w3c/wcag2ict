@@ -89,47 +89,47 @@ The term **non-web document**, as used in WCAG2ICT, has the meaning below:
 a non-web document that is not a web page, not embedded in web pages nor used in the rendering or functioning of the page. 
 </DD></DL>
 
-<div class="note wcag2ict">
+<div class="note">
 
 All uses of the word "document" by itself within WCAG2ICT mean non-web document.
 </div>
 
-<div class="note wcag2ict">
+<div class="note">
 
-Non-web documents are any electronic informational document or media that is not viewed through a web browser and not considered software itself (i.e. does not have code in it that runs without a player/viewer). Email, email attachments (that are not viewed through a web browser), videos, spreadsheets, txt files, etc. are all examples of non-web documents. Data files that are never meant to be viewed by humans, directly or through a special reader or player, are not considered non-web documents.
+A non-web document is any electronic informational document or media file that is not viewed through a web browser and not considered software itself (i.e. does not have code in it that runs without a player/viewer). Email, email attachments (that are not viewed through a web browser), videos, spreadsheets, txt files, etc. are all examples of non-web documents. Data files that are never meant to be viewed by humans, directly or through a special reader or player, are not considered non-web documents.
 </div>
 
-<div class="note wcag2ict">
+<div class="note">
 
 A document always depends upon a user agent to present its content to the user.
 </div>
 
-<div class="note wcag2ict">
+<div class="note">
 
 For clarity, if a document that is viewable on the web is downloaded from the web and distributed off the web, it becomes a non-web document. 
 </div>
 
-<div class="note wcag2ict">
+<div class="note">
 
 Letters, spreadsheets, emails, books, pictures, presentations, and movies are examples of non-web documents.
 </div>
 
-<div class="note wcag2ict">
+<div class="note">
 
 Software configuration and storage files such as databases and virus definitions, as well as computer instruction files such as source code, batch/script files, and firmware, are examples of files that function as part of software and thus are not examples of documents. If and where software retrieves “information and sensory experience to be communicated to the user” from such files, it is just another part of the content that occurs in software and is covered by WCAG2ICT like any other parts of the software. Where such files contain one or more embedded documents, the embedded documents remain documents under this definition.
 </div>
 
-<div class="note wcag2ict">
+<div class="note">
 
 A collection of files zipped together into an archive, stored within a single virtual hard drive file, or stored in a single "encrypted file system" file, do not constitute a single document.
 </div>
 
-<div class="note wcag2ict">
+<div class="note">
 
 Anything that can present its own content without involving a user agent, such as a self-playing book, is software. It is not a non-web document.
 </div>
 
-<div class="note wcag2ict">
+<div class="note">
 
 A single document may be composed of multiple files such as the video content, closed caption text, etc. This fact is not usually apparent to the end-user consuming the document / content. This is similar to how a single web page can be composed of content from multiple URIs (e.g. the page text, images, the JavaScript, a CSS file etc.).
 </div>
