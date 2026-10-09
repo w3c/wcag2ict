@@ -199,29 +199,6 @@ Requires information in a programmatically determinable form;
 specifically, the programmatic name contains the text of the visual
 label.
 
-### [2.5.5 Target Size (Enhanced)](#target-size-enhanced) {#problematic-for-closed-target-size-enhanced}
-
-This success criterion uses CSS pixels for defining the target size. ICT
-with closed functionality may not use CSS pixels as a standard
-measurement, but the definition of 'CSS pixel' still applies as
-described in [Applying "CSS pixel" to non-web documents and non-web
-software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
-If the system supports a density-independent pixel measurement, it
-should be used in place of CSS pixels.
-
-<div class="note">
-If the viewing distance and pixel density of the system are unknown,
-approximating the reference pixel as described in Applying "CSS pixel"
-to non-web documents and non-web software is not possible.
-</div>
-
-<div class="note">
-For non-web software designed to run on specific known hardware, a
-physical size standard would be more straightforward to apply, as
-calculations for a CSS pixel are dependent on the viewing distance or
-pixel density of the display.
-</div>
-
 ### [2.5.8 Target Size (Minimum)](#target-size-minimum) {#problematic-for-closed-target-size-minimum}
 
 This success criterion uses CSS pixels for defining the target size. ICT
@@ -441,6 +418,29 @@ the keys are used to select options from a spoken menu rather than to
 move an onscreen focus element between multiple options. In this case,
 there is no concept of focus, thus there is no need for a visible
 indicator and this success criterion would be satisfied.
+
+### [2.5.5 Target Size (Enhanced)](#target-size-enhanced) {#problematic-for-closed-target-size-enhanced}
+
+This success criterion uses CSS pixels for defining the target size. ICT
+with closed functionality may not use CSS pixels as a standard
+measurement, but the definition of 'CSS pixel' still applies as
+described in [Applying "CSS pixel" to non-web documents and non-web
+software](#applying-css-pixel-to-non-web-documents-and-non-web-software).
+If the system supports a density-independent pixel measurement, it
+should be used in place of CSS pixels.
+
+<div class="note">
+If the viewing distance and pixel density of the system are unknown,
+approximating the reference pixel as described in Applying "CSS pixel"
+to non-web documents and non-web software is not possible.
+</div>
+
+<div class="note">
+For non-web software designed to run on specific known hardware, a
+physical size standard would be more straightforward to apply, as
+calculations for a CSS pixel are dependent on the viewing distance or
+pixel density of the display.
+</div>
 
 ### [3.3.5 Help](#help) {#problematic-for-closed-help}
 
