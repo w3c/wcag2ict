@@ -184,18 +184,6 @@ move an onscreen focus element between multiple options. In this case,
 there is no concept of focus, thus there is no need for a visible
 indicator and this success criterion would be satisfied.
 
-### [2.4.13 Focus Appearance](#focus-appearance) {#problematic-for-closed-focus-appearance}
-
-Presumes that there is a mode of operation where focus can be moved and
-controlled by keyboard. Some ICT with closed functionality may offer
-tactilely discernible input such as a numeric keypad or other functional
-groups of keys, but do not offer any mechanism for conveying focus
-because the user interface is designed not to need that. For example,
-the keys are used to select options from a spoken menu rather than to
-move an onscreen focus element between multiple options. In this case,
-there is no concept of focus, thus there is no need for a visible
-indicator and this success criterion would be satisfied.
-
 ### [2.5.2 Pointer Cancellation](#pointer-cancellation) {#problematic-for-closed-pointer-cancellation}
 
 As noted in the section [Applying SC 2.5.2 Pointer Cancellation to
@@ -431,6 +419,18 @@ in a programmatically determinable form.
 Requires information in a programmatically determinable form.
 
 ### [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced) {#problematic-for-closed-focus-not-obscured}
+
+Presumes that there is a mode of operation where focus can be moved and
+controlled by keyboard. Some ICT with closed functionality may offer
+tactilely discernible input such as a numeric keypad or other functional
+groups of keys, but do not offer any mechanism for conveying focus
+because the user interface is designed not to need that. For example,
+the keys are used to select options from a spoken menu rather than to
+move an onscreen focus element between multiple options. In this case,
+there is no concept of focus, thus there is no need for a visible
+indicator and this success criterion would be satisfied.
+
+### [2.4.13 Focus Appearance](#focus-appearance) {#problematic-for-closed-focus-appearance}
 
 Presumes that there is a mode of operation where focus can be moved and
 controlled by keyboard. Some ICT with closed functionality may offer
