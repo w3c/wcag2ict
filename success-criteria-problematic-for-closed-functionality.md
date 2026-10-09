@@ -123,7 +123,7 @@ to the keyboard interface and can thus provide alternate ways for
 keyboard input alongside any other mechanism (internal or external)
 provided for keyboard input. When ICT does not accept input from a
 keyboard interface, it is effectively closed to assistive technologies
-that provide alternate keyboard input methods. This means that additional   requirements would be needed, beyond WCAG success criteria, to ensure that content is operable by people with disabilities who need to use alternate keyboard input methods.
+that provide alternate keyboard input methods. This means that additional requirements would be needed, beyond WCAG success criteria, to ensure that content is operable by people with disabilities who need to use alternate keyboard input methods.
 
 <div class="note">
 A keypad that provides full access to functionality might be considered
