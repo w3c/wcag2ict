@@ -508,7 +508,7 @@ This success criterion applies as written, as described in [Intent from Understa
 
 <div class="note wcag2ict software">
 
-Help is a mechanism for software that can provide definitions of words or phrases. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
+A help mechanism may provide pronunciation of words or phrases. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
 </div>
 
 #### 3.2 Predictable
