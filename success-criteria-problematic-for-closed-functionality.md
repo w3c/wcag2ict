@@ -78,7 +78,7 @@ functionality.
 
 Non-web software on ICT with closed functionality may offer more limited
 text rendering support than the support found in user agents for the
-web. As a result, meeting Success Criterion 1.4.4 in a closed
+web. As a result, satisfying success criterion 1.4.4 in a closed
 environment may place a much heavier burden on the content author.
 
 ### [1.4.5 Images of Text](#images-of-text) {#problematic-for-closed-images-of-text}
@@ -314,7 +314,7 @@ definition of text is that it be \"programmatically determinable\".
 
 ### [3.3.8 Accessible Authentication (Minimum)](#accessible-authentication-minimum) {#problematic-for-closed-accessible-authentication-minimum}
 
-There are situations where meeting this success criterion is problematic
+There are situations where satisfying this success criterion is problematic
 for ICT with closed functionality:
 
 - ICT that are designed for shared use (such as in a public library)
@@ -376,13 +376,13 @@ different modalities.
 
 ### [1.4.8 Visual Presentation (Level AAA)](#visual-presentation) {#problematic-for-closed-visual-presentation}
 
-In non-web software on ICT with closed functionality the ability for
+In non-web software on ICT with closed functionality, the ability for
 users to modify presentation aspects of text is rarely supported and
 there may not be the capability to use platform services to make text
 size/spacing adjustments. Therefore, some other requirements beyond
 WCAG's would be needed for ICT with closed functionality to ensure that
-content is readable by persons with low vision. As a result, meeting
-Success Criterion 1.4.8 in a closed environment may place a much heavier
+content is readable by persons with low vision. As a result, satisfying 
+success criterion 1.4.8 in a closed environment may place a much heavier
 burden on the content author.
 
 ### [1.4.9 Images of Text (No Exception) (Level AAA)](#images-of-text-no-exception) {#problematic-for-closed-images-of-text-no-exception}
@@ -452,7 +452,7 @@ context-sensitive help.
 
 ### [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced) {#problematic-for-closed-accessible-authentication-enhanced}
 
-There are situations where meeting this success criterion is problematic
+There are situations where satisfying this success criterion is problematic
 for ICT with closed functionality. ICT that are designed for shared
 use (such as in a public library) or have closed functionality might
 block mechanisms typically used to assist the user, such as copying
