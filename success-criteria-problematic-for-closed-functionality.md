@@ -121,12 +121,9 @@ software](#applying-sc-1-4-12-text-spacing-to-non-web-documents-and-non-web-soft
 This is based on the assumption that assistive technologies have access
 to the keyboard interface and can thus provide alternate ways for
 keyboard input alongside any other mechanism (internal or external)
-provided for keyboard input. In products that do not accept input from a
-keyboard interface and are therefore closed to assistive technologies
-that involve alternate keyboard input methods, some requirements beyond
-WCAG\'s would be needed to ensure that content is operable by people
-with disabilities for whom it is necessary to use alternate keyboard
-input methods.
+provided for keyboard input. When ICT does not accept input from a
+keyboard interface, it is effectively closed to assistive technologies
+that provide alternate keyboard input methods. This means that additional   requirements would be needed, beyond WCAG success criteria, to ensure that content is operable by people with disabilities who need to use alternate keyboard input methods.
 
 <div class="note">
 A keypad that provides full access to functionality might be considered
