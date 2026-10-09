@@ -518,11 +518,11 @@ In WCAG 2, the guidelines are provided for framing and understanding the success
 
 ###### Applying SC 2.2.1 Timing Adjustable to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.1](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent), replacing “ content” with “non-web document" or "non-web software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.1](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable#intent), replacing “content” with “non-web document or non-web software”.
 
 With this substitution, it would read:
 
-**2.2.1 Timing Adjustable:** For each time limit that is set by the <INS>[**[non-web document](#document)** or **[non-web software](#software)**]</INS>, at least one of the following is true:
+**2.2.1 Timing Adjustable:** For each time limit that is set by the <INS>[**[non-web document](#document) or [non-web software](#software)**]</INS>, at least one of the following is true:
 
 <dl><dt>Turn off</dt>
 <dd>The user is allowed to turn off the time limit before encountering it; or</dd>
