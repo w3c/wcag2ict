@@ -145,7 +145,7 @@ satisfied.
 
 ICT with closed functionality might lack a mechanism for keyboard
 shortcuts because their mode of operation revolves around a single key
-performing a single function. For such systems, this success criterion
+performing a single function. For such ICT, this success criterion
 is satisfied.
 
 ### [2.4.1 Bypass Blocks](#bypass-blocks) {#problematic-for-closed-bypass-blocks}
@@ -317,7 +317,7 @@ definition of text is that it be \"programmatically determinable\".
 There are situations where meeting this success criterion is problematic
 for ICT with closed functionality:
 
-- Systems that are designed for shared use (such as in a public library)
+- ICT that are designed for shared use (such as in a public library)
   or have closed functionality might block mechanisms typically used to
   assist the user, such as copying authentication information from a
   password manager. Instead, an alternative authentication method might
@@ -410,7 +410,7 @@ a keyboard.
 ### [2.2.5 Re-authenticating (Level AAA)](#re-authenticating) {#problematic-for-closed-re-authentication}
 
 ICT with closed functionality may offer more limitations on how much
-data can be kept between sessions. This is particularly true of systems
+data can be kept between sessions. This is particularly true of ICT 
 that are designed to be used in public environments.
 
 ### [2.4.8 Location (Level AAA)](#location) {#problematic-for-closed-location}
@@ -453,7 +453,7 @@ context-sensitive help.
 ### [3.3.9 Accessible Authentication (Enhanced)](#accessible-authentication-enhanced) {#problematic-for-closed-accessible-authentication-enhanced}
 
 There are situations where meeting this success criterion is problematic
-for ICT with closed functionality. Systems that are designed for shared
+for ICT with closed functionality. ICT that are designed for shared
 use (such as in a public library) or have closed functionality might
 block mechanisms typically used to assist the user, such as copying
 authentication information from a password manager. Instead, an
