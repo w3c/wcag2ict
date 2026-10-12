@@ -419,8 +419,7 @@ should be used in place of CSS pixels.
 
 <div class="note">
 If the viewing distance and pixel density of the system are unknown,
-approximating the reference pixel as described in Applying "CSS pixel"
-to non-web documents and non-web software is not possible.
+approximating the reference pixel as described in [Applying "CSS pixel" to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software) is not possible.
 </div>
 
 <div class="note">
