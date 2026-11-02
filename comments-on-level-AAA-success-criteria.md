@@ -134,10 +134,11 @@ This applies directly as written, and as described in [Intent from Understanding
 This success criterion only applies to **[non-web documents](#document)** and **[non-web software](#software)** that are implemented using markup languages, and that support programmatically exposing the purpose of user interface components, icons and regions.</div>
 
 <div class="note wcag2ict software">
-"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in Electron applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
+"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in Electron applications, Android or iOS application web views), XAML, XML (e.g., in Android or iOS application layouts), and XUL.</div>
 
 <div class="note wcag2ict software">
-The WCAG2ICT working group also notes that as a Level AAA provision which is essentially a recommendation, this need not be limited to markup languages. If being considered for a requirement then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.</div>
+
+Although non-web software that is not implemented using markup languages is not required to meet this success criterion, applying it to such software would be considered best practice. Ensuring that the purpose of elements within the non-web software application can be programmatically determined directly addresses the user needs identified in [Intent from Understanding Success Criterion 1.3.6](https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html#intent). If it is being applied in such non-web software, then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.</div>
 
 <div class="note wcag2ict software">
 
