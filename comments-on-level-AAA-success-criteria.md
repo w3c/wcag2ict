@@ -153,26 +153,20 @@ For general guidance, see also the [comments on closed functionality](#comments-
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.6](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced#intent). 
 
 <div class="note wcag2ict">
-This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope.
+The content author might not have full control over the contrast of content displayed on certain hardware using some types of displays. For example, content displayed on reflective displays might not provide good contrast, depending on the lighting conditions, and the content author might not have the ability to make sufficient contrast adjustments to support the contrast level required by this success criterion. It is therefore recommended that content contrast be evaluated on emissive displays. Content displayed on reflective displays might not be able to meet the user need.
 </div>
 
 <div class="note wcag2ict">
-It may be more difficult to meet this success criterion when the author of the non-web software or non-web document can only modify the appearance of content within a limited contrast range determined by hardware or platform.
+Contrast requirements for hardware are out of scope for WCAG2ICT (and this success criterion).
 </div>
 
 <div class="note wcag2ict">
-When the contrast of the content is determined by the hardware and not modifiable by the author of the non-web software or non-web document, it may not be possible to meet this success criterion.
+When the contrast ratio cannot be programmatically measured due to system limitations (e.g. no access to source code), precise quantifiable testing of contrast cannot be performed by a third party. In such cases, the author of the non-web software or non-web document would need to confirm that the color combinations used meet the contrast
+requirement.
 </div>
 
 <div class="note wcag2ict">
-Contrast requirements for hardware are out of scope for WCAG2ICT (and this success criterion). </div>
-
-<div class="note wcag2ict">
-When the color contrast ratio cannot be programmatically measured due to system limitations (e.g. lockdown), precise quantifiable testing of color contrast cannot be performed by a third party. In such cases, the author of the non-web software or non-web document would need to confirm that the color combinations used meet the contrast requirement.
-</div>
-
-<div class="note wcag2ict">
-Photographs (e.g., of a hardware display) are not sufficient for testing that content meets this success criterion. This is because the quality of the lighting, camera, and physical aspects of the hardware display can dramatically affect the ability to capture the content for testing purposes.
+Photographs are not appropriate for testing that content meets this success criterion.
 </div>
 
 ##### low-or-no-background-audio
