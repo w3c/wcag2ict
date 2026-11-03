@@ -513,7 +513,7 @@ This success criterion applies as written, as described in [Intent from Understa
 
 <div class="note wcag2ict software">
 
-A help mechanism may provide pronunciation of words or phrases. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
+One way to meet this success criterion would be a help mechanism that provides pronunciation of words or phrases.
 </div>
 
 #### 3.2 Predictable
