@@ -548,11 +548,11 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages” with “**Non-web documents and non-web software**”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages” with “**Non-web documents or non-web software**”.
 
 With these substitutions, it would read:
 
-For <ins>[non-web documents](#document) and [non-web software](#software)</ins> that require the user to submit information, at least one of the following is true:
+For <ins>[non-web documents](#document) or [non-web software](#software)</ins> that require the user to submit information, at least one of the following is true:
 
 <dl>
   <dt>Reversible</dt>
