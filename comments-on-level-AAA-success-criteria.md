@@ -373,7 +373,7 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying 2.4.13 Focus Appearance to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.13](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html#intent), replacing “user agent” with “user agent or platform software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.13](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html#intent), replacing “user agent” with “user agent or other platform software”.
 
 With these substitutions, it would read:
 
@@ -382,17 +382,17 @@ With these substitutions, it would read:
 - has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.
 
 Exceptions:
-- The focus indicator is determined by the **[[user agent](https://www.w3.org/TR/WCAG22/#dfn-user-agents) or platform software]** and cannot be adjusted by the author, or
+- The focus indicator is determined by the **[[user agent](https://www.w3.org/TR/WCAG22/#dfn-user-agents) or other platform software]** and cannot be adjusted by the author, or
 - The focus indicator and the indicator's background color are not modified by the author.
 
-<div class="note wcag2ict">
+<div class="note">
 
 What is perceived as the user interface component or sub-component (to determine enclosure or size) depends on its visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation). The visual presentation includes the component's visible [content](https://www.w3.org/TR/WCAG22/#dfn-content), border, and component-specific background. It does not include shadow and glow effects outside the component's content, background, or border.</div>
 
-<div class="note wcag2ict">
+<div class="note">
 Examples of sub-components that may receive a focus indicator are menu items in an opened drop-down menu, or focusable cells in a grid.</div>
 
-<div class="note wcag2ict">
+<div class="note">
 
 Contrast calculations can be based on colors defined within the [technology](https://www.w3.org/TR/WCAG22/#dfn-technologies) (such as HTML, CSS and SVG). Pixels modified by **[user agent or platform software]** resolution enhancements and anti-aliasing can be ignored.</div>
 
@@ -401,7 +401,7 @@ Contrast calculations can be based on colors defined within the [technology](htt
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
 
 <div class="note wcag2ict software">
-This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
+This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore this success criterion would be satisfied.</div>
 
 <div class="note wcag2ict software">
 
