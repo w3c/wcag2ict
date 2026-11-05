@@ -134,10 +134,11 @@ This applies directly as written, and as described in [Intent from Understanding
 This success criterion only applies to **[non-web documents](#document)** and **[non-web software](#software)** that are implemented using markup languages, and that support programmatically exposing the purpose of user interface components, icons and regions.</div>
 
 <div class="note wcag2ict software">
-"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in Electron applications or iOS application web views), XAML, XML (e.g., in Android application layouts), and XUL.</div>
+"Content implemented using markup languages" includes parts of software that use markup internally to define a user interface. Examples of markup languages that are used internally to define a software user interface include but are not limited to: HTML (e.g., in Electron applications, Android or iOS application web views), XAML, XML (e.g., in Android or iOS application layouts), and XUL.</div>
 
 <div class="note wcag2ict software">
-The WCAG2ICT working group also notes that as a Level AAA provision which is essentially a recommendation, this need not be limited to markup languages. If being considered for a requirement then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.</div>
+
+Although non-web software that is not implemented using markup languages is not required to meet this success criterion, applying it to such software would be considered best practice. Ensuring that the purpose of elements within the non-web software application can be programmatically determined directly addresses the user needs identified in [Intent from Understanding Success Criterion 1.3.6](https://www.w3.org/WAI/WCAG22/Understanding/identify-purpose.html#intent). If it is being applied in such non-web software, then the term "section" (or region if that was considered as a substitute) would need to have an objective definition rather than its current ambiguous definition.</div>
 
 <div class="note wcag2ict software">
 
@@ -152,26 +153,20 @@ For general guidance, see also the [comments on closed functionality](#comments-
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.4.6](https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced#intent). 
 
 <div class="note wcag2ict">
-This success criterion only applies to ICT with emissive displays. Reflective displays are out of scope.
+The content author might not have full control over the contrast of content displayed on certain hardware using some types of displays. For example, content displayed on reflective displays might not provide good contrast, depending on the lighting conditions, and the content author might not have the ability to make sufficient contrast adjustments to support the contrast level required by this success criterion. It is therefore recommended that content contrast be evaluated on emissive displays. Content displayed on reflective displays might not be able to meet the user need.
 </div>
 
 <div class="note wcag2ict">
-It may be more difficult to meet this success criterion when the author of the non-web software or non-web document can only modify the appearance of content within a limited contrast range determined by hardware or platform.
+Contrast requirements for hardware are out of scope for WCAG2ICT (and this success criterion).
 </div>
 
 <div class="note wcag2ict">
-When the contrast of the content is determined by the hardware and not modifiable by the author of the non-web software or non-web document, it may not be possible to meet this success criterion.
+When the contrast ratio cannot be programmatically measured due to system limitations (e.g. no access to source code), precise quantifiable testing of contrast cannot be performed by a third party. In such cases, the author of the non-web software or non-web document would need to confirm that the color combinations used meet the contrast
+requirement.
 </div>
 
 <div class="note wcag2ict">
-Contrast requirements for hardware are out of scope for WCAG2ICT (and this success criterion). </div>
-
-<div class="note wcag2ict">
-When the color contrast ratio cannot be programmatically measured due to system limitations (e.g. lockdown), precise quantifiable testing of color contrast cannot be performed by a third party. In such cases, the author of the non-web software or non-web document would need to confirm that the color combinations used meet the contrast requirement.
-</div>
-
-<div class="note wcag2ict">
-Photographs (e.g., of a hardware display) are not sufficient for testing that content meets this success criterion. This is because the quality of the lighting, camera, and physical aspects of the hardware display can dramatically affect the ability to capture the content for testing purposes.
+Photographs are not appropriate for testing that content meets this success criterion.
 </div>
 
 ##### low-or-no-background-audio
@@ -238,6 +233,14 @@ This success criterion does not imply that non-web software always needs to dire
 
 <div class="note wcag2ict software">
 This success criterion also does not imply that non-web software always needs to provide its own virtual keyboard. But if it does, then the non-web software still needs to support keyboard input from any keyboard interface provided by the platform software.</div>
+
+<div class="note wcag2ict software">
+
+This Keyboard (No Exception) success criterion is level AAA  because there are specific types of applications and use cases where mouse or pointer movement is deeply fundamental and it may therefore not be possible to conform to this success criterion.
+In such cases, the non-web software may require alternate input and control methods to provide an alternate accessible experience and address the user needs identified in the [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent). Examples of such problematic applications include:
+- freehand illustration
+- 3D modelling and sculpting
+- gaming and simulation where pointer speed and directionality directly translates to camera movement.</div>
 
 <div class="note wcag2ict software">
 
@@ -370,7 +373,7 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying 2.4.13 Focus Appearance to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.13](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html#intent), replacing “user agent” with “user agent or platform software”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.13](https://www.w3.org/WAI/WCAG22/Understanding/focus-appearance.html#intent), replacing “user agent” with “user agent or other platform software”.
 
 With these substitutions, it would read:
 
@@ -379,17 +382,17 @@ With these substitutions, it would read:
 - has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.
 
 Exceptions:
-- The focus indicator is determined by the **[[user agent](https://www.w3.org/TR/WCAG22/#dfn-user-agents) or platform software]** and cannot be adjusted by the author, or
+- The focus indicator is determined by the **[[user agent](https://www.w3.org/TR/WCAG22/#dfn-user-agents) or other platform software]** and cannot be adjusted by the author, or
 - The focus indicator and the indicator's background color are not modified by the author.
 
-<div class="note wcag2ict">
+<div class="note">
 
 What is perceived as the user interface component or sub-component (to determine enclosure or size) depends on its visual [presentation](https://www.w3.org/TR/WCAG22/#dfn-presentation). The visual presentation includes the component's visible [content](https://www.w3.org/TR/WCAG22/#dfn-content), border, and component-specific background. It does not include shadow and glow effects outside the component's content, background, or border.</div>
 
-<div class="note wcag2ict">
+<div class="note">
 Examples of sub-components that may receive a focus indicator are menu items in an opened drop-down menu, or focusable cells in a grid.</div>
 
-<div class="note wcag2ict">
+<div class="note">
 
 Contrast calculations can be based on colors defined within the [technology](https://www.w3.org/TR/WCAG22/#dfn-technologies) (such as HTML, CSS and SVG). Pixels modified by **[user agent or platform software]** resolution enhancements and anti-aliasing can be ignored.</div>
 
@@ -398,7 +401,7 @@ Contrast calculations can be based on colors defined within the [technology](htt
 In technologies where CSS is not used, the definition of 'CSS pixel' applies as described in [Applying “CSS pixel” to non-web documents and non-web software](#applying-css-pixel-to-non-web-documents-and-non-web-software).</div>
 
 <div class="note wcag2ict software">
-This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore keyboard traps cannot exist and this success criterion would be satisfied.</div>
+This criterion applies when focus can be moved using a keyboard interface. Some software may accept input from a keyboard, keypad, or controller, yet not offer any mechanism for focus; for example, the keys are mapped directly to functions without moving focus between on-screen controls. In this case, there is no concept of focus, and therefore this success criterion would be satisfied.</div>
 
 <div class="note wcag2ict software">
 
@@ -510,7 +513,7 @@ This success criterion applies as written, as described in [Intent from Understa
 
 <div class="note wcag2ict software">
 
-A help mechanism may provide pronunciation of words or phrases. This would address the user needs identified in [Intent from Understanding Success Criterion 3.1.6](https://www.w3.org/WAI/WCAG22/Understanding/pronunciation.html#intent).
+One way to meet this success criterion would be a help mechanism that provides pronunciation of words or phrases.
 </div>
 
 #### 3.2 Predictable
@@ -545,11 +548,11 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 ###### Applying SC 3.3.6 Error Prevention to non-web documents and non-web software
 
-This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages” with “**Non-web documents and non-web software**”.
+This applies directly as written, and as described in [Intent from Understanding Success Criterion 3.3.6](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-all.html#intent), replacing “Web pages” with “**Non-web documents or non-web software**”.
 
 With these substitutions, it would read:
 
-For <ins>[non-web documents](#document) and [non-web software](#software)</ins> that require the user to submit information, at least one of the following is true:
+For <ins>[non-web documents](#document) or [non-web software](#software)</ins> that require the user to submit information, at least one of the following is true:
 
 <dl>
   <dt>Reversible</dt>
