@@ -1,2 +1,4 @@
 # Local Netlify folder
 .netlify
+# vscode folder
+.vscode
