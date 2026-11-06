@@ -63,9 +63,8 @@ These two notes also apply, as written, to non-web software and non-web document
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 1.2.6](https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded#intent).
 
 <div class="note wcag2ict">
-To date, requiring all media content to satisfy this success criterion is infeasible, as there are not enough human sign language interpreters available to handle a fraction of the volume of video content being produced. As compared to captioning and audio description, sign language interpretation is a very specialized skill. Emerging technologies may, in the future, allow interpretation from text or speech to sign language directly. At that time, those who need sign language could use such an automated interpretation tool in the same way people who are blind use a screen reader. This would give people who need to have audio content presented in sign language the same ability to access this content that people who are blind have access to by using their screen readers.
-
-As always, authors should not rely on such solutions until they are commonly available at a quality accepted by the signing community. In the meantime, providing sign language interpretation continues to be a need for native sign language users, especially in the context of any public service content.</div>
+To date, requiring all media content to satisfy this success criterion is infeasible, as there are not enough human resources. As always, authors should not rely on automated tools until they are commonly available at a quality accepted by the signing community. In the meantime, providing sign language interpretation continues to be a need for native sign language users, especially in the context of any public service content.
+</div>
 
 <div class="note wcag2ict">
 Some pre-programmed interactions (e.g., a game or VR) are considered “synchronized media” because the audio is timed to correspond with specific visual information.</div>
@@ -239,7 +238,7 @@ This success criterion also does not imply that non-web software always needs to
 This Keyboard (No Exception) success criterion is level AAA  because there are specific types of applications and use cases where mouse or pointer movement is deeply fundamental and it may therefore not be possible to conform to this success criterion.
 In such cases, the non-web software may require alternate input and control methods to provide an alternate accessible experience and address the user needs identified in the [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent). Examples of such problematic applications include:
 - freehand illustration
-- 3D modelling and sculpting
+- 3D modeling and sculpting
 - gaming and simulation where pointer speed and directionality directly translates to camera movement.</div>
 
 <div class="note wcag2ict software">
@@ -350,7 +349,8 @@ For general guidance, see also the [comments on closed functionality](#comments-
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.10](https://www.w3.org/WAI/WCAG22/Understanding/section-headings.html).
 
 <div class="note wcag2ict software">
-In non-web software, headings and labels are used to describe sections of content and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
+In non-web software, examples of where headings might be needed are in sections of writing, help, and long responses to AI prompts.
+</div>
 
 <div class="note wcag2ict software">
 
