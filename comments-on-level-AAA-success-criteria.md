@@ -349,7 +349,8 @@ For general guidance, see also the [comments on closed functionality](#comments-
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.4.10](https://www.w3.org/WAI/WCAG22/Understanding/section-headings.html).
 
 <div class="note wcag2ict software">
-In non-web software, headings and labels are used to describe sections of content and controls respectively. In some cases it may be unclear whether a piece of static text is a heading or a label. But whether treated as a label or a heading, the requirement is the same: that if they are present they describe the topic or purpose of the item(s) they are associated with.</div>
+In non-web software, examples of where headings might be needed are in sections of writing, help, and long responses to AI prompts.
+</div>
 
 <div class="note wcag2ict software">
 
