@@ -239,7 +239,7 @@ This success criterion also does not imply that non-web software always needs to
 This Keyboard (No Exception) success criterion is level AAA  because there are specific types of applications and use cases where mouse or pointer movement is deeply fundamental and it may therefore not be possible to conform to this success criterion.
 In such cases, the non-web software may require alternate input and control methods to provide an alternate accessible experience and address the user needs identified in the [Intent from Understanding Success Criterion 2.1.2](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap#intent). Examples of such problematic applications include:
 - freehand illustration
-- 3D modelling and sculpting
+- 3D modeling and sculpting
 - gaming and simulation where pointer speed and directionality directly translates to camera movement.</div>
 
 <div class="note wcag2ict software">
