@@ -276,6 +276,10 @@ For general guidance, see also the [comments on closed functionality](#comments-
 
 This applies directly as written, and as described in [Intent from Understanding Success Criterion 2.2.6](https://www.w3.org/WAI/WCAG22/Understanding/timeouts.html#intent).
 
+<div class="note wcag2ict">
+
+In non-web software, security requirements may affect how user data can be preserved following a period of inactivity. Preserving user data for more than 20 hours does not necessarily require maintaining an active session for that period. Implementations should consider applicable security and privacy requirements when using data preservation as an approach to satisfying this success criterion.</div>
+
 #### 2.3 Seizures and Physical Reactions
 
 ##### three-flashes
