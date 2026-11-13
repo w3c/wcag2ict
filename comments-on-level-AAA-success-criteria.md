@@ -534,11 +534,11 @@ This applies directly as written, and as described in [Intent from Understanding
 
 <div class="note wcag2ict">
 
-As noted in [context-sensitive help](https://www.w3.org/TR/WCAG22/#dfn-context-sensitive-help), clear labels or other information provided by the system can act as context-sensitive help.</div>
+As noted in the WCAG definition of [context-sensitive help](https://www.w3.org/TR/WCAG22/#dfn-context-sensitive-help), clear labels or other information provided in the non-web document or by the non-web software can act as context-sensitive help.</div>
 
 <div class="note wcag2ict documents">
 
-This success criterion readily applies to player/viewer software application. This success criterion is problematic to apply to static non-web documents. It is possible for some non-web file formats to include interactive elements that are specific to the document and independent of the software used. Examples of non-web documents that can directly support context-sensitive help include, but are not limited to, PDF forms, complex spreadsheets, and database source files.</div>
+This success criterion is problematic to apply to static non-web documents. However, some document formats have authoring tools that support adding context-sensitive help to user input elements included in the document. It is possible for some non-web file formats to include interactive elements that are specific to the document and independent of the software used. Examples of non-web documents that can directly support context-sensitive help include, but are not limited to, PDF forms, complex spreadsheets, and database source files.</div>
 
 <div class="note wcag2ict software">
 
