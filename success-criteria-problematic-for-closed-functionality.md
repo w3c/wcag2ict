@@ -379,10 +379,6 @@ document or non-web software is generally considered best practice.
 This success criterion relies upon text and context being made available
 in a programmatically determinable form.
 
-### [2.4.10 Section Headings](#section-headings) {#problematic-for-closed-section-headings}
-
-Requires information in a programmatically determinable form.
-
 ### [2.4.12 Focus Not Obscured (Enhanced)](#focus-not-obscured-enhanced) {#problematic-for-closed-focus-not-obscured}
 
 Presumes that there is a mode of operation where focus can be moved and
