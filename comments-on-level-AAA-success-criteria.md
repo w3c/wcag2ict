@@ -582,4 +582,5 @@ Any passwords used to unlock underlying platform software (running below the non
 There are cases where non-web software has an authentication process and no alternative or assistance mechanism is feasible, for example when entering a password when starting, powering on / turning on an ICT (device or otherwise). In such situations, it may not be possible for the non-web software to satisfy this success criterion. </div>
 
 <div class="note wcag2ict">
+
 For general guidance, see also the [comments on closed functionality](#comments-on-closed-functionality). For commentary on the individual success criterion, see [Success criteria problematic for closed functionality, Accessible Authentication (Enhanced)](#problematic-for-closed-accessible-authentication-enhanced).</div>
